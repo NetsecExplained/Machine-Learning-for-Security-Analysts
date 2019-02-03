@@ -1,0 +1,20 @@
+[ILUG] freeserve in the uk?ok, so if i was in the uk for a wekk, how might i configure my laptop to
+dial in to a freebie isp?  redhat's internet connection wizard actually
+has settings for uk isp's, but freeserve is the only one i recognize
+and it doen't seem to work.
+
+has anyone here done this?
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

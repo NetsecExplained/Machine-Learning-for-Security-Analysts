@@ -1,0 +1,28 @@
+[SAdev] [Bug 1053] IMG tag based ruleshttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1053
+
+
+
+
+
+------- Additional Comments From mgm@starlingtech.com  2002-10-03 21:46 -------
+Looks great! One note: most "image-only" spam actually has some text (a few 
+words at the top, a disclaimer at the end) so keep that in mind. The typical 
+image spam that slips through SA seems to have a bit of text, one huge image, 
+then a bit more.
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

@@ -1,0 +1,27 @@
+Re: Bash script - pass command line arg to embedded sed script with
+ multiple argsFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Apr 16, 2010 at 08:15:38PM -0400, Daniel D Jones wrote:
+>What I'm trying to do is pretty simple.  Getting it to work is turning out=
+ not
+>to be.  What I want to do is call a bash script with a couple of arguments,
+>and, within the script, call sed to use those args to replace two placehol=
+ders
+>in a file:
+>
+>bashscript SUB1 SUB2
+>
+>This line inside bashscript doesn't work:
+>
+>sed -e 's/PLACEHOLDER1/$1/' -e 's/PLACEHOLDER2/$2/' < input > output
+
+If you switch the single quotes to double quotes it will work as you expect=
+=2E =20
+Variables inside of double quotes are expanded.  Single quotes are for lite=
+ral=20
+strings, as you've discovered.
+
+me

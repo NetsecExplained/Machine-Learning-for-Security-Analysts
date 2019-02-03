@@ -1,0 +1,21 @@
+Re: Opportunistic apt sources?On Mon, Apr 19, 2010 at 00:52, Ron Johnson  wrote:
+
+> I'd use symlinks, where sources.list points to either sources.list.home,
+> sources.list.work or sources.list.internet, and a short script to flip
+> between them.
+
+That means I would need to bend the links and run apt-get update every
+time, though. I pondered something like that, but it's hardly
+opportunistic.
+
+
+Thanks for your reply,
+Richard
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/m2n2d460de71004190100y5f22ee34m6b68af2d887e2696@mail.csmining.org
+
+

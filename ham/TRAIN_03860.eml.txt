@@ -1,0 +1,48 @@
+Re: Increasing number of conflictsFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, Apr 20, 2010 at 8:07 PM, John Hasler  wrote:
+
+> B. Alexander wrote:
+> > I've got an issue with a sid box that I have been maintaining for a
+> > while. This is my workstation, and I have noticed a growing number of
+> > broken packages, unmet dependencies and conflicts. I have been using
+> > safe-upgrade for months now, hoping that it would work itself out over
+> > time. However, this hasn't happened.
+>
+> No, of course not.  Sid is constantly undergoing the sort of changes
+> that take place when you upgrade from one release to the next and which
+> full-upgrade is designed to handle (and which safe-upgrade blocks):
+> transitions, removal of obsolete packages, major version changes that
+> require new library versions that may be incompatible with other
+> packages, etc.  Sid is often also in an inconsistent state when, for
+> example, a package is uploaded in advance of its dependencies.  By
+> repeatedly running safe-upgrade you have forced these things to pile
+> up.
+>
+> > So what can I do to fix the problems without losing functionality?
+>
+> "aptitude full-upgrade" and then patiently sort through the resulting
+> mess.  It might be simplest to write down all the proposed removals, let
+> it do its thing, and then install the removed packages.
+>
+
+Yes. I need to block out some time and do just this.
+
+
+>  > No problem. Most of my Debian installs at home run sid, with the rest
+> > running testing...Except my firewall, which runs stable for the first
+> > 6 months or so (until critical packages start getting long in the
+> > tooth), then I upgrade it to testing and run until the next stable
+> > release.
+>
+> I'm having trouble imagining what packages appropriate to a firewall
+> could get long in the tooth.
+>
+
+ssh, ssl, iptables, snort, etc. I don't have an extensively large package
+list on my firewall, especially compared to a workstation, but since it is
+on the sharp end of my network, I try to keep it as up to date as is
+feasable.
+
+--b

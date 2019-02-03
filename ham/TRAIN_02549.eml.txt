@@ -1,0 +1,32 @@
+Re: [SAtalk] German spam corpus / foreign language spam
+On Thursday, August 22, 2002, at 09:36  AM, Justin Mason wrote:
+
+>
+> "Craig R.Hughes" said:
+>
+>> I thought we'd sort of decided that after 2.40 we'd switch the
+>> meaning of the "lang" prefix to actually mean "run these rules
+>> if language matches", where "language" is what TextCat spits out
+>> for a message, as opposed to using the locale which is how
+>> things currently work.
+>
+> ah, right -- I'd forgotten that.  :(
+>
+> doesn't help with the finding-broken-rules QA case though...
+
+It does, if you have a corpus of german spam and nonspam to feed 
+it, and you're not in a de locale.
+
+C
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

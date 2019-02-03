@@ -1,0 +1,80 @@
+Re: Accelerating directory's content's viewing: how, is directory
+ is huge?From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-15
+Content-Transfer-Encoding: quoted-printable
+
+Boyd Stephen Smith Jr. wrote:
+> On Tuesday 18 May 2010 13:16:27 Merciadri Luca wrote:
+>  =20
+>> Hi,
+>>
+>> I have many media files in some specific directory (folder, call it as=
+
+>> you want). Loading the folder takes ~30 sec., even if I am using quite=
+
+>> fast HDDs, etc. They're all on the same partition. I have disabled
+>> previewing, or thumbnails.
+>>
+>> How can I do to make this process faster?
+>>    =20
+>
+> Slow to ls?  reiserfs, xfs, btrfs, or the dir_index option and hash_alg=
+=20
+> extended option of ext3.
+>
+> Is the directory fast to ls, but slow to render in a GUI?  Problem is l=
+ikely=20
+> with the GUI.
+>  =20
+Sorry, it is only slow to GUI (nautilus).
+> How many files?
+~25,000.
+>  It may be better to convert to a "stepped" directory=20
+> structure.
+>
+> E.g.:
+> Instead of:
+> /home/abel
+> /home/alfred
+> /home/ada
+> [...]
+> /home/zelda
+> /home/zola
+> /home/zoolander
+>
+> Use:
+> /home/a/abel
+> /home/a/alfred
+> /home/a/ada
+> [...]
+> /home/z/zelda
+> /home/z/zola
+> /home/z/zoolander
+> Or: (usually only when names are fixed-length)
+> /home/a/bel
+> /home/a/lfred
+> /home/a/da
+> [...]
+> /home/z/elda
+> /home/z/ola
+> /home/z/oolander
+>
+> I'm most familiar with using this for ASCII names, but it can be conver=
+ted to=20
+> work with other names.  Japanese can use stroke count of the first char=
+acter=20
+> instead of first character, for example.
+>  =20
+Yes. Good idea. I am however astonished that nautilus takes ~30 sec. to
+open such a directory.
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

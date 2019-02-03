@@ -1,0 +1,28 @@
+Re: Temporary deconnection from the Internet when too much pages are loadedOn Friday 16 April 2010 16:27:10 Merciadri Luca wrote:
+> Lisi wrote:
+> > On Thursday 15 April 2010 15:18:32 Merciadri Luca wrote:
+> >
+> >
+> > A shot in the dark... - I have a problem of freezing that is reminiscent
+> > of this - how much RAM have you got??
+>
+> 4 gigs. This is apparently not the problem. And you?
+
+512 MB.  And I am pretty sure that it _is_ the problem - shutting things do=
+wn=20
+(particularly Iceweasel tabs) sorts it out.  The motherboard could take mor=
+e=20
+memory and I have an empty slot; but I am not sure that I can justify=20
+spending =C2=A330.00 on more memory for a motherboard that is definitely pa=
+st the=20
+first flush of youth!
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004162355.44257.lisi.reisz@csmining.org
+
+

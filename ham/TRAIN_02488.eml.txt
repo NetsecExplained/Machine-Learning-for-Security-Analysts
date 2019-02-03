@@ -1,0 +1,72 @@
+Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+	misleading?On Fri, May 21, 2010 at 1:44 AM, John Engelhart
+ wrote:
+> On Thu, May 20, 2010 at 3:23 PM, Quincey Morris
+>  wrote:
+>>
+>> On May 20, 2010, at 11:50, Greg Parker wrote:
+>>
+>> > "The Objective-C Programming Language" includes a section that documen=
+ts
+>> > the well-defined nil return types. Other documentation should point ba=
+ck to
+>> > that.
+>>
+>> Interestingly, the section you refer to includes the following statement=
+:
+>>
+>> > "If the method returns any pointer type, any integer scalar of size le=
+ss
+>> > than or equal to sizeof(void*), a float, a double, a long double, or a=
+ long
+>> > long, then a message sent to nil returns 0."
+>>
+>> This makes me wonder what the answer is for an integer scalar of size
+>> *greater* than sizeof(void*) that isn't a long long.
+>
+> 6.3.1.1 Arithmetic operands
+> 1) The rank of long long int shall be greater than the rank of long int,
+> which shall be greater than the rank of int, which shall be greater than =
+the
+> rank of short int, which shall be greater than the rank of signed char.
+> The fact that the documentation explicitly calls out "long long" means th=
+at
+> the statement "any integer scalar of size less than or equal to
+> sizeof(void*)" is redundant because the "long long" type is, by definitio=
+n,
+> the largest of the "standard integer types".
+
+There is no guarantee that (void*) is the same size as *any* of the
+standard integer types.
+
+>
+>>
+>> For example, if the architecture has sizeof(long) > sizeof(void*), the
+>> above definition would rule out long, but rule in long long. Odd.
+>
+> Nope. =C2=A0By definition, long is a subset of long long-
+> 6.2.5 Types
+> 8) For any two integer types with the same signedness and different integ=
+er
+> conversion rank (see 6.3.1.1), the range of values of the type with small=
+er
+> integer conversion rank is a subrange of the values of the other type.
+
+That, in no way, means that (long) cannot be larger than (void*). That
+said, I do believe that the intent is that all of the standard integer
+types can be assumed to be zero when returned from a message sent to
+nil, even if the wording leaves the potential for a gap on unusual
+architectures (such as where long is larger than void*).
+
+
+--=20
+Clark S. Cox III
+clarkcox3@csmining.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

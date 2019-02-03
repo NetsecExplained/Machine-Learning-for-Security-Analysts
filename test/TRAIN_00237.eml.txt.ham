@@ -1,0 +1,24 @@
+[Razor-users] Problem with SDK 2.03?
+I recently brought up a new system - SuSe 7.3 and I am running
+spamassassin and procmail, which work fine.
+
+I tried bringing up razor (2.14) but I am not able to get the SDK to
+install and razor reports missing modules. They appear to be there. I
+followed the installation directions. There appears to be an endless list
+of errors. Any ideas on what to do or where to start?
+
+Doug
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,81 @@
+Re: What to choose for Core i5 64 bits?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 05/12/2010 07:03 PM, Stefan Monnier wrote:
+>> The 64-bit vs 32-bit argument is multi-faceted.  It gets much deeper t=
+han
+>> just addressing more than 3GB of RAM:
+>> * twice the transfer width on the bus
+>=20
+> Nope, no difference on the bus.   Most accesses will be
+> cache-line-sized anyway at that level.
+
+You're kidding, right? You can push twice the data, which means faster
+CPU to memory utilization for CPU intensive applications. Flash anyone?
+
+>> * no memory split issues
+>=20
+> For <=3D3GB systems, that makes no difference.  And as someone running
+> a bigmem kernel on a 4GB system, I can say that even for other systems,=
+
+> it's not necessarily relevant.
+
+It's very relevant. You must not have run into this issue much. 4:4
+kernel splits are the best you can do on a 32-bit system, but it comes
+at a performance cost. Splitting and performance are never an issue on
+64-bit until you've reache 17 EB of RAM.
+
+>> * increased virtual address space
+>=20
+> Right.  Unlikely he'll ever notice it.
+
+Whether he will or won't isn't the issue. I'm not discussing use cases,
+I'm discussing the facts on why 64-bit is superior to 32-bit.
+
+>> * more breathing room for mmap()'d files
+>=20
+> Again, unlikely he'll ever notice it (otherwise he wouldn't have asked)=
+=2E
+
+See above.
+
+>> * deeper nested system calls with increased stability
+>=20
+> I see no evidence of increased stability and have no idea what you want=
+
+> to say with "deeper nested system calls".
+
+I'll give you an example. Use XFS on LVM, and export the mount over NFS.
+The nested system calls in this scenario will cause a kernel oops on any
+4K 32-bit kernel nearly every time (the default for Debian GNU/Linux,
+Fedora, Ubuntu, openSUSE, etc). On a 64-bit kernel, because you have the
+ability to make deeper nested system calls, you have stability in your
+infrastructure. Something that couldn't be achieved with a 32-bit kernel.=
+
+
+>> * certain applications and operations will execute faster
+>=20
+> Yup.  And others will be slower since you'll have to move around more
+> data (up to twice as much if your data is made up mostly of pointers),
+> which means that the apparent cache and RAM size will end up
+> being reduced.
+
+The same would be said for a 32-bit application implemented the same
+way. Poor software development is hardly an argument against choosing a
+CPU architecture.
+
+>> If you have the hardware, you should definitely be running a 64-bit
+>> operating system, even if you don't have 4GB+ of RAM.
+>=20
+> If you have to ask, you probably won't notice any difference
+> either way.
+
+To each their own. I for one want to get my money out of my hardware. If
+you don't want a 64-bit system, then why did you pay for it?
+
+--=20
+=2E O .   O . O   . . O   O . .   . O .
+=2E . O   . O O   O . O   . O O   . . O
+O O O   . O .   . O O   O O .   O O O
+

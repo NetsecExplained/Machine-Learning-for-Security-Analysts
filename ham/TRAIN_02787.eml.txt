@@ -1,0 +1,92 @@
+Re: executable won't executeFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Fri, May 14, 2010 at 06:06, Kent West  wrote:
+
+> I'm trying to start a daemon for Maple v 14, but when I try to run it,
+> the system complains that the file doesn't exist. What's up?
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:> ls
+> -lh
+> total 2.8M
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmcksum -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmdiag -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmdown -> lmutil
+> -rwxr-xr-x 1 root staff 854K 2010-05-13 16:04 lmgrd
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmhostid -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lminstall -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmremove -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmreread -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmstat -> lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmswitchr -> lmutil
+> -rwxr-xr-x 1 root staff 979K 2010-05-13 16:04 lmutil
+> lrwxrwxrwx 1 root staff    6 2010-05-13 16:04 lmver -> lmutil
+> -rwxr-xr-x 1 root staff 962K 2010-05-13 16:04 maplelmg
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:>
+> sudo ./lmgrd
+> sudo: unable to execute ./lmgrd: No such file or directory
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:> ldd
+> lmgrd
+> /usr/bin/ldd: line 117: ./lmgrd: No such file or directory
+>
+>
+> The old version, Maple 13, works (minus the errors, which is because
+> I've moved the license file):
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools.13/FLEXlm:> ls -lh
+> total 2.1M
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmcksum -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmdiag -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmdown -> lmutil
+> -rwxr-xr-x 1 root staff 616K 2008-07-01 15:52 lmgrd
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmhostid -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lminstall -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmremove -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmreread -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmstat -> lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmswitchr -> lmutil
+> -rwxr-xr-x 1 root staff 644K 2008-07-01 15:52 lmutil
+> lrwxrwxrwx 1 root root     6 2007-06-14 16:17 lmver -> lmutil
+> -rwxr-xr-x 1 root staff 814K 2008-07-01 15:52 maplelmg
+>
+> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools.13/FLEXlm:> ./lmgrd
+> license manager: can't initialize: Cannot find license file
+>  The license files (or server network addresses) attempted are
+>  listed below.  Use LM_LICENSE_FILE to use a different license file,
+>  or contact your software provider for a license file.
+> Filename:      /usr/local/flexlm/licenses/license.dat
+> License path:  /usr/local/flexlm/licenses/license.dat
+> FLEXlm error:  -1,359.  System Error: 2 "No such file or directory"
+> For further information, refer to the FLEXlm End User Manual,
+> available at "www.macrovision.com".
+> 19:35:24 (lmgrd) -----------------------------------------------
+> 19:35:24 (lmgrd)   Please Note:
+> 19:35:24 (lmgrd)
+> 19:35:24 (lmgrd)   This log is intended for debug purposes only.
+> 19:35:24 (lmgrd)   There are many details in licensing policies
+> 19:35:24 (lmgrd)   that are not reported in the information logged
+> 19:35:24 (lmgrd)   here, so if you use this log file for any kind
+> 19:35:24 (lmgrd)   of usage reporting you will generally produce
+> 19:35:24 (lmgrd)   incorrect results.
+> 19:35:24 (lmgrd)
+> 19:35:24 (lmgrd) -----------------------------------------------
+> 19:35:24 (lmgrd)
+> 19:35:24 (lmgrd)
+> 19:35:24 (lmgrd) Using license file
+> "/usr/local/flexlm/licenses/license.dat"
+>
+> --
+> Kent
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BEC9B19.5060001@acu.edu
+>
+>
+what is the output of "file lmgrd"

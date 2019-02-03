@@ -1,0 +1,59 @@
+[SPAM]  What you think?
+
+
+Announcement
+
+
+
+body,td { color: #000000; font-size: 11px; line-height: 14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+p { font-size: 12px; margin-top : 5px; margin-bottom : 10px; line-height: 15px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #474747; }
+a { text-decoration: underline; color: #474747; }
+a:hover { text-decoration: none; }
+announcementTitle { color: #ffcc33; font-size: 18px; font-weight: bold; padding-bottom:5px; margin-bottom: 20px; border-bottom: 1px solid #d9d9d9; }
+footerText, .footerText a { color: #fff; }
+topNote { font-size: 10px; color: #656565; padding: 10px 0 8px 0; }
+topNote a { color: #3d3d3d; }
+
+
+
+
+
+
+Having trouble reading this newsletter? Click here to see it in your browser.
+You are receiving this newsletter because you signed up from our web site. Click here to unsubscribe.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+		 
+
+		This email was sent to hibody@csmining.org
+Click here to instantly unsubscribe.
+
+www.gacolow.com
+
+
+
+		 
+
+
+
+
+
+
+
+
+

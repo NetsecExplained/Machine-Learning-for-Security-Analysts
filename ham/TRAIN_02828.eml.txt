@@ -1,0 +1,40 @@
+Re: gnome panel tray icons transparancyOn Mon, 2010-05-03 at 19:07 +0000, Camaleón wrote:
+> On Mon, 03 May 2010 20:29:17 +0200, Steven wrote:
+> 
+> > On Sun, 2010-05-02 at 15:46 +0000, Camaleón wrote:
+> 
+> >> ***
+> >> gnome-panel: some application icons lost transparency in notification
+> >> area http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=551751 ***
+> >> 
+> >> Anyway, check if the affected applications make use of "EggTrayIcon".
+> >> 
+> > I found a patch for Rhytmbox dating February 10 2010, which replaces
+> > EggTrayIcon with GtkStatusIcon, looking at the source I'd say this
+> > change is already present in Squeeze. So I'd say the bug you mention
+> > doesn't affect Rhythmbox, or the bug is assigned to the wrong package.
+> 
+> AKAIK, Rhythmbox plugins got splitted from main package and now fall into 
+> "rhythmbox-plugins". So if the upstream version with the patch on 
+> "GtkStatusIcon" was included into Debian packages, the "diff" should be 
+> visible and available there.
+> 
+Correct, the folder structure clearly shows the plugins folder, it is my
+understanding that both packages come from the sources I mentioned in my
+previous e-mail.
+In that plugins folder, for the notification icon, GtkStatusIcon is
+used, the diff doesn't mention either EggTrayIcon or GtkStatusIcon, so I
+would assume that patch is included.
+
+Still leaves me with this issue, unfortunatly.
+
+Regards,
+Steven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272915053.8924.6.camel@portable-steven.LAN
+
+

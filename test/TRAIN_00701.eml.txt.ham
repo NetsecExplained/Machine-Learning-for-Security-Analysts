@@ -1,0 +1,31 @@
+Re: OT: Script to add line to file if it doesn't existOn 2010-04-07 16:12, Ron Johnson wrote:
+[snip]
+> 
+> Mart's method is the shell way.  The 3GL Way is:
+> 
+> grep -w "$NAME" "$FILE"
+> TMP=$?
+> if [ "$TMP" = "1" ];
+
+That should be:
+
+if [ "$TMP" = "0" ];
+
+> then
+>     echo -e "$NAME\n" >> "$FILE"
+> fi
+> 
+> 
+
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBD0C09.4070304@cox.net
+
+

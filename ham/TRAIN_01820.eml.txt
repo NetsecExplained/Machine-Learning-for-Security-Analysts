@@ -1,0 +1,58 @@
+Re: can't determine affected packageFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Then, you might follow Boyd Stephen Smith Jr.'s recommendation.
+
+tadziu wrote:
+> yes i've got the same hardware as mentioned in bug report,
+> and tested suspension on debian as well as ubuntu, mint,
+> fedora, and sabayon. problem persist distro independent,
+> and kernel version indepedent
+>
+> 2010/5/25 Merciadri Luca :
+>  =20
+>> Are you using `exactly' (in some sense) the same config?
+>>
+>> --
+>> Merciadri Luca
+>> See http://www.student.montefiore.ulg.ac.be/~merciadri/
+>> I use PGP. If there is an incompatibility problem with your mail
+>> client, please contact me.
+>>
+>>
+>>
+>>
+>>
+>> tadziu wrote:
+>>    =20
+>>> it's a simple reproduction of this bug:
+>>>
+>>> https://bugs.launchpad.net/ubuntu/+source/linux/+bug/329645
+>>>
+>>> i've got the same problem either on lenny/squeeze/sid and all possibl=
+e
+>>> kernels up to 2.6.34 (not tested yet). can someone tell mi how to
+>>> send a bug report in that case? launchpad service seems little
+>>> easier since it doesn't reqiure exact package ;)
+>>>
+>>> thanks in advance and all the best
+>>> t.
+>>>
+>>>
+>>>
+>>>      =20
+>
+>
+>  =20
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

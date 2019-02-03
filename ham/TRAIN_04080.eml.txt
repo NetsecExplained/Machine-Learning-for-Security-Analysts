@@ -1,0 +1,30 @@
+Re: [ILUG] find the biggest fileInn Share  writes:
+
+> Hi,all:
+> 
+> Does anyone know how to list the biggest file in my
+> root directory?or the second biggest ..etc...
+> 
+> Because I want to find out what is the reason cause my
+> root all most full.
+
+find / -xdev -type f -exec du -sk {} \; | sort -rn | head -5
+
+        -xdev will stop find recursing into other filesystems.
+
+Cheers
+Tiarnan
+
+
+-- 
+Tiarnán Ó Corráin
+Consultant / System Administrator
+CMG Wireless Data Solutions Ltd.
+Tel.: +353 21 4933200
+Fax: +353 21 4933201
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,23 @@
+Re: whoa>>>>> "J" == James Rogers  writes:
+
+    J> An example: Being able to model RF propagation in three
+    J> dimensions for a metro area when deploying wireless networks.
+    J> By having every single tree and building detail and similar,
+    J> you can "see" even tiny dead spots due to physical blockage and
+    J> signal attenuation.  
+
+Hmmm, just as I thought.  In other words, it has no practical uses
+whatsoever ;) ... do the biz guys in your office /really/ think WISPs
+are really going to shell out /their/ money to find a house or two
+they can't reach?  Experience suggests (a) they won't care and (b)
+they will even sign up that errant house and then give them a
+run-around blaming the dead-spot on "unsupported vendor equipment".
+
+Thus, yes, it is 'cool': Expensive toy with no apparent function ;)
+
+-- 
+Gary Lawrence Murphy  TeleDynamics Communications Inc
+ Business Advantage through Community Software : http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+

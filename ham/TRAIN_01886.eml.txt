@@ -1,0 +1,52 @@
+Re: New 3-button serial mouse not detected by LennyOn 5/15/10 10:34 AM, Chris Austin wrote:
+> Hi,
+>
+> I have just bought a new 3-button mouse since 3-button emulation does not seem to work well in Lenny - I had a lot of trouble with unpredictable behaviour apparently due to contact bounce and getting unwanted context menus, some of whose entries were sometimes unintentionally activated, with bad effects - but unfortunately the new mouse is serial rather than PS/2.
+>
+> I have done dpkg-reconfigure xserver-xorg as root in a terminal before starting kdm, but there was no mention of a mouse, only keyboard options were mentioned.  And the new mouse is completely non-functional after doing kdm.
+>
+> I have also tried Xorg -configure, and the following message was given:
+>
+> Xorg detected your mouse at device /dev/input/mice.  Please check your config if the mouse is still not operational, as by default Xorg tries to autodetect the protocol.  Your xorg.conf file is /root/xorg.conf.new.
+>
+> The only mentions of the mouse in /root/xorg.conf.new are in the first section:
+>
+> Section "ServerLayout"
+>         Identifier     "X.org Configured"
+>         Screen      0  "Screen0" 0 0
+>         InputDevice    "Mouse0" "CorePointer"
+>         InputDevice    "Keyboard0" "CoreKeyboard"
+> EndSection
+>
+> and in a later section:
+>
+> Section "InputDevice"
+>         Identifier  "Mouse0"
+>         Driver      "mouse"
+>         Option      "Protocol" "auto"
+>         Option      "Device" "/dev/input/mice"
+>         Option      "ZAxisMapping" "4 5 6 7"
+> EndSection
+>
+> I ran X -config /root/xorg.conf.new to test the new xorg.conf, but the new mouse was still nonfunctional.  It was plugged into Serial port 1, and I also tried going into the BIOS and altering Onboard Serial Port A from 3f8h/COM1 to Auto, but this didn't help either.
+>
+> Are serial mice supported in Lenny?
+>
+> Best regards,
+> Chris Austin.
+>
+>
+>   
+I would take X out of the equation, and see if you can get it working in
+the console with gpm.
+
+-- 
+Kent
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEF1C0F.5030902@acu.edu
+
+

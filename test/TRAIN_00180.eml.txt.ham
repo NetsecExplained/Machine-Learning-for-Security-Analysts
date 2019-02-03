@@ -1,0 +1,23 @@
+Re: apt.freshrpms.netOnce upon a time, Joshua wrote :
+
+> Does anyone know how often the apt.freshrpms.net repository is 
+> updated? Is it rsync'ed? It's quite a bit out of date right now. For a
+> BIND update released mid-July, for example, it has:
+
+This is very strange... the Red Hat mirror update is run at least 3 or 4
+times a week, I'll look into it right now.
+
+Thanks for reporting this!
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

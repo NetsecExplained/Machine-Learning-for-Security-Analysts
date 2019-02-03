@@ -1,0 +1,32 @@
+Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?Urban Boquist wrote:
+> Hi Matt, and thanks for your quick reply.
+> 
+> Matt> Don't run SA on mails this large.
+> 
+> That would be fine, if I only understood how I should do that. I can't
+> find anything in the SA documention that mentions some kind of upper
+> limit for the size of a message. What should I put in my user_prefs
+> file?
+> 
+> I run SA from procmail btw, but I can't imagine that procmail would be
+> able to check the size of a message before handing it over to SA?
+
+That's exactly what it can do:
+
+:0fw <250000
+| spamassassin -P
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

@@ -1,0 +1,24 @@
+Re: How do I fsck and XFS file system in "Squeeze"From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,21.May.10, 19:19:13, Mark Allums wrote:
+=20
+> Does touch /forcefsck (as root) work?
+
+$ grep forcefsck /etc/init.d/*
+/etc/init.d/checkfs.sh:		if [ -f /forcefsck ] || grep -s -w -i "forcefsck" =
+/proc/cmdline
+/etc/init.d/checkfs.sh:	rm -f /fastboot /forcefsck 2>/dev/null
+/etc/init.d/checkroot.sh:		if [ -f /forcefsck ] || grep -s -w -i "forcefsck=
+" /proc/cmdline
+
+Both scripts don't seem generic enough to me. Fscking for XFS should=20
+work as long as you have the relevant tools installed.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

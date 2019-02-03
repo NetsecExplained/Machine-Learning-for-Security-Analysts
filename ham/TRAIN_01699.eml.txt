@@ -1,0 +1,42 @@
+RE: [ILUG] TMDA (WAS --> slashdot EW Dijkstra humor]On Fri, 9 Aug 2002, Ryan, Shane wrote:
+
+> Is this something along the same line as ORBS? 
+
+SPEWS isnt it. It lists known spam source IPs and netblocks. (and if 
+an ISP does nothing more than shift a spammer from IP to IP within the 
+ISPs netblock, then the ISPs netblock will be listed.)
+
+and there are quite a few ORBS like lists out there - ie known open
+relay lists.
+
+> I remember not so long ago when eircom was put on the ORBS list,
+> half the ISP's in Europe wouldn't accept mail from my address. Of
+> course, informing Eircom of this did nothing for about 4 months or
+> so.
+
+shame.
+
+get a different ISP so.
+
+> IMHO stopping spammers is a great idea but I'd rather have to hit d
+> or delete rather than have my messages bounced by someone else's
+> ISP.
+
+I'd rather not get spam. sorry.
+
+> Regards,
+> Shane
+
+regards,
+-- 
+Paul Jakma	Sys Admin	Alphyra
+	paulj@alphyra.ie
+Warning: /never/ send email to spam@dishone.st or trap@dishone.st
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

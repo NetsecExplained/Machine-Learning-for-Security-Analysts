@@ -1,0 +1,50 @@
+Re: funky kernel message from syslogdOn Thu, Apr 22, 2010 at 07:24:38PM -0400, Nick Lidakis wrote:
+> This popped up in one of my xterms after my Thinkpad came out of hibernation
+> today. The machine has beeped a few times as this message was repeated.
+> Does not sound good. Call Trace? That's, like, bad? Right?
+> 
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.069917] Oops: 0000 [#1] SMP 
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.069923] last sysfs file:
+> /sys/devices/virtual/misc/cpu_dma_latency/uevent
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.070112] Process udev-acl.ck (pid: 17300, ti=df3a8000
+> task=f47e61c0 task.ti=df3a8000)
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.070117] Stack:
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.070164] Call Trace:
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.070244] Code: c7 40 28 01 00 00 00 89 d0 5a 5b 5e 5f 5d c3 55
+> b9 00 10 00 00 57 56 53 83 ec 14 89 14 24 89 44 24 04 8b 42 0c 8b 68 58 8b 45
+> 08 <8b> 78 14 89 d0 ba d4 c7 4a c1 83 c0 08 e8 1f d9 fc ff 85 c0 89 
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.070322] EIP: [] sysfs_open_file+0x1c/0x259 SS:ESP
+> 0068:df3a9e7c
+> 
+> Message from syslogd@thinkpad at Apr 22 18:52:20 ...
+>  kernel:[42926.070333] CR2: 0000000000000014
+
+You'll probably find the complete message in /var/log/kern.log .
+
+-- 
+Tzafrir Cohen         | tzafrir@jabber.org | VIM is
+http://tzafrir.org.il |                    | a Mutt's
+tzafrir@cohens.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100425042715.GY16560@pear.tzafrir.org.il
+
+

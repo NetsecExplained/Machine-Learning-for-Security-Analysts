@@ -1,0 +1,42 @@
+Re: how come...On 4/9/2010 10:41 AM, Hugo Vanwoerkom wrote:
+> Hi,
+>
+> How come the latest linux-image-2.6-686 in Sid is:
+>
+> http://packages.debian.org/sid/linux-headers-2.6-686
+>
+> and is set to linux-image-2.6-686 (2.6.32+24) while apt-cache policy
+> linux-image-2.6-686 gives:
+>
+> linux-image-2.6-686:
+> Installed: 2.6.32+25
+> Candidate: 2.6.32+25
+> Version table:
+> *** 2.6.32+25 0
+> 500 http://ftp.de.debian.org unstable/main Packages
+> 100 /var/lib/dpkg/status
+>
+> while linux-image-2.6.32-4-686 (2.6.32-11) is the latest per:
+>
+> apt-cache policy linux-image-2.6.32-4-686
+> linux-image-2.6.32-4-686:
+> Installed: (none)
+> Candidate: 2.6.32-11
+> Version table:
+> 2.6.32-11 0
+> 500 http://ftp.de.debian.org unstable/main Packages
+
+
+2.6.32-11 is in Squeeze.  A guess (based on nothing) might be that a 
+freeze is imminent, leading up to the release of Squeeze.  I expect that 
+it will be straightened out in due course.
+
+MAA
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBF4C64.1060207@allums.com
+
+

@@ -1,0 +1,49 @@
+Re: Blank page after every page when printing PDFs with evince -
+ Debian Lenny, CUPS, HP Paintjet (pj)On Sun, 25 Apr 2010 06:59:33 -0400 (EDT), Camale=C3=B3n wrote:
+> On Sat, 24 Apr 2010 15:27:35 -0400, Stephen Powell wrote:
+>>
+>> I have noticed that when printing multi-page PDF files from evince on
+>> the GNOME desktop, using CUPS under Debian Lenny, I get a blank page
+>> after every page.
+>=20
+> It does the same when you print with another PDF viewer (i.e., GV)? It=20
+> happens with *any* PDF?
+
+Well, I didn't try them all, but both evince and xpdf do the same thing.
+And yes, it seems to be every multi-page PDF file.
+>>
+>> My printer is an HP PaintJet.  This wastes paper and
+>> is very annoying.  I have searched the Internet, of course, but I did
+>> not find any solutions.  The closest I found was Debian bug report
+>> 316392, but his work-around doesn't work for me.  My PPD file already
+>> specifies Letter instead of A4 for Page Size.  Does anyone know a
+>> work-around for this?  Surely someone has run across this before.
+>=20
+> If you think is a problem of "size detection" try by setting in printing=
+=20
+> page layout tab a zoom scale of 90%, just for testing purposes.
+
+Well, that makes the image slightly smaller, but I still get a blank
+page between every printed page.
+
+Further testing leads me to believe that this problem is driver-specific.
+When I print to another printer, an IBM Proprinter II, I do not have
+this problem.  I see that in Lenny the ghostscript pj driver is used
+and in Squeeze they have switched to the hplis driver.  Perhaps upgrading
+to Squeeze may fix the problem.  In the meantime, I'm going to do some
+experimenting with the ghostscript driver directly and see what I can
+see.
+
+--=20
+  .''`.     Stephen Powell   =20
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1696116502.168906.1273361784808.JavaMail.root@md01.wow.synacor.com
+
+

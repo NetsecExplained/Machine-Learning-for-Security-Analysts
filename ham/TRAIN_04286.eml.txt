@@ -1,0 +1,99 @@
+Re: bad focus/click behavioursIt's all here in these 10 lines, otherwise known as the
+"I'll try my damnest to paste something" procedure:
+
+# Return the current selection (from any window) or cut buffer 0.
+proc Text_Selection {} {
+    if [catch {selection get} sel] {
+        if [catch {selection get -selection CLIPBOARD} sel] {
+            if [catch {cutbuffer get 0} sel] {
+                return ""
+            }
+        }
+    }
+    return $sel
+}
+
+This is in textSelection.tcl, and is what exmh uses to find text to paste.
+It is that last "cutbuffer get" that is wacky, because exmh sticks its
+own deletions into that little know stash, and is probably the only
+application on the planet that still looks there.  We should probably
+just disable that - try this variant:
+
+proc Text_Selection {} {
+    if [catch {selection get} sel] {
+        if [catch {selection get -selection CLIPBOARD} sel] {
+            return ""
+        }
+    }
+    return $sel
+}
+
+Everything funnels through here, so you just need to hack this one spot.
+
+
+>>>Rick Baartman said:
+ > I've never understood the mouse buffer operation with exmh either. Here's th
+     e 
+ > behaviour I have. I have exmh and XEmacs windows up, and a terminal window. 
+     (I 
+ > also have gnome1.4 running and enlightenment as wm.) I select text in the ex
+     mh 
+ > window and while it is highlighted, I can paste into anything else. If I sel
+     ect 
+ > it and then click so the highlighting is off, then what I paste is not the 
+ > recently-selected text in exmh, but an old selection. If I select in XEmacs 
+     and 
+ > leave it highlighted, I can paste it into exmh sedit window; but if it is no
+      
+ > longer highlighted, what I paste is an old selection. I can live with this 
+ > behaviour except for one additional thing. If nothing is highlighted, then w
+     hat 
+ > I paste into exmh is different from what I paste into other windows. To be m
+     ore 
+ > specific, here's what gets pasted if nothing is highlighted:
+ > 
+ > Application       What gets pasted
+ > 
+ > XEmacs            whatever was last selected unless it was last selected in 
+     exmh
+ > xterm             same as XEmacs
+ > AbiWord           nothing
+ > Nedit             nothing
+ > sedit             Whatever was last highlighted in sedit and overwritten
+ > 
+ > The last needs some amplification. If I highlight something in sedit, then 
+ > obviously that's what gets pasted. If the highlighting is off, then what get
+     s 
+ > pasted is NOT what was last highlighted in sedit, but what was last highligh
+     ted 
+ > and typed over (I have "Type Kills SEL" on.).
+ > 
+ > It seems that exmh and sedit are the oddballs here. Very often when I try to
+      
+ > paste something in sedit I end up muttering WTF??
+ > 
+ > --
+ > rick
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > Exmh-users mailing list
+ > Exmh-users@redhat.com
+ > https://listman.redhat.com/mailman/listinfo/exmh-users
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

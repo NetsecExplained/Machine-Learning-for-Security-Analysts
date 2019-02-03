@@ -1,0 +1,50 @@
+Re: KDE Issues under "Squeeze"Rene Engelhard wrote:
+
+> Hi,
+> 
+> On Sat, Apr 24, 2010 at 10:49:44PM -0500, lrhorer wrote:
+>>         Secondly, KPackage is badly broken.  It only shows a handful
+>>         of
+>> applications installed or available.  Synaptic or aptitude show
+>> thousands available and hundreds installed, of course.  What's more,
+>> I
+> 
+> Then use aptitude.. ;)
+
+        I've used it, of course.  Kpackage is much easier.  It's rare I say
+that about a GUI utility vs. a CLI one, but in this case it's true.
+
+>> no longer see how one can manage the sources in the new KDE4
+>> KPackage.
+> 
+> Feature. Just don't :-) (Personal opinion)
+
+        Neither of those comments are helpful.  Without KPackage, KDE isn't
+much use.
+
+>> In KDE3, one could not only easily manage the apt sources from inside
+>> the app, but also RPM repositories.  Now I don't see how to manage
+>> the apt sources (I can manually edit /etc/apt/sources.list, of
+>> course) or how to manage rpm sources, at all.
+> 
+> You must not install rpms on a Debian system if you need sanitiy.
+> Besides that installing rpms from a repos would not work because you
+> don't have the dependencies they require (because they're either not
+> there, have "wrong" package names, or simply are not recorded in the
+> rpm database)
+
+        That's just nonsense.  Many packages simply do not have Debian sources,
+and I have used KPackage to successfully install many alien packages. 
+In some cases, there may be a reasonable .deb subsitute, but many
+packages, most notably hardware drives, simply have no substitute.  Two
+of my RAID controllers, for example, only have RPM distros.  Surely you
+are not suggesting a PC - Debian or otherwise - can do without its hard
+drives?  They installed fine under KDE3.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/R72dnSXSkbrxWUHWnZ2dnUVZ_qmdnZ2d@giganews.com
+
+

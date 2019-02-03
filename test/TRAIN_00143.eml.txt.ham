@@ -1,0 +1,35 @@
+Re: passwordless ssh root logins stopped working after testing
+ dist-upgradeOn 10-04-06 14:12:19, Russell L. Carter wrote:
+>=20
+> I dist-upgraded yesterday and ssh root logins started requiring a
+> password. ...
+ ...
+> root@feyerabend> diff -u ssh_config ssh_config.dpkg-dist
+> --- ssh_config  2010-04-05 21:14:26.172871668 -0700
+> +++ ssh_config.dpkg-dist        2010-01-04 09:05:12.000000000 -0700
+> @@ -17,8 +17,8 @@
+>   # ssh_config(5) man page.
+>=20
+>   Host *
+> -ForwardAgent yes
+> -ForwardX11 yes
+> +#   ForwardAgent no
+> +#   ForwardX11 no
+>   #   ForwardX11Trusted yes
+>   #   RhostsRSAAuthentication no
+>   #   RSAAuthentication yes
+
+I don't see any "PermitRootLogin without-password" line in your diff.
+
+--=20
+____________________________________________________________________
+TonyN.:'                       
+      '                              
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270581844.24480.0@localhost.localdomain
+
+

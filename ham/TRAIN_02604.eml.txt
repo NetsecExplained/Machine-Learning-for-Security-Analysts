@@ -1,0 +1,30 @@
+Re: udev & /dev/sdaX & lenny2squeezeOn Mon, 12 Apr 2010 07:59:19 -0400 (EDT), Ionel Mugurel Ciob=C3=AEc=C4=83 w=
+rote:
+>=20
+> My previous post was premature, if I restore /dev/sdaX using tar,
+> I can only use the console. X can't make use of the keyboard or mouse.
+> /edv/eth0 also doesn't exist, althought the interface is up, etc.
+> It looks like all /dev/ is screwed up!
+>=20
+> So I will install from scratch.
+
+Once again, as I suggested in a previous post, I'd use the latest
+"daily-build" installer to directly install Squeeze, such as
+
+http://people.debian.org/~joeyh/d-i/images/daily/netboot/mini.iso for i386 =
+or
+http://d-i.debian.org/daily-images/amd64/daily/netboot/mini.iso for amd64
+
+--=20
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/323399407.2667121271092511339.JavaMail.root@md01.wow.synacor.com
+
+

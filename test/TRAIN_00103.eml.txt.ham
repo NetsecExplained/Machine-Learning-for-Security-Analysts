@@ -1,0 +1,23 @@
+[ILUG] gargnome & sawfish.. I decided to try out GarGnome, to see what gnome2 looks like. It's
+pretty, I'll give it that.
+
+ However, there seemed to be loads of bugs - sawfish threw wobblers all
+over the place, so I tryed out metacity - which doesn't have a GUI
+configurator, and arsed if I'm going back to the fvwm days when you had to
+set settings by hand, without an idea what the values looked like.
+
+ So, I went back to 1.4 - and now sawfish can't start applets (yes, I did
+change the LD_LIBRARY_PATH back) and the panel can't make new workspaces.
+
+ Any ideas what could have happened ? Would sawfish 2.0 silently change
+the config files & break them?
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,30 @@
+[SAtalk] SpamAssassin an Razor problemHi....
+
+i installed razor an SpamAssassin on an redhat 6.3 with a fresh per 5.8.0.
+when I install Mail::SpamAssassin using the CPAN the followin error in make
+test appears.
+
+t/forged_rcvd...........ok
+t/nonspam...............ok
+t/razor.................        Test skipped: Razor is not installed.
+t/razor.................ok
+        2/2 skipped: Razor is not installed.
+t/reportheader..........ok
+
+How can i get the razor running with the SpamAssassin ?
+
+Thanks for helping
+
+Alex
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

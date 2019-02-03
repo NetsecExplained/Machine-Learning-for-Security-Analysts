@@ -1,0 +1,117 @@
+[SPAM]  And.. We're back
+
+
+
+td, th
+{
+	font-size: 13px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	line-height: 16px;
+	background-color: #FFFFFF;
+}
+right_menu_firms
+{
+	color: #30598f;
+	line-height: 16px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0 0 5px 0;
+	margin: 0;
+}
+right_menu_header
+{
+	color: #555555;
+	line-height: 16px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #dfdfdf;
+}
+section_title
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 22px;
+	color: #2371D5;
+	padding: 10px 0 5px 0;
+	margin: 0;
+}
+disclaimer
+{
+	font-size: 9px;
+}
+a, a:visited, a:hover, a:active {
+	color: #30598f;
+}
+a:hover {
+	text-decoration: none;
+}
+
+	background-color: #30598f; margin: 0px;
+}
+}
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 10px;
+}
+	vertical-align:bottom;
+}
+
+
+
+
+
+
+
+
+
+Pharmacy Update
+October 2009
+
+
+
+
+Archived
+Newsletters
+
+		 
+
+
+
+
+
+
+
+This Month's Articles
+
+
+
+
+
+
+
+
+
+Read More...
+
+
+
+Send us an email with your contact information and
+topics you would like to cover.
+To ensure that all our mailings get to you safely, we recommend you
+add us to your whitelist in your email client.
+Learn
+more about how to add us to your whitelist.
+To unsubscribe
+or adjust your settings for future commercial email messages click
+here
+This message was sent to hibody@csmining.org
+Copyright 2009, Lorman Online Pharmacy Services
+Lorman Online Pharmacy Services | 2510 Alpine Rd. | Eau Claire, WI |
+54703
+
+
+
+
+

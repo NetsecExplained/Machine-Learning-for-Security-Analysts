@@ -1,0 +1,23 @@
+Re: alsa-driver.spec tweak for homemade kernelsMatthias Saou wrote:
+> Well, I don't really find it consistent at all to use an rpm package
+> built against something that wasn't installed through rpm :-/
+
+Oh well.  Fair enough.
+
+> What I'd recommend in your case [...]
+
+Ugh, way too much manual labor.  :-)
+
+What I've done instead is to create a tiny little "kernel.spec" that
+installs no files but claims to produce a kernel package having version
+number `uname -r` for architecture `uname -p`.  It also claims to
+provide kernel-sources at the same version.  That is enough to make
+alsa-driver.spec happy, and at least forms a reasonable representation
+of what my homemade kernel provides to the system.  I should have
+thought of this approach sooner.
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

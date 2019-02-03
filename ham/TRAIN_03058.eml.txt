@@ -1,0 +1,80 @@
+Re: invisible consoleOn Fri, 30 Apr 2010 06:47:13 -0400 (EDT), Jan Willem Stumpel wrote:
+> 
+> I like an old-fashioned VGA text look on the console; in
+> /etc/default/console-setup I have
+> 
+> FONTFACE="VGA"
+> FONTSIZE="16"
+> 
+> This used to work.
+> 
+> But after a dist-upgrade around April 10th, the behaviour changed.
+> 
+> 1 -- cold startup works normally (and looks normal).
+> 2 -- startx works OK
+> 3 -- pressing control-alt-f2 (to go to the console temporarily)
+> now gives a (framebuffer?) screen with very small letters; at the
+> top of the screen there is a message from "drm" stating that the
+> resolution is set to 1250 x 1024 (instead of 640 x 480 which is
+> what I want).
+> 4 -- presing alt-f7 gets me back into X.
+> 5 -- pressing control-alt-f2 AGAIN gives a completely black
+> screen. Nothing visible. Going back to X with alt-f7 is still
+> possible.
+> 
+> uname -a gives:
+> Linux vega 2.6.32-3-686 #1 SMP Thu Feb 25 06:14:20 UTC 2010 i686 GNU/Linux
+>
+> This kernel was installed recently; booting an earlier kernel,
+> e.g. 2.6.29-2, gets the old (proper) behaviour back.
+> 
+> Configuration error? Or bug? If the latter, which package?
+
+I think that this is a bug, but I don't know where.  I'm
+guessing that it has something to do with KMS in newer kernels.
+But that's just a guess.  I do a lot of work in the text
+consoles.  I often use an 80x50 video mode
+(via the VGA option of lilo), which generally
+works everywhere.  Anyway, I was not happy with the fonts provided
+by console-setup; and I wanted to go back to the legacy fonts that are
+used by Lenny.  I opened
+a thread on this forum about the problem
+(http://lists.debian.org/debian-user/2009/12/msg01438.html) and
+got a satisfactory resolution.  Here's what I would recommend
+that you try.  First, make sure that the console-data package
+is installed.  Then, in /etc/default/console-setup, set
+
+   FONTFACE=""
+   FONTSIZE=""
+
+Then add
+
+   FONT=lat1u-16.psf.gz
+
+In my case, I use lat1u-08.psf.gz as the font, since the 80x50 video
+mode requires an eight-pixel-high font; but in your case, since you
+apparently use the traditional VGA boot-up hardware text mode
+(no framebuffer, I presume), you will need the sixteen-pixel-high
+font.
+
+Give that a whirl and see how it goes.  This method gives a larger
+selection of fonts to choose from.  (lat1u-16 is a suggestion,
+but there are other sixteen-pixel-high fonts you can choose from.
+See the /usr/share/consolefonts directory for a complete list.)
+And in my opinion, these fonts look better too.  But most importantly,
+this method may circumvent the bug you are experiencing.  If it
+does circumvent the bug, console-setup is the most suspect package.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/436712575.112714.1272634609803.JavaMail.root@md01.wow.synacor.com
+
+

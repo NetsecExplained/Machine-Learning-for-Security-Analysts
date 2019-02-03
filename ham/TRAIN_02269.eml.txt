@@ -1,0 +1,34 @@
+[ILUG] Am I cracked?Well you know what I mean.
+
+I noticed 2 connections from my
+(freshly installed RH7.3) machine to
+port 80 of the following addresses.
+
+216.145.20.5
+216.254.17.87
+
+Both resolve to cytocin.hubbe.NET
+using CCOM.NET & speakeasy.NET DNS
+servers respectively.
+
+Both connections lasted about 20
+seconds and were about 2 minutes apart.
+Any ideas?
+
+I didn't see what processes they came from,
+but I'm keeping a close eye now.
+
+Thanks,
+Pádraig.
+
+p.s. I'm can't subscribe to the list
+at the moment for some reason? so please
+reply directly.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,38 @@
+RE: [Razor-users] Re: intentionsYeh it sure would be nice to have more info on Tes.  That would end all
+the confusion. 
+
+Can Spamassassin be considered a competing product when it's typically
+used in conjunction with Razor?
+
+-----Original Message-----
+From: Jordan Ritter [mailto:jpr5@darkridge.com] 
+Sent: Thursday, August 08, 2002 6:09 PM
+To: Craig R . Hughes; razor-users@example.sourceforge.net
+Subject: [Razor-users] Re: intentions
+
+
+Craig,
+
+    I don't really understand how you can make the claims that you
+    make without a full understanding of TeS, which you can't have
+    because we haven't published the details.
+
+    In the end, given that you don't know much about TeS or how it
+    works, your statements really call into question your intentions
+    given that you have a competing product in this space.
+
+Regards,
+
+--jordan
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

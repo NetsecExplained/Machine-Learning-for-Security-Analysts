@@ -1,0 +1,31 @@
+Is acroread blind, or ps2pdf dangerous?From nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+When compiling any .tex document using the route latex -> dvips ->
+ps2pdf, I get a PDF. Normal, but the problem is that if I the PDF is
+already opened (e.g. because I was reading the version of the document
+before having modified and compiled it) when the compilation and the
+whole process ends, the opened PDF is blank, i.e. the current page
+becomes white, and every page I go at is white. If I then re-open the
+document, I find the new version of my PDF.
+
+I would like to know how this process actually works. For me, it looks
+like the ps2pdf tool creates the PDF from scratch, and overwrites the
+old PDF. But why am I receiving no warning message from acroread?
+Anyway, acroread seems not to be locking the file, or, if so, ps2pdf
+forces the writing.
+
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

@@ -1,0 +1,36 @@
+Re: [Razor-users] FW: intigration with qmailOn Tue, Aug 13, 2002 at 09:44:33AM -0500, Michael J Humphries wrote:
+> I sent this message already and I am sorry if I am asking the wrong
+> question or if I have been asking stupid questions but I am in an urgent
+> time when people are using my service to spam others and I NEED to stop
+> them quickly.
+
+Sounds like you're solving the wrong problem.  If untrusted strangers
+are relaying spam through your qmail server, it's a fair bet that
+you've seriously botched your qmail config (like forgetting to create
+an rcpthosts file or something).
+
+Anyway, if you insist on using razor to resolve this problem, I
+would suggest tossing qmail-scanner 
+and SpamAssassin  into the mix as well.
+The former provides the qmail-integration framework on which the latter
+does its work (including razor-check invocations).
+
+Fair warning: It'll be far more resource-intensive than simply denying
+relaying privileges to everyone except the folks you trust.  To find
+out how to do that, go to  (which, incidentally,
+should be your first stop for all things qmail) and search for "qmail
+newbie's guide to relaying".
+
+- Adrian
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

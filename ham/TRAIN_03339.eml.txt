@@ -1,0 +1,48 @@
+[ILUG] Re: removing lilo"Hunt, Bryan" stated the following:
+> 
+> choose the repair option when installing windows nt/2000/whatever
+
+What is the "repair option"?
+
+> -----Original Message----- From: SoloCDM [mailto:deedsmis@aculink.net]
+> Sent: 31 July 2002 17:48 To: Hunt, Bryan Cc: ILUG (Request)
+> Subject: Re: removing lilo
+> 
+> "Hunt, Bryan" stated the following:
+> 
+> > you need to do a "fdisk /mbr" from a bootable windoze floppy
+> > alternatively boot from linux boot disk and do fdisk, delete all
+> 
+> partitions.
+> 
+> I need to ask a question concerning this issue.
+> 
+> What if I don't want to get rid of the MBR -- it will destroy the
+> OS on that drive.  How do I remove lilo without the above fdisk
+> procedure?
+> 
+> > -----Original Message----- From: jac1
+> > [mailto:jac1@student.cs.ucc.ie]
+> 
+> > i recently had to wipe linux from my pc but forgot to restore the
+> > original MBR (NT). Anyone know how i can do this? linux is entirely
+> > gone and no
+> 
+> boot
+> 
+> > floppy. formatting the entire disk doesn't do it either.
+
+-- 
+Note: When you reply to this message, please include the mailing
+      list and/or newsgroup address and my email address in To:
+
+*********************************************************************
+Signed,
+SoloCDM
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

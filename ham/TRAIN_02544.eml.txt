@@ -1,0 +1,59 @@
+Re: Tiny DNS SwapFrom nobody Sun Sep 18 20:45:30 2016
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	format=flowed
+
+Bob
+
+We are a commercial company who host around 150 web sites on each of it=20=
+
+servers, we can=B4t swap with you because we need someone in a similar=20=
+
+position.
+
+Thank you
+
+Javier
+
+El Viernes, 30 agosto, 2002, a las 10:25 AM, Bob Musser escribi=F3:
+
+> I'm using Simple DNS from JHSoft.=A0 We support only a few web sites =
+and=20
+> I'd like to swap secondary services with someone in a similar > =
+position.
+> =A0
+> We have a static IP, DSL line and a 24/7 set of web, SQL, mail and now=20=
+
+> a DNS server.=A0 As I said, we are hosting about 10 web sites, web and=20=
+
+> DNS traffic is almost nothing.=A0 Everything is on lightly loaded APC=20=
+
+> battery backups so we are very seldom down.
+> =A0
+> I'd like to swap with someone also using Simple DNS to take advantage=20=
+
+> of the trusted zone file transfer option.
+> =A0
+> =A0
+> =A0
+> Bob Musser
+> Database Services, Inc.
+> Makers of:
+> =A0=A0 Process Server's Toolbox
+> =A0=A0 Courier Service Toolbox
+> BobM@dbsinfo.com
+> www.dbsinfo.com
+> 106 Longhorn Road
+> Winter Park FL 32792
+> (407) 679-1539
+> =A0
+> =A0
+>
+---
+Atentamente
+Javier Cota
+Integraci=F3n tecnol=F3gica
+52723341
+javier@linkcreations.com.mx
+

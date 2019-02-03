@@ -1,0 +1,84 @@
+Re: color problemThis looks like a classic case of ARGB mixup.
+Have you ordered your bytes to paint "Alpha, Red, Green Blue"?
+
+bob.
+
+On Apr 19, 2010, at 8:38 AM, Alexander Car=F4t wrote:
+
+> Hello again,
+>=20
+> regarding my color problem I attached a screenshot of the actual image =
+I get when mapping the pixels of a CGImage onto a QImage: The image is =
+kind of blue/white (pillow should be red, pullover shuld be green and =
+skin white).
+>=20
+> The full mapping sequence looks like this:
+>=20
+> *****************************
+> CGImageRef image =3D NULL;
+>=20
+> size_t width, height, rowBytes, bitsPerComponent;
+> CVPixelBufferLockBaseAddress( pixelBuffer, 0 );
+> rowBytes =3D CVPixelBufferGetBytesPerRow( pixelBuffer );
+> baseAddr =3D CVPixelBufferGetBaseAddress( pixelBuffer );
+> width =3D CVPixelBufferGetWidth( pixelBuffer );
+> height =3D CVPixelBufferGetHeight( pixelBuffer );
+> colorspace =3D CGColorSpaceCreateDeviceRGB();
+> CVBufferRetain( pixelBuffer );
+> provider =3D CGDataProviderCreateWithData( pixelBuffer, baseAddr, =
+rowBytes *height, releaseAndUnlockThis );
+> image =3D CGImageCreate( width, height, 8, 32, rowBytes, colorspace,=20=
+
+> kCGImageAlphaNoneSkipFirst, provider, NULL, true, =
+kCGRenderingIntentDefault );
+>=20
+> unsigned char *rawData =3D new unsigned char[1000000];
+> unsigned char backup;
+>=20
+> CFDataRef data =3D =
+CGDataProviderCopyData(CGImageGetDataProvider(image));
+> rawData =3D (unsigned char*) CFDataGetBytePtr(data);
+>=20
+> if (data !=3D NULL){
+>  currentObject->displayImage =3D new =
+QImage(rawData,320,240,QImage::Format_RGB32);  =20
+>  currentObject->update();
+> }  =20
+> *****************************
+>=20
+> I already changed the formats but this made it even worse. =
+Furthermore, I did a manua byte swap of the raw data buffer (in case =
+this might be an endian problem):
+>=20
+>  for (int i=3D0;i<100000;i=3Di+2){
+>    backup =3D rawData[i];
+>    rawData[i]=3DrawData[i+1];
+>    rawData[i+1] =3D backup;
+>  }=20
+>=20
+> but this painted swapped range in green.
+>=20
+> I anyone might know what the problem might be I'd appreciate any hint.
+>=20
+> Thanks a lot in advance
+>=20
+> -- A l e x
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/quicktime-api/robert_monaghan%40mac=
+.com
+>=20
+> This email sent to robert_monaghan@mac.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

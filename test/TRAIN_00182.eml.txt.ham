@@ -1,0 +1,14 @@
+Re: Sudden reboots with Firefox and FlashFrom nobody Sun Sep 18 20:45:27 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Tue, Apr 20, 2010 at 10:05:57PM +0200, Thierry Chatelet wrote:
+> No was not the same. But you can hear if fan speed goes up when you load=
+=20
+> either the cpu or the graphic card.
+
+For giggles, I just enabled the BIOS warning beep when my CPU gets >60C. Af=
+ter starting 4x burnP6 and letting it run for a while, sure enough, I got t=
+he warning beep. I'm gonna look a little more into this, and maybe involve =
+my vga card in this using FurMark to see what happens there.

@@ -1,0 +1,19 @@
+Re: ditching muttFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Tzafrir Cohen wrote at 2010-04-11 07:41 -0500:
+> On Thu, Apr 08, 2010 at 06:08:22PM -0700, Michael Elkins wrote:
+>=20
+> > Both sup (sup.rubyforge.org) and notmuch (notmuchmail.org) are
+> > interesting works-in-progress that are based off the Xapian search
+> > engine, and have curses-based interfaces.  For people who like the gmail
+> > interface, this might be of interest.
+>=20
+> sup has a curses interface (notmuch has a command-line interface and an
+> Emacs front-end).
+
+notmuchmail.org mentions a curses interface for nutmuch but it does not see=
+m to=20
+be available in Debian's notmuch package.

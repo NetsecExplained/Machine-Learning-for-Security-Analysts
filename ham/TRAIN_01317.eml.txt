@@ -1,0 +1,40 @@
+[ILUG] Re: [OT] MacOSX mailing list?>Sorry for the OT. Just wondering if anybody knows of a similar type mailing
+>list specifically dealing with MacOSX?  (which, FYI is a version of BSD)
+
+>Slán,
+
+>Tim
+
+Hi Tim,
+It isn't a "version" of anything except NeXTSTEP, with a Mac hackjob.
+It has a bastardised, but functional BSD -layer- which sit's atop Mach and
+uses case insensitive HFS+ but it isn't really a BSD.
+
+(Here's a neat trick, touch "Makefile" and "makefile", notice the lack of
+error message but the absence of "makefile", and don't bother formatting for
+UFS. The Apple UFS implementation performs like a dog, was frozen in 97,
+implemented badly and has not been updated since. HFS+ get's tweaked every
+now and then, but enough screaming has them looking at shoving UFS2 in there
+somewhere down the road. )
+
+Then there's the holdover NeXT inherent weirdness, such as multiple versions
+of common Unix files, but none of them do anything, and all changes you
+would usually append to them have to go through NetInfo Manager.
+
+All in all, I find it to be a functional, if not overly quirky desktop
+environment.
+
+As for your initial question,
+http://www.omnigroup.com/developer/mailinglists/
+
+Regards,
+Mark.
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

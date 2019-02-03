@@ -1,0 +1,17 @@
+Problem with iwl3954 I had the dmesg message that I needed use iwllwifi-3945-2 instead
+iwlwifi-3945-1.
+I finded the packege firmware-iwlwifi-0.23~bpo50+1 and installed that
+instead 0.14+lenny2.
+Now I have the next records in dmesg:
+ [   49.170257] iwl3945 0000:02:00.0: firmware: requesting
+iwlwifi-3945-2.ucode
+[   49.272362] iwl3945 0000:02:00.0: loaded firmware version 15.32.2.9
+ Is it wrong?!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC46A95.9050309@csmining.org
+
+

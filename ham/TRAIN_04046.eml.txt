@@ -1,0 +1,477 @@
+CNET NEWS.COM: Copies, Webcasts tangled in draft bill
+
+Copies, Webcasts tangled in draft bill 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Search
+	                 
+	                 
+News.com
+	                All CNET    
+	                The Web
+                 
+
+
+
+
+
+
+
+Live tech help NOW!
+April's tech award
+1 million open jobs
+News.com: Top CIOs 
+ZDNet: PeopleSoft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+July 11, 2002
+
+
+
+
+
+Copies, Webcasts tangled in draft bill 
+
+Sharp's Zaurus PDA suffers security holes
+
+Outlook plug-in could let the hackers in
+
+ACLU: Don't rat out your customers
+
+Shareholders sue PayPal, eBay
+
+Ellison: I don't need an understudy
+
+
+
+
+
+
+
+
+
+ Vision Series
+
+
+
+
+
+
+
+
+
+			Read News.com's exclusive interviews of 10 top CIOs.
+Vision Series home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copies, Webcasts tangled in draft bill 
+
+Legislators are readying a bill that could sharply limit Americans' rights relating to copying music, taping TV shows, and transferring files through the Internet.
+At the same time, the draft legislation seen by CNET News.com would place the struggling Webcasting industry on firmer legal footing.
+
+
+July 11, 2002, 11:35 AM PT
+ | 
+
+Read Full Story 
+
+Sharp's Zaurus PDA suffers security holes
+
+Sharp's Linux-based, business-oriented Zaurus handheld suffers from security holes that could let hackers grab private data off a corporate network, according to researchers at Syracuse University.
+In an advisory posted Wednesday to a Syracuse University computer-science Web site, researchers said they had found vulnerabilities in Sharp's Zaurus SL-5500 and Zaurus SL-5000D handhelds. The flaws let attackers take control of the device's file system, giving them the power to overwrite files or lock the device so no data can be input through the keypad or touch screen.
+
+
+July 11, 2002, 12:50 PM PT
+ | 
+
+Read Full Story 
+
+Outlook plug-in could let the hackers in
+
+A widely used plug-in for Microsoft's Outlook e-mail client that lets users encrypt and digitally sign messages has inadvertently weakened security and left the mail program open to attack.
+Security company eEye Digital Security issued a warning late Wednesday to users of Network Associates' Pretty Good Privacy (PGP) plug-in for Outlook, saying that a vulnerability in the add-on could let attackers execute malicious software on a victim's computer. Network Associates released a patch for the problem Wednesday as well.
+
+
+July 11, 2002, 11:05 AM PT | 
+
+Read Full Story 
+
+
+ACLU: Don't rat out your customers
+
+A clutch of civil liberties groups is asking small Internet service providers to get a backbone and stand up to companies seeking to unveil anonymous critics.
+A group including the Electronic Frontier Foundation, the American Civil Liberties Union (ACLU), and the Center for Democracy and Technology is urging ISPs to alert customers when they are the targets of so-called John Doe legal actions, which try to unmask the identities of people who anonymously air their companies' dirty laundry. The group has sent letters to more than 100 ISPs, asking them to adopt a written policy promising to let customers know if they're targets.
+
+
+July 11, 2002, 12:35 PM PT
+ | 
+
+Read Full Story 
+
+Shareholders sue PayPal, eBay
+
+The PayPal-eBay merger has hit an early snag: Two shareholder lawsuits have been filed against the companies seeking to block the deal.
+The lawsuits, each filed in Delaware Chancery Court earlier this week on behalf of PayPal shareholders, charge that the deal represents a breach of the companies' fiduciary duty to those shareholders and that the price eBay is paying for PayPal is unfair and inadequate, the companies said in separate regulatory filings on Thursday.
+
+
+July 11, 2002, 11:50 AM PT
+ | 
+
+Read Full Story 
+
+Ellison: I don't need an understudy
+
+Deflecting continuing calls for a No. 2 executive, Oracle Chief Executive Larry Ellison said again Wednesday that the company does not need anyone to back him up.
+Ellison, responding primarily to recent news stories that the company might need a second in command, said the current team is enough to guide Oracle.
+
+
+July 10, 2002, 6:05 PM PT
+ | 
+
+Read Full Story 
+
+
+From our partners:
+
+Meet Microsoft, home networker
+
+Business Week
+
+
+The Colossus of Redmond's next bold move is into routers that'll let consumers connect their digital devices together and to the Net.
+
+
+July 11, 2002
+ | 
+
+Read Full Story 
+
+Sprint: Not out, but winded
+
+Business Week
+
+
+While it's hardly the next WorldCom, slowing wireless growth and red ink in long-distance are hardly fuel for its stock.
+
+July 11, 2002
+ | 
+
+Read Full Story 
+
+
+Also from CNET:
+
+Real-time stock quotes from CNET News.com Investor.30-day free trial!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Digicams for summer shutterbugsGoing on vacation, or just headed to the beach? Indulge your summer snapshot habit with one of our picks.
+
+
+ 5-megapixel shoot-out
+ Leica Digilux 1: street shooter"s digicam
+
+
+
+
+
+
+
+
+
+
+
+Most popular products
+Digital cameras
+1. Canon PowerShot G2
+2. Canon PowerShot S40
+3. Canon PowerShot S30
+4. Canon PowerShot A40
+5. Nikon Coolpix 995
+ See all most popular cameras
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tech hurdles ahead for e911
+Correspondent Melissa Francis looks at the technology hurdles facing wireless carriers in launching the second phase of the e911 initiative by October.
+ Watch Video
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enterprise
+
+'Father of Pentium' sets up India VC fund
+
+EMC lures HP exec to technology post
+
+Japan's major chipmakers join forces
+
+
+
+
+
+E-Business
+
+Stocks tumble to new lows
+
+Expedia snubs parent company's bid
+
+Earnings alert: Yahoo back in black
+
+
+
+
+
+
+
+Communications
+
+KPN says it will unplug KPNQwest network
+
+Verizon to ask NorthPoint claim get tossed
+
+WorldCom won't pay MCI shareholders
+
+
+
+
+
+Media
+
+Lawmakers: Keep your tunes to yourself
+
+Movielink: Bring on the experts
+
+Web users ante up for games, classmates
+
+
+
+
+
+
+
+Personal Technology
+
+Teen handheld maker wants to play
+
+RIM files second suit against Good
+
+Gamers invade Army Web site
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The e-mail address for your subscription is qqqqqqqqqq-zdnet@example.com
+Unsubscribe | Manage My Subscriptions | FAQ | AdvertisePlease send any questions, comments, or concerns to dispatchfeedback@news.com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Price comparisons |
+Product reviews |
+Tech news |
+Downloads |
+All CNET services
+
+
+
+
+
+        Copyright 2002 CNET Networks, Inc. All rights reserved.          
+
+
+
+
+

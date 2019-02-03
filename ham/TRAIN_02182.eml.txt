@@ -1,0 +1,41 @@
+Re: non-ASCII environmentOn Fri, Apr 9, 2010 at 09:14, Jerome BENOIT  wrote:
+> Hello List,
+>
+> I am writing some C code which involves ASCII characters:
+> in C related books, we can find a lot of comments about
+> ASCII character issues, as far as we are concern with portability.
+>
+> Nevertheless, something bothers me: where non-ASCII environment can be found
+> ?
+>
+> Furthermore, can such an environment be created on a Debian box ?
+> The aim is to check the portability of my code.
+
+Well, Unicode, specifically the UTF-8 encoding, is generally the standard for
+modern Linux systems. Of course, as long as you are using only characters
+that are in ASCII, UTF-8 is compatible... There is also GB 18030, China's
+Unicode encoding, but again, it is ASCII compatible.
+
+The Win32, .NET and Java platforms all use UTF-16/USC-2 (it's complicated)
+natively, which is not ASCII and is not ASCII compatible.
+
+Joel's Unicode article is from 2003, but still very useful:
+http://www.joelonsoftware.com/articles/Unicode.html
+
+Some good essays from Tim Bray:
+http://www.tbray.org/ongoing/When/200x/2003/04/06/Unicode
+http://www.tbray.org/ongoing/When/200x/2003/04/13/Strings
+http://www.tbray.org/ongoing/When/200x/2003/04/26/UTF
+http://www.tbray.org/ongoing/When/200x/2003/04/30/JavaStrings
+
+
+Cheers,
+Kelly Clowers
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2r1840f6971004091329hd85a6b26vf1b296d5f189bb6f@mail.csmining.org
+
+

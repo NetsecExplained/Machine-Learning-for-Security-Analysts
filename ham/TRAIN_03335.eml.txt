@@ -1,0 +1,27 @@
+Re: [ILUG] Interesting article on free software licencesOn Mon, Oct 07, 2002 at 09:43:11AM +0100, Ciaran Johnston wrote:
+
+> > Also there's some stuff about French consumer law forbidding sale
+> > without guarantee of anything, so software delivered as-is
+> > breaches consumer law in France. But I didn't really follow that.
+> 
+> My French is a bit iffy these days, but if this is true, does it not also
+> nullify Microsoft, Adobe and WinZip licences amongst most others? These all
+> claim no liability, no guarantees (M$ say delivered "with all faults", so
+> at least they are honest).
+
+Apparently the angle on this (i.e. selling without guarantee) is that
+software is not a product which is sold but a service which is licensed - at
+least that's what I remember reading about how M$ gets away with providing
+no guarantee in the U.S. If you're feeling rather deep pocketed, you could
+always try suing M$ to get a court's view on the matter.
+
+
+
+
+Niall
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

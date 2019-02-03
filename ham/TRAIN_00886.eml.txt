@@ -1,0 +1,11 @@
+Re: Re: East Asian fonts in LennyThanks for your support.  Installing unifonts did it well for me. ;)
+
+Nima
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEB0B28.3060400@csmining.org
+
+

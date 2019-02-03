@@ -1,0 +1,26 @@
+[ILUG] VPN implementationI need to setup a VPN between a few sites. From what I've read, the the
+choices come down (on the Linux side) to IPsec (using FreeSWAN) or CIPE.
+It seems that FreeSWAN is 'better', being an implementation of IPsec which
+is a standard. However, CIPE does the job as well for Linux clients and is
+somewhat simpler to setup. 
+
+The problem is that it's not a pure Linux situation - a couple of the sites
+run OS-X. I'm pretty sure that I'll be able to find an implementation of
+IPsec for OS-X, but I think CIPE is Linux only.
+
+So, the question is for those of you have have implemented BOTH - is there a
+significant difference in setup time and hassle between CIPE and FreeSWAN ?
+If CIPE is going to be much easier than dealing with FreeSWAN (and whatever
+on the OS-X sites) then I'll simply get a Linux box for each of the remote
+sites - with the low price of hardware, it doesn't take much more complexity
+in software to make buying hardware to use simpler software economic.
+
+
+
+Niall
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

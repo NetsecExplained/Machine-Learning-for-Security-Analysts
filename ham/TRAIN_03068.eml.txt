@@ -1,0 +1,49 @@
+Re: Epiphany browser continues to get worse and worseOn Sat Apr 17, 2010 at 15:00:15 -0400, Stephen Powell wrote:
+
+> >  "They" probably haven't fixed it since it hasn't been reported as
+> > a bug.
+>
+> As for the download problem, I didn't report a bug because someone else
+> got there first: Debian bug report number 563056.
+
+  Your message initially didn't have that link; so thanks for providing
+ it.
+
+  I think I over-reacted because I'm used to seeing people give
+ lists of alleged problems in software, but without enough details to
+ allow anybody else to confirm them, or investigate.
+ Sometimes you'll get lucky and somebody else will report it; but posting
+ to the users mailing list thing like:
+
+    * I use software XX but it is buggy and now I use something else
+
+  Just feels like a random rant, not the start of a useful or productive
+ discussion.  (Which is pretty much what you did.)
+
+> As for the reply bug, I just noticed it today; and no, I haven't
+> reported a bug yet.  I'm not sure I'm going to.  I already said why.
+
+  Indeed.  Still if it affects one site it probably affects others,
+ unless it is caused by a particularly malformed
+ HTML/javascript/whatever that site uses behind the scenes.
+
+  On that basis its useful to report, if only so that other users
+ of that particular site can see it.
+
+  Even without that perhaps saving the page, and associated media
+ to your local machine might still trigger it. If that is the case you
+ can trim down the page(s) a lot and see if you can find out what causes
+ it yourself.  (Assuming you're familiar with HTML & so on.)
+
+Steve
+--
+Debian GNU/Linux System Administration
+http://www.debian-administration.org/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100417201651.GA17362@steve.org.uk
+
+

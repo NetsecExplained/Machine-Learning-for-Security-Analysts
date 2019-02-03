@@ -1,0 +1,29 @@
+Re: Middle button click broken+ Jeremy Huddleston :
+
+> 
+> On Apr 17, 2010, at 12:20, Pierre Baguis wrote:
+> 
+> > The middle click caused the terminal to come forth.
+> 
+> You need to middle click inside the white box that was brought up.
+
+I assumed he had done that (it's what I asked him to do), in which
+case the reported behaviour indicates something odd going on. Of
+course, the xev output he posted came from the mouse leaving the xev
+window, so maybe you're right and he misunderstood the instructions.
+
+So, to make it even clearer: Move the xev window if necessary so it
+doesn't cover the terminal window. Middle click in it, preferably
+without moving the mouse, even a little. You should now see the mouse
+click event in the terminal window. The moment you move the mouse,
+tons of movement events will roll in and scroll the click events right
+out of the terminal window.
+
+- Harald
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

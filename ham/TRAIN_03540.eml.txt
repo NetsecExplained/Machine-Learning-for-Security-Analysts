@@ -1,0 +1,40 @@
+Re: The future of "nv" driver (was: Linux compatible mainboards -another thought)From nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 15:09:57 Celejar wrote:
+> On Mon, 26 Apr 2010 08:03:24 -0400
+> "James P. Wallen"  wrote:
+> > On 01/-10/-28163 02:59 PM, Celejar wrote:
+> > > On Sat, 24 Apr 2010 09:53:27 -0400
+> > > "James P. Wallen"  wrote:
+> > >> Heck, I haven't even installed the non-free firmware to make wireless
+> > >> work in a couple of these notebooks.
+> > >
+> > > Firmware runs on the external hardware, not the system, so system
+> > > stability shouldn't be an issue.  I assume that here it's just the
+> > > principle of the thing.
+> >
+>=20
+> What makes the non-free firmware question particularly interesting is
+> that the alternative is often to hardcode the functionality into the
+> hardware.  Now, if you had a board with completely closed HW, but that
+> presented an open, well documented interface for the driver, most
+> people would be very happy (although there are, of course, the open
+> hardware crusaders - more power to them!).  So, now that they've simply
+> implemented some of that functionality in SW, in the form of firmware
+> which the driver installs on the card, but which has nothing to do with
+> your host machine, are you really any worse off?
+
+As a distributor you may very well be.  If you can't provide the source cod=
+e,=20
+you can't satisfy the terms of the GPL (usually).
+
+=46irmware is often simply provided as raw bytes.  It is rarely actually=20
+developed that way.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

@@ -1,0 +1,38 @@
+Display Problems with several Web BrowsersFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Hi!
+
+I=92m having strange display problems with several web browsers. Certain
+layout parts (as borders or backgrounds) aren=92t at the appropriate
+place; and they=92re moving if I hover them. I encountered this problem
+with the following browsers:
+
+ - iceweasel from lenny-backports
+ - firefox downloaded directly from Mozilla
+ - epiphany from lenny-backports
+
+This behaviour already occured before installing firefox; and it=92s not
+caused by any plug-ins or add-ons as epiphany (which I didn=92t customize=
+)
+behaves the same (wrong) way.
+
+To illustrate the problem, I made a screenshot of e. g. German Bash
+Blog: web page [1], screenshot [2]. On other pages, there are similar
+errors.
+
+It would be great if anyone could tell me how to fix this or where to
+ask for further help.
+
+Best regards,
+Robin
+
+[1] http://german-blog.org/
+[2] http://rkrahl.de/gbo.png
+
+--=20
+Robin Krahl
+robin@rkrahl.de
+http://rkrahl.de
+

@@ -1,0 +1,24 @@
+[use Perl] Headlines for 2002-09-18use Perl Daily Headline Mailer
+
+Subscribe to The Perl Review
+    posted by pudge on Tuesday September 17, @08:00 (links)
+    http://use.perl.org/article.pl?sid=02/09/17/121210
+
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

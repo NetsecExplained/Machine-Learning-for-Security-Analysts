@@ -1,0 +1,18 @@
+Re: apt 0.5.7 on RH 7.xHi.
+
+Matthias Saou  wrote:
+> My main concern is that when rebuilding the recent packages I've made
+> for Psyche on Valhalla, I'd need to lower the "Release:" tag (to keep an
+> upgrade working), and that would f*ck up my CVS repository which is on
+> my Valhalla box
+
+Sorry, I don't get it. What's wrong with a release tag of fr1?
+
+-- 
+Do I look like a freakin' people person?
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

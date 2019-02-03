@@ -1,0 +1,22 @@
+Re: [SAtalk] Highest-scoring false positive
+"Craig R.Hughes" said:
+
+> Are you filtering the nonspamtrap for spam when those 
+> newsletters sold your address to someone you didn't sign up 
+> with?  You should probably manually verify that all the mail in 
+> the trap is in fact nonspam!
+
+Yep.  so far it's all opt-in stuff, no "affiliate deals" etc.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

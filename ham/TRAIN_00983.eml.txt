@@ -1,0 +1,115 @@
+Re: Fwd: Re: Kde 3.5 ...On 11 May 2010 13:50, deloptes  wrote:
+> deloptes wrote:
+>
+> screenshot - I need at least those app/lets working to even start thinking
+> of using kde
+>
+> - teatime
+
+p   kteatime                                                       -
+KDE 4 utility for making a fine cup of tea
+
+> - weather
+
+http://kde-look.org/content/show.php/yaWP+%28Yet+Another+Weather+Plasmoid%29?content=94106
+
+
+> - moon
+
+Check!
+
+
+> - clock/calendar
+
+Check!
+
+
+> - wireless manager
+
+Knetworkmanager works, but I prefer wicd, which has integration in
+KDE's System Settings. It's in the system tray, not on the panel. You
+can configure it to always show, though.
+
+
+> - skype
+
+Integrated into Kopete!
+
+
+> - korganizer
+
+Check!
+
+
+> - kwallet
+
+Check!
+
+
+> - cpu monitor
+
+Check, but you might want to comment here:
+https://bugs.kde.org/show_bug.cgi?id=172312
+https://bugs.kde.org/show_bug.cgi?id=191341
+https://bugs.kde.org/show_bug.cgi?id=191342
+
+
+> - infrared control
+
+How did you do this in KDE 3?
+
+
+> - powermanagement
+
+Check!
+
+
+> - keyboard
+
+i   plasma-widget-kbstate                                          - A
+plasma widget that shows the state of the modifier keys
+
+
+> - screen management (xrandr interface)
+
+Yes, built into System Settings.
+
+
+> - krypt
+>
+
+http://kde-apps.org/content/show.php/Krypt?content=80641
+
+
+> I forgot to mention that the keyboard froze after pressing ALT+F2 and
+> switching language settings
+>
+
+Please, please comment on this bug:
+https://bugs.kde.org/show_bug.cgi?id=205369
+
+
+> A HUGE trouble I see is with the keyboard layout for my mother
+> language "bulgarian"
+> Who the hell have change the default keyboard layout for the phonetic setup?
+> I've been using this for years now hen I press "W" I get seomthing
+> different ..
+> _THIS_ _IS_ _REALLY_ _ODD_ - _STUPID_ _MONKEYS_!
+>
+
+I don't speak Bulgarian, so I cannot reproduce. Please file a bug!
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinoxMbiE3v2HTcNli-955BwCfwkHXlpg7PRcBAW@mail.csmining.org
+
+

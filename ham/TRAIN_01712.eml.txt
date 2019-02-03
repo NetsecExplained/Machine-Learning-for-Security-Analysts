@@ -1,0 +1,24 @@
+Re: K3Bchecking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking target system type... Invalid configuration
+`athalon-redhat-linux': machine `athalon-redhat' not recognized
+configure: error: /bin/sh admin/config.sub athalon-redhat-linux failed
+error: Bad exit status from /home/dale/rpmbuild/tmp/rpm-tmp.26673
+(%prep)
+
+
+RPM build errors:
+    user jkeating does not exist - using root
+    group jkeating does not exist - using root
+    user jkeating does not exist - using root
+    group jkeating does not exist - using root
+    Bad exit status from /home/dale/rpmbuild/tmp/rpm-tmp.26673 (%prep)
+[dale@gandalf dale]$
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

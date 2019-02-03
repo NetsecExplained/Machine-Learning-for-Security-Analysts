@@ -1,0 +1,29 @@
+Re: automate apt-get updateHi,
+On Thu, Apr 08, 2010 at 09:02:31AM +0200, Jozsi Vadkan wrote:
+> I don't want to put:
+> 
+> apt-get update
+> 
+> in:
+> 
+> /etc/crontab
+> 
+> But then how could I "automate" the:
+> 
+> apt-get update
+> 
+> ? Is there a program for it? [e.g.: update-manager under GUI?] that
+> randomly runs apt-get update?
+> 
+> Thank you!
+
+Consider cron-apt too.
+Regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100408082708.GB1949@nacer-adamou.cm.auf.org
+
+

@@ -1,0 +1,58 @@
+[use Perl] Stories for 2002-10-03use Perl Daily Newsletter
+
+In this issue:
+    * Mailing List Judo movie available
+    * Conference Presentation Judo movie available
+
++--------------------------------------------------------------------+
+| Mailing List Judo movie available                                  |
+|   posted by gnat on Wednesday October 02, @12:47 (news)            |
+|   http://use.perl.org/article.pl?sid=02/10/02/1647249              |
++--------------------------------------------------------------------+
+
+[0]gnat writes "Mark-Jason Dominus's [1]Mailing List Judo is now
+available from perl.org. Thanks to David Wheeler for recording Mark's
+sessions. Conference Presentation Judo will come later today ..."
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/10/02/1647249
+
+Links:
+    0. mailto:gnat@oreilly.com
+    1. http://www.perl.org/tpc/2002/movies/
+
+
++--------------------------------------------------------------------+
+| Conference Presentation Judo movie available                       |
+|   posted by gnat on Wednesday October 02, @18:56 (news)            |
+|   http://use.perl.org/article.pl?sid=02/10/02/2257211              |
++--------------------------------------------------------------------+
+
+[0]gnat writes "Mark-Jason Dominus's [1]Conference Presentation Judo
+presentation is online at perl.org. Thanks again to David Wheeler for
+recording this at OSCON."
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/10/02/2257211
+
+Links:
+    0. mailto:gnat@oreilly.com
+    1. http://www.perl.org/tpc/2002/movies/mjd-conf-judo/
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

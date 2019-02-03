@@ -1,0 +1,113 @@
+Re: Configuration errors using tor, privoxy & polipoOn 16/05/10 22:13, Juan R. de Silva wrote:
+> On Sun, 16 May 2010 07:52:06 -0400, Snood wrote:
+>
+> On 05/16/2010 11:34 AM, Juan R. de Silva wrote:
+>    
+>> On Sun, 16 May 2010 08:35:29 +0100, AG wrote:
+>>
+>>      
+>>> Dear all
+>>>
+>>> On an up-to-date testing machine, I am using Iceweasel + tor + privoxy.
+>>> Florian helped me with an issue like this sometime back, but revisiting
+>>> his helpful advice has not helped on this occasion.
+>>>
+>>> The situation is as follows:
+>>>
+>>> Using Iceweasel, I enable the tor button and receive a warning message
+>>> "Tor proxy test: local HTTP proxy is unreachable. Is polipo running
+>>> properly?"
+>>>        
+>> I used Ubuntu 8.04 with Firefox 3.0.19 and the same + tor + privoxy
+>> configuration.
+>>
+>> After upgrade to Ubuntu 10.04 Firefox get upgraded to v. 3.6 and all at
+>>      
+> a
+>    
+>> sudden I get the same error message as you describe.
+>>
+>> In my case the problem was resolved by a number of random setting
+>> manipulations within Tor Button Properties:
+>>
+>> - open Tor Button Properties window;
+>> - run Test Settings (it will fail);
+>> - check "Use custom proxy settings" radio button instead of the default
+>> "Use the recommended settings..."
+>> - run Test Settings (in my case it failed again)
+>> - check "Use the recommended settings..." back and run Test Settings
+>> again. At this point all at sudden I get a positive test result and
+>>      
+> since
+>    
+>> than everything works just fine.
+>>
+>> I know all of it does not make much sense but in my case I get it fixed.
+>> Mystery. :-)
+>>
+>> It looks like this is a bug in Tor Button (or could be in FF itself?)
+>>
+>> PS. I do not remember exactly but it could be that in addition of all of
+>> the above I unchecked the Use Polipo button and than after a test
+>>      
+> checked
+>    
+>> it back again.
+>>      
+>    
+>> I'm sure it's possible to still use privoxy, but I believy that the Tor
+>> project people are recommending polipo instead.
+>>      
+> It's better if we keep conversation in public. :-)
+>
+> Currently, yes - Tor provides configuration instructions mentioning
+> Polipo instead of Privoxy.  But just a year ago they mentioned Privoxy
+> instead. I do not know why is the change. As far as I know Privoxy is
+> superior to Polipo.  Unless things changed in the last year, that I'm not
+> aware of.
+>
+> And actually to me it does not look as a "recommendation" but rather a
+> promotion of one project in favour of another.
+>
+> IMHO it's more some sort of "politics" than a recommendation. It's the
+> same as Ubuntu all at as sudden damped GIMP, Pidgin, xsane, etc in favour
+> of other worse and some times (like in case of Simple Scan) completely
+> useless applications. I do believe Canonical had their reasons. But I
+> also believe that they are based on the actual application virtues and
+> value.
+>
+> I do not argue that Tor would work just fine with Polipo. I'm sure it
+> will.  I just do not see enough reason for me or any one else to change
+> existing and perfectly functioning configuration, just because Tor
+> decided to promote Polipo.
+>
+>
+>
+>    
+Juan
+
+This is what I found too.  The IW add-on "tor button" configuration 
+located at
+
+ Preferences/ Proxy Settings
+
+lists 2 options:
+
+(a) Use the recommended proxy settings for my version of Firefox (and a 
+checkbox is marked next to the only sub-option "Use Polipo" by default) or
+(b) Use custom proxy settings
+
+Hand on heart I could not say when this change took place as I haven't 
+been using IW + tor + privoxy for a while, so this came as quite a 
+surprise.  There was a recent update to tor though, IIRC, so it may well 
+have been during that.
+
+AG
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF17C8B.7000900@csmining.org
+
+

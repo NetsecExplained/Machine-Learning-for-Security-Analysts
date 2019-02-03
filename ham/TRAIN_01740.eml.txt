@@ -1,0 +1,67 @@
+Re: Questions about RAID 6On 4/30/2010 6:39 PM, Ron Johnson wrote:
+> On 04/26/2010 09:29 AM, Tim Clewlow wrote:
+>> Hi there,
+>>
+>> I'm getting ready to build a RAID 6 with 4 x 2TB drives to start,
+>
+> Since two of the drives (yes, I know the parity is striped across all
+> the drives, but "two drives" is still the effect) are used by striping,
+> RAID 6 with 4 drives doesn't seem rational.
+
+We've taken OP to task already for this, but I guess it bears repeating.
+
+Use multiple HW controllers, and at least 7-8 drives, I believe was the 
+consensus, given that SW RAID 6 is a performance loser and losing a 
+controller during a rebuild is a real ruin-your-week kind of moment.
+
+But while some of us were skeptical about just how bad the performance 
+of RAID 5 or 6 really is and wanted citation of references, more of us 
+just questioned the perceived frugality.  With four drives, wouldn't a 
+RAID 10 be better use of resources, since you can migrate to bigger 
+setups later?  And there we were content to let it lie, until...
+
+
+
+>> but the intention is to add more drives as storage requirements
+>> increase.
+>>
+>> My research/googling suggests ext3 supports 16TB volumes if block
+>
+> Why ext3? My kids would graduate college before the fsck completed.
+>
+> ext4 or xfs are the way to go.
+
+I have ceased to have an opinion on this, having been taken to task, 
+myself, about it.  I believe the discussion degenerated into a nit-picky 
+banter over the general suitability of XFS, but I may be wrong about this...
+
+_____
+
+
+Seriously, ext4 is not suitable if you anticipate possible boot 
+problems, unless you are experienced at these things.  The same is true 
+of XFS.   If you *are* experienced, then more power to you.  Although, I 
+would have assumed a very experienced person would have no need to ask 
+the question.
+
+Someone pointed out what I have come to regard as the best solution, and 
+that is to make /boot and / (root) and the usual suspects ext3 for 
+safety, and use ext4 or XFS or even btrfs for the data directories.
+
+(Unless OP were talking strictly about the data drives to begin with, a 
+possibility I admit I may have overlooked.)
+
+
+Have I summarized adequately?
+
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDB718C.3060402@allums.com
+
+

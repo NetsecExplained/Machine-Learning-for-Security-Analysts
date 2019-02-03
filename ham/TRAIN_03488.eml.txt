@@ -1,0 +1,43 @@
+Re: device namesFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 27 April 2010 13:46:23 Frank McCormick wrote:
+> I recently installed Ubuntu 10.04 on the "other" partition on my
+> hd ( /dev/hda3) and came across a problem no one on the
+> Ubuntu forums could really resolve.
+> Grub2 was installed at the same time as Ubuntu, and the whole
+> installation worked fine..for Ubuntu.
+> However Grub2 could not boot Debian Squeeze on /dev/hda2.
+> Update-grub kept putting /dev/sda2 in its grub.cfg and Squeeze
+> could not boot from that. It also did not use UUIDs for Debian
+> despite the face that seems to be the default.
+> Grub2 is installed in the MBR.
+>=20
+> The only solution I could find after days was to install Grub2 from
+> Debian, again in the MBR. Its config boots both fine, using UUIDs.
+>=20
+> Is this a Grub bug in Ubuntu, or will Debian eventually start
+> calling HD partitions by the same syntax?
+
+The kernel from lenny-backports, testing, or sid will probably be using the=
+=20
+same device naming as Ubuntu.
+
+Likely it is not using UUIDs trying to be compatible with initramfs-es or=20
+other systems that don't like them.  But, as you've seen, using the "raw"=20
+device name doesn't really help either.  Different kernel versions, and eve=
+n=20
+kernels compiled with different options, will use different "raw" names for=
+=20
+the devices.  In odd setups, the device name might change from boot to boot=
+ as=20
+devices are (now) discovered asynchronously so they may be assigned names i=
+n a=20
+different order based how quickly they respond to the kernel.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

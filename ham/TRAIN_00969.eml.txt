@@ -1,0 +1,32 @@
+Re: kde SC 4.4From nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi Nate,
+
+Am Freitag 07 Mai 2010 schrieb Nate Bargmann:
+> I also
+> think that setting a different wallpaper for each desktop could be more
+> intuitive than having to enable desktop activities in the Settings
+> Manager, then zoom out with the cashew, then set the wallpaper via
+> right-click menu from each desktop, and find out it's a craps shoot=20
+> which desktop has which wallpaper.  But those are nits I've noticed=20
+> so far and are fixable.
+
+The activities system upto to KDE 4.4 IMHO is quite broken. Activity=20
+selection is slow, it forgets which activity is mapped to which desktop=20
+from time to time and and and... I reported about 10 bugs just regarding=20
+that activity system in KDE's bugtracker, of which a user named Beat Wolf=20
+marked most invalid in the last days cause this stuff gets completely=20
+rewritten in KDE 4.5. In KDE 4.5 there will be a new activity system=20
+sporting Nepomuk and whatnot, I think there has been a blog post, maybe by=
+=20
+Aaron Seigo on Planet KDE.I agree rewriting the stuff is one of the better=
+=20
+things you can do with it ;-).  Let's see what comes out of it.
+
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

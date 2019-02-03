@@ -1,0 +1,50 @@
+RE: iptables..WTF???On Thu, 2010-04-29 at 15:12 -0700, Kevin Ross wrote:
+> > What the heck happened this afternoon??
+> 
+> I don't know, but I'd start by making sure your interface names and IP addresses haven't changed for some reason.
+> 
+> 
+
+Everything seems pretty kosher here:
+
+root@dl580:~# ifconfig 
+eth0      Link encap:Ethernet  HWaddr 00:03:47:42:5c:17  
+          inet addr:10.0.1.2  Bcast:10.0.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::203:47ff:fe42:5c17/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:269554 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:377509 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:94728650 (90.3 MiB)  TX bytes:529355083 (504.8 MiB)
+
+eth1      Link encap:Ethernet  HWaddr 00:03:47:42:5c:18  
+          inet addr:PUBIP  Bcast:PUBBC  Mask:255.255.255.248
+          inet6 addr: fe80::203:47ff:fe42:5c18/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:965 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:60601 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:222867 (217.6 KiB)  TX bytes:10472879 (9.9 MiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:14139 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14139 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1690483 (1.6 MiB)  TX bytes:1690483 (1.6 MiB)
+
+
+I checked all the logs but nothing suggests there was any interface or
+IP modification (both IPs are static).
+
+-RV
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1272579837.24573.19.camel@osmosis.gnet.eu
+
+

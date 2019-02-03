@@ -1,0 +1,52 @@
+Re: akonadi first time start bugs with KDE 4.4.3From nobody Sun Sep 18 20:45:27 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Frederik Schwarzer:
+> [Martin Steigerwald - Donnerstag 06 Mai 2010 11:34:57]
+>=20
+> > Hi!
+> >=20
+> > JFYI as this might (partly) be packaging related.
+> >=20
+> > I found the following bugs with Akonadi since I upgraded to KDE 4.4.3
+> > happening often, possibly always when I start Kontact for the first
+> > time after starting a KDE session. On further starts of Kontact it
+> > works as
+>=20
+> > expected:
+> Umm, that's interesting. I had this since KDE 4.4.0 (self-compiled) and
+> it vanished when switching from the 4.4.2 debs to the 4.4.3 ones.
+> So I thought it was just fixed for 4.4.3. Now I wonder what I did to
+> make it work.
+
+Well: Thats what I mean. Do you *understand* whats going on there?
+
+I am a Linux trainer, consultant and administrator since >5 years and=20
+still don't get *why* this happen and *what* it triggers. I might get it=20
+when I study MySQL, DBUS, Resource Agents, Nepomuk, *whatever* else it=20
+uses - but I am and I want to be *just a user* of this stuff.=20
+
+So I think this is for upstream to solve - and if it ain't work reliably=20
+in KDE 4.4 I think it has to be fixed within KDE 4.4 series. Akonadi might=
+=20
+use MySQL or not, but it if uses it, KAddressBook should still just work=20
+*predictably*.
+
+Thus I suggest reporting anything like that upstream - especially to you,=20
+Boyd - complaining here probably just won't help. And if upstream does not=
+=20
+get bug reports they probably don't even know that something is broken on=20
+probably only *some* systems.
+
+Some issues might be packaging related, but then I hope to get hints back=20
+from upstream developers so that I can file debian bug reports with proper=
+=20
+suggestions. Until then I think I default to reporting upstream, unless=20
+someone convinces me to do elsewise.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

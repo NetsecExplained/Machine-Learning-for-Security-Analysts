@@ -1,0 +1,22 @@
+Re: Anybody know what this is all about?  [Re: Anacron job 'cron.weekly' on whitemac]On 2010-05-17 20:07 +0200, Rick Thomas wrote:
+
+> On May 16, 2010, at 7:59 AM, Anacron wrote:
+>
+>> /etc/cron.weekly/apt-xapian-index:
+>> Traceback (most recent call last):
+>>  File "/usr/sbin/update-apt-xapian-index", line 71, in 
+>>    warnings.filterwarnings("ignore","")
+>> NameError: name 'warnings' is not defined
+>> run-parts: /etc/cron.weekly/apt-xapian-index exited with return code 1
+
+http://bugs.debian.org/581736
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87mxvy1h46.fsf@turtle.gmx.de
+
+

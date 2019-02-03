@@ -1,0 +1,30 @@
+Re: Insert signatureIn a message dated: Thu, 22 Aug 2002 13:53:55 CDT
+Ulises Ponce said:
+
+>Thanks Paul,
+>That is the way I am doing right now, but I would like to NOT use the mouse 
+>for such things. Any other clue?
+
+The best I can think of is to figure out what the command being 
+issued by exmh is that selects and inserts the sig and bind that to a 
+key sequence.  That shouldn't be *too* difficult, it's just a matter 
+of figuring out the tcl (something my perl-based brain isn't excited 
+about :)
+-- 
+
+Seeya,
+Paul
+--
+	It may look like I'm just sitting here doing nothing,
+   but I'm really actively waiting for all my problems to go away.
+
+	 If you're not having fun, you're not doing it right!
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+

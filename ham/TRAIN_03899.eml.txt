@@ -1,0 +1,35 @@
+Re: Why does /dev/rtc0 belong to group audio in Lenny but not in Sid?On 2010-05-12 10:06 +0200, Rick Thomas wrote:
+
+> In Lenny, "ls -ld /dev/audio" gives
+>
+>> lenny:~$ ls -ld /dev/rtc0
+>> crw-rw---- 1 root audio 254, 0 May  2 15:25 /dev/rtc0
+
+Ugh.  This is not really desirable.
+
+> But in Sid, it gives
+>
+>> sid:~$ ls -ld /dev/rtc0
+>> crw-rw---- 1 root root 254, 0 May 10 23:51 /dev/rtc0
+>>
+>
+> Anybody know why?
+
+,----[ /usr/share/doc/udev/changelog.Debian.gz ]
+| udev (0.140-1) unstable; urgency=low
+| [...] 
+|   * permissions.rules: removed rtc group audio.
+| [...]
+|  -- Marco d'Itri   Mon, 23 Mar 2009 13:16:50 +0100
+`----
+
+HTH,
+    Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87ljbp7c5y.fsf@turtle.gmx.de
+
+

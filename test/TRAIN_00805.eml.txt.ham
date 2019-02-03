@@ -1,0 +1,24 @@
+Re: [SAtalk] dependencies / pre-requisites for installation in
+    FreeBSD> > Would someone please enlighten me on dependencies / pre-requisites
+> > for installation in FreeBSD. The 'official' documentation isn't
+particularly
+> > explicit about this stuff .... eg 'procmail' is mentioned but without
+saying
+> > whether or not its essential, & no info provided on whether GNUmake is
+> > required or if standard BSD 'make' is OK.
+>
+> I thought we were quite good about it, in the README file!
+>
+> procmail is essential *if* you're using (a) SpamAssassin for local
+> delivery, (b) not using a milter, and (c) not using a Mail::Audit
+> script instead.  So probably yes.
+>
+> BSD make is OK, if Perl generally uses it to build Perl modules.
+> SpamAssassin is just anotehr Perl module in that respect.
+>
+Back to this stuff again  ..... searched high & low but definitely nothing
+on this system even vaguely resembling a README file for spamassassin.
+I have procmail installed but having major problems comprehending the
+setup .... would appreciate info on any 'simple english' HOWTo
+
+

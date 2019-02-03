@@ -1,0 +1,60 @@
+Re: KDE Issues under "Squeeze"Adrian von Bidder wrote, on 25/04/10 23:22:
+> Hi,
+>
+> On Sunday 25 April 2010 05.49:44 lrhorer wrote:
+>> KDE is much more stable, but still has problems.
+>
+> Hmm.
+>
+> Using KDE 4 for months now; currently 4.4 from experimental.  If that's
+> what'll end up in squeeze I wouldn't say "it has problems" in general.  KDE
+> certainly is far from bug-free, but it's very usable as an everyday desktop.
+> ( Sune&  Co: you can consider this a general reportbug --kudos :-)
+>
+> lrhorer: I recommend you update to the packages that are currently in
+> experimental and check if the problems are still there.  I'm sure bug
+> reports are welcome.  If you can be bothered to do the necessary work and
+> separately report packaging issues to the Debian bts and KDE 4.4 issues to
+> the KDE bug reporting sysstem, then all the better..
+>
+> cheers
+> -- vbi
+>
+
+Agreed, but where do I file a bug in Debian to say that instructions on 
+how to report a bug upstream and how to mark the bug originally reported 
+in Debian has been forwarded upstream are lacking?
+
+I've just attempted to do this with icedove ( 
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=579095 ) but how does 
+one do this for the general case?
+
+I found the instructions on marking a Debian bug as forwarded upstream 
+not via the Debian wiki or any package's instructions on reporting bugs 
+with packages upstream, but by a Google search which lead to:
+http://www.debian.org/Bugs/server-control
+
+Many packages do *not* list the upstream site for the package or how to 
+report bugs upstream anywhere within /usr/share/doc/ but 
+ideally they should be listed:
+
+- in the manual page for the programs/configuration files for that package
+
+- in /usr/share/doc/
+
+and in the reportbug script for that package.
+
+I do appreciate all the work of the Debian developers/packagers/release 
+people, but please help "fill in the gaps" or "connect the dots" on how 
+to go about reporting bugs that may affect both Debian users and the 
+upstream package.
+
+Arthur.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ge0ea7-1d2.ln1@ppp121-45-136-118.lns11.adl6.internode.on.net
+
+

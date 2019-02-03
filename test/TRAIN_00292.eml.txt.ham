@@ -1,0 +1,59 @@
+Netbeans Hang I have to force quit out of Netbeans once or twice a day, running
+on Snow Leopard.  When I look at the log I see a cryptic error message
+like this one:
+4/19/10 4:04:24 PM	com.apple.launchd.peruser.501[98]	 
+([0x0-0x14014].org.netbeans.ide.baseide.200912041610[182]) Exited with  
+exit code: 143
+
+Anyone have advice on preventing these problems?  Googling for 143
+suggests it applies to a lot of different things, but might just be  
+the JVM
+telling me it has been killed.
+- Tod
+
+On Sep 30, 2009, at 4:41 AM, Jean-Christophe Helary wrote:
+
+>
+> On 30 sept. 2009, at 20:36, Hendrik Schreiber wrote:
+>
+>>> All the xeres Jar files I seem to have on my machine are packaged  
+>>> with stand alone applications.
+>>
+>> Did you check /Library/Java/Extensions and ~/Library/Java/ 
+>> Extensions ?
+>>
+>> There is at least one Java app out there that puts a xerces.jar  
+>> into ~/Library/Java/Extensions - unfortunately I don't know which  
+>> one, but users told me about the issue.
+>> In my app it shows up as NoSuchMethodError, so if that gets thrown  
+>> and ~/Library/Java/Extensions/xerces.jar exists, I prompt the user  
+>> to get that thing out of the way...
+>
+> Hendrik,
+>
+> There was indeed a xeres.jar in ~/... and now the app works !!!
+>
+> Thank you very much !
+>
+>
+>
+>
+>
+> Jean-Christophe Helary
+>
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/tod%40dbentrance.com
+>
+> This email sent to tod@dbentrance.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

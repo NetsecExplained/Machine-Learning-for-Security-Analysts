@@ -1,0 +1,38 @@
+Re: How to manage multiple Internet connections?From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Mark Allums wrote:
+>> Andrei Popescu wrote:
+>
+>>> Probably a good start (whatever technology you end up using) is a
+>>> GNU/Linux (preferably Debian) machine connected to both internet link=
+s
+>>> and your internal network since consumer gateways don't even have mor=
+e
+>>> than one WAN port[2].
+>
+> I would like to point out that Cradlepoint makes a few routers that
+> have a port that can be assigned as either a switch port or a 2nd WAN
+> port. These Cardlepoint routers have load-balancing capabilities.
+>
+> They accept 3G wireless aircards, having a PCMCIA or Express slot, as
+> well as USB ports (for USB aircards or tethered smartphones).  These
+> routers can also failover from the ethernet WAN to aircard.
+>
+> I have a Cradlepoint MBR1200 model.  I use it with a Blackberry.  I
+> have not experimented extensively with multiple WAN connections, howeve=
+r.
+>
+> One big downside is that they are expensive.
+Thanks for pointing this out. I didn't know it.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

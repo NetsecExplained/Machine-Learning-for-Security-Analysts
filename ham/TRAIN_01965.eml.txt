@@ -1,0 +1,28 @@
+Re: About USB hard drives and errorsFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,10.Apr.10, 16:24:45, Paul E Condon wrote:
+=20
+> The errors that I am experiencing are all similar. The first
+> indication of a problem is a message from the kernel (I think). An
+> example is:
+>=20
+> kernel: [78454.939948] journal commit I/O error
+=20
+[...]
+=20
+> When this happens, all the USB drives (3 of them) disappear from
+> /dev/disks/by-label (they are all labeled by me). I have not
+
+Just a long shot, bun since you are connecting 3 USB drives to the same=20
+computer you might experience power issues. If you connect only one=20
+drive do you get the same issues? Or you could try a powered USB hub if=20
+you have one.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

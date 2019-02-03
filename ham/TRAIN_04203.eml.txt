@@ -1,0 +1,62 @@
+Re: [ILUG] Retrieving read mail from webmail.eircom.net via POP ?Seems fetchmail has a -a switch to get it all.
+
+Just need to install fetchmail now :)
+
+Glen
+
+On Mon, 2002-10-07 at 10:17, Stephane Dudzinski wrote:
+> Funny enough, that also happened to a Friend of mine who uses both the
+> web interface and a pop client. Last time i tried to send a picture
+> which was around 100k, it got denied saying that quota was exceeded.
+> When he looked at his account on the web, it mentionned 5 MB free, so i
+> have no idea what they're playing at ...
+> 
+> Doesn't really help but just wanted to confirm the problem. 
+> 
+> Steph
+> 
+> On Mon, 2002-10-07 at 10:10, Glen Gray wrote:
+> > Is there a way to get my read email downloaded off webmail.eircom.net.
+> > 
+> > I've been reading the emails using the web based interface. But I've
+> > reached my quota limit. There doesn't seem to be any way to get the
+> > emails off the server. I can connect to the account using POP, but that
+> > only retrieves unread emails. There's also no way to mark emails as
+> > unread from the html interface.
+> > 
+> > Is there a way I can use fetchmail perhaps to get it to pull down all
+> > the emails and remove them off the server.
+> > 
+> > It's been years since I've used fetchmail, I don't recall be able to do
+> > this.
+> > 
+> > Any other suggestions welcome. There's a few hundred email so I don't
+> > fancy going through each one forwarding it to another account.
+> > 
+> > Glen
+> > 
+> > 
+> > 
+> > 
+> > -- 
+> > Irish Linux Users' Group: ilug@linux.ie
+> > http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> > List maintainer: listmaster@linux.ie
+> -- 
+> ______________________________________________
+> Stephane Dudzinski       Systems Administrator
+> NewWorldIQ            	     t: +353 1 4334357
+> www.newworldiq.com           f: +353 1 4334301
+> 
+> -- 
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+> List maintainer: listmaster@linux.ie
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

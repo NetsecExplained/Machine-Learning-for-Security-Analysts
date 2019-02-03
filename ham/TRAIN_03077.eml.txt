@@ -1,0 +1,27 @@
+Re: req: Falcon's eyeOn Tue, 2002-07-30 at 19:53, Harri Haataja wrote:
+
+> > > Another thing I see in debian but not in my RH boxen.
+> > > http://falconseye.sourceforge.net/
+> > > It's a GL(?) interface to nethack :)
+
+> > Take a look at , I have RPMs for RH7.3
+> > there, based on (and compatible with) the NH3.x that last appeared in
+> > RH7.1 powertools.  apt'able, of course :)
+> 
+> And Text-Iconv too, nice :)
+> 
+> Gpg key is nowhere in sight though even while vendors.list lists key
+> id's.
+
+Oops, fixed (in /apt/vs.key.asc).  Thanks for pointing that out.
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,21 @@
+netatalk-1.5.5-1rh7Hi folks, I just uploaded RPMS of the new netatalk 1.5.5 released 
+yesterday, thought folks here might be interested.  This release fixes a 
+nastygram in saving files via Illustrator that I personally have been 
+waiting for....
+
+   http://ftp.falsehope.com/home/tengel/netatalk/
+
+(will be mirrored on rpmfind.net by tomorrow, usually).
+
+-te
+
+-- 
+Troy Engel, Systems Engineer
+Cool as the other side of the pillow
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

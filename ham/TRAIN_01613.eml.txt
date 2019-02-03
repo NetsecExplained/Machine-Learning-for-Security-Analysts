@@ -1,0 +1,37 @@
+Re: How to keep debian current??From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Op 18-05-10 21:21, Mark Allums schreef:
+> On 5/18/2010 10:34 AM, Osamu Aoki wrote:
+>> On Mon, May 17, 2010 at 11:07:10AM -0500, Mark Allums wrote:
+>=20
+>>> Thank you.  This is contrary to what the main Debian site says in
+>>> multiple places, but it is plausible.  Good to know.
+>>
+>> Could you be more specific where you saw them or where you got this
+>> impression?  So we can make corrective action to reduce confusion.
+>=20
+> ...
+>
+
+> Information regarding security is centralized in a single point,
+> http://security.debian.org/.
+>=20
+Anyway, to also clearly answer the question about testing security
+support, same manual #8:
+Q: How is security handled for testing?
+
+A: If you want to have a secure (and stable) server you are strongly
+encouraged to stay with stable. However, there is security support for
+testing: The Debian testing security team handles issues for testing.
+They will make sure that the fixed packages enter testing in the usual
+way by migration from unstable (with reduced quarantine time), or, if
+that still takes too long, make them available via the the normal
+http://security.debian.org infrastructure. To use it, make sure the
+following line is in /etc/apt/sources.list:
+
+So yes, testing *does* receive security support
+
+Sjoerd
+

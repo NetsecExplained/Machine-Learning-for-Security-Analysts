@@ -1,0 +1,22 @@
+Re: How to keep debian current??On 05/15/2010 08:16 AM, RyanJB wrote:
+> Thanks for the comprehensive reply, it's like you just whipped up
+> a new documentation for this problem ;)
+>
+> I think it's best for me to run lenny with backport. My need is
+> actually only a stable home system. I do favor current apps
+> though; I often use betas (but not alphas), but I can live with
+> old apps.
+>
+
+Then use Sid.  Lots of non-geeks do.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEEA03D.1000905@cox.net
+
+

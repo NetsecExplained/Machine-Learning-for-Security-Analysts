@@ -1,0 +1,30 @@
+Re: Technical questionsOn Wed, 28 Apr 2010 09:32:12 -0400 (EDT), Paul E Condon wrote:
+> 
+> My impression of how things worked in the past on this list is that
+> each user used mutt for his/her MUA, and procmail for filtering.
+> People, or topics that did not meet the personal standards of an
+> individual were quietly committed to /dev/null .
+> 
+> Some users, I think, had set up very complex logic for dealing with
+> html in email. My approach was to remain clueless about how to set up
+> mutt to open html emails. The current situation is well within my 
+> procmail skill set. For me, it is somewhat like how I deal with Fox
+> News, and other abominations of modern life. ;)
+
+One of these days I'll have to experiment with mutt or some other
+Linux-based e-mail agent.  Things like this provide me with motivation
+for doing so.  That being said, there is still no excuse for abuse.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/193042614.51134.1272462051047.JavaMail.root@md01.wow.synacor.com
+
+

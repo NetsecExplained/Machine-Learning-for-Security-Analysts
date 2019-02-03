@@ -1,0 +1,21 @@
+ParallelsURL: http://diveintomark.org/archives/2002/09/24.html#parallels
+Date: 2002-09-24T20:38:57-05:00
+
+_Jeffrey Zeldman_: OS X Blues update[1]. 
+
+    A couple of intellectuals have pointed out parallels between the rigidity 
+    of OS X, which derives its power from Unix and XML, and the rules of 
+    standards-based web development, which also compels you to do things the 
+    right way instead of using five different non-standard hacks. The parallel 
+    is not without merit. Building web pages the right way is hard at first, 
+    but once you get it, you never want to go back. Regardless, we miss OS 9's 
+    flexibility and ease of use, and a metric ton of logic doesn't offset that 
+    feeling of loss. 
+
+
+
+
+
+[1] http://www.zeldman.com/daily/0902a.html#osxbluesupdate
+
+

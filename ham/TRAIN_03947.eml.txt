@@ -1,0 +1,27 @@
+Re: Webkit2 (was Re: Epiphany browser continues to get worse and
+ worse)On 2010-04-20 17:12, Mark Allums wrote:
+> On 4/20/2010 4:18 PM, Ron Johnson wrote:
+[snip]
+>>
+>> Even though I'm an official Grumpy Old Man, the know the reasons for
+>> "2.0". It's just that now I know that most of them are screaming piles
+>> of horse manure.
+>>
+> 
+> 
+> That won't stop them from moving to it.
+> 
+
+Because there will always be Eager Young Geeks who think they know 
+better.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCE2EA7.7060303@cox.net
+
+

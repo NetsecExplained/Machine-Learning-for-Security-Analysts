@@ -1,0 +1,46 @@
+Re: Is acroread blind, or ps2pdf dangerous?From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sjoerd Hardeman wrote:
+> Op 13-05-10 23:40, Merciadri Luca schreef:
+>  =20
+>> Sven Joachim wrote:
+>> Thanks for this answer. There are *many* reasons not to use pdfLaTeX.
+>> They do not enter in the scope of this mailing list, but I am pretty
+>> sure you will find them directly on the Internet. For example, pdfLaTe=
+X
+>> encourages one to use directly JPG, etc., for the inclusion in the
+>> document, which is pretty bad. There are also many incompatibilities
+>> with different packages.
+>>    =20
+> Or png or pdf which basically is eps or even real eps via the epstopdf
+> package.
+>  =20
+/
+> Sorry, pdflatex offers more choice. That's not a bad thing.
+>  =20
+I do not agree, sorry. PDFLaTeX generally write bigger PDFs, simply
+because there is no compression (consider for example
+http://www.tug.org/pipermail/pdftex/2004-June/005046.html). Moreover, I
+think that psTricks does not work with PDFLaTeX (you need to use PDFTrick=
+s).
+
+I also vaguely remember about many situations where, if I had had to use
+PDFLaTeX, I would not have been able to produce the same document,
+because I would have had to change many packages which were incompatible.=
+
+
+You might ask on comp.text.tex, this is a better place for this, because
+this is my point of view, and it is not shared by the whole community.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Instruction ends in the schoolroom, but education ends only with life.
+(F. W. Robertson)
+

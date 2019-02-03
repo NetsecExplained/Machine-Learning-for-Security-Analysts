@@ -1,0 +1,24 @@
+Re: KDE's LCD weather station appletOn Thu, 06 May 2010 15:47:15 +0300, Aioanei Rares wrote:
+
+> Hi everyone,
+> 
+> Can anyone tell me what package provides the KDE applet called "LCD
+> Weather Station"?
+> I found a bug in it and don't know against what should I report it
+> against. 'aptitude search'
+> and grep don't seem to help (or I'm having a blank moment). Thanks.
+
+That widget should be in "plasma-widgets-addons".
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.06.14.11.07@csmining.org
+
+

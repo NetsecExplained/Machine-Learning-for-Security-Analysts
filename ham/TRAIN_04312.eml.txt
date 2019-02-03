@@ -1,0 +1,30 @@
+Re: CVS reportFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson 
+> Date:  Thu, 22 Aug 2002 20:23:17 +0200
+>
+> 
+> Oooops!
+> 
+> Doesn't work at all. Got this on startup and on any attempt to change folde
+> r (which fail)
+
+~sigh~  I'd already found that and checked it in....apparently I did so after 
+you checked it out and before you sent this mail...I hoped I was fast enough 
+that you wouldn't see it.
+
+Try again!
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

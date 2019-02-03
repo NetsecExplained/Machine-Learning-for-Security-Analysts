@@ -1,0 +1,62 @@
+Re: Automated forwarding
+>>>>> On Fri, 13 Sep 2002, "Wendy" == Wendy P. Roberts wrote:
+
+  Wendy> I've been trying to set a button called which
+  Wendy> automatically forwards mail using a '-form mycomps'
+  Wendy> without going through the editor, but so far haven't got
+  Wendy> the right recipe.
+
+I have one that uses dist to send stuff from my work mail to my 
+home mail.  The binding looks like this:
+
+set {bindings(key,HD_Dist_Silently -form distcomps.to-me)} 
+
+The "HD_Dist_Silently" is a hacked up version of the proc that 
+does dist in exmh and is pasted in below.  It's getting old and 
+probably should be "resynced" with the current code.  But it 
+still works (on a relatively recent CVS copy of exmh)
+
+It's also possible that there's an easier way but I hacked this 
+together quickly a year or more ago and when it worked I moved 
+on to other tasks.
+
+--Hal
+
+proc HD_Dist_Silently { args } {
+
+    global exmh msg
+    set exmh(ctype) {dist}
+    if {[string length $args] == 0} {
+	set args Mh_DistSetup
+    }
+
+    if [MsgOk $msg(id) m] {
+	if {[string compare [info command $args] $args] == 0} {
+	    # Old interface with hook procedure
+	    if [catch {$args $exmh(folder) $m} err] {   ;# Setup draft msg
+		Exmh_Status "${args}: $err" purple
+		return
+	    }
+	}  else {
+	    if [catch {
+		Exmh_Status "dist +$exmh(folder) $m"
+		eval {MhExec dist +$exmh(folder) $m} -nowhatnowproc $args
+		MhAnnoSetup $exmh(folder) $m dist
+	    } err] {
+		Exmh_Status "dist: $err" purple
+		return
+	    }
+	}
+        Edit_Done send				;# Just send it
+    }
+}
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

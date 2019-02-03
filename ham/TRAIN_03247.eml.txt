@@ -1,0 +1,18 @@
+Re: RH 8 no DMA for DVD driveOn Sun, 2002-10-06 at 21:17, Alvie wrote:
+> hdparm -d1 /dev/hdc says Operation not Permitted.
+> DVD playback is very jumpy.
+> Does someone have any ideas on what I can do yo get DMA transfers?
+> Thanks Alvie
+
+Add to /etc/modules.conf:
+
+options ide-cd dma=1
+
+-- 
+Chris Kloiber
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,13 @@
+Re: sh command issueFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 30/04/10 19:34, Gary wrote:
+> system("g++ $files $incl $libs 2>build.log&");
+
+Note this is risky: the system call will return as soon as the g++
+process is invoked, rather than when it completes - the trailing '&'
+should be removed.  Also, any stdout output will still hit your console
+(although I presume, since things appear to be working, that there isn't
+any/much stdout output)
+

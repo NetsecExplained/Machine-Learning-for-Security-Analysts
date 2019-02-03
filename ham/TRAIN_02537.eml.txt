@@ -1,0 +1,30 @@
+TRAMP UpdateURL: http://www.aaronsw.com/weblog/000611
+Date: 2002-09-23T23:21:12-06:00
+
+Finally finished up (most of) TRAMP, my RDF interface for Python. (If you don't 
+use RDF or Python you can probably safely skip this entry.)  
+
+New in this version: RDF library abstraction (because rdflib's organization 
+currently sucks), write values in addition to reading, and unit tests, all with 
+that old TRAMP flavor you've come to know and love.  
+
+_But wait,_ it also comes with an entire page of explanation/advertisement[1] 
+if you're not already convinced.
+
+
+
+    RDF/XML got you down? Tired of having to go through contortions to deal 
+    with data? Want to write Python and be standards-compatible at the same 
+    time? Need a module to implement the psuedo-code you had on your slides? *
+    TRAMP may or may not be the answer to these problems!*
+
+
+
+Enjoy, and get a free bonus prize if you can tell me[2] why it's called TRAMP.
+
+
+
+[1] http://www.aaronsw.com/2002/tramp
+[2] mailto:me@aaronsw.com
+
+

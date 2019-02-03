@@ -1,0 +1,21 @@
+Re: [ILUG] vanquishing the daemons of shell scriptingOn Sat, Jul 20, 2002 at 12:18:57PM +0100, Kenn Humborg wrote:
+> > mine, and i is happy person once again. In case you were wondering, the
+> > aim of all of this was to write a shell script that could check for new
+> > mail on an imap server.
+> 
+> Doesn't answer your question, but perhaps a combination of expect and
+> (netcat or telnet) might have made for an easier solution?
+
+Indeed, and that was the fall-back plan if i couldn't figure this out,
+but i knew it had to be possible, and was determined to find a way.
+
+Steve
+-- 
+"Oh look, it's the Pigeon of Love."
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

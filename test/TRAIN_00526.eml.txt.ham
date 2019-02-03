@@ -1,0 +1,27 @@
+Re: aptitude in lenny: cmdline queueing of packagesOn Fri, Apr 30, 2010 at 09:14:43PM -0500, Brian Ryans  was heard to say:
+> In Aptitude, I can execute queued package modification orders (install,
+> remove, etc) by use of 'aptitude install', with no arguments.
+> 
+> How does one queue packages using only the command line? I'm looking to
+> duplicate the following sequence done in the curses UI:
+> 
+> sudo aptitude
+> /* browse package lists, find desired pkgs to install */
+> Q
+> 
+> Standard information sources (README, usd/aptitude, etc) were no-go as
+> to getting the information.
+> 
+> Any pointers would be appreciated.
+
+  Add --schedule-only to the command-line.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100503140737.GB14980@emurlahn.burrows.local
+
+

@@ -1,0 +1,31 @@
+Re: apect ration change on wide monitorOn Mon, 17 May 2010 14:46:25 +0200, Martin wrote:
+
+(...)
+
+> So after reading replays my conclusion is that none of LCD wide monitors
+> do not offer possibility to change aspect ratio by software. Same that
+> designers of monitor and protocol that its use to communicate with
+> computer did not thing about this feature. I hope that I am wrong.
+
+Well, for watching movies in your PC you can always use the media player 
+abilities to re-scale the video into 4:3 aspect ratio :-)
+
+But if your vga card cannot provide higher resolutions to the monitor, 
+then you are stuck: LCDs can only work well at their native resolution. 
+So your first step should be to find the specs of your VGA card and check 
+what is the maximum resolution it can provide.
+
+Your display will be happy at 1680x1050@60Hz.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.17.13.28.01@csmining.org
+
+

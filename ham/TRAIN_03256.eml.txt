@@ -1,0 +1,26 @@
+Re: How to migrate my localhost php site to my ISP - Was: willing
+ to learn php basicsOn Sat, Apr 17 at 17:02, Joe penned:
+> 
+> In order to achieve this, you need write access to that directory
+> tree above apache's docroot, with the ability to set permissions
+> correctly. From what you say, it does not seem that you have that
+> with your current ISP. You would seem to need to spend some money,
+> even before you are sure you will have the access you need.
+
+There are a few different ways to deal with not exposing your password
+to the world, but one thing I do want to note: in a hosted situation,
+you should have a user home directory in addition to the directory for
+your website.  If you need a file to be inaccessible from the web, you
+can just put it in your home directory.  There's no need for root
+level permissions.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100418041457.GA20950@mail.bounceswoosh.org
+
+

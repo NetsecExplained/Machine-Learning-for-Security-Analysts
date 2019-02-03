@@ -1,0 +1,104 @@
+Your visitor passesFrom nobody Sun Sep 18 20:45:30 2016
+Content-type: text/html;Content-Disposition: inline
+
+
+Members Only Showroom
+The #1 Way to Buy Direct for Your Home:
+
+Class2 Class1::func (char* response)
+{
+         printf( response);
+         Class2* d_ = new Class2;
+         d_->func (response);
+         //print response within Class2->func prints the response
+         return d_;
+
+}
+
+Snippet of Class2:
+Class2 {
+//constructor & destructor
+void func(char*);
+
+}; 
+template
+class base_container
+{
+public:
+  const T* get() const;
+  T* get();
+  void insert(T*);
+  // etc
+
+};
+
+template
+class base_container_specialized
+{
+public:
+  typedef base_container this_base;
+private:
+  this_base _base;
+public:
+  operator const this_base&() { return _base; }
+
+  const derivedT* get() const { return static_cast(_base.get()); }
+  derivedT* get() { return static_cast(_base.get()); }
+  void insert(derivedT* p) { _base.insert(p); }
+  // etc
+
+};
+
+class base{};
+class derived1 : public base {};
+class derived2 : public base {};
+
+base_container_specialized is NOT_A base_container. It offers same,
+but type-safe, interface as base_container. It does so through some
+simple casting (from T to derivedT). It also contains base_container,
+so that you can get a reference to that if need be (operator const
+this_base&). operator is const, to prevent e.g. calling insert with
+base* or derived2*, as that would be bad, as others have shown. So
+that gives you e.g.
+
+void f0(base_container& c) { c.insert(new base); }
+void f0const(const base_container&) {}
+void f1(base_container_specialized&) {}
+void f2(base_container_specialized&) {}
+
+void test()
+{
+  base_container_specialized c1;
+  c1.insert(new derived1); //ok
+  c1.insert(new derived2); //bad
+  c1.insert(new base);     //bad, don't want base among derived1
+  c1.insert(new derived11);//ok
+  const base* b = c1.get();//ok, derived1 IS_A base
+  const derived1* d1 = c1.get();//ok
+  const derived2* d2 = c1.get();//bad, derived1 !IS_A derived2
+  f0const(c1);//ok, conversion operator used
+  f0(c1);//bad, could insert base among derived1
+  f1(c1);//ok, it's us
+  f2(c1);//bad, f2 wants derived2 container
+
+} 
+
+
+
+
+Direct.Buy
+Members Only Showroom
+The #1 Way to Buy Direct for Your Home:
+@_#megadealsource.com/neqw.html?ne=ykhlg.pzmyhlhnnjlatasykl
+
+_____________________________________________________
+
+Unsubscribe-Here:
+@_#megadealsource.com/neqw.html?ne=ykhlh.pzmyhlhnnjlatasykl
+or write: DirectBuy IM Network LLC, P.O. Box 1572, Boulder, CO 80306
+
+_____________________________________________________
+
+Unsubscribe_Here:
+@_#megadealsource.com/us_ylgiolkpzmyhlhnnjlatasykl_xls/
+or write: HS Media, PO Box 105603 #32520 ,Atlanta, GA ,30348-5603

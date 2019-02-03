@@ -1,0 +1,33 @@
+Re: Re: Help needed: error booting to btrfs filesystemOn Fri, Apr 23 at 20:34, Eugen Dedu penned:
+> 
+> Well, /boot is on the same filesystem as / (only one FS), so it is
+> btrfs.  Does not grub2 boot linux from btrfs?  I have seen Web pages
+> saying that it boots...
+
+I just used google to search "grub2 btrfs", and the results don't look
+promising.  
+
+Not that you asked, but btrfs is still in development; I wouldn't think
+that supporting it is anyone's top priority.  If you are planning to
+keep anything important on this system, I'd think twice about using
+a filesystem that's still in flux:
+
+https://btrfs.wiki.kernel.org/index.php/Main_Page
+
+"Btrfs is under heavy development, but every effort is being made to
+keep the filesystem stable and fast. As of 2.6.31, we only plan to
+make forward compatible disk format changes, and many users have been
+experimenting with Btrfs on their systems with good results. Please
+email the Btrfs mailing list if you have any problems or questions
+while using Btrfs."
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100423191825.GX30298@mail.bounceswoosh.org
+
+

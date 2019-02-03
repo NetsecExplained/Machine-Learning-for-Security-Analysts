@@ -1,0 +1,28 @@
+Re: where is what kontrol did?On 04/24/2010 03:20 PM, Lisi wrote:
+> On Saturday 24 April 2010 20:10:51 Hugo Vanwoerkom wrote:
+>> But will pulse audio make my Konsole make a sound because that is the
+>> only reason I would install systemsettings.
+>
+> I'm fascinated.  Why do you _want_ your Konsole to make a sound?
+>
+
+He might have practical reasons...
+
+http://en.wikipedia.org/wiki/Bell_character
+     A bell code (sometimes bell character) is a device control
+     code originally sent to ring a small electromechanical bell
+     on tickers and other teleprinters (remote printers) and
+     teletypewriters (such as Teletypes, abbreviated TTYs) to
+     alert operators at the other end of the line, often of an
+     incoming message
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD37283.2070506@cox.net
+
+

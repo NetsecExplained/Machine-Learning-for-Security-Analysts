@@ -1,0 +1,31 @@
+Re: About USB hard drives and errorsOn 2010-04-10 02:20, Clive McBarton wrote:
+> 
+> Paul E Condon wrote:>
+>> dumpe2fs -b  is supposed to print the bad blocks that have
+>> been marked on a device. When I run it, it prints nothing. I find it
+>> hard to believe that a 500GB HD contains ZERO bad blocks. 
+> 
+> Every HD that is even remotely close to being usable will always have
+> zero bad blocks when seen from outside the HD. All HDs have error
+> recognition and error correction and automatic replacement of faulty
+> sectors with spare ones. A HD will only show bad blocks after all of its
+> remapping area is used, at which point it is far beyond being usable.
+> 
+> In other words, scanning for bad blocks on a HD cannot work.
+> 
+> You can see the internal count of the remapped sectors with SMART, as
+> others have already pointed out here.
+
+Interesting.  So what is /badblocks/ for, and should it be removed 
+in order to remove useless complexity?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC080F6.60005@cox.net
+
+

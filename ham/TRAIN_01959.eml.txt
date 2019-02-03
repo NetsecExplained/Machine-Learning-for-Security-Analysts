@@ -1,0 +1,41 @@
+Re: [ILUG] Interesting article on free software licencesDavid Neary said:
+>
+> For the francophones among you, this article is a summary of the
+> reasons why most free software licences (and the GPL in
+> particular) are not valid in France.
+>
+> http://www.linuxfrench.net/article.php3?id_article=1043
+>
+> Google translation (hard to read most of the time, but good
+> enough to pick up the gist)
+>
+> http://makeashorterlink.com/?U26B52602
+>
+> In brief, in an international contract, when mentioning copyright,  you
+> must mention under which jurisdiction's laws the copyright
+> is applied. French law requires the licence to be available in
+> French (the GPL isn't). And French law requires that for a
+> contract to be valid, it must not breach existing law. Also under
+> French law, the copyright holder automatically retains the right
+> to change the licence, which means that French law is in conflict
+> with the GPL, which requires authorisation from all authors
+> before a licence change is allowed.
+>
+> Also there's some stuff about French consumer law forbidding sale
+> without guarantee of anything, so software delivered as-is
+> breaches consumer law in France. But I didn't really follow that.
+
+My French is a bit iffy these days, but if this is true, does it not also
+nullify Microsoft, Adobe and WinZip licences amongst most others? These all
+claim no liability, no guarantees (M$ say delivered "with all faults", so
+at least they are honest).
+
+/Ciaran.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

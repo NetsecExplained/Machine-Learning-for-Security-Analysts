@@ -1,0 +1,54 @@
+Re: Umont ownership?On Tue, 06 Apr 2010 12:25:45 -0400, Stephen Powell wrote:
+
+> On Tue, 6 Apr 2010 11:52:18 -0400 (EDT), jeremy jozwik wrote:
+
+>> 
+>> # /etc/fstab: static file system information. #
+>> #     
+>>   proc                 /proc                 proc         
+>> defaults
+>>          0           0
+>> /dev/sda1         /                        ext3 errors=remount-ro 0    
+>>        1
+>> /dev/sda5         none                 swap          sw
+>>        0           0
+>> /dev/hda          /media/cdrom0    udf,iso9660 user,noauto         0
+>>          0
+>> 
+>> 
+>> so, none of the media that i plug in is listed here. perhaps that is
+>> because i always use the hotplug?
+> 
+> It would be interesting to see what Camaleón's /etc/fstab file looks
+> like in comparison with yours.  Camaleón, are you listening?  And would
+> you be willing to post your /etc/fstab file?
+
+Yep, here I am.
+
+My "fstab":
+
+***
+sm01@stt008:~$ cat /etc/fstab
+# /etc/fstab: static file system information.
+#
+#      
+proc            /proc           proc    defaults        0       0
+/dev/sda3       /               reiserfs notail          0       1
+/dev/sda1       none            swap    sw              0       0
+/dev/scd0       /media/cdrom0   udf,iso9660 user,noauto     0       0
+/dev/fd0        /media/floppy0  auto    rw,user,noauto  0       0
+/dev/sdb1	/data/backup	ext3	acl,user_xattr	1	2
+***
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.06.16.35.08@csmining.org
+
+

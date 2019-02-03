@@ -1,0 +1,52 @@
+Re: What needs to improve in KDE 4?On 11 May 2010 00:58, Martin Steigerwald  wrote:
+> Am Montag 10 Mai 2010 schrieb Nate Bargmann:
+>> * On 2010 10 May 11:50 -0500, Dotan Cohen wrote:
+>> > Yes, 4.2 and now 4.4 seem to behave badly without a clean ~/.kde. I
+>> > find that very disturbing and unstable.
+>>
+>> For the record, I had a clean ~/.kde for 4.2 when it hit Sid about a
+>> year ago and upgraded the offered KDE packages through 4.3.4, IIRC, and
+>> then started with a clean ~/.kde for Sid's new 4.4.3.
+>>
+>> - Nate >>
+>
+> IMHO when a config setting is not handled properly on upgrade of KDE its a
+> bug.
+>
+
+Agreed, but it's not one that is likely to be fixed. There seems to be
+no backwards-compatibility in KDE anymore. It's a problem, I know.
+
+
+> I migrated configuration from KDE 3.5.10 and just pressed on "Reset to
+> defaults" for quite some appearance related settings in order to switch
+> them to Oxygen. There have been issues, but I mostly didn't file them as
+> bugs.
+>
+> Only one I triaged and filed: The separator "58" for colon for web
+> shortcuts in kuriikwsrc or something like that it was is not recognized by
+> KRunner, only by Konqueror. ":" instead works with both. Unfortunately
+> Konqueror saved it as "58" not as ":".
+>
+
+It _should_ be escaped.
+
+
+> Anyway I suggest to file those issues as concrete as possible as bugs as
+> you manage to take time for it.
+>
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinU0FqAz1n_Yux04G3Cq6OhD8x0EELtZ57jOq1Y@mail.csmining.org
+
+

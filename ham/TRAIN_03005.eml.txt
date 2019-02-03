@@ -1,0 +1,107 @@
+Re: Fw: Re: When are we going to get. [making ALSA rpms]Thanks for this information.  I gave Alsa a try, couldn't figure out how
+to enable digital out, although I'm sure if I put enough time into it,
+could have gotten it working.  Also when playing mp3s in analog mode,
+every time I switched between mp3s there was a bit of static.  Noticed a
+new distribution geared towards audio applications, AGNULA
+(http://www.agnula.org/) uses Alsa as well.  Seems though the latest
+open source emu10k1 drivers (SBLive! 5.1) work fair enough.  Anyone else
+experience these problems with Alsa?  Are there alot of people on this
+list using Alsa?
+
+Regards,
+
+Lance
+
+On Sat, 2002-08-24 at 17:45, Angles Puglisi wrote:
+> FYI, This is how I make my ALSA rpms ... some people on the (null) list did not
+> realize it was pretty easy.
+> 
+> btw, I do this lot since I've upgraded from RH7.3 to Limbo1 to Limbo2 to Null all in
+> a week (probably).
+> 
+> forward - original mail:
+>   From "Angles Puglisi" 
+>   Date 08/24/2002 - 06:38:03 pm
+>   Subject Re: When are we going to get....
+> ----
+> 
+
+> From:  Angles  Puglisi 
+> To: limbo-list@example.com
+> Subject: Re: When are we going to get....
+> Date: 24 Aug 2002 22:40:40 +0000
+> 
+> OK, I do this every time I update a kernel.
+> 
+> The 1st time I added ALSA, I tried a non-root rpom build but the DEV things were not
+> made. Other than that, I bet you could do non-root. The following can be scripted
+> easily.
+> 
+> 1. get (a) alsa-drivers, (b) alas-lib, and (c) alsa-utils tarballs (if upgrading the
+> kernel then you probably have them from your last install).
+> 2. unpack them somewhere.
+> 3. for each of them, go to the top directory of the unpacked tarball, and do
+> ../configure, then look in (I'm going by memory) TOPDIR/utils/* you should see a spec
+> file there. Do this for the 3 tarballs and you get 3 spec files.
+> 
+> 4. put the source tarballs in SOURCES and the spec files in SPECS, go in order from
+> a, b, then c, doing
+>  "rpmbuild -ba SPECS/alsa-[X].spec; rpm -Uvh RPMS/i386/alsa-[X].rpm"
+> 
+> 5. do that in order for the 3 spec files and you have just installed the alsa
+> drivers on your system. The 1st time you do this you need to put the correct stuff
+> in your modules.conf file (may take some research) then you get the alsa driver and
+> OSS compat capabilities, or you can choose not to use the OOS compat stuff.
+> 
+> Script making the spec, then building and upgrading, as above, and you have
+> "no-sweat" ALSA.
+> 
+> NOTE: the (null) rpmbuild did take some tweaking, it does a check for files in the
+> buildroot that you don't specify in your files section. In this case there is an
+> extra file (going by memory) "/include/sys/asound.h". Add a line at the end on the
+> "install" section of the spec file to delete that file and you are good to go.
+> 
+> Gordon Messmer (yinyang@eburg.com) wrote*:
+> >
+> >On Fri, 2002-08-23 at 03:41, Matthias Saou wrote:
+> >>
+> >> Probably when Red Hat Linux gets a 2.6 kernel ;-) Until then, a few places
+> >> provide good quality alsa packages, but indeed you still have to patch and
+> >> recompile your kernel.
+> >
+> >Not so.  Alsa is build-able independently of the kernel.
+> >
+> >> Maybe some day I'll try ALSA (never done it yet), and that day you can
+> >> expect all needed packages to appear on freshrpms.net :-)
+> >
+> >I'd be interested in working with you on that if you want those
+> >packages.
+> >
+> >
+> >
+> >
+> >_______________________________________________
+> >Limbo-list mailing list
+> >Limbo-list@redhat.com
+> >
+> 
+> --
+> That's "angle" as in geometry.
+-- 
+:
+####[ Linux One Stanza Tip (LOST) ]###########################
+
+Sub : Extracting lines X to Y in a text file         LOST #261
+
+Use sed ... Syntax: [$sed -n 'X,Yp' < textfile.txt]. Following
+will extract lines 5-10 from textin.fil to textout.fil ... 
+$sed -n '5,10p' < textin.fil > textout.fil
+
+########################################
+:
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

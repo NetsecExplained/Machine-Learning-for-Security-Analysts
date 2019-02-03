@@ -1,0 +1,20 @@
+Re: The future of "nv" driverOn 04/25/2010 07:55 AM, James P. Wallen wrote:
+[snip]
+>
+> Hmmm. Maybe Debian could set up "activation servers" that could
+> determine whether or not we are using "genuine Debian".
+>
+
+But seriously... each kernel module has a "license" field, so if a 
+non-GPL module gets installed, the kernel knows.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD442F5.6050800@cox.net
+
+

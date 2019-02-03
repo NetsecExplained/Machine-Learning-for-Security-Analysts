@@ -1,0 +1,56 @@
+Re: udev & /dev/sdaX & lenny2squeezeOn Fri, 9 Apr 2010 05:58:32 -0400 (EDT), Ionel Mugurel Ciob=C3=AEc=C4=83 wr=
+ote:
+>
+> I just migrate my desktop from lenny to squeeze and after installing all=
+=20
+> new packages and reboot the system hang at the boot process asking for=20
+> the root password because it can't find /dev/sdaX, where X=3D2,6,7,8,9.=
+=20
+> All are valid partitions. root is /dev/sda5 and it is the only partition=
+=20
+> mounted. fdisk /dev/sda says that /dev/sda not found. Indeed ls /dev/sd*=
+=20
+> shows only /dev/sdY, with Y=3Dc,d,e,f,f1, no /dev/sdZ, where Z=3Da*,b*. I=
+=20
+> try MAKEDEV sda but it says that because .udev is present it must abort.
+>=20
+> I can't use the system in this state. Any ideas?
+>=20
+> If nothing I will try to boot with knoppix or the net-install testing CD=
+=20
+> and chroot into the system to attempt a kernel compilation. But I am not=
+=20
+> sure if the kernel is problematic at the moment.
+
+Migrating from Lenny to Squeeze (or any migration, really) is tricky.
+You can't just change your /etc/apt/sources.list file to point to the
+squeeze repositories and then do "aptitude update;aptitude full-upgrade".
+The problem you are describing above is only the first of your problems
+if you have done that.  You need to follow the upgrade outline mentioned
+in the Release Notes.  You didn't say how you did it, and it's too late
+in any case, but I just wanted to mention that while we're on the subject.
+
+Assuming that you did the migration properly, this may be a device name
+issue.  There's been some problems with device names recently, particularly
+with IDE hard disks.  It hasn't happened to me, but others have reported
+device names going from /dev/hdx to /dev/sdx and back again with
+subsequent maintenance.  You may have to boot from a rescue disk,
+edit your /etc/fstab to change device names, according to what they
+are now, and rebuild your initial RAM file system.
+
+If that is the issue, an alternative to traditional device names is
+to use UUIDs.
+
+--=20
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/371933597.2114181270821502137.JavaMail.root@md01.wow.synacor.com
+
+

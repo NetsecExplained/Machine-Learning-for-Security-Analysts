@@ -1,0 +1,55 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is	protected! Why?From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Johannes Wiedersich wrote:
+> Merciadri Luca wrote:
+> > Johannes Wiedersich wrote:
+> >> Just use a grey-by-dotting watermark for black text, merge the layer=
+s
+> >> and it will
+> >> be rather difficult to remove the watermark.
+> > I did not merge the layers before sending it to them. Problematic?
+>
+> Difficult to judge, since I somehow lost track of what exactly you trie=
+d
+> to achieve and what is the nature of the document.
+>
+> If you are simply afraid, that someone would use this document as
+> her/his own work
+That is my main concern, yes.
+> you could watermark the pdf and convert it to a low
+> resolution bitmap (as others have already suggested). If the document
+> was later misused, you could just show your nice, high quality printout=
+
+> without watermarks to prove that you are the real author.
+Yes. That is what I will do next time (if applicable). I was initially
+not as much suspicious, and that is why I simply let a mere watermark on
+each page of the document.
+>
+> Another way might be to hand out that bad quality printout on some
+> special paper, either coloured or with rules and keep the pdf version t=
+o
+> yourself. It will be about as difficult to retype/recreate such a
+> document from paper as from retyping it from screen, which was your
+> first choice (disallow printing, allow screen viewing).
+Nice idea too.
+>
+> I think you might have gotten better replies in shorter time, if you ha=
+d
+> been more explicit and clear about what you try to achieve.
+No problem, but I do not like (and want) to express my personal opinion
+and problems to the _whole_ community.
+
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+If it's worth doing, it's worth over-doing.
+
+

@@ -1,0 +1,40 @@
+Re: 32000 directories (somewhat OT)Paul E Condon writes:
+> I worked on a personal project last year in which I ran into the 32k
+> limit and solved the problem by imposing a simple structure on my
+> directory names.
+
+It's easy if you are planning ahead.  This guy is stuck with an
+application (presumably closed-source) that already requires a flat file
+structure.
+
+> I think because Apple didn't want to trouble their users with
+> difficult concepts, like telephones and dialing a telephone number.
+
+The on-screen rebus for a directory was a little dohicky that Apple's
+designers imagined looked like a picture of a manila folder.  The idea
+was to sooth computerphobic office workers by making their screens look
+just like their desktops.  That's the origin of the "desktop metaphor".
+Fortunately, they did not decide to label disk drives "drawers".
+
+> Who remembers dialing?
+
+I do, of course.  I even have several working 500Ds somewhere in the
+junk box.
+
+> Where did that word come from? ;-)
+
+Wikipedia says "The word dialling originally referred to the creation of
+the mathematics required to create a sundial face to tell time based on
+the position of the sun. Those skilled in the art were referred to as
+dialists or gnomonists; taken from the word gnomon (a device using a
+shadow as an indicator)."
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87och676xx.fsf@thumper.dhh.gt.org
+
+

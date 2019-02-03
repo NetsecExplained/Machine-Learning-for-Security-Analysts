@@ -1,0 +1,37 @@
+Re: Fwd: Re: Kde 3.5 ...On Friday 07 May 2010 12:28:03 Sjoerd Hardeman wrote:
+> Please do not judge KDE4 by not being a copy of KDE 3.5. If that was the
+> case, there would be no point in making a new version anyway. The
+> important question is whether KDE lacks functionality that should be
+> there (this includes, but is not limited to, functionality present in
+> KDE <4) and if that's the case, file a bug report. But of course, don't
+> be bothered if the functionality *looks* different. Again, if all the
+> functionality would look the same, there would be no point creating a
+> new version.
+
+No - that is the problem!!  I loved KDE 3.5.x and have become quite slick with 
+it.  KDE 4 is different.  I don't like it.  If I have to, in effect, change 
+DE, and go through the learning curve again, there is no reason why it would 
+have to be to KDE 4.  When the time comes that I cannot sensibly go on using 
+KDE 3, I shall chose where I go next on the basis of what the options are 
+looking like at the time.  I can see little liklihood that that choice will 
+be KDE 4.  I may even switch to a window manager without a DE, and chose 
+other ways of working, if that is the only way that I can avoid the glitz 
+that is now all the rage.
+
+How things look is very important to me.  I have problems with my eyes, and 
+how a thing looks can influence whether I can work on a thing for one minute, 
+ten minutes or an hour.
+
+I have no problem with other people liking and wanting to use KDE 4.  I have a 
+problem with their, in some cases, not allowing me the freedom _not_ to use 
+it.  And I personally shall mourn the passing of KDE 3.
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005072313.11626.lisi.reisz@csmining.org
+
+

@@ -1,0 +1,38 @@
+[use Perl] Stories for 2002-09-10use Perl Daily Newsletter
+
+In this issue:
+    * This Week on perl5-porters (2-8 September 2002)
+
++--------------------------------------------------------------------+
+| This Week on perl5-porters (2-8 September 2002)                    |
+|   posted by rafael on Monday September 09, @07:33 (summaries)      |
+|   http://use.perl.org/article.pl?sid=02/09/09/1147243              |
++--------------------------------------------------------------------+
+
+As September begins, the perl5-porters, ignoring the changing weather,
+continue to work. This week, some small things, and a few bigger ones,
+are selected in the report. Read below.
+
+This story continues at:
+    http://use.perl.org/article.pl?sid=02/09/09/1147243
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/09/09/1147243
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

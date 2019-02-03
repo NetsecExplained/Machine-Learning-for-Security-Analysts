@@ -1,0 +1,39 @@
+Problem with ALC662 Intel HDAFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello everybody,
+
+I have a problem with my sound card (nVidia Corporation MCP67 High
+Definition Audio | ALC662 High Definition Audio) and I would like you to
+indicate the best location and the best way for me to report the bug that I
+will describe:
+
+After a fresh installation and setup of alsa, I only have sound in one of
+two outputs and the microphone does not work. After reading a lot of
+documentation about the subject, I found that inserting the line "options
+snd-hda-intel model = 3stack 6ch-index = 0" in alsa-base.conf file I can
+make my sound card work better, but with some problems, which are:
+
+a) If I select the 6-channel mode (in kmix or alsa-mixer), the two sound
+outputs work but the microphone do not work.
+b) If I select the 2-channel mode (in kmix or alsa-mixer), the microphone
+works but only one sound output works.
+
+You do not agree with me that this is a bug? I've been experiencing it in
+different distributions and several versions of the Linux kernel. As in
+several versions of ALSA.
+
+Before you ask me, yes, I've tried all the options associated with ALC662
+codec (
+http://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt)
+and the option mentioned above was that worked best.
+
+
+ I am a novice user of Linux. So I ask you for help. How could I help solve
+this problem? What is the right place to report this bug?
+
+Thanks,
+
+Motherboard: ASUS M2N68-AM SE
+Debian Lenny
+Squeeze Debian / Sid

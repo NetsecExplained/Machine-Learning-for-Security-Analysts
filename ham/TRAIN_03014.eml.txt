@@ -1,0 +1,21 @@
+How to manage multiple Internet connections?From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+Let's say that you have two internet connections at home, and
+consequently two devices which link your computer to the Internet. How
+can you manage, e.g. in Iceweasel/FF, to use one or the other? If you
+have multiple downloads all the time, it might be an interesting thing
+to split them among the diferent connections.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Listen to many, speak to a few. (William Shakespeare)
+

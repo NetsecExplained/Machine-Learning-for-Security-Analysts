@@ -1,0 +1,25 @@
+Re: debian on a raid5 (4TB) issuesOn Sat, 17 Apr 2010 07:24:20 +0200, Israel Garcia wrote:
+
+> On Sat, Apr 17, 2010 at 2:12 AM, Stan Hoeppner wrote:
+
+>> What PCIe RAID card are you using?
+> Adaptec AAC-RAID card inside a supermicro server.
+
+I wish you the best (similar setup here and bad experience with adaptec 
+raid cards) :-(
+
+As per the 4 TiB issue. I just have reviewed the wikipedia article about 
+MBR and forgot the limit of 2 TiB for a "bootable" partition.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.17.08.12.46@csmining.org
+
+

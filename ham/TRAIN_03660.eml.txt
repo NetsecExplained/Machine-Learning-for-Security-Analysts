@@ -1,0 +1,28 @@
+Re: [ILUG-Social] Completely silent pcOn Sat, Jul 20, 2002 at 12:06:35PM +0100, Greg Farrel wrote:
+> 
+> > An old laptop would probably be ideal.  That way, it comes with its own 
+> > UPS (the battery).
+> D'oh. I ment to say that I cant use a laptop, as I have a pci wireless
+> card and the cable for it (about 180 dollars). So it has to be a pc, with
+> a pci 2.2 connector (ie some pentiums, and anything above)
+> 
+>  > 
+> > Some people strip down old 486 boxes, take out the hard drive, disable
+> > the fans, and run the thing from just a floppy drive or a CDR you've
+> > burned for the purpose.  
+> I'd do that with my 166, but the psu has a fan. And a 486 wont support my
+> wireless card :( I know. I'm awkward,
+
+Try www.quietpc.com.  Don't know if they have fanless PSUs but they claim
+to have really, really quiet ones.
+
+Later,
+Kenn
+
+
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

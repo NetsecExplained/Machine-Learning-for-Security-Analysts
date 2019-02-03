@@ -1,0 +1,35 @@
+Re: Alsa/Redhat 8 compatabilityMatthias Saou (matthias@rpmforge.net) wrote*:
+>I really think that with my ALSA packages, ALSA on Red Hat Linux has never
+>been so easy! ;-)
+
+I had been hand building those alsa packages for probably 6 months or more, so I
+could use my laptop's ESS chip best (hard disk recording and such). Wow, maybe 8 to
+10 months, time flys. I didn't look forward to doing that tedious build every time I
+changed a kernel or something. Matthias has made this a thing of the past! Dude,
+it's a no brainer, use apt-get or just download and install.
+
+What's more, OSS is fully "imitated", older apps using OSS are as happy as a clam.
+My personal taste tells me newer apps which use alsa sound better (alsaplayer, xmms
+with alsa module) to my ear.
+
+The 2 things that trick people are the modules.conf file, they didn't have that
+automatic matrix page when I started with alsa, you don't know how good you have it.
+
+And on my old installs (only the first time I installed it on a clean box), alsa
+always was "muted" until you fire up a mixer and turn up the music. It's possible
+Matthias even took care of that too. Anyway it is/was only a one time thing on 1st
+install, that was a long time ago for me.
+
+Those ALSA dudes had been trying to get it into the 2.4 kernel but missed it, but
+it's been in 2.5 for a while now, so alsa is the future of sound in the linux kernel.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

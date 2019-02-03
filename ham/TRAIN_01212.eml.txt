@@ -1,0 +1,34 @@
+Re: [ILUG] ipfw vs ipchains vs iptablesNick Hilliard's [nick-lists@netability.ie] 52 lines of wisdom included:
+> The standard release versions of ipfilter are unencumbered, as always.
+> 
+> > Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE
+> > is a stable branch of the code that has been rolled into -CURRENT
+> > first. It's basically a major release, that's still a work in
+> > progress)
+> 
+> I'm not so sure that ipfw2 is really ready for production yet, having
+> only been mfc'd last wednesday.  It certainly adds some nice syntactic
+> sugar, and is apparently much faster for certain types of complex
+> rulesets.  It will be good once it's had some time to settle down a
+> little.
+
+I would question anything being ready for "production" being in
+STABLE.
+
+He's kept backwards compatibility with ipfw, which is major plus.
+
+My point about IPFW2 being rolled out into stable was merely an
+illustration of the fact that ipfw is indeed not ipfilter, and that
+there are no license issues there :)
+
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

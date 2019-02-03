@@ -1,0 +1,22 @@
+[SACVS] CVS: spamassassin/masses evolve.cxx,1.28,NONEUpdate of /cvsroot/spamassassin/spamassassin/masses
+In directory usw-pr-cvs1:/tmp/cvs-serv6501/masses
+
+Removed Files:
+      Tag: b2_4_0
+	evolve.cxx 
+Log Message:
+removed old evolver
+
+--- evolve.cxx DELETED ---
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

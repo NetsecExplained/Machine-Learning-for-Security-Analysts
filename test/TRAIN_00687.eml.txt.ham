@@ -1,0 +1,32 @@
+Re: About apt, kernel updates and dist-upgradeOn Thu, Feb 07, 2002 at 12:29:14AM +0200, Peter Peltonen wrote:
+> About apt.conf there are these lines:
+> ----
+> RPM 
+> {
+>    // Leave list empty to disable
+>    AllowedDupPkgs {"^kernel$"; "kernel-smp"; "kernel-enterprise"; };
+>    HoldPkgs {"kernel-source"; "kernel-headers"; };
+> }
+> ----
+> 
+> How do I tell apt hold all kernel packages? Can I use syntax like 
+> "kernel*"; ? 
+> 
+> And I don't quite understand what the part "^kernel$"; means?
+
+You could read about regular expressions.
+^kernel$ matches "kernel" and nothimg more.
+Kerne, kernel-smp and kernel-enterprise are the kernel packages you
+might be running in a RH system. Packages like kernel-headers,
+kernel-BOOT and kernel-doc aren't matched. If it just said "kernel", it
+would match *all* those packages.
+
+-- 
+"You were good with that recorder." (=nokkahuilu)
+"Soitit hyvin sitä mankkaa."
+	-- (Suomennos) Men Behaving Badly
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

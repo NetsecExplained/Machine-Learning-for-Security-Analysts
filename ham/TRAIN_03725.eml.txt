@@ -1,0 +1,21 @@
+Re: Mossberg on 'ChoiceMail': "In my tests, it cut my spam to zero."
+Eugen Leitl said:
+
+> Spammers cannot be bothered to keep track if individual whitelists 
+> associated with a given email address.
+
+But it's a good bet that jm /at/ jmason.org, or someone-else /at/
+jmason.org, is in jm /at/ jmason.org's whitelist.
+
+> Of course you populate your whitelist with contents of your inbox minus 
+> spam, and then add manually stuff from your addressbook.
+
+all I can read there is "manual"...
+
+--j.
+
+-- 
+'Justin Mason' => { url => 'http://jmason.org/', blog => 'http://taint.org/' }
+http://xent.com/mailman/listinfo/fork
+
+

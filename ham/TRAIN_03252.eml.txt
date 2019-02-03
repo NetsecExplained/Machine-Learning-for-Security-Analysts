@@ -1,0 +1,48 @@
+cross-platform developmentHey all,
+
+	I realize this has come up before, but I am still confused after  
+reading through the old emails. I have an app that uses Quicktime for  
+Java. I would like to, maybe not right away, but at some point, update  
+my app to do the right thing. The right thing, apparently, is to use  
+QTKit, because it is the only 64-bit solution.
+
+	This seems crazy to me, though, because it is OS X specific, which  
+means I need another solution for windows. What is the 64-bit solution  
+(going to be) for windows? Does this mean every developer who wants to  
+write cross-platform QT code (not just Java) is supposed to write  
+their own portability layer for QuickTime? Is there an open source  
+solution out there or in the works? Is there another solution that  
+people are using other than QT?
+
+I need file conversion from a wide variety of file types (esp audio)  
+and video playback, although I will need some editing in the future.  
+JMF+JavaSound won't cut it. Not even close. I need way more file  
+formats than they support. You used to be able to use QTJ as a plugin  
+for JMF to provide file reading/writing. Perhaps there is a way to do  
+that with a minimal QT Java layer? Okay, now I'm just thinking out  
+loud. Sorry.
+
+	Any thoughts, advice pointers are appreciated. I have not seen the  
+cross-platform issue addressed, and the only replacements for QTJ I've  
+seen are OS Specific (eg rococoa).
+
+thanks,
+
+	bjorn
+
+-----------------------------
+Bjorn Roche
+XO Wave
+Digital Audio Production and Post-Production Software
+http://www.xowave.com
+http://blog.bjornroche.com
+http://myspace.com/xowave
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

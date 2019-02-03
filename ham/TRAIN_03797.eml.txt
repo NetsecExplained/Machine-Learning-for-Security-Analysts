@@ -1,0 +1,27 @@
+Re: `Battery is now fully charged:' why do I receive this after
+ having unplugged the cable?On Tue, 13 Apr 2010 18:54:56 +0200, Merciadri Luca wrote:
+
+> Camaleón wrote:
+>> And your BIOS version is the latest available? :-?
+> Sure!
+
+Ouch! O:-)
+
+How about trying with "debian-eeepc-devel¹" list? Maybe they provide more 
+information about this as they develop the tools for these specific 
+netbooks.
+
+¹ http://lists.alioth.debian.org/mailman/listinfo/debian-eeepc-devel
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.13.17.14.13@csmining.org
+
+

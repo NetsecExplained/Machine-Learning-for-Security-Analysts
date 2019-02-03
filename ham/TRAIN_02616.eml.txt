@@ -1,0 +1,25 @@
+Re: ssd / smart questionGlenn English put forth on 4/16/2010 7:21 PM:
+> 
+> On Apr 16, 2010, at 6:07 PM, Stan Hoeppner wrote:
+> 
+>> That's a perfect application for a small SSD.  You probably could have even
+>> got by with an 8 Gig'er and saved some cash.
+> 
+> This was the smallest I could fine at newegg.
+> 
+> If I'd known how small this was going to be, I'd have looked a little harder... Maybe.
+
+I'd looked around a little and Newegg has a couple smaller ones, but they
+aren't really any cheaper, and their performance is lacking.   You made the
+right choice.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC906E9.7010207@hardwarefreak.com
+
+

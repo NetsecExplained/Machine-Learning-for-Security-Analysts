@@ -1,0 +1,46 @@
+Re: backing up LVM volumesFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 27 April 2010 16:03:55 Celejar wrote:
+> I've had to give up lvm snapshots totally as
+> broken, primarily because of this (see my messages in the thread):
+>=20
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D549691
+
+That is troublesome, probably to the point of actually being broken.  It's=
+=20
+likely that something "behind-the-scenes" in LVM is actually messing with t=
+he=20
+snapshot device even when it is not mounted and preventing the removal.
+
+I'm fairly sure the snapshot device has to be updated whenever a write is d=
+one=20
+to a new LE in the original device, and it's possible *that* is causing the=
+=20
+problem.  I hope this issue gets some attention; I doubt it is a Debian-ism.
+
+> I've also been hit by this, although it *may* be harmless (or not -
+> this stuff could really use decent documentation):
+>=20
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D503268
+
+My guess on this one is one of two things:
+1) Udev is taking a little while to unlink "secondary" names for the LVs th=
+at=20
+are being removed, and when lvm does its device scan it's hitting "missing"=
+=20
+devices.
+2) LVM is using device names from its cache for devices that are no longer=
+=20
+present for its device scan and, again, hitting "missing" devices.
+
+In either case I think the error messages are annoying, but not indicative =
+of=20
+a real problem.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

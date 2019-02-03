@@ -1,0 +1,45 @@
+Re: Kde 3.5 ...On Thursday 06 May 2010 07:59:44 Ana Guerrero wrote:
+> On Thu, May 06, 2010 at 03:17:43AM -0300, Jorge Gon=E7alves wrote:
+> > Hello!
+> >
+> > First, thank you for the great distro that is Debian, one of the best.
+> >
+> > I would like to suggest you some way so that the users keep on using
+> > the good old KDE 3.5 when they migrate to the upcoming Lenny.
+> >
+> > Maybe use dummy packages, or rename the packages so that KDE 3.5 could
+> > remain installed, and not be forced to upgrade to Kde4.
+>
+> No, there is not sane way and there is nobody interested on it.
+
+I would be.  And do we not mean Squeeze?  Lenny has KDE 3.5.10.
+
+> > I really feel sorry that KDE 3 series is no more being developed, and
+> > when the day cames that I no longer will be able to use KDE 3, I will
+> > switch to Apple or even Windows, but NEVER to kde4 or Gnome!
+> > (and I feel many users out there think like me!!!)
+>
+> You still have gnustep, xfce, lxde, no using any or simply never upgrade.
+
+I have looked at all those, in addition to KDE 4 and Gnome.  None appeals t=
+o=20
+me.  Each has something that I strongly dislike or does not have something=
+=20
+that I like and use a lot.  I would love to be able to upgrade to Squeeze i=
+f=20
+new(er) hardware dictates, but keep KDE 3.5.  But I am not even almost=20
+tempted to go over to the dark side!
+
+I am, however, very sad that KDE 3.5, which I regard as the pinnacle of DE'=
+s,=20
+is being laid to rest.
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061740.44965.lisi.reisz@csmining.org
+
+

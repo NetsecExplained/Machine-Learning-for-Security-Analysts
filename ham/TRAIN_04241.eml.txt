@@ -1,0 +1,19 @@
+Re: Don't be too quick to assume that -XX:+UseCompressedOops is a
+ good thingCan you post some details? I haven't done any serious benchmarking, but I haven't seen a scenario where something 'seemed' significantly slower, and in all cases I've tried (GUI applications and J2EE applications) the memory footprint was significantly smaller). I imagine a codebase that would not benefit much from compressed OOPs would be one relying primarily on manipulating primitive data types, but in that scenario I don't see how performance would be impacted. I'd love to see your data, and if anyone has some insight on the potential performance tradeoffs with compressed OOPs, please share!
+
+-- 
+Erik
+
+
+On Apr 26, 2010, at 9:30 PM, Benson Margulies wrote:
+
+> A quick benchmark of some CPU-intensive code of ours shows a quite marked slowdown with that option turned on.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

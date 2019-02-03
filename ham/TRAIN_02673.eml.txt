@@ -1,0 +1,25 @@
+Re: [SAtalk] Re: SA SQL Prefs and MIMEDefang> The main reason I'd like to stick with a milter-based approach is the 
+> ability to reject messages at the SMTP stage.  This way the recipient isn't 
+> bothered and the sender knows immediately that the message failed.  My 
+> understanding is that once it gets to Procmail, as far as the sender is 
+> concerned, it got through.  And since all our users connect via POP, moving 
+> things to another folder is not an option, so the only way to notify the 
+> recipient is to allow the message through or replace it with a summary.
+
+I think the summary thingy, with a mail based retreive facility, is a
+good alternative. You avoid false positive, only one email to list all
+the spam you received in one day, and you have full per user pref.
+
+Olivier
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

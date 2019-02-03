@@ -1,0 +1,82 @@
+Re: Is acroread blind, or ps2pdf dangerous?From nobody Sun Sep 18 20:45:27 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sven Joachim wrote:
+> On 2010-05-13 17:04 +0200, Merciadri Luca wrote:
+>
+>  =20
+>> When compiling any .tex document using the route latex -> dvips ->
+>> ps2pdf, I get a PDF.
+>>    =20
+>
+> This is a rather clumsy way these days.  Why don't you use pdflatex?
+>
+>  =20
+>> Normal, but the problem is that if I the PDF is
+>> already opened (e.g. because I was reading the version of the document=
+
+>> before having modified and compiled it) when the compilation and the
+>> whole process ends, the opened PDF is blank, i.e. the current page
+>> becomes white, and every page I go at is white.
+>>    =20
+>
+> The changes in the file seem to confuse acroread.  At least it does not=
+
+> crash.
+>
+>  =20
+>> If I then re-open the
+>> document, I find the new version of my PDF.
+>>    =20
+>
+> A smart reader would have an option to detect changes to the file and
+> reload it automatically.  Since I haven't used acroread for ages I don'=
+t
+> know whether it has such an option.
+>
+>  =20
+>> I would like to know how this process actually works. For me, it looks=
+
+>> like the ps2pdf tool creates the PDF from scratch, and overwrites the
+>> old PDF.
+>>    =20
+>
+> A quick experiment shows that this does not seem to be the case, ps2pdf=
+
+> writes to the existing file.
+>
+>  =20
+>> But why am I receiving no warning message from acroread?
+>>    =20
+>
+> Ask Adobe=E2=80=A6
+>
+>  =20
+>> Anyway, acroread seems not to be locking the file, or, if so, ps2pdf
+>> forces the writing.
+>>    =20
+>
+> I would be rather annoyed if a reader locked a file that it does not
+> even open for writing.
+>  =20
+Thanks for this answer. There are *many* reasons not to use pdfLaTeX.
+They do not enter in the scope of this mailing list, but I am pretty
+sure you will find them directly on the Internet. For example, pdfLaTeX
+encourages one to use directly JPG, etc., for the inclusion in the
+document, which is pretty bad. There are also many incompatibilities
+with different packages.
+
+Note that, under Windows, I remember that acrord32.exe always blocked
+the file for writing, even if it was only being read by acrord32.exe.
+Okay, it's Windows. Bad memories.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+What doesn't kill you will make you stronger. (Friedrich Nietzsche)
+

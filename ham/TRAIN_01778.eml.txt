@@ -1,0 +1,24 @@
+Re: Chromium in SidOn 2010-05-21 17:42 +0200, Steve Fishpaste wrote:
+
+> I'd be happy to contribute in any way I can, but the question is why
+> is it so old when Ubuntu is keeping up-to-date daily?!
+
+Note that Ubuntu is doing that in a PPA, not in their development
+release.  I suspect that Chromium 6 has to wait for libvpx to leave NEW,
+and the efforts to build with the system ffmpeg also take quite a lot of
+time.
+
+Sven
+
+-- 
+Google is forking existing FOSS code bits for Chromium like a rabbit
+makes babies: frequently, and usually, without much thought.
+-- Tom Callaway
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874oi1b5w4.fsf@turtle.gmx.de
+
+

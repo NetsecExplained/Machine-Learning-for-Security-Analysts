@@ -1,0 +1,62 @@
+Re: Filesystem recommendationsRon Johnson put forth on 4/24/2010 2:11 PM:
+> On 04/24/2010 12:53 PM, B. Alexander wrote:
+
+>> Does anyone have suggestions and practical experience with the pros and
+>> cons of the various filesystems?
+>>
+> 
+> XFS is the canonical fs for when you have lots of Big Files.  I've also
+> seen simple benchmarks on this list showing that it's faster than
+> ext3/ext4.
+
+I've been very happy with XFS for all file sizes and counts, but my server
+isn't heavy duty by any means.  It handles multiple 50-60MB mbox files with
+ease as well as serving Samaba shares containing 5000+ files per dir.  Given
+that the large mbox files become fairly fragmented over time due to constant
+appends, having an online file defragmenter, xfs_fsr, is very handy.  The
+myth that certain filesystems don't fragment files and thus don't need a
+defrag tool are just that, myths.  I've run with mbox on both EXT2 and XFS,
+and the larger mbox files always fragment over time regardless of
+filesystem.  Prior to my last xfs_fsr run, I had 10 mbox files (a single
+user) that ranged from 10-35 fragments each.  Those in the 20-35 fragment
+range were 40-60MB files.  I don't have empirical data to show how much this
+negatively affected performance, but my mail client did seem a bit snappier
+after defragging.
+
+> nilfs2, btrfs and exofs are *definitely* still beta or even alpha.
+
+I've not played with any of these myself, but what I'm seeing on the various
+mailing lists suggests what Ron states here.
+
+> xfs and ext[34] can all be extended.  For production servers with a
+> working UPS, I'd go with ext3 for / & /boot and xfs (since it hates
+> sudden power outages) for the "/data" directories.  For production
+> workstations, I'd stick with the standby ext3 for / & /boot and ext3 or
+> xfs for /home and "/data" (depending on the workload).
+
+For production servers I'd go with XFS everywhere as long as your kernel
+(and rescue disk kernel) has XFS built-in.  Reliable power (via UPS and/or
+generator) is part of the definition of "production" server, so there's no
+reason to shy away from XFS for any partitions or logical volumes due to
+power loss fears.
+
+Some recent FS benchy comparisons with 2.6.34-rc3 on a big RAID setup:
+
+http://btrfs.boxacle.net/repository/raid/2010-04-14_2004/2.6.34-rc3/2.6.34-rc3.html
+
+As always, no single fs wins across the board.  XFS falls flat on its face
+in the synthetic mail server test, but does very well in all others.  Given
+its results in the mail test are almost identical to EXT4, and that EXT4
+no-barrier increases performance 7 fold, I'd say some tweaking of XFS would
+bring its performance back in line with the others.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD51EF5.7040201@hardwarefreak.com
+
+

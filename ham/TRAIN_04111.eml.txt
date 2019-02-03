@@ -1,0 +1,46 @@
+Re: [TexLive] This math formula work a few month a go, but  nowadays
+ it didn't work anymore2010-04-30 00:04, Marcelo Laia skrev:
+>> According to the debian site, however, the file is not available
+>> in squeeze:
+>>
+>> It seems to come from a cmex package. Can that package have
+>> changed and dropped the fmex* files? It now seems to contain
+>> cmex*-files instead, but I do not know if that is the correct interpretation.
+>>
+>
+>
+> Hummm! And now? What to do?
+>
+> If I do a search in i386 (I have both kernels), the results is the same!
+> What you suggest me? Contact to maintainers? Who is he/she?
+>
+
+
+As you do not explicitly request the font to be used, I expected latex 
+to choose some other font instead. Does it work if you run the command 
+update-updmap and try again?
+
+Otherwise, I have two suggestions:
+
+1) Send and email to the debian-tex mailing list 
+(). That list is the official 
+maintainer address for texlive-base, according to 
+().
+
+2) Report the problem as a bug. ().
+
+Before doing any of those two, you should rewrite the example document 
+to be as small and simple as possible (still showing the problem) and 
+perhaps also translate the text to English.
+
+Regards
+
+Johan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrdo3l$np6$1@dough.gmane.org
+
+

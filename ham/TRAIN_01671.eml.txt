@@ -1,0 +1,20 @@
+Re: [fwd: error exmh 2.5 07/13/2001 ]
+>>>>> On Wed, 24 Jul 2002, "Chris" == Chris Garrigues wrote:
+
+  Chris> Am I the only one for whom typing control-L to the main
+  Chris> window causes this error?
+
+Getting it here too on a copy I haven't updated from CVS since 
+about May sometime.
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

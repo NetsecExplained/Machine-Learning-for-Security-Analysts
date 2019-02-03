@@ -1,0 +1,24 @@
+Re: SortingFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+
+
+On Mon, 09 Sep 2002 22:06:58 CDT, Hal DeVore writes:
+>		scan `mhpath +`/$f/.xmhcache
+
+Shouldn't that read
+               scan >`mhpath +`/$f/.xmhcache
+ ?
+
+(And, JIC something else changed the context in the background, it 
+ doesn't hurt to explicitly state the folder:
+               scan "+$f" >`mhpath +`/$f/.xmhcache
+ )
+
+cheers,
+&rw;
+-- 
+-- "The problem with the IBM keyboards I have is that when you
+-- use them to beat lusers, the caps come off the keys.
+-- No real damage, but still a nuisance."   -- Martijn Berlage
+
+

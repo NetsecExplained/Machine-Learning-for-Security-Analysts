@@ -1,0 +1,30 @@
+Re: Can't read DVDFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+That worked, thanks!
+
+If one has to do this every time, why is it that these options aren't liste=
+d
+in /etc/fstab?
+
+On Fri, Apr 23, 2010 at 9:27 AM, =E5=88=98=E5=AE=87=E8=BE=89  wrote:
+
+>
+>
+> On 23 April 2010 13:54, James Stuckey  wrote:
+> >
+> > I'm not able to read DVDs in squeeze. I burned this disc on the same
+> > drive in squeeze. Thereafter it worked fine until a week or so ago
+> > (the disc is less than a month old). I tested the disc last week on a
+> > windoze and mac osx and it worked without a problem.
+> >
+> > When I try to mount the cd/dvd rom drive:
+> > stuckey@debian:~$ mount /dev/scd0
+> > mount: block device /dev/sr0 is write-protected, mounting read-only
+> > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+>
+> try the whole options and arguments
+> mount -o loop -t iso9660 /dev/scd0 /mnt
+>
+>

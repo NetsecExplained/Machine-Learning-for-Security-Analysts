@@ -1,0 +1,22 @@
+Re: Icedove always loads Epiphany when URL is clickedFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Aioanei Rares wrote:
+> On 04/15/2010 04:17 PM, Merciadri Luca wrote:
+> You're using Gnome, right? Check system->preferences->preferred
+> applications (or something)
+>
+>
+Yep. And that is what I wanted to mention in my OP: `Iceweasel' is set
+as `Web Browser' and `Icedove' is set as `Mail Reader.'
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Every cloud has a silver lining.
+

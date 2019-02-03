@@ -1,0 +1,32 @@
+Re: Going wirelessFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Apr 09, 2010 at 15:02 +0000, T o n g wrote:
+> 1st of all, thanks everyone that responded.=20
+>=20
+> On Fri, 09 Apr 2010 16:16:57 +0200, Wolodja Wentland wrote:
+>=20
+> > Check http://wiki.debian.org/WiFi/HowToUse
+> >=20
+> > I am particularly fond of wpa_supplicant in roaming mode [1] but you
+> > might want to take a look at wicd or network-mangler as well.
+>=20
+> I've read many good words about wicd, an am planning to go for it.=20
+
+Good choice. You have to install wicd from backports.org though as it is
+not available for stable.
+
+wicd -- lenny-backports: 1.6.2.2-1~bpo50+1; sid: 1.7.0+ds1-2;=20
+        squeeze: 1.7.0+ds1-2
+
+> Just to be 100% sure, with wpa_supplicant (from the wpasupplicant=20
+> package) in roaming mode, one doesn't necessarily need wicd, correct?
+
+Absolutely - That wouldn't even work together :)
+--=20
+  .''`.     Wolodja Wentland    =20
+ : :'  :   =20
+ `. `'`     4096R/CAF14EFC=20
+   `-       081C B7CD FF04 2BA9 94EA  36B2 8B7F 7D30 CAF1 4EFC

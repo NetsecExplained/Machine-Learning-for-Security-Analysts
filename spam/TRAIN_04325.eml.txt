@@ -1,0 +1,51 @@
+[SPAM]  Photos of Exposed PinkUmjwqmqsqse Newsletter
+
+
+border1 {background-color: #666;}
+border2 {background-color: #333;}
+bg1 {background-color: #EFEFEF;}
+bgBlack {background-color: #000; padding-left: 10px; padding-top: 25px; padding-bottom: 25px;}
+rule {background-color: #CCC;}
+hed {font-family: arial; font-size: 24px; color: #777; font-weight: bold;}
+hed1 {font-family: arial; font-size: 11px; color: #414141; font-weight: bold;}
+dek {font-family: arial; font-size: 15px; color: #999; font-weight: bold;}
+subhed {font-family: arial; font-size: 14px; color: #333; font-weight: bold;}
+blurb {font-family: arial; font-size: 11px; color: #333; line-height: 15px;}
+a {font-family: arial; font-size: 11px; color: #0066CC;}
+adlinks {font-family: arial; font-size: 11px; color: #0066CC; font-weight: bold;}
+arrow {font-family: arial; font-size: 11px; color: #0066CC;}
+rule2 {background-color: #FFD306;}
+ad {font-family: arial; font-weight: bold; font-size: 8px; color: #999;}
+linkad {font-family: arial; font-weight: bold; font-size: 10px; color: #333; padding-left: 15px; padding-bottom: 5px;}
+navlink:link, .navlink:visited, .navlink:active {font-family: arial; font-weight: bold; font-size: 10px; color: #FFF; text-decoration: none;}
+navlink:hover {text-decoration: underline;}
+vertbar {font-family: arial; font-weight: bold; font-size: 10px; color: #999;}
+footer {font-family: arial; font-weight: bold; font-size: 10px; color: #FFF;}
+nav {background-color: #777;}
+footerlink:link, .footerlink:visited, .footerlink:active {line-height: 20px;font-family: arial; font-weight: bold; font-size: 10px; color: #FFD306; text-decoration: none;}
+footerlink:hover {text-decoration: underline;}
+
+
+View this email as web page
+
+
+
+
+
+
+
+Unsubscribe
+  |  
+Privacy Policy
+  |  Feedback
+  |  Subscribe To More Newsletters
+  |  Sign In To Your Account
+
+© 2009 Eheqbusu. All rights reserved. 
+
+The material on this site may not be reproduced, distributed, transmitted, cached, or otherwise used, except with the prior written permission of Jlqmiziwqvux. 
+
+For more information, please contact us. 
+
+
+

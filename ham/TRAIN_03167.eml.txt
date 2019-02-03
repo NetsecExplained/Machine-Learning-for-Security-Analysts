@@ -1,0 +1,16 @@
+Re: Kde 3.5 ...On 2010-05-06, Mike Bird  wrote:
+> Are we - KDE's non-DD non-DM end users - free to include KDE 3.5
+> in Debian Squeeze?  Why not keep KDE SC 4 in experimental where
+> it belongs for a few more years?
+
+Please don't feed the troll.
+
+/Sune
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhu6em5.rvp.nospam@sshway.ssh.pusling.com
+
+

@@ -1,0 +1,37 @@
+latest php upgrade in 7.3Today an apt-get upgrade holds back php (and submodules, like php-imap). 
+  Running an apt-get install php to see what's up, I get:
+
+# apt-get install php
+Processing File Dependencies... Done
+Reading Package Lists... Done
+Building Dependency Tree... Done
+The following extra packages will be installed:
+   curl-devel imap imap-devel mysql mysql-devel php-imap php-ldap postgresql
+   postgresql-devel postgresql-libs pspell-devel ucd-snmp-devel 
+ucd-snmp-utils
+   unixODBC unixODBC-devel
+The following NEW packages will be installed:
+   curl-devel imap imap-devel mysql mysql-devel postgresql postgresql-devel
+   postgresql-libs pspell-devel ucd-snmp-devel ucd-snmp-utils unixODBC
+   unixODBC-devel
+The following packages will be upgraded
+   php php-imap php-ldap
+3 packages upgraded, 13 newly installed, 0 to remove(replace) and 1 not 
+upgraded.
+
+Anyone have an idea what the heck RedHat did here, and why we're now 
+trying to install a ton of crap I don't want?  (I'm hoping someone else 
+has chased this down and could save me time... ;) )
+
+thx,
+-te
+
+-- 
+Troy Engel, Systems Engineer
+Cool as the other side of the pillow
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,39 @@
+Re: Still can't read DVDs/CDsFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Mon, May 17, 2010 at 7:01 AM, Zoran Kolic  wrote:
+
+> > > *What I'm doing to mount the media: *
+> > > root@debian:/home/stuckey# mount /dev/sr0
+> > > mount: block device /dev/sr0 is write-protected, mounting read-only
+> > > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+> > >        missing codepage or helper program, or other error
+> > >        (could this be the IDE device where you in fact use
+> > >        ide-scsi so that sr0 or sda or so is needed?)
+> > >        In some cases useful info is found in syslog - try
+> > >        dmesg | tail  or so
+> > Is this a data or audio CD (audio CDs can't be mounted, only played)? Is
+> > it possible to test with another OS on the same hardware?
+>
+> As another poster pointed, the device could be wrongly picked up.
+> Also, I'm not sure for udf, made on win. Best bet would be to
+> mount it by the hand, trying all devices out. Further, helps to use
+> dvd/cd that worked as a charm previously.
+> Do you noticed any change in /dev directory after inserting op-
+> tical media in the device?
+> Best regards
+>
+>                                 Zoran
+>
+>
+Sometimes I'll get "mount: no medium found on /dev/sr0" or it will mount, or
+it will give me the other error message I posted.
+
+I just put a disc in, tried to mount it three times, and got three different
+results. Now it is mounted and /dev looks like
+http://paste.debian.net/73572/
+
+Now I've taken the disc out and dev looks like:
+http://paste.debian.net/73573/
+
+They look the same to me.

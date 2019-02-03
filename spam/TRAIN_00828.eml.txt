@@ -1,0 +1,67 @@
+[SPAM]  Watch his mistake
+
+
+Newsletter - October 11, 2009
+
+
+
+body {
+font-size: 12px;
+font-family: arial, verdana, sans-serif;
+font-weight: normal;
+font-style: normal;
+}
+
+physicalAddress {
+color: gray;
+font-size: 10px;
+font-family: arial, verdana, sans-serif;
+font-weight: 100;
+}
+
+whiteongray {
+	color:#FFFFCC; text-decoration:underline; font-size:22px; border:0px;
+}
+
+
+
+
+
+If you are having trouble viewing this newsletter, please go to Online version. 
+
+ 
+
+
+ 
+
+
+News October
+			11, 2009
+ 
+            Subscribe  |  Send Feedback  |  PDF Version
+
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Issues  |  Follow us on Twitter  |  
+              Subscribe  |  Send Feedback  |  Unsubscribe
+
+
+
+
+
+U.S. Department of Labor, Frances Perkins Building, 200 Constitution Ave., NW, Washington, DC 20210
+
+
+
+
+

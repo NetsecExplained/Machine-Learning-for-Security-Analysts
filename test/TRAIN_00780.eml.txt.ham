@@ -1,0 +1,28 @@
+Re: New Sequences Window
+>>>Chris Garrigues said:
+
+ > Done.  I also eliminated the msgs variable on the theory that simpler is
+ > 
+ > better (I spent a lot of time hacking out the underbrush in exmh while 
+ > working on the sequences window).
+
+Just a big *thank you* to Chris for being willing to dive in and get
+very messy.  The sequence management code is some of the very oldest
+in exmh, and surely suffered as features were added over several years.
+When this stabilizes, it will be a great excuse for a 2.6 release.
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

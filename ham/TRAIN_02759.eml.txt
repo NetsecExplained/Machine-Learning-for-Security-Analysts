@@ -1,0 +1,30 @@
+[Razor-users] honor is not in cslFolks, 
+
+Some of you seem to have hardcoded honor as the default catalogue server.
+There are three catalogue only servers running now, and honor is acting
+as a nomination only server. Tonight we will be completely turning off
+catalogue support on honor, so if you are specifying honor with the -rs
+option, please take it out and let the agents discover a closeby
+catalogue server.
+
+cheers,
+vipul.
+
+
+-- 
+
+Vipul Ved Prakash          |   "The future is here, it's just not 
+Software Design Artist     |    widely distributed."
+http://vipul.net/          |              -- William Gibson
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

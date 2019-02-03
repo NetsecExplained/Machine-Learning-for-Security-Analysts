@@ -1,0 +1,23 @@
+where is what kontrol did?Hi,
+
+I don't have KDE installed (fvwm instead) but use Konsole.
+
+That has a warning funcion that shows up with a message 'KDE system 
+notifications'.
+
+It used to have a sound associated with it and I used to use kontrol to 
+set that up. But kontrol is gone.
+
+How do I get sound back for that notification?
+
+I thought I had asked this question before but I can't find it.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqsoge$ir0$1@dough.gmane.org
+
+

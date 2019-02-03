@@ -1,0 +1,25 @@
+Re: Kernel (de)bug information sent, even if there is no connectionOn Sat, 24 Apr 2010 22:57:27 +0200, Merciadri Luca wrote:
+
+> This looks like kerneloops sends the oopses through a simple URL.
+> Strange. It seems not to even ping a reference IP to see if the
+> connexion is still alive. Weird.
+> 
+> submit-url = http://submit.kerneloops.org/submitoops.php is appended at
+> the end of my kerneloops.conf.
+
+Yes. 
+
+Sorry, I read later this e-mail (see my last reply).
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.25.10.27.43@csmining.org
+
+

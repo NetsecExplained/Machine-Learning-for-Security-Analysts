@@ -1,0 +1,48 @@
+Re: shouldn't apt-get upgrade, you know, upgrade ?On Tue, 06 Apr 2010 06:50:37 +0200
+Johan Gr=C3=B6nqvist  wrote:
+
+>
+> My first guess:
+>=20
+> Perhaps you did not quote enough text from the man page?
+>=20
+> [From the text on upgrade]
+>=20
+>             New versions of
+>             currently installed packages that cannot be upgraded
+> without changing the install status of another package will be left
+>             at their current version.
+>
+
+That was a very good guess.
+=20
+>=20
+>=20
+> As ooffice is a rather complex package, it seems plausible to me that
+> a new version would require other packages to be installed as well,
+> and upgrade is not bold enough to do that.
+
+it does seem plausible, doesn't it ? :-)
+
+>=20
+> I think you may be interested in the dist-upgrade command instead.
+>=20
+
+I thought of that, but I thought it was for going from stable to
+testing, or a similar sort of thing.  The man page tells all !
+
+dist-upgrade in addition to performing the function of upgrade,
+           also intelligently handles changing dependencies with new
+versions of packages;
+
+Thank You,
+
+Brian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100406063454.706fd3bd@windy.deldotd.com
+
+

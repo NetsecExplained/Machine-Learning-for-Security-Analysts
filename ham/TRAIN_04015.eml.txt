@@ -1,0 +1,24 @@
+Re: GNOME crashes when .xsession file is present.On 2010-04-25, Disc Magnet  wrote:
+---SNIP---
+> I was just experimenting to see if I can
+> put any startup commands which will run everytime I log into GNOME. In
+> both trials, GNOME crashed.
+
+Put the commands in .gnomerc (for GNOME only) or .xsessionrc (for all X
+sessions). If you want to start graphical applications, put the
+appropriate .desktop files in ~/.config/autostart, or use the GNOME
+session manager for the purpose. As others have pointed out, the file
+.xsession should be reserved for starting an X session.
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhtamr5.bu7.liam.p.otoole@dipsy.selfip.org
+
+

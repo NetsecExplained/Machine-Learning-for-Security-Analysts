@@ -1,0 +1,40 @@
+Re: asignar hora a PCFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+2010/4/27 Stephen Powell 
+
+> On Tue, 27 Apr 2010 15:22:53 -0400 (EDT), cosme wrote:
+> >
+> > asignar hora a PC
+> > Hola como crear un script para poner en netlogon de samba para que las
+> > estaciones Windows cojan la hora del server en windows ser=EDa por jemp=
+lo
+> > netime.bat
+> >
+> > @echo off
+> > net time \\debian-pdc /set /yes
+> >
+> > al traducirlo a Debian ser=EDa un netime.sh
+> >
+> > y como quedar=EDa dentro????
+>
+> Solo en ingles, por favor, o mailto:debian-user-spanish@lists.debian.org
+>
+> --
+>  .''`.     Stephen Powell
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/82853430.29593.1272394679432.JavaMail.root@md01.w=
+ow.synacor.com
+>
+> I have to say I kinda like trying to guess the meaning of the post based
+solely on the command lines

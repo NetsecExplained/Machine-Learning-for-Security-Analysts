@@ -1,0 +1,34 @@
+Re: [SAdev] Debug Support FeatureMarc Perkel  writes:
+
+> Here something I want - maybe it's in there. I want a way to pipe a file 
+> containing messages into one of the "masses" tools and have it output 
+> the messages that match a specific rule.
+> 
+> The reason I want this is to pipe non-spam corpus through a rule and get 
+> a file of messages so I can look at the false positives and try to 
+> figure out why there was a match. IDEALLY - I would like this debug 
+> modes to put [[ ]] around the phrase that triggered the match. I think 
+> this would be a good tool for fixing/improving otherwise good rules that 
+> have unexplained FP.
+
+  $ cd mass-check
+  $ ./mass-check [options] > nonspam.log
+  $ egrep RULE_NAME nonspam.log|awk '{print $3}'|xargs cat > RULE_NAME.fp
+
+It's pretty easy to figure out what matched if you write a short perl
+script to match regular expressions or just use pcregrep (perl regular
+expression grep).
+
+Dan
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

@@ -1,0 +1,26 @@
+[SAdev] [Bug 813] add Bayesian spam filteringhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=813
+
+
+
+
+
+------- Additional Comments From jm@jmason.org  2002-09-21 16:39 -------
+Dan, BTW, is there any code from this that we can get checked in?
+I'd love to mess around with it a bit.
+
+
+
+------- You are receiving this mail because: -------
+You are on the CC list for the bug, or are watching someone who is.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

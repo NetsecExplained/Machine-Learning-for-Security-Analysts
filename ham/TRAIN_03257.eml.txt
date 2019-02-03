@@ -1,0 +1,40 @@
+Re: [ILUG] jpeg patented...On Fri, 19 Jul 2002, kevin lyda wrote:
+
+> go after next?  how many jpeg rendering/creating apps/os's has ms
+> distributed to their customers since 1986?
+
+pah.. MS'd just buy them. (and i'm sure they'd happy for this to
+happen).
+
+> kevin
+
+oh yes, see you've setup that tdma thingy, so here's a thought. do
+you reckon spammers (or the software they use) is/are smart enough to
+
+	s/\(.\)+\+.*@\([a-zA-Z\.0-9\-]\)/\1@\2/
+
+on email addresses? it's a fairly old trick, so i dont see why they
+wouldnt.
+
+personally, i rarely get spam to any of the plussed addresses
+i've given out - i think i've only ever gotten /one/ cause ebay 
+seem to have sold on my address. apart from that - never, not even 
+to +usenet, so i wonder whether harvesting software does the above.
+
+regards,
+-- 
+Paul Jakma	paul@clubi.ie	paul@jakma.org	Key ID: 64A2FF6A
+Fortune:
+Thus spake the master programmer:
+	"After three days without programming, life becomes meaningless."
+		-- Geoffrey James, "The Tao of Programming"
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

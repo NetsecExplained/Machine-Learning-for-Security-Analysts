@@ -1,0 +1,400 @@
+CNET: Why I don't use firewalls
+
+Message Boards Dispatch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Messages
+ All CNET
+ The Web
+ 
+
+
+
+
+
+
+1. Wireless
+
+
+2. Computer Help
+
+
+3. Speakeasy
+
+
+4. Windows 98
+
+
+5. PC Hardware
+
+
+6. Windows Me
+
+
+7. Computer Newbies
+
+
+8. Downloads
+
+
+9. Windows XP
+
+
+10.Virus & Security
+
+
+
+
+
+
+
+
+				
+				Check out the User Opinions on these Hot Products and then submit one of your own.
+				 
+
+92%  8% (3629 votes)
+RAMBooster
+In Downloads: Optimizers & Diagnostics
+
+85%  15% (2878 votes)
+ZoneAlarm
+In Downloads: Security & Encryption
+
+84%  16% (50 votes)
+VirusMD Family Webfilter 1.0
+In Downloads: Browsing Companions
+
+More User Opinions
+
+
+
+
+
+Computer Problems? Try our Live Support from a Live technician!
+
+
+
+	.black {color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-style: normal; font-size: 11px; font-weight: normal;}
+
+
+<!--
+function clearTextarea() {
+	if ((document.QuestionEntry.Question.value == "Type here and click go.")) {
+		document.QuestionEntry.Question.value = "";
+	} else {
+		return;
+	}
+}
+//-->
+
+
+
+
+
+
+
+
+
+
+
+Type here and click go.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+July 11, 2002
+
+
+
+ 
+
+Dear Readers,
+With all the corporate scandals--such as WorldCom and Enron--surrounding us, who can you trust nowadays? Well, for starters, you can trust the CNET Message Boards. The CNET Message Boards are as real as it gets. When it comes down to giving or receiving honest tech advice, there's no better place to be. In the Boards there are no reviews or tests by professionals, just real, true-life experiences and discussions from people like you and me who share one common interest: the love of today's challenging technology. There are no sneaky execs here or scandals to worry about, so if you have a specific problem or question 
+in mind, post it! You won't be disappointed. 
+ 
+
+
+
+
+						Lee Koo
+						CNET Community
+						Got suggestions? Email me: messageboards@cnet.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Digicams for summer shutterbugsGoing on vacation, or just headed to the beach? Indulge your summer snapshot habit with one of our picks.
+
+
+	 5-megapixel shoot-out
+	 Leica Digilux 1: street shooter"s digicam.
+
+
+
+
+
+
+
+
+
+
+
+Most popular products
+Digital cameras
+	1. Canon PowerShot G2
+	2. Canon PowerShot S40
+	3. Canon PowerShot S30
+	4. Canon PowerShot A40
+	5. Nikon Coolpix 995
+ See all most popular cameras
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Why I don't use firewalls
+Do you need some honest opinions? Despite all the horror stories that you hear of hackers and Trojans intruding on one's personal computer, hear why one of our veteran moderators refuses to use a firewall. This discussion gets a bit heated, but her point was well taken. Take a look and see why she refuses, and if you have a cent or two to throw in, the donation jar is wide open. More Security and Virus Alerts discussions
+The scoop on USB 2.0
+The chances are that the next time you pick up an external computer peripheral, it will be utilizing USB 2.0 to connect to your computer. So what is USB 2.0? Is it that much faster than USB 1.1? Will your current USB port be compatible with peripherals with the new version? Well if you have similar questions, I gathered up some discussion on this topic in hopes that it will bring a better understanding of what's in store for USB 2.0. Take your pick. 
+
+USB vs. USB 2.O
+How to upgrade from USB 1.1 to 2.0?
+USB 2.0 with reverse compatibility with USB 1.1?
+More Hardware discussions
+
+Windows XP not any faster than Windows 98SE?!
+Many users have jumped ship and moved on to newer and supposedly better things such as Windows XP, but what if it doesn't perform up to par and is actually slower than the previous OS that you had? Check out this discussion; what's newer may not always be faster. More Windows XP discussions
+
+Best type of backup system to use for someone that is indigent?
+Backing up your hard-drive system sounds like a task for veteran, but is it? In 
+this discussion, a beginner is asking for sound advice on the best type of backup system to use, and sure enough, he received a bunch of options to choose from. If you're in that same boat and looking for the best ways to back up some of that important data of yours, this discussion is for you. Have a look. More Computer Newbies discussions
+
+Warning for kids and teens online
+If you're a parent, this may be something that you may want to read about kids online. I found it interesting enough to pass along because I know someday I'll be faced with the same worries when my kids are out surfing the web. So have a look, and if it doesn't interest you, pass it on to someone who may find it informative. 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+XP and defragmenting
+
+
+Can RAM be "worn out"?
+
+
+WinModem vs. "full" modem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My PC won't wake up
+from Jen Smith
+
+
+Purchasing a CD-RW--what kind?
+from Graham Hurst
+
+
+
+
+
+ 
+
+
+
+
+
+Live Tech Help. Submit your question now. CNET News.com: Top CIOs on the future of IT. Find a job you love. Over 1 million postings ZDNet: This IT director has had enough of Microsoft May Editors" Choice Award: Pioneer"s Home Theater System HTS - 910DV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The e-mail address for your subscription is qqqqqqqqqq-zdnet@spamassassin.taint.org
+Unsubscribe |
+ Manage My Subscriptions
+ | FAQ |
+ Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Price comparisons |
+Product reviews |
+Tech news |
+Downloads |
+All CNET services
+
+
+
+
+
+        Copyright 2002 CNET Networks, Inc. All rights reserved.          
+
+
+
+
+

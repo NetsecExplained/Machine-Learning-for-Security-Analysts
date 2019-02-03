@@ -1,0 +1,78 @@
+Re: Are bad developer libraries the problem with M$ software?No, you need to learn how declarations work in C.  You have specified
+testbuff as "an array of 1024 pointers to characters".  That means,
+you have allocated an array big enough to store 1024 pointers.  On
+most machines, that's 4 bytes per pointer, which indeed would give you
+4096.
+
+John
+
+On Fri, Nov 22, 2002 at 10:27:53PM +0500, Ali Saifullah Khan wrote:
+> Here is a test done on the return of sizes by sizeof() using pointers.
+> 
+> #include 
+> 
+> int main(void) {
+>  char *testbuff[1024];
+> 
+>  int len = sizeof(testbuff);
+>  cout << len << "\n";
+>  return 0;
+> }
+> 
+> c:>debug\testbuff
+> 4096
+> 
+> The output from this is 4096 but infact it should be returning 1024.
+> Apparently, using a pointer has multiplied the value of the original size of
+> the testbuff[] buffer by the size of the " pointer " ?
+> 
+> char pointers have a size of 4 bytes.....as is shown when output is 4 bytes
+> using " int len = sizeof((char*)testbuff); "
+> 
+> c:>debug\testbuff
+> 4
+> 
+> so sizeof is returning the size of the "first" entity passed to it, that
+> being the size of the pointer. " * "
+> 
+> Whats confusing is when sizeof outputs the value for something like " char *
+> testbuff[] "
+> Here the macro seems to be multiplying the sizes of entities passed to it,
+> by considering the first entity as the pointer denoted by the asterisk
+> itself " * ", and then taking this value of 4 and multiplying it with the
+> size of the buffer testbuff[] which is 1024, to produce an output of 4096.
+> 
+> Rather strange behaviour. ???
+> ----- Original Message -----
+> From: 
+> To: 
+> Cc: 
+> Sent: Tuesday, November 19, 2002 2:59 AM
+> Subject: Re: Are bad developer libraries the problem with M$ software?
+> 
+> 
+> > ----- Original Message -----
+> > From: John Viega
+> > Sent: 11/18/2002 2:28:08 PM
+> > To: cdavison@nucleus.com
+> > Cc: secprog@securityfocus.com
+> > Subject: Re: Are bad developer libraries the problem with M$ software?
+> >
+> > > strlen does not work, because he was trying to get at the ALLOCATED
+> > > size of a buffer, not the actual size of the buffer.
+> >
+> > You're right. I was looking at the safe_strncpy code, and it looks like
+> the author did use strlen.
+> >
+> > > sizeof will return the size of the data type passed to it.  So if you
+> > > declared mystr as char mystr[1024];, it will return as the original
+> > > author wanted.
+> >
+> > It will not work with a char*, so if your strings are dynamically
+> allocated, or passed to you as a pointer, these macros will not work.
+> >
+> >
+> >
+> >
+
+

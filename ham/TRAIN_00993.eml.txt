@@ -1,0 +1,482 @@
+Where TabletPC will succeed (Tech Update)
+
+Tech Update Today
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VITAL SIGNS FOR JULY 17, 2002
+
+
+
+
+
+
+
+
+
+David Berlind
+
+
+Where TabletPC will succeed--and why
+
+
+OK, OK, you readers were right all along. I now believe that Microsoft"s TabletPC can be a big hit. Where? Vertical markets. Why? Development tools.
+
+
+
+
+
+
+Why you won't be buying one from Dell
+
+
+
+
+
+
+
+
+
+Latest from ZDNet News
+
+
+CERT: Security reports multiplying
+
+
+Microsoft squashes Windows 2000 bugs
+
+
+
+Sun's ID software gets a Liberty face-lift
+
+
+
+Mobile slump puts the bite on Bluetooth
+
+
+'Rainbow' coalition to spread wireless
+
+
+
+Handspring courts corporate buyers
+
+
+Apple patches serious security hole
+
+
+
+More Enterprise News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Farber's Picks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DanFarber
+
+
+
+
+
+
+
+Slowing sales shrinking Intel workforce
+
+
+
+
+
+Intel announced lower-than-expected earnings yesterday and that 4,000 jobs (5 percent of its staff) would be eliminated this year. This may bring Intel's margins back in line, but the overall outlook is not bright in the coming months, despite Federal Reserve Chairman Alan Greenspan's optimism about a more timely recovery.
+
+
+
+
+
+Read the full story
+
+
+VMware ups consolidation ante
+
+The new version of VMware's lower-end server product is slated to run atop the latest versions of Linux  from SuSE, 
+MandrakeSoft and Red Hat, as well as Microsoft Windows .Net Server due this year. Offering more Intel-server based 
+consolidation opportunities than ever, GSX Server 2.0 includes support for AMD's Athlon XP and Intel's Xeon 
+processors.
+
+
+
+
+Read the full story
+
+
+Server consolidation eases system management
+
+
+
+
+
+
+
+
+
+
+
+
+Software contracts: Clause for alarm
+
+In the high-stakes game of corporate software negotiations, the silver-tongued sales rep isn't your biggest challenge: It's 
+the language in the contracts. Enterprise customers spend surprisingly little time pouring over the fine print of 
+multi-million dollar software contracts that are rife with obscure terminology, vague expansion charges, and mind-boggling 
+license conversions. As a result, they end up paying in ways they had never imagined long after the deal is signed. Just 
+ask California.
+
+
+
+
+Read the fine print
+
+
+Six steps to the best TCO with Linux
+
+
+Don't just bring in Linux as yet another OS to manage. To help you determine whether Linux offers better TCO than Windows, 
+Gartner examines the benefits and pitfalls of deploying Linux-based servers.
+ 
+
+
+
+
+Read the full story
+
+
+
+
+
+
+
+
+
+
+
+Rack server a la mode
+
+With its Xserve rack-mount server, Apple is moving into enterprise territory. The specs are impressive: Dual 1GHz 
+PowerPC G4s, up to 2GB DDR SDRAM, two 64-bit 66MHz PCI slots (plus a third combination PCI/AGP slot), dual Gigabit Ethernet, 
+FireWire and USB ports, and four Ultra ATA/100 Apple Drive Module bays. But Bill O'Brien thinks Apple's 
+licensing may be even more appealing than the hardware.
+
+
+
+Read the full story
+
+
+
+
+
+
+
+
+
+
+
+A notebook with desktop muscle
+WinBook's big and heavy J4 uses a desktop Pentium 4 and leaves mobile P4-M notebooks in the dust. That means heavy 
+lifting for your spreadsheets--and your shoulders. If you travel only occasionally and need top performance, this 
+might be the sole computer for you. 
+
+
+
+Read the full review
+
+
+Write me at dan.farber@cnet.com
+Back to top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Also on Tech Update Today
+
+
+
+
+
+
+
+
+FEATURE 
+
+
+
+
+
+Top 10 Web services security requirements
+
+Security is a critical, yet often overlooked, aspect of Web services development. Consider these requirements when 
+working with your next project. 
+
+
+ 
+
+
+
+DOWNLOADS 
+
+
+
+
+
+Stamp out the bugs
+
+
+Does your code need a once-over? Debug your software with this collection of tools and utilities designed to locate 
+and correct programming mistakes, track defects, and more.
+
+
+
+
+ 
+
+
+
+
+PREVIOUSLY ON TECH UPDATE TODAY 
+
+
+
+
+
+Bridging the gap between Liberty and Microsoft
+
+
+It appears that we are closer to a solution for single sign-on. But what if Microsoft chooses not to support Liberty's specifications?
+
+
+
+
+Microsoft stresses security for Exchange
+
+
+The software giant plans to improve the Exchange Server e-mail system in the software's first major upgrade in nearly 
+two years.
+
+
+
+
+
+
+
+Crucial Clicks--products worth looking at
+
+
+
+
+
+
+
+
+
+
+MONITORS
+
+
+
+A Porsche you can afford
+Samsung paired up with F.A. Porsche designers to deliver the SyncMaster 171P, a sleek, 17-inch LCD.
+
+Read review
+
+
+
+
+
+Most Popular Products
+
+
+
+Monitors
+1. Samsung SyncMaster 151S
+2. NEC MultiSync 1550V
+3. Envision EN-5100e
+4. Samsung SyncMaster 570 V
+5. Samsung SyncMaster 955 DF
+More popular monitors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Elsewhere on ZDNet
+
+
+
+
+
+
+
+Need a memory upgrade? Find out with CNET's Memory Configurator.
+
+Clearance Center: Get discounts on PCs, PDAs, MP3 players and more!
+
+Find out the top 10 Web services security requirements at Tech Update.
+
+Builder.com shows you how to bring Java to the masses with Cold Fusion MX.
+
+Check out thousands of IT job listings in ZDNet's Career Center.
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign up for more free newsletters from ZDNet
+
+
+
+The e-mail address for your subscription is qqqqqqqqqq-zdnet@example.com
+
+Unsubscribe | 
+         Manage 
+        My Subscriptions | FAQ | 
+         Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home |eBusiness | Security | Networking | Applications | Platforms | Hardware | Contact us
+
+
+
+
+        Copyright 2002 CNET Networks, Inc. All rights reserved. ZDNet is a registered service mark of CNET Networks, Inc.          
+
+
+
+
+

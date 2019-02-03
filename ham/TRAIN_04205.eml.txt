@@ -1,0 +1,25 @@
+Re: [SAtalk] O.T. Habeus -- Why?On Wed, 28 Aug 2002 17:45:49 -0700
+Brian McNett  wrote:
+
+> The first court cases were actually concluded years ago. These 
+> include many legal precedents which are used to protect the 
+> rights of ISPs to block mail, and to terminate service to 
+> spammers.
+
+Yeah, but these would be different cases relating to copyright infringements,
+not about ISP's blocking mail or not.
+
+
+---
+Lars Hansson
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

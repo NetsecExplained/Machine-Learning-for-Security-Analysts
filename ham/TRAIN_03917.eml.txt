@@ -1,0 +1,22 @@
+Re: [ILUG] Autorun CDsKenn Humborg wrote:
+>>Cheers All for your words of wisdom.
+>>
+>>I came across this which has worked a treat:-
+>>
+>>http://www.avdf.com/mar97/art_autorun.html
+> 
+> 
+> (This is all Windows-related autorun stuff).
+
+Which was obvious since he mentioned:
+`start file.html`
+And the reason I didn't reply, Doh!
+
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

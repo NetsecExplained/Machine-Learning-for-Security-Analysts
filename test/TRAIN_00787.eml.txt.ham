@@ -1,0 +1,14 @@
+Re: Where to find setup for env variable?On 14.04.2010 12:24, Paul Chany wrote:
+
+> Maybe must I use grep to find the file containing 'JAVA_HOME'?
+> If yes, I dont' know the exact expression of that grep command.
+
+grep -sIr 'JAVA_HOME' /etc/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5A875.502@chello.at
+
+

@@ -1,0 +1,32 @@
+sh command issueI'm helping a fella in the UK with a debian build (tiny web) on a small VM
+machine in a data center.  I am trying to compile some c++ code, I have the
+libs and binaries installed and the compile "works", except for this line...
+
+I have a php file used to make the build, and the file contains these
+lines..
+
+
+	system("g++ $files $incl $libs >& build.log");
+#	system("g++ $files $incl $libs");
+
+The first line fails with an error "sh: Syntax error: Bad fd number".
+
+If I comment out the first line, and uncomment the second line, I do get my
+"a.out" file but the errors/warnings go to the screen...  how can I make
+them go to the 'build.log' file?
+
+I have done full package updates on the system using Webmin, and everything
+as of this morning is current.
+
+Thanks kindly for any assistance you can provide. :)
+
+Gary
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ANEAJGKDLNAAPMPGONLKKEAGCBAA.gary.mccallum@shaw.ca
+
+

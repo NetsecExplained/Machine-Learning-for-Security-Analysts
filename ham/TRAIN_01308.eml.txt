@@ -1,0 +1,29 @@
+Re: Aptitude ErrorFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Fri, Apr 30, 2010 at 5:44 PM, Boyd Stephen Smith Jr. <
+bss@iguanasuicide.net> wrote:
+
+> On Friday 30 April 2010 06:16:22 James Stuckey wrote:
+> > The unstable/sid doesn't have to be comment out. Setting the default
+> >  release will keep the system tracked to, in this case, testing.
+>
+> Er, mostly.
+>
+> If there is a versioned dependency that can be satisfied from sid but not
+> testing, you will get the package from sid.  This shouldn't happen given
+> the
+> way testing is managed, unless you installed at least one package from sid.
+>
+> > How did the packages  from sid get installed in the first place? If
+> you're
+> > tracking something, you have to give it an explicit "aptitude install -t
+> >  sid " command, right?
+>
+> With the official testing and sid repositories that should be true.  It
+> would
+> only happen if someone manually fixed up testing and did it wrong.
+> --
+>
+
+I installed eclipse from sid, since there isn't eclipse in testing.

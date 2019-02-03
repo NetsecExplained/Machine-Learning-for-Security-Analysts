@@ -1,0 +1,25 @@
+Re: HD/ID: High-Def Independence DayOn Wed, 2002-07-24 at 07:09, Justin Mason wrote:
+> 
+> "Gordon Mohr" said:
+> 
+> > I still think self-add whitelists are underrated. 
+> > A FoRK whitelist would presumably start with
+> > all subscribers, and grow from there. Bouncing
+> > problem mail, in a way that humans can understand
+> > how to whitelist themselves for a resend, avoids 
+> > the problem of silent failures without opening the 
+> > door to lazy, forged-"from" spammers. 
+> 
+> Big problem I see with this system, is the
+> automatically-generated-but-important mails like online tickets,
+> bills, etc.
+
+Besides lists, this is the reason I can't use such a system. I get more
+than a few mails from 'dont-respond-to-this-address@' password reminder
+generators, for example. SpamAssassin does flag a few of those as spam,
+but at least I've still got them.
+
+Luis
+http://xent.com/mailman/listinfo/fork
+
+

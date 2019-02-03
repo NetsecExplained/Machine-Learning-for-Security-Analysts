@@ -1,0 +1,41 @@
+Re: Lenny to Squeeze upgrade problemsFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, May 12, 2010 at 04:44:12PM -0500, Boyd Stephen Smith Jr. wrote:
+> On Wednesday 12 May 2010 16:27:08 Nick Douma wrote:
+> > On Wed, May 12, 2010 at 04:24:05PM -0500, Ron Johnson wrote:
+> > > On 05/12/2010 04:16 PM, Boyd Stephen Smith Jr. wrote:
+> > >> On Wednesday 12 May 2010 16:04:07 Jordan Metzmeier wrote:
+> > >>> This issue is because the new udev requires a>  .31 kernel with
+> > >>> sysrq_deprecated=3Dn (I am going off memory here so don't quote me)=
+=2E This
+> > >>> means you need to first upgrade to the squeeze kernel, reboot, then
+> > >>> upgrade udev and proceed with the "updgrade".
+> > >>
+> > >> Added Tag: needs-to-be-in-release-notes
+> > >
+> > > To heck with the Release Notes!  This needs to be front and center wh=
+en
+> > > you when you do the "apt-get update".
+> >=20
+> > It does appear when you do the aptitude full-upgrade, but it doesn't bl=
+ock
+> >  the output, it just shoots by.
+> >=20
+> > I do wonder how they will handle this when squeeze gets stable. The who=
+le
+> >  update your kernel, reboot, update the rest is a bit too easy to fuck =
+up
+> >  for my taste. I completely assumed that I could just change the apt
+> >  sources.list and do the full-upgrade.
+>=20
+> You should *always* read the release notes first.  It is actually rather =
+rare=20
+> that a release just needs an 'aptitude full-upgrade'.  Usually, perl, apt=
+,=20
+> aptitude, or dpkg should be updated first.
+
+Well, I did try to look for release notes, but I did not find any for Squee=
+ze.

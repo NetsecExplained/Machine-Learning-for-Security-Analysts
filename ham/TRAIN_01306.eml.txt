@@ -1,0 +1,21 @@
+Re: Making make-kpkg quieterMart Frauenlob  writes:
+
+>You want to see the output of the build, but the clean process is too
+>much? The build output will be multiple times greater anyways. This is
+>not a problem over the slow link?
+
+Ok. It looks like you haven't run the latest make-kpkg.
+
+I just did a rebuild of an existing built source tree. The make-kpkg
+output contained 8839 lines of output just to describe unlinking things
+in the debian/... directory. That 8839 lines is about 980kB. There was
+later objcopy output from the make-kpkg process amounting to 180kB. The
+rest of the output is 73kB. It's a significant difference.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/acb.4bbe8b7c.839a2@getafix.xdna.net
+
+

@@ -1,0 +1,28 @@
+Re: Moving a drive to another computerOn Wed, May 19, 2010 at 12:46:53PM -0400, Vince Vielhaber wrote:
+>
+> A friend was running windows and the viruses got the best of it. She
+> sent me the drive so I could get her pics and documents off of it and
+> put 5.0.4 on it and send it back (she's a few states away).
+>
+> What problems (and solutions) should I be expecting when she installs
+> the drive in her computer?  I'm assuming the network setup will be one
+> problem.
+>
+> My background is mainly in FreeBSD.  If a drive is set up as being
+> /dev/ad0 and the other machine sees it as /dev/ad4 it won't complete
+> the boot, it'll complain with a cannot mount root error.  Will that be
+> an issue with Debian?
+>
+Besides the fstab and udev issues that others posted, you should be
+pretty good.  I recommend setting up a button on her desktop that sets
+up an ssh tunnel so you can get in and add/fix stuff.
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519222719.GA10443@aurora.owens.net
+
+

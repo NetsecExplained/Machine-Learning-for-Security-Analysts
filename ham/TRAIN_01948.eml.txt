@@ -1,0 +1,38 @@
+Re: backing up LVM volumes
+On Tue, April 27, 2010 00:33, Bernard wrote:
+> Hi to Everyone !
+>
+> On my previous systems, I used to create overall backups of partitions,
+> using 'SystemRescueCD'. This is no longer possible ever since 2007 that
+> I have a RAID1 mirroring system on my Debian. SystemRescueCD does not
+> backup LVM volumes, or, if it does, that must be a very new feature, and
+> I have not found any doc on this.
+>
+> So, what should I do so as to backup my system ?  I once tried 'dd', but
+> I think I remember it took forever, and I don't really know whether I
+> would have been able to use the resulting file to successfully restore
+> the partitions if needed.
+>
+> Could someone suggest something that has been successfully tried ?  Even
+> 'dd' could do, if it is OK with LVM and if I get some details. I
+> understand that I would have to unmount the partitions, but this is not
+> a problem. I have two IDE mirrored disks of 200 GB each.
+>
+> Thanks in advance for your insights.
+>
+
+How about clonezilla (http://www.clonezilla.org/)? It supports LVM2 (not
+1) and is based on Debian (I think you should be able to get what you need
+from the Debian repositories anyway). But I'm not an expert :)
+
+
+-- 
+Rarely do people communicate; they just take turns talking.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/14970.81.246.17.226.1272353817.squirrel@stevenleeuw.kwik.to
+
+

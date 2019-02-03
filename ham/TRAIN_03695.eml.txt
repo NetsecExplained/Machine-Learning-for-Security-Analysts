@@ -1,0 +1,15 @@
+silverlighthi folks!
+
+somebody out there knows of an linux_equivalent for MS's siverlight??
+
+regards,
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBC9620.8060003@home.nl
+
+

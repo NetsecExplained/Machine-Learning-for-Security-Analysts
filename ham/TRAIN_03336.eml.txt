@@ -1,0 +1,19 @@
+Re: Java is for kiddies>>>>> "J" == Jim Whitehead  writes:
+
+    J> You open sourced the new components you developed for this
+    J> project, so the next person who comes along won't have to
+    J> reimplement them, right?
+
+No need: All those components already exist either in the Java
+class libraries or from the various java jar collections.  Most
+of the classes I used came from the Jakarta project and ApacheXML
+
+But if it's any consolation, my threading of them all together into
+a newswire server /is/ GPL and available on sourceforge.
+
+-- 
+Gary Lawrence Murphy  TeleDynamics Communications Inc
+ Business Advantage through Community Software : http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+

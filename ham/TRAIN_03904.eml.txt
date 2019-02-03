@@ -1,0 +1,33 @@
+Re: [ILUG] find the biggest filePhilip Reynolds wrote:
+> Inn Share's [shareinnn@yahoo.com] 22 lines of wisdom included:
+> > 
+> > Hi,all:
+> > 
+> > Does anyone know how to list the biggest file in my
+> > root directory?or the second biggest ..etc...
+> > 
+> > Because I want to find out what is the reason cause my
+> > root all most full.
+> 
+> $ find /dir -name \*  | xargs du -s | sort -n
+> 
+> Smallest files are listed first with the largest at the end. So if
+> you want to get the 5 largest files, pipe through tail.
+
+Adding -r to the sort options, and piping through head instead,
+might be a better idea. tail needs to read teh whole buffer, head
+only reads the first n lines.
+
+Cheers,
+Dave.
+
+-- 
+       David Neary,
+    Marseille, France
+  E-Mail: bolsh@gimp.org
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,54 @@
+[SPAM]  This is my first attempt! Hold it
+
+
+
+WOW News
+
+body,.backgroundTable{background-color:#FFFFCC;}#contentTable{border:1px solid #0f4773;}.headerTop{background-color:#FFFFCC;border-top:0px none #000000;border-bottom:1px dashed #ffa500;text-align:center;padding:0px;}.adminText{font-size:10px;color:#000000;line-height:200%;font-family:Arial;text-decoration:none;}.headerBar{background-color:#FFFFFF;border-top:0px none #333333;border-bottom:0px none #FFFFFF;padding:0px;}.headerBarText{color:#333333;font-size:30px;font-family:Verdana;font-weight:normal;text-align:left;}.title{font-size:24px;font-weight:bold;color:#094f89;font-family:Verdana;line-height:150%;}.subTitle{font-size:16px;font-weight:bold;color:#000000;font-style:normal;font-family:Arial;}.defaultText{font-size:12px;color:#333333;line-height:150%;font-family:Arial;background-color:#FFFFFF;padding:20px;}.footerRow{background-color:#e8e8e8;border-top:1px solid #808080;padding:20px;}.footerText{font-size:10px;color:#333333;line-height:100%;font-fam!
+ ily:Arial;}a,a:link,a:visited{color:#800000;text-decoration:underline;font-weight:normal;}.headerTop a{color:#663300;text-decoration:none;font-weight:normal;}.footerRow a{color:#094F89;text-decoration:underline;font-weight:normal;}body,.backgroundTable{background-color:#094f89;}a,a:link,a:visited{color:#094F89;}
+
+
+
+
+
+
+
+
+Email not displaying correctly?     View it in your browser.
+
+
+
+
+
+
+
+
+
+
+
+
+Forums
+ | 
+Blog
+ | 
+Shop
+ | 
+Contact
+ | 
+About
+ | 
+
+Privacy
+Copyright (C) 2009 Rjumq LLC All rights reserved.
+								Unsubscribe by logging in to your account and change your contact preferences.
+
+
+
+
+
+
+
+
+
+
+

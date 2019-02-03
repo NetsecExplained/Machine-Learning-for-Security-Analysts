@@ -1,0 +1,27 @@
+Re: [SAtalk] False Positive of the Week
+Bob Sully said:
+
+> Spamassassin (2.30) has been tossing my daily LogWatch (3.3) reports into 
+> the spam bucket.  A recent one generated the folowing hits: ....
+
+fixed in CVS I think, or at least my logwatches get through fine.  If it
+is not fixed in CVS, then report it, using the correct bug-reporting
+procedure:
+
+    1. open a Bugzilla bug. http://bugzilla.SpamAssassin.org/
+
+    2. attach a sample mail message *as an attachment* with all
+    headers intact
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

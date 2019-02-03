@@ -1,0 +1,45 @@
+Re: Java Web Start Offline ProblemsThanks Gabriele.  I was able to launch your app online without a =
+problem, but I could not launch it offline.  I do have the latest =
+Developer Preview installed and I suspect that might be the problem: I =
+believe the bug may have been introduced with Java 1.6.0_18.
+
+- Nick
+
+
+On Apr 16, 2010, at 12:47 PM, Gabriele Kahlout wrote:
+
+> http://memorizeasy.mysimpatico.com
+>=20
+> It's actually 2 jnlps, one setup and one launch.
+>=20
+> Should it not work offline with you, pls let me know. I'm aware that
+> it does work (I've tested that some time ago, and just now,  but ...).
+>=20
+> I also verified that yours doesn't launch offline.
+>=20
+>=20
+> 2010/4/16, Nick Howes :
+>> On Apr 16, 2010, at 11:18 AM, Gabriele Kahlout wrote:
+>>=20
+>>>> Launching without an internet connection causes the application to
+>>>> "hang".
+>>>=20
+>>> In the case of my application this doesn't happen. Must be specific =
+to
+>>> some cases.
+>>=20
+>> Thanks for that information.
+>>=20
+>> Maybe it's something about our JNLP file
+>> .  Could you maybe share the =
+JNLP
+>> file for the case that doesn't hang?
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

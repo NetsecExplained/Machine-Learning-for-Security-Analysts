@@ -1,0 +1,42 @@
+Problem with xquartz 2.5.0Hi !
+
+I'm getting some problems with Xquartz (2.5.0). I'm running on Mac OS =
+10.6.3. My problem is the following :
+
+I use the option of the terminal to automatically launch Xquartz when =
+launching terminal. It works well, and Xquartz is launched. I can then =
+launch applications which need X11, like nedit.
+
+After working, I close all the open X11 windows, I close xquartz and =
+terminal with "command-q" keys.
+The problems appear here : if I want to relaunch nedit, doing exactly =
+the same procedure, I obtain the "can't open display" exit status for =
+nedit. However, Xquartz is normally launched.
+
+I don't understand this behaviour. Somebody has an idea ? Probably a =
+problem with the environment variables ?
+
+Thank you !
+
+Cyril Georgy
+
+--------------------------------------------------
+Cyril Georgy
+t=E9l direct: +41 22 379 24 55
+mail: Cyril.Georgy@unige.ch
+--------------------------------------------------
+Observatoire de Gen=E8ve
+Facult=E9 des Sciences
+Chemin des Maillettes 51
+CH - 1290 Versoix
+--------------------------------------------------
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

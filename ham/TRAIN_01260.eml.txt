@@ -1,0 +1,48 @@
+Re: Capture (for video) what is displayed on the screenOn Sun, May 09, 2010 at 06:46:20PM +0200, Merciadri Luca wrote:
+> ~$ ffmpeg -f x11grab -s cif -i :0.0 /tmp/out.mpg
+> FFmpeg version r11872+debian_0.svn20080206-18+lenny1, Copyright (c) 2000-2008 Fabrice Bellard, et al.
+>   configuration: --enable-gpl --enable-libfaad --enable-pp --enable-swscaler --enable-x11grab --prefix=/usr --enable-libgsm --enable-libtheora --enable-libvorbis --enable-pthreads --disable-strip --enable-libdc1394 --disable-armv5te --disable-armv6 --disable-altivec --disable-vis --enable-shared --disable-static
+>   libavutil version: 49.6.0
+>   libavcodec version: 51.50.0
+>   libavformat version: 52.7.0
+>   libavdevice version: 52.0.0
+>   built on Jan 28 2010 20:57:25, gcc: 4.3.2
+> [x11grab @ 0xb7f7fec8]device: :0.0 -> display: :0.0 x: 0 y: 0 width: 352 height: 288
+> [x11grab @ 0xb7f7fec8]AVParameters don't have video size and/or rate. Use -s and -r.
+> :0.0: I/O error occured
+> Usually that means that input file is truncated and/or corrupted.
+> ==
+> 
+> ==
+> $ ffmpeg -f x11grab -s cif -i :0.0+10,20 /tmp/out.mpg
+> FFmpeg version r11872+debian_0.svn20080206-18+lenny1, Copyright (c) 2000-2008 Fabrice Bellard, et al.
+>   configuration: --enable-gpl --enable-libfaad --enable-pp --enable-swscaler --enable-x11grab --prefix=/usr --enable-libgsm --enable-libtheora --enable-libvorbis --enable-pthreads --disable-strip --enable-libdc1394 --disable-armv5te --disable-armv6 --disable-altivec --disable-vis --enable-shared --disable-static
+>   libavutil version: 49.6.0
+>   libavcodec version: 51.50.0
+>   libavformat version: 52.7.0
+>   libavdevice version: 52.0.0
+>   built on Jan 28 2010 20:57:25, gcc: 4.3.2
+> [x11grab @ 0xb7eb7ec8]device: :0.0+10,20 -> display: :0.0 x: 10 y: 20 width: 352 height: 288
+> [x11grab @ 0xb7eb7ec8]AVParameters don't have video size and/or rate. Use -s and -r.
+> :0.0+10,20: I/O error occured
+> Usually that means that input file is truncated and/or corrupted.
+> ==
+Simply look at that line:
+> [x11grab @ 0xb7eb7ec8]AVParameters don't have video size and/or rate. Use -s and -r.
+As far as you have size (-s parameter)  specified already, you only need to add
+frame rate (-r). Following command should work fine:
+
+$ ffmpeg -f x11grab -s cif -r 24 -i :0.0 /tmp/out.mpg
+
+
+-- 
+Regards,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509170058.GA24260@eternity.smila.com
+
+

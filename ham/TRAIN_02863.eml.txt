@@ -1,0 +1,34 @@
+JPEGs patented------------------------------------------------------------------------------
+A video conferencing company based in Austin, Texas says it's going to
+pursue royalties on the transmission of JPEG images.
+
+And it's already found a licensee: Sony Corporation.
+
+Formerly known as VTEL, Forgent Networks acquired Compression Labs in
+1997, acquiring this patent into the bargain.  The patent claim was
+filed in 1986 but Compression Labs never pursued royalties.
+
+[...]
+------------------------------------------------------------------------------
+
+Rest at:
+  http://www.theregister.co.uk/content/4/26272.html
+
+The patent is at:
+  http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2;=HITOFF&d;=PALL&p;=1&u;=/netahtml/srchnum.htm&r;=1&f;=G&l;=50&s1;='4,698,672'.WKU.&OS;=PN/4,698,672&RS;=PN/4,698,672
+
+
+Groan,
+  Rob.
+     .-.                                                               .-.
+    /   \           .-.                                 .-.           /   \
+   /     \         /   \       .-.     _     .-.       /   \         /     \
+  /       \       /     \     /   \   / \   /   \     /     \       /       \
+ /         \     /       \   /     `-'   `-'     \   /       \     /         \
+            \   /         `-'                     `-'         \   /
+             `-'                                               `-'
+
+
+http://xent.com/mailman/listinfo/fork
+
+

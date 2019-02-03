@@ -1,0 +1,111 @@
+SMTP-Error 451 while using smarthost for mail deliveryHello alltogether
+
+Currently I am trying to set up a Debian Lenny Server, but I am stuck at
+mail delivery. The server I am trying to set up, has no FQDN, so I used
+my ISP-Mailserver as a smarthost (I enabled the proper SMTP
+authentication in exim4).
+This setup worked a few days, before I suddenly received 451 errors.
+At first I thought it to be a problem with Exim4, so I switched to
+postfix. But postfix also gives me the 451 error:
+
+Apr 22 15:53:31 openshoolproxy postfix/smtp[24368]: 413CF26EF9:
+to=, orig_to=,
+relay=smtp.strato.com[81.169.145.132]:25, delay=2137,
+delays=2136/0.05/0.33/0.12, dsn=4.0.0, status=deferred (host
+smtp.strato.com[81.169.145.132] said: 451 Local Error (in reply to end
+of DATA command))
+
+To further troubleshoot my problem I used telnet to connect to
+smtp.strato.com and to send a mail manually.
+
+This is what I did:
+
+telnet smtp.strato.de 25
+Trying 81.169.145.133...
+Connected to smtp.strato.de.
+Escape character is '^]'.
+220 smtp.passthru
+EHLO openshoolproxy
+250-smtp.passthru
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DELIVERBY
+250-SIZE 104857600
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 HELP
+AUTH LOGIN
+334 VXNlcm5hbWU6
+d2Vic2VydmljZUBiMW9ubGluZS5kZQ==
+334 UGFzc3dvcmQ6
+xxxxMYPASSWORD_IN_BASE64xxxx
+235 2.0.0 OK Authenticated
+mail from: webservice@b1online.de
+250 2.1.0  Sender ok
+rcpt to: benedikt@b1online.de
+250 2.1.5  Recipient ok
+DATA
+354 Start mail input; end with .
+test
+.
+451 Local Error
+
+
+
+
+Very odd. After this fail I tried the same procedure from my arch linux
+box at home. It succeeded:
+
+
+
+
+telnet smtp.strato.com 25
+Trying 81.169.145.132...
+Connected to smtp.strato.com.
+Escape character is '^]'.
+220 post.strato.de [fruni mo3] ESMTP RZmta 23.0 ready; Thu, 22 Apr 2010
+15:55:55 +0200 (MEST)
+EHLO openshoolproxy
+250-post.strato.de [fruni mo3] greets 79.230.91.82
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-PIPELINING
+250-DELIVERBY
+250-SIZE 104857600
+250-AUTH PLAIN LOGIN CRAM-MD5
+250-STARTTLS
+250 HELP
+AUTH LOGIN
+334 VXNlcm5hbWU6
+d2Vic2VydmljZUBiMW9ubGluZS5kZQ==
+334 UGFzc3dvcmQ6
+xxxxMYPASSWORD_IN_BASE64xxxx
+235 2.0.0 OK Authenticated
+mail from: webservice@b1online.de
+250 2.1.0  Sender ok
+rcpt to: benedikt@b1online.de
+250 2.1.5  Recipient ok
+DATA
+354 Enter data for mail with id g0718am3MD7AJw
+test mich
+.
+250 queued as g0718am3MD7AJw
+
+
+This looks very strange to me. Independently from my mailserver the
+telnet command should have succeeded on both machines. But it failed on
+my debian box. What could be wrong? Is this a problem of my setup, or is
+my ISP blocking something?
+
+Thanks in advance
+
+Benedikt
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271946001.11753.18.camel@localhost.localdomain
+
+

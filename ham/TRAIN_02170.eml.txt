@@ -1,0 +1,16 @@
+Unable to connect to my home wirelessI am running an up to date Squeeze system using LXDE.  I use wicd as my network manager.  Since doing a full upgrade on Monday I have been unable to connect to my home wireless network.  I can connect to various unsecured networks at work, at local restaurants and coffee shops.  I just can't connect to my home network.  Here, I have to connect a cat5 cable.  Since the only place to do this is sitting directly in front of my desktop system it kind of defeats the purpose.  I have verified that the WEP key is correct and I really don't know what else to look for.
+
+When I try to connect, wicd says that it is 'Putting interface up...', 'Validating authentication...', 'Obtaining IP address...' then it times out and says 'Connection failed: Unable to Get IP Address.'
+
+Does anyone have any idea what is wrong, or what config file, or error log I should look at to get more information?
+
+ Marc Shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/762862.52678.qm@web55507.mail.re4.yahoo.com
+
+

@@ -1,0 +1,28 @@
+Re: [SAtalk] Getting yourself removed from spam listsOn Fri, 13 Sep 2002, Tony L. Svanstrom mused:
+> On Fri, 13 Sep 2002 the voices made carlo@alinoe.com write:
+> 
+>> What do spammers do with email addresses in
+>> their database that are undeliverable for a
+>> few years?  Do they still continue to spam
+>> them?
+> 
+>  Yes.
+
+So much so that I get thousands of bounces per day on this machine aimed
+at what are plainly message-ids...
+
+-- 
+`Let's have a round of applause for those daring young men
+ and their flying spellcheckers.' --- Meg Worley
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

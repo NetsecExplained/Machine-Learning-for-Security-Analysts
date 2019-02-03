@@ -1,0 +1,20 @@
+Re: [Webdev] mod_usertrackThanks for the info AJ, I found "weblog" at 
+http://awsd.com/scripts/weblog/index.shtml which has some click-path 
+reporting. It's simple, but works. Report generation takes a bit though, even 
+with dns resolution turned off..
+
+Donncha.
+
+
+On Monday 07 October 2002 23:35, AJ McKee wrote:
+> Donncha,
+>
+> I've been using mod_usertrack for a good while now. I use in by default in
+> every vhost that I set up. I assign a cookie name and set the expiry for
+> about a year. I have to say it looks ok. A few things to note though. If a
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+
+

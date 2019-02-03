@@ -1,0 +1,71 @@
+Re: Mounting DVD.  What am I doing wrong?
+On May 1, 2010, at 3:25 PM, Camale=F3n wrote:
+
+> On Sat, 01 May 2010 14:08:21 -0500, Ron Johnson wrote:
+>
+>> On 05/01/2010 02:03 PM, Camale=F3n wrote:
+>
+>>> Your perms are missing the "x" flag for the owner so no access is
+>>> allowed. I recall a similar situation in another mailing list...
+>>>
+>>>
+>> I don't want to *execute* the files, I want to *read* them.
+>
+> Don't you need exec perms for listing directories? ;-)
+>
+> ***
+> sm01@stt008:~$ mkdir Desktop/test
+>
+> sm01@stt008:~$ ls -l Desktop | grep test
+> drwxr-xr-x 2 sm01 sm01    48 may  1 21:14 test
+>
+> sm01@stt008:~$ ls -aFl Desktop/test
+> total 1
+> drwxr-xr-x  2 sm01 sm01  48 may  1 21:14 ./
+> drwxr-xr-x 10 sm01 sm01 752 may  1 21:19 ../
+>
+> sm01@stt008:~$ chmod -x Desktop/test
+>
+> sm01@stt008:~$ ls -l Desktop | grep test
+> drw-r--r-- 2 sm01 sm01    48 may  1 21:14 test
+>
+> sm01@stt008:~$ ls -aFl Desktop/test
+> ls: no se puede acceder a Desktop/test/.: Permiso denegado
+> ls: no se puede acceder a Desktop/test/..: Permiso denegado
+> total 0
+> ?????????? ? ? ? ?            ? .
+> ?????????? ? ? ? ?            ? ..
+> ***
+
+Actually, the "x" permission on a directory means "search" (i.e. find =20=
+
+a file in) the directory.  If you already know the name (or have =20
+guessed it) of a file in the directory and you have "--x" (no-read, no-=20=
+
+write, yes-search) on the directory and 'r--' (read-only) on the file, =20=
+
+you can read the file even though you can't read the directory.  =20
+That's a feature, and it dates back to early days in UNIX.
+
+What you are seeing is a corner case caused by that feature.  If you =20
+have "r--" on the directory you can read it, but you can't find any of =20=
+
+the files whose names you can read.  So you can't get those files =20
+permission bits or mod-time's etc.  So "ls" fails in the bizarre way =20
+you are seeing.
+
+So you can "read" the directory without the "x" bit, but it doesn't do =20=
+
+you a fat load of good.
+
+Enjoy!
+
+Rick
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/C6A349AE-E746-49A0-A06C-AD2AE7C8DBF3@pobox.com
+
+

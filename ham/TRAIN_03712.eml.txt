@@ -1,0 +1,19 @@
+"rssflowersalignright"I've gotten to know Phil Ringalda over the
+    last few wURL: http://scriptingnews.userland.com/backissues/2002/09/23#When:8:59:58PM
+Date: Tue, 24 Sep 2002 03:59:58 GMT
+
+"rssflowersalignright"I've gotten to know Phil Ringalda over the last few weeks 
+in all the discussions about RSS 2.0, and I like him, and would like to work 
+with him in the future. I don't say that lightly. This evening he posted a note
+[1] on his weblog that he was giving up trying to get RDF to make sense inside 
+RSS. As I read his essay I could feel two-plus years of exhaustion overwhelm 
+me. I found myself writing a comment after his essay saying, among other things 
+"RSS is not a brilliant format. It is a compromise. It is for syndicating news 
+feeds. That's all it is for, for the 18,000th time." It's time for RDF to pack 
+its bags and leave. RSS deserves some dignity, as does RDF. Emphatically, once 
+and for all, they are not the same thing. Peace be with you RDF. Leave RSS 
+alone. Thank you.
+
+[1] http://philringnalda.com/archives/002330.php
+
+

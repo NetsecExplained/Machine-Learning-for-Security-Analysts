@@ -1,0 +1,34 @@
+Re: dylsexics of the wrold, untie!On Thu, 2002-09-12 at 12:22, Dave Long wrote:
+> 
+> 
+> > ... randomising letters in the middle of words [has] little or no
+> > effect on the ability of skilled readers to understand the text. This
+> > is easy to denmtrasote. In a pubiltacion of New Scnieitst you could
+> > ramdinose all the letetrs, keipeng the first two and last two the same,
+> > and reibadailty would hadrly be aftcfeed. My ansaylis did not come
+> > to much beucase the thoery at the time was for shape and senqeuce
+> > retigcionon.  Saberi's work sugsegts we may have some pofrweul palrlael
+> > prsooscers at work. The resaon for this is suerly that idnetiyfing
+> > coentnt by paarllel prseocsing speeds up regnicoiton. We only need
+> > the first and last two letetrs to spot chganes in meniang.
+
+
+I'm working with an experimental text recognition/processing engine that
+exhibits similar characteristics.  It can read right through
+misspellings like the above without any difficulty.  And as the author
+above suggested, the pattern matching is inherently parallel internally.
+
+If the text recognition algorithm/architecture humans use is anything
+like the algorithm/structure we've been working with, the reason the
+first letter (and to a lesser extent, the last letter) is important is
+that without it the text pattern recognition problem is exponentially
+more difficult (from a theoretical standpoint anyway) and has to be
+resolved using deeper abstraction analysis.  The middle letters are far
+less important and computationally much easier to resolve correctly.  
+
+Cheers,
+
+-James Rogers
+ jamesr@best.com
+
+

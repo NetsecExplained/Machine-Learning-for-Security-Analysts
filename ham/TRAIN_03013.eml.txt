@@ -1,0 +1,33 @@
+Re: [ILUG] Sysadmin / IT person wantedOn Fri, Aug 02, 2002 at 01:41:30PM +0100, Colm Buckley wrote:
+> Wearing my other hat today - we're looking for a competent and
+> experienced system administrator here, and I'd like anyone who's
+> interested to contact me.
+
+hey, so are we!
+
+> The job is for a Windows (NT and 2000) and Linux (Debinan) system
+[admin]
+
+but we use a real distribution (redhat), so if you were ok up to the
+debian part, drop me a line.  it does involve windows, it will involve
+it a lot.  the linux stuff will be minor, though as times go on that
+might change.  the main part is corporate windows desktop support.
+
+please mail me if you're interested?
+
+thanks!
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

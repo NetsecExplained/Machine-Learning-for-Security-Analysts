@@ -1,0 +1,37 @@
+Re: Secure Sofware Key-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+> What do you mean by "CD-Key or the like" (I presume that "of" was a
+> typo)? And what do you mean by "unbreakable"?
+
+"of" was a typo
+
+Unbreakable would mean here that no one, even previously authorised entity, 
+could use the system without paying the periodic subscription fee.
+
+> You need to be far more explicit about the problem which you wish to
+> solve, and about the constraints involved.
+
+It could be an online system that work 95% offline but poll frequently an 
+offsite server.  No mass production CDs, maybe mass personalised d/l like Sun 
+JDK.
+
+Nothing is fixed yet, we are looking at the way a software can be protected 
+from unauthorized utilisation.  
+
+Is the use of "trusted hardware" really worth it ?  Does it really make it 
+more secure ?  Look at the DVDs.
+
+- -- 
+Yannick Gingras
+Coder for OBB : Obdurately Buteonine Bellwether
+http://OpenBeatBox.org
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9dRrnuv7G0DNFO+QRAk8nAKClAhTmyrUgP3ko+DEjcvj0mqfjzACgwQvo
+WZ6/CMUA23HCMZVycd7XD1Q=
+=V2G8
+-----END PGP SIGNATURE-----
+

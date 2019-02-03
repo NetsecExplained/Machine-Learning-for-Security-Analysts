@@ -1,0 +1,26 @@
+Re: [SAtalk] checking out Razor2 (and SA 2.41) install - Net::DNS:Resolver problem? 
+Gary Funck said:
+> I thought the ">> /perllocal.pod" line looked odd. Is it normal to write
+> documentation into the root directory? (). Is there some Make parameter, o
+> r
+> environment variable that should've been set when I ran "make"?
+
+an issue for Razor folks I think.
+
+> It seems that by registering that I avoided the error path noted in my previo
+> us
+> e-mail where DNS::Net::Resolver was called, but does not exist in my Perl
+> hierarchy.  Here's the new output from SA ans Razor2:
+looks good.
+
+
+> Question: if we use spamassassin on a per-user basis, invoked from procmailrc
+> ,
+> will each user have to run "razor-admin -register" first? Is there way to
+> register with Razor just once per system?
+
+If you use spamd with the -H option and provide a shared directory for
+the razor config files to be written to.  RTFM for more details...
+
+--j.
+

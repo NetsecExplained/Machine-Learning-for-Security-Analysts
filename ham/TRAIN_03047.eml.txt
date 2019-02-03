@@ -1,0 +1,15 @@
+broken urlHi Guys
+The URL to the i386 Version of  KDE-Debian ist broken (404).
+Page:
+http://pkg-kde.alioth.debian.org/kde3.html
+Link:
+http://caesar.acc.umu.se/debian-cd/4.0_r6/i386/iso-cd/debian-40r6-i386-kde-CD-1.iso
+bye
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD45A53.90604@gmx.de
+
+

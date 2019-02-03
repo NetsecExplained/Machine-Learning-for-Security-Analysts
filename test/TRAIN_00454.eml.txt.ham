@@ -1,0 +1,72 @@
+Re: debian on a raid5 (4TB) issuesFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi
+
+
+just picked up a 51645 adaptec - having some problems with the gui can't
+login and if I try and boot of the adaptec lun it crashed grub - magic
+failed.
+
+A
+
+On Sat, Apr 17, 2010 at 11:26 PM, Camale=F3n  wrote:
+
+> On Sat, 17 Apr 2010 07:57:51 -0500, Stan Hoeppner wrote:
+>
+> > Camale=F3n put forth on 4/17/2010 3:12 AM:
+> >> On Sat, 17 Apr 2010 07:24:20 +0200, Israel Garcia wrote:
+> >>
+> >>> On Sat, Apr 17, 2010 at 2:12 AM, Stan Hoeppner wrote:
+> >>
+> >>>> What PCIe RAID card are you using?
+> >>> Adaptec AAC-RAID card inside a supermicro server.
+> >
+> > Which Apaptec model, specifically?  Some of the Adaptec SATA cards are
+> > fakeraid.  I want to know if your card is fakeraid or real RAID.  That
+> > may have bearing on this issue.
+>
+> Being a Supermicro server, I doubt it's a "fakeraid" card O:-)
+>
+> OTOH, a fakeraid won't see a big disk of 4 TiB, it would detect/treat
+> each drive separately.
+>
+> >> I wish you the best (similar setup here and bad experience with adapte=
+c
+> >> raid cards) :-(
+> >>
+> >> As per the 4 TiB issue. I just have reviewed the wikipedia article
+> >> about MBR and forgot the limit of 2 TiB for a "bootable" partition.
+> >
+> > I've never run into these issues because I intentionally avoid them.  I
+> > always create a small /boot of about 100MB at the start of the disk and
+> > stick the bootloader in the MBR.  Every BIOS can handle bootstrapping
+> > such a setup.
+>
+> Yes, that tends to be the better approach. Either "ext2" or "ext3" are
+> the recommended filesystems for GRUB.
+>
+> > I thought the OP originally said he has a separate small /boot, so I'm
+> > still not sure what his exact issue is.  Thus what I'm trying to nail
+> > down exactly which Adaptec HBA he's got.
+>
+> Ah, you're right. Then that shouldn't be the problem.
+>
+> I would try, at first place, to make the required partitions from a
+> Gparted LiveCD (System Rescue or similar) before installing the system to
+> see if that helps the installer.
+>
+> Greetings,
+>
+> --
+> Camale=F3n
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/pan.2010.04.17.13.26.58@csmining.org
+>
+>

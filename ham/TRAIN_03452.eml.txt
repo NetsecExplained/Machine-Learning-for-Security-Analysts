@@ -1,0 +1,16 @@
+Re: Is this possible ?export@hope.cz wrote:
+> Is this possbile?
+
+Look at IP address spoofing techniques, it's a broad subject.  I would 
+consider identifying the client at the application level though (add support 
+for this to your protocol), if possible.
+
+-thib
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF56DBF.4090105@stammed.net
+
+

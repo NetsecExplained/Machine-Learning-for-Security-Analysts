@@ -1,0 +1,50 @@
+Re: [SAtalk] Too funny
+Well if you're talking about epiphany, which is in January, then yes it is
+5 months.Some people do celebrate Christmas on january 6th, or even the 13th.
+
+But I am certain that what you are thinking is the correct thought.
+
+Please don't flame me. Just trying to be humerous =)
+
+
+Matt Kettler said:
+> On an unrelated, but similarly amusing note, a spam I received (and was
+>  tagged by SA) today began with:
+>
+>
+> > I bet you haven't even realized that Christmas is just 5 months away,
+> >
+> did you?
+>
+>
+> Strangely, no I wasn't aware that Christmas was 5 months away. Here in
+> the  US Christmas is a bit less than 4 months away. Where exactly is
+> the  "international month line" anyway? I've never seen the -74400
+> timezone  before, but I bet it qualifies as INVALID_DATE_TZ_ABSURD :)
+>
+>
+>
+>
+> -------------------------------------------------------
+> This sf.net email is sponsored by: Jabber - The world's fastest growing
+>  real-time communications platform! Don't just IM. Build it in!
+> http://www.jabber.com/osdn/xim
+> _______________________________________________
+> Spamassassin-talk mailing list
+> Spamassassin-talk@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

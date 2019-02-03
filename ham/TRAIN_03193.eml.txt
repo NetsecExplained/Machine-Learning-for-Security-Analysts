@@ -1,0 +1,22 @@
+Re: [ILUG] modem problemsQuoting Waider (waider@waider.ie):
+
+> Niall Sheridan wrote:
+> | A power cycle will do it.
+> | Other than that it's chipset specific.
+> 
+> sure. tried powercycling an internal modem recently? :)
+> 
+> Waider. This is Rick Moen bait.
+
+Thanks.  It was delicious.  ;->
+
+-- 
+Cheers,               "That article and its poster have been cancelled." 
+Rick Moen                   -- David B. O'Donnel, sysadmin for America Online
+rick@linuxmafia.com
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

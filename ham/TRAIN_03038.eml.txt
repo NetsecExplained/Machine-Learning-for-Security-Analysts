@@ -1,0 +1,28 @@
+Re: OT: Script to add line to file if it doesn't existOn 07.04.2010 23:56, Eduardo M KALINOWSKI wrote:
+> On 04/07/2010 05:45 PM, Mart Frauenlob wrote:
+>>
+>> #!/bin/sh
+>> grep -w "fred" file || printf "%s\n" "fred">>file
+>>
+>>    
+> 
+> Why not simply use
+>   echo "fred" >> file
+> for the second command?
+> 
+> 
+1: I'm used to it.
+
+2: saving me typing (quick web search):
+http://unix.derkeiler.com/Newsgroups/comp.unix.shell/2006-12/msg00934.html
+
+I know the example of the OP is simple, but most likely 'fred' will
+become a variable.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBD8C33.2070908@chello.at
+
+

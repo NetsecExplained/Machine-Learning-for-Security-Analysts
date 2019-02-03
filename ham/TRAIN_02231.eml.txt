@@ -1,0 +1,34 @@
+Re: How to keep debian current??On 05/15/2010 12:48 AM, RyanJB wrote:
+> Hi,
+>
+> With the latest apps keep pouring in, is there any way to keep debian in the "cutting edge"? I mean, how to keep debian as updated as, say, ubuntu or even sidux?? You know, latest iceweasel, openoffice, gnome, etc. Maybe using unstable or experimental repo? I'm sure there's many ways to do this, but I just don't know.. I'm new to debian :(
+>
+> Thanks a lot,
+> RJB
+>
+>
+>    
+Run sidux.  It is Debian unstable with some people doing some extra work 
+to keep it a bit more stable for you.  Use the smxi script which helps 
+keep things stable also (and simplifies installation of some software to 
+boot).  I love sidux on the desktop (and vanilla Debian on my servers).
+
+-- 
+--------------------------------------------------------------------------------
+
+If the master dies and the disciple grieves, the lives of both have
+been wasted.
+
+Saturday May 15, 2010
+
+--------------------------------------------------------------------------------
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEEB994.7000700@zachfamily.org
+
+

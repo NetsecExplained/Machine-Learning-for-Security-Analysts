@@ -1,0 +1,49 @@
+Re: dash-as-bin-shFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi, Boyd!
+
+On Tue, Apr 20, 2010 at 11:18 AM, Boyd Stephen Smith Jr. <
+bss@iguanasuicide.net> wrote:
+
+>
+> Not portably.  It might be possible by parsing ($SHELL -V -c 'exit 123') or
+> ($SHELL --version -c 'exit 123').
+>
+
+Say, that's a clever approach, thanks for suggesting it.
+
+Sorry, I don't even see a good way to tell if a function with a particular
+> name is defined, but less list all the functions in the current shell
+> environment.
+>
+
+Can you clarify?  Listing all the functions in the current shell environment
+solves my issue perfectly.. But less is just a pager, no?  Oh, wait, did you
+mean "much less list"?   In which case, we're in the same boat, but I'm
+hoping there is a solution I'm not aware of (even though my hopes are dim :)
+)
+
+
+> Bash is still an essential package last I checked.  You might simply use
+> /bin/bash and whatever bash-isms you like.
+>
+>
+That would work pretty much everywhere except bone-stock Solaris, where I
+have no possibility of recovery -- "/bin/bash: bad interpreter: No such file
+or directory".  At least if I use /bin/sh as my interpreter, I can always at
+the very least output an error message.
+
+I suppose my other alternative is roughly  [ -x /bin/bash ] && /bin/bash $0
+$* && exit $?, and assume that everywhere-but-solaris has /bin/bash. Hmm.
+If debian keeps bash around as a default package, even when dash-is-bin-sh,
+then I guess I'm in fairly safe territory in that regard.
+
+Thanks,
+Wes
+
+-- 
+Wesley W. Garland
+Director, Product Development
+PageMail, Inc.
++1 613 542 2787 x 102

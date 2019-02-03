@@ -1,0 +1,45 @@
+Re: Cloned Lenny OS partition: bumped into hibernate and grub2 issuesOn Sat, May 22, 2010 at 8:08 AM, Klistvud  wrote:
+>
+> I've recently swapped the hard drive on my box, after cloning my Lenny (and
+> other) partition(s) from the old drive that was becoming too small. I just
+> did dd if=/dev/hda2 of=/dev/hdb2
+>
+> After changing the UUID of the new partition and manually making some minor
+> adjustments to /boot/grub/grub.cfg and /etc/fstab, the system boots OK, but
+> there are two glitches I can't seem to sort out:
+>
+> 1. hibernation bails out with the message "Cannot find swap device",
+> although there IS a big enough, and actively used swap partition on the new
+> drive; and
+>
+> 2. update-grub still refers to the OS partition by the old UUID, which is no
+> longer correct. In order to boot, I must manually edit grub.cfg, but I'd
+> like this fixed *properly*.
+>
+> I suspect both issues are related to the changed UUIDs of both the swap and
+> the OS partitions.
+>
+> Now, my questions to the savants out there:
+> 1. How do I tell the hibernation scripts that there IS a swap device, but
+> with another UUID?
+> 2. Where do the grub2 scripts get their UUIDs from, so I can replace the
+> wrong UUIDs with the right ones?
+
+Re 1. Your swap partition's UUID must be different. Check
+"/etc/initramfs-tools/". There is a "resume" file (in that dir or in a
+subdir) that will have your swap partition's UUID.
+
+Re 2. What do you mean by "After changing the UUID of the new
+partition"? After "dd...", did your run "tune2fs -U ..." on your root
+partition (or the equivalent for xfs, ...; I am assuming that you have
+just one partition)? If you didn't, your root partition still has the
+same UUID and update-grub is picking it up correctly (in which case, I
+have no idea idea how you are booting up!).
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTin0JzLSSk1lQVKKF3R5_YjtYnON5gxP6Wh5YKdv@mail.csmining.org
+
+

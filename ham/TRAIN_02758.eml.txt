@@ -1,0 +1,18 @@
+KVim 6.1.141Any one out their have any RPMs for the new KVim that was just released 
+that'd be suitable for RH7.3?
+
+The website ( http://freehackers.org/kvim/screenshots.html ) mentions some 
+experimental RPMs for Suse/COnnectiva/Slackware but none for Mandrake...
+
+                                    -- \m/ --
+                    ...in 29 days - The Odyssey begins...
+                                www.symphonyx.com
+
+         mark@talios.com - ICQ: 1934853 JID: talios@myjabber.net
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

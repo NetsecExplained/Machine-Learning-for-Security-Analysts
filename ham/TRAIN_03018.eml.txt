@@ -1,0 +1,32 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with
+ a  different version name)Stephen Powell put forth on 4/8/2010 9:38 PM:
+
+> For some reason, this well-known proverb is going through my head:
+> 
+>    Give a man a fish and you feed him for a day.
+>    Teach a man to fish and you feed him for a lifetime.
+> 
+> I'd rather learn to fish.
+
+This is exactly the reason I chose Debian 10 years ago when I was looking
+for my first Linux distro.  I told a friend I wanted a server distro that
+wasn't going to spoon feed me, but make me learn something about Linux.
+
+Casey, a seasoned Debian sysadmin, recommended I download the Debian net
+install floppies and do my first install from the mirrors, only a compact
+base install, and to install everything else I needed by hand with apt.
+That was Potato with a 2.2 kernel.
+
+I only use Linux for non-GUI servers.  I don't use desktop Linux.  All my
+admin'ing requires knuckle busting. ;)  And I like it that way.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBF9F3F.1040303@hardwarefreak.com
+
+

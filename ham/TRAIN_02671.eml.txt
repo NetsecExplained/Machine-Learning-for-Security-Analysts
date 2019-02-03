@@ -1,0 +1,52 @@
+RE: Unable to connect to my home wireless-----Original Message-----
+From: James Zuelow 
+To: debian-user@lists.debian.org 
+Subject: RE: Unable to connect to my home wireless
+Date: Thu, 20 May 2010 15:13:35 -0800
+
+> I hoped at least the first part of the mail would be helpful 
+> to someone having 
+> the same problem. I found a few posts with the same error 
+> during the last, but 
+> no answer so far.
+> 
+> > IMO complaints should go to bugs.debian.org,
+> > not necessarily here.
+> 
+> Noted.
+> 
+> Th.
+
+In Thomas' defense, I noticed the same thing and had much the same reaction.  
+
+The Squeeze KDE 4.4 update this week pulled down network-manager as a dependency.  In my case I much prefer wicd to handle my wireless.  
+
+The update had them both running simultaneously, which I didn't like at all.  I was plugged into my wired network, which wicd had set up as default, and network-manger connected to one of the wireless networks I had configured.  Both interfaces up, even two default routes.  Yuk.
+
+I didn't like the fact that the KDE update ignored my current install of wicd to install network-manager, and when I purged network-manager KDE worked (and continues to work) just fine.
+
+So the "dependency" on network-manager seems to be merely a preference of the KDE team.  To me that means I should not have seen network-manager if I already had wicd installed.  This is very similar to the various packages that insist they need avahi-daemon to work, and yet purging avahi-daemon doesn't break anything not using mDNS.
+
+So while Thomas could file a bug, I don't think it's not germane to complain about DDs putting everything under the sun into a dependency list.  Here's the place for the community to decide whether we really need to force an install of network-manager (or avahi) when they're not really needed, or decide that because some cases might require it everyone should have it.
+
+Anyway, just my 2c
+
+James ------------------------------------ 
+
+Only time I have incurred this is when I have preferences set to
+include "recommended" files as "dependencies" thereby passing control
+of the upgrade to the system. Not a good idea BTW!! I use synaptic most
+of the time & I suspect aptitude has a similar setting. command line
+updates do not have this issue.:-)
+
+
+-- 
+John Foster
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274417163.21582.3.camel@brutus
+
+

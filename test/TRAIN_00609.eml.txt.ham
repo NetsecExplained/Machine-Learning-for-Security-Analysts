@@ -1,0 +1,39 @@
+Re: Kernel (de)bug information sent, even if there is no connectionOn Sat, 24 Apr 2010 22:52:11 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+
+(...)
+
+>> I dunno what method uses kerneloops to send the data (e-mail?). If
+>> sends the info by e-mail, you could check Exim's queue by being root
+>> and issuing "mailq" command.
+>
+> Actually, mailq seems to give nothing.
+
+I digged a bit about how the kerneloops daemon works and I guess it does 
+not use e-mail but some kind of mix between dbus system to gather 
+information about the crash and then it sends the report to the URL 
+defined in "kerneloops.conf" file:
+
+http://submit.kerneloops.org/submitoops.php
+
+If you directly load that page, it says:
+
+***
+200 thank you for submitting the kernel oops information RemoteIP: [...]
+***
+
+Although nothing was send :-P
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.25.10.26.12@csmining.org
+
+

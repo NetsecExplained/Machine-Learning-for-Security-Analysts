@@ -1,0 +1,35 @@
+Re: [ILUG] slashdot EW Dijkstra humorOn Thu, Aug 08, 2002 at 12:14:09 +0100, Matthew French wrote:
+> JPL suggested:
+> >  Recursion is only truely useful if you have an infinite stack. People
+> > that think they have an infinite stack shouldn't be let near a compiler.
+> 
+> Well, when studying engineering the rule of thumb was that infinity was 10
+> times bigger then the most you could expect to use.
+> 
+> Therefore I believe in infinite stack.
+
+I worked on a testharness for (wait for it) petrol pumps some years ago,
+little embeded controller spoke to its DOS (not exactly the easiest
+environment to track crashing bugs under) master which logged its
+piteous whinings. I inherited the dos part of it and worked mostly on
+creating the other end of it. Near the end of the project we gave it
+extensive long burnin tests, sadly overnight tests would always crash
+out for some obscure reason.  Tracking it down showed that my
+predecessor's "add new entries to the end of its linked list" function
+recursively called itself with each following link until the terminating
+one showed up. Of course it died miserably when it ran out of stack. I'm
+sure he felt he'd done a good days work when he planted that bomb for
+me.
+
+C.
+-- 
+Caolan McNamara               |  caolan@skynet.ie  
+http://www.skynet.ie/~caolan  |  +353 86 8161184
+So much insanity, so little time...
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,52 @@
+Mr. hibody 70% less to pay
+
+
+
+Newsletter
+
+<!--
+a:link
+{ color: #8F3BCF; }
+
+a:visited
+{ color: #F58CEC; text-decoration: underline; }
+
+a:hover
+{ color: #F0646B; text-decoration: none; }
+
+oucydawaa
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-family: Tahoma;
+ font-size: 11px;
+ color: #8EA759;
+}
+-->
+
+
+
+
+
+
+To view this email as a webpage, go here.
+      
+
+
+
+
+
+
+ This email was sent to: hibody@csmining.org
+This email was sent by: Lyjepa Company 7869 Xihiib Street, 289
+	Ada, BL 38498  USA
+Go here to remove your address. 
+Go here
+      to modify your email address and other subscriber information and preferences.
+We respect your right to privacy. View our mail host's privacy policy.
+
+
+
+
+

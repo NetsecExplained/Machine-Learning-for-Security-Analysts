@@ -1,0 +1,25 @@
+Re: akonadi first time start bugs with KDE 4.4.3[Martin Steigerwald - Donnerstag 06 Mai 2010 11:34:57] 
+> 
+> Hi!
+> 
+> JFYI as this might (partly) be packaging related.
+> 
+> I found the following bugs with Akonadi since I upgraded to KDE 4.4.3 
+> happening often, possibly always when I start Kontact for the first time 
+> after starting a KDE session. On further starts of Kontact it works as 
+> expected:
+
+Umm, that's interesting. I had this since KDE 4.4.0 (self-compiled) and
+it vanished when switching from the 4.4.2 debs to the 4.4.3 ones.
+So I thought it was just fixed for 4.4.3. Now I wonder what I did to
+make it work.
+
+Regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061144.03642.schwarzerf@csmining.org
+
+

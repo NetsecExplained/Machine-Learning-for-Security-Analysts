@@ -1,0 +1,28 @@
+Re: The GOv gets tough on Net Users.....er Pirates..>>>>> "A" == Adam L Beberg  writes:
+
+    A> I'm not displeased you're trying to help, just frustrated that
+    A> employers can demand such rediculous combinations of skills
+    A> with insane years of experience.
+
+>>>From my 25+ years in the playing field, IMHO the art of job-hunting
+(for those not yet de-jobbed) is the art of getting past the HR-stage
+interview and into the engineer-to-engineer interview.  HR is not
+being honest with you so there's no ethical quandry to be totally
+honest with them: If they want experience numbers that would place you
+in the OAK project, lead them to believe that you have "something
+roughly equivalent" (ie "it wasn't 5 years, but it was three intense
+years with plenty of overtime") -- they are playing a bluff in saying
+/they/ know the job requirements so you're perfectly within poker
+rules to bluff back to say you have it.
+
+If you /don't/ have the requisite Right Stuff, the engineers can
+usually suss it out pretty fast during the second interview.  Most
+often, their choice is based 90% on "who can I work with" and only
+maybe 10% on "how much/little will we have to tutor this candidate?"
+
+-- 
+Gary Lawrence Murphy  TeleDynamics Communications Inc
+ Business Advantage through Community Software : http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+

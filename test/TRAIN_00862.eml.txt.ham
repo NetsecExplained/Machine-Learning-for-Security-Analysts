@@ -1,0 +1,11 @@
+Re: DataPower announces XML-in-siliconOn 27 Aug 2002 at 15:00, Rohit Khare wrote:
+
+> DataPower delivers XML acceleration device
+> By Scott Tyler Shafer
+> August 27, 2002 5:46 am PT
+> 
+Intel also had a similar device a couple of years ago (Netstructure).  They have, afaik, abandoned it.
+
+Intel is still in the XML hardware game though.  On 8/19 they spun off a company named Tarari.   Tarari develops hardware to check the headers of IP packets. Tarari calls 
+this Layer 7 processing (atop the OSI model).    From what I can tell, Tarari plans to combine virus scanning and XML acceleration into a single hardware device.
+

@@ -1,0 +1,13 @@
+synaptics touchpad stopped working in gnomeFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi List
+i'm running sid on a msi wind 100 with synaptics touchpad.=20
+since my last dist-upgrade yesterday, the touchpad is not working in
+gnome anymore, but still works fine in gdm-greeter, lxde and on console.
+anyone else seeing this? any ideas against which packet to file a bug?
+thanks
+
+  --Jan

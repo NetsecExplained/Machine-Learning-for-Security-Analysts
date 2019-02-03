@@ -1,0 +1,25 @@
+Re: Linux compatible mainboards -- tortuous paths-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+It is amazing how asking what I thought was a simple question can lead
+down a variety of long, tortuous paths.  Perhaps that possibility is one
+of the virtues (or curses?) of the Debian system.
+
+Ken Heard
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvVltcACgkQlNlJzOkJmTdz4wCdFfPacbDkOOdAM/JUkoZnEpsr
+OvYAn28qUSvYf4MH4BV397UCWLQxiKYu
+=8hNf
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD596D8.5050002@heard.name
+
+

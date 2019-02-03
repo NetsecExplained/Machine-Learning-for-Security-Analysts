@@ -1,0 +1,32 @@
+Re: Disable server so it does not start on reboot (even after
+ upgrade)?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu,13.May.10, 11:13:43, Allan Wind wrote:
+> I use insserv to boot my laptop and used `update-rc.d apache2=20
+> remove` to indicate that I do not want apache2 to start on=20
+> reboot.  Indeed this works fine for while.  Either an apache2=20
+> (apache2.2-common upgrade) or some other package install/upgrade=20
+> then seems to revert my choice and apache is once again started=20
+> in reboot.
+>=20
+> Is there a better way to disable servers from starting?
+
+As far as I know, the proper way to disable a service is to change the=20
+Sxy link in Kxy for the respective runlevel (this can also be done with=20
+any of the available runlevel editors, like sysv-rc-conf).
+
+Removing all Sxy symlinks will result in them being recreated on the=20
+next upgrade (as you have experienced).
+
+You can also make changes to the init.d script, but I'm not sure which=20
+ones will be detected by dpkg. Textual changes will, but don't know=20
+about removing the execute bit or the like.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

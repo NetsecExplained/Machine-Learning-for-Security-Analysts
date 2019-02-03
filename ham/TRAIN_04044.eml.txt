@@ -1,0 +1,28 @@
+Re: network printer and CupsEl 2010-05-12 a las 06:58 +1930, Germana Oliveira escribió:
+
+(forwarding to the list)
+
+> exactly, thanks Camaleon, and sorry not to answer quick... im going to try
+> some ideas and talk to you!
+
+O.k, but better reply to list so anyone can help and benefit from your 
+findings :-)
+
+> >
+> > Those machines have their own samba implementation, ldap, hard disk and
+> > so on... they act as a central hub for managing all the jobs and tasks
+> > (scanning, faxing and printing) so you can create users and groups and
+> > grating them different permission levels based on their credentials.
+
+Greetings,
+
+-- 
+Camaleón 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100511113642.GA6396@stt008.linux.site
+
+

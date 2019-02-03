@@ -1,0 +1,23 @@
+RE: Java is for kiddiesOn Mon, 2 Sep 2002, Reza B'Far (eBuilt) wrote:
+
+> Hmmm again.... You're telling me that you've never had a nasty bug that took
+> you a couple of days to track down that had to do with a memory leak?  I am
+> not the best C/C++ programmer... not even close... But I've known really
+> good ones... and even they have nasty bugs that have to do with memory
+> management, however occasional they may be.
+
+OK, noone has been tool-less for memory management for a LONG time. Most
+systems you just add a flag and memory is tracked (that's how i've always
+done it) or worst case yuo have to run it through one of the 2.3E7 tools
+where you simply recompile and it it tells you where the leaks are.
+
+Memory management is a non-issue for anyone that has any idea at all how the
+hardware functions. Granted, this takes 30 minutes to go over, and so is far
+beyond the scope of the "Learn Java in 90 minutes without thinking" book
+every Java programmer learned from.
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

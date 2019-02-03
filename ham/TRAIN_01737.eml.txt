@@ -1,0 +1,12 @@
+Re: Ximian apt repos?On Mon, 2002-07-22 at 06:20, che wrote:
+
+> The server mentioned above works again now :)!
+
+Any problems with the rpm's they provided?
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

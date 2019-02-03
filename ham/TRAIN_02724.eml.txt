@@ -1,0 +1,54 @@
+EBusiness Webforms: cluetrain has left the stationWhat's wrong with doing business over the Web?  Web forms.  There's
+promising replacements forms, but this is the current state of the
+industry:
+
+ o You find something that you want to fill out.  It's a partnership form,
+   a signup for a Web seminar, a request for more information, anything.
+ o You start wasting time typing in all those stupid fields and spend
+   about 10 minutes going through all their stupid qualification hoops
+   just to get a small piece of information , whitepaper, or a callback
+   when halfway through, you start to wonder if it's really worth your
+   time to forever be stuck on their stupid prospect list. 
+ o Pull down tags are never put in order of use instead of alphabetized.
+   I was on a site just now that had every single country in the world
+   listed; the selection of your country was absolutely critical for you
+   to hit submit, but due to the layout, the "more>" tag on the second
+   row was offscreen so it was impossible to select any country except
+   about two dozen third world countries. 
+ o Even worse, ever time you hit submit, all forms based things complain
+   about using the universal country phone number format and will cause
+   you to re-enter dashes instead of dots.
+ o When you get something that's not entered right, you will go back and
+   enter it right, but then some other field or most likely pulldown will
+   automatically get reset to the default value so that you will have to
+   go back and resent that freaking thing too.  Finally after all combinations
+   of all pulldowns, you may get a successful submit.
+ o You wait freaking forever just to get a confirmation.  
+ o Sometimes, like today, you won't be able to ever submit anything due
+   to it being impossible to ever submit a valid set of information that
+   is internally non-conflicting according to whatever fhead wrote their
+   forms submission.
+
+What's wrong with this picture?  The company is screwing you by wasting
+your time enforcing their data collection standards on you.  I'm sure there's
+someone in that company that would be willing to accept "US", "U.S", "USA"
+"United States", "U of A", "America", etc. and would know exactly which
+freaking country the interested party was from instead of forcing them
+to waste even more time playing Web form geography.  
+
+I'm starting to see the light of Passport.  You want more information?  Hit
+this passport button.  Voila.  IE6 and Netscape 6,7 have pre-forms sutff,
+but I always turn it off because you never know when there's that one field
+that you don't want to submit to the person you are submitting to that 
+automatically gets sent, i.e. the privacy stuff is well beyond the 
+average user who will get screwed on privacy stuff.  
+
+So, if crappy forms-based submission is the state of practice for
+business enablement on the Web, I can't see this whole data submission
+and hurry up and wait for us to get back to you business process as
+working all that well.
+
+
+Greg
+
+

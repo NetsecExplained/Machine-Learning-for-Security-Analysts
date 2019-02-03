@@ -1,0 +1,42 @@
+Re: http://apt.nixia.no/Sorry about that :) 
+
+Didn't think before sending... So I didn't realize that Reply-To was to 
+the list and not to the sender (as it usually is). 
+
+Anyawy, I was asking Harri if he could point me a few advices on how to 
+build my own apt repositry for RH updates. There is a tutorial of somekind 
+at http://apt-rpm.tuxfamily.org/ which I'm following right now, but if 
+there is some other good advices, let me know!
+
+Regards,
+Peter
+
+
+On Mon, Feb 04, 2002 at 02:33:29PM +0200, Peter Peltonen wrote:
+> On Fri, Feb 01, 2002 at 05:41:32PM +0200, Harri Haataja wrote:
+> > I have a local one for the main and upgrades from somewhere plus my own
+> > at $ORKPLACE.
+> 
+> Olen ajatellut pystyttää itselleni lokaalin apt-varaston, kun Suomesta ei 
+> tunnu löytyvän julkista peiliä. Osaisitko avittaa hiukan asiassa, eli 
+> kuinka lähteä liikkeelle? Ensin kannattanee peilata varsinainen RH:n rpm:t 
+> jostain, vaan millä softalla (rsync?) ja mistä (funet?) tuo kannattaa 
+> tehdä, ajatuksia?
+> 
+> -- 
+> Peter
+> 
+> 
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+> 
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,67 @@
+Re: What prevents mounting of USB devices?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Florian Kulzer wrote:
+> Did you have any security upgrades lately 
+
+Sure, I install them regularly. Doesn't everybody?
+
+> or did you install packages from backports or volatile
+
+I do have the following as part of my sources.conf:
+
+deb http://volatile.debian.org/debian-volatile lenny/volatile main
+contrib non-free
+deb-src http://volatile.debian.org/debian-volatile lenny/volatile main
+contrib non-free
+deb http://www.debian-multimedia.org lenny main
+
+I am not sure if I actually installed anything from volatile.
+
+> or any non-Debian stuff? 
+
+Yes, from debian-multimedia.org. Presumably that counts as non-Debian.
+
+> Another thing to try is to activate the desktop icons for removable
+> devices and test if users can mount the devices by clicking on the
+> icons.
+
+Sorry to sound stupid, but how do I activate those? Right now I don't
+see any icons on the desktop when plugging devices in.
+
+> I suspect that the fstab entry is not really a problem. Maybe you can
+> setup pmount for the individual users so that it is more convenient.
+
+Yes, the pmount works fine now, it did not even require setting anything up.
+
+> Unfortunately I do not understand what else your dbus error message is
+> trying to tell us. I would run "lshal --monitor", then plug in a USB
+> stick and try to mount it; maybe that will turn up something useful.
+> 
+> Seeing what hal knows about a USB stick might also help; hal can be
+> queried like this:
+> 
+> lshal -u $(hal-find-by-property --key block.device --string "/dev/sdX")
+> lshal -u $(hal-find-by-property --key block.device --string "/dev/sdX1")
+> 
+> (Replace "sdX" as is appropriate)
+
+Thanks for showing and explaining lshal to me. I'll explore with it and
+report if I find something interesting.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvDqA4ACgkQ+VSRxYk4408SyACeLV3a1tt3VKgvTwya+oBz71Nu
+IgQAn0hgk+w/0ykMQB/vtjNRf1oeLyib
+=3B0A
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC3A80F.5010907@web.de
+
+

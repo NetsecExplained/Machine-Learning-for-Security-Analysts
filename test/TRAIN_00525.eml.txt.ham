@@ -1,0 +1,66 @@
+Re: Which kernel for ThinkPad 760XD ?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+@Merciadri Luca
+
+[quote]
+I have no answer to your question, but I am wondering... what does 'lol'
+mean here? Is it some version of something, or did you simply put this over
+there because you have some sense of humor and you like to make your
+(somewhat old) config appear less depressing to the others' eyes?
+[/quote]
+
+
+... it's the hostname, but it is funny! I don't give a damn about what
+others might think anyway, I'm just having fun with it, making some tests,
+pushing my knowledge...
+
+@Stefan
+
+[quote]
+486 will work.  686 may work.
+[/quote]
+
+
+My impression exactly, but I'd like to be sure : if I scrape this install,
+I'll have a hard time recovering it...
+
+@Bob
+
+[quote]
+ionreflex@lol:~$ cat /proc/cpuinfo
+processor: 0
+vendor_id: GenuineIntel
+cpu family: 5
+model: 4
+model name: Pentium MMX
+stepping: 4
+cpu MHz: 165.791
+fdiv_bug: no
+hlt_bug: no
+f00f_bug: yes
+coma_bug: no
+fpu: yes
+fpu_exception: yes
+cpuid level: 1
+wp: yes
+flags: fpu vme de pse tsc msr mce cx8 mmx
+bogomips: 330.95
+[/quote]
+
+[quote]
+ionreflex@lol:~$ cat /etc/debian_version
+4.0
+[/quote]
+
+
+I had to doublecheck to make sure I wasn't jumping any major, thanks for
+that insight; I already knew what chip was inside the laptop, I'm just not
+sure what and where to look for to know which kernel to choose. If you can
+point me in the right direction, I would really appreciate it!
+
+Tankiou all! :o)
+
+
+
+Ion

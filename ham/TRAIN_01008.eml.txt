@@ -1,0 +1,13 @@
+[ILUG] dial-on-demandCould you please help me how to set up a dial-on-demand, what are the
+packages needed,
+and other requirements to get on.
+Do you know a site that has a how to and the package where to get it.
+Please help me please for this was my assignment.
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

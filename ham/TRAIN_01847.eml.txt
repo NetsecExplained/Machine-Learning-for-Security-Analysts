@@ -1,0 +1,30 @@
+Re: Secure Sofware Key> > Is the use of "trusted hardware" really worth it ?
+>
+> Answering that requires fairly complete knowledge of the business
+> model. But, in all probability: no, it isn't usually worth it. So, it
+> comes down to how difficult you want to make the cracker's job.
+>
+> > Look at the DVDs.
+>
+> IIRC, CSS was cracked by reverse-engineering a software player; and
+> one where the developers forgot to encrypt the decryption key at that.
+
+This make me wonder about the relative protection of smart cards.  They have 
+an internal procession unit around 4MHz.  Can we consider them as trusted 
+hardware ?  The ability to ship smart cards periodicaly uppon cashing of a 
+monthly subscription fee would not raise too much the cost of "renting" the 
+system.  Smart card do their own self encryption.  Can they be used to 
+decrypt data needed by the system ?  The input of the system could me mangled 
+and the would keep a reference of how long it was in service.
+
+This sounds really feasible but I may be totaly wrong.  I may also be wrong 
+about the safety of a smart card.  
+
+What do you think ?
+
+-- 
+Yannick Gingras
+Coder for OBB : Oceangoing Bared Bonanza
+http://OpenBeatBox.org
+
+

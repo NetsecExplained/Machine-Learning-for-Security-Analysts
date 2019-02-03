@@ -1,0 +1,23 @@
+Re: How to Find a Printer Driver?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, 10 May 2010 15:36:41 -0500
+Kent West  wrote:
+
+Hello Kent,
+
+> I tried installing hpijs-ppds, but I still don't see the CM3530
+> listed; I do now see a Color Laserjet 3550 (without the CM, and not
+> the 3530), but who knows if that'd work? Not me.
+
+In Testing, the CM3530 is listed.  You might try pulling the hplip-data
+package from there, or wait for it to migrate.
+
+--=20
+ Regards  _
+         / )           "The blindingly obvious is
+        / _)rad        never immediately apparent"
+
+Buy some love at the five and dime
+You Have Placed A Chill In My Heart - Eurythmics

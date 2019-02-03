@@ -1,0 +1,39 @@
+Re: DVD+RW tools available (Was: Re: How to add service port ?)On Wed, 2002-08-14 at 05:23, Matthias Saou wrote:
+> Once upon a time, Chris wrote :
+> 
+> > To bring things back on topic, I was practicing my "rpmbuild'n skillz"
+> > and made an rpm with some simple software tools to drive my DVD+RW
+> > burner. No GUI frontend, but it works just fine from the command line. I
+> > even used it to burn a bootable DVD version of Red Hat 7.3.
+> > 
+> > ftp://people.redhat.com/ckloiber/dvd+rw-tools-0.1.src.rpm
+> 
+> Nice! :-)
+> What about the "dvdrecord" package that's already included in 7.3? It
+> doesn't do what this one does? I'm asking this because I've got a friend
+> with an iMac running YellowDog Linux (basically Red Hat Linux for PPC), and
+> it's one of the newer versions with a DVD burner. I'd be very interested in
+> using his drive to burn DVDs full of 2-CDs movies or full of "files for
+> xmame" ;-)
+
+No, the 7.3 dvdrtools works with DVD-R and DVD-RW, this package works
+with DVD+R and DVD+RW. (Confused yet?) Unfortuantely these tools don't
+have a gui frontend, but since the workhorse is a wrapper for mkisofs,
+that shouldn't be too hard for someone who knows how to do those things.
+
+> Also, a bootable DVD of Red Hat Linux 7.3 would be great as I've still not
+> burned the CDs even once for myself since I always install through the
+> network (and haven't found an easy way of purchasing an english boxed set
+> here in Spain...).
+
+Well that was an image I put together of just the first three disks of
+the distro. Make it bootable too. Fun, but slower than a network
+install.
+
+-- 
+Chris Kloiber
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

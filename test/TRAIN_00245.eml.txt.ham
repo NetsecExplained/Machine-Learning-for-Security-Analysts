@@ -1,0 +1,17 @@
+Re: Java is for kiddiesOn Sun, 1 Sep 2002, Mr. FoRK wrote:
+
+> > 6.  Hardware is getting so fast that I'm not sure if the performance
+> > difference between Java and C/C++ are relevant any more.
+>
+> When out-of-the-box parsing & transform of XML in java is 25x slower than
+> C++ on the same hardware then it does matter.
+
+Yea, and that on top of the 100x of all the parsing engines over just
+bigendian'ing it and passing the data (5x+++) in the raw. Then it REALLY
+matters.
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

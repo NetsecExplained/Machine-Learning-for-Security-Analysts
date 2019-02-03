@@ -1,0 +1,24 @@
+[ILUG] Irish Copyright Law: some analysesTwo interesting analyses of the Irish implementation of copyright as led by, as
+best I can tell, anticipation of the EUCD (since the Irish law was passed in
+2000, and the EUCD is somewhat more recent than that). The pieces of interest
+are the papers by Prof. Robert Clark, who perhaps might not be a bad choice of
+speaker for some future LUG gathering. One of the more eye-opening comments in
+the second of his papers is that Irish legislation is, in effect, more
+draconian than the DMCA.
+
+http://www.cai.ie/Past%20Events.html#2002
+
+There are some other interesting pieces here, too, for anyone concerned about
+copyright and the like in Ireland.
+
+Cheers,
+Waider. Props to Danny at NTK (www.ntk.net) for the link.
+-- 
+waider@waider.ie / Yes, it /is/ very personal of me.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

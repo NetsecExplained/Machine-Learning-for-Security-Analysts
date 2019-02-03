@@ -1,0 +1,26 @@
+Re: advice on 7.3.92 to 7.3.93, and Apt compilingOn Mon, 19 Aug 2002 16:44:30 +0200, Matthias Saou  wrote:
+
+[snipped]
+
+> Then why bother : The new Red Hat Linux beta "(null)" is now available and
+> should be announced anytime now. It contains rpm 4.1-0.81.
+> 
+> You can grab it from here :
+> ftp://ftp.freshrpms.net/pub/redhat/linux/beta/null/
+
+    What's the official "apt" line for it?  Is it just 7.4 instead of 7.3, or did they make this one 8.0?
+ 
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+I've been complaining for years, and almost no one listened. "Windows is
+just easier" you said. "I don't want to learn anything new", you said.
+Tell me how easy THIS is:
+http://www.guardian.co.uk/Archive/Article/0,4273,4477138,00.html
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

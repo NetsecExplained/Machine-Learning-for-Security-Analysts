@@ -1,0 +1,23 @@
+Re: (OT) suggestion on terse wording of "IT Helpdesk"
+On May 25, 2010, at 1:43 AM, Stan Hoeppner wrote:
+
+> To try to jam all of that information into the smtp address itself  
+> is silly.
+> Again, this is what display names and sigs are for.
+
+Silly, perhaps for you or me, Stan.  Not so for somebody from another  
+culture, where the chain-of-command from me to the president of the  
+company is an important part of my reason for being.
+
+
+Rick
+
+Comparative Sociology is fun, but definitely OT on debian-users.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2BC321D9-D2EA-47E7-B035-34533468AAD9@pobox.com
+
+

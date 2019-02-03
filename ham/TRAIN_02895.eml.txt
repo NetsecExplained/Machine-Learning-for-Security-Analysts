@@ -1,0 +1,52 @@
+Re: use new apt to do null to RH8 upgrade?Once upon a time, ""Angles" wrote :
+
+> When I went all "Open Source", I stopped using my old partioning app
+> (partition magic?). For the RH7 install I used FIPS (a couple times).
+> Then ext3 came out and my old commercial partioning app is real old, so I
+> ask what OS software can non-destructively repartition a HD so I can put
+> /home on a seperate partition now?
+
+Parted is your friend! You can't do _everything_, the most limiting being
+that you can't move the start of a partition, but it's quite powerful
+nevertheless, and I've been very happy with it the few times I've had to
+use it.
+
+> >If you didn't put /home on a separate partition,
+> 
+> With winbloze 9x I used to deltree the winbloze dir and some "Program
+> Files" dirs, and install "fresh" instead of upgrade, while saving my
+> other data. Can this trick be used with this RH8 upgrade? Example rpm -e
+> everything so all packages are gone, hit "reset" button and boot to
+> redhat CDROM in admin (rescue?) mode, delete all those config files left,
+> like "/etc/*", then do an install BUT NOT FORMAT THAT SINGLE PARTITION
+> that I'm installing on. If I can hack the details, is this theory
+> accurate, or will RH want to destructively install and elimate all
+> existing files?
+
+You're really better off backuping all placed where you know you've hand
+edited or installed some files. For me that's only /etc/, /root/ and
+/home/. Then you reinstall cleanly, formating "/", put your /home/ files
+back into place and you're ready to go.
+That's the moment I usually realize I had a nifty tweak to a file in
+/etc/sysconfig/network-scripts/ or some special parameters added to an
+/etc/modules.conf entry... so I look at my backup and make the same change
+again. The only thing where you can get stuck is the grub.conf files,
+because although there's a /etc/grub.conf link, it's actually in
+/boot/grub/ so you may want to copy it too if you have special kernel
+parameters to save (I have to pass "pci=bios,biosirq" for one of my
+computers to work for example).
+
+HTH,
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

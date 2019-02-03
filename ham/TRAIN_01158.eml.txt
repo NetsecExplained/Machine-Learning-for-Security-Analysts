@@ -1,0 +1,22 @@
+GNOME crashes when .xsession file is present.If I create an empty (0 length) .xsession or an .xsession file
+containing one line, say, echo hello, world, I get this error when I
+try to log into GNOME.
+
+Your session lasted less than 10 seconds. If you have not logged out
+yourself this could mean there is some installation problem or that you
+may be out of disk space. Try logging in with one of the failsafe
+sessions to see if you can fix the problem.
+
+There aren't any errors in .xsession-errors when I try to log in with
+the 0 length .xsession file. In case of the .xsession file with echo
+hello, world, I see just 'hello, world' in the .xsession-errors file.
+
+Why does this happen?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2q308d4701004140621ibf159f8dycc2bb534b1aeb7bd@mail.csmining.org
+
+

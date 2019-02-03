@@ -1,0 +1,22 @@
+Re: [SAtalk] Reporting....>I currently have spam being filtered for about 50 users via spamd.
+>Works perfectly!  However, is there anyone out there providing reports
+>to their users about what was filetered?  Maybe just something like
+>date/time, From, and subject?
+
+Yup! You can check: http://www.cs.ait.ac.th/laboratory/email/quarantine.shtml
+
+Though it uses procmail!
+
+Olivier
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

@@ -1,0 +1,32 @@
+Re: Kde 3.5 ...El Jueves 06 Mayo 2010 18:01:42 Nate Bargmann  escribi=F3:
+> * On 2010 06 May 09:45 -0500, Facundo Aguilera wrote:
+> > El Jueves 06 Mayo 2010 10:22:09 Nate Bargmann  escribi?:
+> > > I'm tired of typing this time and again:
+> > >=20
+> > > No speaker beep in Konsole--dev says, "Too bad."
+> >=20
+> > Konsole -> settings -> notifications -> bell in current session -> run
+> > "beep"
+> >=20
+> > (aptitude install beep)
+> >=20
+> > Is this what you want?
+>=20
+> I have been doing that as a work-around which is not ideal as it is much
+> slower than the PC speaker beep, especially for tab completion.  It
+> seems to take some time to load between successive tab key presses.
+>=20
+> - Nate >>
+
+If beep doesn't beep in your PC speaker, maybe the problem is your system=20
+configuration.
+
+=46acundo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061826.32061.budinero@csmining.org
+
+

@@ -1,0 +1,32 @@
+Re: use of base image / delta image for automated recovery from
+    attacks> Ben Mord said:
+> 
+> >Ah. In that case, you can use something considerably less powerful than
+> >VMWare. All you need is a machine configured to boot from CD-ROM and use
+> >a RAM disk for scratch space. Numerous Linux distros are available that
+> >let you boot a stateless but functional system from CD-ROM.
+> 
+> But RAM is expensive, and the directory structures of many systems (e.g.
+> Windows) are not sufficiently organized and standardized to make this
+> combination of bootable CDs and RAM drives practical. Even if you are
+> fortunate enough to be using Linux (or another FHS-compliant *nix), you
+> still can't fit a lot on a CD. Its not unusual today to have gigabytes of
+> static multimedia content on the web server. This particular problem can be
+> alleviated somewhat by using DVDs, but this is a temporary solution at best
+> which will become outdated quickly as our data requirements grow and hard
+> drives become cheaper.
+
+So, just write-protect the hard disk for partitions that are static.
+I seem to recall an article on this (early 80's, Byte magazine, perhaps?)
+for BBS systems or for testing unknown (perhaps trojan horse) software.
+
+ - George
+
+-- 
+ ----------------------------------------------------------------------
+  George Dinwiddie                             gdinwiddie@alberg30.org
+  The gods do not deduct from man's allotted span those hours spent in
+  sailing.                                    http://www.Alberg30.org/
+ ----------------------------------------------------------------------
+
+

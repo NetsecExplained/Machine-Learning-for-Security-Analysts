@@ -1,0 +1,16 @@
+Re: [SAdev] testing with less rulesJustin Mason  writes:
+
+> hmm. also I think I've found some cases where it's hitting on fetchmail
+> Received hdrs.  that's bad.  so it could be fixed....
+
+fetchmail adds Received headers?  That seems wrong.  I'll open a bug
+to investigate.  Can you attach some examples?
+
+> yeah, will do -- somehow.  pity the bugzilla doesn't allow email
+> submissions...
+
+Agreed.  At least you can add information with email.
+
+- Dan
+
+

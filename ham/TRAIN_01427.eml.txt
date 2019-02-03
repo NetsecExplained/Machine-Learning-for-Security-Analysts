@@ -1,0 +1,36 @@
+Kaffeine is a mere shadow of itselfHi,
+
+I recently upgraded most of my KDE programs to the KDE 4 versions, and
+for one program I regretted it after only a few minutes.  Here is a list
+of the regressions in kaffeine I noticed so far:
+
+- cannot save tracks from an audio CD as .ogg files anymore
+
+- does not display tracks when playing an audio CD, screen is black
+
+- stops playing audio CD after first track
+
+- window size is fixed, videos are resized to fit window size rather
+  than the other way around
+
+- the settings menu is almost empty, nothing to configure anymore
+  apparently
+
+- does not have a manual
+
+I'm not going to look any further but will rather go back to 0.8.7 and
+put it on hold.  It feels like using an application that is maybe at
+version 0.2, rather than a 1.0 release candidate.  Given that kaffeine
+0.8 was a quite mature program with lots of features, I find this very
+sad.
+
+Regards,
+        Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87zl0ccger.fsf@turtle.gmx.de
+
+

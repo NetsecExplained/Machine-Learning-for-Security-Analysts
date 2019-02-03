@@ -1,0 +1,11 @@
+Bruce Loebrich has scraped RSS feeds for Google news, and a RSS
+    2.0 successURL: http://scriptingnews.userland.com/backissues/2002/09/24#When:3:59:56PM
+Date: Tue, 24 Sep 2002 22:59:56 GMT
+
+Bruce Loebrich[1] has scraped RSS feeds for Google news, and a RSS 2.0 success 
+story. In other words, it's okay to use the features in 2.0. We're doing it at 
+UserLand and so is Bruce.
+
+[1] http://radio.weblogs.com/0104308/2002/09/24.html
+
+

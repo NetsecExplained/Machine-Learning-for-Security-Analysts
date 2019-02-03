@@ -1,0 +1,46 @@
+[use Perl] Stories for 2002-09-13use Perl Daily Newsletter
+
+In this issue:
+    * The Perl Journal Returns Online
+
++--------------------------------------------------------------------+
+| The Perl Journal Returns Online                                    |
+|   posted by pudge on Wednesday September 11, @21:59 (links)        |
+|   http://use.perl.org/article.pl?sid=02/09/12/026254               |
++--------------------------------------------------------------------+
+
+CMP, owners of [0]The Perl Journal, have brought the journal back, in the
+form of an online monthly magazine, in PDF form. The subscription rate is
+$12 a year. They need 3,000 subscriptions to move forward (no word if
+existing subscriptions will be honored, or included in the 3,000).
+[0]Read the site for more details.
+
+I think some of the more interesting notes are that it will include "a
+healthy dose of opinion", as well a broadening of coverage including
+languages other than Perl (will this mean a name change?) and platforms
+other than Unix (I'd always thought one of TPJ's strengths was that it
+covered a wide variety of platforms).
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/09/12/026254
+
+Links:
+    0. http://www.tpj.com/
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

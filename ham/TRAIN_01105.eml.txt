@@ -1,0 +1,30 @@
+Re: xine src packge still gives errorsOnce upon a time, Roi wrote :
+
+> RPM build errors:
+>     user dude does not exist - using root
+>     user dude does not exist - using root
+>     user dude does not exist - using root
+>     user dude does not exist - using root
+>     user dude does not exist - using root
+
+This I would guess is normal, but don't you get it at the very beginning of
+the build? Isn't this at the end just a reminder?
+
+>     File not found: /var/tmp/xine-root/usr/bin/aaxine
+
+Argh, I forgot to exclude aaxine from the %files when using "--without
+aalib" :-(
+The current "fr6.1" spec file fixes this...
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.02 0.03 0.00
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

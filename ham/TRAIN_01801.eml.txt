@@ -1,0 +1,35 @@
+Re: List issues?On Tue, 20 Apr 2010 23:20:56 +0000 (UTC)
+T o n g  wrote:
+
+> On Tue, 20 Apr 2010 17:37:36 -0500, Chris wrote:
+> 
+> > ... oddly enough. Last email from this list to me was at 11:22 am
+> > CDT It's now 5:37 pm CDT
+> 
+> No, it's not the list but you. 
+> 
+> When in doubts, check 
+> 
+> official debian-user mailing list archives
+> http://lists.debian.org/debian-user/
+> 
+
+Yes - NetSol had issues. My apologies to the list.
+
+-- 
+Regards,
+
+Chris
+
+"When the people fear their government, there is tyranny; when the
+government fears the people, there is liberty."
+
+           -- Thomas Jefferson
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420195111.75302248@makeworld.com
+
+

@@ -1,0 +1,45 @@
+Re: How to manage multiple Internet connections?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Andrei Popescu wrote:
+> On Sat,15.May.10, 16:47:07, Merciadri Luca wrote:
+>  =20
+>
+> Bonding is not suitable for you because it works too low-level (it is=20
+> layer 2), unless you have two links from the same provider, using some =
+
+> technology that can be bonded (like ADSL).
+>
+> AFAIU what you need is BGP[1], but I can't give you any tips as this is=
+=20
+> way out of my league ;)
+>
+> Probably a good start (whatever technology you end up using) is a=20
+> GNU/Linux (preferably Debian) machine connected to both internet links =
+
+> and your internal network since consumer gateways don't even have more =
+
+> than one WAN port[2].
+>
+> [1] http://en.wikipedia.org/wiki/Border_Gateway_Protocol
+> [2] some of them could be used for this with custom firmware, but this =
+
+> is off-topic
+>
+> Regards,
+> Andrei
+> P.S. There is no need to CC me as I am subscribed to the list ;)
+>  =20
+Thanks for both messages. I'll study this.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+The principal task of civilization, its actual raison d'=EAtre, is to
+defend us against nature. (Sigmund Freud)
+

@@ -1,0 +1,33 @@
+[SAdev] [Bug 1049] Pathname for "triplets.txt" is incorrect.http://www.hughes-family.org/bugzilla/show_bug.cgi?id=1049
+
+felicity@kluge.net changed:
+
+           What    |Removed                     |Added
+----------------------------------------------------------------------------
+             Status|NEW                         |RESOLVED
+         Resolution|                            |FIXED
+
+
+
+------- Additional Comments From felicity@kluge.net  2002-10-03 13:26 -------
+Hmmm, my last message doesn't seem to have made it into bugzilla yet.
+
+I've committed a patch to fix this problem in both HEAD and b2_4_0.  The last
+message explains what the problem was and what the patch does to fix it.
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

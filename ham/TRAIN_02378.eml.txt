@@ -1,0 +1,28 @@
+Re: cannot type power of 1 or 2, 4-9 are typeable.On Mon, 12 Apr 2010 07:47:07 -0700, jeremy jozwik wrote:
+
+(...)
+ 
+> On Mon, Apr 12, 2010 at 12:05 AM, Camaleón wrote:
+>> - Press Control-R and then press Shift-R (keep those pressed at the
+>> same time)
+>> - Now press "u" and release the three keys (it will appear an underline
+>> "u" in the screen)
+>> - Then type "00b2" and press Enter
+> 
+> dont do that in webmail, youll reload your page and loose your carefully
+> crafted email...
+
+Maybe you mistyped the sequence? ;-)
+ 
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.12.14.59.30@csmining.org
+
+

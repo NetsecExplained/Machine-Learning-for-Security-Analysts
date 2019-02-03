@@ -1,0 +1,278 @@
+[Lockergnome Tech Specialist]  Handprint Singing
+
+<!--
+ body      { BACKGROUND-IMAGE: url(http://images.lockergnome.com/images/issue/top-right.gif); color: #331F30 }
+ a:link    { COLOR: #331F30; TEXT-DECORATION: underline; font-weight: normal }
+ a:visited { COLOR: #331F30; TEXT-DECORATION: underline; font-weight: normal }
+ a:active  { COLOR: GRAY; text-decoration: none }
+ a:hover   { color: GRAY; TEXT-DECORATION: none }
+ p.title   { BACKGROUND: #C69EBF; BORDER-BOTTOM: #4F2F4A 4px solid; BORDER-LEFT: #E7D5E4 4px solid; BORDER-RIGHT: #4F2F4A 4px solid; BORDER-TOP: #E7D5E4 4px solid; COLOR: #331F30; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal }
+ p.sidebar { BACKGROUND: #E7D5E4; BORDER-BOTTOM: #C69EBF 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #C69EBF 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #331F30; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-ALIGN: center } 
+ .url      { font-size: 8pt; font-family: Verdana, Tahoma, Arial }
+-->
+20020710 Lockergnome Tech Specialist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  07.10.2002 GnomeREPORT 
+
+
+WE NEED YOU TO BE AT GNOMEDEX! That's what your employer should be 
+telling you. Microsoft Pocket PC experts will be sharing tips on improving 
+workplace productivity with portable devices. Combined with Proxim's on 
+location wireless networking solutions, a Pocket PC can keep you and your 
+co-workers communicating no matter where you are in the building. Learn 
+how to bring Wi-FI and PDA technologies together for the ultimate in 
+portable computing. 
+Register for Gnomedex today!   
+
+Reader Jack Macdonald has some advice for you would-be bards in the audience: 
+
+"You mention Karaoke being featured at Gnomedex and you 
+might want to point out to other Gnomies that they could 
+practice their Karaoke on my Red Hot 
+Karaoke Page site. There are the words and music for 
+more than 1100 songs available on the site and by 
+downloading the Yamanha Midiplug (a link is provided) they 
+can even change the key of the song to suit their voice 
+range as well as speed up or slow down the music to their 
+taste. In other words, to have the same experience as they 
+would have with professional Karaoke equipment but at no 
+extra cost! At this price (zero) a lot of gnomies going to 
+Gnomedex could be singing up a storm by being properly 
+prepared for your Karaoke."
+
+Travel day on Wednesday as I head down to Ankeny, Iowa to 
+help out a former co-worker and avid Gnomie with some server 
+and networking stuff. The tough part is remembering 
+everything I'll need. It never fails, though. I always, 
+always, always forget something. I can make lists two weeks 
+in advance and I'll end up 30 miles down the road with a 
+handprint on my forehead when I come to the realization that 
+I left something important behind. What will it be this 
+time, I wonder? I'll let you know on Thursday.
+
+
+
+
+See You in August,              Randy Nieland       
+
+ GnomeNETWORK
+Forwarding to Internet Address Fails
+http://support.microsoft.com/default.aspx?scid=kb;EN-US;q181636
+Client inquires about the possibility of forwarding all 
+internal and Internet email to his AOL mailbox when he's out 
+of the office, and I figure it's going to be a piece of 
+cake. He recently acquired a new phone through Verizon along 
+with web access and a tie into his AOL mailbox, which was 
+the driving force behind this request. What I found was that 
+Internet email proved to be easy using a simple forwarding 
+rule, but none of the internal Exchange email was being sent 
+out to the Internet upon receipt, even though it appeared to 
+be included in the rule. As it happens, this is due to a 
+default configuration option on the Exchange 5.5 server that 
+prevents automatic replies/forwards from being sent to the 
+Internet using the Exchange Internet Mail Service. A quick 
+configuration change and restart of IMS will put things 
+right.
+
+
+ GnomeSYSTEM
+Stop the Presses
+http://www.wininformant.com/Articles/Index.cfm?ArticleID=25802
+... The CD presses, that is. Microsoft has given in to 
+the greater good and delayed Windows 2000 Service Pack 3 
+indefinitely. Sure, it's mildly disappointing, but I applaud 
+the move. Instead of trying to downplay the previously 
+identified problems with Microsoft Installer (MSI) 2.0, the 
+service pack will be put on ice until the issues are 
+straightened out. Here's a quote for you... Good job, 
+Microsoft.
+
+
+ GnomeALERTZ
+Today's Top 5 kbAlertz
+
+Q198845 - WD2000: How to Return Only File Names Using FileSearch Property (Q198845)
+Q310436 - Cannot Play a DVD in Windows XP (Q310436)
+Q321305 - How to Log On to Windows XP If You Forget Your Password or Your Password Expires (Q321305)
+Q321146 - Freddi Fish 2: The Case of the Haunted Schoolhouse Program Causes an Error Message in Windows XP (Q321146)
+Q321144 - Visioneer One Touch 8100 Scanner Causes an Error Message in Windows XP (Q321144)
+
+
+
+CHRIS TEACHES THE BASICS: If you've got friends or family who want to learn more about their PC, from a guy who makes things nice and easy, check out the VHS release of Computer Basics in the GnomeStore. Chris teams with TechTV cohort, Kate Botello, to lead novices on a journey through their computer. From basic interactions, to installing apps, to using the Internet and e-mail, Chris and Kate have all the basics covered. Help out a friend and  get them a copy today.    
+
+
+Recommend It!
+ GnomeASSISTANT
+Windows XP System File Checker
+Dean Truax mentioned the System File Checker as a 
+possible solution to my Windows Media Player problem under 
+Windows XP, and I did indeed run through it prior to 
+attempting an in-place upgrade, obviously with no 
+improvement. It's still worth a mention, however, in case 
+you're not familiar with what it's there for. As you're 
+probably aware, XP contains a file protection scheme that 
+will immediate replace any system files that are deleted or 
+altered in any way, ensuring that XP is kept in a stable 
+state. Sometimes this system can get a little out of whack, 
+and the SFC is meant to restore order. Note that any 
+hotfixes and other Microsoft-provided updates will be left 
+in place since they properly update the DLL Cache that is 
+used as the sanity check to determine if a system file has 
+been messed with. To access the SFC, simply launch a command 
+prompt and type "SFC" to display a list of options.
+
+
+ GnomeSTUFF
+Consider This
+Forwarded by JW
+
+http://www.computerworld.com/securitytopics/security/story/0,10801,72519,00.html
+The next time you have a face-to-face with your elected 
+representatives, you might want to start asking about their 
+opinions on technology laws that are being proposed left and 
+right. Holding a public office seems to be introducing brain 
+death more frequently considering proposals by Senator Fritz 
+Hollings and now LA congressman Howard Berman. If Mr. Berman 
+gets his way, companies may very well be allowed to hack 
+into your systems without proof of provocation in order to 
+ensure that you are using their software according to the 
+stated rules. Mind you, if they cause colateral damage or 
+upset other systems, there isn't thing one you can do in 
+return. Nope, they'll have legal protection. This garbage is 
+seriously getting scary. If you think it won't be abused, 
+consider the case of Dimitry Skylarov when he publicly 
+pointed out eBook security problems with Adobe's software 
+and was promptly thrown in jail for his trouble under the 
+authority of the Digital Millenium Copyright Act. He was 
+eventually released, but that doesn't make it any more 
+right.
+
+
+
+
+
+
+Recommend It!
+
+
+
+http://www.lockergnome.com/issues/techspecialist/20020710.html
+Your subscribed e-mail address is: [qqqqqqqqqq-lg@spamassassin.taint.org] - To unsubscribe or change your delivery address, please visit the subscription management page. For further information, please refer to the GnomeCREDITS in the sidebar.
+
+
+
+
+
+LOOK OVER HERE
+
+ Download Tip eBooks
+
+ Latest Windows Daily
+ Latest Digital Media
+ Latest Tech Specialist
+ Latest Penguin Shell
+ Latest Apple Core
+ Latest Web Weekly
+ Latest Bits & Bytes
+ Latest Audio Show
+
+ Low Price Search
+ Our Tech Conference
+
+ Microsoft Office Tips
+ PC Productivity Tips
+ Cool Internet Tips
+ Windows 2000 Tips
+ Windows XP Tips
+
+ Tell a Friend About Us!
+ Suggest a Feature
+ Advertise With Us
+ High-Tech Job Search
+ Chat With Gnomies
+ Watch The Webcams
+ Computer Power User
+
+ Read Past Issues
+ Download X-Setup
+ About Lockergnome
+ Our Privacy Policy
+ View More Options
+ Our XML / RSS Feed
+ Syndicate Our Tips
+ Link To Lockergnome
+ Get Chris's Book
+
+
+ E-mail a Suggestion
+ Your Rant / Rave
+ General Feedback
+ The Editor's Blog
+ E-mail the Editor
+ SOUND SYSTEMS
+Yamaha RX-V1200
+Sony DAVC900
+Harman Kardon	AVR520
+Denon	AVR5803
+Pioneer VSXD811S
+Pioneer Elite	VSX49TX
+Sony HTDDW840
+Yamaha HTR5560
+BOSE LS122BK
+Sony DAVC450
+
+ GNOMESPECIALS
+ Manage Your Workgroup
+ Form Pilot
+ Say the Time 5.0
+ Boomer - Stream Now
+ Create Web/CD catalog
+ Easy Web Editor
+ Kleptomania
+ Tag&Rename
+ Pretty Good Solitaire
+ Visualize Color Combos
+ FirstStop WebSearch
+ Ecobuilder
+ Book Collector
+Get Listed Here
+Question: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother? 
+
+
+ 
+
+
+CLICK HERE TO ZOOM
+
+ 
+LOOK IT UP
+
+
+
+
+
+ 
+BYTE ME NOW
+
+©2002, Lockergnome LLC. ISSN: 1095-3965. All Rights Reserved. Please read our Terms of Service. Our Web site is hosted by DigitalDaze. Domain registered at DNS Central.
+
+
+
+
+

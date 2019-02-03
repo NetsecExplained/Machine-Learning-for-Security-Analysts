@@ -1,0 +1,18 @@
+SortingIs there a way to do a global Sort command? Here's the situation: I like to 
+sort by date every folder. I'm cleaning up my inbox from most recent to oldest, 
+since I find this direction most efficient (I guess because it helps me 
+recognize the significance of individual, old messages). But this adds messages 
+to my other folders in the wrong order. When I'm done, I'd like to re-sort all 
+the folders I've changed.
+
+--
+rick
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

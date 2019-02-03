@@ -1,0 +1,25 @@
+Re: Resources for learning LinuxMonique Y. Mudama wrote:
+> They used to say - you're not a real linux admin until you've
+> completely borked your system and had to wipe and reinstall from
+> scratch at least once.
+>    
+And then recover all your user data, from your hopefully good backup.  
+It gets really entertaining when a RAID array fails in an odd way.  (I 
+still cringe about how I learned that md software raid does not always 
+kick bad disks out of an array - if a drive is going bad, and just takes 
+lots of tries to read data, everything just slows waaa....aaaay down.  
+And then unraveling logical volumes on top of software raid can get very 
+interesting.)  You learn a lot from such experiences.  Sigh....
+
+-- 
+In theory, there is no difference between theory and practice.
+In  practice, there is.   .... Yogi Berra
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD63945.1050005@meetinghouse.net
+
+

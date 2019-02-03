@@ -1,0 +1,21 @@
+Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on
+ Lenny?On Tue, Apr 20, 2010 at 12:00:11AM +0200, Clive McBarton wrote:
+> I understand that point of view. But it is a point of view that will
+> make people stay away from d-m (and pretty much all other repos for that
+> matter).
+
+So? If there is a problem with another repo infecting your system, the
+best advice will be don't use it. Of course, you are free to ignore this
+advice and try to fix it yourself.
+
+-- 
+Chris.
+======
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100420120038.GC18101@fischer
+
+

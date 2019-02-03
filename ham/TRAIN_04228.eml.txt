@@ -1,0 +1,26 @@
+How to flush cache of certain disk?Hi,
+
+On my netbook I'm using automatic USB sticks mount through udev rules,
+and I already used to running 'sync' command before unplugging stick,
+so no data will be lost. But if I have few sticks inserted and some
+information copying on one of them, if I run 'sync' I have to wait
+while copying ends, because:
+
+a) sync command drops cache on disk, but copying process fill it
+again; sync will work until all the caches are dropped to disks
+b) I can't unplug stick when it stops to flash because I can't be sure
+that there are no more parts of cache needed to be flushed on that
+disk.
+
+So here is my question - how can I run sync for only one device?
+
+With best regards,
+Alexander Batischev
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/p2u28c1d5ea1005060246p3434d45dy6b9ca5b6d34a08de@mail.csmining.org
+
+

@@ -1,0 +1,30 @@
+Re: [SAtalk] paulgraham.com articleHess, Mtodd, /mth wrote:
+> Yes, it is very impressive.  However, all of the most advanced content
+> filtering known to man is easily defeated by simply presenting the content
+> in the form of a graphic image (GIF, JPG, etc.).  I'm surprised that more
+> spammers don't already do this.  I know we have discussed this before, and
+> maybe we can detect this type of spam via the headers and with Razor/DCC (if
+> you're using them).  But that sure narrows down the ruleset (maybe that's
+> good).
+
+Doesn't defeat this system at all. If you see that once, feed it into 
+your bayesian classifier, and it classifies the URLs used for the 
+images. Then next time it sees one, it knows with almost 100% accuracy 
+that an email with one of those URLs is definitely spam.
+
+In many ways this is like Razor, which is why I'm hacking on a 
+distributed system to do this, to see if it's feasible to scale it globally.
+
+Matt.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

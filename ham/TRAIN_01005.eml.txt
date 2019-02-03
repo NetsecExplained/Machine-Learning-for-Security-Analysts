@@ -1,0 +1,54 @@
+Re: Filesystem recommendationsFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sat, Apr 24, 2010 at 3:11 PM, Ron Johnson  wrote:
+
+> On 04/24/2010 12:53 PM, B. Alexander wrote:
+>
+>> Hi,
+>>
+>> I have a question on filesystems. Back in the day, I started using
+>> reiser3. It was faster than ext3, and it could be extended without
+>> umounting the filesystem (which has since been fixed in ext3), plus,
+>> unlike any filesystem I have encountered, it could be reduced in size.
+>>
+>> Well, now reiser3 is very long in the tooth, reiser4 will probably never
+>> go anywhere, so I'm wondering what filesystems are recommended. Last I
+>> heard, ext4 is stablizing, but it had problems with filesystem
+>> corruption, though that was mid-fall last year, IIRC.
+>>
+>> So now, I would like to slowly start replacing my reiser3 partitions
+>> with...something else. There are two options, the old standards, e.g.
+>> ext3/4, xfs, etc, and then there are a slew of new filesystems, such as
+>> nilfs2, btrfs and exofs.
+>>
+>> I'm talking about a range of machines, from workstations to servers to
+>> NFS and storage servers with multi-terabyte disks, and a backup server
+>> with several hundred gigs of backups.
+>>
+>> Does anyone have suggestions and practical experience with the pros and
+>> cons of the various filesystems?
+>>
+>>
+> XFS is the canonical fs for when you have lots of Big Files.  I've also
+> seen simple benchmarks on this list showing that it's faster than ext3/ext4.
+>
+
+Thats cool. What about Lots of Little Files? That was another of the draws
+of reiser3. I have a space I mount on /media/archive, which has everything
+from mp3/oggs and movies, to books to a bunch of tiny files. This will
+probably be the first victim for the xfs test partition.
+
+nilfs2, btrfs and exofs are *definitely* still beta or even alpha.
+>
+> xfs and ext[34] can all be extended.  For production servers with a working
+> UPS, I'd go with ext3 for / & /boot and xfs (since it hates sudden power
+> outages) for the "/data" directories.  For production workstations, I'd
+> stick with the standby ext3 for / & /boot and ext3 or xfs for /home and
+> "/data" (depending on the workload).
+>
+
+Define "hates sudden power outages"...Is it recoverable?
+
+Thanks for the info, Ron,
+--b

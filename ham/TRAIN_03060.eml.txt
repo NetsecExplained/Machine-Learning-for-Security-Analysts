@@ -1,0 +1,18 @@
+downloaded .jnlp won't open> cat /proc/sys/net/ipv6/bindv6only
+> if output is 1 then:
+> echo 0 > /proc/sys/net/ipv6/bindv6only
+> --
+
+Thanks Goran.
+That fixed it.
+
+
+Anybody know what was the problem?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/n2g1f1816a91004270951mb5bcfd94p13b23eed96558b2d@mail.csmining.org
+
+

@@ -1,0 +1,58 @@
+Re: overcoming the 32k objects limit is ext3 - which file system to 
+	use?On Fri, Apr 23, 2010 at 8:13 PM, Siju George  wrote:
+> Hi,
+>
+> ext3 can have only 32000 files/folders under a folder and I hit that limit.
+>
+
+Hi,
+
+Sorry for the ambiguity.
+
+by files/folders I meant the number of objects inside a directory.
+
+But Mike showed there is no such limit for files/folders and other
+showed me there is such a limit for folders.
+
+folders=directory.
+
+I work in a mixed environment of BSDs Linuxes Mac OS X and a few MS
+Windows Servers but the developers mostly use MS Windows as desktops
+and MS language is what I use commonly in office so that is the reason
+to use folders :-)
+
+I rarely use ext3. This was a server installed by some body else.
+
+The folder limit was reached some time back.
+
+As a temporary solution some directories were removed .
+They will be fitting new drives tomorrow so I guess i will format them
+to XFS and use that.
+
+since ext4 also has a limit ans jfs also has a limit of 64000 I guess
+I will use XFS which allows 2^32 directories under a directory.
+
+My inclination to use JFS was because that is the file system that has
+proved stable for me during numerous crashes due to power failure back
+at home more than any other :-)
+
+Thank you so much all of you for all the info.
+
+--Siju
+> Which file system can I use to over come it?
+> I am planning for JFS
+>
+> Does anybody has any recommendations?
+>
+> Thanks
+>
+> --Siju
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2ib713df2c1004250804ga202e09cx75384535a15dde8f@mail.csmining.org
+
+

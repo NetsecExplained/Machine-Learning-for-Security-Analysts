@@ -1,0 +1,22 @@
+Re: [SAtalk] updating SAOn Wed, 2002-08-28 at 13:57, Michael Clark wrote:
+> To update spamassasin, all I need to do is install the new tar.gz 
+> file as if it were a new installation? I don't need to stop incoming 
+> mail or anything like that? Thanks, Mike
+If you are using spamd, you will have to stop/restart it. 
+
+-- 
+Larry Rosenman                     http://www.lerctr.org/~ler
+Phone: +1 972-414-9812                 E-Mail: ler@lerctr.org
+US Mail: 1905 Steamboat Springs Drive, Garland, TX 75044-6749
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

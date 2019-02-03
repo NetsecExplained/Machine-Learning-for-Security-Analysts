@@ -1,0 +1,64 @@
+Re: ARRRGHHH Had GPG working, now it doesnt.If you haven't already, you should enable the debug log under
+Hacking Support preferences and look for clues there.
+
+>>>Reg Clemens said:
+ > > Hi,
+ > > 
+ > > On Sun, 01 Sep 2002 00:05:03 MDT Reg Clemens wrote: 
+ > >   
+ > > [...]
+ > > > in messages with GnuPG signatures.  But punching the line ALWAYS
+ > > > gives
+ > > > 
+ > > >         Signature made Thu Aug 29 00:27:17 2002 MDT using DSA key ID BDD
+     F997A
+ > > >         Can't check signature: public key not found
+ > > > 
+ > > > So, something else is missing.
+ > > 
+ > > Yes, the public key of the signature you want to check :-).
+ > > 
+ > > Are you really sure that you have the public key of the message's
+ > > signature? If not, try downloading it or try to check a signature from
+ > > which you know you have the public key.
+ > > 
+ > > 
+ > > 
+ > 
+ > Ah, sorry for not making that clearer.
+ > But no.
+ > Previously (v1.0.6 of GnuPG) there would be a slight pause at this point whi
+     le
+ > it went out to get the public key from a keyserver.
+ > Now, whether I have the key or NOT, I get the failure message.
+ > 
+ > Its as if it cant find gpg to execute it (but I fixed that path), so there
+ > must be something else that I am missing...
+ > 
+ > 
+ > -- 
+ >                                         Reg.Clemens
+ >                                         reg@dwf.com
+ > 
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > Exmh-users mailing list
+ > Exmh-users@redhat.com
+ > https://listman.redhat.com/mailman/listinfo/exmh-users
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+

@@ -1,0 +1,43 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is	protected! Why?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Gunnar Wolf wrote:
+> Merciadri Luca dijo [Mon, Apr 19, 2010 at 05:32:51PM +0200]:
+>  =20
+>
+> Thing is, PDF is a printing-oriented format. It is a close descendent
+> of PostScript, a full-fledged programming language, but geared towards
+> printers. The main point that makes PDF a more convenient format is
+> that Acrobat made a big campaign to distribute its PDF reader program.
+>  =20
+As you say.
+> As you quote, others have told you the PDF-provided security is
+> fake. It is just a flag flipped to tell the reader program to pretty
+> please make life miserable for the user.
+>  =20
+Yes, but it is often sufficient to prevent _beginners_ from hacking the
+whole stuff.
+> What do you want to achieve with this _real_ protection you say?
+>  =20
+See my other messages. I am/was encountering a special situation.
+> Whatever can be displayed on screen can be captured (i.e. with the
+> common "PrtScr" keybinding in many environments). If you want to
+> distribute material and make it hellish to your users to print it,
+> copy from it or use it in any useful way, why don't you send the
+> document as a .jpg file?
+>  =20
+With such files (.jpg ones) they can print it directly, can't they?
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+When making your choices in life, do not forget to live. (Samuel Johnson)=
+
+

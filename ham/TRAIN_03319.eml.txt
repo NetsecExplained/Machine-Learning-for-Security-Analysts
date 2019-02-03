@@ -1,0 +1,36 @@
+a deadlock problemHi XFS developers,
+When studying xfs code(2.4.19), I found that the inode will be locked by 
+XFS_ILOCK_SHARE flags before we get acl, which may cause deadlock.
+Because when getting acl, it will allocate memory in KM_SLEEP, If the 
+memory is tight, the process will call xfs_strategy, and may 
+lock(XFS_ILOCK_SHARE)the same inode again. If between these two locks, 
+another process try to lock the inode by XFS_ILOCK_EXCL, these two 
+processes  will be deadlock. As follows,
+
+    A process get ea                         B process want lock ipA
+
+1) xfs_ilock(ipA, XFS_ILOCK_SHARE)             .....................
+            |                                         |
+            |                                         |
+         get acl                        2) xfs_ilock(ipA, XFS_ILOCK_EXCL)
+            |                                         |
+            |                                         |
+        memory tight
+            |
+            |
+        xfs_stragegy
+            |
+            |
+3)xfs_ilock(ipA, XFS_ILOCK_SHARE)        ............................
+
+  these two processes will be dead lock.
+
+So I believe that acl allocation GFP_MASKshould be changed to KM_NOFS.
+right?
+
+best regards
+                                                 wdd
+
+
+
+

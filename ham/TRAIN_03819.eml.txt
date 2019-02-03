@@ -1,0 +1,36 @@
+Re: What to choose for Core i5 64 bits?On Tue, May 11, 2010 at 11:07, Jordan Metzmeier  wrote:
+>
+>
+> On Tue, May 11, 2010 at 2:02 PM, Kelly Clowers 
+> wrote:
+>>
+>> On Tue, May 11, 2010 at 06:56, Jordan Metzmeier 
+>> wrote:
+>> >
+>> > Adobe's 64bit flash player does not function on all the sites
+>> > that the 32bit plugin will.
+>>
+>> [citation needed]
+>>
+>>
+>> Cheers,
+>> Kelly Clowers
+>>
+>>
+> https://bugs.adobe.com/jira/browse/FP-4067
+
+Fascinating. I get the same thing now, but some time back,
+I watched several episodes on Hulu with this system. I wonder
+what they changed?
+
+
+Cheers,
+Kelly Clowers
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikZzPhcHntmfqj4tDeaRE_P3XMaS54aLXNyzT-3@mail.csmining.org
+
+

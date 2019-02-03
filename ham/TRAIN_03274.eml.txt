@@ -1,0 +1,37 @@
+Re: NULL data from wmv with Flip4Mac - load delay?On Fri, May 21, 2010 3:54 am, quicktime-api-request@lists.apple.com wrote:
+
+> I have a wmv file.
+>
+> if ([QTMovie canInitWithFile:path])
+> {
+>   qtMovie = [QTMovie movieWithFile:path error:nil];
+>   if (qtMovie)
+>   {
+>       NSValue*   naturalSize =
+>       [qtMovie attributeForKey:QTMovieNaturalSizeAttribute];
+>
+>       NSSize     pixelSize;
+>
+>       [naturalSize getValue:&pixelSize;];
+>    }
+> }
+>
+> I always end up with pixel sizes of zero for both width and height.
+>
+> I am guessing the data is not loaded yet. How can I find this information
+> but not load the entire movie... Just enough to get non-zero data?
+
+You need to pay attention to the load state of the QTMovie. Details have
+been presented on this list before and are in the QTKit documentation.
+
+Tim Monroe
+QuickTime Engineering
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

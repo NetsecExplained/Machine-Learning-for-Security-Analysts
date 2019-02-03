@@ -1,0 +1,20 @@
+Re: 64-bit netbooks with Debian linuxOn 5/5/2010 8:49 AM, Camaleón wrote:
+> BTW, my Shuttle box has also a ram limitation of 2 GiB (and currently
+> using only 1 GiB) but has installed "amd64". It runs fine, without
+> noticeable drawbacks.
+
+
+A concern was "future-proofing".  More than one GB is not needed now. 
+What about later?
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE1D665.8010201@allums.com
+
+

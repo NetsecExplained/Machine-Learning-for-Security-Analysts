@@ -1,0 +1,30 @@
+Re: Retrieve hardware and modules info..From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon,05.Apr.10, 07:36:03, Lubos Rendek wrote:
+> thanks guys for this.. Now what is the best way to link modules to a
+> specific hardware. for example my lsmod shows that I use 'ecb' module.
+> For someone like me this name does not say much. Is there a way to
+> find which module belongs to which piece of hardware?
+
+$ /sbin/modinfo ecb
+filename:       /lib/modules/2.6.32-4-amd64/kernel/crypto/ecb.ko
+description:    ECB block cipher algorithm
+license:        GPL
+depends:       =20
+vermagic:       2.6.32-4-amd64 SMP mod_unload modversions=20
+
+(I use the full path because modinfo is in /sbin, which is usually not=20
+in the user's $PATH).
+
+But if you are curious only about the hardware related modules lspci=20
+will tell what modules are used by the respective hardware. You will=20
+need to run it as root with the -vvv parameters.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

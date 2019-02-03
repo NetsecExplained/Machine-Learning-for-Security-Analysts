@@ -1,0 +1,25 @@
+Re: router policy questionOn Friday 16 April 2010 21:00:56 Glenn English wrote:
+> On my nets, I need to be able to telnet/ssh into the border router, from
+>  the inside, to futz with it.
+> 
+> But is there any reason at all to allow anything, aside from some ICMP, to
+>  go beyond the ACL on its Internet facing interface -- to get to the router
+>  itself, that is?
+
+You mean packets coming in from the Internet with a destination IP that is 
+assigned to the router itself?  Are you running any sort of routing protocol 
+or similar that communicates with your ISP's routers, including things like 
+MPLS, or any VPNs/tunnels that terminate at the border router? What about NAT 
+or port forwarding on the border router?
+
+-- 
+"Clothes make the man. Naked people have little or no influence on society." - 
+Mark Twain, American Writer (1835-1910)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004162235.18145.ddjones@riddlemaster.org
+
+

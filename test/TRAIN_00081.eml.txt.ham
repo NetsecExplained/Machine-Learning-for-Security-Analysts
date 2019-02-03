@@ -1,0 +1,34 @@
+Re: [SAdev] 2.40 RELEASE PROCESS: mass-check status, folks?
+On Thursday, August 22, 2002, at 10:24  AM, Justin Mason wrote:
+
+> I plan to
+>
+> 1. figure out the freqs tonight, suggest what tests to drop
+> 2. wait for comments
+> 3. drop tests that nobody cares about tomorrow
+> 4. sed out the dropped tests from the mass-check logs
+
+This step is unneccesary -- unless you've changed the scripts 
+much, any test in the logs which aren't in the rules files will 
+just be ignored I think.  You do seem to have changed the 
+logs-to-c script and removed the bit where you could specify 
+immutable tests at the top -- I took a brief glance through the 
+code and couldn't fully make out how it had changed.  I think we 
+want to be able to specify immutable test scores though in there 
+somewhere -- or is that now handled by the tflags stuff?  For 
+the last couple releases, any test which occurred infrequently 
+(by thumb-in-the-wind subjective criteria) I set to have 
+immutable scores, as well as a handful of other rules.
+
+> 5. kick off the GA
+>
+> BTW I'll be away this weekend at Linuxbierwanderung, so Craig, 
+> you might
+> have to run the GA. ;)
+
+Shouldn't be a problem.  Assuming I can get the darned thing to 
+compile :)
+
+C
+
+

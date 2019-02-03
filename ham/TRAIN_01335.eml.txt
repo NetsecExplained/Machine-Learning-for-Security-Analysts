@@ -1,0 +1,27 @@
+Re: backing up LVM volumesOn Tue, 27 Apr 2010 13:44:27 +0100
+Chris Davies  wrote:
+
+...
+
+> LVM provides a snapshot mode for this kind of requirement. It's not
+> stunning but it's usually sufficient.
+
+Perhaps usually, but in my use-case (and that of others) it's badly
+broken (I've mentioned this elsewhere in the thread, but I really need
+to vent about this badly documented, frustrating mess:
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=549691
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100427171023.540fe533.celejar@csmining.org
+
+

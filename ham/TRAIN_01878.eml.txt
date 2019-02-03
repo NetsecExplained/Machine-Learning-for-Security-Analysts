@@ -1,0 +1,29 @@
+Re: Server certificate has expiredOn 05/18/2010 03:32 PM, Merciadri Luca wrote:
+> Eduardo M KALINOWSKI wrote:
+>    
+>> On Ter, 18 Mai 2010, Merciadri Luca wrote:
+>>      
+>>> Well, this is effectively Icedove 2.0.0.22 (20090706). How did you
+>>> manage to, under Th. 3?
+>>>        
+>> I don't remember exactly, but I believe somewhere the was an option to
+>> accept the security exception permanently.
+>>      
+> Thanks. I just verified, and it is surely not implemented in my
+> Icedove's version. I should get the new one (which is not in stable
+> branch, evidently).
+>
+>    
+You are better off using the upstream tarball of thunderbird then trying 
+to backport Icedove from squeeze/lenny. Install to your homedir or /opt. 
+As long as your user has write perms to file, it has an update manager 
+that can upgrade itself (somewhat eliminating the need for package 
+management).
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF2EF3A.6070109@csmining.org
+
+

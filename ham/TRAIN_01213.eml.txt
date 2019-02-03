@@ -1,0 +1,37 @@
+Iceweasel/FF makes the embedded videos going 4 times faster when it bugs!-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+When surfing on webpages, it someztimes happen that pages embed videos
+through flash (e.g. youtube). From time to time, my Iceweasel/FF
+browser happens to play the video ~4 times faster than the normal
+(i.e. 1 time) speed, because it bugs. But the rest of the webpage
+remains normal, not specially buggy, neither do the other tabs. 
+
+Has somebody already experienced such problems? If so, which websites
+with? Special bug.
+
+Thanks.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Do not triumph before the victory.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvm2fgACgkQM0LLzLt8MhzdIwCdFOQCDh1KCajTcOWJjVguccOd
+BFwAnAjkbwdJ2/wzddCjc4J9KlnMfkob
+=5WdZ
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87y6ftcbuv.fsf@merciadriluca-station.MERCIADRILUCA
+
+

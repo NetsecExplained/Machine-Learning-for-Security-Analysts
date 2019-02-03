@@ -1,0 +1,21 @@
+Re: New testing packagesMatthias Saou (matthias@rpmforge.net) wrote*:
+>- I've rebuilt a new "alsaplayer" package based on Angle's one.
+
+Cool, one less package to maintain :)
+
+One interesting thing about alsaplayer is that RedHat's XMMS package in RH8 will
+probably not play mp3 files. But alsaplayer does play mp3s "out of the box".
+
+Also, they are developing rapidly in their CVS and looks like their next version
+of alsaplaer will be pretty cool, but I have no idea when it will be ready.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

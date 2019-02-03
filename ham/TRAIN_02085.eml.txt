@@ -1,0 +1,44 @@
+[Razor-users] can't call method "log" issue - solution
+I see that Robert S. Wojciechowski Jr. posted about this issue on 7/26,
+but I don't see any responses. I get that error when calling razor-report
+from a sendmail alias, but not from the command line as a different user.
+The way I solved it was to run 
+
+razor-admin -create
+
+and
+
+razor-admin -discover
+
+with a -home argument set to the global /etc/razor directory, which is
+explicitly specified in the args to the alias pipe.
+
+The manual page, which suggests that /etc/razor/razor-agent.conf will be
+loaded first, does not also say that razor-admin will then create a
+.razor directory in the user's home directory if it does not exist
+(although this /is/ pointed out in the razor-agents(1) page. This may
+lead to some minor confusion if the user is trying to set the discovery
+and other defaults for a default (e.g., /etc/razor) install. The
+workaround is as I say above, namely, explicitly specify the path to
+razorhome on the command line, e.g.
+
+razor-admin -home=/etc/razor -create
+razor-admin -home=/etc/razor -discover
+
+hth,
+Steve
+
+-- 
+hesketh.com/inc. v: (919) 834-2552 f: (919) 834-2554 w: http://hesketh.com
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

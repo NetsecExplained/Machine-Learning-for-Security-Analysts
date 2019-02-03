@@ -1,0 +1,36 @@
+Re: Dragging image from Google Chrome crashes onto Java application
+	crashes it
+On 5. apr. 2010, at 19.34, Doug Zwick wrote:
+
+> I put an additional try/catch around the code interpreting the =
+x-java-image flavour. If that attempt fails, I fall back to one of the =
+file path or URL string flavours. It's ugly, and only really practical =
+because the code has to be able to handle drag sources that only put an =
+URL or file path in the Transferable.=20
+
+That does of course work, but you might run into issues with protected =
+resources, as you won't be able to share credentials/sessions/etc with =
+the browser (unless you get a path to the browsers locally cached =
+version of the resource).=20
+
+I did some extra testing on this topic, and found there are more things =
+going wrong: The "image/x-pict" flavor, which should contain a TIFF =
+encoded version of the image, instead contains only a null-terminated =
+string "Unsupported type". It's probably caused by the same underlying =
+problem that leads to the Error in the "image/x-java-image" case though, =
+but might help locating the bug.=20
+
+
+Best regards,
+
+--=20
+Harald K
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

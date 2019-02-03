@@ -1,0 +1,22 @@
+Re: exmh bug?From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=us-ascii
+
+On Wed, 11 Sep 2002 12:17:33 PDT, Brent Welch said:
+
+> >>>Hacksaw said:
+
+>  > When I receive a gpg encrypted message, and it asks me for a passphrase, 
+> it
+>  > first tries to ask me via the tty under which exmh is running. It tells 
+>
+Hmm.. I've seen the *opposite* issue - if I go to *SEND* a signed message,
+sometimes Exmh will put up the dialog box, but fail to set keyboard focus
+there, so no passphrase can be entered.  Of course, hitting 'return' doesnt
+work so you need to click the 'OK' box, at which point it finds that the
+passphrase that wasn't entered doesn't work, and asks again, this time with
+proper focus set.
+
+I suspect some variable/codepath is getting hosed for the focus, or possibly
+some borkedness with --no-tty and/or --status-fd flags to gnupg.
+
+/Valdis

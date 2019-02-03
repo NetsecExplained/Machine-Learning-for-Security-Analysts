@@ -1,0 +1,74 @@
+[use Perl] Stories for 2002-08-10use Perl Daily Newsletter
+
+In this issue:
+    * TPF Announces Newsletter Mailing List, Translations
+    * search.cpan.org Out of Beta
+
++--------------------------------------------------------------------+
+| TPF Announces Newsletter Mailing List, Translations                |
+|   posted by KM on Friday August 09, @13:03 (links)                 |
+|   http://use.perl.org/article.pl?sid=02/08/09/174257               |
++--------------------------------------------------------------------+
+
+[0]gnat writes "We've set up a mailing list for the monthly Perl
+Foundation newsletters, and [1]the July newsletter went out on Thursday.
+If you donated to YAS and The Perl Foundation, you are already subscribed
+at the email address you provided when you donated. If you haven't
+donated and want to subscribe, send an empty email message to
+foundation-newsletter-subscribe@perl.org (and also consider [2]donating
+:-).
+
+In other newsletter news, we have a [3]French translation of the July
+newsletter on the web site. Thanks to mirod (Michel Rodriguez) for making
+that happen. Translations into other languages are welcome--please
+contact Kevin Meltzer (kevinm AT yetanother.org)."
+
+I *heart* your translations!
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/08/09/174257
+
+Links:
+    0. mailto:gnat@frii.com
+    1. http://www.perl-foundation.org/index.cgi?page=newsletter
+    2. http://www.perl-foundation.org/index.cgi?page=contrib
+    3. http://www.perl-foundation.org/index.cgi?page=fr/tpf-newsletter-0702
+
+
++--------------------------------------------------------------------+
+| search.cpan.org Out of Beta                                        |
+|   posted by KM on Friday August 09, @16:46 (cpan)                  |
+|   http://use.perl.org/article.pl?sid=02/08/09/2046256              |
++--------------------------------------------------------------------+
+
+[0]gbarr writes "Since announcing the [1]search beta site a OSCON we have
+recieved several feedback messages. Some have suggested changes, which we
+appriciate and most will be implemented. But many of the messages were
+just requesting it to become [2]search.cpan.org. So by popular demand the
+switch will happen this weekend." Sweet!
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/08/09/2046256
+
+Links:
+    0. mailto:gbarr-tucs@mutatus.co.uk
+    1. http://search-beta.cpan.org/
+    2. http://search.cpan.org/
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

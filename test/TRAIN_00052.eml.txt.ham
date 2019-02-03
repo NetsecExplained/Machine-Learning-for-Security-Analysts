@@ -1,0 +1,32 @@
+Installation on HP T5700 from USB; partitioningHello everyone!
+
+According to this tutorial (http://d-i.pascal.at/) I was able to start 
+the installation process from USB stick on my:
+
+HP 5700 Thin Client Terminal
+1 GHz Processor
+512 RAM
+256 internal flash drive
+
+But I get stuck because there is not enough space even for minimal 
+installation (netinstall.iso).
+Now the question:
+
+I have also another 4GB USB stick. Can I Install the biggest parts of 
+the system on it?
+If yes, which parts of the filesystem do I need place on internal flash 
+memory (IDE ATA, faster), and
+which on the USB stick?
+
+The device will be used as a FTP, NAS etc.
+
+Thanks on advance
+Krzysztof
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5800D.1020207@op.pl
+
+

@@ -1,0 +1,20 @@
+USB key accepts data only as rootFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+To put data on my USB key, I need to be root. This does not sound
+normal. How can I tweak this?
+
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

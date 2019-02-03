@@ -1,0 +1,48 @@
+Re: CVS reportFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson 
+> Date:  Thu, 22 Aug 2002 23:14:20 +0200
+>
+> 
+> >>>>> On Thu, 22 Aug 2002, "Chris" == Chris Garrigues wrote:
+> 
+>   Chris> --==_Exmh_267413022P Content-Type: text/plain;
+>   Chris> charset=us-ascii
+> 
+>   +> From:  Anders Eriksson  Date:  Thu, 22 Aug
+>   +> 2002 20:23:17 +0200
+> 
+>   +> Oooops!
+> 
+>   +> Doesn't work at all. Got this on startup and on any attempt to
+>   +> change folde r (which fail)
+> 
+>   Chris> ~sigh~ I'd already found that and checked it in....apparently
+>   Chris> I did so after you checked it out and before you sent this
+>   Chris> mail...I hoped I was fast enough that you wouldn't see it.
+> 
+>   Chris> Try again!
+> 
+> 
+> Works like a charm. It's like the box was on drugs or something. 
+> 
+> However, while testing it a selected my favourite folder (l-k) and 
+> marked ~400 messages unread. THAT took forever, or about as long as 
+> Catch-up Unseen did before. Any suggestions?
+
+That's fixed now.  I thought I'd caught all the occurrences of that particular 
+coding stupidity.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

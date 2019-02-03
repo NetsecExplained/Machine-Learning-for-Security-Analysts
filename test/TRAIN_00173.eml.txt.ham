@@ -1,0 +1,21 @@
+Re: monitoring internet availability and sending sms alert?
+
+
+On Fri, May 14 at 14:26, Adam Hardy penned:
+> Actually the more I think about it, the more I realise that I would
+> rather have some kind of full blooded monitoring app which lets me
+> see stats (or even charts like ntop) of internet speed over the
+> week, although I bet that is just dreaming.
+
+Have you looked at smokeping?
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517220613.GD1446@mail.bounceswoosh.org
+
+

@@ -1,0 +1,17 @@
+apt-get dist-update failure - can't bootAfter doing a apt-get dist-update and restarting the pc because of some 
+errors I'm getting the problem as show in the image.
+
+http://i4.photobucket.com/albums/y116/fscussel/Untitled.jpg
+
+
+can't dist-update and system is not working correctly, many missing 
+libraries which I don't know how to reinstall since it doesn't allow because 
+of deppendencies. I'm lost. 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/D0B0ADD22F8E4DF9998B38187D784C04@Phoenix
+
+

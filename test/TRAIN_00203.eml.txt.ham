@@ -1,0 +1,17 @@
+Re: only output the nth lineOn Wed May 12 2010 09:58:57 Jozsi Vadkan wrote:
+> sed -n '1,2p;4p' file.txt
+>
+> doesn't work.
+
+Works for me in Lenny.  What output do you see?  What version
+of sed do you have?
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005121011.44506.mgb-debian@yosemite.net
+
+

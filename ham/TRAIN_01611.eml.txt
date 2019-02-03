@@ -1,0 +1,49 @@
+Re: X server starts on the wrong console (was: New monitor, how to
+ change screen resolution?)On Thu, 29 Apr 2010 18:26:26 -0400 (EDT), Redalert Commander wrote:
+> On Thu, 2010-04-29 at 14:43 -0700, Alan Ianson wrote:
+>> On Thu, 2010-04-29 at 17:35 -0400, Stephen Powell wrote:
+>>> 
+>>> Then, in theory, restarting the X server again
+>>> (such as with /etc/init.d/gdm restart) should cause the X server
+>>> to restart on vt 7.  This used to work, but the last time I tried
+>>> it I ended up with two X servers, one on VT 7 and one on VT 8!
+>>> I had to reboot to clean things up.  This situation is a mess and
+>>> seems to be getting worse.  As long as you login to GNOME only once
+>>> per boot and shutdown the system from GNOME you won't have this
+>>> problem.  The initial allocation of VT 7 after a reboot works fine.
+>>> But if you logout of GNOME after logging in, you're likely to have
+>>> this problem.  It doesn't seem to fail all the time, though.  Perhaps
+>>> it is a timing-related problem.
+>> 
+>> I've noticed this too lately, although i use the nvidia driver created
+>> by module assistant.
+>> 
+>> I wonder if anyone not using the nv or nvidia driver also see this?
+> 
+> I seem to have this all the time, even right after booting, although...
+> I have 3 displays, and 2 ports on my GPU, so I often switch them, after
+> doing so, I copy the relevant xorg.conf to it's proper location, and
+> restart gdm. In doing so, I only log in into the first console, using
+> ctrl+alt+F1, do the copy and /etc/init.d/gdm restart, at this point x is
+> running in VT8, not 7. Up till this point, I haven't logged in to gnome.
+
+But the key is restarting the X server, not necessarily a logout and
+login to the GNOME desktop.  A login/logout sequence is simply the most
+common way to restart the X server.  The X server can only start once
+safely.  After that, who knows what VT it will end up on, and what parts
+of the old instance of the server will get terminated.  Has anyone seen
+something like this on a non-Nvidia driver (not nv and not nvidia)?
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/489890958.104820.1272593228318.JavaMail.root@md01.wow.synacor.com
+
+

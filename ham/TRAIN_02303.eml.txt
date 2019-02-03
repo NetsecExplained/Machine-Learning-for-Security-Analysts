@@ -1,0 +1,23 @@
+Debian at BerkeleyTIP-Global meeting on Sunday April 18 12N-3P, & April
+ 27Come discuss Debian. :)  Join via VOIP or come to Berkeley
+http://sites.google.com/site/berkeleytip/voice-voip-conferencing
+FSCafe at Moffitt at UCBerkeley, opens 1pm, but can connect from outside
+at 12N.
+
+Hot topics: Ubuntu 10.04, Free Culuture, VOIP, Set up the web server &
+mail list & asterisk/freeswitch on the BTIP box with Ubuntu 10.04?
+
+Tues April 27 5-6P VOIP online meeting also.
+
+http://sites.google.com/site/berkeleytip/
+
+Join the mail list, tell us what you're interested in.
+http://sites.google.com/site/berkeleytip/mailing-lists
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271567709.19399.1370527791@webmail.messagingengine.com
+
+

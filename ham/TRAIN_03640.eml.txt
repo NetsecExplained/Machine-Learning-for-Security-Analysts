@@ -1,0 +1,21 @@
+Re: Automount HDD KDE 4.4 ProblemOn 2010-05-08 Leonardo Meira wrote:
+>> Dolphin does not mount my other hard drives. They appear in "places" but
+>> when I click I get a message
+>> ""org.freedesktop.Hal.Device.Volume.PermissionDenied: Refusing to mount
+>> device /dev/sdaX for uid = 1000"". I tried, as read in other forums, create
+>> a configuration file for Polkit but in vain.
+>> I also saw that this is a common problem in other Distros, possibly a
+>> problem with KDE 4.4.
+>>
+>>      
+The upstream bug report is at 
+https://bugs.kde.org/show_bug.cgi?id=219996 in case you want to vote for 
+it :)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE5C3E2.7070403@gmx.de
+
+

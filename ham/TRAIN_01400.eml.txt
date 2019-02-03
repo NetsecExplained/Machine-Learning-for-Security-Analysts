@@ -1,0 +1,23 @@
+OO.writer can't its file.Good day.
+
+
+I can not open a file in 'oowriter' by 'edit' user, the program says, "Write error. The file could not be written." Running from console gives no additional info. The version is 3.2.0-4.
+
+ls -l 1.odt
+returns:
+-rw-r--r-- 1 edit we 64145 2010-03-29 10:39 1.odt
+
+Therefore I see that the problem does not lay in permissions. Then what? - Buggy oowriter?
+
+
+Thanks for Your time.
+
+PS Please, reply to the list.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4bed0fd9.8c4bdf0a.54d3.ffff8f4b@mx.google.com
+
+

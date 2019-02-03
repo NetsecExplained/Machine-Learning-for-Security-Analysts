@@ -1,0 +1,28 @@
+Re: Microsoft buys XDegress - more of a p2p/distributed data thing...Mr. FoRK writes:
+> "Files can be cached on multiple systems randomly scattered around the
+> Internet, as with Napster or Freenet. In fact, the caching in XDegrees is
+> more sophisticated than it is on those systems: users with high bandwidth
+> connections can download portions, or "stripes," of a file from several
+> cached locations simultaneously. The XDegrees software then reassembles
+> these stripes into the whole file and uses digital signatures to verify that
+> the downloaded file is the same as the original. A key component of this
+> digital signature is a digest of the file, which is stored as an HTTP header
+> for the file."
+
+This "more sophisticated than [Napster or Freenet]" part seems
+to be the same behavior implemented in many other P2P CDNs, 
+such as:
+
+  - Kazaa
+  - EDonkey/Overnet
+  - BitTorrent
+  - Gnutella (with HUGE extensions)
+  - OnionNetworks WebRAID
+
+...though the quality of the "digest" used by each system varies
+wildly.
+
+- Gordon
+
+
+

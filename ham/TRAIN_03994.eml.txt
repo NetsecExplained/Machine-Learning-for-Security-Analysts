@@ -1,0 +1,22 @@
+Re: [ILUG] cdrecord + 2.4.19 = hard-lockOn 0020 +0100 %{!Sat, Aug 10, 2002 at 12:11:50PM +0100}, FRLinux wrote:
+> Hello,
+> 
+> I have been using 2.4.19 since a couple of days on a Mandrake 8.2 with
+> standard RPMs for cdrecord and it didn't give any hard locks on it at
+> all, i've already burnt a couple of CDs.
+Thanks for that.  I'd sort of suspected that if it was a widespread
+problem it would have already been fixed.  Starting to look more likely
+it is a mistake/misconfiguration on my part, though I still don't know
+where to look for the mistake/misconfiguration.
+m
+
+-- 
+Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
+Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

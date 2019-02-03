@@ -1,0 +1,54 @@
+Re: cannot type power of 1 or 2, 4-9 are typeable.christ! lots of replies here!
+
+$ echo -e "\xc2\xb9\xc2\xb2\xc2\xb3\xe2\x81\xb4\xe2\x81\xb5"
+=C2=B9=C2=B2=C2=B3=E2=81=B4=E2=81=B5
+
+so, that is copy>pasteable.
+
+
+On Mon, Apr 12, 2010 at 12:05 AM, Camale=C3=B3n  wrote:
+> - Press Control-R and then press Shift-R (keep those pressed at the same
+> time)
+> - Now press "u" and release the three keys (it will appear an underline
+> "u" in the screen)
+> - Then type "00b2" and press Enter
+
+dont do that in webmail, youll reload your page and loose your
+carefully crafted email...
+
+On Sun, Apr 11, 2010 at 11:41 PM, Florian Kulzer
+ wrote:
+> It could also be due to the browser not copying certain characters
+> correctly to the clipboard.
+
+the GNOME character map cannot show these characters properly. i dont
+know the actual key codes and the character map is where i get most
+odd characters from.
+specifically character map says "U+2072 
+
+> Let's start at the beginning, which output do you get from this command:
+>  locale
+
+$ locale
+LANG=3Den_US.UTF-8
+LC_CTYPE=3D"en_US.UTF-8"
+LC_NUMERIC=3D"en_US.UTF-8"
+LC_TIME=3D"en_US.UTF-8"
+LC_COLLATE=3D"en_US.UTF-8"
+LC_MONETARY=3D"en_US.UTF-8"
+LC_MESSAGES=3D"en_US.UTF-8"
+LC_PAPER=3D"en_US.UTF-8"
+LC_NAME=3D"en_US.UTF-8"
+LC_ADDRESS=3D"en_US.UTF-8"
+LC_TELEPHONE=3D"en_US.UTF-8"
+LC_MEASUREMENT=3D"en_US.UTF-8"
+LC_IDENTIFICATION=3D"en_US.UTF-8"
+LC_ALL=3D
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2lf8d5d4f31004120747qc329843bl69e8791c6d3de72b@mail.csmining.org
+
+

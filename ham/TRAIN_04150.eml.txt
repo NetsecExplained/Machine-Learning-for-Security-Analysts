@@ -1,0 +1,78 @@
+Re: Nepomuk wants virtuoso sopranoOn Thu, 20 May 2010 12:40:01 +0200, Schelstraete Bart =20
+ wrote:
+
+>> Also, is it just me or do other folk here also find that KDE seems to =
+be
+>> pulling in loads of dependencies ... databases, nepomuk (which wants
+>> virtuoso soprano), etc. just to operate? Seems like a lot of overhead =
+is
+>> required to prop up KDE4.* these days.
+>
+> =A0
+>
+> =A0
+>
+> Who says that=A0 you need virtuoso to run KDE4?
+
+KDE4 when it starts...
+
+> If you don't need it, you don't install it.
+
+nepomukserver is contained in kdebase-runtime. There is a dependency on =20
+kdebase-runtime in almost every kde4 package.
+
+> It's like installing debian with Oracle, and afterwards complain that =20
+> Debian needs Oracle... sigh...
+
+Except for the dependency and stuff, yes. And your post is like sticking =
+=20
+your head in the sand and then telling us what you've read.
+
+Ji=F8=ED Pale=E8ek
+> =A0
+> =A0
+> -----Original message-----
+> From: AG 
+> Sent: Thu 20-05-2010 10:30
+> To: debian user ;
+> Subject: Nepomuk wants virtuoso soprano
+>
+> Hi all
+>
+> Although I am logging into Gnome DE on an up-to-date Squeeze system, I
+> receive a message at login that declares Nepomuk requires virtuoso
+> soprano to work. =A0Having looked nepomuk up via Google, it seems like =
+it
+> is something from our KDE friends, but using apt-cache search I don't
+> see anything called virtuoso soprano to draw down to satisfy nepomuk.
+>
+> My question is: how does one satisfy nepomuk and/ or is nepomuk even
+> necessary?
+>
+> Also, is it just me or do other folk here also find that KDE seems to b=
+e
+> pulling in loads of dependencies ... databases, nepomuk (which wants
+> virtuoso soprano), etc. just to operate? Seems like a lot of overhead i=
+s
+> required to prop up KDE4.* these days.
+>
+> Anyway, any suggestions re: the nepomuk issue?
+>
+> Cheers
+>
+> AG
+>
+>
+
+
+
+--=20
+Using Opera's revolutionary e-mail client: http://www.opera.com/mail/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/op.vcz5enwgu2flwt@debian
+
+

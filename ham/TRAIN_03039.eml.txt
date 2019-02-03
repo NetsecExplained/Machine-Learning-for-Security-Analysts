@@ -1,0 +1,14 @@
+Re: backup apt tree?Not the answer but an alternative solution, restoring from this portal
+
+http://snapshot.debian.org
+-- 
+Regards,
+Jörg-Volker.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqkuru$96o$1@dough.gmane.org
+
+

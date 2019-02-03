@@ -1,0 +1,39 @@
+RE: [ILUG] slashdot EW Dijkstra humor> Oops, I tend to feel like that most times! I tend to feel that if we
+> have extremely good compilation tools, then those tools should be able
+> to do the inlining and optimisation far better than I could. That's the
+> theory anyway :) And there's always a tradeoff with inlining between
+> speed and memory bloat (which may sometimes be no tradeoff if swap
+> starts getting involved...)
+
+Yes and I understand that argument, however.
+Sometimes I find that if I don't try to write code in the least space
+possible or for example become lazy and say
+
+--Bad style
+Bool q;
+
+If(q)
+	When I should say
+If(q==true)
+	
+Or
+
+--Bad optimization
+
+int a;
+a=some_function();
+if(a) <--which apparently works but is 'bad coding style'.
+
+That's what I mean about letting the programming tools take care
+of the coding.... it's considered 'bad' apparently.
+
+Or for example say you are writing a loop that says
+
+For(a=0;a>
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

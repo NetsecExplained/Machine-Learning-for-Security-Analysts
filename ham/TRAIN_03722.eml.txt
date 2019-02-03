@@ -1,0 +1,31 @@
+Re: C programming questionOn 2010-04-14 09:31, Paul E Condon wrote:
+[snip]
+> 
+> non-obvious --- to the point that there was an open contest with
+> prizes awarded for the most obfuscated example of C code. The prizes
+> went to the code for which the judges were most surprised on seeing
+> it run after they read the code and tried to figure out what would
+> happen when it was run.
+
+http://www1.us.ioccc.org/main.html  I guess they got bored looking 
+at normal production C code...
+
+There was also an Obfuscated Perl Contest, but that only ran for 5 
+years due to the "Perl" and "obfuscation" being redundant.
+
+> But the union construct is now there in the language in order to allow
+> the professional practitioner to make his code slightly less
+
+Unions have been in C for at least 20 years; probably since the 
+Early Days.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC5FC76.9080206@cox.net
+
+

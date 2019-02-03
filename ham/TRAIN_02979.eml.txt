@@ -1,0 +1,40 @@
+Re: Problems with JNI included in a JNLP on Mac OS X
+On 4/7/2010 10:45 AM, Greg Guerin wrote:
+> Brandon Moon wrote:
+>
+>> So you were right, Java is throwing a ClassNotFoundException, but I 
+>> don't understand why this would be the case. I have a static 
+>> initializer in that class, and that's where it is loading and calling 
+>> that native method.
+>
+>
+> When a static native method is called, it receives a jclass reference 
+> (a local reference).  If you need to keep it for other things, then 
+> you should make it into a global ref and keep it.
+>
+> You may have to add some cleverness to avoid circularity, such as 
+> helper classes that can be loaded and clinit'ed before their native 
+> methods are invoked.
+>
+> Also, if you've tested your current code in a non-JNLP environment and 
+> it works there, then this problem may be a side-effect of JNLP, which 
+> has different security constraints than a natively launched process.  
+> If you haven't tested your code in a non-JNLP environment, you might 
+> want to try it.
+>
+>   -- GG
+>
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/brandon%40pixelture.com
+>
+> This email sent to brandon@pixelture.com
+
+I thought I mentioned that before, but I guess it wasn't very clear.  My 
+bad.  Yes, it does run locally on my machine using eclipse.  The problem 
+only occurs when run with a JNLP.  Do you know what kinds of security 
+constraints could cause this kind of problem, and how I could get around it?
+
+Brandon Moon

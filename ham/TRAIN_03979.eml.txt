@@ -1,0 +1,9 @@
+OSXCon Wed. -- James GoslingURL: http://jeremy.zawodny.com/blog/archives/000214.html
+Date: 2002-10-02T16:04:06-08:00
+
+Java has been successful everywhere but the desktop. Or at least that's what 
+people here. It's big on the server and that downs out the desktop news. What 
+else went wrong? Applets. Microsoft's battle with Java. For the longest 
+time,...
+
+

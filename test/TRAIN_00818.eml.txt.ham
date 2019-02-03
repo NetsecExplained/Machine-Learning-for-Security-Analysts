@@ -1,0 +1,75 @@
+Re: No CORE DUMP.Thanks !!! this worked.
+I did
+ ulimit -c unlimited.
+
+I tried tracking ulimit.  If i do
+which ulimit, i am not getting anything. [ I expect the path of this binary=
+ ]
+
+Is it a built in bash command or something like that ????
+
+On Sun, May 23, 2010 at 6:35 AM, Anand Sivaram  wrote:
+>
+>
+> On Sat, May 22, 2010 at 23:07, Aioanei Rares 
+> wrote:
+>>
+>> On 05/22/2010 08:10 PM, Avinash H.M. wrote:
+>>>
+>>> Hi All,
+>>>
+>>> I am using DSL [ damn small linux ] which is branched from debain.
+>>> I am trying to use GCC, GDB. =A0Able to install both of them.
+>>>
+>>> I am doing following
+>>> =A0 =A0 =A0- run a helloworld.c program whic has a while loop. =A0So wh=
+ile
+>>> running, its stuck in while.
+>>> =A0 =A0 =A0- another shell, "kill -11 PID" [ PID of the ./a.out ]
+>>> After kill, i get Segmentation fault. =A0But Core is not dumped. [ I
+>>> expect a print ( Core dumped ) ]
+>>>
+>>> Anyone faced this ??? Please help.
+>>>
+>>> Thanks
+>>> - Avinash
+>>>
+>>>
+>>>
+>>
+>> First, compile your program with -g, then take a look at man core. Not
+>> every program that has received
+>> a segfault signal dumps core. =A0Look at gcore to see how to generate it=
+.
+>>
+>>
+>> --
+>> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a
+>> subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+>> Archive: http://lists.debian.org/4BF81657.7060002@csmining.org
+>>
+>
+> Normally core dump is disabled. =A0You could find the maximum size of cor=
+e
+> file created using "ulimit -a", normally that is 0.
+> Increase it using
+> ulimit -c 
+>
+
+
+
+--=20
+KNOWLEDGE IS POWER,  SHARE IT.
+
+BIRTH IS JOYFUL, DEATH IS PLEASANT, BUT ITS THE TRANSITION WHICH IS TROUBLE=
+SOME.
+
+WITH WARM REGARDS, AVINASH
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinCxYjPXn2wQcmulghbiZiNBNKf8dm7Hz9XFgPf@mail.csmining.org
+
+

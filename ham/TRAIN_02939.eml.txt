@@ -1,0 +1,37 @@
+Suspend to Disk + blacklisted module = still troublehello,
+
+I am having problems with the uvcvideo module (driver for webcam)
+when resuming from Suspend To Disk on Debian Lenny (with the latest
+updates) with a 2.6.30 kernel.
+
+When I wanted to blacklist this module for suspend, I noticed that
+it is already in /etc/hibernate/blacklisted-modules.
+
+My hibernate.conf:
+TryMethod suspend2.conf
+TryMethod disk.conf
+TryMethod ram.conf
+
+=> so I guess I am using SWSuspend2, and suspend2.conf contains
+the line:
+Include common.conf
+
+And common.conf contains this:
+UnloadBlacklistedModules yes
+
+So does this command cause hibernate to read
+/etc/hibernate/blacklisted-modules, or do I have to add
+UnloadModules uvcvideo
+?
+
+Thanks in advance,
+-- 
+Felix Natter
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87d3xrd8hu.fsf@smail.inf.fh-brs.de
+
+

@@ -1,0 +1,57 @@
+Re: X11 windows come to front with mouse click in non-X11 window
+	(fwd)This is a duplicate of #391, but I can't reproduce it.  Please help by =
+following up in #391.
+
+Thanks,
+Jeremy
+
+On Apr 25, 2010, at 14:04, robert delius royar wrote:
+
+> I entered the following ticket in the bug tracker on =
+xquartz.macosforge.org
+>=20
+> #392: X11 windows come to front with mouse click in non-X11 window
+> This occurs only after the screen or computer goes to sleep and the =
+mouse
+> is clicked or a key is pressed to wake the computer or unblank the =
+screen.
+>=20
+> I am running 2.5.1_beta3, but this bug was also in 2.5.0, and the two
+> previous beta 2.51s.  I have a latest revision 13" MBP.
+>=20
+> If there are open X11 windows (i.e. not minimized), they come to the =
+front
+> even though they were not when the computer went to sleep or the =
+screen
+> blanked.  The menu bar does not change--i.e. it stays as the program =
+(such
+> as Safari) that was on top when the computer went to sleep (or the =
+screen
+> blanked).  Also, clicks on the window section of the application which =
+was
+> supposed to be on top, do not bring the window back to the front.  I =
+have
+> to click on the status bar or the top area of the window (the area =
+that
+> lets you drag the window around the screen).
+>=20
+> --=20
+> Ticket URL: 
+> XQuartz 
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>=20
+> This email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

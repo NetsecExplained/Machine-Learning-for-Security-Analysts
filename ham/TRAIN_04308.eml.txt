@@ -1,0 +1,24 @@
+Re: Exim4 AdministrationFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Mihamina Rakotomandimby schreef:
+>> David Baron  :
+>> Is there any other way?
+>=20
+> Yes.
+Of course it's list policy to ask smart questions, but it's also list=20
+policy not to give useless answers (well, not policy, but it's certainly =
+
+recommended).
+@David: read=20
+http://www.exim.org/exim-html-current/doc/html/spec_html/index.html for=20
+the full documentation.
+exim has a cli interface to remove frozen messages, man exim for=20
+details. Eg. to show frozen messages:
+  exim -bp
+And read
+
+Sjoerd
+
+

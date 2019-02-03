@@ -1,0 +1,21 @@
+Re: 64-bit netbooks with Debian linuxFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sun, May 2, 2010 at 7:35 PM, Ron Johnson  wrote:
+
+>
+> Size.  A little almost-handheld netbook just isn't as physically in danger
+> of cracking in your knapsack as a 15" or 17" laptop.
+>
+>
+My girlfriend's Dell Mini's screen got cracked on a recent trip even though
+we had it in a protective case and now the netbook is useless, because to
+replace one of those screens basically requires taking the entire machine
+apart and it's out of warranty.  My 6 year old Dell Latitude D800 on the
+other hand, while weighing in about 3 times as much, is solid as a brick and
+the screen has no flex.  After the Dell Mini lasted only 8 months, we've
+decided no more netbooks.  But that's just our experience, I know netbooks
+work well for some people.   I question their durability for using while
+travelling though, which is kinda the whole point of the netbooks...
+
+Mark

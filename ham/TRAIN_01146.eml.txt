@@ -1,0 +1,22 @@
+Re: Debian+KDE 4.4.3 (i915 dual screen) (SOLVED)
+ Xserver has a well known issue with the i915 driver and it's DRI/DRM 
+  limitation to 2048x2048 window size. So the default setup is not working 
+  because in recent versions of X it loads drm by default creating 
+  configuration that allows only  "clone" of the primary display with DRI 
+  enabled on it.
+  The impact on kde is that it can not set dual display (only "clone" option 
+  is available).
+  SOLVED: applying custom xorg.conf with 
+        Option "NoAccel" "true"
+  in the device section and Position Option into each monitors config.
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hscpsv$4t7$1@dough.gmane.org
+
+

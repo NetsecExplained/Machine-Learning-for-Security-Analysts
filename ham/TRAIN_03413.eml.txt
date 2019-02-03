@@ -1,0 +1,23 @@
+Re: Fwd: Re: Kde 3.5 ...On Sat May 8 2010 08:25:07 Dotan Cohen wrote:
+> So long as you are not loading Qt3 libraries in addition to the Qt4
+> libraries, KDE 4 is lighter on RAM than KDE 3. You can really feel it,
+> too.
+
+Note that many Debian KDE 3.5 installations include both QT3 and QT4,
+e.g. to support kdebluetooth or lsb-desktop.
+
+If you upgrade your RAM from 1GB to 2GB, KDE 4 feels about as fast
+as KDE 3.5, except KDE 4 startup and KMail startup are still slower.
+
+One reason for needing additional RAM seems to be memory leaks,
+although whether in QT4 or KDE itself I don't know.
+
+--Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005080908.48771.mgb-debian@yosemite.net
+
+

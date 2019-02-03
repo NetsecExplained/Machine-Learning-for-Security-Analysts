@@ -1,0 +1,46 @@
+Re: mplayer not working for meMatthias Saou wrote:
+
+>Once upon a time, Roi wrote :
+>
+>  
+>
+>>oh xmms didn't work for me also
+>>i used mpg123 i tought its something from me
+>>    
+>>
+>
+>Nope, this is "normal" as Red Hat removed all mp3 support from 8.0 because
+>of patent and royalty issues :-(
+>On freshrpms.net, you can find the xmms mp3 plugin as I said, but also
+>libmad, lame (mp3 encoder), and soon mpg321 as I often used it myself.
+>Many other players can also play mp3 files, like alsaplayer, xine, mplayer.
+>
+>  
+>
+>>like mplayer not working also and gives black screen
+>>    
+>>
+>
+>This is not normal though...
+>Try "mplayer -vo help" then try usinf various output methods to see if some
+>do work or not.
+>
+>Matthias
+>
+>  
+>
+
+mplayer works with dga (if i am root) and works with x11
+and always worked with sdl (but not now with redhat 8)
+now it gives black screen window and play the music of the movie.
+
+Roi
+
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

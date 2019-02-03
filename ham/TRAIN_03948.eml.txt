@@ -1,0 +1,42 @@
+Re: `Battery is now fully charged:' why do I receive this after
+ having unplugged the cable?On Tue, 13 Apr 2010 17:15:42 +0200, Merciadri Luca wrote:
+
+> I receive the message `Battery is now fully charged' on my Asus EEE
+> 1000HE under Debian Lenny 5 w. kernel 2.26-2-686, but only once I have
+> unplugged the cable? For example, the PC might be on AC power for 15
+> hours, and say nothing. If I then unplug the cable, it tells me that the
+> battery is _now_ fully charged. Is it normal? Does someone else
+> experience this?
+
+It looks not so normal to me.
+
+But looking at Debian wiki for EEE systems it seems to be a known issue 
+with power management:
+
+***
+http://wiki.debian.org/DebianEeePC/HowTo/Configure#Powermanagement
+
+Power management
+
+On some models, the battery info is not very precise (jumps from 10% to 
+100%, no rate information, etc.). Apparently, this is normal. It appears 
+that the userspace battery utilities expect the battery to report mAh, 
+but in fact it reports percentage. This is either a bug in the battery 
+firmware or a bug in the BIOS; it is known to be fixed with newer BIOS 
+versions and kernels ≥ 2.6.25. 
+***
+
+THT.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.13.15.39.14@csmining.org
+
+

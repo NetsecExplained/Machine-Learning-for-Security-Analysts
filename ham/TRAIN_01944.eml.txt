@@ -1,0 +1,24 @@
+Re: [Razor-users] Problem with Razor 2.14 and Spamassassin 2.41And you were exactly the person I figured would do so. 
+
+On Thu, 5 Sep 2002, Theo Van Dinter wrote:
+
+> On Thu, Sep 05, 2002 at 06:16:57PM -0500, Mike Burger wrote:
+> > You might be better asking this on the spamassassin-talk list.  The folks 
+> > there will almost definitely have an answer for this.
+> 
+> I posted a fairly lengthy complete answer to this problem and how to
+> get around it in SA 2.41 on the spamassassin-talk list. :)
+> 
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

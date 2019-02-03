@@ -1,0 +1,71 @@
+Re: USB device attached via RS232 adaptorOn 19 April 2010 12:15, Ron Johnson  wrote:
+> On 2010-04-19 02:54, Dotan Cohen wrote:
+>>>
+>>> So, is does this SC reader (a) serial-over-USB or (b) USB-over-serial?
+>>>
+>>
+>> I should imagine (b), but I have not gotten there yet to see.
+>>
+>
+> Then he probably is clueless.
+>
+
+Well, he is turning to _me_ for advice, so that is a reasonable assumption!
+
+
+>>> (a) is common, (b) is what you described, but I've never heard of (b).
+>>> =C2=A0Are
+>>> you sure you wrote what you really mean?
+>>>
+>>
+>> No, I have not gotten there yet to look at the machine. But I want to
+>> get there prepared, which is why I ask here.
+>>
+>
+> Querying the list without the slightest bit of *fact* is a great way to p=
+iss
+> people off.
+>
+
+I am sorry if I upset people. I was faced with a situation that I did
+not understand and thought that I would query those with far more
+experience after searching the web yielded nothing useful. Would you
+suggest that it is preferable for me to go to this guy's place not
+knowing a thing about what I'm getting into, especially when the goal
+"read from / write to the card reader" is so straightforward?.
+
+
+>>> This is the important quote, I think: "Infinity USB Smart is based on t=
+he
+>>> HID standard, no custom drivers are needed".
+>>>
+>>
+>> HID is for keyboards and mice, not card readers. It does not handle
+>> files from what I understand. This is turning into a big pile of WTF.
+>>
+>
+> Smart cards don't pass much info, and KB emulation works well in such
+> environments (also like with bar code scanners).
+>
+
+I have seen barcode and magnetic scanners that simply pass string.
+Maybe you are right, maybe that is how this works. We'll see.
+
+Thanks.
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+Please CC me if you want to be sure that I read your message. I do not
+read all list mail.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/s2m880dece01004190229s60eace67o91963d5b4d4652e@mail.csmining.org
+
+

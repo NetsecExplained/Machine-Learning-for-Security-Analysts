@@ -1,0 +1,87 @@
+Re: Filesystem recommendationsFrom nobody Sun Sep 18 20:45:27 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 29 April 2010 14:17:28 Joe Brenner wrote:
+> Ron Johnson  wrote:
+> > B. Alexander wrote:
+> > > Ron Johnson  wrote:
+> > >> XFS is the canonical fs for when you have lots of Big Files.  I've
+> > >> also seen simple benchmarks on this list showing that it's faster
+> > >> than ext3/ext4.
+> > >
+> > > Thats cool. What about Lots of Little Files? That was another of the
+> > > draws of reiser3.
+> >
+> > That same unofficial benchmark showed surprising small-file speed by
+> > xfs.
+>=20
+> Would you happen to have any links to such benchmarks, unofficial or
+> otherwise?
+>=20
+> My experience has been that whenever I look at filesystem benchmarks,
+> they skip the many-small-files case.  I've always had the feeling that
+> most of the big filesystems cared a lot about scaling up in file-size,
+> but not too much about anything else.
+
+NB: This is my best recollection; I'm not looking this up right now.  Pleas=
+e=20
+check my facts, I'd love to know if I'm wrong.
+
+Some of that reiserfs performance came from directories-as-hash-tables, whi=
+ch=20
+I believe ext3/4 supports and is native for btrfs.  Some of that also came=
+=20
+from tail-packing, which could come from the extents feature of ext4 and=20
+should be in btrfs.  The final edge reiserfs had was above-average=20
+flushing/caching algorithms, and the development pushes in ext4 and btrfs h=
+ave=20
+likely reduced or eliminated that; I think the unified block-device caching=
+=20
+system in the kernel able helped make that not such a big deal.
+
+> I'm a Reiser3 user myself, and I've never had any problems with it.
+>=20
+> (The trouble with it being "long in the tooth" is mostly hypothetical,
+> isn't it?)
+
+Not really.  Reiserfs will probably be maintained in the kernel for a very=
+=20
+long time, in that as any interfaces it uses are updated it will be updated=
+ to=20
+use the new interface.  However, ISTR there are open bugs on reiserfs that=
+=20
+will not be fixed.  Similarly, I expect new bugs that can be blamed on the=
+=20
+reiserfs code are less likely to be fixed than bugs than can be blamed on t=
+he=20
+ext2/3/4 or xfs code.
+
+In addition, as file system technology advances, reiserfs will become less=
+=20
+attractive for new installs and it will become more attractive to migrate a=
+way=20
+from it.  Unfortunately, migration tools are unlikely to be developed, outs=
+ide=20
+of generic file system migration tools.  Compare with btrfs_convert which=20
+allows an ext2/3 file system to be converted to btrfs with no data copying;=
+=20
+such tools have to be aware of the internal structure of the file system an=
+d=20
+fewer and fewer developers will even HAVE that knowledge of reiserfs.  The=
+=20
+source will be available, sure, but even kernel maintainers interested in f=
+ile=20
+systems are not interested in reiserfs.
+
+There's no drop-dead date for reiserfs in the kernel (AFAIK), so there's no=
+=20
+pressing need to migrate away from it, but there is a lot of work on file=20
+systems that should both perform better and be supported better than reiser=
+fs.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

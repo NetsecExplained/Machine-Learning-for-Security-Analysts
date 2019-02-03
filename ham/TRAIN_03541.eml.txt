@@ -1,0 +1,10 @@
+Re: which package can show CPU temperature and fan speedThe sensors command shows 0 rpm all the time!
+Thank Eduard anyway!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/w2i2107b77c1004180333j4237e8aq8a8f1509dff81904@mail.csmining.org
+
+

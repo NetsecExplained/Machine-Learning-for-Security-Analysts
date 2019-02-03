@@ -1,0 +1,36 @@
+Re: Server certificate has expiredFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Eduardo M KALINOWSKI wrote:
+> On Ter, 18 Mai 2010, Merciadri Luca wrote:
+>> Hi,
+>>
+>> I am getting some Thunderbird message for an IMAP account of mine. Thi=
+s
+>> message tells me that the server's certificate associated to the IMAP
+>> account has expired since ... 2007. I know, it's already far from here=
+,
+>> but I cannot change the server's certificate. How can I get rid of thi=
+s
+>> message? It annoys me, as there is no box that I could check so that i=
+t
+>> does not appear anymore.
+>>
+>> I have contacted the ML related to the server, but I do not even tell
+>> you who owns the server!
+>
+> Is that Thunderbird 2 or 3? In 2 I could not find a way to permanently
+> accept problematic certificates, but this has changed in version 3.
+Well, this is effectively Icedove 2.0.0.22 (20090706). How did you
+manage to, under Th. 3?
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

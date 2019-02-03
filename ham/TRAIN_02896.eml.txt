@@ -1,0 +1,20 @@
+Re: Icedove always loads Epiphany when URL is clickedOn my system, sid, this command wouldn't work:
+
+>$ update-alternatives --display x-www-browser
+
+this command will:
+
+$ update-alternatives --config x-www-browser
+
+why is that?
+
+-- 
+C
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415130630.23ae910e@Mondo
+
+

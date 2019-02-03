@@ -1,0 +1,19 @@
+Re: [ILUG] windows users accessing cvs...Quoting kevin lyda (kevin+dated+1031593647.e87527@ie.suberic.net):
+
+> anyone here have experience with windows cvs clients accessing a cvs
+> server *securely*.  preferably using ssh of some form (putty or cygwin's
+> openssh port) and the wincvs client?
+
+Here's something I cobbled together:
+http://sourceforge.net/docman/display_doc.php?docid=9026&group;_id=13487
+
+-- 
+Cheers,           "I don't like country music, but I don't mean to denigrate
+Rick Moen         those who do.  And, for the people who like country music,
+rick@linuxmafia.com         denigrate means 'put down'."      -- Bob Newhart
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

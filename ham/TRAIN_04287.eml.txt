@@ -1,0 +1,55 @@
+Re: [SAtalk] O.T. Habeus -- Why?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Wednesday 28 August 2002 01:34 pm, Brian McNett wrote:
+
+>
+> Uh... the reason is simple. Habeas runs something called the
+> "Habeas Infringers List", and if you use their trademark without
+> their permission, you'll end up on it.  Then, when you send spam
+> with the misappropriated header, users of SA (2.40 supports
+> this) will tag your mail as spam, rather than let it through.
+> This may be done independantly of your IP address, so be
+> prepared to constantly change domain names, and move your
+> servers as fast as you send spam.
+>
+> Also, that little haiku is a copyrighted work, so not only CAN
+> Habeas sue, they MUST sue to protect their copyright. And since
+> it's a trademark as well, that's a double-whammy. Habeas has
+> some pretty high-powered legal people, who will gladly go to
+> town on violators.
+>
+> The whole point here is to give them the legal leverage they
+> need to put spammers out of business, and not only block mail
+> from them, but allow through the things that really AREN'T spam.
+>
+> --B
+>
+And if a spammer forges headers???
+- -- 
+- ------------------------------------------------------------------------
+Robin Lynn Frank---Director of Operations---Paradigm, Omega, LLC
+http://paradigm-omega.com              http://paradigm-omega.net
+© 2002.  All rights reserved.  No duplication/dissemination permitted.
+Use of PGP/GPG encrypted mail preferred. No HTML/attachments accepted.
+Fingerprint:  08E0 567C 63CC 5642 DB6D  D490 0F98 D7D3 77EA 3714
+Key Server:  http://paradigm-omega.com/keymaster.html
+- ------------------------------------------------------------------------
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9bTeHD5jX03fqNxQRArMEAJ4l1p6ToRVaG4j+Dy3R2tzfD9FNvgCfRhU3
+kZo/MbYBSLyI/m1vsN4ZYmM=
+=miJB
+-----END PGP SIGNATURE-----
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

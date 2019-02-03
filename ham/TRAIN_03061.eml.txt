@@ -1,0 +1,22 @@
+Re: Server certificate has expiredOn Ter, 18 Mai 2010, Merciadri Luca wrote:
+> Well, this is effectively Icedove 2.0.0.22 (20090706). How did you
+> manage to, under Th. 3?
+
+I don't remember exactly, but I believe somewhere the was an option to  
+accept the security exception permanently.
+
+
+-- 
+The first duty of a revolutionary is to get away with it.
+		-- Abbie Hoffman
+
+Eduardo M KALINOWSKI
+eduardo@kalinowski.com.br
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100518163039.19774t9qfci22adc@mail.kalinowski.com.br
+
+

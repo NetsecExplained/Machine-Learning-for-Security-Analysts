@@ -1,0 +1,51 @@
+Re: [Razor-users] Authentication Error> On Wed, 24 Jul 2002, Patrick wrote:
+> >On Wed, 24 Jul 2002, rODbegbie wrote:
+> >
+> > >rODbegbie wrote:
+> > > >I get the impression that Vipul & co are deliberately trying to
+> > > >mislead users into downloading the dev code in order to get more
+> > > >unwitting test sites.
+> >
+> > >Apologies to all.  In re-reading, that sentence sounds a lot harsher
+than I
+> > >intended.
+> >
+> >The question I have is: what needs to be done/help needs to be provided
+to
+> >make the system suck less? It's obviously a great idea, it just needs
+some
+> >work...
+
+That's simple.  The same thing that any beta project needs to improve.
+Continuous
+End-User testing, constructive feedback, and suggestions on how to improve
+the
+system.  Upgrade each time a new beta version comes out, so everyone is
+testing
+on the same version of the code, and old bugs don't get reported as being in
+the
+new version, thus slowing down the debugging process.
+
+Report any installation issues, bugs, errors, etc., to the V2 beta list
+(http://lists.sourceforge.net/lists/listinfo/razor-testers) so that they can
+be quickly
+looked at, etc.  Provide detailed description of issues, include logs if
+possible,
+as well as any "captured" spam that generated the error(s).
+
+
+Thank you, please drive through,
+- AA -
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

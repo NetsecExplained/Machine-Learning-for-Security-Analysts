@@ -1,0 +1,15 @@
+Re: Trying to install Google Earth on Lenny.  How on earth??????On Monday 24 May 2010 16:11:43 Stephen Powell wrote:
+> Both Yahoo and Mapquest have aerial photos available, down
+> to fairly decent resolution in most areas.
+
+Thanks, Stephen.   Shall try both immediately.
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005241618.38863.lisi.reisz@csmining.org
+
+

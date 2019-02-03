@@ -1,0 +1,53 @@
+Re: Resizing Raid 1 partitionsFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On 05/19/2010 12:47 PM, Erwan David wrote:
+> 	Hi,
+>=20
+> I have a setup with 2 disks and following raid setting:
+>=20
+> sda1+sdb1 -> md0, /
+> sda2+sdb2 -> md1 swap
+> sda3+sdb3 -> md2 /home
+>=20
+> I'd like to resize partitions to get more space on md2 and less on md0.=
+=09
+>=20
+> What would bea good way to achieve this ?
+
+The "best" way to acheive this would be to use LVM above your software
+RAID. At that point, it would be very painless, compared to what is
+ahead of you now. If you're curious, here would be the steps:
+
+mdadm -C /dev/md0 -n 2 -l 1 -a yes /dev/sd{a,b}
+pvcreate /dev/md0
+vgcreate home /dev/md0
+lvcreate -L 1G -n swap home
+lvcreate -L 10G -n root home
+lvcreate -l 100%FREE -n home home
+
+Then, for giving more space to home, and less to root, boot off a live
+CD, and (assuming you're using ext3/4):
+
+e2fsck /dev/home/root
+resize2fs /dev/home/root 6G
+lvreduce -L 6G /dev/home/root
+lvextend -L +4G /dev/home/home
+resize2fs /dev/home/home
+
+That's it! However, because you chose not to use LVM, you will need to
+boot of a live CD that supports Linux software RAID, rebuild the array,
+and perform the resizing there. I'm not sure if GParted supports this or
+not. Worth checking out, however.
+
+I would personally recommend backing up your data, and reinstalling,
+with LVM on top of your software RAID. You still have the redundancy,
+and you have the awesome flexibility of resizing volumes with great ease.=
+
+
+--=20
+=2E O .   O . O   . . O   O . .   . O .
+=2E . O   . O O   O . O   . O O   . . O
+O O O   . O .   . O O   O O .   O O O
+

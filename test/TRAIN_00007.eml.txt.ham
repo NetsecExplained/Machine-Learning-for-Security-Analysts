@@ -1,0 +1,19 @@
+Re: results for giant mass-check (phew)I never claimed it could learn *all* combinatorial 
+possibilities, but it certainly can learn some.
+
+C
+
+On Thursday, August 22, 2002, at 07:21  PM, Scott A Crosby wrote:
+
+> On Thu, 22 Aug 2002 09:20:05 -0700, Craig R.Hughes 
+>  writes:
+>
+>> It *can* learn combinatorial stuff in a more subtle way.  Imagine
+>
+> No it can't..
+>
+> It can learn a few examples that happen to be linearily seperable,
+> like those you gave. It cannot learn the example I gave below, which
+> is not linearily seperable.
+
+

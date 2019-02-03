@@ -1,0 +1,16 @@
+How do I fsck and XFS file system in "Squeeze"
+        OK, I'm stumped.  I was having some problems which were likely related
+to the old kernel in Debian "Lenny", so I upgraded to "Squeeze" in
+order to alleviate the issue, which it apparently has.  Now, however, I
+need to fsck the main array on the box, which is formatted as XFS.  The
+xfs-repair utility is not on the upgraded system.  (I was forced to do
+a fresh install of the boot drive.)  How can I obtain the XFS file
+utilities - particularly xfs-repair - under "Squeeze"?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/FLSdnVftgaepXGjWnZ2dnUVZ_oGdnZ2d@giganews.com
+
+

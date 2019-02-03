@@ -1,0 +1,36 @@
+Re: matroskadeloptes schreef:
+> steef wrote:
+>
+>    
+>> hi list,
+>>
+>> i am trying to synchronize sound and video-picture of a matroska-file (
+>>      
+> <..........>
+> I'm not sure divx is valid - try mpeg4 (MPEG-4 (DivX 4/5)). divx seem to be
+> win32 codec thus win32 option.
+>
+> from the above command you are extracting the audio and trying to build the
+> video file with the extracted audio again. I'm not sure if it will do the
+> job for you. anyway there are tons of info on how to do it (not only using
+> mplayer/encoder)
+>
+> good luck and regards
+>
+> regards
+>
+>
+>    
+thank you deloptes i 'll try mpeg4.
+
+reg.,
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE92EB0.9010602@home.nl
+
+

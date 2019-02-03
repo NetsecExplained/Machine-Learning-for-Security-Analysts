@@ -1,0 +1,54 @@
+Re: [volatile] Updated clamav-related packages available fortestingHello,
+
+On Friday 16 April 2010 10:01:46 you wrote:
+> Hi,
+>
+> Jason Self wrote/schrieb @ 15.04.2010 21:52:
+> > Kurt Roeckx  wrote ..
+> >
+> >> What does this mean exactly?
+
+> deb http://volatile.debian.org/debian-volatile \
+> lenny-proposed-updates/volatile main contrib non-free
+
+The imho more interesting point is: What does it mean in the long term?
+The current situation is: 
+Volatile has clamav 0.95, while upstream has 0.96.  There are security related 
+issues in 0.95 (DoS etc.?) [1] that might affect(?) volatile - futhermore the 
+clamav-people are suggesting to use the latest version [2] - that is 0.96.
+Volatile itself is not supported by the security team [3] and the security 
+team refuses the support the current stable version [4].
+
+As a sysop running lenny/clamav on a few hosts, I started building clamav from 
+source and reading clamav's announce list.
+But I wonder, what does it mean in the long run:
+- Will volatile be updated to 0.96 soon?
+- Will clamav (in volatile) receive official security support?
+- Are there any (better supported) alternatives to clamav in lenny?
+- Afair there is no specific EOL-/Kill-Switch in clamav: ClamAV <= 0.94 is 
+unable to handle "big" incremental updates and a "too" big update was 
+shipped. Is it - from a naive point of view - just a bug that can be fixed in 
+debian [5]? Just apply the given patch [6] in lenny's clamav and be 
+happy? ;-)
+
+Thanks,
+Keep smiling
+yanosz
+
+
+
+[1] 
+http://git.clamav.net/gitweb?p=clamav-devel.git;a=blob_plain;f=ChangeLog;hb=clamav-0.95.3
+[2] http://www.clamav.net/lang/en/2009/10/05/eol-clamav-094/
+[3] http://www.debian.org/volatile/index.en.html
+[4] http://lists.debian.org/debian-security-announce/2009/msg00228.html
+[5] https://wwws.clamav.net/bugzilla/show_bug.cgi?id=1395
+[6] https://wwws.clamav.net/bugzilla/show_bug.cgi?id=1395#c12
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004182252.41966.debian-security@stephan.homeunix.net
+
+

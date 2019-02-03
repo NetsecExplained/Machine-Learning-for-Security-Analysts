@@ -1,0 +1,37 @@
+Re: Problem with me Modem Huawei on Debian LennyFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Thanks for your response.
+
+Please I can found the IDproduct on my device?
+
+Cheers
+
+On Fri, Apr 23, 2010 at 4:11 PM, Umarzuki Mochlis wrote:
+
+> i had done that once and documented it at
+> http://umarzuki.org/blogku/?p=174
+>
+> P/S: use google translate to translate from Malay to English
+>  
+> On Fri, Apr 23, 2010 at 11:06 PM, Christian Simo wrote:
+>
+>> Hi Dear Team
+>>
+>> Please, I am new on Debian, so I try to connect my Modem Huawei E1752 on
+>> Debian Lenny.
+>> On Suse, I do it easy
+>>
+>> Thanks for your response.
+>>
+>> Christian
+>>
+>
+>
+>
+> --
+> Regards,
+>
+> Umarzuki Mochlis
+> http://debmal.my
+>

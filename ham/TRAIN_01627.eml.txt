@@ -1,0 +1,26 @@
+Re: [SAtalk] Highest-scoring false positiveInteresting.  It's possible, of course, that the shitty economy 
+is hurting the spammers as much as anyone else.  But if you've 
+been aggressively reporting, then it could just be that.  Could 
+be your upstream ISP is being more aggressive too...
+
+C
+
+On Wednesday, August 21, 2002, at 05:02  PM, Karsten M. Self wrote:
+
+> ...what these plots *don't* show is the drop from ~55 
+> mails/daily to ~30
+> daily that I've seen at work, since 1st week of May, when spam receipts
+> peaked.  Not sure if it's aggressive reporting that's getting us off
+> lists, or if other people are seeing similar.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

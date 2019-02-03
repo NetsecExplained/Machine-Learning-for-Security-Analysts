@@ -1,0 +1,94 @@
+A better DebConf10 with your help: donate or become a sponsor------------------------------------------------------------------------
+The Debian Project                                http://www.debian.org/
+New archive snapshot service available                  press@debian.org
+May 19th, 2010                  http://www.debian.org/News/2010/20100519
+------------------------------------------------------------------------
+
+A better DebConf10 with your help: donate or become a sponsor
+
+
+DebConf is the Debian Project's developer conference. In addition to a
+full schedule of technical, social and policy talks, DebConf provides
+an opportunity for developers, contributors and other interested people
+to meet in person and work together. It has taken place annually since
+2000 in locations as varied as Canada, Finland, Mexico, Scotland, and
+Argentina. This year DebConf10 is in New York City, New York, USA.
+
+This year, as every year, a great deal of the burden for the conference
+is placed on Debian volunteers who donate time and energy to organizing
+the conference. Your help would be most welcome. If you are interested
+in volunteering, you can contact debconf-team [at] lists.debian.org.
+
+Alternatively, you can help DebConf10 by donating money which will be
+used to enable those Debian contributors who currently cannot attend
+due to funding shortage. You can contribute money by either becoming a
+sponsor (if you are a company) or donating money as an individual.
+
+As Raphael Geissert wrote on his blog: "DebConf10 needs your help!
+That's right: it needs help from potential sponsors and donors to help
+cover the costs implied by this event. If you are interested in
+becoming a sponsor please contact sponsors [at] debconf.org, or if you
+want to make a donation please visit the DebConf10 >donations page [1].
+
+  1: http://debconf10.debconf.org/payments.xhtml
+
+Companies or organizations can, in addition to money donation, lend
+equipment for the conference.
+
+Current sponsors of DebConf10 include HP [2], Google [3], Canonical
+[4], Intel [5], Collabora [6], Bytemark [7] and Univention [8], plus
+our permanent and media sponsors [9]; we thank them for their support
+already!
+
+  2: http://www.hp.com/go/linux
+  3: http://www.google.com
+  4: http://www.canonical.com
+  5: http://www.intel.com
+  6: http://www.collabora.co.uk
+  7: http://www.bytemark.co.uk
+  8: http://www.univention.de
+  9: http://debconf.org/#permanent_sponsors
+
+
+An updated schedule [10] is available as well.
+
+ 10: http://debconf10.debconf.org/dates.xhtml
+
+
+
+About Debian
+------------
+
+The Debian Project was founded in 1993 by Ian Murdock to be a truly
+free, community project. Since then the project has grown to be one of
+the largest and most influential open source projects.  Over three
+thousand volunteers from all over the world work together to create and
+maintain Debian software. Translated into over 30 languages, and
+supporting a huge range of computer types, Debian calls itself the
+"universal operating system".
+
+
+About DebConf
+-------------
+
+DebConf is the Debian Project's developer conference. In addition to a
+full schedule of technical, social and policy talks, DebConf provides
+an opportunity for developers, contributors and other interested people
+to meet in person and work together more closely. It has taken place
+annually since 2000 in locations as varied as Canada, Finland, and
+Mexico.
+
+
+Contact Information
+-------------------
+
+For further information, please visit the Debian web pages at
+http://www.debian.org/ or send mail to .
+
+
+-- 
+To UNSUBSCRIBE, email to debian-announce-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519101719.GY3233@melusine.alphascorpii.net
+
+

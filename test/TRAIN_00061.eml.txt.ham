@@ -1,0 +1,59 @@
+Re: Leopard or Snow L?
+On May 12, 2010, at 05:58, Eeri Kask wrote:
+
+> Am 05/08/2010 12:45 AM, fred  schrieb:
+>> Folks --
+>>=20
+>> I finally am forced to upgrade from Tiger, intending to go directly
+>> to Snow Leopard unless there is some reason not to. I live in X11
+>> (emacs, vmacs) so stability is all.
+>=20
+>=20
+> Hello,
+>=20
+> may I followup this thread, despite being off-topic, in the hope to
+> find technically savvy people giving good advice...  :-)
+>=20
+>=20
+> (1)  Does it make sense to upgrade Tiger to Leopard running on a
+> G4-PowerBook-12" laptop?
+
+1) Well, if it ain't broke, don't fix it.
+
+2) It is no longer receiving Security Updates, so that may urge you to =
+upgrade.
+
+> Otherwise I would probably upgrade, mostly because of QTKit which in
+> Leopard includes
+>=20
+>    QTCaptureSession
+
+If that's useful, then you should upgrade.
+
+> (The downside means moving away from XFree-X11 which has proven
+> exceptionally solid too.)
+
+You can give the new version a try while on Tiger if you want to install =
+MacPorts.
+
+> (2)  I am considering to install a second CPU into a current 4-core
+> Xeon MacPro (as one processor socket is still empty).  Local Apple
+> guys say this is not supposed to be done (in particular because of
+> some heating problems which could arise then etc), but I cannot see
+> if this is simply a "salesman's talk" while trying selling a
+> completely new machine instead.  Though having 8 cores in total
+> makes more computational (... and financial) sense as to buy a
+> machine of today with, e.g. 6 cores.
+>=20
+> Is there anything of substance known in these supposed heating issues?
+
+That seems bizarre to me.  I'd do a little google investigation about =
+that rather than trust one salesman.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

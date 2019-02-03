@@ -1,0 +1,47 @@
+Re: Migrate OS to smaller =?UTF-8?Q?drive=3F?=On Sun, 11 Apr 2010 19:30:14 -0500, Ron Johnson 
+wrote:
+> On 2010-04-11 18:49, thib wrote:
+>> Ron Johnson wrote:
+>>> Yes, "wire" is slang for network cables, but SATA cables are actual 
+>>> wires too and orders of magnitude slower than CPU/RAM transfer.
+>> 
+>> This is true, but isn't relevant to what you suggested.
+>> Think about it some more.
+>> 
+>> ...
+>> 
+>> Oh yes.
+>> 
+>> We'll never talk about this again, I promise.
+>> 
+>> -thib
+>> 
+>> PS  I'll tell you something embarrassing about me if you find a SATA 
+>> controller that can inflate.
+>> 
+> 
+> You're absolutely correct.  This time...
+> 
+
+I've used dd to push a copy of a working system onto larger drives in the
+past. So my misuse of the term "migrate" is me actually doing a copy of the
+working system to a new, larger device and then zap the original.
+
+I'd hoped there was a block by block way to do it so I didn't have to set
+up the partitions & filesystems ahead of time but I suppose that part won't
+be too painful.
+
+The system is relatively idle during these types of surgeries because I
+boot from a live CD so the data on disk isn't churning.
+
+Thanks to all who responded, it gave me a lot to consider for this type of
+project. Like doing proper diffs afterwards to make sure everything landed
+on the new device properly!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/f6af5a3f47ea48bd1e0f695949793313@192.168.0.66
+
+

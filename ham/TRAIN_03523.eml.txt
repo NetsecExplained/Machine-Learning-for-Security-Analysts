@@ -1,0 +1,15 @@
+Re: OO.writer can't its file.Thank You for Your time and answer, Camale=C3=B3n:
+
+>Test with a clean OOo profile, that is, rename the current=20
+>"~/.openoffice.org3" folder so when you start Writer it creates a new=20
+>empty one.
+
+It was problem with temp dir permission.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4bf193c9.0c58560a.6b2b.4eec@mx.google.com
+
+

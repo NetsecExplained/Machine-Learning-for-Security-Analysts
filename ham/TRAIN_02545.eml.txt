@@ -1,0 +1,43 @@
+Re: C programming questionOn Thu, 15 Apr 2010 21:09:43 -0400 (EDT), Stephen Powell wrote:
+> On Thu, 15 Apr 2010 20:43:21 -0400 (EDT), Ron Johnson wrote:
+>> On 2010-04-15 19:37, Stephen Powell wrote:
+>>> 
+>>> I'm going to be filing a bug report against parted for (a) miscalculating
+>>> the starting block of the implicit partition on an ldl (Linux Disk Layout)
+>>> formatted disk on the s390 architecture when the block size is other than
+>>> 4096, and (b) no support for CMS-formatted disks.
+>> 
+>> If practical, I hope you file 2 bugs.
+> 
+> I hear you.  I'll have to look at the code to see if that's easily separated
+> out.  I started with the purpose of adding an enhancement to support CMS
+> formatted disks.  I stumbled across the bug in the starting block calculation
+> for ldl formatted disks in the process.  CMS formatted disks are handled
+> *exactly* the same as ldl formatted disks if the disk is not reserved.  I
+> would have had to fix that bug anyway to add support for CMS disks, since
+> I wanted the CMS support to be correct.  The only wrinkle was correctly
+> handling reserved CMS disks.  To do that I had to access the reserved block
+> offset in the CMS label, which prompted this thread.
+> 
+> All of this is specific to the s390 architecture and has no bearing on i386,
+> amd64, ia64, etc.  I hope upstream (GNU, I believe) will accept the fix.
+> I have no reason to believe that they won't.
+
+It appears impractical to separate the enhancement from the fix, since the
+former is dependent on the latter.  I will open the bug report as a wishlist
+enhancement request and provide the patches.  If it is accepted, the LDL
+bug will get fixed too as a fringe benefit.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1199837131.68150.1271426234785.JavaMail.root@md01.wow.synacor.com
+
+

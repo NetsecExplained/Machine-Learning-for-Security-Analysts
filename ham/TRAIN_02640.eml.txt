@@ -1,0 +1,32 @@
+Re: Chromium in SidOn Fri, May 21, 2010 at 11:41:38AM -0500, John Hasler uttered:
+> JohnRChamplin writes:
+> > ...which used to be available from unstable, but which I have heard is
+> > now in sid.
+> 
+> Unstable _is_ Sid.
+> 
+> In any case, a few weeks is not old.
+
+It is on a fast moving target, and especially in the case of a major
+release. Many improvements are rolled into the recent 6.x release.
+
+If Debian isn't going to keep up with the current trunk; then there
+really is no point in packaging it here. As it stands I'm not going to
+go backwards a full version, so I have reverted to the PPA builds.
+
+I don't feel that it's necessary to package it daily, but
+weekly should be done as that's the release cycle that Google-Chrome
+Developer version usually follows.
+
+For those of use that also use Debian on a desktop/Laptop BESIDES a
+server; using old versions isn't usually desireable on the
+workstations where stability isn't as necessary as that of a
+production server.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522170838.GC8488@google.com
+
+

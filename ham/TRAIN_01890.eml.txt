@@ -1,0 +1,272 @@
+[Lockergnome Windows Daily]  Medieval Mocha
+
+<!--
+ body      { BACKGROUND-IMAGE: url(http://images.lockergnome.com/images/issue/top-right.gif); color: #990000 }
+ a:link    { COLOR: #000000; TEXT-DECORATION: underline; font-weight: normal }
+ a:visited { COLOR: #C84200; TEXT-DECORATION: underline; font-weight: normal }
+ a:active  { COLOR: GRAY; text-decoration: none }
+ a:hover   { color: GRAY; TEXT-DECORATION: none }
+ p.title   { BACKGROUND: #FFCC99; BORDER-BOTTOM: #FF9966 4px solid; BORDER-LEFT: #FFEEDD 4px solid; BORDER-RIGHT: #FF9966 4px solid; BORDER-TOP: #FFEEDD 4px solid; COLOR: #990000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal }
+ p.sidebar { BACKGROUND: #FFEEDD; TEXT-ALIGN: center; BORDER-BOTTOM: #FFCC99 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #FFCC99 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #990000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold } 
+ .url      { font-size: 8pt; font-family: Verdana, Tahoma, Arial }
+-->
+20020717 Lockergnome Windows Daily
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  07.17.2002 GnomeREPORT 
+
+FREE COLOR PRINTERS FROM XEROX - $4,500 VALUE Enroll in the Xerox FreeColorPrinters program and get a Phaser network color printer for FREE.  Small businesses, schools and non-profits have been participating in this risk free program since 1999. Learn more.  
+
+
+Falling asleep at the wheel is no laughing matter. Still, it kinda
+happened with yesterday's
+tip. I forgot to mention that the String value's label
+is "Logging" (sans quotes). That was almost like a cliffhanger,
+eh? The oversight was totally my fault. I've been thinking about
+asking Gretchen and Brian to help with future reviews. Don't be
+surprised if that happens soon. I'm sure you'd welcome a female
+perspective on this stuff, right? She helped one of our landlords
+pick a paint color for the "office" wall this evening. Does that
+qualify her to talk about cool stuff that we find for you on the
+Internet? You betcha. Let's see how she does with the drapes and
+rugs. I have a feeling I'll be the one tweaking furniture layout.
+Shouldn't be too much of an issue - yet. I wonder if Ikea has an
+affiliate program?
+
+
+
+I've mentioned how Yahoo Mail's beta is mangling our commas, but
+did you know that it's also (possibly) rewriting your e-mail? If
+you send an HTML message to someone who has a yahoo.com account,
+something may get lost in the translation. Try sending this
+sentence: "My medieval mocha has an expression to evaluate."
+Again, be sure this note is sent in HTML format. The results will
+surprise you. As far as I can tell, they're doing this to stop any
+scripts from being distributed to their user base. I must credit
+Marion Schroll for making me aware of the "problem." It's kinda
+funny, in a weird sort of way. Not that I would want anything I
+send changed in any way, shape, or form. It begs the question:
+what next? I mean, where does it all stop? Give them a bit, and
+they just might take a byte. Censorship is only a stone's throw
+away.
+
+
+
+I really feel for Lockergnomie Sharon Clark, who asks: "What is
+this crazy business with the broadband metering? What they
+advertise doesn't seem to be what you get. Now that I'm forking
+out $60 per month for a supposed metered rate of 640 down / 320
+up, I'm feeling clueless and left out in the cold. Not sure what
+I'm paying for, not sure what's going on at the office, not sure
+if I'm capped, not sure if I'm getting ripped off! Can you help me
+out here? I'm feeling lied to; why can't I download 'til my 40 gig
+is full? That is what they promised me and that is what I THOUGHT
+I was paying for. I want consistent speed - is this too much to
+ask?" It's not too much to ask the question, but it's probably too
+much to get the answer. I'm facing the same dilemma right now,
+even though cable-based connectivity isn't available in my area.
+Expect more and more "filters" to be put in place as time marches
+on. Watch those EULAs, folks.
+
+
+
+See You in August,              Chris Pirillo       
+ GnomeDOWNLOADS
+
+Latest Downloads
+AntiVir PE 6.14.00.63
+MP3 Rename 7.1.4.0
+OE-QuoteFix 1.15.5
+AntiVir PE f 6.14.00.63
+MyKazaa 1.0
+EraseTemp 3.1.0.2
+ZAP Audio Player 1.20
+PocoMail 2.61.1056
+Webserver Stress  5.3.4
+PhotoMeister 1.04
+PopupWar 3.0.75
+Disk Triage 6.3.1.0
+Broccoli ADS 2.0
+Mail REDirect 1.3.240
+Mindex Image Vie 2.7.16
+
+Directory Lister v0.5.2 [547k] W9x/2k/XP FREE
+
+http://freeware.prv.pl/
+
+{List directory contents} When I was younger, I'd get so frustrated at those games where you'd have to pick out all of the subtle differences between two pictures. I'd always end up with one or two that I just could never see. When I want to do the same type of comparison between two directories on my computer, I use Directory Lister and I never miss a thing. Not only does Directory Lister display the contents of your chosen directories, it will also let you save the output to an HTML file. This is great for web developers who want a quick way to list the contents of a ZIP file before archiving it and uploading it to their website. As an added bonus, Directory Lister also shows the date, time, and attributes of the files in your directory, making it easier than ever to compare the differences in files between two directories.
+
+
+Web Calendar [25k] W2k/XP FREE
+
+http://members.lycos.co.uk/bleucanard/WebCalendar.htm
+
+{Web page reminder} Surfing the web as much as I do, I'll occasionally run into a site or page that commits the horrendous faux pas of displaying an "Under Construction" banner. I COULD forget about the site and maybe somehow encounter it later, or I COULD drop the site into Web Calendar and have this handy-dandy app remind me to check the page again in a week. The same technique holds true for my normal browsing... for example, I can use Web Calendar to remind me to check out the Digital Media newsletter every morning, or to check Amazon for a CD that I know will be released in a week. Now, I will have no excuse for missing the DVD release of "Lord of the Rings"...
+
+
+
+Recommend It!
+ GnomeCLICKS
+
+
+
+
+
+
+
+
+
+
+ GnomeSYSTEM
+SQLView v2.1.0.20 [5.2M] W9x/2k/XP FREE
+
+http://mywebpages.comcast.net/fredbubbers/software/
+
+{View ODBC Output} SQLView is "A SQL Database viewing utility. (It) automatically detects all available ODBC data sources and displays them in an explorer-like tree. User(s) may double-click on data sources to access the databases, browse tables, execute custom queries and export (the) data to .CSV or .XML files." I didn't really have much on my machine to throw at this program. However, the one data source I did have (mostly related to Music CD creation) displayed perfectly in SQL View. (And I have the .csv file to prove it!  Nyah!)
+
+
+
+
+Recommend It!
+ GnomeWILDCARD
+CollegeBAR v8.0 [5.9M] W9x/2k/XP US$20
+    Unearthed by Shawn Verrall
+
+http://www.pracx.com/collegebar.asp
+ 
+{Mix your own drinks} When I was in college, my room used to be known as "The Bar." It may have had something do with my L-shaped desk that resembled a bar, and the fact that I had seen the movie Cocktail too many times and wanted to be a bottle-flipping bartender. I never achieved my goal of being the world's best geek bartender, but maybe with College Bar I could have. College Bar contains recipes for over 11,600 drinks. With an online update feature, you can download new drinks as they become available... or you can add your own creative concoctions to the database! College Bar also has a calculator to determine someone's blood alcohol level... drink responsibly, folks. As an added bonus, you can load some of your favorite party pictures into the program and you'll see a slide show of those pictures - a great way to remember the good times... unless you don't remember experiencing them in the first place, that is. Dude, where's my car?
+
+
+
+
+
+Submit Your Thoughts | Recommend It!
+ GnomeFAVORITE
+
+Buy One Inkjet Cartridge - GET TWO FREE!! Buy 1 Get 2 FREE on Most Epson, Canon, and Apple Cartridges. Wholesale Pricing on Lexmark Cartridges. Free Shipping on orders $25 or more!! U.S. Shipping Only. Click Here For a Complete List of Cartridges.
+
+Beliefnet
+
+http://www.beliefnet.com/
+
+{Daily enlightenment} Whether you're Buddhist, Hindu, Muslim, Christian, Jewish, or anything else, Beliefnet.com has something for you. You can sign up for any of the ten Beliefnet newsletters - there's even one devoted to religious jokes. However, if you aren't looking for enlightenment for your Inbox, then just feel free to browse around. You're sure to find something interesting in the Inspiration section; the Parenting section has helpful features and articles. Or, test your savvy with "Stump Our Bible Expert." If you're seeking something new in the way of your spirituality, or are looking for some affirmations of your existing beliefs, it's likely you'll find it at Beliefnet.
+
+
+
+
+Recommend It!
+ GnomeTIP
+
+I am a sucker for keyboard shortcuts. Anything that can save me from using the mouse is good in my book. Occasionally I like to view the web or Windows Explorer in Full Screen mode... to do this I just hit F11 on the keyboard and there I am in Full Screen mode. Hit it again and I am back to regular mode. If you aren't as much of a fan of keyboard shortcuts as me, then all you have to do is press and hold the Ctrl key while clicking on the Maximize button and you will have the same effect. You will notice, however, that your Start Menu isn't anywhere to be seen. Never fear, another keyboard shortcut is here... just press Ctrl key plus the Esc key and your Start Menu will be back where it belongs. Alternatively, if you have a Windows key on your keyboard you can use that key to bring up your Start Menu as well.
+
+
+
+
+Recommend It!
+
+
+
+http://www.lockergnome.com/issues/daily/20020717.html
+Your subscribed e-mail address is: [qqqqqqqqqq-lg@example.com] - To unsubscribe or change your delivery address, please visit the subscription management page. For further information, please refer to the GnomeCREDITS in the sidebar.
+
+
+
+
+
+LOOK OVER HERE
+
+ Download Our Tip Files
+
+ Latest Windows Daily
+ Latest Digital Media
+ Latest Tech Specialist
+ Latest Penguin Shell
+ Latest Apple Core
+ Latest Web Weekly
+ Latest Bits & Bytes
+
+ Find the Lowest Price
+
+ Suggest a Feature
+ Advertise With Us
+ The GnomeSTORE
+ High-Tech Job Search
+ Chat With Gnomies
+ Watch The Webcams
+ Computer Power User
+
+ Read Past Issues
+ Download X-Setup
+ About Lockergnome
+ Our Privacy Policy
+ View More Options
+ Our XML / RSS Feed
+ Syndicate Our Tips
+ Link To Lockergnome
+ Get Chris's Book
+
+ Tell a Friend About Us!
+
+ General Feedback
+ E-mail the Editor
+ The Editor's Blog
+ 
+SEARCH
+
+
+ GNOMESPECIALS
+ Manage Your Workgroup
+ Form Pilot
+ Say the Time 5.0
+ Boomer - Stream Now
+ Create Web/CD catalog
+ Easy Web Editor
+ Kleptomania
+ Tag&Rename
+ Pretty Good Solitaire
+ Visualize Color Combos
+ FirstStop WebSearch
+ Ecobuilder
+ Book Collector
+Get Listed Here
+Question: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother? 
+
+
+ HAPPY FUN STUFF
+And now, we see how Sprocket thinks he has a right to eat pumpkin seeds. Or, would that be "pupkin" seeds?
+
+Not for the Puppy
+ 
+
+
+CLICK HERE TO ZOOM
+
+ 
+
+ 
+BYTE ME NOW
+
+©2002, Lockergnome LLC. ISSN: 1095-3965. All Rights Reserved. Please read our Terms of Service. Our Web site is hosted by DigitalDaze. Domain registered at DNS Central.
+
+
+
+
+The "ZIP" in Zip Code stands for "Zoning Improvement Plan."
+
+
+
+

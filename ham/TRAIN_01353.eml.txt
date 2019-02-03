@@ -1,0 +1,29 @@
+Re: Dual channel memory questionOn 04/16/2010 02:33 AM, Eduardo M KALINOWSKI wrote:
+> On 04/15/2010 07:59 PM, Stan Hoeppner wrote:
+>> Aioanei Rares put forth on 4/15/2010 3:16 PM:
+>>
+>>> No, it means that 2 one-gig modules in same-coloured slots will
+>>> theoretically work better. I have one module in a dual-channel mobo and
+>>> it works ok. Most desktop/workstation mobos do.
+>> No, that's not correct.  If the mobo DIMM slots are colored, you put one
+>> DIMM in each color slot for dual channel operation, not both DIMMs in 
+>> the
+>> same colored slots.
+>
+> I believe different manufactures follow different conventions. For 
+> some it's the two in same-color slots, for others in different-color 
+> slots. When in doubt, check the manual
+>
+>
+One, I work with hardware everyday and I've assembled more computers 
+than I can count. Two, Stan, I find your remark pretty offensive, 
+really. Gigabyte, Asus, Intel mobos work by the principle 'same colour 
+== dual channel'. Please check your facts before trying to sound elitist.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC7A7DC.60109@csmining.org
+
+

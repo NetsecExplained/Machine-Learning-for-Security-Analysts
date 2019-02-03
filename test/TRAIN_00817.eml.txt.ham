@@ -1,0 +1,46 @@
+Re: [SAtalk] PerMsgStatus.pm error?It's possible...I performed the update via "rpm -U"...which, of course, 
+created all the new rulesets as "xx_rulename.cf.rpmnew"  Crud.  I'll have 
+to start moving things around.
+
+On Thu, 5 Sep 2002, Malte S. Stretz wrote:
+
+> On Thursday 05 September 2002 04:10 CET Mike Burger wrote:
+> > Just loaded up SA 2.40 from Theo's RPMs...spamassassin-2.40-1 and
+> > perl-Mail-SpamAssassin-2.40-1 on a RH 7.1 system with perl 5.6.1 running
+> > on it.
+> >
+> > I'm getting messages that seem to indicate that SA can't find
+> > PerMsgStatus, like so:
+> >
+> > Sep  4 21:01:59 burgers spamd[17579]: Failed to run CTYPE_JUST_HTML
+> > SpamAssassin test, skipping: ^I(Can't locate object method
+> > "check_for_content_type_just_html" via package
+> > "Mail::SpamAssassin::PerMsgStatus" (perhaps you forgot to load
+> > "Mail::SpamAssassin::PerMsgStatus"?) at
+> > /usr/lib/perl5/site_perl/5.6.1/Mail/SpamAssassin/PerMsgStatus.pm line
+> > 1814,  line 21. )
+> >
+> >[...]
+> >
+> > Any ideas?
+> 
+> Perl doesn't complain that it can't find PerMsgStatus.pm but the function 
+> check_for_content_type_just_html(). Do you probably have some old rules 
+> files still lurking around? This test existed in 2.31 but is gone/was 
+> renamed with 2.40.
+> 
+> Malte
+> 
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

@@ -1,0 +1,14 @@
+Alternative to dhcp?I edited /etc/resolv.conf to add a nameserver, edited /etc/dhcp3/dhclient.conf 
+to do the same and added the dns to wicd.  However, I keep getting the same 
+old dns from the router, i.e., resolv.conf keeps changing to the router's 192 
+ip.  The router does not allow editing dns.  I think this is due to using 
+dhcp.  Is there an alternative which wouldn't cause a default to the router's 
+dns?  Any pointers appreciated.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004141717.48733.edjabr@csmining.org
+
+

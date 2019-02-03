@@ -1,0 +1,10 @@
+[Spambayes] Maybe change X-Spam-Disposition to something else...
+I actually like Neale's X-Spam-Disposition header, I just wonder if maybe we
+should choose something with a different prefix than "X-Spam-" so that
+people don't confuse it with SpamAssassin, all of whose headers begin with
+that prefix.
+
+Also, some sort of version information would be useful.  Perhaps the CVS
+version number for the classifier module could be tacked on.
+
+Skip

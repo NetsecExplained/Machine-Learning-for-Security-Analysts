@@ -1,0 +1,16 @@
+DVD Paranoia?Is there such a DVD app analogous to cdparanoia?  Or is it not 
+possible due to the differing data, WAV vs. MPEG?
+
+The issue is that I'm trying to read some 2-3 year old "movie" 
+DVD-Rs and they're all at some point failing.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDB8FEB.5060607@cox.net
+
+

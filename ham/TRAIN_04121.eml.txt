@@ -1,0 +1,38 @@
+Re: Laptop can't resume from suspend mode2010/5/11 Johan Gr=F6nqvist :
+> 2010-05-10 18:12, Matteo Riva skrev:
+>>
+>> Using Xorg 7.5 with radeonhd FOSS driver.
+>>
+>> Anybody had this problem and/or knows about a solution?
+>>
+>
+> I have not had the problem (I use the radeon driver), and do not know of =
+a
+> solution, but wanted to point you to a recent changelog that might be of
+> interest.
+>
+> (from
+> )
+>
+> ----------------
+> =A0Debian Changelog xorg (1:7.5+6)
+>
+> xorg (1:7.5+6) unstable; urgency=3Dmedium
+>
+> =A0 * Drop radeonhd from xserver-xorg-video-all. =A0We switched to kernel
+> =A0 =A0 modesetting for radeon, and that clashes with this driver.
+> =A0 [...]
+> =A0-- Julien Cristau  =A0Fri, 07 May 2010 13:34:32 +=
+0200
+>
+> -----------------
+
+Hm that's not the problem as I have version 1:7.5+5 (testing)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTimV2szrH-s6tOdhnsOpMcgGTJnUWYOEC98JOsBB@mail.csmining.org
+
+

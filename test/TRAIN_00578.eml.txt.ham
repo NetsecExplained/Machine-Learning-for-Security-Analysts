@@ -1,0 +1,36 @@
+[Razor-users] Exit.status =13 ?Bonjour,
+
+ Always for my script, if i run it manually in console all is ok
+ whether is the user.
+ But if i try to implement it in my general script filter running
+ whith qmailq UID (503) :
+
+ I've got 13 has exit status, and in my mail log :
+ "Can't call method "log" on unblessed reference at
+  /usr/lib/perl5/site_perl/5.6.0/Razor2/Client/Agent.pm line 211."
+
+  My log file is in /home/user/.razor/razor-agent.log
+  and have write permission for qmailq user.
+
+  Any idea ??
+
+--
+Toorop 
+Lorsque que vous avez éliminé l'impossible, ce qui reste, 
+même si c'est improbable, doit être la vérité.
+www.spoonsdesign.com
+
+---------------------------------
+Mail scanné par Protecmail filter 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

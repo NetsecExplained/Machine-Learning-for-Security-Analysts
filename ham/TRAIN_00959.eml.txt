@@ -1,0 +1,18 @@
+Re: Secure Sofware KeyYannick Gingras wrote:
+> Is the use of "trusted hardware" really worth it ?  Does it really make it 
+> more secure ?  Look at the DVDs.
+
+DVDs don't use trusted hardware. As for whether it is worth it, that 
+depends entirely on what its worth to secure your software.
+
+Cheers,
+
+Ben.
+
+-- 
+http://www.apache-ssl.org/ben.html       http://www.thebunker.net/
+
+"There is no limit to what a man can do or how far he can go if he
+doesn't mind who gets the credit." - Robert Woodruff
+
+

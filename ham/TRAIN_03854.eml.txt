@@ -1,0 +1,36 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson wrote:
+> On 2010-04-19 16:17, Merciadri Luca wrote:
+>
+> The "problem" is that Windows is a jailed, restricted, dumbed-down
+> environment "operated" by so many clueless users.
+>
+> It's almost certain that there is the occasional Windows user (and
+> with a user base approaching 10^9, "occasional" is still a very large
+> absolute figure!) who have the motivation and mental clarity to Google
+> "break pdf encryption".
+/
+>
+> So, you need to ask yourself:
+> (a) Does this "colleague" run Linux?
+Nice question. He does not.
+> (b) If so, will he read it with Acroread?
+/
+> (c) Will he be be motivated enough and clever[0] enough to
+>     Google "break pdf encryption"?
+Motivated enough, sure. He would have better put all this motivation
+into the work we had to do in group. Clever, not sure.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+You can't kill two birds with one stone.
+

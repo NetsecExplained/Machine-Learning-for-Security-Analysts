@@ -1,0 +1,67 @@
+MovieAudioExtractionFillBuffer calling exit?I'm running QuickTime on Windows (XP SP3) and have a reproducible way to
+make MovieAudioExtractionFillBuffer in a C++ program do something strange.
+It looks like it's calling exit() or doing something equivalent, but I can't
+say for sure.   What I do see is that immediately after calling
+MovieAudioExtractionFillBuffer, execution continues in the destructors of my
+statically allocated objects.  If I replace the call to
+MovieAudioExtractionFillBuffer with a call to exit(), I see the same thing.
+
+I'm using version 7.3 of the QuickTime SDK, but 
+
+long version;
+Gestalt(gestaltQuickTimeVersion,&version;);
+
+populates version with 0x07668000.  I can reproduce the same behavior with
+version 7.1 of the QuickTime SDK, but Gestalt still returns the same thing
+in this case.
+
+The QuickTime-related things that happen before this are:
+
+- QuickTime initializes normally
+- QuickTime reads metadata from one aac file
+- QuickTime reads metadata from a second aac file
+- Quicktime reads the audio properties of an mp3 file
+- and then I call MovieAudioExtractionFillBuffer
+
+The audio-related function calls are:
+
+MovieAudioExtractionBegin
+MovieAudioExtractionGetProperty(kQTPropertyClass_MovieAudioExtraction_Audio,
+ 
+kQTMovieAudioExtractionAudioPropertyID_AudioStreamBasicDescription);
+MovieAudioExtractionSetProperty(kQTPropertyClass_MovieAudioExtraction_Audio,
+ 
+kQTMovieAudioExtractionAudioPropertyID_AudioStreamBasicDescription);
+
+all of which work as expected (or at least I think they do).
+
+And then
+
+MovieAudioExtractionFillBuffer
+
+I can give more details about the API calls if necessary.  I think I'm
+calling QuickTime correctly since it decodes audio successfully almost all
+the time -- with this file and many others (i.e.
+MovieAudioExtractionFillBuffer returns normally).  I've had customers report
+similar problems, but this is the first time I've been able to reproduce it
+reliably myself.  Unfortunately it's with a complex program.  My attempts to
+reproduce this with a simpler program have failed.  It seems to be
+timing-related but I can't do better than that at the moment.
+
+I'd love some help figuring out what's happening in
+MovieAudioExtractionFillBuffer, and even better some help making it go away.
+If I need to report this in some more official way to Apple to make that
+happen, please let me know.
+
+Thanks much.
+
+-DB
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

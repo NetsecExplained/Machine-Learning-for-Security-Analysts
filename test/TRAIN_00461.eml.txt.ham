@@ -1,0 +1,56 @@
+Re: acroread not seeing printersOn Thu, 15 Apr 2010 23:09:22 -0400, John A. Sullivan III wrote:
+
+> On Thu, 2010-04-15 at 10:49 -0700, Carl Johnson wrote:
+>> "John A. Sullivan III" writes:
+>> 
+>> > On Thu, 2010-04-15 at 13:05 +0000, Camaleón wrote:
+>> >> 
+>> >> Make sure that LID_LIBRARY_PATH points to the location for libcups
+>> >> and also CUPS lp and lpr are in PATH.
+>> >> 
+>> >> When you invoke the print dialog using Control+P, all the printers
+>> >> configured show up in the Printer Name dropdown. ***
+>> >> 
+>> >> I'm not sure how to check this in Debian, maybe someone else can
+>> >> give you a hint on this :-)
+>> > 
+>> > Thanks.  I tried setting LID_LIBRARY_PATH and I know the binaries are
+>> > in the path but it didn't help :(
+>> 
+>> I don't know if you noticed, but I think that should be
+>> LD_LIBRARY_PATH, without the extra 'I'.  I don't know enough to help
+>> otherwise.
+> 
+> Argh!! I did upgrade to acroreat 9.3.1 from multimedia unstable upon
+> these responses and the referenced article which was based upon 9.x.  I
+> even set a LID_LIBRARY_PATH variable in case it was not a typo.  It
+> still doesn't work.  Setting the command line debugging variable, I
+> found that it cannot find the PPD file.  
+
+Ughhh, yes, *it's a typo* (I copied/pasted from the site and didn't 
+notice the error either) :-/. 
+
+Correct value is "LD_LIBRARY_PATH" as Carl pointed-out.
+
+> Does it only work if the CUPS
+> server is running locally? In our case, we use a central CUPS server
+> running on a non-standard port.  This is reflected in
+> /etc/cups/client.conf.  How do we tell acroread where the printer server
+> and PPD files are? Thanks - John
+
+Mmmm, that should not affect. If you can print from other programs, 
+Acroread should do the same. If it fails, it sounds to me like a bug on 
+their side.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.16.06.56.22@csmining.org
+
+

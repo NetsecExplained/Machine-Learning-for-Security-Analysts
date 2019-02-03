@@ -1,0 +1,21 @@
+Re: request ?Once upon a time, Antoine wrote :
+
+> Hi, I wanted to know if I could post a request for rpm on the list, or if
+> I had to contact Mathias directly ?
+> Thanks...
+
+Well, since you posted, you could have asked just in case while you were at
+it ;-) I don't often fulfill requests, so don't expect any miracles :-/
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

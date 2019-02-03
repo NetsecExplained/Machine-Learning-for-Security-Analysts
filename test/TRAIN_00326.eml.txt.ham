@@ -1,0 +1,60 @@
+Security update for Debian Testing - 2010-05-07This automatic mail gives an overview over security issues that were recently 
+fixed in Debian Testing. The majority of fixed packages migrate to testing 
+from unstable. If this would take too long, fixed packages are uploaded to the 
+testing-security repository instead. It can also happen that vulnerable 
+packages are removed from Debian testing.
+
+Migrated from unstable:
+=======================
+gnu-smalltalk 3.1-6:
+CVE-2009-3736: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3736
+               http://bugs.debian.org/559809
+
+Removed from testing:
+=====================
+The following issues have been "fixed" by removing the (source) packages from 
+testing. This probably means that you have to manually uninstall the 
+corresponding binary packages to fix the issues.
+It can also mean that the packages have been replaced, or that they have been 
+temporarily removed by the release team to make transitions from unstable 
+easier.
+
+webcalendar:
+CVE-2010-0636: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0636
+CVE-2010-0637: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0637
+CVE-2010-0638: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0638
+
+
+
+How to update:
+--------------
+Make sure the line
+
+	deb http://security.debian.org squeeze/updates main contrib non-free
+
+is present in your /etc/apt/sources.list. Of course, you also need the line
+pointing to your normal squeeze mirror. You can use
+
+	aptitude update && aptitude dist-upgrade
+
+to install the updates.
+
+
+More information:
+-----------------
+More information about which security issues affect Debian can be found in the 
+security tracker:
+
+	http://security-tracker.debian.org/tracker/
+
+A list of all known unfixed security issues is at
+
+	http://security-tracker.debian.org/tracker/status/release/testing
+
+
+-- 
+To UNSUBSCRIBE, email to debian-testing-security-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E1OABZw-0003yB-6D@soler.debian.org
+
+

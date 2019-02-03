@@ -1,0 +1,49 @@
+[ILUG] connecting at 1200bps in RH7.3 (help!)Hi All,
+
+Anyone ever try connecting at 1200bps in Linux? I've got a USR 56K
+Faxmodem which is meant to connect to another (same) modem and I have to
+connect at this speed due to the (NT) port settings on the remote side,
+but the modem handshake always fails at this speed.
+
+The modem handshake works at slightly higher speeds (4800bps to
+~57600bps) but that is no good for tx/rx'ing data to the remote server
+as it insists at talking at the speed of treacle/1200bps.
+
+Note Minicom fails to handshake at 1200bps, but HyperTerm in Windows
+worked first time(!?), any ideas?
+
+Baud 1200 7 data bits Even Parity
+
+I am doing a ATZ3 to reset the modem then I send this init string:
+
+AT&F1E1V1Q0X4Y0S32;=232&A1;&B0;&C1;&D2;&H0;&I0;&K1;&M4;&N0;&P0;&R1;&S0;&U0;&Y1;
+
+... which is most of the defaults.
+
+USR said to set S15=128 (disables v.42)) 
+& set S32=98 (disable v.92 & X2)
+
+But the S15=128 just makes the handshake lockup instead of just giving
+up.
+
+btw this is a bank's system I am connecting to so reconfiguring their
+modems may be difficult.
+
+Colin.
+
+
+-- 
+Colin Nevin,
+Software Engineer,
+Merit Solutions Ltd. (Dublin),
+5 Goatstown Cross,
+Dublin 14.
+------------------------------------------
+Printed using 100% recycled electrons.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

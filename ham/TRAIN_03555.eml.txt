@@ -1,0 +1,32 @@
+Deleting some regexp/simple expression from lots of files in a secure way-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+I have many text files (actually .tex files) which contain some
+sequence or regexp (it depends on the files) that I would like to
+remove. Is there a commandline/GUI for doing this massive edit?
+
+Thanks.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+You can fool all of the people some of the time, some of the people all of the time, but you can't fool all of the people all of the time. (Abraham Lincoln)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvtgqkACgkQM0LLzLt8MhwZOwCfTYE31Uax4o3gm9WkN2CVRxcX
+jmkAn28qe1QvuXLKYvHhoZB0Xc4C0DvJ
+=HUWz
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87iq6qwh1x.fsf@merciadriluca-station.MERCIADRILUCA
+
+

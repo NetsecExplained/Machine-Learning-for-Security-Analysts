@@ -1,0 +1,58 @@
+Re: Java Web Start Offline Problemshttp://memorizeasy.mysimpatico.com
+
+It's actually 2 jnlps, one setup and one launch.
+
+Should it not work offline with you, pls let me know. I'm aware that
+it does work (I've tested that some time ago, and just now,  but ...).
+
+I also verified that yours doesn't launch offline.
+
+
+2010/4/16, Nick Howes :
+> On Apr 16, 2010, at 11:18 AM, Gabriele Kahlout wrote:
+>
+>>> Launching without an internet connection causes the application to
+>>> "hang".
+>>
+>> In the case of my application this doesn't happen. Must be specific to
+>> some cases.
+>
+> Thanks for that information.
+>
+> Maybe it's something about our JNLP file
+> .  Could you maybe share the JNLP
+> file for the case that doesn't hang?
+>
+>
+> - Nick
+
+
+--=20
+Regards,
+K. Gabriele
+
+--- unchanged since 25/1/10 ---
+P.S. Unless a notification (LON), please reply either with an answer
+OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+might resend.
+In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, MyInbo=
+x) =E2=88=A7 IsAnswerTo(x,
+this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, subject(x)=
+) =E2=88=A7
+=C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+
+Also note that correspondence may be received only from specified a
+priori senders, or if the subject of this email ends with a code, eg.
+-LICHT01X, then also from senders whose reply contains it.
+=E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), MySafeSenderList)=
+ =E2=88=A8 (=E2=88=83y.
+In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, -LICHT01X) =
+).
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

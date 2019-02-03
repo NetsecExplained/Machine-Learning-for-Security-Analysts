@@ -1,0 +1,49 @@
+Re: Prob. w/ install/uninstallOn Fri, Feb 01, 2002 at 12:42:02PM -0500, Brian French wrote:
+> hey i have a problem:
+> i have a rpms that i have installed that i want to uninstall, i do it
+> like so:
+> rpm -e [rpm package]
+> and it gives the error: package not installed, so i install it like
+> so:
+Its a little confusing but you install rpms like
+rpm -ivh packagename-0.1.1.rpm 
+uninstalls must be done without the version info like
+rpm -e packagename   ie: rpm -e sendmail or 
+rpm -e sendmail-devel. 
+
+give that a go and it should work np. 
+
+Phil, 
+
+
+> rpm -i [rpm package]
+> and it gives the error: package already installed, so i force it to
+> install like so:
+> rpm -i --force [rpm package]
+> this installs it and then i try to uninstall it again and it still
+> gives me the same error: package not installed.
+>  
+> How can i get it to recognize that the package is indeed installed it,
+> and/or get it to unstall it?
+>  
+> Thanx in advance,
+> Brian French
+> 
+> -French
+> 
+> 
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+-- 
+"I say, bring on the brand new renaissance. 'Cause I
+think I'm ready. I've been shaking all night long...
+But my hands are steady."  
+Gord Downie    http://www.thehip.com
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,26 @@
+Re: [ILUG] SUSE 8 disks? (thread changed slightly)Shane Ryan asked:
+> ...but maybe there is general interest in
+> an Irish distro.
+
+I have my own thoughts on this, and would be very keen to create yet another
+new (and different) distro.
+
+Of course, it would require a minimum of EUR300,000 in funding, which is the
+reason I have not started this project myself... :(
+
+- Matthew
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

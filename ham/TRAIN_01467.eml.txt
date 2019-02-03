@@ -1,0 +1,26 @@
+Re: Mail errors or attacks?On 05/24/2010 11:31 AM, David Baron wrote:
+> I get a zillion of these, every single day, about every 5 minutes or so:
+>
+> 2010-05-24 15:05:38 SMTP call from localhost (dovidhalevi) [127.0.0.1]
+> dropped: too many syntax or protocol errors (last command was "MAIL
+> FROM:  SIZE=8814")
+>
+> I am running exim4 heavy on a Sid box.
+>
+> Exim shows no stuck messages or such. How can I stop this?
+>
+
+Is dovidhalevi in your domain?  What about 71.121.223.194?
+
+Incoming mail or outgoing?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFABF58.9090806@cox.net
+
+

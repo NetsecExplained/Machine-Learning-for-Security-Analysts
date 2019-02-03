@@ -1,0 +1,25 @@
+Re: Debian+KDE 4.4.3Jimmy Johnson wrote:
+> Here we go, currently I have only done the safe upgrade, still 176 
+> packages to upgrade, I can remove yawp (yet another weather plasma) and 
+> get a full upgrade or keep yawp, do the upgrade and break kde, I will 
+> stick with the safe upgrade for awhile, cause I don't want to lose yawp 
+> or break kde.
+
+> Hopefully it won't be the last minute when yawp gets upgraded.
+
+
+"yawp" will be fixed in a few days 
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=580002
+-- 
+Jimmy Johnson
+
+Debian-Live installed at sda14
+Registered Linux User #380263
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF1BB1.7000209@csmining.org
+
+

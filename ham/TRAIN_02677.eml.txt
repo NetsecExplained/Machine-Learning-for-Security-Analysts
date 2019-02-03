@@ -1,0 +1,41 @@
+Netscape 7 ReviewThis is my Netscape 7.0 Review.
+
+o They finally got the email search speed back up to
+   where it was in 4.7.x
+o Setting up user mail accounts doesn't have that really
+   odd, sometimes it lets me sometimes it doesn't problem that
+   previous versions had.
+o I still have to manually update all my address books by
+   hand but at least it lets me import them as Netscape 4.x
+   address books (there's not 6.x import as they just assume
+   it works--which it doesn't)
+o The mail filters are still broken and have the same problem that
+   I've tried to report since 4.0.2 where you can't store a mail
+   filter of the type: Age in days, is greater than, 21 (or some number)
+   Gawd I'd really wish they'd fix that freakin' bug, it's the single
+   biggest annoyance that I have with Netscape as it's one of the
+   most effective anti-spam tools that I have.
+o Webex doesn't support Netscape 7.0 and the plugin doesn't
+   work which causes problems when you want to use Webex to
+   work on something with someone remotely.
+
+I've given up trying to report bugs and any changes to the
+source I send always get lost.
+
+Greg
+
+
+-- 
+Gregory Alan Bolcer, CTO  | work: +1.949.833.2800
+gbolcer at endeavors.com  | http://endeavors.com
+Endeavors Technology, Inc.| cell: +1.714.928.5476
+
+
+
+
+
+
+
+
+
+

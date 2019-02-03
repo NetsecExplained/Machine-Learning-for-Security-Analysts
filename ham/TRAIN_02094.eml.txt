@@ -1,0 +1,15 @@
+[Spambayes] test sets?
+    TP> A false positive *really* has to work hard then, eh?  The long
+    TP> quote of a Nigerian scam letter is one of the two that made
+    TP> it, and spamprob() looked at all this stuff before deciding it
+    TP> was spam:
+
+Here's an interesting thing to test: discriminate words differently if
+they are on a line that starts with `>' or, to catch styles like
+above, that the first occurance on a line of < or > is > (to eliminate
+html).
+
+Then again, it may not be worth trying to un-false-positive that
+Nigerian scam quote.
+
+-Barry

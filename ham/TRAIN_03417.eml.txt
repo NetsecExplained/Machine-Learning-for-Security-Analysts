@@ -1,0 +1,8 @@
+On Windley's Radar TooURL: http://jeremy.zawodny.com/blog/archives/000220.html
+Date: 2002-10-03T00:24:56-08:00
+
+Last week, I noticed that I was on Dave's radar. Now that I've caught up on 
+blogging, it seems that I'm on Windley's radar too. He picked up on my 
+FreeBSD/Linux MySQL story and that provoked an interesting discussion of...
+
+

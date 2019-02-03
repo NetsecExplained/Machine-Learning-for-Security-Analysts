@@ -1,0 +1,24 @@
+Re: dash-as-bin-shWes Garland  wrote:
+> 2 - Is there way to detect that a script is running as dash, instead of a
+> shell like Solaris' /bin/sh
+
+If you write your script portably it will work with /bin/sh, for many
+values of sh. If you rely on features of ksh or bash you should specify
+one of those shells on the #! line.
+
+
+> 4 - Reason for #2, is there a way to list all functions declared in a script
+> with dash?
+
+"set" works for ksh, bash, and dash. On (at least) Solaris 9 & 10 and
+Debian. Is that enough?
+
+Chris
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/75r2a7xre1.ln2@news.roaima.co.uk
+
+

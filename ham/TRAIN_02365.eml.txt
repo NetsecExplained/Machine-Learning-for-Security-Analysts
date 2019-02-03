@@ -1,0 +1,31 @@
+Re: Best way to install kde-standardOn 2010-05-08 Sven Joachim wrote:
+> > Suggestions?
+> 
+> File a bug report.
+
+I first want to know if I'm the only one and/or try to find the cause of the issue before filing a bug 
+report.
+But I'll start a separate thread for it.
+ 
+> > Since the noveau driver didn't seem capable of rendering kde/kdm properly
+> > I installed the nvidia  drivers (the debian way).
+> 
+> Does hibernating work with the nvidia driver?  BTW, nouveau should work
+> fine if you disable desktop effects.
+
+Nope, hibernating does not work with the nvidia driver, but I didn't/couldn't test it with the 
+nouveau driver, since I couldn't get a login screen to begin with and Ctl+Alt+F1 didn't respond 
+either, so it was unusable for me.
+Had to do Ctl+Alt+SysRq+(REISUB) and boot into single user mode to get my system working again.
+
+Desktop effects seems to be disabled by default on laptops, so that's probably not it.
+
+Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005082057.11661.didi.debian@cknow.org
+
+

@@ -1,0 +1,60 @@
+Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on
+ Lenny?On Tue, 2010-04-20 at 00:00 +0200, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Ron Johnson wrote:
+> > On 2010-04-19 16:19, Clive McBarton wrote:
+> > [snip]
+> >>
+> >> How come there is no link anywhere on debian.org pointing to
+> >> debian-multimedia.org? Anything to establish a chain of trust. As it is,
+> >> I looked and looked but didn't find. Even when searching for
+> >> "multimedia" on debian.org, it does not mention debian-multimedia.org at
+> >> all. Not even when searching for "debian-multimedia". Every new debian
+> >> user trying to verify the credibilitiy of debian-multimedia.org would
+> >> have given up at this point for sure.
+> > 
+> > Google is pretty darned ubiquitous, and has been for 8+ years.
+> > 
+> > Putting "Debian play" in the FF/IW search bar auto-completes "debian
+> > play encrypted dvd", and each of the first 5 links mentions d-mm.o.
+> 
+> Yes, google (and all other search sites) quickly lead to d-m. But what
+> does this really prove? We all know that google (and all other search
+> sites) are far from immune against finding malware sites. Example:
+> google "windows multimedia". On the first page of results, half the hits
+> are sites with pretty dubious names. I wouldn't be surprised if some of
+> them actually distributed malware.
+> 
+> Linux is generally better protected against malware as Windows, but this
+>  is one vulnerability that is common to both: if you install anything
+> from an untrusted repo, and if that repo had malware, you're toast.
+> 
+> > "Mentioned" does *not* mean "endorsed".  Never has, never will.
+> 
+> > d-mm.o is not an official Debian site, so it's nor mentioned anywhere 
+> > except his personal page and the list archives.
+> 
+> I understand that point of view. But it is a point of view that will
+> make people stay away from d-m (and pretty much all other repos for that
+> matter).
+> 
+> It would help a lot if the key of d-m (package
+> debian-multimedia-keyring) was in the debian repos, not just the d-m repos.
+
+All the stuff at debian-multimedia can't be included in debian for
+various reasons, mostly freedom I think, so you won't find it in debian
+at all. It's made for debian but it isn't debian.
+
+I started using d-mm.o from the reply to a question I posted in this
+list many years ago and I suspect most people still find it today the
+same way.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271725695.3636.3.camel@debian.ok.shawcable.net
+
+

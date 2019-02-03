@@ -1,0 +1,25 @@
+Re: Java graphicsgeneration on Mac servers without graphics
+	hardware >>>>> "Stuart" == Stuart Wier  writes:
+
+ Stuart> "headless=true" is not a help since the program
+ Stuart> needs to run just as if it had graphics.
+
+I don't understand this explanation.  I generate large image files all
+the time using java.awt.headless=true.  My graphics code can't tell the
+difference whether it's running on real AWT or headless AWT, it works
+fine either way.  I didn't have to do anything special for this to work.
+Are you sure it matters to your code?
+
+Just checking...
+
+-- 
+Seth Tisue @ Northwestern University | http://tisue.net
+lead developer, NetLogo: http://ccl.northwestern.edu/netlogo/
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

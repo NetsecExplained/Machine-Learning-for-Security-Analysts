@@ -1,0 +1,52 @@
+Re: monitoring internet availability and sending sms alert?Adam Hardy on 14/05/10 14:13, wrote:
+> Ron Johnson on 14/05/10 12:54, wrote:
+>> On 05/14/2010 06:32 AM, Adam Hardy wrote:
+>>> Merciadri Luca on 14/05/10 11:31, wrote:
+>>>> Ron Johnson wrote:
+>>>>> On 05/13/2010 06:28 PM, Adam Hardy wrote:
+>>>>>> I figure this is probably something I would have to script myself
+>>>>>> because I can't find anything useful looking out there, but I thought
+>>>>>> I'd ask before I try (or perhaps before I procrastinate again):
+>>>>>>
+>>>>>> I have a machine here at home running some 24x5 programs which I 
+>>>>>> really
+>>>>>> need to keep up and running, along with my broadband so it can get 
+>>>>>> its
+>>>>>> datafeeds.
+>>>>>>
+>>>>>> I figured I could run a program on my webserver to ping my home 
+>>>>>> machine
+>>>>>> regularly and in case it starts to slow down, lose packets or die
+>>>>>> completely, it could send me an SMS to alert me to the fact.
+>>>>>>
+>>>>>> Is there something like this already in existence?
+>>>>>>
+>>>>> smsclient, ping and bash should do the trick...
+>>>>>
+>>>> Might not be too hard to implement, as explained by Ron.
+>>>
+>>> I shall look into these options. I'll obviously have to open up the ping
+>>> port on my firewall.
+>>>
+>>
+>> Outgoing ports are randomly assigned, though, aren't they?
+> 
+> Sure. I mean on the box at home that I'm monitoring from the online 
+> server. Aaaah, just realised I don't have a fixed IP ?$*!(*)"*"!!!
+
+Actually the more I think about it, the more I realise that I would rather have 
+some kind of full blooded monitoring app which lets me see stats (or even charts 
+like ntop) of internet speed over the week, although I bet that is just dreaming.
+
+I read one thread somewhere out there about apps like cacti, zenoss and 
+groundwork - if you know anything about such packages, then you know more about 
+them than me: is this kind of package remotely suitable or am I barking up the 
+wrong tree?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED4F8D.2080007@cyberspaceroad.com
+
+

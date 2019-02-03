@@ -1,0 +1,57 @@
+Re: recompiling the kernel with a different version nameOn 04/07/2010 07:48 PM, Stephen Powell wrote:
+> On Wed, 7 Apr 2010 13:17:30 -0400 (EDT), Lorenzo Bettini wrote:
+>> I tried also with --revision, e.g.,
+>>
+>> fakeroot make-kpkg --revision=lore01 --initrd
+>> --append-to-version=-recompiled kernel-image kernel-headers
+>>
+>> but I cannot seem to get rid of that +drm33.1 string:
+>>
+>> linux-headers-2.6.32.10+drm33.1-recompiled_2.6.32.10+drm33.1-recompiled-10.00.Custom_i386.deb
+>
+> "10.00.Custom" is the
+> default value for --revision.  The fact that you see it in the package
+> file name means that it did not recognize the option.  Try it this way:
+>
+>     fakeroot make-kpkg clean
+>     fakeroot make-kpkg --append-to-version -recompiled --revision x.x.xxx \
+>      --initrd kernel_image kernel_headers
+>
+> Note: you must always issue "make-kpkg clean" after running "make menuconfig"
+> or after running "make-kpkg" with any target other than "clean".  Otherwise,
+> version and revision numbers will not work as expected.  Assuming that you
+> are using official Debian kernel sources, you will want to make the value
+> for --revision match the "version" of the linux-source-2.6.32 package.
+> I know the web page I pointed you to is long and boring.  But the answers to
+> all of your problems are in there.  Where did you get your kernel sources,
+> by the way?  And why are you compiling a custom kernel in the first place?
+>
+
+Stephen
+
+sorry I pasted the wrong name: --revision actually took effect since the 
+generated .deb is now (note the 'lore01')
+
+linux-image-2.6.32.10+drm33.1-recompiled_lore01_i386.deb
+
+but what I need to do is to get rid of '+drm33.1' which seems to be 
+automatically added...
+
+the kernel sources are from the ubuntu lucid package 'linux-source-2.6.32'.
+
+cheers
+	Lorenzo
+
+-- 
+Lorenzo Bettini, PhD in Computer Science, DI, Univ. Torino
+HOME: http://www.lorenzobettini.it MUSIC: http://www.purplesucker.com
+BLOGS: http://tronprog.blogspot.com  http://longlivemusic.blogspot.com
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpk99h$mh2$1@dough.gmane.org
+
+

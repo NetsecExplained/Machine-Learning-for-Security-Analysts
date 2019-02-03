@@ -1,0 +1,37 @@
+Re: Console font turned cyanOn Mon, Apr 19, 2010 at 2:37 PM, Robert Latest  wrote:
+> On Sun, Apr 11, 2010 at 3:35 PM, Tom H  wrote:
+>> On Sun, Apr 11, 2010 at 3:01 AM, Phil Requirements
+>>  wrote:
+>
+>> Just in case you are running grub2, the /etc/grub/default variables
+>> for framebuffer are
+>
+> I needed that hint, too. Between muckings around with GRUB's config I
+> keep forgetting that the settings are not in menu.lst, nor in
+> /etc/grub.d but in /etc/grub/defaults. IMO the whole new GRUB system
+> is suffering from incredible bloat, but maybe I'm just not seeing the
+> benefits.
+> BTW, if "vga=" doesn't cut it any more, how is stuff passed to the
+> kernel nowadays?
+
+You only need to edit /etc/default/grub and run update-grub in order
+to modify /boot/grub/grub.cfg (theoretically; unfortunately, you have
+to edit /etc/grub.d/10_linux or /etc/grub.d/30_os-prober to change the
+default generation of the menu entry names or prevent os-prober from
+picking up a windows recovery partition),
+
+The squeeze and sid kernels set the graphic mode through Kernel-based
+Mode Setting (KMS). I only use headless and Xless boxes so I have not
+looked into whether the kernel uses grub2's GRUB_GFXMODE OR
+GRUB_GFXPAYLOAD_LINUX variables to set the video mode. KMS can be
+turned off in grub.cfg with either "nomodeset" (possibly superceded)
+or ".modeset=0" where video=i915|i945|nouveau|radeon... but I
+have only gleaned this from reading Fedora and Ubuntu stuff.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2n6d4219cc1004201220i27c29909x78a487a0d4374441@mail.csmining.org
+
+

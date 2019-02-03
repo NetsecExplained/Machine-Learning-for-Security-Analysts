@@ -1,0 +1,284 @@
+THE WEEK IN REVIEW: Harvest at Macworld
+
+THE WEEK IN REVIEW: Harvest at Macworld
+
+
+
+
+
+
+=09
+
+
+
+
+
+=09
+
+
+
+
+=09
+=09
+=09
+=09
+=09
+=09
+=09                 Search
+=09                 
+=09                 
+=09                News.com
+=09                All CNET    
+=09                The Web
+                 
+
+
+
+
+
+
+
+Live tech help NOW!
+April's tech award
+1 million open jobs
+News.com: Top CIOs 
+ZDNet: PeopleSoft
+
+
+
+
+
+
+
+=09=09
+=09
+=09
+=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09
+=09
+=09
+=09
+
+
+
+=09
+=09
+=09
+=09
+
+
+
+CNET | NEWS.COM WEEK IN REVIEW
+The Entire Tech Week in a Single Email
+Saturday, July 20, 2002
+
+Mac fans flocked to the Macworld Expo in New York to watch Apple Compute=
+r trot out new hardware, software and even a Web services plan--but it migh=
+t be a challenge getting people to pay for the offerings.
+
+
+Apple CEO Steve Jobs kicked off the trade show by unveiling new=
+ iPod digital-audio players and a new flat-panel iMac.
+
+The new iPod players include models built specifically for computers that u=
+se Microsoft's Windows operating system. Apple lowered the price of the exi=
+sting 5GB iPod and a redesigned 10GB model, which is thinner and comes with=
+ a new case and remote control. Jobs also introduced a beefier 20GB iPod fo=
+r $499. The iPod stable now includes three models for Mac users and three m=
+odels for Windows users with MusicMatch software.
+
+As expected, Jobs introduced a new iMac model with a 17-inch flat-panel mon=
+itor. The model offers a widescreen display with 1,440-by-900-pixel resolut=
+ion versus 1,024-by-768-pixel resolution for the 15-inch iMac.
+
+Jobs also previewed the next version of Mac OS X, version 10.2, which will =
+be on store shelves Aug. 24 for $129. OS X 10.2 includes a new Finder with =
+improved search features, spring-loaded folders and the ability to change t=
+he background photo as often as every 5 seconds.
+
+But fans who rushed to OS X last year learned there's no such thing as a ch=
+eap upgrade when the company announced it will not offer a disc=
+ounted upgrade version of Mac OS X version 10.2, code-named Jaguar, to curr=
+ent users of the operating system. To get Jaguar, current OS X users will h=
+ave to buy a new Macintosh or an entirely new version of the operating syst=
+em for the retail price of $129.
+
+Apple's decision not to sell a less-expensive upgrade version lay in the qu=
+alitative difference between version 10.1 and 10.2. Although the versions s=
+hare the same core technology, Jaguar includes several new features and ser=
+vices, such as search tool Sherlock 3 and Internet address finder Rendezvou=
+s, which arguably classify it as an entirely new piece of software.
+
+Apple also raised eyebrows by transitioning its iTools Web serv=
+ices from a free program to a paid program called .Mac. The company plans t=
+o charge about $100 per year for the program. The collection of Web service=
+s was launched about three years ago, and now includes online storage via a=
+ service called iDisk, online greeting cards through iCards and other featu=
+res.
+
+Despite iTool's popularity, the company may face a tough sell w=
+ith the .Mac program. The history of paid services, is not a pretty picture=
+. Customers have bristled when companies try to slap charges on previously =
+free services. Some have succeeded but many have struggled, especially when=
+ free alternatives lurked elsewhere. In the early 1990s, Apple's efforts to=
+ form online communities and popularize search engines failed magnificently=
+.
+
+To its advantage, Apple has presented a fairly coherent and tangible set of=
+ services with .Mac. And although its software division is far more organiz=
+ed than it once was, it's unclear how overwhelming demand will be. However,=
+ an online petition protesting the new charges doesn't bode wel=
+l for the program.
+
+Microsoft's moves
+Not one to be caught in anyone's shadow, Microsoft plans to offer a=
+ rebate for its Office suite for Mac OS X to those who buy the software=
+ bundle when they pick up a new Mac. The promotion entails a $50 mail-in re=
+bate for people buying a new Mac and upgrading to Office v. X, and $100 for=
+ those buying a Mac and the full version of the software.
+
+The offers come after Microsoft revealed that sales of the software have no=
+t met its expectations. The software potentate had expected to sell 750,000=
+ copies of Office v. X by now, but instead has sold only 300,000 since the =
+program went on sale last November.
+
+Microsoft is also putting the finishing touches on the third co=
+llection of Windows 2000 bug fixes, which is nearly ready for release after=
+ a protracted period of testing. The update, Windows 2000 Service Pack 3, c=
+ontains vital security updates and hundreds of fixes to bugs plaguing the o=
+perating system that Microsoft released in February 2000. Service Pack 3 co=
+uld be important for many businesses, as not all of the included security f=
+ixes are available as separate downloads.
+
+
+Not everything will be available as a download, however. Weeks before Micro=
+soft plans to reinstate Java in Windows XP, it has shut down a =
+site that would automatically send its Java software to Windows XP users. T=
+he company closed the install-on-demand feature 30 days after it told Java =
+inventor Sun Microsystems it would reinstate Java in Windows XP through the=
+ forthcoming Service Pack 1 but remove it altogether in 2004.
+
+Somebody's watching you
+
+You better watch what you write in Yahoo's free e-mail service--because Yah=
+oo is. To protect users from malicious code, Yahoo uses an automated filter=
+ to swap out a handful of words such as "mocha" and "eval" that=
+ pertain to Web code known as JavaScript.
+
+The reason is that e-mail sent in a form known as "Web enhanced" can contai=
+n JavaScript instructions able to run programs on the recipient's PC. JavaS=
+cript is a Web language that can issue commands such as telling the browser=
+ to open up other windows or to prompt a service to change a password, for =
+example.
+
+"Mocha" is one of those special commands that can be run from Web-enhanced =
+e-mail. Typing "mocha:" into the location bar of the Netscape browser will =
+open a screen with a display area and a text box underneath, in which comma=
+nds can be entered. A malicious hacker could, for example, use the command =
+line to run a program that changes a person's password without that person'=
+s knowledge.
+
+
+On the heels of plans for new powers to patrol people's Web use, the U.S. g=
+overnment is again turning to technology to monitor suspicious acti=
+vity in the name of fighting terrorism. The government has unveiled mor=
+e details of its Terrorist Information and Prevention System (TIPS), a plan=
+ to recruit volunteers across the country who will keep tabs on dubious or =
+suspicious behavior.
+
+"The program will involve the millions of American workers who, in the dail=
+y course of their work, are in a unique position to see potentially unusual=
+ or suspicious activity in public places," according to the TIPS Web site. =
+But the American Civil Liberties Union, one of several critics of the plan,=
+ fears the proposal will encourage racial profiling and vigilantism, possib=
+ly leading to searches of private homes without a warrant.
+
+Also of note
+A handful of entrepreneurial technology companies are advancing tec=
+hniques once used haphazardly by record companies and Napster-haters, i=
+n ways that may be far more destructive to the credibility of file-swapping=
+ networks than were previous efforts...Apple released the final=
+ version of its QuickTime 6 digital media software, marking a stand-down in=
+ a dispute over licensing fees...The Federal Trade Commission is pl=
+anning to take a deeper look at whether some state laws illegally restr=
+ict Internet commerce...In one of the toughest sentences for online auction=
+ fraud, a Virginia man was sentenced to 12 years in prison fo=
+r defrauding hundreds of shoppers on eBay and Yahoo auction sites...The Hou=
+se of Representatives overwhelmingly approved a bill that would allow for <=
+a href=3D"http://clickthru.online.com/Click?q=3D3c-tK4RIcIw_GtL-2JY0VXXjhrH=
+NHdR" >life prison sentences for malicious computer hackers...MPEG LA, =
+a group of patent holders governing MPEG-4, finalized licensing ter=
+ms for the media delivery standard, bowing to market pressure for manag=
+eable royalty rates...Several tech and telecommunications giants are considering a joint venture to pepper the United States with wireless=
+ "hot spots."
+
+Want more? Check out all this week's News.com headlines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<=
+br>
+
+
+
+The e-mail address for your subscription is qqqqqqqqqq-cnet-newsletter=
+s@example.com
+Unsubscribe | Manage My Subscriptions | FAQ | AdvertisePlease send any questions, comments, or concerns to&n;=
+bsp;dispatchfeedback@news.com<=
+/A>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Price comparisons |
+Product reviews |
+Tech news |
+Downloads |
+All CNET services
+
+
+
+
+
+        Copyright 2002 CNET Networks, Inc. All rig=
+hts reserved.        =
+     
+
+
+
+
+
+

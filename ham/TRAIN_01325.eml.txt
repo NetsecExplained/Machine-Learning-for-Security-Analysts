@@ -1,0 +1,28 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a
+ different version name)On Thu, 8 Apr 2010 13:13:22 -0400 (EDT), Bob McGowan wrote:
+> 
+> I run Ubuntu on my laptop, because I got tired of the manual Nvidia
+> setup every time the kernel changed.
+
+I have been a regular on this forum for several months now, and I
+know from experience that the topic of the proprietary nvidia driver
+has come up as a topic of frustration many times.  I have a couple
+of machines at home with nvidia cards in them, and I plan to do
+some research in this area and publish my findings on a web page,
+assuming that I can find something useful to say.
+
+But first, I've got to get my taxes done!
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/255649179.1925261270748527351.JavaMail.root@md01.wow.synacor.com
+
+

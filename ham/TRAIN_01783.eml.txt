@@ -1,0 +1,57 @@
+Re: Ximian apt repos?On 21 Jul 2002 14:20:42 +1200
+Mark Derricutt  wrote:
+
+> I found the following mentioned on a news.gnome.org usenet posting. 
+> I've not yet tried it thou.  AFAIK this is just the gnome2 rpms, but
+> there ximian's, don't know what else is on the apt repository either,
+> must take a look around.
+> 
+> Mark
+> 
+> # Gnome2 - mentioned on news.gnome.org
+> rpm http://apt.sunnmore.net/ gnome2 gnome2
+> rpm-src http://apt.sunnmore.net/ gnome2 gnome2
+> 
+> On Sun, 2002-07-21 at 14:15, Brian Fahrlander wrote:
+> > On 20 Jul 2002 17:17:59 -0500, Chris Weyl  wrote:
+> > 
+> > > Just a quick question....  does anyone know of a public Ximian apt/rpm
+> > > repository?
+> > > 
+> > > (I know, I know....  but some ppl kinda like it:-))
+> > 
+> >     Yeah, I'm one of them.  Ximian, if it could be installed from Apt would be sweet- the graphics are done very, very well.  The usability is actually higher than most other environments.  But their installer really sucks.
+> > 
+> >     If you find/setup one (and figure out how to install it) let me know.
+> > 
+> > ------------------------------------------------------------------------
+> > Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+> > Evansville, IN                    My Voyage: http://www.CounterMoon.com
+> > ICQ  5119262
+> > ------------------------------------------------------------------------
+> > I don't want to hear news from Isreal until the news contains the words
+> > "Bullet", "Brain", and "Arafat".
+> > 
+> > _______________________________________________
+> > RPM-List mailing list 
+> > http://lists.freshrpms.net/mailman/listinfo/rpm-list
+> > 
+> 
+> 
+Would be very nice indeed but the server doesent work for me :\
+cant connect to the server! anyone else got a hint?
+
+thanks,
+che
+
+
+> 
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

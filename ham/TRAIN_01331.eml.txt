@@ -1,0 +1,68 @@
+Re: evolution 2.30 with exchangeCamaleón wrote:
+
+> On Tue, 25 May 2010 18:57:31 +0200, deloptes wrote:
+> 
+>> Camaleón wrote:
+>> 
+>>> If Evolution is working "off-line", switch into "on-line" mode, that
+>>> should go away the message about "network not available".
+>>> 
+>>> 
+>> this is the problem the online option (down left) is outblended and
+>> inactive. I don't understand why.
+> 
+> It could be a bug, but Evolution depends much in network-manager settings
+> to check the connection status of the computer. Be sure you are indeed
+> online.
+
+does somebody here is using it (also in production)?
+I want to cross check some things.
+I'm not using network manager, because the stupid thing is waiting for me to
+login to connect, but my home is on a network share that I need to have
+mounted before I login
+
+> 
+> Also, go to "File" menu and look there for any "switch to online" option
+> you can toggle on.
+
+be sure I've done this already .. this option is disabled too
+
+> 
+> You can try by launching Evolution being another user (not your usual
+> one) and from a console, to see any output errors.
+
+this is a good idea, I'll try. I've actually tried but only to see if evo is
+running
+
+> 
+>> By the way I'm using evolution in KDE4 so may be there is something from
+>> gnome missing.
+>> 
+>> I did a test upgrade so may be evolution packages are upgraded but
+>> dependant were not installed - is it possible?
+> 
+> Check for any updated packages again.
+
+updating daily 
+
+> 
+> Update manager should care about the required packages and dependancies
+> that will be upgraded, I doubt you are missing one of them, it should
+> have warned you if something was missing or broken :-?
+> 
+
+thanks - perhaps is the network manager. I'll get it running and check
+again.
+
+if someone is reading mails with evolution 2.30 from exchange please give me
+a note.
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hth4dp$ds3$1@dough.gmane.org
+
+

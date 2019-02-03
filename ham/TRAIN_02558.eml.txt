@@ -1,0 +1,25 @@
+Re: KDE4 & KDE3 || Gnome2 & Gnome3Alexander V. Wolf wrote:
+
+> Hello everybody!
+> 
+> Maybe possible installed KDE3 and KDE4 paralleled? Example: KDE3 into
+> /opt with KDE4 into /usr. And maybe get answer on this question with
+> Gnome2 and Gnome3?
+> 
+> P.S. Sorry, my english is bad
+> 
+
+I'm really thinking of starting a project to prolong the life of kde3.
+
+we could really do what SUSE has been doing all the time and put kde3 into
+opt or whatever else.
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsbc4v$hor$2@dough.gmane.org
+
+

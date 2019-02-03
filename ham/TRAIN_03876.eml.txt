@@ -1,0 +1,26 @@
+Re: uploading to esnipsOn Tue, 20 Apr 2010 12:11:24 -0500, Hugo Vanwoerkom wrote:
+
+> Uploading to esnips (http://www.esnips.com) doesn't work anylonger in
+> Iceweasel.
+> You have to be a member to upload but it's free. I can only upload when
+> I use FF on XP under VMware. Google-chrome doesn't do it either and I
+> don't have more browsers.
+
+Most sure it's due to a bad web design that makes use of non-w3c 
+standards :-(
+
+Anyway, "esnips" seems to allow uploading files by e-mail, which could be 
+an alternative if their web front-end does not work for you.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.21.06.46.55@csmining.org
+
+

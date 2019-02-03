@@ -1,0 +1,50 @@
+Re: Flash is open?[Thanks to everyone who responded.]
+
+On Fri, 14 May 2010 07:39:47 -0500
+Mark Allums  wrote:
+
+> On 5/13/2010 6:31 PM, Celejar wrote:
+> > Adobe claims that they publish the Flash specs:
+> > http://www.adobe.com/choice/openmarkets.html
+> >
+> > I always thought that the reason for all the trouble with Flash on
+> > Linux is that Flash was a closed standard.  If the spec is published,
+> > why are the FLOSS players so far behind Adobe's player?  Is it just
+> > that difficult to design a good player?
+> 
+> I always perceived a lack of interest.  Few people really want to work 
+> on it, it seems.  I root for Gnash, but I go ahead and use Adobe's 
+> non-free player.
+
+I use Adobe, too, but only because I've never gotten the FLOSS players
+to work properly.  I'd dearly love to ditch Adobe.
+
+...
+
+> Flash may not be a priority, sense it performs two functions.  One, it 
+> acts as the standard web video player.  Two, it tries to be a standard 
+> web programming interface and SDK.
+> 
+> The former is becoming mooted by the advent of HTML5.  The latter is 
+> boring, since there are 1000s of other ways to write programs that run 
+> in web browsers, e.g., Javascript.  No one really wants Flash to be the 
+> go-to standard for programming, even if it offers a few shiny gewgaws. 
+> Don't you hate Flash-based sites?  I know I do.
+
+Of course I do, but as long as they're out there, I need to be able to
+access them.  And I'm not talking about silly games - there are serious
+sites that require Flash.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514143925.d0b7a0ef.celejar@csmining.org
+
+

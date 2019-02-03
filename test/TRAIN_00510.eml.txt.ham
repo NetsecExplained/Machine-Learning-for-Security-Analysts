@@ -1,0 +1,22 @@
+Re: Apt repository authentication: it's timeHi.
+
+Brian Fahrlander  wrote:
+
+>     What's it take to ensure we're covered against this kind of
+>     childish/moronic/Microsoft-era problems?
+
+Well, I am checking the packet signatures while building the apt-tree.
+Not very pretty, not very fast, but it works.
+
+Nonetheless:
+did anyone ever play with this:
+http://distro.conectiva.com.br/pipermail/apt-rpm/2002-August/000653.html
+
+-- 
+R!
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

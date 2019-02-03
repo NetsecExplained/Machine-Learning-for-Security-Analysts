@@ -1,0 +1,35 @@
+Re: Kde 3.5 ...> On a Phenom X2 with 4 GiB RAM and a pretty new GFX card whose name
+> I don't remember, I get random hangs while doing nothing more than light
+> surfing with some minimal background activity.
+
+What browser? Is it only on specific sites? Flash? Heavy Javascript or
+even Java? What does top show?
+
+Can you maybe test that on another distro as well? I remember some KDE
+4 versions with light hangs, typing would seem slow, but I don't have
+that issue anymore. I don't know when it disappeared.
+
+
+> KDE 3.5.10 (almost) never has this issue. I know because I still use KDE
+> 3.5.10 at work and even though the hardware is _years_ older, it's a _lot_
+> faster.
+> And yes, I have Nepomuk off, no fancy effects, no nothing.
+> Unfortunately, this is nothing you can file a bug against.
+>
+
+I know, it's not even certain where to file it. KDE? Debian?
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/h2s880dece01005060908mc19d59ads8b35b7e0b845dc8c@mail.csmining.org
+
+

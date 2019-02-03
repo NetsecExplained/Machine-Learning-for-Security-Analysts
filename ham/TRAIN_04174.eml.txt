@@ -1,0 +1,19 @@
+REQ: Beast/BSEhttp://beast.gtk.org
+
+There's a realy nasty shortage on sequencers :(
+
+(Actually I'd like this running on my main box, which is Irix but that
+I'll probably try to tackle myself :)
+
+-- 
+Rule #1: All software sucks
+Rule #2: All hardware sucks.
+Rule #3: My vacuum-cleaner is hardware. It never obeys rule #2?
+		-- Tanuki the Raccoon-dog, Scary Devil Monastery
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

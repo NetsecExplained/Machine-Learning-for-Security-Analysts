@@ -1,0 +1,59 @@
+Re: Migrate OS to smaller drive?On 2010-04-11 15:54, Sjoerd Hardeman wrote:
+> Ron Johnson schreef:
+>> On 2010-04-11 08:11, Clive McBarton wrote:
+>>> Sjoerd Hardeman wrote:
+>>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>>  rsync -ax / /media/newdevice.
+>>> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>>>
+>>> I would have suggested mv. It has the useful property that you can
+>>> easily spot aborted transfers by the fact that the original device is
+>>> not empty afterwards.
+>> One note is that I've had issues where symlinks remain pointing to the 
+>> old drive.  (That was a long time ago, though, and maybe I did something
+>> wrong.)
+> I thought symlinks keep point via a file location memo, like "look at
+> /usr/share/the/file/you/want", which is the old location just after
+> copying, but the new location when you boot from your new device and
+> that becomes root.
+> 
+
+Note how at the bottom or this example bar/shoe still points to 
+../snuffle/shoe/.  When you try to "cp -axv / /some/new/root" the 
+same thing will happen.   In /usr/bin all the symlinks to 
+/etc/alternatives will still point to the *current* 
+/etc/alternatives not to /some/new/root/etc/alternatives.
+
+$ mkdir foo/snaggle snuffle/shoe
+$ cd foo
+$ ln -sf ../snuffle/shoe .
+$ dir
+total 44
+drwxr-xr-x   3 me me  4096 2010-04-11 17:12:44 ./
+drwxr-xr-x 206 me me 36864 2010-04-11 17:12:04 ../
+lrwxrwxrwx   1 me me    15 2010-04-11 17:12:44 shoe -> ../snuffle/shoe/
+drwxr-xr-x   2 me me  4096 2010-04-11 17:12:04 snaggle/
+
+$ cd ..
+$ cp -av foo bar
+`foo' -> `bar'
+`foo/snaggle' -> `bar/snaggle'
+`foo/shoe' -> `bar/shoe'
+
+$ dir bar
+total 44
+drwxr-xr-x   3 me me  4096 2010-04-11 17:12:44 ./
+drwxr-xr-x 207 me me 36864 2010-04-11 17:13:54 ../
+lrwxrwxrwx   1 me me    15 2010-04-11 17:12:44 shoe -> ../snuffle/shoe/
+drwxr-xr-x   2 me me  4096 2010-04-11 17:12:04 snaggle/
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC24B54.5060804@cox.net
+
+

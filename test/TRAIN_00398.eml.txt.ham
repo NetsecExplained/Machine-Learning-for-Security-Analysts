@@ -1,0 +1,29 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 12 May 2010 11:47:08 Modestas Vainius wrote:
+> On tre=C4=8Diadienis 12 Gegu=C5=BE=C4=97 2010 18:48:04 Boyd Stephen Smith=
+ Jr. wrote:
+> > Virtuoso, Akonadi, and Strigi (among
+> > others) may be appropriate for a upgrade before either the freeze or the
+> > KDE SC 4.5.0 release.  The KDE-integration parts might be missing, but =
+as
+> > long as new versions don't cripple KDE (AFAIK, their only "consumer" in
+> > Debian) new upstream versions and bug fixes can be accepted until the
+> > freeze.
+>=20
+> Except that kdesupport applications are typically not the problem. It is
+>  KDE integration where majority of bugs are.
+
+I propose we drop KDE from stable for the Squeeze release, then. ;P
+
+Seriously though, if the RC-bug list keeps falling, there's no time to wait=
+ on=20
+KDE SC 4.5.  Let's try and get a high-quality KDE SC 4.4 ready for Squeeze.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

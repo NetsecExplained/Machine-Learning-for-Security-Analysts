@@ -1,0 +1,13 @@
+How to add service port ?How do I install / add an additional service port to the system which
+can be access via Microsoft ODBC driver?
+
+Regards,
+    Yen Ho
+(Technical Support)
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

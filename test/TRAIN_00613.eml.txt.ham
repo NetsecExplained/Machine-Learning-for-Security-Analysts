@@ -1,0 +1,48 @@
+Re: Forged whitelist spamGary Lawrence Murphy:
+>This is for the whitelist fans: Can someone please tell us why the 
+>following extremely frequent spam header pattern would _not_ pass a 
+>whitelist test? The letter itself is most certainly spam/viral and
+>was most certainly not sent by me, but I see no way you might tell that it 
+>was not, nor can I see how I might charge the sender with fraud for having 
+>'impersonated' my account. .. My uneducated guess  is that all they need to 
+>jump expensive whitelist
+>walls would be buckshot a spam-laden Klez ..
+
+There are several issues here.
+
+(1) For reasons that have nothing to do with
+commercial advertising, we need email software that
+prevents virus attacks a la Melissa and Klez. We
+simply can't continue down the path where every
+script kiddie with a grudge or political agenda can
+cause millions or billions of dollars worth of
+damage.
+
+(2) Very likely, email practices will evolve to the
+point that digital signatures are the standard way
+to recognize the sender of a message. Sabotaging
+your machine or otherwise compromising your private
+key will be the only way that someone can forge a
+message from you. I don't see any reason that email
+software that automatically uses digital signatures
+for contact management and whitelisting would be
+any more expensive than existing email clients.
+Unless Microsoft manages to get a defacto monopoly
+on it.
+
+(3) I think identity theft should be made a felony,
+with very stiff penalties, for reasons that have
+nothing to do with spam. No, obviously, simply
+parading around with a sign that says "I'm George
+Bush" is not identity theft. On the other hand,
+I think using a virus to compromise someone else's
+private key should should fall into that category.
+
+
+_________________________________________________________________
+MSN Photos is the easiest way to share and print your photos: 
+http://photos.msn.com/support/worldwide.aspx
+
+http://xent.com/mailman/listinfo/fork
+
+

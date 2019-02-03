@@ -1,0 +1,38 @@
+[Razor-users] Razor2 error: can't find "new"
+Using Razor2 via SpamAssasin.
+
+System is Solaris 2.7, with qmail. Spamassassin run via user's procmail.
+All users who use SA have run razor-register.
+
+Razor2 is failing, and I can't find anything in the limited docs or on 
+google on it,
+and I'm hoping someone can help.
+
+The error (which doesn't prevent SA from working) is:
+
+Oct  2 06:38:22 sancho2 qmail: 1033565902.186041 delivery 4588: success: 
+razor2_check_skipped:_Bad_file_number_Can't_locate_object_m
+ethod_"new"_via_package_"Razor2::Client::Agent"_(perhaps_you_forgot_to_load_"Razor2::Client::Agent"?)_at_/usr/local/lib/perl5/site_p
+erl/5.6.1/Mail/SpamAssassin/Dns.pm_line_374./did_0+0+1/
+
+Looking at Dns.pm doesn't really help me, and Razor2::Client::Agent appears 
+to be in the right place,
+in /usr/local/lib/perl5/site_perl/5.6.1/Razor2/Client.
+
+Ideas?
+
+...Chris
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,31 @@
+Re: Kde 3.5 ...On 2010-05-06, Mike Bird  wrote:
+> My point is that many KDE developers and packagers do not use KDE
+> like real-world users, and therefore do not appreciate the concerns
+> of real-world KDE users.
+
+My current open applications on a normal work day:
+kontact (running kmail and akregator)
+konqueror (with khtml kpart)
+ark
+kdevelop
+
+kopete
+konsole
+okular
+
+I'm not sure which of these apps I use that aren't a kde app, except the
+Qt-only app that I'm doing as a part of my day job.
+
+Sometimes I do have a vmware running to compile test on windows, and
+sometimes I need to show off my graphical skills (what skills?) in
+inkscape. These are hte only non-kde apps that I actually use.
+
+/Sune
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhu8hio.rvp.nospam@sshway.ssh.pusling.com
+
+

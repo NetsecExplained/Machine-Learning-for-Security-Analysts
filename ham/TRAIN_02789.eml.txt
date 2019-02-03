@@ -1,0 +1,24 @@
+Don't do the brown WiFi, the brown WiFi is BADURL: http://boingboing.net/#85515860
+Date: Not supplied
+
+Rob "Pringles Can" Flickenger and others Cliff Skolnik at the O'Reilly OS X con 
+has tracked down the cause of the annoying flakiness in the wireless network 
+here -- every 20 or 30 seconds, you start getting "connection refused" messages 
+from your browser and other net-utilities. Rob "Pringles Can" Flickenger wrote 
+it up. 
+
+It turns out that running the great network-spy app Etherpeg[1] (or other 
+"promiscuous" network sniffers) and the built-in firewall in OS X at the same 
+time causes your computer to begin intercepting every packet sent out on your 
+segment of the wireless network and respond to it with a "rejected" message. 
+
+So today, Rob (and everyone else who knows about this) is going to run around 
+and tell people running Etherpeg to _turn off the firewall_ (and vice-versa). 
+Ah, fickle networking, you are such a stern mistress! Link[2] Discuss[3] (_
+Thanks, Rob!_)
+
+[1] http://www.oreillynet.com/pub/wlg/1414
+[2] http://www.oreillynet.com/pub/wlg/2086
+[3] http://www.quicktopic.com/boing/H/bfYib9hETQSA
+
+

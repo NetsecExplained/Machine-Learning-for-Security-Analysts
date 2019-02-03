@@ -1,0 +1,24 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)On 2010-04-14 23:29, Stan Hoeppner wrote:
+[snip]
+> 
+> You mentioned you had problems building 2.6.32 and .33 kernel source.  Do
+> you use the Debian kernel source or kernel.org source?  I've been using the
+> kernel.org source for quite some time and have never had any real problems
+> with it (knocks on wood).  I had a build problem with .33 a while back but
+> that turned out to be due to a slight bit too much overclock on my machine
+> in this warmer weather.  ;)
+> 
+
+Debian source.  It's the first kernel build problem I'm had since 
+the 2.4 days, and I've been using 2.6 since .0.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC6A4BF.50504@cox.net
+
+

@@ -1,0 +1,72 @@
+Re: Chromium Xperience  On 05/18/2010 11:23 PM, Kelly Clowers wrote:
+> On Tue, May 18, 2010 at 19:15, KS  wrote:
+>> Hi all,
+>>
+>> I have been an Iceweasel user since it entered Debian repositories. A
+>> few days ago I discovered that Chromium was also available for Debian
+>> and installed it.
+>>
+>> I feel it is more responsive and is "faster" than Iceweasel This could
+>> be due to Chromium using different task for every tab it opens and using
+>> its own window decorations (Iceweasel uses GTK+ and I use KDE). Even
+>> with each tab increasing the use of memory by about 30MB, it still feels
+>> faster than Iceweasel. No real tests done here, but Chromium does win
+>> for responsiveness to a casual user.
+>>
+>> Being an Iceweasel user with the Adblock+ extension, I'm accustomed to
+>> (almost) adfree web browsing. This hasn't worked as smoothly with
+>> Chromium. There is an Adblock extension available for Chromium, but it
+>> works in a different way that it shows the advertisement while the page
+>> is loading and then hides the element. This is not as clean as Iceweasel
+>> (firefox). In addition, the extension didn't block Google adverts!
+>> Iceweasel takes this round (very important).
+>>
+>> And then comes the topic of shortcuts. I love the "/" shortcut for
+>> Iceweasel, Chromium still uses the two-key combination of Ctrl+F!
+>> Another fast shortcut is the Ctrl+Shift+Del which brings up the priate
+>> data delete box. In Chromium one has to go through either preferences or
+>> first History>  Edit Items and then delete.
+>>
+>> Chromium was also behaving oddly when playing flash video on full
+>> screen. The video was full screen but behind the browser window!
+>>
+>> The Adblock+ advantage with Iceweasel is the one factor which might keep
+>> me away from Chromium unless better adblocking is implemented.
+>>
+>> What is the experience of other users who have tested out Chromium in
+>> Debian?
+> I have the dev build installed. I used it a bit to play with Youtube's
+> html5 version.
+> I guess it's kind of fast, but I didn't really notice, although I
+> didn't feel like using
+> in a realistic browsing session of mine. I am kind of curious about how it
+> would work when every session involves reopening 50-120 tabs (which is
+> normal for me), but I can't tolerate the UI for that long -_-
+>
+> To the extent I did use it, it worked ok. On one of the dev updates, html5
+> audio was broken, but I filed a bug and it was soon fixed.
+>
+>
+> Cheers,
+> Kelly Clowers
+
+Ive bee using Chrome dev channel version for several months now.  I like the 
+fact that each tab has its on process.  If one crashed it does not take the 
+whole browser with it.  I watch a lot of flash videos on hulu, etc and when 
+flash crashes or I loose audio from flash all I have to do is terminate the 
+flash process from chrome's own task manager and restart the video.  I use 2 
+monitors and when I watch videos on one screen I some time browse the web in 
+another chrome window on the second monitor.  I may have many tabs open which I 
+don't want to close just to restart flash when it fails like I would in 
+Firefox.  I do use adblock for chrome but I have not seen it do mush for 
+blocking adds.
+
+....Bob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF405DF.5030803@skyeweb.com
+
+

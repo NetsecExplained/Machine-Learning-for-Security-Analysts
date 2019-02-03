@@ -1,0 +1,248 @@
+[Lockergnome Penguin Shell]  Karaoke Kernel
+
+<!--
+ body      { BACKGROUND-IMAGE: url(http://www.lockergnome.com/images/issue/top-right.gif); scrollbar-3dlight-color: #DADADA; scrollbar-arrow-color: #17514B; scrollbar-base-color: #007C7A; scrollbar-darkshadow-color: #808080; scrollbar-face-color: #C0C0C0; scrollbar-highlight-color: #DADADA; scrollbar-shadow-color: #808080 }
+ a:link    { COLOR: RED; TEXT-DECORATION: underline }
+ a:visited { COLOR: #FF8080; TEXT-DECORATION: underline }
+ a:active  { color: #000000; TEXT-DECORATION: none }
+ a:hover   { color: #820000; TEXT-DECORATION: none }
+ p.title   { BACKGROUND: #C0C0C0; BORDER-BOTTOM: #808080 4px solid; BORDER-LEFT: #DADADA 4px solid; BORDER-RIGHT: #808080 4px solid; BORDER-TOP: #DADADA 4px solid; COLOR: #000000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal }
+ p.news    { BACKGROUND: #C0C0C0; BORDER-BOTTOM: #808080 4px solid; BORDER-LEFT: #DADADA 4px solid; BORDER-RIGHT: #808080 4px solid; BORDER-TOP: #DADADA 4px solid; COLOR: #000000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 18pt; FONT-WEIGHT: normal }
+ p.sidebar { BACKGROUND: #DADADA; BORDER-BOTTOM: #C0C0C0 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #C0C0C0 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #000000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-ALIGN: center }
+ .link     { BACKGROUND: #DADADA; BORDER-BOTTOM: #C0C0C0 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #C0C0C0 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #808080; font-size: 9pt; font-family: Verdana; font-weight: bold; padding: 3px; width: 100% }
+ .url      { font-size: 8pt; font-family: Verdana, Tahoma, Arial }
+ .fixed    { font-family: courier, courier new; font-size: 10px }
+-->
+07.10.2002 Lockergnome Penguin Shell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  07.10.2002 PenguinREPORT
+
+
+CAREER SERVICES FROM LOCKERGNOME AND DICE.COM: We've teamed up with
+Dice.com to bring you a full service I.T. career enhancement solution.
+Whether you are looking for your
+dream job
+or trying to
+hire talented people,
+the full-featured career resource center is the place to start. Find your
+IT talent solution
+today!
+
+I've just got a few quick thoughts today.
+
+First, the search is underway for the hosting solution mentioned in Monday's Penguin Shell. The response has been great, with more than two dozen offers of web space for the Foundation for Children and Youth With Diabetes. It gratifying to see our community rally around a great cause. Know that whether you answered the call or not, you're in the electronic company of some caring and compassionate folks. I've not yet heard whether a solution has been found from among the many offered, but I'll certainly keep you posted on the outcome.
+
+Second, a few final clarifications on the 4th of July bruhaha. A reader brought to my attention that, though he didn't believe it to be the case, offering my opinion on the state of America could be seen as trolling. That certainly wasn't intended. Also, I've seen much email over the past week that started with, "Since you published the opinion of someone outside the US, I'd expect that you'll publish an opinion in disagreement." Well, I did that already - it was my own opinion that started the discussion. I can clearly see the potential for this to get out of hand. So, this will be the last word on the subject. Thanks for your opinions and your discussion, the vast majority of which was well-thought and reasonable. Both sides were presented and we're moving on.
+
+On to some Lockergnome news. If you haven't already heard, 
+CleverMedia is sponsoring karaoke night at Gnomedex. According to the woman with her finger on the pulse of Gnomedex, Lori Lockwood, "There is definitely a 'surprise' in the works for the attendees ... " Hmmm. Could it even compare to last year's Miss Gnomedex contest? I think it unlikely. In any regard, the folks at CleverMedia are certainly more than capable of coming up with loads of fun -- it's what they do for a living! Between Leo Laporte, Doc Searls, Steve Gibson, Mark Thompson, Evan Williams, and too many others to mention, you'd be silly to miss out.
+
+Onward. Have a great day.
+Tony
+Steidler-Dennison       
+
+ GnomeTWEAK
+
+
+Lockergnome readers, SAVE 50% on the Computing Encyclopedia!
+Are you looking for the ultimate computing resource? Discover the
+Computing Encyclopedia from Smart Computing.  Regular price $59,
+SPECIAL OFFER for Lockergnome readers,
+get your set TODAY, ONLY $29.95!
+
+Windows Apps in Linux? - Part II
+
+I don't want to mince any words, here. CodeWeavers has really hit a sweet spot with their recently-released CrossOver Office product. This is, quite simply, the fulfillment of the promise of the Wine Project. Using this slick little app, virtually all the applications in the Microsoft Office suite are fully functional in Linux. Frankly, I never thought I'd see the day when running Windows apps in Linux was exciting. Maybe it's time to take up shucking ice cubes in the blasted lands.
+
+Let's break this product up a bit. If purchased as a bundle, both CrossOver Office and CrossOver Plugin (as we discussed yesterday) share an install script. They do, however, require separate install processes, so they need to be launched individually from a shared window.
+
+I started the CrossOver Office install, dropped my Office 2000 disc in the CD drive, and fired up the install. It looked and performed exactly as you'd expect to see it in Windows. I was able to customize the install, as I always have, then let it run. At the end of the process, CrossOver Office "fakes" a Windows reboot and the Office suite installation is complete.
+
+Even Internet Explorer 5.0 is installed. There's an option in the CrossOver Office package to install IE 5.5 but, to my chagrin, this was the one area of the install that failed. Actually, the install itself may have succeeded - I was just left without an IE browser following the upgrade. It's hard to tell whether that was a fault in CrossOver Office, or in the IE program itself.
+
+For the most part, these apps perform in Linux as they do in Windows. The IE install was a bit kludgy, with some font problems and an inability to customize the toolbar. Word worked perfectly, allowing me even to pull together legal documents for a friend's business without so much as a hiccup. Even printing works well with the installation of a "Wine Postscript Printer" driver.
+
+Let me reiterate something I said yesterday. I've watched the Wine Project walk, then crawl, then walk again over the past few years. I've always suspected that the fits and starts were not for lack of talent. With the financial backing of CodeWeavers, it appears that my suspicions were well founded. Wine has, through CrossOver Office and CrossOver Plugin, matured to a level of useability that should easily attract Linux users throughout the spectrum of experience. In the big picture, widespread acceptance of these products could remove the last remaining roadblock for many current Windows users to make the leap to Linux: the loss of Word and Excel. They simply don't need to fear those losses any more.
+
+A note on the "for pay" structure of these products seems in order. As you well know, I'm an open source guy through and through. But, this is clearly a case in which the "free" efforts of talented and dedicated developers simply wasn't enough to close the gap. The value of these products easily outweighs their minimal cost. And, if it keeps these developers moving forward, it seems to be the perfect pay model for Linux.
+Recommend It!
+Send us a GnomeTWEAK
+
+ GnomeCORE
+Kernel Configuration - Part X
+
+Today we're looking into the mysteries of Plug and Play support in your Linux kernel configuration.
+
+There's really not much mystery to it. This section simply asks the question, "Do you want plug and play support in the kernel?" In other words, do you have all the PCI and ISA devices in your system that you'll ever need to have? If you're set solid with your current machine, there's no use to add the overhead of PnP to your system's kernel code, or as a loadable module. If, on the other hand, you've got PCI or (on an older system) ISA slots just begging to be filled, build this support into the kernel or select it as modules.
+
+See, this kernel gig isn't really so tough. In fairness, we're hitting the high points without a heady discussion of the hidden workings. The discussion of PnP alone could comprise a full series in Penguin Shell. But, so far, the configuration has been pretty straightforward.
+
+Tomorrow, we will dive a bit deeper, with a discussion of block device kernel configuration.
+Recommend It!
+Send us a GnomeCORE tip
+
+ GnomeFILE
+LiquidWar
+
+http://www.ufoot.org/liquidwar/
+
+"Liquid War is a truly original multiplayer wargame. You control an army formed with thousands of pixels (fighters) which look like liquid and try to eat your opponent. You can play against a primitive NPC/AI or up to 5 other human players. Network play is available."
+Recommend It!
+Send us a GnomeFILE suggestion
+
+ GnomeVOICE
+Gnome 2 Installation Notes
+Scribbled by Dale Hirt
+
+"As always, am loving the newsletter.  I've been getting it since day one,
+and I love all the stuff that you have put in it.
+
+"Just a quick word about the Gnome2 installation.  At least so far in my
+installation wonders, I have noticed that you need to install intltool (#15)
+before scrollkeeper (#3), as it is required in order to build.
+
+Thanks again for a great newsletter."
+Recommend It!
+Speak your GnomeVOICE
+
+ GnomeCLICK
+Linmodems.org
+http://www.linmodems.org/
+
+Linmodems.org is a full-featured site on modem hardware and setup in Linux. This has always been a point of friction with Linux users - finding that the machine you've just coverted doesn't have a Linux-compatible modem, or finding modem configuration to be too difficult. Linmodems.org takes on both these issues with skill and ease. The site includes discussion on hardware, software and chipsets. It also links to sites to walk you through the process of setting up a winmodem in Linux. This is a great resource of your main connection to the e-universe is via a dialup connection.
+Recommend It!
+Suggest a GnomeCLICK
+
+
+
+http://www.lockergnome.com/issues/penguinshell/07.10.2002.html
+Your subscribed e-mail address is: [qqqqqqqqqq-lg@spamassassin.taint.org] - To unsubscribe or change your delivery address, please 
+visit the subscription management
+page. Use of the Gnome moniker by Penguin Shell does not imply endorsement of the Gnome Desktop Environment. Penguin 
+Shell is an equal-opportunity desktop employer. For further information, please refer to the GnomeCREDITS in the 
+sidebar.
+
+
+
+LOOK OVER HERE
+
+ Download Tip eBooks
+
+ Latest Windows 
+Daily
+ Latest Digital
+Media
+ Latest Tech 
+Specialist
+ Latest Penguin 
+Shell
+ Latest Apple Core
+ Latest Web 
+Weekly
+ Latest Bits & Bytes
+ Latest Audio Show
+
+ Low Price Search
+ Our Tech Conference
+
+ Microsoft Office Tips
+ PC 
+Productivity Tips
+ Cool 
+Internet Tips
+ Windows 2000 Tips
+ Windows XP Tips
+
+
+
+
+
+ Tell a Friend About 
+Us!
+ Advertise With 
+Us
+ High-Tech Job 
+Search
+ Chat With Gnomies
+ Watch The Webcams
+ Computer Power User
+
+ Read Past Issues
+ Download X-Setup
+ About Lockergnome
+ Our Privacy 
+Policy
+ View More 
+Options
+ Our XML / RSS 
+Feed
+ Syndicate Our 
+Tips
+ Link To 
+Lockergnome
+ Get Chris's Book
+ Win a Digital Camera
+
+
+ General Feedback
+ Chris's Blog
+ E-mail the Editor
+
+
+ GNOMESPECIALS
+ Manage Your Workgroup
+ Form Pilot
+ Say the Time 5.0
+ Boomer - Stream Now
+ Create Web/CD catalog
+ Easy Web Editor
+ Kleptomania
+ Tag&Rename
+ Pretty Good Solitaire
+ Visualize Color Combos
+ FirstStop WebSearch
+ Ecobuilder
+ Book Collector
+Get Listed Here
+Question: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother? 
+
+
+
+
+
+ 
+
+
+CLICK HERE TO ZOOM
+
+ 
+LOOK IT UP
+
+
+
+
+
+ 
+BYTE ME NOW
+
+©2002, Lockergnome LLC. ISSN: 1095-3965. All Rights Reserved. Please read our Terms of Service. Our Web site is hosted by DigitalDaze. Domain registered at DNS Central.
+
+
+
+

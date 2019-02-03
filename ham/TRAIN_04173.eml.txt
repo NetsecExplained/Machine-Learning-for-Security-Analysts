@@ -1,0 +1,48 @@
+Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+	misleading?P.S. Matter of fact, far as I understant plain English, the first part =
+is somewhat cryptic, too:
+
+On May 20, 2010, at 2:53 AM, David Hoerl wrote:
+
+> In your program=E2=80=99s control-flow statements, you can test for =
+the presence (or absence) of the appropriate negative literal to =
+determine how to proceed. For example, the following while statement =
+from the SimpleCocoaTool code implicitly tests the word object variable =
+for the presence of a returned object (or, in another sense, the absence =
+of nil):
+>=20
+> while (word =3D [enm nextObject]) { printf("%s\n", [word UTF8String]);
+> }
+
+I am not quite sure what's an "appropriate negative literal" and whether =
+it's present or absent, but perhaps it's just that there's a fine point =
+there which escapes me (I do admit I did not check the doc, it might use =
+the term before in a way which makes the statement unambiguous).
+
+What's -- IMHO of course -- pretty misleading is what follows though. =
+Seems to me we are checking the word object variable very very =
+explicitly -- you can't be much more explicit in testing XXX than =
+writing "while (XXX)".
+
+What we are -- in fact -- testing _implicitly_ is whether the _enm_ =
+object variable might contain nil.
+
+Or do implicit/explicit mean something else in English than in all other =
+languages I bumped into?
+
+Best,
+---
+Ondra =C4=8Cada
+OCSoftware:     ocs@ocs.cz               http://www.ocs.cz
+private         ondra@ocs.cz             http://www.ocs.cz/oc
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

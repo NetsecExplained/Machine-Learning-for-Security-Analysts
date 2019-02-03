@@ -1,0 +1,22 @@
+Re: acroread not seeing printersFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, 15 Apr 2010 11:46:13 -0400
+Wayne  wrote:
+
+Hello Wayne,
+
+>    Just tried to install acroread again.  Won't install due to a bug
+> in the ia32 libs.  The saga continues.....
+
+All very strange, as it works nicely here.  Sadly, I have no idea what
+to suggest.
+
+--=20
+ Regards  _
+         / )           "The blindingly obvious is
+        / _)rad        never immediately apparent"
+
+Black man got a lot of problems, but he don't mind throwing a brick
+White Riot - The Clash

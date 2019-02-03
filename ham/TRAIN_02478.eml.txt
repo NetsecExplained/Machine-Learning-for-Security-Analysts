@@ -1,0 +1,22 @@
+Re: kde-core list should be updated (live-helper)On 05/03/2010 12:50 AM, Diederik de Haas wrote:
+> That seems to me a good candidate for the kde list and then the kde-full list should be the kde-full
+> meta-package.
+
+forgot to mention..
+
+> So that means for kde list:
+
+both updated, thanks you.
+
+-- 
+Address:        Daniel Baumann, Burgunderstrasse 3, CH-4562 Biberist
+Email:          daniel.baumann@panthera-systems.net
+Internet:       http://people.panthera-systems.net/~daniel-baumann/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE53D4E.8090408@debian.org
+
+

@@ -1,0 +1,42 @@
+Re: alsa-driver.spec tweak for homemade kernels ... >> > Well, I don't really find it consistent at all to use an rpm package
+ >> > built against something that wasn't installed through rpm :-/
+ >>
+ >> Following that reasoning, I've been installing all my custom-built
+ >> kernels through rpm recently. I find it annoying, though, that
+ >> alsa-kernel, and similar packages, will only build for the currently
+ >> running kernel.
+ >>
+ >> So I've attached a patch to specify an alternate kernel by setting the
+ >> "TARGET_KERNEL" environment variable before running rpmbuild. You
+ >> still need to have the rpm for the specified kernel installed, but at
+ >> least it doesn't have to be currently running. It's kinda hackish, so
+ >> if someone has a better way to do this, let me know.
+ >
+ >That idea looks good although it maybe needs to be tweaked a bit more (what
+ >you sent doesn't support packages named "kernel-smp"). I'd also prefer a
+ >cleaner way than the env variable, and preferrably not editing the spec...
+ >probably "--define 'target 2.4.xx-xx' --with smp". Sound good enough?
+ >The BuildRequires on "kernel-source" will also need to be removed because
+ >it won't necessarily need to be true, and that does bug me a bit :-/
+
+	Me and my kernel rpm builds ... this all works along the same idea I have 
+been aiming for, but the freaking RedHat Kernel srpms still have been stump 
+...
+
+	If we could get this and the alsa driver stuff working, it would be whole 
+lot easier to try out a newer kernel ... but then the size of these rpms 
+are huge, at least for us n^1 world courties ... ;-{ ...
+
+	I will keep watching and hoping that somebody comes up with a great working 
+idea ...
+
+Thanks guys.
+Mailed
+Lee
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

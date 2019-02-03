@@ -1,0 +1,62 @@
+CD player UI for toddlersSo, like many young children, my daughter Tatum (age 21 months) *really*
+likes music. She also likes to have control over her environment, and this
+means she wants to be the one putting CDs into the CD player, and getting
+the music playing.
+
+By watching Tatum, I've discovered that you can learn a lot about UI design
+from watching 21-month-olds use technology. There is definitely a market
+niche for a toddler-friendly CD/MP3 player.
+
+The CD player we have combines play and pause in a single button, but
+doesn't provide *instantaneous* feedback that the button was pushed, instead
+requiring you to wait until the music starts, 5-10 seconds. This is a UI
+disaster. Since Tatum doesn't get feedback right away, she presses the
+button again, thereby pausing the CD before it even plays. She'll only ever
+get music if she presses the button an odd number of times. This happens a
+surprising amount of the time, since she eventually hits the button again
+when the music doesn't play.
+
+For toddlers, pressing play must cause the music to start immediately,
+within half a second, for the toddler to get the causality and not press the
+button multiple times. As well, pressing the button multiple times shouldn't
+change the semantics, like an elevator button. No matter how many times you
+press, the elevator still comes to that floor. The play button needs to be
+the same.
+
+The back-hinged door mechanism feeding the CD into the player is also a UI
+disaster for Tatum. Since the door hinges on the back, Tatum has to angle
+CDs to put them in, and take them out. Putting CDs in isn't much of a
+problem, but taking them out is. Since Tatum grabs CDs by the back edge,
+that edge comes out first, hitting the lid. Tatum eventually forces and
+wiggles the CD out, a process that's hard on the CD and the player (but
+which hasn't yet resulted in the CD player being broken). Surprisingly, it
+hasn't been a problem getting the CD hole onto the spindle -- Tatum seems to
+understand this concept, and the CD load area geometry naturally guides the
+CD.
+
+Tatum's CD player also plays tapes and has FM radio. For a toddler, this is
+a mistake. Tatum doesn't understand the need to flick a switch to put the
+player into a specific mode. She understands putting a CD in, and pressing
+the play button. She sometimes understands the buttons for advancing a song,
+but uses them erratically. As well, the radio feature has both FM mono and
+FM stero, a distinction totally lost on Tatum. Tatum only understands the
+binary distinction of music/no music.
+
+What would the ideal toddler CD player be like? It would immediately start
+playing a CD after it was loaded. As soon as the CD load door was closed, it
+would give some audible feedback. It would have a single large play button.
+The other typical CD controls would be larger than normal, but at least half
+the size of the play button, and located far away from the play button, so
+there is no chance of them getting accidentally pressed on the way to play.
+The play button would be a bright color that is different from the color of
+the player, and different from the color of the other CD control keys. The
+device would only play CDs, no other functions. The CD load area would flip
+open at least 80 degrees. It should be small, approachable for a toddler. It
+should be possible to repeatedly drop the player from a height of 1-2'
+without affecting the player.
+
+- Jim
+
+
+
+

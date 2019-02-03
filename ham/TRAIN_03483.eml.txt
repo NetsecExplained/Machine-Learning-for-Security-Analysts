@@ -1,0 +1,13 @@
+[ILUG] Secure remote file accessWhat are the best options available on Linux ? SFTP ? WebDAV ? Something
+else ? Linux servers - Linux and Mac OS-X clients.
+
+
+
+Niall
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

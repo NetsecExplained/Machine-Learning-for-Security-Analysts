@@ -1,0 +1,35 @@
+Re: Upcoming etch point release-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Adam D. Barratt wrote:
+> The next point release for the "etch" oldstable distribution, 4.0r9, is
+> scheduled for Saturday, 22nd May.
+
+I guess this is rather a plain "formality" than an endorsement by the
+project that this release is an up-to-date version of "etch" (say as far
+as security is concerned). Maybe this should be pointed out more clearly
+in order to avoid misunderstandings.
+
+Cheers,
+
+Johannes
+
+- --
+In questions of science, the authority of a thousand is not worth the
+humble reasoning of a single individual.
+- - Galileo Galilei, physicist and astronomer (1564-1642)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvtCyQACgkQC1NzPRl9qEWmbQCfbzcP/lHqnzkJysd9wC0yKKGi
+gvgAn2GW2R7lSpr/QRjuNxOegEyq1otj
+=hrlU
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED0B25.8030100@physik.blm.tu-muenchen.de
+
+

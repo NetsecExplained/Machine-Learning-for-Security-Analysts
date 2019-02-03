@@ -1,0 +1,34 @@
+Re: How do I get the mbr package to do its job quietly?On Wed, 7 Apr 2010 13:25:37 -0400 (EDT), Sven Joachim wrote:
+> On 2010-04-07 18:21 +0200, Stephen Powell wrote:
+>> I read the man page for install-mbr, and I can see how to eliminate
+>> the boot prompt, which I have done, but I couldn't find a way to
+>> suppress the MBR advertisement.  The DOS/Windows mbr program is
+>> totally silent, a trick that I would like to teach this program.  Does
+>> anyone know of a way to accomplish this?
+> 
+> I haven't looked at this in detail, but probably you have to patch the
+> source and rebuild the package.
+
+That's what I was afraid of.  I was hoping that I had overlooked something
+that someone out there knew about.
+>>
+>> Or is this just something I have to live with?
+>
+> Of course not.  This is free software, after all.
+
+>From a cost/benefit point of view, it's not worth it to me if I have
+to patch the source.  I'll just live with it.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/834014511.1687101270663849922.JavaMail.root@md01.wow.synacor.com
+
+

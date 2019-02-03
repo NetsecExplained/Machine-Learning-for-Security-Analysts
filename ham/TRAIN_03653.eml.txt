@@ -1,0 +1,14 @@
+Google PR sends a message that they have a new News service.
+    Maybe I'm slowURL: http://scriptingnews.userland.com/backissues/2002/09/23#When:8:19:16AM
+Date: Mon, 23 Sep 2002 15:19:16 GMT
+
+Google PR sends a message that they have a new News service[1]. Maybe I'm slow 
+this morning, or maybe I'm spoiled, but what's the big deal. I thought they 
+already had this. My personal aggregator[2] is better, it shows me what I'm 
+interested in, it's not one size fits all. Help me figure this out. I'm sure 
+there's something innovative here, I just don't see it.
+
+[1] http://news.google.com/
+[2] http://radio.userland.com/newsAggregator
+
+

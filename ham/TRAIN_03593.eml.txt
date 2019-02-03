@@ -1,0 +1,22 @@
+Re: [ILUG] slashdot EW Dijkstra humorOn Thu, Aug 08, 2002 at 01:40:30PM +0100, Brian O'Donoghue wrote:
+> One thing that really bugs me is when people say things like.
+> 
+> "On the machies we have these days you don't have to worry about
+>  writing optimised code" or "don't worry about writing
+>  things inline, just use a function"
+
+Oops, I tend to feel like that most times! I tend to feel that if we
+have extremely good compilation tools, then those tools should be able
+to do the inlining and optimisation far better than I could. That's the
+theory anyway :) And there's always a tradeoff with inlining between
+speed and memory bloat (which may sometimes be no tradeoff if swap
+starts getting involved...)
+
+Gary.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

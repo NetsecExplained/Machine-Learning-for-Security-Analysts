@@ -1,0 +1,64 @@
+Re: non-ASCII environmentOn Fri, 9 Apr 2010 17:57:04 -0400 (EDT), John Hasler wrote:
+> Stephen Powell writes:
+>> Yes, Hercules is an IBM mainframe emulator.  But the problem is
+>> licensing.  There are some *very old* releases of IBM operating
+>> systems that have passed into the public domain that you can run on
+>> the Hercules emulator.
+>> These are circa 1975 or so, which is about 35 years ago.  An example
+>> is VM/SP Release 6.
+
+Oops! I meant to say VM/370 Release 6, not VM/SP Release 6.  VM/SP
+Release 6 is still proprietary.
+
+-----
+
+These are some of the issues that someone writing portable code
+for ASCII vs. EBCDIC implementations needs to worry about.
+
+(1) Collating sequence.  In ASCII, the collating sequence is numbers
+(0-9), followed by uppercase letters (A-Z), followed by lowercase
+letters (a-z).  Special characters are mixed throughout.  In EBCDIC,
+the collating sequence is lowercase letters (a-z), followed by
+uppercase letters (A-Z), followed by numbers (0-9).  So records
+sorted alphabetically sort in a different order.
+
+(2) Assumptions of continuity.  In ASCII, the codes a-z and A-Z
+are contiguous, with no codes in between.  In EBCDIC, there are
+six non-contiguous ranges, a-i, j-r, s-z, A-I, J-R, S-Z.  Most
+of the codes in between are non-printable characters, but not
+all.  For example, ~ sorts above r and below s, } sorts above I
+and below J, and \ sorts above R and below S.
+
+(3) Hidden assumptions about control codes.  A program may, for
+example, assume that X'0A' is a line feed and hard code it
+somewhere.  In ASCII, that is true.  But in EBCDIC, a line feed
+is X'25'.
+
+(4) 7-bit assumptions.  In U.S. standard ASCII, all the printable
+characters are between the hex values of X'00'-X'7F'.  Codes
+above X'7F' are not standard codes.  Historically, these indicate
+the combination of the "Meta" key with a regular code.  In
+EBCDIC, the codes are sprinkled throughout the entire range of
+X'00' through X'FF', with the numeric symbol 9 having the highest
+code of any normal printable character (X'F9').
+
+This is not an exhaustive list, but it gives you an idea
+of what to watch for.  Although the
+following table has a few mistakes, this link will give you
+an idea of ASCII vs. EBCDIC codes.
+
+   http://www.natural-innovations.com/computing/asciiebcdic.html
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8691664.2246941270858506206.JavaMail.root@md01.wow.synacor.com
+
+

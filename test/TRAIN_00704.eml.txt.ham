@@ -1,0 +1,32 @@
+Re: Pango problemsOn Fri, 9 Aug 2002 10:34:23 +0200, Matthias Saou  wrote:
+
+> Well, I stand corrected :-)
+> The thing is, I hadn't used gconf-editor yet... and it's exactly what I
+> feared, old "not so good" memories are coming back : It looks exactly like
+> a GNOME RegEdit :-/ Oh well.
+> I still hope that the few missing features I'm still looking for will be
+> added in the next 2.0.x releases, like for example being able to have the
+> panel always under *all* other windows (if you know how to do that, I'm
+> really interested! ;-)).
+> 
+    Ya know, I was thinking the same thing.  But there's at least two main 'opposing thumbs' between regedit and gconf:
+
+    1. GConf is written in English, not symbol tables; you can actually READ what the heck you're looking at.
+
+    2. Because it's better-considered, it should be more sound; when the registry gets a wrong value, you may not be able to boot....if GConf is scrogged, you can still have all the underlying power of the OS to keep things running....just call up WindowMaker (or whatever) for the next session until you get it worked out.
+
+    It took me a while to warm up to it...but I *do* like Gconf...
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+"Waddling" into the mainstream?  I suppose...
+http://www.usatoday.com/usatonline/20020805/4333165s.htm
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,31 @@
+Re: GA Development (was Re: [SAdev] [Bug 1030] NO_INVENTORY
+    dangerous)On Sep 25,  7:35pm, Daniel Quinlan wrote:
+> Allen Smith  writes:
+> 
+> > Well, I have been doing a bit of fiddling with the GA. I don't have
+> > a _large_ corpus practically available to me (or processable within
+> > reasonable processor time - I can justify the GA fiddling part as
+> > being part of my research, but not the mail processing...), so in
+> > order to test out my changes someone needs to send me a copy of the
+> > "tmp/scores.h" and "tmp/tests.h" that get generated prior to the GA
+> > going into action.
+> 
+> Why not start with mass-check corpus results? It's much easier to get
+> those
+
+Ah. As in getting a directory listing of the corpus server and doing some
+downloads? OK, done.
+
+> and you can create your own tmp/scores.h and tmp/tests.h.
+
+Good point. Will report back on my results.
+
+	-Allen
+
+-- 
+Allen Smith			http://cesario.rutgers.edu/easmith/
+September 11, 2001		A Day That Shall Live In Infamy II
+"They that can give up essential liberty to obtain a little temporary
+safety deserve neither liberty nor safety." - Benjamin Franklin
+
+

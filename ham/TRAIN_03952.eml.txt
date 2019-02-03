@@ -1,0 +1,29 @@
+Re: Is Firefox/Iceweasel leaking?On Fri, 07 May 2010 19:58:26 +0200 Merciadri Luca wrote:
+> I noticed on many computers with Debian, whatever the kernel
+> (2.6.xx, xx >= 26), that, once ``too much'' tabs have been opened,
+> Firefox/Iceweasel becomes sluggish, slower and slower, and often
+> stalls after some time. I also noticed that, when becoming more and
+> more sluggish, it takes more and more RAM, even when all the pages
+> are completely loaded. Why? Am I the only person who's experiencing
+> this? Is there an objective explanation to this?
+
+I'd had similar problem with Iceweasel on Lenny when my browser cache
+limit was set to a large value.  But things are okay after bringing it
+down (to 20MB).  You might want to try that.
+
+Large cache slows Iceweasel down because it uses these large databases
+of stored history to suggest addresses in each tab's address bar.  I
+also had a Zotero database, which used to worsen things.
+
+Girish.
+
+-- 
+Girish Kulkarni - Allahabad, India - http://athene.org.in/girish
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100508180204.6d9ce52d@marvin.dhcp.hri
+
+

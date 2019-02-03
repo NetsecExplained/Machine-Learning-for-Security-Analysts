@@ -1,0 +1,81 @@
+Kernel Bug | 2.26.26-2-amd64Hallo,
+
+
+Seit dem Update auf den 2.26-2er Kernel friert mein System =
+regelm=C3=A4=C3=9Fig alle 2 -3 Tage ein.
+
+Auszug aus dem Kernel.log:=20
+Apr  7 23:31:03 alster172 kernel: [85333.490300] INFO: task apache2:5282 =
+blocked for more than 120 seconds.
+Apr  7 23:31:03 alster172 kernel: [85333.490300] "echo 0 > =
+/proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Apr  7 23:31:03 alster172 kernel: [85333.490300] apache2       D =
+0000000000000002     0  5282   6692
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  ffff810008425c58 =
+0000000000000082 0000000000000001 ffffffff8024aba6
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  ffff810008422080 =
+ffff810083da1060 ffff810008422308 0000000080248cb2
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  ffffffffa0106a47 =
+0000000000000206 0000000000000206 ffffffff8024aba6
+Apr  7 23:31:03 alster172 kernel: [85333.490300] Call Trace:
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+getnstimeofday+0x39/0x98
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+:ext3:ext3_get_block+0x0/0xf9
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+getnstimeofday+0x39/0x98
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+sync_page+0x0/0x41
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+io_schedule+0x5c/0x9e
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+sync_page+0x3c/0x41
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+__wait_on_bit_lock+0x36/0x66
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+__lock_page+0x5e/0x64
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+wake_bit_function+0x0/0x23
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+find_lock_page+0x5e/0x8a
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+filemap_fault+0x72/0x33c
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+__do_fault+0x50/0x3e6
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+handle_mm_fault+0x3f4/0x867
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+free_pages_and_swap_cache+0x72/0x8e
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+do_page_fault+0x5d8/0x9c8
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+switch_uid+0x64/0x76
+Apr  7 23:31:03 alster172 kernel: [85333.490300]  [] =
+error_exit+0x0/0x60
+
+Die Logs sind voll solcher Eintr=C3=A4ge. Nicht nur der Apache-Dienst =
+ist betroffen.=20
+
+#517449: linux-image-2.6.26-1-amd64: SCHED_IDLE issues (tasks blocked =
+for more
+than 120 seconds)
+#517586: "INFO: task * blocked for more than 120 seconds" causes system =
+freeze
+
+Wie kann ich den Bug umgehen? Gibt es einen Patch hierzu? Kann ich unter =
+Lenny einen neueren Kernel installieren?
+
+
+Danke vorab.
+
+Gr=C3=BC=C3=9Fe
+
+Kadir
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/!&!AAAAAAAAAAAYAAAAAAAAANgZQ03M4XJFtKmiKKICjALCgAAAEAAAAHBFwEeRy5RAgbCQOKLCihcBAAAAAA==@politikcity.de
+
+

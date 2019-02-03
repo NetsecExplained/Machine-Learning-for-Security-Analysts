@@ -1,0 +1,59 @@
+RE: [SAtalk] separate inbound and outbound
+No I was just a little confused because I'm running procmail on a gateway
+and sits between the external sendmail box and internal exchange bridgehead
+server.  So there isn't any delivery to the local system.
+
+The only email it gets is inbound at the moment and we're looking to get rid
+of complication and go back to two boxes.  I did a test which looked like
+you guys are right about procmail, but testing is very limited due to the
+config I currently have.  It's just confusing when set up as a gateway.
+
+-Jason
+
+-----Original Message-----
+From: Stephane Lentz [mailto:Stephane.Lentz@ansf.alcatel.fr]
+Sent: Monday, September 23, 2002 2:50 PM
+To: spamassassin-talk@example.sourceforge.net
+Subject: Re: [SAtalk] separate inbound and outbound
+
+
+On Mon, Sep 23, 2002 at 02:26:34PM -0700, Jason Qualkenbush wrote:
+> 
+> Is there is way to separate inbound and outbound email so that I only
+check
+> for spam on inbound mail and ignore the outbound?
+> 
+> I'm using Sendmail and running procmail on the gateway to call
+spamassassin.
+> I know it more of a sendmail question, but my google searches have only
+> turned up people trying to log all inbound and outbound email.
+> 
+Using procmail, SpamAssassin doesn't get called for outgoing email
+(messages sent to other machines). 
+Procmail=Local Delivery Agent => inbound traffic to LOCAL machine.
+
+SL/
+---
+Stephane Lentz / Alcanet International - Internet Services
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

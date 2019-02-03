@@ -1,0 +1,28 @@
+Re: automate updates in Lenny-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ron Johnson wrote:
+> Anyway, the cron-apt package does what you want.  It is recommended,
+> though, to use it only for downloads.
+
+It does help the OP since he uses apt-get, but what about the people who
+normally use aptitude? There's no "cron-aptitude" package. And though
+cron-apt can be configured to actually run aptitude, I don't get the
+impression that it has really been tested that way.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAku/ujoACgkQ+VSRxYk44081HACgi1eRESKUeGr3uCMTvANuvrFJ
+6uUAni0/x+HETBqXee0iaemKsl3gAiff
+=zNjl
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBFBA3B.20009@web.de
+
+

@@ -1,0 +1,19 @@
+Problems with xosd-xmmsAfter installing and enabling xosd-xmms I get the following error when
+trying to start xmms
+
+Xlib: unexpected async reply (sequence 0x30)!
+
+xmms starts, but it does not detect mouse commands.
+
+Thanks,
+Mike
+-- 
+D. Michael Basinger
+dbasinge@speakeasy.net
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

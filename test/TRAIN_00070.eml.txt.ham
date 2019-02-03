@@ -1,0 +1,31 @@
+xine cannot play DVDs - "liba52: a52_block error"Since libdvdcss-1.2.0, I have been unable to play DVDs using ogle, xine,
+vlc, or mplayer.  They all show a scrambled picture with (VERY) choppy
+audio.  When I run xine I see tons of these in the console: 
+
+liba52: a52_block error
+liba52: a52_block error
+liba52: a52_block error
+liba52: a52_block error
+audio_out: inserting 5859 0-frames to fill a gap of 10989 pts
+metronom: audio jump
+liba52: a52_block error
+
+Has anyone seen this before and know how to fix it?  Or should I file a
+bug report?  
+
+Thanks for your help.  
+
+- Jon
+
+-- 
+jon@tgpsolutions.com
+
+Administrator, tgpsolutions
+http://www.tgpsolutions.com
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

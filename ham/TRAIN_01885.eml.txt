@@ -1,0 +1,33 @@
+Re: cannot open EPS file with inkscapeOn 2010-04-23, Umarzuki Mochlis  wrote:
+> --000e0cd112f6a7783f0484e81498
+> Content-Type: text/plain; charset=UTF-8
+>
+> At inkscape wiki, it says that we can open .eps file if ghostscript is
+> installed
+> http://wiki.inkscape.org/wiki/index.php/FAQ#What_formats_can_Inkscape_import.2Fexport.3F
+>
+> # aptitude search ghostscript
+> i A ghostscript                     - The GPL Ghostscript PostScript/PDF
+> interpr
+> p   ghostscript-doc                 - The GPL Ghostscript PostScript/PDF
+> interpr
+> i A ghostscript-x                   - The GPL Ghostscript PostScript/PDF
+> interpr
+>
+> or does it meant other ghostscript?
+>
+
+As an alternative, openoffice.org can open .eps files.
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnht3mb9.bu7.liam.p.otoole@dipsy.selfip.org
+
+

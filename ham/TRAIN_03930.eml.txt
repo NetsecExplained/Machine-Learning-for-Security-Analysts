@@ -1,0 +1,27 @@
+Re: NYTimes.com Article: Why We're So Nice: We're Wired to Cooperate
+> > Tom said:
+> >
+> > The question then becomes, why is knowledge sharing such a difficult 
+> > thing in organizations?
+
+And Owen replied:
+
+> Well, IMNHO, its because companies do not reward knowledge sharers. When 
+
+I don't work in this area, but I have a suspicion that many people
+suspect projects for "knowledge management" and "knowledge sharing" as
+attempts to eliminate their jobs, or at least their importance. If "the
+organization" knows all the things I know, why does it need me?
+
+This should actually be easy to test experimentally: compare the results
+of having someone call up and say, "Can you show us how to do X for this
+project we're working on?" with those of having someone summoned by a
+knowledge management project to explain how to do X for the knowledge
+archives.
+
+    - Win
+
+
+http://xent.com/mailman/listinfo/fork
+
+

@@ -1,0 +1,48 @@
+How can I initialize a QTMovie object with certain attributes using
+ writable data?Hello all,
+
+I'm trying to create an empty QTMovie object that I can add segments to, 
+and then play. This is easy to do with something like:
+
+movie = [[QTMovie alloc] initToWritableData:[NSMutableData 
+dataWithCapacity:1048576] error:&error;];
+
+I can then use -insertSegmentOfMovie to insert segments from other 
+movies into this one so I can play it back. The problem is that I also 
+need to set a certain attribute when creating the QTMovie object. In 
+particular, I need to set the QTMovieRateChangesPreservePitchAttribute 
+attribute, so that I can alter playback speed during playback without 
+changing pitch. This attribute cannot be written after the movie is 
+initialized.
+
+So, I can create the QTMovie object like this:
+
+movie = [[QTMovie alloc] initWithAttributes:[NSDictionary 
+dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], 
+QTMovieRateChangesPreservePitchAttribute, nil] error:&error;];
+
+Unfortunately, this is not editable. I've tried setting the 
+QTMovieEditableAttribute as well on creation, but it does not help. I 
+still get an exception when I try to insert anything into this movie. I 
+presume this is because there is no writable file or data reference 
+associated with the QTMovie.
+
+Any ideas on how to solve this?
+
+Thanks very much,
+Chad Sellers
+
+
+
+
+Chad Sellers
+Useful Fruit Software
+http://www.usefulfruit.com/
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

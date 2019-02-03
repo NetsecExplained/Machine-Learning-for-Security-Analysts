@@ -1,0 +1,14 @@
+[ILUG] veritas backup on linux ? I've a solaris box & a windows 2000 box, both with DLT drives, controlled
+by Veritas Backup.
+
+ Can I install some sort of client on the linux box to enable it to be
+backed up ? A browse of the Veritas site is a little quiet on this front.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

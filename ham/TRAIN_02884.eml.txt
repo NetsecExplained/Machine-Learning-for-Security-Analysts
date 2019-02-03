@@ -1,0 +1,15 @@
+RE: dylsexics of the wrold, untie!> If the text recognition algorithm/architecture humans use is anything
+> like the algorithm/structure we've been working with, the reason the
+> first letter (and to a lesser extent, the last letter) is important is
+> that without it the text pattern recognition problem is exponentially
+> more difficult (from a theoretical standpoint anyway) and has to be
+> resolved using deeper abstraction analysis.  The middle letters are far
+> less important and computationally much easier to resolve correctly.
+
+I think keeping the number of middle letters consistent with the correct
+spelling is important.  Would be interesting to see if this same effect is
+applicable to written forms of other languages, maybe even Japanese romongi.
+
+Bill
+
+

@@ -1,0 +1,13 @@
+debian installer ISO: customizing with new packages=0A Hi,=0A=0A I would like to add two packages to the netiso installer. I h=
+ave found this link, but I think I need more detailed instructions:=0A=0Aht=
+tp://wiki.debian.org/DebianInstaller/Modify/CD=0A=0A Do you know a web reso=
+urce that describes the necessary steps to create a new debian installer IS=
+O including new packages?=0A=0A Regards,=0A=0A=0A      
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/893812.89466.qm@web28411.mail.ukl.yahoo.com
+
+

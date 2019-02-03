@@ -1,0 +1,53 @@
+Re: The future of "nv" driver (was: Linux compatible mainboards
+ -another thought)On Mon, 26 Apr 2010 08:03:24 -0400
+"James P. Wallen"  wrote:
+
+> 
+> 
+> On 01/-10/-28163 02:59 PM, Celejar wrote:
+> > On Sat, 24 Apr 2010 09:53:27 -0400
+> > "James P. Wallen"  wrote:
+> >
+> > ...
+> >
+> >> Heck, I haven't even installed the non-free firmware to make wireless
+> >> work in a couple of these notebooks.
+> >
+> > Firmware runs on the external hardware, not the system, so system
+> > stability shouldn't be an issue.  I assume that here it's just the
+> > principle of the thing.
+> >
+> > Celejar
+> 
+> I'd characterize it as a combination of principle and curiosity. I 
+> really want to see how well I can accomplish what I want to do and what 
+> I need to do using only FOSS. I'm relatively new to GNU/Linux, but I've 
+> had very few problems that were at all difficult to resolve. Come to 
+> think of it, the only problems that were absolutely indomitable were 
+> caused by the use of non-free software / drivers in my earlier forays 
+> into the various distributions. I guess those experiences have 
+> strengthened my resolve to stick with FOSS.
+
+What makes the non-free firmware question particularly interesting is
+that the alternative is often to hardcode the functionality into the
+hardware.  Now, if you had a board with completely closed HW, but that
+presented an open, well documented interface for the driver, most
+people would be very happy (although there are, of course, the open
+hardware crusaders - more power to them!).  So, now that they've simply
+implemented some of that functionality in SW, in the form of firmware
+which the driver installs on the card, but which has nothing to do with
+your host machine, are you really any worse off?
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426160957.ac880f31.celejar@csmining.org
+
+

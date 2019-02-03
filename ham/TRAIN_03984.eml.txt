@@ -1,0 +1,16 @@
+Re: Java is for kiddiesOn Mon, Sep 02, 2002 at 03:19:13AM -0400, Eirikur Hallgrimsson wrote:
+> My opinion is biased because of the disgraceful state of non-Windoze 
+> browser java implementations.
+
+Horrors. Applets are kinda sucky. The cool kids are using Java to write
+server applications, not browser craplets.
+
+The giggle-inducing irony of the whole Java thing is how Sun's strategy
+backfired. They produced a platform that was supposed to dwell on the
+client side, where it would commoditize those clients. Instead, it turns
+out to be the perfect language to write server applications in, and it has
+successfully commoditized servers. Ooops!
+
+-- 
+njl
+

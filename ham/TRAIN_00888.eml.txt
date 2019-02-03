@@ -1,0 +1,43 @@
+Re: Moving to Debian: updated softwareFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Im still learning how to use mailing lists I read alot but I dont reply
+alot.
+
+Testing would be your best bet. If you want current you need debian
+unstable.. I think you can get the binary's from the experiential repo
+though
+
+On Fri, Apr 23, 2010 at 7:38 PM, Ron Johnson  wrote:
+
+> On 04/22/2010 03:54 AM, Dotan Cohen wrote:
+> [snip]
+>
+>> It looks to me that Backports is the best for an everyday
+>> user who values stability, and prefers to use released software
+>> version. Please let me know where I am mistaken. Thanks.
+>>
+>
+> "stable with current releases" is a contradiction.  If you want current
+> releases, run Testing or Unstable.  (Ignore the scary words from the
+> website.  Testing and Unstable are Stable Enough.)
+>
+> If you *really want* Stable, though, deinstall iceweseal, icedove,
+> openoffice, etc and get their binaries directly from upstream. There's no
+> shame in that.  (For OOo, I'd recommend www.go-oo.org; it's Debian's
+> upstream.)
+>
+> --
+> Dissent is patriotic, remember?
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a
+> subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BD22F5C.9010204@cox.net
+>
+>
+
+
+-- 
+Thomas Ferry A.K.A  Jinzo

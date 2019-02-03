@@ -1,0 +1,55 @@
+VLC will lag when reading local videos, whatever the codec-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+When watching videos locally, with VLC, it often lags at some parts of
+the videos, and the following kinds of messages are displayed at the
+console:
+
+==
+[some time] main video output error: picture [hexadecimal ref.] refcount is -1
+overflow in spectral RLE, ignoring
+==
+
+The [some time] references are often ~40 times separated, i.e. I could
+get
+
+==
+[00000010] main video output error: picture [hexadecimal ref.] refcount is -1
+[00000050] main video output error: picture [hexadecimal ref.] refcount is -1
+.
+.
+.
+==
+
+It does not only happen with Матрёшка files (.mkv). (I here
+test if Gnus supports cyrillic out-of-the-box.)
+
+Is it normal? Does it happen often with videos? What would it be due
+to? Are they corrupted?
+
+Thanks.
+
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Luck is what happens when preparation meets opportunity. (Lucius Annaeus Seneca)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvthfgACgkQM0LLzLt8Mhz+cwCfQ/ZbM/AeD/yQ6BA00vak/haw
+VwsAoKWKVXabMXa8aEwgUC1KT7NjLFWF
+=7PCF
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87eihewged.fsf@merciadriluca-station.MERCIADRILUCA
+
+

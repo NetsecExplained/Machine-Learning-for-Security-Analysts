@@ -1,0 +1,73 @@
+[OT] Re: Jobs: Thoughts on JavaOn 30 Apr 2010, at 07:42, niagarasoft20-jdev@yahoo.com wrote:
+
+> Java _is_ allowed on OSX.
+
+The situation between Flash and Java isn't even comparable.
+
+Java is open and useful, Flash is neither.
+
+Java still shares the the lowest-common-denominator cross-platform =
+weakness/strength (depending on perspective), which Apple may not want =
+to promote on the iPhone, because, let's face it, there are so many =
+patents on the iPhone that lots of that stuff can't be done in a =
+cross-platform way, because other platforms won't be allowed to have the =
+same functionality.
+So cross-platform code on the iPhone/iPod/iPad just doesn't make sense. =
+The market is big enough that if their product sell on these devices, =
+the developers can afford to make a first-class citizen native app =
+rather than being lazy and trying to write the same things for =
+deployment everywhere.
+
+Nothing stops anyone from using a portable code engine (e.g. C code or =
+Java compiled to C) and then put a native Cocoa Touch GUI on it.
+
+Flash from the get-go was designed to captivate a part of the internet =
+and make it privately owned, just like Silverlight and a slew of other =
+efforts, too. Flash and Frames are the bane of the web. Can't properly =
+search, bookmark, print, copy&paste;, etc. any of these. May they die a =
+quick, painful death, they caused enough suffering for users and web =
+developers alike.
+
+Having a several dozen web pages open sucks the life out of the fastest =
+machines, because of all the flash. That I only could suspect until 10.6 =
+put plug-ins in subprocesses. The relative CPU load between all of =
+Safari vs. the Flash plug-in speaks volumes.
+
+As much as I have to criticize about the closed nature/censorship of the =
+AppStore ecosystem, I'm THRILLED that Apple isn't bending. I hope Apple =
+can give the blow of death to Flash, which has been more than an =
+annoyance for many years. I can't wait until that's a chapter in =
+computing HISTORY. Bravo Jobs&Co.;!!!
+
+I also support his statement about Adobe being lazy. No version of any =
+Macromedia/Adobe Suite has ever run properly on any machine that has a =
+case-sensitvive root file system. If software is properly written, it =
+shouldn't even notice a difference, and the only parties which have to =
+be aware of the difference are users that copy files in a mixed file =
+system environment, or writers of backup/file-management software (where =
+2 files on one file system might map to one file on another).
+
+Only sloppy coding where paths are not #define-ed in one place but more =
+or less accurately copy&paste-ed; all over the code base causes issues =
+with resource and path name mismatches when the software is installed on =
+a case-sensitive file system. For a decade and several product cycles =
+Adobe didn't fix that, even though there were many bug reports about the =
+matter and even though Apple emphasized several times on various =
+occasions at WWDC that developers shouldn't make any assumptions on the =
+nature of the file system that the system is installed.
+
+Adobe didn't (want to) get it. They just wanted to continue milking =
+their old pre-OS9 code base for as long as possible. I wish Apple would =
+use some of their war chest to produce true competitors to Adobe's crap =
+that are reasonably priced. Adobe charges up the wazoo, and didn't care =
+to be a good platform citizen, and were it not for the 64-bit =
+transition, they'd still ship old, buggy Carbon based code. Barf! I'm =
+glad Jobs finally said it and broke with corporate politeness.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

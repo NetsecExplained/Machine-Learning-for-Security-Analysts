@@ -1,0 +1,52 @@
+Re: How to remove oowriter delay on opening document?On Tue, 20 Apr 2010 01:16:23 +0700, Sthu Deus wrote:
+
+> Thank You for Your time and answer, Camaleón:
+> 
+>>As Ron already said, review your system specs.
+>>
+>>OOo needs a lot of ram the first time it opens, and keeps consuming a
+>>good quantity of your system resources as long as is loaded.
+> 
+> Wow! What a product!
+
+Life is hard :-)
+ 
+>>In OOo 2.4 there is a "quick launch" option that preloads OOo at
+>>startup, not sure if that is available on newer releases.
+> 
+> How I can use the 2.4 version in the future releases?! - Compile myself?
+> Or there are some repos for Debian that make peoples life not as bad as
+> MS' ?!
+>
+> Or how I can make w/o C++ programming save the 2.4 version for ever?
+> Please do not suppose I'm foolish - just want still comfortable working
+> for years...
+
+If OOo does not offer such feature anymore, you can get "preload¹" which 
+is... humm, a "preloader" daemon ;-)
+
+>>Another thing you can try is launching OOo with an empty profile folder
+>>(just rename the current one) to start it from scratch and check if the
+>>delay still continues.
+> 
+> Sorry, I do not understand "empty profile folder"...
+
+OpenOffice saves the user settings under "~/.openoffice.org2" (or a 
+similar path). Just try by renaming the current folder and start OOo (it 
+will recreate an empty and new one) to check if you note any speed 
+improvement.
+
+¹ http://packages.debian.org/stable/misc/preload
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.19.18.58.20@csmining.org
+
+

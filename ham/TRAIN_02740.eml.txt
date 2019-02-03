@@ -1,0 +1,22 @@
+Re: [ILUG] Mutt reply hooksHi,
+
+On Tue, 30 Jul 2002, Gavin McCullagh wrote:
+
+> set alternates = "kbeditor@linuxcare.com|coolapps@linuxcare.com"
+> set reverse_name
+
+PS Make sure not to have a line like this:
+
+	send-hook .  'my_hdr From: Gavin McCullagh "
+
+which will only override it and cause pain and suffering.
+
+Gavin
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,24 @@
+Re: RH 8 no DMA for DVD driveOn Mon, 2002-10-07 at 09:56, Matthias Saou wrote:
+
+> > Thank you, that was exactly what I needed.
+> > DVD works great now.
+> 
+> BTW, I think I'll kake it so that my ogle package automatically inserts
+> this "options ide-cd dma=1" to /etc/modules.conf! It currently creates the
+> /dev/dvd link to /dev/cdrom (which will work most of the time, if there's
+> only one drive) if no /dev/dvd exists.
+
+Eek.  Maybe it's just me, but I don't think that's a good idea. 
+Outputting a message in %post and providing a README of some kind would
+be better, as well as perhaps adding a note in %description.
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

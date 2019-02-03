@@ -1,0 +1,55 @@
+Re: About USB hard drives and errorsOn 20100412_152156, Hugo Vanwoerkom wrote:
+> Celejar wrote:
+> >On Sat, 10 Apr 2010 22:06:06 -0600
+> >Paul E Condon  wrote:
+> >
+> >...
+> >
+> >>I got a little less timid and tried running smartctl even though I was
+> >>quite unsure of what to expect. It ran. Each of the three USB HD gave
+> >>somewhat different output, but none gave output that claimed there was
+> >>a working SMART on the drive. These drives are Western Digital (WD).
+> >>The WD web site mentions SMART and also uses the words Smart
+> >>Drive to mean something else that is a proprietary marketing
+> >>thing, AFAICT. I
+> >>was unable to find a list of part #s for drives that support S.M.A.R.T.
+> >>
+> >>I think I should be in the market for a better class of drives, but not
+> >>this weekend. Thanks for the help.
+> >
+> >My understanding is that S.M.A.R.T. doesn't generally work over USB.
+> >As Wikipedia puts it:
+> >
+> >For example, few external drives connected via USB and Firewire
+> >correctly send S.M.A.R.T. data over those interfaces.
+> >
+> >http://en.wikipedia.org/wiki/S.M.A.R.T.#Standards_and_implementation
+> >
+> 
+> I can use smart on my USB drive enclosure with an ATA drive but not
+> with my USB drive enclosure with a SATA drive.
+> 
+> Hugo
+
+Very interesting --- but
+
+My quick googling reveals many USB drive enclosures for both ATA and SATA
+but the marketers don't make mention of S.M.A.R.T . What is the brand of
+your enclosure. I want to look for it, in particular, and see if it claims
+the feature that you have discovered. Actually, on looking a little more
+closely, I'm not seeing any case of a single enclosure that can be used
+with both ATA and SATA. Do I read your post correctly - your enclosure can
+contain either a SATA or an ATA, and work over USB? But SMART only works
+when it is enclosing an ATA? 
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412223607.GL10774@big.lan.gnu
+
+

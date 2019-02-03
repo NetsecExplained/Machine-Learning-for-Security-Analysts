@@ -1,0 +1,24 @@
+Re: [SAtalk] My SA went crazy.
+Jesus Climent said:
+
+> d output: Bareword found where operator expected at (eval 11) line 95,
+> near "25FREEMEGS_URL_uri_test"  (Missing operator before
+> FREEMEGS_URL_uri_test?) Bareword found whe
+
+> Is that a bug or is a fault in my system?
+
+looks like there's an out-of-date copy of the rules files, on your system.
+that rules is called "FREEMEGS_URL" nowadays.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

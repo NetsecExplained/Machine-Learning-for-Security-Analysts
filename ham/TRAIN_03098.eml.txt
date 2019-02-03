@@ -1,0 +1,33 @@
+Re: cannot open EPS file with inkscapeOn Sat, 24 Apr 2010 00:04:48 +0800, Umarzuki Mochlis wrote:
+
+> On Fri, Apr 23, 2010 at 11:44 PM, Camaleón wrote:
+
+>> Are you getting any warning message?
+>>
+>>
+> when i tried to open it from command line $ inkscape
+> T-SHIRTMODELS-by_APEstar.eps T-SHIRTMODELS-by_APEstar.eps:1: parser
+> error : Start tag expected, '<' not found
+> ����
+> ^
+> 
+> and there's a pop-up with message "Failed to load the requested file
+> T-SHIRTMODELS-by_APEstar.eps"
+
+That error is quite similar to the one reported at Debian BTS. 
+
+Check if the version of Inkscape that you are running is affected by that 
+bug. As per the report, starting from 0.47 the error should be fixed.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.23.16.18.29@csmining.org
+
+

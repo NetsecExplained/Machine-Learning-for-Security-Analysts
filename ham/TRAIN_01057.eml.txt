@@ -1,0 +1,35 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)On Wed, 14 Apr 2010 10:02:42 -0400, Ryan Manikowski wrote:
+
+> On 4/14/2010 9:28 AM, Ron Johnson wrote:
+
+>> Really?   RealTek chips are as common as flies on horse poop, and works
+>> perfectly for me.
+>>
+
+(...)
+
+> Same here. Realtek 100mbit and GigE chips have always worked great
+> regardless of kernel version. The chipsets that have horrible support
+> are the Marvell adapters that use the 'sky2' module.
+> 
+> See this thread for details (sky2 module has still not been fixed since
+> its introduction in 8/2006):
+> http://forums.gentoo.org/viewtopic-t-487018-postdays-0-postorder-asc-
+start-0.html
+
+Mmmm... I manage some lenny systems running a variety of network adapters 
+(mainly Intel -e1000e- , Realtek -r8169- and Marvell -skge-) and have not 
+experienced any problem with them :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.14.14.17.57@csmining.org
+
+

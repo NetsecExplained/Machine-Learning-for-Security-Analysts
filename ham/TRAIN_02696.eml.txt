@@ -1,0 +1,9 @@
+firmware-realtek help pleaseCan somebody please help me with http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=579694#67
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100514041658.GA11705@ps11007.dreamhostps.com
+
+

@@ -1,0 +1,22 @@
+cannot open EPS file with inkscapeFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=UTF-8
+
+At inkscape wiki, it says that we can open .eps file if ghostscript is
+installed
+http://wiki.inkscape.org/wiki/index.php/FAQ#What_formats_can_Inkscape_import.2Fexport.3F
+
+# aptitude search ghostscript
+i A ghostscript                     - The GPL Ghostscript PostScript/PDF
+interpr
+p   ghostscript-doc                 - The GPL Ghostscript PostScript/PDF
+interpr
+i A ghostscript-x                   - The GPL Ghostscript PostScript/PDF
+interpr
+
+or does it meant other ghostscript?
+
+-- 
+Regards,
+
+Umarzuki Mochlis
+http://debmal.my

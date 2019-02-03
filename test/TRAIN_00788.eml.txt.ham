@@ -1,0 +1,31 @@
+Re: iceweasel crashing when closing tabsOn Wed, 19 May 2010 20:22:48 -0700, briand wrote:
+
+> I think it's related to javascript, but then again I think all browser
+> problems are related to javascript, I mean when they're not related to
+> flash.
+
+Uh? No, there are many problems coming for different sources that can 
+affect the browser stability.
+
+Javascript (and flash as well as other plugins) can be one of them, sure, 
+but disabling it should cure the issue at all. If it does not, that means 
+the problem can lie somewhere (packaging error, xul library or even old 
+profile settings).
+
+But "closing tags and getting crash randomly" is not the type of 
+behaviour I would associate to a javascript issue becasue javascript code 
+should have been rendered when the page loads or when clicking on items, 
+but not at page/tab close :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.20.09.42.39@csmining.org
+
+

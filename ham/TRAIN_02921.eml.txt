@@ -1,0 +1,34 @@
+Re: Best way to install kde-standardFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On =C5=A1e=C5=A1tadienis 08 Gegu=C5=BE=C4=97 2010 18:03:15 Diederik de Haas=
+ wrote:
+> > After rebooting and logging into KDE I noticed the following things:
+> > - When plugging in a usb device, device-notifier didn't notice anything
+> > and the only way to access  that usb device was to use mount it from
+> > Konsole - The battery monitor didn't work at all
+> > - I did not have a suspend to disk/ram option
+
+This is due to missing hal. hal has been added as a dependency to kde-stand=
+ard=20
+as of 5:59.
+
+> > - System Monitor - Harddisk didn't see any partitions
+
+Might be due to missing ksysguardd. Yet 4.4 packages should pull it in.
+
+> > But leaving out network-manager-kde seems to also not install some
+> > packages which may have  contributed to the problems described above. On
+> > first inspection libgudev-1.0-0 and libknotificationitem-1-1 seem
+> > especially relevant.
+
+libknotificationitem-1-1 is obsolete as of KDE SC 4.4. The goal is to get r=
+id=20
+of it.
+
+=2D-=20
+Modestas Vainius 

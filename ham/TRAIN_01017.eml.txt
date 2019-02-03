@@ -1,0 +1,76 @@
+Re: NVidia MCP61, no sound...On Sat, May 1, 2010 at 20:55, Andrea Giuliano  wrote=
+:
+> Here aplay -l:
+>
+> card 0: NVidia [HDA NVidia], device 0: HDA Generic [HDA Generic]
+> =A0Subdevices: 1/1
+> =A0Subdevice #0: subdevice #0
+>
+> Here is amixer info, too:
+>
+> Card default 'NVidia'/'HDA NVidia at 0xf9ef8000 irq 22'
+> =A0Mixer name =A0 =A0: 'VIA ID 397'
+> =A0Components =A0 =A0: 'HDA:11060397'
+> =A0Controls =A0 =A0 =A0: 4
+> =A0Simple ctrls =A0: 3
+>
+> Actually, you are right, it's rather strange I see just a few controls,
+> they should be many more (my card is a 7.1 points one).
+>
+> On Sat, 2010-05-01 at 14:08 +0000, Camale=F3n wrote:
+>> On Sat, 01 May 2010 15:52:46 +0200, Andrea Giuliano wrote:
+>>
+>> > Alsamixer doesn'i show muted input. Not does gnome-volume-settings. I
+>> > also checked out gnome-sound-properties, and it gives no errors at all=
+,
+>> > as if it thinks everything is working fine.
+>> >
+>> > Here is the output from amixer:
+>>
+>> Only "master", "PCM" and "capture"?
+>>
+>> No "mic" and no additional "aux" or "surround" outputs? :-?
+>>
+>> > and here is /proc/asound/cards
+>> >
+>> > =A00 [NVidia =A0 =A0 =A0 =A0 ]: HDA-Intel - HDA NVidia
+>> > =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 HDA NVidia at 0xf9ef8000 i=
+rq 22
+>> >
+>> > I'm going to try a LiveCD or such, but I'm not very optimistic.
+>>
+>> Modern motherboards use to include 5.1 or 7.1 audio channel chipset, it'=
+s
+>> a bit weird your amixer output only shows 3 devices...
+>>
+>> This may sound silly, but have you tried to plug the speakers jack in al=
+l
+>> the outlets available?
+>>
+>> What does "aplay -l" say?
+>>
+>> Greetings,
+>>
+>> --
+>> Camale=F3n
+>>
+>>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/1272727535.20670.1.camel@debian
+>
+>
+
+What is the output of /usr/share/alsa/alsa.conf
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/v2wd0bf7b0b1005010910s737eaa0dnf75809624ea3d653@mail.csmining.org
+
+

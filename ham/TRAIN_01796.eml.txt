@@ -1,0 +1,39 @@
+Re: fglrx driver in debian squeeze in limbo - any ideas?Le 03/05/2010 22:49, Carlos Miranda Molina (Mstaaravin) wrote:
+> On Mon, May 3, 2010 at 9:43 AM, tv.debian@googlemail.com
+>   wrote:
+>> Hi, what exactly is broken ?
+>> As a workaround you could use Sid packages if Squeeze's are in bad shape. I
+>> have two mostly Squeeze (amd64, kde with desktop "effects" enabled) machines
+>> running Sid's fglrx at the moment and they seem fine, glxinfo and fglrxinfo
+>> doesn't spit any error, xorg logs doesn't contain errors, and the few OpenGl
+>> stuff I just tried are working fine (namely "Torcs" and "xmoto").
+>
+> Hi
+> everyone is wrong, fglrx in Debian Squeeze need non-free packages in
+> /etc/apt/sources.list
+> ll they need is module-assistant and fglrx
+>
+> root@forest:~# aptitude install fglrx-driver fglrx-glx fglrx-control
+> fglrx-source fglrx-kernel-2.6.32-3-amd64 module-assistant -y
+> root@forest:~# module-assistant (and follow assistant, select fglrx,
+> make, build and install)
+> root@forest:~# modprobe fglrx
+> root@forest:~# aticonfig --initial (replaces /etc/X11/xorg.conf if exists)
+> root@forest:~# /etc/init.d/gdm restart (or kdm if you have  QT vaccine)
+>
+>
+Hi Carlos Miranda Molina, please work on your message trimming 
+technique, the OP was already hinted toward non-free by Camaleón earlier 
+in this thread so I could only assume he was aware of the need to use 
+non-free. I just mentioned that for me fglrx from Sid is working fine.
+I am sorry if "everyone" is wrong, but your message trimming suggest I 
+am "everyone" all by myself...
+I like your prompt by the way.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF49FE.6080906@googlemail.com
+
+

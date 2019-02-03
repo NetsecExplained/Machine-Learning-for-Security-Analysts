@@ -1,0 +1,34 @@
+Re: automate updates in LennyChris Hiestand wrote:
+> On Apr 7, 2010, at 12:27 PM, Ron Johnson wrote:
+> 
+>> On 2010-04-07 13:52, Jozsi Vadkan wrote:
+>>> [snip]
+>> That's a foolish thing to do, since blind acceptance can lead to a broken system.
+> 
+> Maybe so, but I've been using automatic upgrades for the last 2-3 years on many stable systems without a problem. The nice thing about staying within the stable distribution is that typically the only updates are security updates which are generally very small changes.
+> 
+> When you get to the scale of managing tens or hundreds of debian systems it's easier to automatically upgrade and fix any problems in the off-chance they happen. If you wanted to be more careful, one solution is to setup your systems in such a way that a small group of computers get updated before the rest, as an early warning system.
+> 
+> The major package changes happen between inter-distribution (eg etch -> lenny), which always need a human supervisor. This is acceptable on a larger scale because that only happens every 1.5 - 2 years.
+> 
+> Also if you have other management software (eg cfengine, puppet) in place, it helps mitigate problems when upgrading debian packages or distributions - decreasing the cost of a package upgrade mishap across many systems.
+
+As nicely put in the reference (2.7.5):
+
+"If the risk of breaking an existing stable system by the automatic upgrade 
+is smaller than that of the system broken by the intruder using its security 
+hole which has been closed by the security update, you should consider using 
+[the] automatic upgrade [...]"
+
+In other words, use automatic security upgrades if you can't maintain the 
+system actively and have enemies.
+
+-thib
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBFCF53.4050901@stammed.net
+
+

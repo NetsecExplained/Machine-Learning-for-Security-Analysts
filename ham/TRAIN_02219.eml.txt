@@ -1,0 +1,24 @@
+Re: executable won't executeOn 2010-05-17 08:54 +0200, Sven Joachim wrote:
+
+> On 2010-05-17 08:46 +0200, Alexey Salmin wrote:
+>
+>> So, it's a bug in lsb-core package?
+>
+> Yes, the LSB mandates that /lib/ld-lsb.so.3 is the dynamic linker:
+>
+> http://refspecs.freestandards.org/LSB_4.0.0/LSB-Core-IA32/LSB-Core-IA32/baselib.html
+
+This makes me wonder how Ubuntu obtained their LSB certification,
+considering that they do not seem have /lib/ld-lsb.so.3 in any package
+either, according to http://packages.ubuntu.com.  The whole LSB seems to
+be a joke.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87ocge52fo.fsf@turtle.gmx.de
+
+

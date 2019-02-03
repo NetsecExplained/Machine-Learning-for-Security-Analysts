@@ -1,0 +1,34 @@
+Re: [SAtalk] Too funnyOn Wednesday 28 August 2002 16:33 CET Theo Van Dinter wrote:
+> On Wed, Aug 28, 2002 at 04:20:52PM +0200, Malte S. Stretz wrote:
+> > I get about 3 of these per week. A google for trafficmagnet convinces
+> > me that they're worth their own rule...
+>
+> 0 hits here. :(
+
+I recently cleaned my spam corpus from them but these are my current 
+results:
+   OVERALL        SPAM     NONSPAM  NAME
+     13929         995       12934  (all messages)
+        13          13           0  T_TRAFFICMAGNET
+
+I put it into cvs_rules_under_test, let's see what the 2.41 GA run thinks 
+about it :)
+
+Malte
+
+-- 
+-- Coding is art.
+-- 
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

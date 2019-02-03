@@ -1,0 +1,32 @@
+Re: class variablesKind of a Catch-22, isn't it? Why does it exist?
+
+-Daniel
+
+On Apr 13, 2010, at 12:16 PM, Greg Parker wrote:
+
+> On Apr 13, 2010, at 11:37 AM, Daniel DeCovnick wrote:
+>> Out of curiosity, what is this for
+>> class_getClassVariable
+>> Returns the Ivar for a specified class variable of a given class.
+>> 
+>> Ivar class_getClassVariable(Class cls, const char* name)
+> 
+> It returns a class variable from a class. Since no classes have class variables, it won't actually do anything.
+> 
+> The implementation is approximately: 
+>    return class_getInstanceVariable(cls->isa, name);
+> 
+> 
+> -- 
+> Greg Parker     gparker@apple.com     Runtime Wrangler
+> 
+> 
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,25 @@
+Re: Aptitude ErrorOn Fri, Apr 30, 2010 at 12:54:57PM -0500, "Boyd Stephen Smith Jr."  was heard to say:
+> My instinct is that '-t $something' effectively increases the priority of all 
+> packages from the $something repository, which may make the dependency 
+> resolver pull more from that repository than is absolutely necessary.
+
+  If you pass "-t ARCHIVE", that means that versions from ARCHIVE are
+treated as the default package version.  It also increases the pin
+priority to 990.  aptitude's resolver tries particularly hard to install
+the default package version, and it will tie-break using the priority
+(you can configure both those behaviors extensively, but those are the
+defaults).  The story is more extreme with the apt resolver: it won't
+even consider anything but the default version of a package.
+
+  See also apt_preferences(5), section "APT's default priority
+assignments"; "-t" is the same as setting Default-Release.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100501035819.GD26444@emurlahn.burrows.local
+
+

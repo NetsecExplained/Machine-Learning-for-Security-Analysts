@@ -1,0 +1,23 @@
+Re: Zoot apt/openssh & new DVD playing docOn Tue, 2002-10-08 at 10:36, Matthias Saou wrote:
+> Hi there,
+> 
+> Two new things today :
+> 
+> 1) I've had to install a Red Hat Linux 6.2 server because of an old
+> proprietary IVR software that doesn't work on newer releases :-( So I've
+> recompiled both the latest apt and openssh packages for it, and they are
+> now available with a complete "os, updates & freshrpms" apt repository at
+> apt.freshrpms.net, for those who might be interested.
+
+Gack. Did you try 7.3 with the compat-glibc first? Or does it require an
+antique kernel?
+
+-- 
+Chris Kloiber
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

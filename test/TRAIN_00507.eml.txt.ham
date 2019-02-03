@@ -1,0 +1,35 @@
+Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?On Thursday 29 August 2002 16:39 CET Mike Burger wrote:
+> >[...]
+> > re-check I find it immediately:
+> > :0fw
+> > * < 250000
+> > | spamassassin -P
+> >
+> > Works perfectly now. Sorry for being such a pest! ;-)
+> >[...]
+>
+> I'm using SA via spamc/spamd, and a global /etc/procmail file.  I'm
+> wondering if this would also work in that fashion.
+
+spamc will skip every file bigger than 250k on it's own. It's got the 
+command line switch -s to change this value. But it doesn't hurt of course 
+to use the procmail limit.
+
+Malte
+
+-- 
+-- Coding is art.
+-- 
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

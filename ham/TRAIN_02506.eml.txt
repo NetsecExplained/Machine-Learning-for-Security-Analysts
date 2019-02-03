@@ -1,0 +1,37 @@
+Re: sylpheed-clawsOnce upon a time, Jesse wrote :
+
+> On Fri, 20 Sep 2002 10:40:55 +0200
+> Matthias Saou  wrote:
+> 
+> # But as it's the primary mailer I use, you can be sure that as soon
+> # as it's updated to 0.8.3, I'll update my build! :-)
+> 
+> It got updated (;
+
+So did my build if the original source is what you were mentioning ;-)
+One drawback : They changed from pspell to aspell apparently, and it
+requires aspell >= 0.50 which isn't even in Rawhide, so spell checking is
+disabled for now until I take a decision about it :-/
+
+If I build recent aspell packages, they may not be upgraded when ungrating
+to the next Red Hat Linux release (the final version of the limbos and
+(null) betas), which is maybe not really desired. I'll probably test and
+see...
+
+Matthias
+
+PS: The spec file was massively updated and the --with / --without options
+that can be used to rebuild the source packages are now listed in the
+description ;-)
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

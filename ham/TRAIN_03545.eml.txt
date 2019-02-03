@@ -1,0 +1,41 @@
+Re: only output the nth lineFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 13 May 2010 10:49:22 Jozsi Vadkan wrote:
+> 2010. 05. 12, szerda keltez=C3=A9ssel 12.25-kor Hugo Vanwoerkom ezt =C3=
+=ADrta:
+> > Jozsi Vadkan wrote:
+> > > I have a file:
+> > > And i want to only output the first, second, and fourth line to anoth=
+er
+> > > file.
+> >
+> > hugo@debian:~$ sed -n '1,2p;4p' file.txt
+>=20
+> yes, that's the problem, it only outputs the first, second, and fourth
+> line!
+
+I think that perhaps there is some language barrier.
+
+Your original post indicates that you want lines 1, 2, 4 and no others outp=
+ut. =20
+"i want only output the first, second, and fourth line"
+
+Your most recent post says that is "the problem".  Which I infer means=20
+something you don't want.
+
+Could you maybe rephrase the question, or at least be a bit more verbose?
+
+=2E..
+
+If you want the output to go to a file try something like (sed -ne '1,2p;4p=
+'=20
+"$input" > "$output").
+
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

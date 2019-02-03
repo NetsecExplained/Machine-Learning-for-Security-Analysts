@@ -1,0 +1,37 @@
+aptitude update thinks there are no updates! (solved by deleting 
+	apt/lists)Hi all,
+
+After about a fortnight, I tried to update my Debian squeeze desktop,
+and I was using the mirror.cse.iitk.ac.in mirror. After downloading
+the repository lists, it tells me there are no updates -- I am
+surprised as I know that Gnome 2.30 is already in testing. Thinking
+that it could be a problem with the mirror, I switch to
+ftp.ch.debian.org and update. This time, it does say there are about
+300 updates.
+
+I issue a safe-upgrade, but the electricity goes out just as the
+updates begin downloading. After I turn the computer back on, issuing
+a safe-upgrade shows there are no updates! I try to aptitude update
+but it thinks that the repositories are already updated, though
+apt-cache show nautilus gives the version 2.28.4. As I was in a hurry
+at the time, I just deleted /var/lib/apt/lists, so aptitude had no
+choice but to really download the lists. After this the safe-upgrade
+proceeded as usual. I realised after deleting /var/lib/apt/lists that
+I should have kept a copy, but too late.
+
+Though the problem is (in a sense) solved, I am curious as to how this
+(bug?) could have occurred. After all this I checked
+mirror.cse.iitk.ac.in  and it does have nautilus 2.30.1, so maybe the
+first no-updates scenario was also caused by this bug/problem.
+
+Abhishek
+--
+Please cc me as I am not subscribed to debian-user.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinkeQCHQnw2ja6ziJe7g9ESlap37WJJb3YfU_LP@mail.csmining.org
+
+

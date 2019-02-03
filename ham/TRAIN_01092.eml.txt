@@ -1,0 +1,30 @@
+Re: Temporary deconnection from the Internet when too much pages
+ are loadedFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Camale=C3=B3n wrote:
+> On Wed, 14 Apr 2010 23:34:54 +0200, Merciadri Luca wrote:
+>
+>  =20
+>
+> (...)
+>
+> Are you getting the same result with a wired connection or just happens=
+=20
+> when using a wireless interface?
+>  =20
+I am using a wired connection. I should have specified it: I am linked
+to my router using RJ-45 wires. I never tried wireless anymore for so
+many reasons!
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+Getting something done is an accomplishment; getting something done
+right is an achievement.
+

@@ -1,0 +1,39 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Jay Berkenbilt wrote:
+> Merciadri Luca  wrote:
+>
+>  =20
+>
+> You might use a password if you wanted to provide complete access for
+> some people and no access for others.  For someone who has the password=
+,
+> there is no real protection.  I sent some financial documents to a loan=
+
+> officer once as a password-protected PDF.  I emailed him the PDF and
+> then left the password on his voicemail.  For my purposes, that was
+> sufficient security, and it didn't require any fancy technology or
+> software on his end.
+>
+>  =20
+>
+> Here it is.  I wrote this in response to a question from a user of my
+> PDF software, qpdf, which is in debian, but other than a quick mention
+> of a few specific tools, the response is not related to any particular
+> PDF application.
+>  =20
+Thanks for this really interesting text about this stuff. Really, I
+learnt some things.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+The weak can never forgive. Forgiveness is the attribute of the strong.
+

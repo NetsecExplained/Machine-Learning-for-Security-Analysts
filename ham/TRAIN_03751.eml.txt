@@ -1,0 +1,25 @@
+Re: Accelerating directory's content's viewing: how, is directory
+ is huge?On Tue, 18 May 2010 20:16:27 +0200, Merciadri Luca wrote:
+
+> I have many media files in some specific directory (folder, call it as
+> you want). Loading the folder takes ~30 sec., even if I am using quite
+> fast HDDs, etc. They're all on the same partition. I have disabled
+> previewing, or thumbnails.
+> 
+> How can I do to make this process faster?
+
+Did you also turn off "Count Number of Items" and "Show Text In Icons" in 
+Nautilus "preview" preferences?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.18.20.20.40@csmining.org
+
+

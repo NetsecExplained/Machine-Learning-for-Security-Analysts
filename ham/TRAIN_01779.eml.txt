@@ -1,0 +1,34 @@
+Re: [ILUG] removing liloOn Wed, Jul 31, 2002 at 02:40:26PM +0100 or so it is rumoured hereabouts, 
+Liam Bedford thought:
+> On Wed, 31 Jul 2002 14:30:01 +0100
+> jac1 claiming to think:
+> 
+> > hi,
+> > i recently had to wipe linux from my pc but forgot to restore the original
+> > MBR (NT). Anyone know how i can do this? linux is entirely gone and no boot
+> > floppy. formatting the entire disk doesn't do it either.
+> > 
+> boot from dos and fdisk /mbr?
+> boot from an NT CD, choose repair, and make it check the mbr
+                             ^^^^^^
+
+Nice how NT "repair"s a hard disk by removing other OSs.  Could we call it
+that on Linux install disks too?
+
+Conor 
+-- 
+Conor Daly 
+
+Domestic Sysadmin :-)
+---------------------
+Faenor.cod.ie
+  5:37pm  up 69 days,  2:54,  0 users,  load average: 0.08, 0.02, 0.01
+Hobbiton.cod.ie
+  5:22pm  up 12 days, 0 min,  1 user,  load average: 0.03, 0.03, 0.00
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

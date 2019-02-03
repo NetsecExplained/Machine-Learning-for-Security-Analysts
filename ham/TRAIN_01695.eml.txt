@@ -1,0 +1,16 @@
+sylpheed-clawsHave you thought of bumping up sylpheed-claws?  I see sylpheed got a
+bump... show some claws love?  (;
+
+-- 
+Jesse Keating
+j2Solutions.net
+Mondo DevTeam (www.mondorescue.org)
+
+Was I helpful?  Let others know:
+ http://svcs.affero.net/rm.php?r=jkeating
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

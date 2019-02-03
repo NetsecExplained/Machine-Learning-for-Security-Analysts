@@ -1,0 +1,70 @@
+Re: gforce 9400Camaleón wrote:
+> On Sat, 10 Apr 2010 06:50:05 +0200, steef wrote:
+>
+>    
+>> Camaleón wrote:
+>>      
+>    
+>> here it comes:
+>>
+>> steef@debianlennynw:~$ lspci | grep VGA 00:02.0 VGA compatible
+>> controller: Intel Corporation 4 Series Chipset Integrated Graphics
+>> Controller (rev 03) 04:00.0 VGA compatible controller: nVidia
+>> Corporation Device 0641 (rev a1)
+>>      
+> So, do you have the two VGA cards enabled? I also have an Intel embedded
+> card but IIRC, I disabled it in the BIOS as soon as I plugged the nvidia
+> card (7600 GS).
+>    
+
+yes, that is correct. with my mobo you have to change by hand i n the 
+Bios from 'onboard' to pci &&.
+> OTOH, it seems that device ID corresponds to nvida 9400 GT.
+that 's correct too.
+>   So I would
+> test with the nvidia Debian drivers. If they do not work, you can always
+> come back and activate the Intel one.
+>
+>    
+that is what i did when the nvidia drivers from *their site* worked out 
+disastrously
+
+>> I'll look into that wiki (again),
+>>
+>>      
+it is almost like the old days of potato and woody. had to fresh up my 
+old brain again.   so i installed nvidia-glx and the other required 
+packages. that 's nowadays much easier than in the wiki thanks to apt if 
+you start with 
+
+after that i put the appropriate sections in my /etx/X11/xorg.conf. 
+nvidia instead of in tel and i made a module section with Load "glx" in it.
+
+i restarted the X-server and now *everything is working like a charm*
+
+he camaleón, i really owe you, man! you really helped me out.
+
+many regards,
+
+steef
+
+
+
+
+
+>> it can take some time before i answer again: got to take care of my
+>> family now,
+>>      
+> Take your time. Family is first :-)
+>
+> Saludos,
+>
+>    
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC02E70.9020904@home.nl
+
+

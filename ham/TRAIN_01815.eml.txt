@@ -1,0 +1,29 @@
+[ILUG] cups question I seem to be having a little trouble with it. My printers.conf is:
+
+
+Info Hp4050
+Location locals
+DeviceURI ipp://192.168.2.90:9100/
+State Idle
+Accepting Yes
+JobSheets none none
+QuotaPeriod 0
+PageLimit 0
+KLimit 0
+
+
+ and cupds uses that to make a printcap of:
+
+lp:
+
+ Sounds dodgy to me. If someone has an example printers.conf/printcap for
+a JetDirect printer, I'd appreciate it if they sent it on.
+
+John
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

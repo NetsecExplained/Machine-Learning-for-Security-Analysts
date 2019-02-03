@@ -1,0 +1,77 @@
+RE: [SAtalk] 2.41/2.50 spamd/spamc problemHeh. RTFM.. Sorry about that.
+
+Yep, that did the trick.
+
+Thanks for the help!
+
+Regards,
+Paul Fries
+paul@cwie.net
+
+-----Original Message-----
+From: spamassassin-talk-admin@example.sourceforge.net
+[mailto:spamassassin-talk-admin@lists.sourceforge.net] On Behalf Of
+Vince Puzzella
+Sent: Thursday, September 12, 2002 11:23 AM
+To: Paul Fries; spamassassin-talk@example.sourceforge.net
+Subject: RE: [SAtalk] 2.41/2.50 spamd/spamc problem
+
+defang_mime 0
+
+-----Original Message-----
+From: Paul Fries [mailto:paul@cwie.net] 
+Sent: Thursday, September 12, 2002 2:12 PM
+To: spamassassin-talk@example.sourceforge.net
+Subject: [SAtalk] 2.41/2.50 spamd/spamc problem
+
+
+I noticed that after upgrading to 2.41 (or 2.50) from 2.31, the -F
+option was removed from spamd. 
+
+This is fine because all of the HTML format mail seems to arrive
+properly. However, messages that get tagged as Spam arrive as just html
+source.
+
+Is there any way around this? I would like all HTML/RTF messages to
+retain their formatting even if they are flagged as spam. I would
+accomplish this on 2.31 by using the "-F 0" flag when starting spamd.
+
+Thanks!
+
+Regards,
+Paul Fries
+paul@cwie.net
+CWIE LLC 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+Spamassassin-talk mailing list Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

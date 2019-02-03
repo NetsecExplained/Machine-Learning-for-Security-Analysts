@@ -1,0 +1,26 @@
+sharing NFS folder in multiples serversHi again:
+
+I have a big NFS partition shared and mounted on 3 debian serves
+(mountpoint /snapshosts). NFS partition es ext3 and I have a backup
+script, on every server, which makes a tar from some   lvm snaphost .
+I mean, my 3 servers maek their tar backup at the same time on
+/snapshots NFS partition. This partition is only use to make this
+backups. My question is:
+
+Is recommendable to use  gfs or other filesystem insted of ext3 in
+/snapshots NFS partition?
+Any other recommendation?
+
+thanks in advance.
+
+-- 
+Regards;
+Israel Garcia
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/g2i194a2c241004190108yaae7f132s9f1ff42666d8561c@mail.csmining.org
+
+

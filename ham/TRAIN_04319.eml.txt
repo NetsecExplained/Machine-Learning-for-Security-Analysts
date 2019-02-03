@@ -1,0 +1,47 @@
+Re: Lite SMTP server/daemonOn Sun, 2 May 2010 04:33:46 +0100
+Steve Kemp  wrote:
+
+> On Sat May 01, 2010 at 22:24:13 -0400, Celejar wrote:
+> 
+> > I couldn't discern, BTW, whether it supports TLS / SSL to an
+> > upstream MTA?  I did find this thread:
+> >
+> > http://www.nntp.perl.org/group/perl.qpsmtpd/2005/07/msg3404.html
+> >
+> > but I have no idea what the current status of this is.
+> 
+>   It seems like that isn't present yet, the only core TLS support
+>  I can spot is a plugin for accepting TLS-wrapped connections not
+>  initiating them.
+
+So I haven't been totally wasting my time ( ;) ), since my tmta does
+support outbound SSL / TLS connections, and indeed, that was a primary
+design goal, since I need to push mail out through Gmail's SMTP
+servers, which require SSL / TLS.
+
+>   I've usually used qpsmtpd to process mail then either:
+> 
+>     * Reject it at SMTP time.
+>     * Accept it for delivery and write the mail directly to Maildir folders.
+>     * Accept it for delivery and pass to exim4 for final delivery.
+> 
+>  (ie. I've never tried to re-deliver to a remote machine via qpsmtpd,
+>  only via passing to exim4.)
+
+Got it.  The O'reilly discussion that I saw also mentioned that qpsmtpd
+was primarily meant to be used in conjunction with a normal MTA, and
+not to replace one.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100501232342.079837a2.celejar@csmining.org
+
+

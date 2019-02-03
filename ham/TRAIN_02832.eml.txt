@@ -1,0 +1,22 @@
+Content management for MP3sDear flatware,
+
+I'm about to undertake a massive project to index/catalog well over one 
+thousand CDs that have been ripped to MP3 and set up a server to stream 
+them to different rooms in the house. (Yes, I own them all, no I'm not 
+broadcasting them to the 'net.) Can anyone give me some recommendations 
+as to what (free? opensource?) software is best suited for this task? I 
+know there are a few FoRKs out there who have tackled this problem before...
+
+I'd like to be able to dynamically generate play lists from queries like 
+"Jazz released between 1950 and 1960" or "Artist such and such between 
+these dates" or "Just these artists" or "Just this genre" - you get the 
+idea. In addition to having multiple streams that I can tune in to (a la 
+DMX), I'd like to be able to browse the database through a web interface 
+from other computers in the house and pull specific music down to 
+wherever I am.
+
+
+Thanks,
+Elias
+
+

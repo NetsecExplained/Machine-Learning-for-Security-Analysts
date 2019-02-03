@@ -1,0 +1,17 @@
+Re: Which kernel for ThinkPad 760XD ?> I would like your insights : the laptop is reported as i586, so which one to
+> choose ? linux-image-2.6.26-2-686 2.6.26-21lenny4 ? linux-image-2.6.26-2-486
+> 2.6.26-21lenny4 ? (I would be more inclined to 486, but I didn't find any
+> concluant informations on the Net...)
+
+486 will work.  686 may work.
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwv7ho39uuj.fsf-monnier+gmane.linux.debian.user.laptop@gnu.org
+
+

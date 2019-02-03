@@ -1,0 +1,18 @@
+customising FTOC display for specific folders...Is there any way to customise the folder table of contents for
+specific folders?
+
+I know it is possible to do per-folder customisation with components
+and replcomps for message templates, but what about -form format
+files for scan?
+
+Cheers
+Tony
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

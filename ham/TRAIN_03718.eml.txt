@@ -1,0 +1,74 @@
+Re: Java for Mac OS X Developer Preview (10M3050+9M3150)should one restart the computer after it?
+I run java -version and it seems the update is immediate, yet clicking
+'show cache files' in Java preferences still doesn't do anything.
+
+2010/4/15, Mike Swingler :
+> Java Developers,
+>
+> Please download and install the new developer preview of Java for Mac OS =
+X
+> (10M3050+9M3150) at
+> .
+> This preview is for both Mac OS X 10.6 and 10.5, so be sure to download t=
+he
+> correct disk images for your system.
+>
+> Even if you don't install the build, please read the HTML release notes.
+> We've fixed several regressions and made many interesting enhancements we
+> think you will want to know about before "Java for Mac OS X 10.6 Update 2=
+"
+> and "Java for Mac OS X 10.5 Update 7" goes live to customers.
+>
+> Please report any issues you find at  with =
+a
+> reproducible test case attached, if possible.
+>
+> As a reminder, please do not discuss the contents of this preview on this=
+ or
+> any other public forum.
+>
+> Thank you,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/gabriele%40mysimpatico.co=
+m
+>
+> This email sent to gabriele@mysimpatico.com
+>
+
+
+--=20
+Regards,
+K. Gabriele
+
+--- unchanged since 25/1/10 ---
+P.S. Unless a notification (LON), please reply either with an answer
+OR with " ACK" appended to this subject within 48 hours. Otherwise, I
+might resend.
+In(LON, this) =E2=88=A8 In(48h, TimeNow) =E2=88=A8 =E2=88=83x. In(x, MyInbo=
+x) =E2=88=A7 IsAnswerTo(x,
+this) =E2=88=A8 (In(subject(this), subject(x)) =E2=88=A7 In(ACK, subject(x)=
+) =E2=88=A7
+=C2=ACIsAnswerTo(x,this)) =E2=87=92 =C2=ACIResend(this).
+
+Also note that correspondence may be received only from specified a
+priori senders, or if the subject of this email ends with a code, eg.
+-LICHT01X, then also from senders whose reply contains it.
+=E2=88=80x. In(x, MyInbox) =E2=87=92 In(senderAddress(x), MySafeSenderList)=
+ =E2=88=A8 (=E2=88=83y.
+In(y, subject(this) ) =E2=88=A7 In(y,x) =E2=88=A7 isCodeLike(y, -LICHT01X) =
+).
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

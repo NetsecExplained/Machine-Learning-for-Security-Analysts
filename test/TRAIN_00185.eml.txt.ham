@@ -1,0 +1,46 @@
+Re: Debian And Advanced Layer3 9924TAndreas Weber put forth on 4/6/2010 2:08 AM:
+> On 2010-04-04 01:42, Stan Hoeppner wrote:
+>> Telling the OP to throw out a multi thousand dollar 24 port managed GigE
+>> switch due to a minor issue with one PC or server is not very sage advice.
+> 
+> I said "try changing", not "throw out" (reading and quoting is a basic
+> skill). Having sold many _multi-thousand-Euro-switches_ let me tell you
+> that they can be broken right from the start. DOA should ring a bell. A
+> simple temporary change of the switch (often the replacement is provided
+> by the vendor) would immediately show if this could be the problem.
+> 
+> It's a bit of a general problem on lists like this one (very technical
+> ones) that some very smart people dislike simple straight forward
+> solutions to be checked first, although it happens all the time that
+> smart people stumble over simple problems. Instead they like to tell
+> other people they're not sage enough.
+> 
+> So sorry for my "Is the cable ok?" approach as a first aid, I will keep
+> my mouth shut now, knowing that there's a savvy elite around.
+
+Please forgive me if my choice of words offended you.  That wasn't my
+intention at all.  I was speaking figuratively, not literally.  My point was
+that swapping out the production switch, which probably has others users
+plugged in, shouldn't be the first troubleshooting step, especially if it's
+a managed switch and can thus show per port configuration and traffic data.
+
+This data usually shines a bight light on these types of issues.  Usually
+the problem in cases like the OP is having relate to VLAN configuration.  On
+manyy/most managed switches which have global VLANs already configured, but
+not all ports configured, if you plug a PC into an unconfigured port the PC
+sees a dead network.  The solution is to add that port to one or more
+appropriate VLANs.
+
+-- 
+Stan
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBB11A7.4010702@hardwarefreak.com
+
+

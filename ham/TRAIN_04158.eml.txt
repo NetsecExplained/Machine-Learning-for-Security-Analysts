@@ -1,0 +1,18 @@
+Re: kvm disk read errorFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,22.May.10, 17:16:22, briand@aracnet.com wrote:
+> trying to install windows xp pro
+>=20
+> the installation goes just fine but when I try to run the vm I get
+
+For what purpose do you want to run Windows? Maybe we can suggest better=20
+alternatives (like VirtualBox, package virtualbox-ose).
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

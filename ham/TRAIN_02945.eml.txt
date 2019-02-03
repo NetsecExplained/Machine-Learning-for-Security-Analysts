@@ -1,0 +1,39 @@
+Re: how to setup my environment variable for vim ?From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,24.Apr.10, 16:15:46, Jordan Metzmeier wrote:
+> > Try putting this in ~/.bashrc:
+> >
+> > export EDITOR=3D/usr/bin/vim
+>=20
+> You can also make it a system wide configuration with
+> "update-alternatives --config editor". I have not tried it shells
+> other than bash but I assume it is portable.
+
+Yep:
+
+# update-alternatives --config editor
+There are 3 choices for the alternative editor (providing /usr/bin/editor).
+
+  Selection    Path                    Priority   Status
+------------------------------------------------------------
+  0            /usr/bin/vim.nox         40        auto mode
+  1            /usr/bin/mcedit-debian   25        manual mode
+* 2            /usr/bin/vim.nox         40        manual mode
+  3            /usr/bin/vim.tiny        10        manual mode
+
+Press enter to keep the current choice[*], or type selection number:=20
+
+But it won't work if ncftp relies on $EDITOR:
+
+$ echo $EDITOR
+
+$
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

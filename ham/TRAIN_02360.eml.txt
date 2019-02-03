@@ -1,0 +1,27 @@
+Re: Sorting
+
+>>>>> On Mon, 9 Sep 2002, "Rick" == Rick Baartman wrote:
+
+  Rick> This is dangerous; I have to remember to re-scan each
+  Rick> folder I enter. Is there a safeguard for this?
+
+Nope.  Regenerate the cache in the script
+
+	for f in `folders -fast -r`
+	do
+		echo sorting $f ...
+		sortm +$f
+		scan `mhpath +`/$f/.xmhcache
+	done
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

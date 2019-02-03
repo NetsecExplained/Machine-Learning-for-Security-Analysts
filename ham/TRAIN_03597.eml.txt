@@ -1,0 +1,31 @@
+Re: backing up LVM volumesOn 04/27/2010 02:51 PM, Boyd Stephen Smith Jr. wrote:
+[snip]
+>
+> For "normal" file operations, taking an LVM snapshot of the mounted filesystem
+> and then making your backup from that should be sufficient.  This should even
+> work for postgreSQL database files (though, it is not optimal).  MySQL has a
+> history of being more flaky, but it might work there as well.
+>
+> If you snapshot a mounted file system, the snapshot will be approximately
+> equivalent to the original file system, uncleanly unmounted at that exact
+> moment (think: power failure).  It's possible to then take backups of an
+> active system with no downtime (although I/O load will certainly go up during
+> the backup).  If you mount the snapshot as part of the backup procedure, a
+> journaled file system will want to replay the journal then.  Otherwise, a
+> journal replay will be required at restore time.  PostgreSQL (etc.) will also
+> end up doing a journal replay / recovery at restore time.
+>
+
+A proper RDBMS will have a hot-backup feature, so I'd still say that 
+a file-only backup is the way to go.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD96C86.3060301@cox.net
+
+

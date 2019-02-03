@@ -1,0 +1,47 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveSorry - meant to include a link to the applet (which contains a scroll pane=
+):
+
+http://lafros.com/demos/gui/tabs/1.1/tabsDemo.html
+
+On Sat, May 22, 2010 at 2:17 PM, Rob Dickens  wrote:
+> Thanks for mentioning this. I was particularly interested to see what
+> would happen here on my 32-bit MacBook, where I don't seem to have the
+> option of selecting the 'In their own process' preference--the radio
+> buttons are greyed-out--which appears to be required in order to avoid
+> the flickering seen on resizing the browser window.
+>
+> Lo and behold, there is no flicker! :-D
+>
+> However, on the downside, two-finger scrolling (inside the applet) is
+> not supported (as it is in Safari) :-(
+>
+> Rob
+>
+> On Sat, May 22, 2010 at 12:34 PM, David Leader
+>  wrote:
+>> I don't think this was mentioned but the Mac beta of the Chrome browser =
+will
+>> now run applets which I gather is dependent on this java upgrade.
+>>
+>> (Not that I am in any way suggesting Mac users should use anything other
+>> than Safari themselves, but if one produces web sites that contain Java
+>> applets it is obviously something which one has to be aware of.)
+>>
+>> David
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> Java-dev mailing list =A0 =A0 =A0(Java-dev@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/java-dev/robcdickens%40csmining.org
+>>
+>> This email sent to robcdickens@csmining.org
+>>
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,54 @@
+Re: Moving to Debian: updated softwareOn 2010-04-22, Dotan Cohen  wrote:
+>> I don't know of any backported binaries, so you would have to compile it
+>> yourself. That, however, would be a major undertaking, and presupposes
+>> that the latest KDE4 even compiles against the versions of the various
+>> libraries included in lenny.
+>>
+>
+> Yes, compiling KDE is not a hassle that I want to take.
+>
+>
+>> An alternative is to upgrade to testing/unstable, but then you would no
+>> longer have the uncomplicated life of a lenny user :-)
+>>
+>
+> Exactly, I need a stable distro.
+>
+>
+>> Or you could wait for the next stable release, or at least for the
+>> freeze announcement.
+>>
+>
+> That is not really an option, as I want the _latest_ KDE, not simply
+> 4.4. I contribute to KDE and it is important for me to be on the
+> latest version. I cannot be on a distro that is perpetually a few
+> point releases behind.
+
+Unfortunately, the goals of always having the latest KDE and a stable distro
+are not compatible.
+
+>
+> Thanks, Liam! I am still weighing my options, including Debian-based
+> distros that may be more up to date. I am currently on Kubuntu, but
+> the 10.04 release is simply terrible and I'm looking for a new distro.
+> Suse would be my next choice, but I prefer Debian-based.
+>
+
+Another thing you could consider: run testing/unstable in a virtual
+machine or a chroot on your lenny system. Beware, though, that even in
+unstable the upload of major packages can be delayed.
+
+Have you asked other KDE contributors about their setups?
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnht0gta.bu7.liam.p.otoole@dipsy.selfip.org
+
+

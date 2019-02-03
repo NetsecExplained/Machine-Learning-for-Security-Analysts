@@ -1,0 +1,33 @@
+Re: Re: Authentication unsuccessful relaying from Postfix to
+	Microsoft ESMTP MAIL Service> The problem with postfix is that it runs chrooted and the CA
+> certificates are not copied into the chroot.  See #287795¹.
+> 
+> Sven
+> 
+> ¹ http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=287795
+
+Hi Sven,
+
+Thanks for that suggestion. I had seen that bug and discounted it
+because the patch is only effective if smtp_tls_CApath is set, and
+mine wasn't set. But your mail prompted another look, and with both
+smtp_tls_CApath = /etc/ssl/certs and applying the patch from #287795,
+it banished the "certificate verification failed" and changed
+"Untrusted TLS connection established" to "Trusted TLS connection
+established".
+
+So that's progress :-)
+
+Unfortunately it's still failing to authenticate. From mail.log:
+May  9 21:49:18 rimmer postfix/smtp[8121]: 5DE243A66: to=, relay=NEWSERVER[NEWSERVER-IPADDR]:587, delay=5.5, delays=0.02/0.03/5.4/0, dsn=4.7.3, status=deferred (SASL authentication failed; server NEWSERVER[NEWSERVER-IPADDR] said: 535 5.7.3 Authentication unsuccessful)
+
+Thanks,
+Clive
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509223356.GA13107@rimmer.esmertec.com
+
+

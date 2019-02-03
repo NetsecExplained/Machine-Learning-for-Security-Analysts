@@ -1,0 +1,23 @@
+KDED4 blocking Weather AppletsFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+since this seems to be the time to complain about KDE, I'd like to ask for=
+=20
+help on an old issue: kded4 prevent the plasma weather applets from working=
+=2E=20
+When I login to my KDE session the weather applets fail to retrieve any dat=
+a.=20
+I've confirmed with Wireshark/TCPdump that there is no network traffic at t=
+hat=20
+time. As soon as I kill kded4 the weather applets startk working immedeatel=
+y.=20
+Is there are another workaround than killing kded4 (since that messes up so=
+me=20
+other things in KDE) or, even better, a fix available?
+
+=2D-=20
+Mit freundlichen Gr=FC=DFen / Best Regards
+Dominik

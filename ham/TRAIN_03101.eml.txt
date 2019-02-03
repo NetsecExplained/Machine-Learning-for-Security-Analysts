@@ -1,0 +1,21 @@
+Console font turned cyanHello folks,
+
+I don't know when it happened but it must have been during some
+"aptitude upgrade" run lately: My console font turned from white to
+cyan. At first I thought that the red VGA signal had a bad contact,
+but X came up in full color. Console apps can control the color to a
+certain extent, but the default color is a really gross cyan which
+produces weird color effects on an LCD with the thni Terminus fonts.
+In other words, I can't live with it. Where is this controlled, and
+how can it be switched back to white again?
+
+Regards,
+robert
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2if68d89471004081029id60eade7ob81eb78c492fc187@mail.csmining.org
+
+

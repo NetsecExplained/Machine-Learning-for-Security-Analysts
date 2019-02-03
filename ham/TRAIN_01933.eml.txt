@@ -1,0 +1,44 @@
+Re: monitoring internet availability and sending sms alert?Ron Johnson on 14/05/10 20:46, wrote:
+> On 05/14/2010 10:04 AM, Adam Hardy wrote:
+> [snip]
+>>>>>
+>>> Isn't this what SNMP was designed for?
+>>
+>> There was probably a lot more that it was designed for. Plus one of the
+>> first things to appear in google:
+>>
+>> "Despite its acronym, SNMP is not exactly simple! In fact, it never
+>> ceases to amaze me how much of a black art implementing and using SNMP"
+> 
+> But snmp relies on the network, no?
+> 
+>> I don't necessarily want to avoid it, it's just got that 'can-of-worms'
+>> sort of feel to it and I'm hoping I only need the little script in bash.
+>> Or at least I did until I realised I'd have to tie ping together with
+>> dyndns.org and smsclient. Possibly a brainer. I mean, not a no-brainer.
+>>
+> 
+> Shell programming is *incredibly* rich.  With pipes, "variable 
+> substitution" redirection, file io, all manner of control operators, 
+> dialog/zenity, etc, etc.
+> 
+> If (as I suspect) you're new to bash programming, doing this yourself 
+> will open you up to a world of possibilities you barely knew existed.
+
+I wouldn't say I'm new to it, but I'm not experienced. I write little snippets 
+every now and again and edit system startup files etc.
+
+This is certainly a challenge though. I guess if I can interface dyndns.org and 
+smsclient relatively simply with options you mention, I'll probably manage it.
+
+I might also put a check in there for other protocols like http, just in case 
+ping happens to be the last protocol standing when the machine or connection is 
+about to keel over! (thanks to Joe in the other msg for the tip)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEDAED3.4020803@cyberspaceroad.com
+
+

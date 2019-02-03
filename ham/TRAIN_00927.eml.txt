@@ -1,0 +1,40 @@
+QuickTime Player 7 recording problem (maximum duration for the file
+	has been reached)After one of the recent QuickTime updates QT Player 7 (Pro) seems to  
+have lost its ability to record movies from video digitizer  
+components. It shows preview all right but once the user presses the  
+Record button, it writes exactly one frame to the .mov file and stops  
+with the error message "Recording stopped because the maximum duration  
+for the file has been reached". The same thing happened with all vdigs  
+I have installed on my Mac, including Apple's SoftVDigX sample.
+
+QT Player does record movies from iSight but unfortunately it's not  
+doing that via QuickTimeUSBVDCDigitizer (otherwise it would be  
+possible to trace QT component calls and find the difference between  
+Apple's vdig and mine). And every piece of software that works with  
+QuickTimeUSBVDCDigitizer, works with my vdig too. Ugh...
+
+The following versions do NOT work for me:
+
+QuickTime Player 7 Version 7.6.6 (1709) + QuickTime Version 7.6.6  
+(1729) + Mac OS X 10.6.3
+QuickTime Player Version 7.6.6 (1632) + QuickTime Version 7.6.6 (1674)  
++ Mac OS X 10.5.8
+
+This one (still) does work:
+
+QuickTime Player Version 7.6.4 (518.35) + QuickTime Version 7.6.4  
+(1327.73) + Mac OS X 10.4.11
+
+Does anyone know a way to make a vdig component (say, SoftVDigX)  
+compatible with the latest QT Player 7?
+
+Thanks in advance,
+-Slava
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

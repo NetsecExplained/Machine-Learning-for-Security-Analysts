@@ -1,0 +1,17 @@
+Re: upgrade from lenny to sid with kde installed (second attempt)Andrei Popescu wrote:
+
+> man invoke-rc.d
+
+so it means that the packages does not handle the return value correctly?
+
+what can be done for this?
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/htdkge$br3$1@dough.gmane.org
+
+

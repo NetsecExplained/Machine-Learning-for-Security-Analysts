@@ -1,0 +1,39 @@
+Re: Replace hardware without reinstall debian lennyOn Tue, May 11, 2010 at 3:11 AM, Lisi  wrote:
+> On Tuesday 11 May 2010 01:10:50 Rob Owens wrote:
+>>
+>> You could use UUID's instead of device names (/dev/sdX) to get around th=
+is
+>> issue.
+>
+> There was a thread on this recently, and I think it was said that even UU=
+ID's
+> can change with changing hardware. =A0It was suggested, if I remember
+> correctly, that the only safe way =A0to prevent a name change is to label=
+ the
+> partitions when you first partition the drive and use labels in fstab etc=
+..
+>
+> I am sure someone will correct me if I have got this wrong, so if noone d=
+oes
+> so I have probably remembered correctly.
+
+I don't remember a thread on debian-user about UUIDs changing with
+changing hardware (I could be wrong though!) but there was a thread in
+March on ubuntu-users where a guy was duplicating disks for a rollout
+and he was convinced that the BIOS of the boxes into which he was
+plugging in the duplicated HDs was changing the UUIDs of the disks'
+partitions because he was unable to boot from those disks unless he
+changed the fstab to use /dev/sdaX devices. I pointed out that the
+idea that a BIOS could change a filesystem's superblock didn't make
+any sense and that it could not be a UUID problem because he could
+boot boxes with Intel mobos but not boxes with another manufacturer's
+mobos (I assume that he could have replied that the other mobos were
+changing the UUIDs and the Intels ones not...).
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTinx1xhrnMPalQc1MD9-xADX3kergm47h8J_E7k8@mail.csmining.org
+
+

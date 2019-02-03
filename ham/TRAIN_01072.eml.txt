@@ -1,0 +1,11 @@
+Re: DataPower announces XML-in-siliconOn 27 Aug 2002 at 15:00, Rohit Khare wrote:
+> 
+> DATAPOWER TECHNOLOGY ON Monday unveiled its network device
+> designed specifically to process XML data. Unlike competing
+> solutions that process XML data in software, DataPower's
+> device processes the data in hardware -- a technology
+> achievement that provides greater performance, according to
+> company officials.
+>
+Sarvega seems to have a similar product.  http://www.sarvega.com.
+

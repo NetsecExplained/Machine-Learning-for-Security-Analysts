@@ -1,0 +1,66 @@
+Re: traceback in new exmhFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Scott Lipcon 
+> Date:  Sun, 22 Sep 2002 22:58:16 -0400
+>
+> I just updated to the latest CVS - I had been running a build from June.  
+> Hitting the Flist button gives the following traceback:
+> 
+> syntax error in expression "int(17+1+(222-)*(19-17-2)/(224-))"
+>     while executing
+> "expr int($minLine+1+($msgid-$minMsg)*($maxLine-$minLine-2)/($maxMsg-$minMs
+> g))"
+>     (procedure "Ftoc_FindMsg" line 57)
+>     invoked from within
+> "Ftoc_FindMsg $i"
+>     (procedure "Ftoc_ShowSequences" line 16)
+>     invoked from within
+> "Ftoc_ShowSequences $F"
+>     (procedure "ScanFolder" line 81)
+>     invoked from within
+> "ScanFolder inbox 0"
+>     invoked from within
+> "time [list ScanFolder $F $adjustDisplay"
+>     (procedure "Scan_Folder" line 2)
+>     invoked from within
+> "Scan_Folder $exmh(folder) $ftoc(showNew)"
+>     (procedure "Inc_PresortFinish" line 7)
+>     invoked from within
+> "Inc_PresortFinish"
+>     invoked from within
+> ".fops.flist invoke"
+>     ("uplevel" body line 1)
+>     invoked from within
+> "uplevel #0 [list $w invoke]"
+>     (procedure "tkButtonUp" line 7)
+>     invoked from within
+> "tkButtonUp .fops.flist
+> "
+>     (command bound to event)
+> 
+> 
+> It seems to only happen in a folder with no unseen messages.
+> 
+> Chris, is this related to your recent changes?
+
+Curious.  I changed the arguments to Ftoc_ShowSequences to drop the folder 
+argument and instead have an optional msgids argument.  Somehow your version 
+of ScanFolder is still trying to pass $F.  You seem to have the latest 
+ftoc.tcl (1.36), but not the latest scan.tcl (1.27).
+
+I don't know how that happened, but try getting your source tree completely 
+up to date.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

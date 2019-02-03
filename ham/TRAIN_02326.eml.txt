@@ -1,0 +1,48 @@
+Re: Lite SMTP server/daemon[Replying to my own message.]
+
+On Mon, 26 Apr 2010 15:12:24 -0400
+Celejar  wrote:
+
+...
+
+> Hm, I had thought that at least some of the small, relaying MTAs
+> accepted connections on port 25.  On closer perusal, it looks like they
+> don't.
+> 
+> One option would be to build your own version of one of the big ones,
+> with all unnecessary functionality excluded.  I don't know what the
+> resulting binary size would be.
+
+I was sufficiently intrigued by the (apparent) absence of a simple MTA
+that does the above, so I decided to write my own: Tmta.  It actually
+works, and is documented, although it's still pretty much in the
+proof-of-concept stage:
+
+https://sourceforge.net/projects/tmta/
+
+One important thing that it does *not* (yet?) do is fork; it's currently
+implemented as a basic, single-threaded daemon, so it can only accept
+one connection at a time.  It shouldn't be too difficult (famous last
+words ...) to convert into a multi-threaded model, although I have no
+experience with that sort of thing.
+
+It is still small, though - under 70 lines of actual Perl code,
+although it does, of course, require the basic Perl installation and
+about a half-dozen other modules.
+
+If anyone has any feedback, or suggestions for improvement, I'd love
+to hear them.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430162040.f26361ba.celejar@csmining.org
+
+

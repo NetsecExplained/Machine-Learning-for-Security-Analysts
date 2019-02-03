@@ -1,0 +1,19 @@
+Re: Aptitude status output meaningOn Friday 30 April 2010 16:44:52 Monique Y. Mudama wrote:
+> The "A" means that it was installed automatically due to a dependency,
+> so if all packages depending on it are uninstalled, it will
+> automatically be removed as well.
+
+Thanks! I had realised that "i" meant installed, but as large numbers of 
+dependencies get installed automatically as far as I am concerned, I hadn't 
+managed to work out that some of them got marked!  Very few things seem 
+actually to acquire the "A".
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004301839.37084.lisi.reisz@csmining.org
+
+

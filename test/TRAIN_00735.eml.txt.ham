@@ -1,0 +1,23 @@
+Re: Apt problemsOn Wed, Feb 06, 2002 at 04:14:27PM +0100, Matthias Saou wrote:
+> Strange... all my openssh packages don't explicitly requires a version of
+> openssl. What version of openssh do you have? Is it an official Red Hat
+> package? I suppose it isn't, and using Red Hat's rpms will solve your
+> problem.
+
+openssh-3.0.2p1-1
+
+I think that is directly from openssh site. It's from the RH 6.2 that I 
+upgraded to 7.2 (6.2 doesn't ship with openssh...). 
+
+I probably should downgrade to the versoin RH provides except I can't do 
+that as I don't have physical access to that box and downgrading ssh 
+packages over ssh doesn't sound like a bright idea...
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

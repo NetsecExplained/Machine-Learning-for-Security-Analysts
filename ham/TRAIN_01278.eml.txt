@@ -1,0 +1,71 @@
+Re: New Sequences WindowWell, I've used the check-the-modify-time cache trick for files in
+many places (not just exmh) so some part of me certainly thinks it
+is effective.  However, it occurred to me that if we do checkpoint
+state, then aren't we modifying the sequences file for the current
+folder on every message read?  Perhaps we look at the sequences file
+more than once per message view?  Just idle speculation - we can
+stick in some time calls to find out how expensive things are.
+
+Someone asked about increasing the time resolution in the exmh log.
+We could make that conditional on some support available in 8.3 -
+Tcl has had "clock seconds" (like gettimeofday) and "clock clicks"
+(high resolution timer) for some time.  But in 8.3 we've calibrated
+clock clicks values to microseconds.  It is still only useful for
+relative times, but each call to Exmh_Log could emit the microsecond
+delta since the last log record.  Of course, we are measuring all
+the overhead of taking the log record, etc.  I'll try it out.
+
+>>>Chris Garrigues said:
+ > > From:  Brent Welch 
+ > > Date:  Wed, 28 Aug 2002 10:32:42 -0700
+ > >
+ > > 
+ > > >>>Robert Elz said:
+ > >  > Mh_Sequence also goes and rereads the files (.mh_sequences and the
+ > >  > context file) but I'm not sure how frequently that one is called.
+ > > 
+ > > In some places I maintain caches of files by checking their modify
+ > time,
+ > > but the sequence files are soo small that by the time you stat them to
+ > > check their date stamp, you could just read them again.
+ > 
+ > Do you really think this is true?  I added a modify time check thinking
+ > that 
+ > it would make an improvement since we were reading it a *lot* more times
+ > in 
+ > the new code because we're trying to use the sequences.
+ > 
+ > On the other hand, the sequences files are probably being read out of
+ > cache 
+ > when that happens anyway.
+ > 
+ > Even with a small file, I'd think that the time taken to do a 
+ > [file mtime $filename] would be worth it.  My code is in proc
+ > MhReadSeqs.
+ > 
+ > Chris
+ > 
+ > -- 
+ > Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+ > virCIO                          http://www.virCIO.Com
+ > 716 Congress, Suite 200
+ > Austin, TX  78701		+1 512 374 0500
+ > 
+ >   World War III:  The Wrong-Doers Vs. the Evil-Doers.
+ > 
+ > 
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

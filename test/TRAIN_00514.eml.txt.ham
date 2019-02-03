@@ -1,0 +1,32 @@
+Hash Sum mismatchWhen I tryed to install simutrans game with aptitude I got
+this error and was not able to install it:
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│E: Failed to fetch cdrom:[Lenny DVD                                       │
+│   3]/pool/main/s/simutrans/simutrans-data_100.0+ds1-4_all.deb: Hash Sum  │
+│   mismatch                                                               │
+│                                    [ Ok ]                                │
+└──────────────────────────────────────────────────────────────────────────┘
+
+A few days ago same thing happend when installing hgsvn:
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│E: Failed to fetch cdrom:[Lenny DVD                                       │
+│   3]/pool/main/h/hgsvn/hgsvn_0.1.6-2_all.deb: Hash Sum mismatch          │
+│                                    [ Ok ]                                │
+└──────────────────────────────────────────────────────────────────────────┘
+
+I have original DVDs. Content of /cdrom/.disk/info is:
+Debian GNU/Linux 5.0.4 "Lenny" - Official i386 DVD Binary-3 20100131-19:16
+
+Any idea why this is so?
+
+Martin
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100421132759.GA2635@alfa
+
+

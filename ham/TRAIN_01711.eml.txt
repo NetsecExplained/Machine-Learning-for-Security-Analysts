@@ -1,0 +1,22 @@
+installing Lenny packages in SqueezeIf I were to install a bare-bones Squeeze system, then add Lenny
+repositories and declare Lenny to be the Default-Release in apt.conf,
+can I expect to have many problems installing a full desktop environment
+from the Lenny repos?  (Gnome, LXDE, or Fluxbox, most likely).
+
+Reason:
+
+I use a Debian-Live USB and I like to run Lenny because of the
+infrequent updates.  But one of my laptops requires the Squeeze kernel
+in order for wifi to work.  I've been told by the Debian-Live developer
+that I cannot install alternate kernels on my live system (otherwise I'd
+be able to use a kernel from backports.org).
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100429013529.GC8530@aurora.owens.net
+
+

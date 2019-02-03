@@ -1,0 +1,21 @@
+Re: problem to put the soho plasmoidOn Domingo 23 Mayo 2010 19:23:17 Modestas Vainius escribi=C3=B3:
+
+> You probably don't have python-kde4 installed. As far as I can tell, it's=
+ a
+> python based plasmoid.
+
+Yes is really........ i'm look for a phyton packges and find this.
+
+Now is work fine.
+
+thanks
+
+BasaBuru
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005241424.03293.basaburu@basatu.org
+
+

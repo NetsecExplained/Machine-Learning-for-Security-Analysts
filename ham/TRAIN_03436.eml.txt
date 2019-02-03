@@ -1,0 +1,32 @@
+Re: [ILUG] hwclock> will have problems though if you use Windows, as it will tell wrong time
+> for half the year, and will reset the clock when you boot into it after
+> the change in time (this might be fixed in XP/2000, I don't know).
+> Even if you set the hwclock to localtime, you will get problems when you
+> boot into windows, as both Linux and Windows will try to alter the
+> hwclock (maybe there is a way to suppress windows doing this).
+> m
+
+Hi there,
+
+I recently delved into how the linux system clock and the hardware clock
+interact with each other when I set up ntp on my system while connected
+to the net. However, I didn't realise that Windows altered the hw clock
+as there was no mention of it in any of the docs I read. 
+I still dual-boot on a regular basis and if Windows is sneakily messing
+with the clock, I'd be interested to know in what way it is and how it
+couild be stopped from doing so. Everything seems to work fine since I
+set the system up but I still don't like to have these gaps in my
+knowledge.
+
+Regards,
+Anthony Geoghegan
+-- 
+The worst sin towards our fellow creatures is not to hate them,
+but to be indifferent to them. That is the essence of inhumanity
+ - George Bernard Shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,67 @@
+RE: [Razor-users] What's wrong with the Razor servers now?> -----Original Message-----
+> From: razor-users-admin@example.sourceforge.net
+> [mailto:razor-users-admin@lists.sourceforge.net]On Behalf Of Craig
+> R.Hughes
+> On Thursday, August 8, 2002, at 02:28  PM, Vipul Ved Prakash wrote:
+>
+> I'm not sure I understand.  Let's say I am an honest
+> razor-submitter, and I submit lots of stuff that everyone agrees
+> is spam.
+
+Great, that is very nice of you.
+
+> Now I get some opt-in mail which looks to me like
+> spam.  I hit "this is spam".  My trust rating plummets --
+
+Good! Your opinion of what is spam is unreliable, and therefore, I don't
+*want* to trust you. IMHO, that is exactly the case that the trust system is
+supposed to sort out. People who incorrectly submit non-spam bulk mail to
+razor.
+
+> assuming most other people recognized that it was in fact
+> something they'd requested.  Now picture that this happens to
+> lots of people in the system.
+
+Then those lots of people are unreliable, and therefore will all have
+minimal trust, but the people with a decent reliability and therefore trust
+level will help us all...
+
+> Again, it might not be a problem, but I don't think we know
+> yet.  It will probably take a little while for there to be
+> enough data in the trust system for it to equilibriate (or has
+> it been initialized based on all the submissions/revocations
+> gathered before it was switched on?).  I suppose we'll know once
+> it's equilibriated.  Certainly as of right now, people don't
+> think SpamNet is working very well at all, where it had been
+> working great a week ago.
+
+IMHO, due to the number of messages you are sending, and the way you are
+discussing TeS, (considering that you know *nothing* about it), certainly
+looks like you are simply trying to throw doubt/negativity onto razor.
+
+Personally, I haven't used razor for a few months now because I want to
+integrate it into qmail-scanner *without* spam assassin, but haven't had the
+time to do that, so even I can't comment on Razor at all.....
+
+Vipul & co, I think it would be great if there was more transparency in the
+whole server process, ie, if you know there is a problem, then tell all of
+us, this will avoid all the stupid "Oh, it isn't working again, and it took
+me 324 days to work it out" etc...
+
+Just my $1 worth...
+
+Regards,
+Adam
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

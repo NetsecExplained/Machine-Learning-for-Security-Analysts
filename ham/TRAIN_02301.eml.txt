@@ -1,0 +1,47 @@
+Re: Kde 3.5 ...On Thu, May 06, 2010 at 04:39:02PM +0200, Martin Steigerwald wrote:
+> Am Donnerstag 06 Mai 2010 schrieb Sune Vuorela:
+> > On 2010-05-06, Curt Howland  wrote:
+> > > On Thursday 06 May 2010, Ana Guerrero was heard to say:
+> > >> On Thu, May 06, 2010 at 03:17:43AM -0300, Jorge Gonçalves wrote:
+> > >> > Maybe use dummy packages, or rename the packages so that KDE 3.5
+> > >> > could remain installed, and not be forced to upgrade to Kde4.
+> > >> 
+> > >> No, there is not sane way and there is nobody interested on it.
+> > > 
+> > > While the former is certainly true, the latter is demonstrably false.
+> > 
+> > Where is your code?
+> > 
+> > I will repeat "No one is interested in doing it".
+> 
+> That does not seem to be entirely true as was mentioned elsewhere in this 
+> thread:
+> 
+> http://trinity.pearsoncomputing.net/
+> 
+> However this seems far away from the man-power behind KDE 3 until 3.5.10. 
+> To truly get forward with this one it appears to me that way more 
+> developers are needed. Who then would have less or no time to work on 
+> improving KDE 4.
+
+Doing stuff in your own is easy. Doing stuff coordinating with a whole distro,
+whithin ugly hacks and with a good ending quality, is not.
+
+BTW, I would rather advise people learn how to build their own packages before
+using and thus depending in this 3rd party repo, no only because security reasons, 
+or because it is not built in the top of debian.  This repo is not going to be 
+there forever, for sure, sooner or later people maintaining it will get tired, 
+and if you are planning to use KDE 3 forever...
+
+Just pointing about this to people mentioning this repo, nothing direclty to
+Martin here :)
+
+Ana
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506171818.GB7551@ana.debian.net
+
+

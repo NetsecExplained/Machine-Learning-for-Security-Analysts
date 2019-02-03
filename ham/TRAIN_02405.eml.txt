@@ -1,0 +1,25 @@
+Re: monitoring internet availability and sending sms alert?On 05/14/2010 08:13 AM, Adam Hardy wrote:
+> Ron Johnson on 14/05/10 12:54, wrote:
+[snip]
+>>
+>> Outgoing ports are randomly assigned, though, aren't they?
+>
+> Sure. I mean on the box at home that I'm monitoring from the online
+
+Ah, right.  Never mind...
+
+> server. Aaaah, just realised I don't have a fixed IP ?$*!(*)"*"!!!
+>
+
+dyndns.org?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED4D9E.4060604@cox.net
+
+

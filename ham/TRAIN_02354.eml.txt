@@ -1,0 +1,19 @@
+rpm-zzzlist@freshrpms.net
+Thanks for the great work Mathias but I would like to point out that this
+list is fastly become the apt-rpm-list instead of the rpm-list. The
+discussion concerning apt is overwhelming. Maybe another list is in order
+for those having trouble with apt-rpm. apt-rpm-hotline@freshrpms.net ? :)
+
+Though I think apt-rpm is a great tool, I don't use it and would like to
+get back to talk of new packages and rpm building techniques.
+
+dTd
+Daniel T. Drea
+dandanielle@mindspring.com
+http://dandanielle.home.mindspring.com
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

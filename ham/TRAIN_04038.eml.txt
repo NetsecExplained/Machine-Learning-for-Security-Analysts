@@ -1,0 +1,31 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 05 May 2010 23.21:15 Boyd Stephen Smith Jr. wrote:
+> In 4.4, kmail depends on mysql-server in order to send mail. (kmail ->
+> Akonadi  -> mysql-server).
+
+Note that mysql recently split their server package into a "server" and a=20
+"core" package, so you get a minimal mysql installation without a system-
+wide copy of mysql running.
+
+Yes, akonadi will still use mysql internally, but it's (mostly) transparent=
+=20
+to the user.  My main issue with the akonadi/mysql dependencies is thus=20
+solved.
+
+(Yes, it is not very cool to have mysql running for akonadi and virtuoso fo=
+r=20
+nepomuk/strigi and probably quite a few copies of libsqlite and libdb for=20
+other subsystems.  But I guess we'll just have to live with that unless=20
+we're prepared to do the work ourselves... )
+
+cheers
+=2D- vbi
+
+=2D-=20
+=46orgive him, for he believes that the customs of his tribe are the laws
+of nature!
+		-- G. B. Shaw

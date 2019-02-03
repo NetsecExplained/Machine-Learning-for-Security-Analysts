@@ -1,0 +1,35 @@
+Re: [SAtalk] O.T. Habeus -- Why?On Wednesday 28 August 2002 01:50 pm, Robin Lynn Frank wrote:
+
+> On Wednesday 28 August 2002 01:34 pm, Brian McNett wrote:
+> > Also, that little haiku is a copyrighted work, so not only CAN
+> > Habeas sue, they MUST sue to protect their copyright. And since
+> > it's a trademark as well, that's a double-whammy. Habeas has
+> > some pretty high-powered legal people, who will gladly go to
+> > town on violators.
+
+> > The whole point here is to give them the legal leverage they
+> > need to put spammers out of business, and not only block mail
+> > from them, but allow through the things that really AREN'T spam.
+
+> And if a spammer forges headers???
+
+There must be *some* way of tracking a spammer down, since they are planning 
+on making money from the spam.  What a court would consider evidence of being 
+the spammer is another question.
+
+-- 
+Give a man a match, and he'll be warm for a minute, but set him on
+fire, and he'll be warm for the rest of his life.
+
+ICQ: 132152059 | Advanced SPAM filtering software: http://spamassassin.org
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

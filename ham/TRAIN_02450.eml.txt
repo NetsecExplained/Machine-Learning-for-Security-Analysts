@@ -1,0 +1,32 @@
+Re: [SAtalk] SA very slow (hangs?) on this message, or is it just me?Urban Boquist wrote:
+> If I run spamassassin on this message:
+> 
+>    http://www.boquist.net/stort-sup-brev
+> 
+> it seems to hang. Memory usage goes up to 73MB and stays there. I have
+> let it run for an hour before I killed it. This was on a
+> Pentium-II-366. Yes, I know, a bit slow, but still...
+> 
+> Can anyone else confirm this hang? Maybe I should just upgrade...
+
+Don't run SA on mails this large. Most people tend to ignore mails 
+larger than about 250K in spamassassin processing, because it just kills 
+performance. There are some known issues with the parsing (such as the 
+HTML parsing stuff which is much improved in 2.40 which we're soon to 
+release), but nothing that's too likely to be fixed by 2.40. Perhaps in 
+2.50 though.
+
+Matt.
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

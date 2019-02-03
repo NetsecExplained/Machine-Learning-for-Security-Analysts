@@ -1,0 +1,23 @@
+Blank page after every page when printing PDFs with evince - Debian
+ Lenny, CUPS, HP Paintjet (pj)I have noticed that when printing multi-page PDF files from evince on 
+the GNOME desktop, using CUPS under Debian Lenny, I get a blank page
+after every page.  My printer is an HP PaintJet.  This wastes paper and
+is very annoying.  I have searched the Internet, of course, but I did
+not find any solutions.  The closest I found was Debian bug report 316392,
+but his work-around doesn't work for me.  My PPD file already specifies
+Letter instead of A4 for Page Size.  Does anyone know a work-around for
+this?  Surely someone has run across this before.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/125291308.289438.1272137255091.JavaMail.root@md01.wow.synacor.com
+
+

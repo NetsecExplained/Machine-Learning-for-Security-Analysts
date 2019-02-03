@@ -1,0 +1,82 @@
+[OT] Enforcing policies (was: PDF is blocked for printing, etc. OK
+ for acroread (it behaves  as expected), but KPDF allows me to print it,
+ even if it is protected! Why?)On Mon, 19 Apr 2010 22:56:05 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> IANAL, but you can always take the "legal" path and require that the
+>> person you are giving the documents first signs a contract to prevent
+>> sharing, extracting or printing data. I know this can sound a bit
+>> strict measure but is a very usual method in many companies to prevent
+>> data leakage, depending upon the importance of the material they share
+>> with another "partners".
+
+> Yes. But what happens if they do not sign? 
+
+If they do not agree with the terms, then they cannot access the doc.
+
+> Do you then have any proof
+> that you did not ask/blackmail them to prevent them from signing? 
+
+In any kind of contract, both parts have to agree the terms. No 
+agreement, no contract.
+
+> More
+> generally, how can you prove that if they did not sign, it is because of
+> their personal opinion? 
+
+All of us hold our "personal opinions" and nobody can force any user to 
+sign any contrat they don't agree. But then the relation between two 
+parts stops there. As I don't know what are all of your specific 
+situation details, I'm also unaware if this kind of agreement is out of 
+place or just fits well within your environment.
+
+> That is some part of the problem. Note that next
+> year, I will make people sign. I think that in a > 18 yr. world with
+> engineering students, students should be more responsible about their
+> duty/ies.
+
+In open source world, it is not so uncommom to make people who wants to 
+participate in some aspects of sensitive developing (i.e. fsf) to sign 
+and agree with their terms, regardless the age of the developers (if they 
+are young, they parents have to agree). That is the only way to protect 
+(free) the code.
+
+>> You can enforce a PDF to use DRM *and* activation measures. I have
+>> found some e-books that I was not able to open with Linux boxes and
+>> forced the user reading it on screen just under windows machines with
+>> Acrobat Reader
+>>>6.
+>>
+>> More info here:
+>> http://kb2.adobe.com/cps/329/329059.html
+>>
+>> What you have to ask your boss if this is worth for it as you are
+>> imposing many limitations to the person you are "lending" the document
+>> and also, you need a server (and a license of "Adobe Content Server")
+>> to host the files and manage the DRM licences and restrictions :-/
+
+> Thanks. I read it, but this is quite commercial, isn't it?
+
+"Quite"? Full, I'd say :-)
+
+But is you who seeks for a "comercial" solution. Only proprietary tools 
+(Adobe Reader?) enforce the use of the kind of policies you are looking 
+for.
+
+Inside open source world is a bit difficult to find programs or tools 
+that make what you are looking for, that is, preventing users to make 
+their own :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.20.07.55.03@csmining.org
+
+

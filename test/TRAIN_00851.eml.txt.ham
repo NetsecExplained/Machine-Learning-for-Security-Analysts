@@ -1,0 +1,44 @@
+Re: Replace hardware without reinstall debian lennyOn Tue, 11 May 2010 12:59:00 +0100, Lisi wrote:
+
+> On Tuesday 11 May 2010 12:34:13 Tom H wrote:
+
+>> > I am sure someone will correct me if I have got this wrong, so if
+>> > noone does so I have probably remembered correctly.
+>>
+>> I don't remember a thread on debian-user about UUIDs changing with
+>> changing hardware (I could be wrong though!) but there was a thread in
+>> March on ubuntu-users where a guy was duplicating disks for a rollout
+>> and he was convinced that the BIOS of the boxes into which he was
+>> plugging in the duplicated HDs was changing the UUIDs of the disks'
+>> partitions because he was unable to boot from those disks unless he
+>> changed the fstab to use /dev/sdaX devices. I pointed out that the idea
+>> that a BIOS could change a filesystem's superblock didn't make any
+>> sense and that it could not be a UUID problem because he could boot
+>> boxes with Intel mobos but not boxes with another manufacturer's mobos
+>> (I assume that he could have replied that the other mobos were changing
+>> the UUIDs and the Intels ones not...).
+> 
+> Thanks, Tom - I may be getting confused with that.
+
+No, Lisi, you are right. Here is the thread:
+
+***
+question about fstab in squeeze and uuid
+http://lists.debian.org/debian-user/2010/03/msg01026.html
+***
+
+But using "labels" can lead to another problems. I'm afraid there is no 
+"one size fits all" here :-/
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.11.13.47.27@csmining.org
+
+

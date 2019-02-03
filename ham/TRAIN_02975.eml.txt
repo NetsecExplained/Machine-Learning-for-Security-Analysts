@@ -1,0 +1,41 @@
+Re: Aptitude ErrorFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sat, May 1, 2010 at 10:15 PM, Daniel Burrows  wrote:
+
+> On Sat, May 01, 2010 at 10:09:32PM +0200, James Stuckey <
+> jhstuckey@csmining.org> was heard to say:
+> > On Sat, May 1, 2010 at 9:14 PM, Daniel Burrows 
+> wrote:
+> > >  Did you mean to drop debian-user?
+> > >
+> > > On Sat, May 01, 2010 at 06:29:55PM +0200, James Stuckey <
+> > > jhstuckey@csmining.org> was heard to say:
+> > > > I have the nvidia drivers, among other packages, from Sid.
+> > >
+> > >   What's in your /etc/apt/sources.list?
+> >
+> > No I didn't, thanks.
+> >
+> > deb ftp://ftp.debian-multimedia.org squeeze main non-free
+> >
+> > deb http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+> > #deb-src http://ftp.de.debian.org/debian/ squeeze main contrib non-free
+> >
+> > #deb http://ftp.de.debian.org/debian sid main contrib non-free
+> > deb-src http://ftp.de.debian.org/debian/ sid main contrib non-free
+> >
+> > deb http://security.debian.org/ squeeze/updates main contrib non-free
+> > #deb-src http://security.debian.org/ squeeze/updates main contrib
+> non-free
+>
+>   That's the problem -- you have no (active) "deb" lines for unstable,
+> so apt doesn't know which packages are from it.
+>
+>  Daniel
+>
+
+The aptitude search ~Aunstable appears to just list all the packages in the
+repository. As so with the other commands. The list of packages is so long
+that gmail freezes when I try to past it in, and paste.debian.net tells me
+that it is over 90kb and cannot be pasted.

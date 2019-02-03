@@ -1,0 +1,18 @@
+Barney Not FoundURL: http://diveintomark.org/archives/2002/10/08.html#barney_not_found
+Date: 2002-10-08T22:41:03-05:00
+
+Microsoft Knowledge Base Article Q172668: Barney Fun on Imagination Island 
+Error Message: Barney Not Found[1]. Microsoft ActiMates Interactive Barney may 
+conflict with a wide range of radio-operated electronic devices, including 
+burglar alarms, resulting in the dreaded “Barney Not Found” error. 
+To resolve this problem, Microsoft recommends turning off your burglar alarm. 
+
+Incidentally, this is the funniest MS KBase article I've seen since Earth 
+Rotates in Wrong Direction[2].
+
+
+
+[1] http://support.microsoft.com/default.aspx?scid=KB;EN-US;Q172668&
+[2] http://support.microsoft.com/default.aspx?scid=KB;EN-US;Q131109&
+
+

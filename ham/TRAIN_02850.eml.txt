@@ -1,0 +1,135 @@
+Re: C programming questionFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 15 April 2010 13:56:00 Stephen Powell wrote:
+> On Wed, 14 Apr 2010 23:10:55 -0400 (EDT), Boyd Stephen Smith Jr. wrote:
+> > On Tuesday 13 April 2010 17:16:03 Stephen Powell wrote:
+> >> What I need to do is to have two structures overlay each other; so that
+> >>  they occupy the same storage.  To be specific, here is a structure
+> >> which describes the volume label for an OS-formatted disk:
+> >>
+> >> struct __attribute__ ((packed)) volume_label {
+> >>         char volkey[4];         /* volume key =3D volume label */
+> >> ...
+> >> };
+> >>
+> >> And here is a structure which describes the volume label for a
+> >>  CMS-formatted disk:
+> >>
+> >> struct __attribute__ ((packed)) cms_label {
+> >>         char label_id[4];       /* Label identifier */
+> >> ...
+> >> };
+> >
+> > union any_label {
+> > 	struct volume_label vl;
+> > 	struct cms_label    cl;
+> > };
+> >
+> >> Note that both structures have as their first member a character
+> >> variable of length 4.  In the case of the "volume_label" structure it =
+is
+> >> "volkey" and in the case of the "cms_label" structure it is "label_id"=
+=2E=20
+> >> If the value of this variable is "VOL1" (in EBCDIC) then it is the fir=
+st
+> >> structure which maps the storage.  If the value of this variable is
+> >> "CMS1" (in EBCDIC) then it is the second structure which maps the
+> >> storage.
+> >
+> > union any_label *label =3D /* Initialize somehow */;
+> > struct volume_label *maybe_vl =3D &label-;>vl;
+> > struct cms_label *maybe_cl =3D &label-;>cl;
+> >
+> > if (strncmp(maybe_vl->volkey, "VOL1", 4) =3D=3D 0) {
+> >     maybe_cl =3D NULL;
+> >     /* Use maybe_vl all you want, e.g. */
+> >     maybe_vl->security =3D 0xFF;
+> > } else if (strncmp(maybe_cl->label_id, "CMS1", 4) =3D=3D 0) {
+> >     maybe_vl =3D NULL;
+> >     /* Use maybe_cl all you want, e.g. */
+> >     printf("%lu\n", (unsigned long) maybe_cl->disk_offset);
+> > } else {
+> >     assert(("Unrecognized disk!", 0));
+> > }
+>=20
+> Thanks, Boyd.  Your response comes the closest so far to what I'm looking
+> for.  Based on what I know from other programming languages, I don't think
+> it's going to be necessary to explicitly declare a union.
+
+It's possible, but I would generally do it for clarity.  I like using the=20
+types of variables/arguments as documentation, so I would store any data wh=
+ere=20
+the real type was unknown in the union.  Then access it though a "struct=20
+cms_label *" or "struct volume_label *" one I had determined the correct ty=
+pe.
+
+Since C unions are not tagged, a C union is the same size as it's largest=20
+member.  (NB: Not really sure how __attribute__((__packed__)) changes thing=
+s,=20
+if at all; it's possible you need it on the union to prevent padding from=20
+being added after the space occupied by the largest member.)
+
+> In short, I need to (a) declare "cms_label" as a based structure,
+
+(above; timmmed)
+
+> (b)
+> declare a pointer variable called  "cms_ptr" and associate it with the
+> "cms_label" structure,
+
+struct cms_label *cms_ptr;
+
+Initialization optional, but recommended.
+
+> (c) make sure that the compiler does not attempt
+> to allocate any storage for the "cms_label" structure,
+
+Since you are declaring a pointer to a structure, and not declaring an obje=
+ct=20
+with type "struct cms_label", no space will be allocated for a cms_label.
+
+> (d) make sure that
+> the compiler automatically acquires storage for the "cms_ptr" pointer
+> variable itself,
+
+Make your declaration a definition and that'll be handled.  (Declarations a=
+nd=20
+definitions look very similar for non-function types; the code given above =
+is=20
+actually a definition if it is not within a struct/union type.)
+
+> (e) assign the address of the "volume_label" structure
+> to the "cms_ptr" pointer variable at an appropriate point in the code,
+> and
+
+struct volume_label vl;
+struct cms_label *cms_ptr;
+
+/* Load data into vl */
+/* Determine that the data is actually a cms_label */
+cms_ptr =3D (void *) &vl;
+
+Or, in your specific case, you should be able to do something like:
+
+struct cms_label *cms_ptr =3D (void *) disk_specific->anchor->vlabel;
+
+Since you are already dealing with a "struct volume_label *", there's no ne=
+ed=20
+for the address-of operator (&).
+
+> (f) make references to the members of the cms_label structure.
+
+cms_ptr->label_id; /* Or any other member. */
+
+> How do I do this?  (Man, I wish I knew C!)
+
+Examples above good?  Please let me know if I can provide further assistanc=
+e.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

@@ -1,0 +1,31 @@
+Re: Where to find setup for env variable? [a question]On 20100414_113944, Paul Chany wrote:
+> Hi,
+> 
+> I have setup somewhere the JAVA_HOME environment variable, but don't
+> know where?
+
+...snip
+
+When I am reading this thread there are already two search suggestions
+that are better than what I might have come up with. My post is to
+find out where the setting was actually done. I would have thought it
+could only be in /etc or /home --- but wierd things can happen. Where
+is it? How long did the search command take to run? And some idea of
+the size of your working environment?
+
+If the cause for that particular location appears to be something that
+involved user volition, it could still be useful to know what mistakes
+can be made. Better than learning from ones mistakes is learning from
+others experience. TIA
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414141130.GA22738@big.lan.gnu
+
+

@@ -1,0 +1,23 @@
+Re: automate updates in LennyOn Sat, Apr 10, 2010 at 01:09:58PM +0300, Andrei Popescu wrote:
+> On Sat,10.Apr.10, 11:38:08, Merciadri Luca wrote:
+> > Andrei Popescu wrote:
+> > >
+> > > It doesn't matter. Mixing apt-get and aptitude is not a problem anymore.
+> > >   
+> > Sure? How can you state this? Any proof? I always thought that they were
+> > incompatible.
+> 
+> I'm not sure what I can do to prove that something doesn't exist. I 
+> could for example post the console output of:
+
+I guess this was the big headach
+ http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=411123
+ 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100410104329.GA366@osamu.debian.net
+
+

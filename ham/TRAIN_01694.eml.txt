@@ -1,0 +1,52 @@
+Re: bad focus/click behaviours    Date:        Sun, 22 Sep 2002 22:21:49 -0700
+    From:        Brent Welch 
+    Message-ID:  <200209230521.BAA11218@blackcomb.panasas.com>
+
+  | I would encourage folks to play with those 10 lines of code in
+  | Text_Selection and report what works well for them.  We may come up
+  | with 8 lines that work for everyone, or perhaps introduce yet another
+  | setting that lets folks choose between a few useful models.  Of course,
+  | that's an admission of policy failure, but I'm willing to do that.
+
+I actually think you're looking in the wrong place.   I, at least,
+have almost no problems with the choice of what gets pasted, or
+selected, that stuff (for me, if perhaps not users of some gnome variant,
+which appraently has been fixed anyway) all seems to work just fine.
+
+The problem is that a button 1 click clears the selection (PRIMARY)
+where it shouldn't - the previous selection should only be cleared
+when there's something else to replace it (even if the highlighting
+of what is selected is removed).     Try this in any other ramdom
+application (from xterm to netscape) and see how it works.  There
+normally is *no* (mouse based) way to actually clear the primary
+selection (that is, set it to be a null string).
+
+Then, because of the "if I get asked for the selection value, I will
+find something" behaviour, if you click (intending to set the insert
+point, the way most other GUI's operate), and then paste, because the
+PRIMARY is clear, but exmh still owns the selection, because nothing
+else has taken it, it does and finds some other ramdom stuff, from
+either the clipboard or cut buffer, which tends to be something that was
+deleted back in the ancient past, and pastes that.
+
+That behaviour, to me anyway, is the real issue.
+
+Once that gets fixed, we can switch back to operating the normal
+"select stuff, click at new insert point, paste" mode of operation
+that almost everyone expects to work (whether the "select stuff"
+is somewhere in one of the exmh windows, or elsewhere).
+
+kre
+
+ps: this message is from my experience as a exmh user only, I've never
+really understood enough about X and selections to go gazing at that
+part of the code and see how it all really operates.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

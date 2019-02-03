@@ -1,0 +1,27 @@
+Re: [SAdev] nightly mass-check and hit-frequenciesDaniel Quinlan wrote:
+
+DQ> jm@jmason.org (Justin Mason) writes:
+DQ> 
+DQ> > But I think rsync is key; it's very efficient bandwidth-wise, and it
+DQ> > allows you to select which ones you want just as well as wget would.
+DQ> > (Bandwidth is a much bigger issue for me and some other of the europeans
+DQ> > involved, than it would be for you guys ;)  IMO it's by far the most
+DQ> > efficient and scriptable way to do this stuff, these days.
+DQ> 
+DQ> It must be horrible being a dial-up user in 2002.  If we can *automate*
+DQ> rsync submission with good *authentication*, it would be fine with me.
+DQ> The current rsync method is not sufficiently authenticated, though.
+
+I'll take a look at it.  I'm sure there's got to be some reasonly easy way to 
+have rsync carry itself over ssh and secure access using ssh keys.
+
+DQ> > I suggest we use the hughes-family.org server for rsyncing, as we do for
+DQ> > the corpus_submit stuff -- in a separate subdirectory, though! -- then
+DQ> > I'll take a look at getting a nightly hit-frequencies-collation system
+DQ> > going.
+
+Ok, I'll take a look at it.
+
+C
+
+

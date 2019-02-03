@@ -1,0 +1,28 @@
+[Razor-users] razor vs cloudmark - merging?I am somewhat puzzled by a phone call I (or rather the CIO at the ISP for
+whom I work) received from an individual claiming to represent Cloudmark.
+The gist of the call was that since we were using razor and checking our
+mail against the razor servers and that since those servers contain
+information proprietary to Cloudmark, we would [in the near future?] be
+required to begin paying Cloudmark/spamnet $1.00/user per year. I was
+wondering if anyone else has received such a call?
+
+I am curious as to whether a spammer has begun to try contacting razor users
+with the above tactic in an effort to get them to stop using razor or
+whether the open source/community aspect of the razor project is going by
+the wayside in lieu of a strictly commercial approach (ala brightmail and
+the likes).
+
+Sven
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

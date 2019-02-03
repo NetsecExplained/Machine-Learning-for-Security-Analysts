@@ -1,0 +1,70 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveThis update appears to have broken the SunPKCS11 provider... sort of.
+
+Attempting to use an alternate PKCS11 provider while the one while
+
+security.provider.1=3Dsun.security.pkcs11.SunPKCS11 =
+${java.home}/lib/security/sunpkcs11-macosx.cfg
+
+is present in java.security results in things like this (an example from =
+jarsigner):
+
+jarsigner error: java.security.InvalidKeyException: Private keys must be =
+instance of RSAPrivate(Crt)Key or have PKCS#8 encoding
+
+Replacing security.provider.1 with an instance of BouncyCastle (or =
+removing it and renumbering all of the other entries) is a work-around.
+
+On May 18, 2010, at 1:35 PM, Mike Swingler wrote:
+
+> Java developers,
+>=20
+> The latest Java software updates for both Mac OS X 10.6 and 10.5 are =
+now live and available to all Mac OS X customers via Software Update. If =
+you installed any of the developer previews, running Software Update =
+will automatically bring you up to date with the final GM version.
+>=20
+> Manual download links:
+> Java for Mac OS X 10.6 Update 2: 
+> Java for Mac OS X 10.5 Update 7: 
+>=20
+>=20
+> Like the last pair of releases, all of the JavaDoc API jars, source =
+jars, native frameworks headers, and tools documentation is in a =
+separate docs package. Be sure to install this package to keep your IDE =
+in sync with the Java platform sources. We've made a number of additions =
+to the eAWT, so you may also want to check out the appledocs.jar if you =
+haven't looked at it in a while.
+>=20
+> Java for Mac OS X 10.6 Update 2 Developer Documentation:
+> =
+
+>=20
+> Java for Mac OS X 10.5 Update 7 Developer Documentation:
+> =
+
+>=20
+>=20
+> The team sends their thanks to everyone who installed the developer =
+previews and helped to make this a great release.
+>=20
+> Warm regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/nsayer%40kfu.com
+>=20
+> This email sent to nsayer@kfu.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

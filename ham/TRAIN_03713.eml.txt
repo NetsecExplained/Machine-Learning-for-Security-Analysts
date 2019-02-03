@@ -1,0 +1,27 @@
+Re: It's a small world
+On Thu, Aug 15, 2002 at 05:46:55PM -0400, Luis Villa wrote:
+> FWIW, slummerville actually has the internet- not just broadband, but
+> actual broadband competition, which I gather is rare. I had ADSL and two
+> cable options when I moved in.
+
+
+Did you actually attempt to order the DSL? Large chunks of somerville have
+advertised DSL service that can't actually be obtained. Excuses vary, from
+"no available copper" to "full DSLAM", but the folks I know who've wanted
+DSL around here have all failed, ending up either with ATTBB, RCN or an
+honest-to-god T1.
+
+        -j
+> 
+> Luis
+> 
+
+-- 
+jesse reed vincent -- root@eruditorum.org -- jesse@fsck.com 
+70EBAC90: 2A07 FC22 7DB4 42C1 9D71 0108 41A3 3FB3 70EB AC90
+
+This is scary.  I'm imagining tracerouting you and seeing links like "Route
+84" and "Route 9, Exit 14".  Obviously, this is illness induced. 
+								--Cana McCoy
+http://xent.com/mailman/listinfo/fork
+

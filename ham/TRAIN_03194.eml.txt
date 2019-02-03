@@ -1,0 +1,38 @@
+Re: ARRRGHHH Had GPG working, now it doesnt.Hi,
+
+On Sun, 01 Sep 2002 00:05:03 MDT Reg Clemens wrote: 
+  
+[...]
+> in messages with GnuPG signatures.  But punching the line ALWAYS
+> gives
+> 
+>         Signature made Thu Aug 29 00:27:17 2002 MDT using DSA key ID BDDF997A
+>         Can't check signature: public key not found
+> 
+> So, something else is missing.
+
+Yes, the public key of the signature you want to check :-).
+
+Are you really sure that you have the public key of the message's
+signature? If not, try downloading it or try to check a signature from
+which you know you have the public key.
+
+
+
+Regards,
+
+Ingo
+
+-- 
+Ingo Frommholz                             PGP public keys on homepage
+ingo@frommholz.org                           http://www.frommholz.org/
+My childhood inspection is my record collection (Ned's Atomic Dustbin)
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+

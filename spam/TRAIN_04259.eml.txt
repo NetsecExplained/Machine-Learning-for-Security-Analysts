@@ -1,0 +1,52 @@
+Exclusively for hibody, -80%
+
+
+
+Newsletter
+
+<!--
+a:hover
+{ color: #44EA09; text-decoration: none; }
+
+eciyrad
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-family: Tahoma;
+ font-size: 11px;
+ color: #3F3335;
+}
+
+a:link
+{ color: #DB3AD6; }
+
+a:visited
+{ color: #78EB6B; text-decoration: underline; }
+
+-->
+
+
+
+
+
+
+To view this email online,
+		click here.
+      
+
+
+
+
+
+
+ 
+Click here to
+	unsubscribe. 
+Read our privacy policy.
+(c) 2008-2010 Auula. All rights reserved.
+
+
+
+
+

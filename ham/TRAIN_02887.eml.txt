@@ -1,0 +1,43 @@
+Re: no alternatives for firefox/mozillaOn Fri, 07 May 2010 07:41:44 +0200, Sven Joachim wrote:
+
+>> whatever in Debian, but entirely stopping me from starting firefox is
+>> something I don't feel comfortable.
+> 
+> This is a feeling that many other users share, and therefore…
+> 
+>> $ apt-cache policy iceweasel
+>> iceweasel:
+>>   Installed: 3.5.9-2
+>>   Candidate: 3.5.9-2
+> 
+> …it was fixed in 3.5.9-3:
+> . . . 
+>> $ update-alternatives --display firefox update-alternatives: error: no
+>> alternatives for firefox.
+> 
+> Was there ever an alternative for firefox?  I don't think so.
+> 
+>> $ update-alternatives --display mozilla update-alternatives: error: no
+>> alternatives for mozilla.
+> 
+> Removing that makes sense because firefox is known as firefox and not
+> mozilla.
+
+Thanks Sven, and everyone who replied.
+
+Just FYI, I was able to start iceweasel by either firefox or mozilla 
+before.
+
+
+-- 
+Tong (remove underscore(s) to reply)
+  http://xpt.sourceforge.net/techdocs/
+  http://xpt.sourceforge.net/tools/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hs1725$pb8$1@dough.gmane.org
+
+

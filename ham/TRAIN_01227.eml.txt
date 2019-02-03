@@ -1,0 +1,24 @@
+Re: Connecting to vpn serverOn 14 Apr 2010, Anthony Campbell wrote:
+
+Well, I tried to connect but got:
+
+EAP: unknown authentication type 13; Naking
+
+Anyone know what this indicates? Googling doesn't produce much
+illumination - nothing that applies to my situation.
+
+Anthony
+
+-- 
+Anthony Campbell - ac@acampbell.org.uk 
+Microsoft-free zone - Using Debian GNU/Linux 
+http://www.acampbell.org.uk - sample my ebooks at
+http://www.smashwords.com/profile/view/acampbell
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100414231619.GB18626@acampbell.org.uk
+
+

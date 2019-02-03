@@ -1,0 +1,23 @@
+Re: Ever make your own fstab from scratch?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 27 April 2010 02:44:20 Thomas Pomber wrote:
+> You really gotta know your hardware!
+
+I don't find that to be true at all.  For non-removable media except / you =
+can=20
+simply use UUIDs everything should be fine.  For / you can generally use a=
+=20
+UUID, too.  Removable media can be handled in a variety of ways.  I prefer=
+=20
+using udev to fill in any gaps; writing udev rules doesn't really require=20
+familiarity with hardware (udev will tell you everything useful) and there =
+are=20
+some descent guides available.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

@@ -1,0 +1,39 @@
+Re: Portable RPMsOn Fri, 2002-08-16 at 20:58, Torsten Bronger wrote:
+
+> If I create an RPM according to one of the how-to's with having
+> Red Hat in mind, how big are my chances that it will also work
+> for the SuSE distribution, or others?  (I don't know how many
+> base on the RPM system.)
+> 
+> Or what must I pay attention to when creating an RPM that should
+> work with the big distributions?
+
+One practice I've adopted is to list Requires: only when they're
+absolutely necessary.  This will help because some packages are named
+differently between distributions (eg. SDL <-> libSDL), and the
+dependencies are automatically handled by RPM by depending on shared
+library names.
+
+This doesn't apply to BuildRequires: though.
+
+Use macros for directory names where available, eg %{_libdir},
+%{_bindir}, %{_datadir} etc.
+
+I'd like to suggest using as many RPM macros for command names as
+possible too, but unfortunately I don't know of a definitive reference
+about them...
+
+I have a small RedHat 7.3 RPM/apt repository at
+, and I've received reports from people
+running Mandrake 8.x and SuSE that the RPMs work with them out of the
+box.
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,57 @@
+Anolther sequence related tracebackJust got this ... I was just reading mail, but in a very dark
+room, where the keyboard is illuminated mostly by the light from
+the (laptop) screen.   I think I put my fingers on the wrong keys.
+(I mostly use the keyboard exclusively while running exmh).
+
+This is from today's cvs (the fixes for the problems I mentioned
+yesterday are included) - I eventually managed to contact the cvs
+server.
+
+expected integer but got ""
+    while executing
+"incr m"
+    (procedure "MhSeqExpand" line 12)
+    invoked from within
+"MhSeqExpand $folder $msgids"
+    (procedure "MhSeq" line 2)
+    invoked from within
+"MhSeq $folder $seq $how $oldmsgids $msgids"
+    (procedure "Mh_SequenceUpdate" line 54)
+    invoked from within     
+"Mh_SequenceUpdate $folder replace $seq $msgids"
+    (procedure "Seq_Set" line 4)
+    invoked from within             
+"Seq_Set $folder cur $msgid"
+    (procedure "Mh_SetCur" line 7)      
+    invoked from within                     
+"Mh_SetCur $exmh(folder) $msgid"
+    (procedure "MsgChange" line 5)              
+    invoked from within                             
+"MsgChange - noshow"
+    invoked from within                                 
+"time [list MsgChange $msgid $show"
+    (procedure "Msg_Change" line 3)
+    invoked from within                                     
+"Msg_Change $select(sel) noshow"
+    (procedure "SelectTypein" line 14)                          
+    invoked from within
+"SelectTypein .mid.right.top.msg -"
+    (command bound to event)
+
+kre
+
+ps: I have the sequences window vertical instead of horizontal, and the
+"colours from the ftoc" stuff all deleted, and it is looking just about as
+good as the old unseen window used to look.   I still have some work to
+do to make it a little nicer (listboxes seem to have some strange habits)
+and then I need to make it all optional and parameterized, at the minute
+I'm just embedding stuff in the code, much quicker for prototyping.  Once
+its done, I'll send a patch for someone to look over.
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

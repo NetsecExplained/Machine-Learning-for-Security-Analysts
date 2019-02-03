@@ -1,0 +1,48 @@
+Re: Flash is open?From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hello Mark Allums,
+
+Am 2010-05-14 07:39:47, hacktest Du folgendes herunter:
+> Flash may not be a priority, sense it performs two functions.  One,
+> it acts as the standard web video player.  Two, it tries to be a
+> standard web programming interface and SDK.
+>=20
+> The former is becoming mooted by the advent of HTML5.  The latter is
+> boring, since there are 1000s of other ways to write programs that
+> run in web browsers, e.g., Javascript.  No one really wants Flash to
+> be the go-to standard for programming, even if it offers a few shiny
+> gewgaws. Don't you hate Flash-based sites?  I know I do.
+
+=2E..and I hate websites using a 200 kByte JavaScript,  sucking  500 MByte
+of memory and  consuming  100%  CPU  resources  to  implement  the  same
+functionality as the Adobe Flash-Pluging.
+
+Yes, I know a bunch of Websites claiming there are  Flash-Free...  Using
+JavaScript for this purpose is the same crap as using Flash.
+
+Thanks, Greetings and nice Day/Evening
+    Michelle Konzack
+
+--=20
+##################### Debian GNU/Linux Consultant ######################
+   Development of Intranet and Embedded Systems with Debian GNU/Linux
+
+itsystems@tdnet France EURL       itsystems@tdnet UG (limited liability)
+Owner Michelle Konzack            Owner Michelle Konzack
+
+Apt. 917 (homeoffice)
+50, rue de Soultz                 Kinzigstra=DFe 17
+67100 Strasbourg/France           77694 Kehl/Germany
+Tel: +33-6-61925193 mobil         Tel: +49-177-9351947 mobil
+Tel: +33-9-52705884 fix
+
+ 
+ 
+
+Jabber linux4michelle@jabber.ccc.de
+ICQ    #328449886
+
+Linux-User #280138 with the Linux Counter, http://counter.li.org/

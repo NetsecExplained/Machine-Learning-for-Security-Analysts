@@ -1,0 +1,140 @@
+[SPAM]  Default keys
+
+
+
+
+
+NCTE INBOX
+
+<!--
+TopLinks    { font-size: 9px; font-family: Arial, Helvetica, sans-serif }
+TopLinks    a:link {
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+TopLinks    a:active {
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+TopLinks    a:visited {
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+TopLinks    a:hover {
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+TopImage {
+	background: #FFFFFF;
+	text-decoration: underline;
+	font-size: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#5151FF;
+}
+Masthead    {
+	font-size: 16.5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+BodyText    { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px }
+BodyText    a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+}
+BodyText    a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+}
+BodyText    a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+}
+BodyText    a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+Date        { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;
+               font-weight: bold; color: #15477A }
+SectionHead { font-size: 18px; color: #15477A; font-family:
+               Verdana, Arial, Helvetica, sans-serif; font-weight: bold }
+Disclaimer  { font-size: 9.5px; font-family: Arial, Helvetica, sans-serif }
+ItemHeader  { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold;
+               color: #A91112 }
+Sponsor     { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px }
+p            { margin: 0px; padding: 0px }
+-->
+
+
+
+
+
+
+Please add us to your
+	  address book and/or safe sender list
+ 	 to ensure delivery of your INBOX e-newsletter.
+
+
+
+
+October 8, 2009
+
+
+
+
+
+
+	...news
+
+
+
+
+
+
+
+
+
+
+
+
+       
+      
+
+		Subscribe to (or unsubscribe from) the INBOX.
+
+		Read the current issue online  if
+		you aren't able to access the links in your email version of INBOX.
+
+		Contact the INBOX staff with content or technical questions.
+
+		See the last two issues of INBOX in the archive.
+
+		Advertise in an issue of INBOX.
+
+It is the policy of NCTE in
+	  its journals and other publications to provide a forum for the open
+	  discussion of ideas concerning the content and teaching of English and
+	  language arts. Publicity accorded to any particular point of view does not
+	  imply endorsement by the Executive Committee, the Board of Directors, or
+	  the membership at large, except in announcements of policy, where such
+	  endorsement is clearly specified. Paid advertising has been identified as
+	  such.
+
+      Copyright 2009 
+	  National Council of Teachers of English
+NCTE, 1111 W. Kenyon Rd., Urbana,
+	  IL 61801-1096
+ 
+
+
+
+
+

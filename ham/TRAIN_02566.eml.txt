@@ -1,0 +1,36 @@
+Re: Aptitude From TestingFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 14 May 2010 14:36:44 Boyd Stephen Smith Jr. wrote:
+> Does it annoy anyone else that the 'aptitude' package no longer provides =
+an
+> 'aptitude' binary?
+>=20
+> Typing 'aptitude-curses' is a little annoying.  I'm assuming the rename is
+> because of work on aptitude-gtk and aptitude-qt.  If so, wouldn't using t=
+he
+> alternatives system for an 'aptitude' symlink make sense?
+
+I think I may have been hit by bug 575137.  I am using btrfs, and there wer=
+e=20
+some issues during the install, but I do not believe I have suffered any fi=
+le=20
+system corruption in the dpkg databse or the aptitude package.
+
+In particular, (debsums -a aptitude) reports all the files are in good=20
+condition.  (update-alternatives --display aptitude) shows:
+No alternatives for aptitude.
+
+I initially installed 0.4.11.11-1~lenny1 on this system, but have since=20
+upgraded to 0.6.1.5-3.  Is there a good way for me to establish an alternat=
+ive=20
+that will not mess up on the next upgrade?  Or, is this problem supposedly=
+=20
+fixed in 0.6.2.1-2 and I should just upgrade now?
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

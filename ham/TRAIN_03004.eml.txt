@@ -1,0 +1,40 @@
+Re: Re (2): lilo removal in squeeze (or, "please test grub2")On Tue, 25 May 2010 12:03:17 -0400 (EDT), Boyd Stephen Smith Jr. wrote:
+> Stephen Powell wrote:
+>> 
+>> You're missing the point.  The main selling point to management
+>> is that Linux is free.
+> 
+> No software is entirely without cost.  Free Software is no exception.  There 
+> are usually no up-front licening fees, sure.  However, volunteers work on 
+> whatever they like, and if no one volunteers to maintain and support your 
+> software you may have to pay for that.
+> 
+> Even with volunteers providing maintenance and support, your specific 
+> requirements may differ from their goals and that will require effort to 
+> resolve.
+> ...
+> Also, volunteers are rarely concerned with "market share", losing your 
+> management as users is not necessarily a concern to them.  If it is a concern 
+> for you, you may have to put forward some additional effort to address your 
+> management's issues.
+
+All excellent points, Boyd.  Fortunately in this case, extlinux appears
+to be a viable solution.  I'll soon know.  The guy I need to see about
+setting a test server to test the backup and restore scenario
+has been off work with a sick child for the past couple of days, but when
+he gets back I'll try to prove that it is 100% compatible with our
+backup software.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1557806589.43087.1274807547943.JavaMail.root@md01.wow.synacor.com
+
+

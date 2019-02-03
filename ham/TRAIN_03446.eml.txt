@@ -1,0 +1,26 @@
+Re: Sorting> >  sh -c 'for f in "`folders -recurse -fast`" ; do sortm +"$f" ; done'
+
+> Thanks Tom and Jacob. The above works, but without the double quotes: i.e.
+>
+> sh -c 'for f in `folders -recurse -fast` ; do sortm +"$f" ; done'
+
+I may have a different version of "sh" than you do; the double quotes
+around the backticks work for my "sh".
+
+(In the more-than-you-really-wanted-to-know category, you're probably
+safe without the double quotes.  The only reason I put them in is that
+I have some pathologically-named folders, including folders whose
+names contain spaces.  If all your folders have safe names, you don't
+need special quoting.)
+
+
+ -Jacob
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

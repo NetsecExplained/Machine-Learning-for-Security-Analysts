@@ -1,0 +1,8 @@
+FreeBSD or Linux for your MySQL Server?URL: http://jeremy.zawodny.com/blog/archives/000203.html
+Date: 2002-09-30T17:22:34-08:00
+
+This is an issue that comes up all the time at work. It is an issue for roughly 
+four reasons: Yahoo is a FreeBSD shop Someone has heard that MySQL runs better 
+on Linux Someone knows that we run some...
+
+

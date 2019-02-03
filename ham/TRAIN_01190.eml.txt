@@ -1,0 +1,26 @@
+[Semi-OT] Accessing gmail from PythonDoes anyone have an example of how to do this?  Google hasn't 
+helped, specifically at telling me what the keyfile and certfile 
+should be.
+
+Google *did*, though, help me with fetchmail, so now I have the 
+relevant pem files.
+
+$ dir .certs/
+total 48
+drwxr-xr-x   2 me me  4096 2010-05-06 15:13:16 ./
+drwxr-xr-x 205 me me 36864 2010-05-06 15:10:01 ../
+lrwxrwxrwx   1 me me     9 2010-05-06 11:11:20 34ceaf75.0 -> gmail.pem
+lrwxrwxrwx   1 me me    11 2010-05-06 11:11:20 594f1775.0 -> equifax.pem
+-rw-r--r--   1 me me  1162 2009-05-04 18:56:06 equifax.pem
+-rw-r--r--   1 me me  1224 2010-05-06 10:51:08 gmail.pem
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE3231E.5070102@cox.net
+
+

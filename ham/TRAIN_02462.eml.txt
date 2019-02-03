@@ -1,0 +1,17 @@
+Re: The MIME information you requested (last changed 3154 Feb 14)
+UW Email Robot said:
+
+> What is MIME?
+
+I know what MIME is godammit ;)
+
+> Since MIME is only a few years old, ...
+
+a *few*?  Time to update pine-robot-blurb.txt on
+docserver.cac.washington.edu, I think.
+
+Has anyone figured out what's up with this?  Does someone out there think
+that FoRK needs some MIME tutoring?
+
+--j.
+

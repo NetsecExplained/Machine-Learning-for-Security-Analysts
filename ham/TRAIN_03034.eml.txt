@@ -1,0 +1,23 @@
+Re: scaled offscreen video rendering on WindowsOn 5/19/2010 10:50 AM, James Walker wrote:
+> I need to render a movie into a GWorld that may not be the movie's
+> natural size. When the movie is scaled up, say to double size, I see
+> some jaggies. Whereas if I open the same movie in QuickTime Player and
+> stretch the window, I see jaggies while stretching, but when I release
+> the mouse, the image smooths out. What do I need to do to render at a
+> bigger size besides SetMovieGWorld and SetMovieBox? (This is on Windows,
+> so no QTKit, please.)
+
+
+By the way, I tried to use a DTS incident to get help on this, and got 
+the reply "DTS does not provide code-level support for Windows.".
+-- 
+   James W. Walker, Innoventive Software LLC
+   
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

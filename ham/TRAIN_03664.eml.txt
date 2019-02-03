@@ -1,0 +1,23 @@
+Re: KDE 4.4.3 in unstableEl Jueves 06 Mayo 2010 12:50:52 Facundo Aguilera =20
+escribi=F3:
+>=20
+> Just for add a good comment, I'm testing 4.4.3 and it working very good!!
+> Thanks!!
+>=20
+>=20
+> The only problem I'm having is that kmail is not searching in the full
+> address list when writing a new message. But i can drag from kaddressbook
+> for now...
+
+
+Solved, I just create again the akonadi resource in systemsettings... the o=
+ld=20
+setting was removed in the upgrade.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005061259.42306.budinero@csmining.org
+
+

@@ -1,0 +1,22 @@
+Re: USB device attached via RS232 adaptorFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+On Sun, 18 Apr 2010 16:20:49 -0300
+Eduardo M KALINOWSKI  wrote:
+
+Hello Eduardo,
+
+> I see nothing about serial there. Just a plain smart card reader that=20
+> connects directly via USB.
+
+True, but Dotan's neighbour has an RS232 to USB adaptor that the reader
+is connected to.
+
+--=20
+ Regards  _
+         / )           "The blindingly obvious is
+        / _)rad        never immediately apparent"
+
+I don't believe you have to be an idiot to get somewhere these days
+Bombsite Boy - The Adverts

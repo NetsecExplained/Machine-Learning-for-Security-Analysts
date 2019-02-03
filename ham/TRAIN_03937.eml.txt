@@ -1,0 +1,33 @@
+Re: Mail errors or attacks?On Tuesday 25 May 2010 20:06:29 debian-user-digest-request@lists.debian.org 
+wrote:
+> | > It is a spamer...
+> | >
+> | > 
+> | >
+> | > It it is always the same IP, add it to the backlist
+> |
+> | 
+> |
+> | How do I do this obvious task? In exim? I have fail2ban as well but this
+> | is  not catching this one.
+> 
+> Have you tried adding 
+> 
+> /sbin/iptables -I INPUT -s 71.121.223.194 -j DROP
+> 
+> to /etc/init.d/iptables.rules?
+
+I do not have this.
+I am (still) using the guarddog (kde3) firewall which sets the iptables rules. 
+There is no "active" rules set otherwise.
+
+I could make it, but I think that the guarddog would override. I could add 
+this after the fact, however. I will try it.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005252113.04860.d_baron@012.net.il
+
+

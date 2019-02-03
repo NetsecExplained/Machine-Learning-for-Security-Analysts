@@ -1,0 +1,23 @@
+Re: downloaded .jnlp won't opengodo wrote:
+> On 04/27/2010 06:36 PM, John O Laoi wrote:
+>>> Does some of this errors sad something like "there is no network"?
+>>
+>> Yes, they always say
+>> "Unable to load resource:"
+>>
+>>
+> cat /proc/sys/net/ipv6/bindv6only
+> if output is 1 then:
+> echo 0 > /proc/sys/net/ipv6/bindv6only
+
+That's not bad either ;-)
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hr7gao$sde$2@dough.gmane.org
+
+

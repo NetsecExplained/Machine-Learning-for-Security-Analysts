@@ -1,0 +1,63 @@
+Setting up Java1.6 on OS 10.5Hi all,
+
+I'm trying to get Java1.6 working on my MacBook Pro 1,1 which has  
+10.5.8 on it. I've downloaded a package from the OpenJDK project, and  
+I've got it setup using the directions
+that I've found at the bottom of this thread:
+
+http://www.mailarky.com/thread.php?page=1&id;=197627
+
+where I've setup an OpenJDK6.jar folder in my ~/Library/Java/ 
+JavaVirtualMachines directory. I've got the proper directory  
+structure, but no luck in having it recognized by the
+/usr/libexec/java_home function. Nor is it recognized if I try to  
+symlink it as a the 1.6.0 folder in the /System/Library/.../Versions  
+path. I think then the culprit may be my Info.plist
+file.
+
+Does anyone have any experience with doing this setup? I've included  
+what my Info.plist looks like below to see if it's not formatted  
+properly.
+
+Thanks in advance.
+--
+Melih Onvural
+http://www.onvural.net/melih
+
+
+CFBundleDevelopmentRegion
+English
+CFBundleIdentifier
+com.example.OpenJDK
+CFBundleExecutable
+libjava.dylib
+CFBundleInfoDictionaryVersion
+6.0
+CFBundleName
+OpenJDK 1.6.0
+CFBundlePackageType
+BNDL
+CFBundleShortVersionString
+1.0.0
+CFBundleSignature
+???
+CFBundleVersion
+1.0.0
+JavaVM
+	JVMCapabilities
+
+		CommandLine
+
+	JVMPlatformVersion
+	1.6
+	JVMVersion
+	1.6.0_00
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

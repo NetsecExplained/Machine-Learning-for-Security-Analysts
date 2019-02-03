@@ -1,0 +1,30 @@
+Re: [Razor-users] razor unblessed reference
+Vipul Ved Prakash said:
+
+> Are there any suggestions for "fixing" this in razor-agents? razor-agents
+> could write to syslog by default, but I am not sure if that would be
+> desirable default behaviour...
+
+Hi Vipul,
+
+I reckon if the "unwritable log file" error condition could be caught by
+Razor and handled gracefully (logging to syslog or /dev/null), it'd be a
+great help.
+
+As it stands, if the log file is unwritable, the razor check falls over
+entirely as the constructor returns undef (unblessed reference = 'die'
+error in perl).
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

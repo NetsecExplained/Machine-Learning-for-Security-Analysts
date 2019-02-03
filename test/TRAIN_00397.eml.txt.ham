@@ -1,0 +1,26 @@
+Re: self adaptive apt sourceOn 05/06/2010 05:20 AM, T o n g wrote:
+> Hi,
+>
+> I came across an universal apt source site that will detect&  determine
+> the fastest mirror for each individual user. Now I forgot where to find
+> the info. Anyone can help?
+>
+> Thanks
+>
+Hi,
+I don't know web site, but maybe apt-spy and netselect-apt can help you.
+
+-- 
+Bye,
+Goran Dobosevic
+Hrvatski: www.dobosevic.com
+  English: www.dobosevic.com/en/
+Registered Linux User #503414
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE240F1.6090409@dobosevic.com
+
+

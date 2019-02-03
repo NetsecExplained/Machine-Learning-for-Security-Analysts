@@ -1,0 +1,50 @@
+Toshiba Satellite Pro L305 Series overheating solvedOn Thu, Nov 12, 2009, I had written:
+ 
+> I don't have proper fan control of my Toshiba L305 series
+> laptop. The way I control the fan is by restarting the
+> laptop immediately after an overheating shutdown. This
+> somehow locks the fan on its maximum setting.
+> 
+> Toshiba has not been forthcoming with technical data that
+> would help my better control my fan (and hotkeys, etc.)
+
+I solved the overheating problems I had by using utilities
+under Vista enabled to set the processor for Low Frequency
+operation (as opposed to Dyamic Frequency Control), and to
+select the power-saving mode.
+
+One of the utilities was in a Toshiba folder under All
+Programs, another was in the Vista utilities folder.  (Sorry
+to be vague, I'm not keen to risk undoing my present success
+to double-check. :-)
+
+Vista reported that the OS would need to be rebooted
+for the settings to take effect.
+
+When I rebooted into Linux, I discovered that the
+fan would speed up at temperatures of 80C.
+Also, playing video no longer causes overheat
+and shutdown.
+
+Idle temperatures are way down in a reasonable range,
+around 60C.
+
+The laptop uses Insyde H2O BIOS, which provides
+no facilities for setting power-related parameters.
+Fan controls and other functions are reportedly 
+available via the omnibook module. I have yet to test
+this, and no immediate need, having dealt with the
+biggest thorn.
+
+Regards,
+
+-- 
+Joel Roth
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100410064405.GA8549@sprite
+
+

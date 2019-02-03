@@ -1,0 +1,15 @@
+Jumpy video after KDE 4.4 upgrade in SqueezeI upgraded my Squeeze box to KDE 4.4 about a week ago, and have been 
+contending with jumpy, hesitant video performance ever since. I'm not sure 
+which package to file this bug against; if it helps I'm running an Nvidia 
+7900GS using the drivers in the nvidia-glx package. It ran fine with KDE 4.3. 
+Thanks!
+
+Gene
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005241916.06367.gkodadek@csmining.org
+
+

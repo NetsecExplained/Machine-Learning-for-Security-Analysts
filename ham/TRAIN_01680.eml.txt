@@ -1,0 +1,37 @@
+Re: partitioning a new hard diskOn 05/21/2010 01:38 PM, roberto wrote:
+> hello,
+> a friend gave me a laptop (sony vaio) where i want to install debian
+> squeeze (in dual boot);
+> actually the disk is partitioned as follows (output from mount
+> command, #'s are my comments):
+>
+> # total 82.25 GB 82.25 free, extended partition, ntfs
+> /dev/sda2 on /media/VAIO type fuseblk
+> (rw,nosuid,nodev,allow_other,default_permissions,blksize=4096)
+>
+> # total 93.14 GB, 60.35 free, primary partition, ntfs
+> /dev/sda5 on /media/VAIO_ type fuseblk
+> (rw,nosuid,nodev,allow_other,default_permissions,blksize=4096)
+>
+>
+> how would you repartitionate the disk, since i have to leave a certain
+> amount of space for Xp for other users ?
+> i thought about installing debian next to the VAIO_ partition and then
+> use the other partition VAIO for read and write
+>
+
+Which is the "real" XP partition, sda2 or sda5?
+
+If nothing's on sda5, then that should be more than enough for a 
+laptop install.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF73318.1070505@cox.net
+
+

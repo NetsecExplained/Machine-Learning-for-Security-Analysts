@@ -1,0 +1,19 @@
+Re: Moving to Debian: updated softwareOn 04/22/2010 11:54 AM, Dotan Cohen wrote:
+> I am looking for KDE 4.4.2 and Open Office 3.2 packages for Lenny. I
+> have found qt-kde.debian, Debian Experimental, Testing, Unstable, and
+> Backports. It looks to me that Backports is the best for an everyday
+> user who values stability, and prefers to use released software
+> version. Please let me know where I am mistaken. Thanks.
+>
+>    
+Fedora 12 has KDE 4.4 and it's in a pretty stable shape. Also, it's 
+officially supported,
+as opposed to OpenSUSE.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD078FD.5020105@csmining.org
+
+

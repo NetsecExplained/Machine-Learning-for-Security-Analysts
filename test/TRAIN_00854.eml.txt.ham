@@ -1,0 +1,22 @@
+Re: Amarok's IssuesFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On antradienis 13 Balandis 2010 19:04:51 Patrice Pillot wrote:
+> Hi,
+>=20
+> Edson Marquezani Filho a =C3=A9crit :
+> > I'm using SQLite as database backend
+>=20
+> You said you were using squeeze, didn't you ? May I ask you how you
+> tweaked amarok to use sqlite instead of mysqle ?
+
+amarok 2 does not support SQLite. That's not something you can "tweak" amar=
+ok=20
+for.
+
+=2D-=20
+Modestas Vainius 

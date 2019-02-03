@@ -1,0 +1,22 @@
+xine problemsHi,
+
+	I'm no longer able to play encrypted dvd's using the xine rpm from freshrpms. 
+I think it was about a week ago when I last rented some dvd's, worked just 
+fine, but apparently since the latest xine update on freshrpms, it won't 
+anymore. 
+The output is :
+
+input_dvd: Sorry, this plugin doesn't play encrypted DVDs. The legal status
+           of CSS decryption is unclear and we can't provide such code.
+           Please check http://dvd.sf.net for more information.
+
+I'm pretty sure it worked with the previous freshrpms release... Any way of 
+rolling back updates ?
+
+Nick Verhaegen
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

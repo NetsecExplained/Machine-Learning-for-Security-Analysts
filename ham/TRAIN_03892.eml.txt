@@ -1,0 +1,21 @@
+Re: Nessus?On Tue, 2002-10-08 at 00:05, Matthias Saou wrote:
+
+> It's 100% untested, although the build should be ok. The new menu was
+> added, but some configuration files may be better with new or different
+> defaults.
+> 
+> Feedback is very welcome!
+
+Looks good to me, just installed it, and ran a local scan, everything
+worked smoothly.  Thanks a bunch!
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

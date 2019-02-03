@@ -1,0 +1,33 @@
+Re: New Sequences Window    Date:        Thu, 22 Aug 2002 10:04:06 -0500
+    From:        Chris Garrigues 
+    Message-ID:  <1030028647.6462.TMDA@deepeddy.vircio.com>
+
+  | hmmm, I assume you're going to report this to the nmh folks?
+
+It turns out, when I did some investigation, that my memory of how MH
+worked here was wrong (that's not unusual) - the -seq switch seems to
+have always done -nolist (requiring a subsequent -list to turn it on
+again).
+
+Given that, I have no idea how the pick code as it was ever worked.  In
+fact, it quite possibly never did the way it was intended to (I have just
+been browsing the 2.5 sources, and that seems to be attempting to do things
+that I never saw happen).
+
+It may be that your new sequence method just exposed the bug that had been
+there all along.
+
+Given this, I won't be sending any bug reports to the nmh people.  If nmh
+ever seems to be showing any signs further progress, and if I remember this
+then, I might send them a change request.   The code to make the change is
+trivial.
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

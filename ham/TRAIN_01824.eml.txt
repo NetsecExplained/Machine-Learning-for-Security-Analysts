@@ -1,0 +1,28 @@
+Re: C programming questionOn 2010-04-13 17:16, Stephen Powell wrote:
+> I realize that this is not a C forum, per se, but this is a Debian-specific
+> C question.  I am trying to add support to the parted utility for CMS-formatted
+[snip]
+> 
+> I know how to do this in PL/I, but despite having spent the last two hours
+> paging through a C language reference manual, I couldn't find any examples
+> of overlaying two structures.  I did find reference to something called
+> a union, but I don't have enough knowledge to know what to do.  Does
+> anyone know how to do this?
+> 
+
+union is exactly what you need.
+
+"I'm feeling lucky" sample c code union
+
+http://www.wellho.net/resources/ex.php4?item=c209/union.c
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC4F05F.6060809@cox.net
+
+

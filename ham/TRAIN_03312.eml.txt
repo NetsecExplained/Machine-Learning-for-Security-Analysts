@@ -1,0 +1,23 @@
+Re: Mouse/Keyboard "Hook"?On Thu, Apr 29, 2010 at 3:19 PM, Luke Scott  wrote:
+
+> Is quartz "the option" or "one of the options" for capturing keyboard and
+> mouse events? If it's one of the options, I would be interested in knowing
+> what the other options are.
+
+The supported modern way is via the CGEvent API...
+
+
+
+... the best list for this API is likely ...
+
+
+
+-Shawn
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

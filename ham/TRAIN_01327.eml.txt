@@ -1,0 +1,39 @@
+Re: 64-bit netbooks with Debian linuxOn Sun, May 02, 2010 at 12:17:54PM -0700, Peter Tenenbaum wrote:
+> I've been thinking about getting a netbook and I'd like to install Debian
+> linux on it when / if I do.  I'd also like to get one which uses an
+> AMD64-class processor.  Does anyone have any suggestions?  The Gateway LT21
+> looks like just what I want in terms of hardware (ie, fairly low-end but
+> 64-bit); has anyone got any positive / negative experience installing Debian
+> on this computer?
+
+No specific suggestions. A caution: go to a store and make
+sure your future netbook supports ACPI. I've had bad
+experiences with my cheap Toshiba Satellite L305 series
+laptop: the fan controls (and most other ACPI registers) do
+nothing.
+
+It seems either Toshiba or the BIOS maker Insyde H2O has
+chosen non-standard SSDT/DSDT table values, with the result
+that only Microsoft's OS knows where to twiddle.
+
+There are reports that the omnibook module will correctly
+handle Insyde H2O BIOS'ed notebook. Have yet to test here.
+
+Good luck,
+
+Joel
+
+ 
+> Thanks in advance,
+> -PT
+
+-- 
+Joel Roth
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100504000114.GA2112@sprite
+
+

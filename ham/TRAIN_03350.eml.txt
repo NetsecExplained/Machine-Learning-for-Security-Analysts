@@ -1,0 +1,39 @@
+ValidationURL: http://www.mozillazine.org/weblogs/hyatt/#85395270
+Date: Not supplied
+
+I feel so tremendously validated right now in all my criticisms of Netscape vs. 
+Mozilla. I told Netscape management that if the Netscape beta shipped without 
+popup blocking that CNet would write an article on it. They didn't believe me 
+(or didn't care). Sure enough, the article appeared right on time[1].
+
+I blogged about two main annoyances when installing Netscape 7: the lack of 
+popup blocking and all of the annoying advertising spam on the desktop and in 
+the toolbars. I warned Netscape that they needed to take steps to correct this 
+problem. They didn't listen. Take a look at the CNet review[2] highlight that 
+describes *The Bad* part of Netscape 7.0:
+
+_Displays AOL ads everywhere; doesn't let you turn off pop-up windows like 
+Mozilla does; devours 30MB of disk space._
+
+Plenty of other engineers at Netscape (as well as managers) complained about 
+these problems and fought with those higher up to correct these problems. We 
+lost every battle. The simple truth is that the people in charge of running the 
+Netscape browser are incompetent. They don't understand how to make a good 
+browser, or they don't care. Their engineers tell them what they're doing 
+wrong, and they don't listen. 
+
+Maybe you'll listen to the public. How about eWeek's article, Netscape 7.0 
+Shrivels Under Mozilla's Shadow[3]? Are you paying attention now, you ignorant, 
+stupid, incompetent buffoons?
+
+"I told you so." never felt so good.
+
+Maybe they will sit up and take notice now. If they do, well, it's about 
+fucking time. And people wonder why I quit working for AOL.
+
+
+[1] http://news.com.com/2100-1023-949572.html?tag=fd_lede
+[2] http://www.cnet.com/software/0-3227883-8-20331576-1.html?tag=st.sw.8888.boxhl.3227883-8-20331576-1
+[3] http://www.eweek.com/article2/0,3959,493248,00.asp
+
+

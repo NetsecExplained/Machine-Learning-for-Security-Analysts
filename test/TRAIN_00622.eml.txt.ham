@@ -1,0 +1,104 @@
+Re: XQuartz 2.5.0_rc2I too have been having issues with gl stuff (work just added some 3d =
+stuff recently to our software). I just figured it was unsupported.=20
+
+I'm running (under VMWare) a Fedora 12 x86_64 VM (no VMWare tools =
+installed)... I use ssh -X from OSX to the VM.. I then tried the line =
+you suggested:=20
+
+[john@subvale ~]$ LIBGL_ALWAYS_INDIRECT=3D1 glxgears
+X Error of failed request:  BadAlloc (insufficient resources for =
+operation)
+  Major opcode of failed request:  147 (GLX)
+  Minor opcode of failed request:  3 (X_GLXCreateContext)
+  Serial number of failed request:  22
+  Current serial number in output stream:  24
+
+I see a window created then disappear, and that error in my ssh session.
+
+(I run other X stuff through that ssh session just fine.)
+
+--John
+
+
+On Apr 7, 2010, at 10:49 PM, Jeremy Huddleston wrote:
+
+> There is a bug in your remote mesa.
+> See https://bugs.freedesktop.org/show_bug.cgi?id=3D24226
+>=20
+>=20
+> You should be able to do it via:
+> LIBGL_ALWAYS_INDIRECT=3D1 glxgears
+>=20
+> That works for me.
+>=20
+>=20
+> On Apr 7, 2010, at 19:17, James Gunning wrote:
+>=20
+>> Dear Jeremy,
+>>                 thanks for all your great work on Xquartz. I'm =
+running the latest 2.5.0.
+>> I wonder if you can send to the list some clarification (or a URL) =
+about remote openGL.
+>>=20
+>> I find at present I can't get a glxgears from a remote linux box to =
+work
+>> with any combination of=20
+>> LIBGL_ALWAYS_SOFTWARE
+>> LIBGL_ALWAYS_INDIRECT
+>> LIBGL_ALWAYS_HARDWARE
+>>=20
+>> at present.=20
+>>=20
+>> With LIBGL_ALWAYS_INDIRECT unset
+>> glxinfo gives me
+>> name of display: localhost:10.0
+>> Error: couldn't find RGB GLX visual or fbconfig
+>>=20
+>> with LIBGL_ALWAYS_INDIRECT set, glxinfo seems OK:
+>> ...
+>> name of display: localhost:10.0
+>> display: localhost:10  screen: 0
+>> direct rendering: No (LIBGL_ALWAYS_INDIRECT set)
+>> server glx vendor string: SGI...
+>> ....
+>>=20
+>>=20
+>> But glxgears yields
+>> X Error of failed request:  BadAlloc (insufficient resources for =
+operation)
+>>  Major opcode of failed request:  147 (GLX)
+>>  Minor opcode of failed request:  3 (X_GLXCreateContext)
+>>  Serial number of failed request:  20
+>>  Current serial number in output stream:  22
+>>=20
+>> In previous versions, I got remote openGL to work OK via =
+LIBGL_ALWAYS_INDIRECT.
+>> I'm doubtless confused. Any clarifications welcome.
+>>=20
+>> Very best wishes,=20
+>>        James.
+>>=20
+>>  _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> X11-users mailing list      (X11-users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/jeremyhu%40freedesktop.or=
+g
+>>=20
+>> This email sent to jeremyhu@freedesktop.org
+>=20
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> X11-users mailing list      (X11-users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/garionphx%40csmining.org
+>=20
+> This email sent to garionphx@csmining.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

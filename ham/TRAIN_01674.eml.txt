@@ -1,0 +1,54 @@
+Re: Problem with me Modem Huawei on Debian LennyOn 26 April 2010 17:30, Christian Simo  wrote:
+> Hi
+>
+> Thank you for your response.
+> before try all this solution.
+> Please found attach all following command shell:
+>
+> Script started on Sun 25 Apr 2010 23:25:36 SAST
+> gaelle:/media/TUX-FOR-KOM# lsusb
+> Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+> Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> Bus 002 Device 003: ID 1267:0103 Logic3 / SpectraVideo plc G-720 Keyboard
+> Bus 002 Device 002: ID 045e:001e Microsoft Corp. IntelliMouse Explorer
+> Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> Bus 001 Device 005: ID 12d1:1446 Huawei Technologies Co., Ltd. E1552
+> (HSPA modem)
+> Bus 001 Device 003: ID 058f:6387 Alcor Micro Corp. Transcend JetFlash
+> Flash Drive
+> Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+> gaelle:/media/TUX-FOR-KOM# exit
+> exit
+>
+
+Hi,
+
+Your usbids look totally different to mine for E1762. maybe yours has
+different chipset?
+
+# lsusb
+....
+Bus 001 Device 042: ID 12d1:1003 Huawei Technologies Co., Ltd. E220
+HSDPA Modem / E270 HSDPA/HSUPA Modem
+....
+
+Also a quick google[1] of the usbids for your dongle resulted in some
+interesting howtos
+
+Regards
+Dale
+
+[1] http://www.google.com/search?q=12d1%3A1446&ie;=utf-8&oe;=utf-8&aq;=t&rls;=org.mozilla:en-US:unofficial&client;=iceweasel-a
+-- 
+[WWW] http://quail.southernvaleslug.org/
+"The significant problems we face cannot be solved at the same level
+of thinking we were at when we created them" - Albert Einstein
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/l2p9b3004971004261753j2711a79ap35e26c7ea402d421@mail.csmining.org
+
+

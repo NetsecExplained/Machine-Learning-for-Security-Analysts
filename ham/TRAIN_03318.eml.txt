@@ -1,0 +1,36 @@
+RDF reduxURL: http://diveintomark.org/archives/2002/10/02.html#rdf_redux
+Date: 2002-10-02T09:42:39-05:00
+
+I think I'm going to become one of _those_ people. You know, one of those 
+people who has a “Semantic Web” category on their weblog. This will 
+be a Geek Purity Test question someday. Onward: 
+
+- _Phil Ringnalda_: Fun with RDF[1]. “RDF can actually be fun, as long as 
+you don't foolishly invest too much ego in trying to store RSS 1.0, or wander 
+off into flame wars.” From which we find: 
+- _Shelley Powers_: The RDF Query-O-Matic[2], and The RDF Query-O-Matic 
+explained[3]. “The Query-o-Matic accepts the name of an RDF file (any 
+valid RDF file), and an RDFQL (RDF Query Language) query, and will print out a 
+test value found as a result of that query.” 
+- _Marcus Campbell_: “My FOAF autocreation script is moving along nicely
+[4]. It's now looping through my OPML blogroll file, checking the first load of 
+bites in people's pages for head linked FOAF files, grabbing certain elements 
+from these files (if they have one) and spitting them out into a brand new FOAF 
+file for me.” 
+- _Joe Gregorio_: The Well-Formed Web[5]. “After spending some time 
+badgering poor Bill Kearney for a concrete benefit of having RDF in RSS 1.0 and 
+not getting a really satisfactory answer I went back and read Paul Ford's essay 
+again. I wanted to get that old religious feeling back again. It didn't work. 
+The magic was gone.” 
+
+
+
+
+
+[1] http://philringnalda.com/archives/002336.php
+[2] http://weblob.burningbird.net/services/query.htm
+[3] http://weblog.burningbird.net/archives/000564.php
+[4] http://www.ninjakitten.net/digiboy/2002_09.php#post000545
+[5] http://bitworking.org/wellformed.html
+
+

@@ -1,0 +1,51 @@
+Re: exmh bug?Hmm - I'm cc'ing the exmh-workers list, because I really don't know
+much about the various PGP interfaces.  I think there has been some
+talk about "issues" with the latest version of gpg.
+
+>>>Hacksaw said:
+ > version 2.5 08/15/2002
+ > Linux habitrail.home.fools-errant.com 2.4.7-10smp #1 SMP Thu Sep 6 
+17:09:31
+ > EDT 2001 i686 unknown
+ > Tk 8.3 Tcl 8.3
+ > 
+ > It's not clear to me this is a bug with exmh per se, but it's something 
+that
+      
+ > manifests through exmh, so I figured asking you might help me track it 
+down.
+ > 
+ > When I receive a gpg encrypted message, and it asks me for a passphrase, 
+it
+ > first tries to ask me via the tty under which exmh is running. It tells 
+me m
+     y 
+ > passphrase is incorrect every time, at which point exmh offers me the 
+line i
+     n 
+ > the message about decrypting. I click the line and it offers me the 
+dialog
+ > box, and tells me the passphrase is correct, and shows me the decrypted 
+ > message.
+ > 
+ > Any ideas on that?
+ > -- 
+ > Honour necessity.
+ > http://www.hacksaw.org -- http://www.privatecircus.com -- KB1FVD
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

@@ -1,0 +1,28 @@
+Re: [fwd: error exmh 2.5 07/13/2001 ]In message <5378.1027548783@dimebox>, Hal DeVore writes:
+>
+>>>>>> On Wed, 24 Jul 2002, "Chris" == Chris Garrigues wrote:
+>
+>  Chris> Am I the only one for whom typing control-L to the main
+>  Chris> window causes this error?
+>
+>Getting it here too on a copy I haven't updated from CVS since 
+>about May sometime.
+
+It's in 2.5 as well.
+
+//Christer
+
+-- 
+| Sys admin @ MEDIC              WWW: http://www.dtek.chalmers.se/            |
+| Email: mort@dtek.chalmers.se   Phone: (0)31 772 5431, (0)707 53 57 57	      |
+"I fought the loa and the loa won, I fought the loa and the loa won..."
+        -- Dave Aronsson, a.s.r.
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

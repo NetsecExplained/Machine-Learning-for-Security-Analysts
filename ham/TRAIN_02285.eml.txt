@@ -1,0 +1,31 @@
+Re: just fetch .debs without installingFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 13 May 2010 12:07:34 Mihamina Rakotomandimby wrote:
+> > Wolodja Wentland  :
+> >> What is the optoin to pass to apt-get in order to make it just fetch
+> >> the .debs without installing them?
+> >
+> >It has already been pointed out that -d/--download-only is the correct
+> >option to pass to apt-get in order to keep apt-get from installing
+> >retrieved Debian packages.
+>=20
+> I have more bandwidth (1Mbps) at nitgh than during the day (256kbps).
+> I would like to launch a dist-upgrade, but I want it to happen face to
+> me. I'd rather pre-download the .debs and launch real dist-upgrade face
+> to face.
+
+/etc/cron.daily/apt can do a (apt-get update) and (apt-get -d dist-upgrade)=
+=20
+daily for you if you'll set "APT::Periodic::Update-Package-Lists" and=20
+"APT::Periodic::Download-Upgradeable-Packages" in your /etc/apt/apt.conf(.d=
+).
+
+You can set when /etc/cron.daily is processed in /etc/crontab.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

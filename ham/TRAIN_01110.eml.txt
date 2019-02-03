@@ -1,0 +1,38 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a  different version name)On Sunday 11 April 2010 09:02:49 you wrote:
+> >> But you do understand that desktop users _don't_ want to learn about
+> >> their OS, correct?
+> >
+> > Recently I was trying to show my 15 year old granddaughter, who runs Open
+> > SuSU 11 on her laptop, how to do some small admin job.  She said that she
+> > didn't want to know.  When I queried this, she said:
+> >
+> > "When I am at school, the IT department does it for me.  When I am at
+> > home here, you do it for me.  When I am in Japan, Daddy does it for me.
+> >  Why do I need to know how to do it?"
+>
+> That is the kind of user who can learn! 
+
+Of course!  That is why I was trying to show her.
+
+> If the small admin job had 
+> been "diagnose kernel crashes" and her answer would have been "I am a
+> brain surgeon, not a computer scientist. I fix the brain, you fix the
+> computer. Today is the one day off that I have to spend with my family
+> and I don't want to spend it with the computer instead." then her
+> reluctance would have been valid.
+
+I was, I thought, supporting your view that most/many people simply don't 
+_want_ to know.  Why does their reluctance have to be "valid"?
+
+Are you saying that only those who want to learn to administer it should be 
+allowed to use Linux?
+
+Lisi
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004111119.33913.lisi.reisz@csmining.org
+
+

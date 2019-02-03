@@ -1,0 +1,37 @@
+Re: USB device attached via RS232 adaptorOn Sun, 18 Apr 2010 22:08:16 +0300, Dotan Cohen wrote:
+
+> He's got a few of these connected via serial adaptors:
+> http://www.infinityusb.com/default.asp?show=productsdetail&ProductID;=12
+> 
+> Why aren't they on real USB, I don't know. 
+
+Because the device may expect a USB host controller instead a RS-232 :-?
+
+> I am going over there to help
+> him tomorrow, so to come prepared I started googling today. Although the
+> USB-serial adaptors seem to be popular, I find nothing about how to
+> mount devices attached to them. 
+
+What seems to be more popular are RS-232 devices (modems, printers...) 
+connected/attached to a computer USB host port, but not the opposite.
+
+> I am assuming that, being a card reader,
+> I will be able to mount the media (card).
+
+Mmm, have you tested it? :-?
+
+Insert a smartcard and check the output of "dmesg" and "mount" commands. 
+They will tell.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.18.19.33.37@csmining.org
+
+

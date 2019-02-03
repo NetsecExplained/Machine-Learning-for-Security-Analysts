@@ -1,0 +1,38 @@
+Re: Debian And Advanced Layer3 9924TAndreas Weber put forth on 4/6/2010 4:12 PM:
+> Stan Hoeppner wrote:
+>> Please forgive me if my choice of words offended you.  That wasn't my
+>> intention at all.  I was speaking figuratively, not literally.
+> 
+> No problem, thanks for your feedback. Your point is clear and I can very
+> well understand your disagreement with my recommendation.
+> 
+>> My point was
+>> that swapping out the production switch, which probably has others users
+>> plugged in, ...
+> 
+> I assumed differently here (new switch in the house, first tests), but
+> the OP isn't precise about that IMO.
+> 
+> I'll try to be as little ambiguous as possible the next time, sorry.
+
+No sweat.  We're all on the same team.  I wish Alejandro would send an
+update.  I'm kinda curious as to what was/is actually causing the problem.
+>From the very sparse info he provided, the cause could really be nearly
+anything.
+
+Come to think of it, has he even replied to any of our posts?  It doesn't
+look like he has.  Seems that communication with the Cubans on debian-users
+is just plain spotty, whatever the reason.
+
+If we don't hear back, I hope he got it working.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBC66E5.1000003@hardwarefreak.com
+
+

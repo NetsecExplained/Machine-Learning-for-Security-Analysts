@@ -1,0 +1,67 @@
+[SPAM]  Look at photo I attached! Cute?
+
+
+TOP Products
+
+
+body,html,table,tr,td {font:12px/14px Arial;}
+productTitle {font-family: Arial; font-size:12px;line-height:15px; color: #1e518e; padding:5px 5px 5px 5px; text-align:center; font-weight:bold;}
+drophead {font-family: Arial; font-size:12px;line-height:15px; color: #333333; padding:5px 5px 5px 5px; text-align:center;}
+productText {font-family: Arial; font-size:12px;line-height:15px; color: #333333; padding:5px 5px 5px 5px; text-align:center;}
+productPrice {color: #842b37; font-weight:bold;}
+productImage {padding:3px;border:1px solid #cccccc; background-color:#ffffff; margin-bottom:8px; margin-top:8px;}
+
+
+Having trouble viewing this email?  Click here to see the online version.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer Care
+Customer Care Main
+																		|
+																		FAQs
+																		|
+																		Placing an Order
+																		|Returns and Refunds
+																		 |
+																		Shipping Rates and Policies
+																		|
+																		Phone Support 
+
+ 
+
+
+
+
+
+
+
+
+                        Click here to update your email preferences.
+                        To unsubscribe, click here
+						(c) 2009 Zakybjr Company
+
+
+

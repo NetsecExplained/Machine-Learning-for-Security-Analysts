@@ -1,0 +1,57 @@
+Re: Basic authorization not working on QuickTime X player OSStatus
+	error -128Hi Martin,
+
+i filed a bug report some months ago. Unfortunately it was closed =
+(duplicate). The duplicate (ID: 7275187 ) radar entry is not viewable by =
+me.
+
+A workaround (also nasty...). Open the URL in Safari and Store the =
+password. Therefore it is in the keychain. Quicktime X can now access =
+the resource.
+
+If you find another solution or here anything from apple.. please let me =
+know.
+
+
+Thorsten
+
+On 07.05.2010, at 20:25, Martin Koob wrote:
+
+> Hi.
+>=20
+> I have some movies on a website in a protected directory on the =
+server.  When I open them in Quicktime Player 7 I  get the dialog for =
+the username and password and I can enter the and then the movie will =
+load.  If I embed these movies in a web page the password authorization  =
+will also work correctly on Snow Leopard.
+>=20
+> When try to open the URL in Quicktime player X  I get an error =
+OSStatus error -128.
+>=20
+> If I set the target in the embed tags for the movie to quicktimeplayer =
+ I will also get the same error and the movie will not open.
+>=20
+> If I turn off the folder protection on the folder on the server then =
+the movie will open correctly,  So it seems it is the authorization that =
+is not working.
+>=20
+> Is this a known problem?   Has it been reported as a bug?
+>=20
+> Martin
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/quicktime-users/kyrios%40csmining.org
+>=20
+> This email sent to kyrios@csmining.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

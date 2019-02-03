@@ -1,0 +1,27 @@
+Re: [Webdev] PHP+Javascript requestOn Mon, 2002-08-19 at 18:28, Dave Wilson wrote:
+> IIRC, if the query string contains
+> 
+> varname=FIRST&varname;=SECOND
+> 
+> then PHP will create a variable called "varname" with result SECOND. 
+> However, if the query string contains
+> 
+> varname[]=FIRST&varname;[]=SECOND
+> 
+> then PHP will create an array with varname[1]==FIRST and varname[2]==SECOND
+
+By far the coolest solution to this would be to "fix" php :)
+Take a look at main/php_variables.c in the php source distribution.
+You could mess around with the variable is_array in
+php_register_variable_ex() and see if you can force all variables to be
+arrays :) As far as I can tell the reason they do this is to save
+time by not having to work out which variables have multiple values.
+
+Nick
+
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

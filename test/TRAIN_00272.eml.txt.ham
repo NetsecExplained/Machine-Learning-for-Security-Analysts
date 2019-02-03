@@ -1,0 +1,24 @@
+Re: Another sequences window nit    Date:        Wed, 02 Oct 2002 11:39:13 -0500
+    From:        Hal DeVore 
+    Message-ID:  <9288.1033576753@dimebox.bmc.com>
+
+  | Restarting exmh was necessary.
+
+Probably not.   Next time try clicking on the folder name in the
+sequences window for the sequence.   That is, request that sequence
+be the one displayed in the FTOC.   If the sequence doesn't exist,
+it will be cleaned up then.
+
+Perhaps it would be nicer if flist would do it as well, but this
+is effective enough.
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

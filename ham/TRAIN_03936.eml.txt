@@ -1,0 +1,24 @@
+Re: Documentation about built-in RPM macros?Hi.
+
+Dave Cridland  wrote:
+
+> > recommends *against* using '%configure' ("We will try to support users
+> > who accidentally type the leading % but this should not be relied
+> > upon."), and yet
+
+[snip]
+
+> They're just suggesting people use "./configure" instead.
+
+No, they do not (what would be the use of that, anyway?). They say that
+they will _try_ to eval macros even if the user forgot to pass the
+leading '%', but that this feature should not be relied upon.
+
+-- 
+On the first day of Christmas my true love sent to me
+       A badly configured newsreader
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

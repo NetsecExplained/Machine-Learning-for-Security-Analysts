@@ -1,0 +1,38 @@
+Re: Trying to install Google Earth on Lenny.  How on earth??????On Mon, 24 May 2010 10:47:35 -0400 (EDT), Lisi wrote:
+> 
+> I have been trying to install Google Earth on Lenny ... 
+
+Lisi,
+
+This is not really an answer to your question, but rather
+an alternative, especially since you are short of time.
+Both Yahoo and Mapquest have aerial photos available, down
+to fairly decent resolution in most areas.  I can clearly
+pick out my house on a 60'x120' lot using it.  It may be
+adequate for your purposes.  And in public places, such
+as the capitol building, I can pick out individual people,
+though I obviously can't tell who they are.  Try, for example,
+
+   http://www.mapquest.com/
+
+To see actual photographs, click on "Aerial map" in the
+upper right hand corner.  By default, it shows street names
+too, but you can turn that off by clicking off the check
+box for "show labels".  The zoom control is in the upper
+left-hand corner of the picture.
+
+HTH
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/564011095.7859.1274713903361.JavaMail.root@md01.wow.synacor.com
+
+

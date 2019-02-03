@@ -1,0 +1,163 @@
+Re: Cannot loginFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, Apr 7, 2010 at 1:25 PM, Smokejohn  wrote:
+
+>
+>
+> On Wed, Apr 7, 2010 at 2:18 PM, Daniel Sutil wrot=
+e:
+>
+>>
+>> Un saludo,
+>>
+>> Daniel Sutil
+>>
+>>
+>>
+>> On Wed, Apr 7, 2010 at 1:17 PM, Smokejohn  wrote:
+>>
+>>>
+>>>
+>>> On Wed, Apr 7, 2010 at 2:07 PM, Daniel Sutil wr=
+ote:
+>>>
+>>>>
+>>>> Un saludo,
+>>>>
+>>>> Daniel Sutil
+>>>>
+>>>>
+>>>>
+>>>> On Wed, Apr 7, 2010 at 1:00 PM, Smokejohn  wrote:
+>>>>
+>>>>>
+>>>>>
+>>>>> On Wed, Apr 7, 2010 at 1:35 PM, Daniel Sutil =
+wrote:
+>>>>>
+>>>>>>
+>>>>>> On Wed, Apr 7, 2010 at 12:15 PM, Smokejohn wrot=
+e:
+>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> On Tue, Apr 6, 2010 at 11:53 PM, Klaus Becker wro=
+te:
+>>>>>>>
+>>>>>>>> Le Mardi 06 Avril 2010 22:41:44, Daniel Sutil a =E9crit :
+>>>>>>>> > Finally I applied the following workaround: I remove kdm and
+>>>>>>>> installed gdm.
+>>>>>>>> > After that, I have no problem to login. I haven't investigated a=
+ny
+>>>>>>>> further
+>>>>>>>> > because I really don't know from where the problem comes, but no=
+w,
+>>>>>>>> maybe we
+>>>>>>>> > have to undo the steps applied with the skype's solution to solv=
+e
+>>>>>>>> our
+>>>>>>>> > problem.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> Hi,
+>>>>>>>>
+>>>>>>>> I had the same problem with kdm, but no problem with gdm.
+>>>>>>>>
+>>>>>>>> cheers
+>>>>>>>>
+>>>>>>>> Klaus
+>>>>>>>>
+>>>>>>>> Hi. Installing gdm did not do the trick :(
+>>>>>>>
+>>>>>>> You must uninstall the kdm service first and select in the session
+>>>>>> selector of gdm "kde". If you don't select the session type, get som=
+e
+>>>>>> errors.
+>>>>>>
+>>>>>
+>>>>> I uninstalled kdm and selected kde as a session but I got the same
+>>>>> message telling me that my session lasted lower than 10s and bla bla.=
+.
+>>>>>
+>>>>>>
+>>>>>>
+>>>>>>> When doing startx as a normal user from console I get some errors
+>>>>>>> like "xkb could not initialize" and "Xinit: no such file or directo=
+ry" and
+>>>>>>> "Xinit: Could not connect to xserver"....
+>>>>>>>
+>>>>>>
+>>>>>> Have you stopped the kdm first?
+>>>>>>
+>>>>>
+>>>>> Yes I did stop kdm when I tried that. The strange thing is that if I
+>>>>> login as root from console and do a startx then a kde session starts
+>>>>> normally. If I do that as a normal user I get the errors..
+>>>>>
+>>>>
+>>>> Can you paste the errors?
+>>>>
+>>>
+>>> When trying to login with gdm it has an option to view the
+>>> .xsession-errors file. The error is mkdtmp: private folder browsing
+>>> (something like that :P): Permission denied.
+>>>
+>>> When I was using kdm and did a cat on the same file the second line jus=
+t
+>>> showed: Permission denied.
+>>>
+>>> I checked the .Xauthority file and did chown to my user.
+>>>
+>>
+>> I remember that first time I try to execute the startx with my user I ge=
+t
+>> some errors but not with root. The problem was that the /tmp directory
+>> doesn't have permissions to write with my user.
+>>
+>> The correct permissions are:
+>>
+>>
+>> cd /tmp
+>>
+>> ls -ld
+>>
+>> drwxrwxrwt  8 root root 12288 2010-04-07 13:12 .
+>>
+>> Could you check it?
+>>
+>>
+>>>
+>>>>
+>>>>>
+>>>>>>
+>>>>>>>
+>>>>>>> Some friend told me to purge kde and reinstall it. I don't think th=
+is
+>>>>>>> will help. Do you think I should give it a try?
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>> I tried that with no success :-(
+>>>>>>
+>>>>>> If that didn't help you I will not bother..
+>>>>>
+>>>>> J
+>>>>>
+>>>>>
+>>>>
+>>>
+>> Well yesterday before I sent the list an email I used google to find
+> anything that would help. I found someone reporting that the permissions =
+in
+> /tmp and /var/tmp could be the problem. I checked both. Everything seemed
+> fine :S  I will check again, just in case.....
+>
+
+Check the sticky bit.. is the important think.
+
+I think is:
+
+chmod 01777 /tmp
+chmod 01777 /var/tmp

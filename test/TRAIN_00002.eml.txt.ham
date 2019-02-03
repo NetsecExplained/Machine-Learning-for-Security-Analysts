@@ -1,0 +1,61 @@
+Re: How to manage multiple Internet connections?From nobody Sun Sep 18 20:45:27 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,15.May.10, 16:47:07, Merciadri Luca wrote:
+> >
+> > But will probably not work in you case, as it was meant to combine two=
+=20
+> > (or more?) network ports from the same computer connected to the same=
+=20
+> > switch.
+> >  =20
+> The description says
+>=20
+> =3D=3D
+> The Linux bonding driver provides a method for aggregating
+> multiple network interfaces into a single logical
+> bonded  interface.
+> =3D=3D
+>=20
+> Strictly speaking, this is what I want. Now, your interpretation seems
+> to be based on the definition of a link aggregation, which I am not
+> really familiar with. Basically, I want to merge connections into one,
+> or at least divide and use them separately, in an easy way. This is not
+> a so-rare situation, is it? E.g. you might be wandering in some zone
+> where you can use the WiFi, but where it is sometimes unavailable, say
+> at specific regions. If you manage to use another connection, for
+> example the one that is given by your mobile phone/smartphone /via/
+> Bluetooth (which is then connected to the internet through other
+> protocols), it should be possible to switch between these two
+> connections, or to use them simultaneously, if, say, WiFi 's range is
+> too small or WiFi's bandwidth too small compared to the smartphone's
+> one. (Okay, this is not a really realistic example.)
+>=20
+> You might also share an internet connection with your neighbour,
+> legally, and use it a lot when he does not need it. Then, if you already
+> use ethernet, you can use both connections. But how?
+
+Bonding is not suitable for you because it works too low-level (it is=20
+layer 2), unless you have two links from the same provider, using some=20
+technology that can be bonded (like ADSL).
+
+AFAIU what you need is BGP[1], but I can't give you any tips as this is=20
+way out of my league ;)
+
+Probably a good start (whatever technology you end up using) is a=20
+GNU/Linux (preferably Debian) machine connected to both internet links=20
+and your internal network since consumer gateways don't even have more=20
+than one WAN port[2].
+
+[1] http://en.wikipedia.org/wiki/Border_Gateway_Protocol
+[2] some of them could be used for this with custom firmware, but this=20
+is off-topic
+
+Regards,
+Andrei
+P.S. There is no need to CC me as I am subscribed to the list ;)
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

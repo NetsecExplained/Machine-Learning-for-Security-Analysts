@@ -1,0 +1,18 @@
+Re: The MIME information you requested (last changed 3154 Feb 14)Justin Mason writes:
+> Has anyone figured out what's up with this?  Does someone out there
+> think that FoRK needs some MIME tutoring?
+
+I was puzzled at first, but I think I understand what happened.
+
+First, I approved the post because it didn't appear to be spam, even
+though it wasn't from a member.  I thought it was odd that someone
+wanted to send the MIME blurb to the list, but it was not really that
+different from causing the New York Times web site to send a story to
+the list.  (Except that the bits here are antediluvian, but old bits are
+a problem to be solved by social opporobrium, not technical constraints.)
+
+But I think what actually happened is that some idiot got infected by
+Klez and had both FoRK and the pine-robot autoresponder address in their
+mailbox or addressbook, so Klez forged mail from fork@xent.com to the
+autoresponder, which responded.  To FoRK.
+

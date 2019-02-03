@@ -1,0 +1,57 @@
+Re: Tiny terminal text after kernel updateOn Tue 25 May 2010 at 15:49:43 +0200, Sven Joachim wrote:
+
+> If the native resolution is not detected, it is a problem of the monitor
+> which should have reported its preferred resolution via EDID.
+
+I thought that too but with these two cards
+
+ Display controller: ATI Technologies Inc RV280 [Radeon 9200 PRO] (Secondary) (rev 01)
+ VGA compatible controller: nVidia Corporation NV34 [GeForce FX 5200] (rev a1)
+
+/var/log/Xorg.0.log has no problem reporting
+
+  (II) RADEON(0): EDID data from the display on output: DVI-0 ----------------------
+  (II) RADEON(0): Manufacturer: DEL  Model: 400d  Serial#: 1094992983
+  (II) RADEON(0): Year: 2006  Week: 2
+
+for the radeon card, and
+
+  (II) NOUVEAU(0): EDID for output VGA-1
+  (II) NOUVEAU(0): Manufacturer: DEL  Model: 400c  Serial#: 1094992983
+  (II) NOUVEAU(0): Year: 2006  Week: 2
+
+for the nvidia card. Available resolutions and EDID (in hex) are also
+recorded.
+
+With an onboard nvidia adaptor
+
+ VGA compatible controller: nVidia Corporation NVCrush11 [GeForce2 MX Integrated Graphics] (rev b1)
+
+there is no EDID information in Xorg.0.log. I get 1024x768 on the console
+and in X. The native resolution of the panel is 1280x1024. This is a step
+up on the nv driver which will give only 800x600 without being told
+otherwise in xorg.conf.
+
+So I'm disinclined to blame the behavior of the monitor.
+
+Not the same card as my onboard nvidia but this is close to the behaviour
+I've experienced:
+
+https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-nouveau/+bug/569505
+
+> I never had any problems with the terminus fonts, YMMV.
+
+Which one do you use? TerminusBold 20x10, 22x11, 24x12 and 28x14 all lead
+to screen corruption for me. 32x16 behaves.
+
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/544739
+
+may have some bearing on my observations.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100525184827.GB24192@desktop
+
+

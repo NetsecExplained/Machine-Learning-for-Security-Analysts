@@ -1,0 +1,30 @@
+Re: [SOLVED] Debian-multimedia breaks mplayer .mov playback on Lenny?From nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sat, Apr 17, 2010 at 6:03 AM, Liam O'Toole wrote:
+
+>
+> I have been using debian-multimedia with Debian stable for years without
+> any problems. It is a vauluable and reliable service, and is provided by
+> a well-known Debian developer.
+>
+> To the OP: do you have an example of a file that (the debian-multimedia
+> version of) mplayer refuses to play?
+>
+
+I also have been using debian-multimedia for LAME mp3 and am very thankful
+for its existence.  The file was a quicktime .mov file they made with their
+own camera and is on their machine so unfortunately I cannot get a snippet
+of it.
+
+FWIW, I did 2 fresh Lenny installs on my friend's machine, the first one
+with debian-multimedia which resulted in the .mov file not playing back in
+mplayer, and a subsequent second Lenny install, identical to the first
+except without the debian-multimedia, in which the .mov file played great in
+mplayer.  I don't know if it's a bug or not, but has anyone else had this
+specific problem (with .mov files in mplayer)?  If so I will gladly file the
+bug report.  I've read about several different bugs with mplayer on various
+forums but have not seen this one specifically.
+
+Thank you,
+Mark

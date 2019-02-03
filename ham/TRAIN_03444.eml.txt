@@ -1,0 +1,17 @@
+Re: shouldn't apt-get upgrade, you know, upgrade ?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Quoting Johan Gr=F6nqvist on 2010-04-05 23:50:37:
+>
+> I think you may be interested in the dist-upgrade command instead.
+
+Now called full-upgrade (though dist-upgrade remains for backcompat).
+upgrade is now safe-upgrade.
+
+--=20
+ _  Brian Ryans 8B2A 54C4 E275 8CFD 8A7D 5D0B 0AD0 B014 C112 13D0     .
+( ) ICQ UIN: 43190205 | Mail/MSN/Jabber: BrianLRyans@csmining.org       ..:
+ X  ASCII Ribbon Campaign Against HTML mail and v-cards: asciiribbon.org
+/ \ Any technology distinguishable from magic is insufficiently advanced

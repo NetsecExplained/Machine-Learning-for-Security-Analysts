@@ -1,0 +1,40 @@
+How to play 3gp audio files?I'm looking for a way to play *.3gp audio files from the command line.
+Mplayer doesn't seem to work:
+
+    % Mplayer some-audio-file.3gp
+    [...]
+    Playing some-audio-file.3gp.
+    libavformat file format detected.
+    [lavf] Audio stream found, -aid 0
+    ==========================================================================
+    Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders
+    Cannot find codec 'libamr_nb' in libavcodec...
+    ADecoder init failed :(
+    ADecoder init failed :(
+    Cannot find codec for audio format 0x726D6173.
+    Read DOCS/HTML/en/codecs.html!
+    Audio: no sound
+    Video: no video
+
+Any suggestions for alternate approaches, pointers on how & what to
+install in terms of a codec, or maybe a way to convert these files
+(ideally without transcoding degradation)?
+
+These audio files were created by the android app "Voice Recorder".
+
+TIA for any help,
+
+John
+
+
+-- 
+John Magolske
+http://B79.net/contact
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100416190000.GA12338@s70206.gridserver.com
+
+

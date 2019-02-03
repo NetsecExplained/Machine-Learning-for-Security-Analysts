@@ -1,0 +1,39 @@
+Re: curious gnome desktop behaviour after upgradeOn Wed, 05 May 2010 13:15:50 +0200, Jochen Schulz wrote:
+
+> Camaleón:
+>> On Wed, 05 May 2010 10:36:34 +0100, John O Laoi wrote:
+>> 
+>>> What would ye think of doing
+>>> 
+>>> aptitude purge gnome
+>>> followed by
+>>> aptitude install gnome
+>>> 
+>>> Is that likely to break lots of other things?
+> 
+> Usually not, but I don't see the point in doing that. It appears you
+> would just reinstall the package with your bug in it.
+
+The point is, "which" package? gnome-panel have all the point to be the 
+culprit but, how we could know what is causing the mess? It can be a mix 
+of several packages, it's hard to tell.
+ 
+>> How do you (you = people using Squeeze) usually run updates for GNOME?
+> 
+> I run sid and in cases like these (don't run Gnome) I either downgrade
+> to the version in testing, use an archived version or just sit and wait.
+
+Then my vote goes to "sit and wait" :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.05.13.37.00@csmining.org
+
+

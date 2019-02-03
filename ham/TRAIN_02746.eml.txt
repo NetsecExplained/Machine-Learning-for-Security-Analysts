@@ -1,0 +1,11 @@
+http://apt.nixia.no/From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Title page has a login screen and I can't seem to get the apt indexes
+anymore. Is it just me or is something going on there?
+
+--=20
+Additive E120 - "not suitable for vegetarians".
+http://www.bryngollie.freeserve.co.uk/E120.htm

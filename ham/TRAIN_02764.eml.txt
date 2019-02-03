@@ -1,0 +1,24 @@
+RE: [ILUG] Sparc Solaris (was: Dell GX260 V Redhat 7.3)I use gnome here on half a dozen sunray 150 boxen. Been trying to get linux
+on them for along time with mixed results.. Has anyone succeeded in this?
+
+> -> It does work on SunRays. Just install it normally on the 
+> server, the sun 
+> install will make the necessary changes to the dtlogin screen 
+> and you can just 
+> select gnome from there. AFAIK you can do this for any window 
+> manager. But I 
+> don't admin sunray servers so I'm not fully aware of the 
+> issues or exact 
+> requirements.
+> 
+> Cheers,
+> ~Al
+> 
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,430 @@
+Bridging the gap between Liberty and Microsoft (Tech Update)
+
+Tech Update Today
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VITAL SIGNS FOR JULY 15, 2002
+
+
+
+
+
+
+
+
+
+David Berlind
+
+
+Bridging the gap between Liberty and Microsoft
+
+
+It appears that we are closer to a solution for single sign-on and identity management. But what if Microsoft chooses not to support  Liberty's specifications?
+
+
+
+
+
+
+
+Let's look at the worst-case scenario
+
+
+
+
+
+
+
+
+
+Latest from ZDNet News
+
+
+White House reviews security backbone
+
+
+HP deletes e-business software
+
+
+Breaking the wireless speed barrier?
+
+
+Pentium 4 to power Dell budget PCs
+
+
+AMD chips at mobile, flash markets
+
+
+Norway cancels Microsoft contract
+
+
+Hackers challenge Internet monitoring
+
+
+
+More Enterprise News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Farber's Picks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DanFarber
+
+
+
+
+
+
+
+Microsoft stresses security for Exchange
+
+Microsoft is readying a new Exchange Server e-mail system, with improved security, a facelift for Outlook, and better support for cell phones and other handhelds. The upcoming version, the company's first major update of the product since releasing Exchange 2000 nearly two years ago, will by default disable certain messaging features to prevent hackers and virus makers from taking advantage of openings. While Microsoft's biggest nemesis in the e-mail and messaging market is Lotus, the company also competes against Novell and newcomer Oracle, which plans to release its own e-mail and messaging software later this year. 
+
+
+
+
+
+
+
+
+Read the full story
+
+
+
+IBM puts more bite in 'Shark'
+
+Can IBM's release of a new top-end "Shark" enterprise storage system boost the company's prospects in the depressed storage market? Big Blue has fixed many early Shark problems, improving everything from data transfer capabilities to cache size, and adding RAID 10 support and Eliza self-healing features. But IBM faces the still dominant EMC, which last week lured away Mark Lewis from HP to become its new CTO; and Hitachi, which  still boasts the technology edge. IBM's edge is its ability to bundle Shark sales with related server and service deals.
+
+
+
+
+Read the full story
+
+
+Report: Linux hack attacks on the rise
+
+
+Hackers are increasingly targeting Linux-based Web servers, while the number of successful attacks on Windows systems has decreased, according to a new report.  Linux server applications are often vulnerable to attack because of mismanagement, according to the study, which urges Linux system administrators to be more vigilant about patching known security bugs. 
+ 
+
+
+
+
+Read the full story
+
+
+Frethem worm variant:  "Re: Your password!"
+
+An e-mail message that promises to reveal secret information with a password is a variant from the pesky Frethem worm family. Frethem.k (aka w32.frethem.k@mm) is a more robust version of Frethem.e, which uses its own SMTP engine to send e-mail using addresses obtained from infected systems. Mac and Linux users are not affected. 
+
+
+
+Read the full story
+
+
+
+
+
+
+
+
+
+
+
+An improved CLIE
+
+With the CLIE PEG-T665C, Sony took everything good about the PEG-T615C--including its terrific color screen and solid design--and added a faster processor and MP3 support to make quite an attractive Palm OS PDA. But with Pocket PCs now selling for less than this CLIE and a whole new Palm OS on the horizon, is this the right time to invest in the T665C?
+
+
+
+
+Read the full review
+
+
+
+
+Write me at dan.farber@cnet.com
+Back to top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Also on Tech Update Today
+
+
+
+
+
+
+
+
+COMMENTARY 
+
+
+
+
+
+Handle employee relations with care
+
+ERM is the latest relationship management buzzword. Adrian Mello helps you get beyond the marketing hype by weighing the merits of employee portals.
+
+
+ 
+
+
+
+Downloads 
+
+
+
+
+
+How to defrag your hard drive--and speed up your PC
+
+Looking for a quick way to rev up a sluggish system? Try defragmenting your hard drive. Since the Windows defrag tool is less than ideal, Preston Gralla shows you three downloads that do a better job of it.
+
+
+
+
+ 
+
+
+
+
+
+PREVIOUSLY ON TECH UPDATE TODAY 
+
+
+
+
+
+Unplugged: FBI CIO Darwin John
+
+
+In the twilight of his career, an IT veteran takes on the formidable task of transforming the FBI's antiquated technology infrastructure.  
+
+
+
+
+
+
+
+
+
+Crucial Clicks--products worth looking at
+
+
+
+
+
+
+
+
+
+
+Networking
+
+
+
+Find the right home network Choosing the right technology to match your networking needs is vital. Here's help in making the choice.
+
+Read reviews
+
+
+
+
+
+Most Popular Products
+
+
+
+Networking
+1. Linksys EtherFast wireless AP
+2. Linksys EtherFast router
+3. Siemens SpeedStream router
+4. Wireless 802.11B Router
+5. NetGear HE102 802.11a wireless AP
+More popular networking products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Elsewhere on ZDNet
+
+
+
+
+
+
+
+Need a memory upgrade? Find out with CNET's Memory Configurator.
+
+Clearance Center: Get discounts on PCs, PDAs, MP3 players and more!
+
+Find out the top 10 Web services security requirements at Tech Update.
+
+Builder.com shows you how to bring Java to the masses with Cold Fusion MX.
+
+Check out thousands of IT job listings in ZDNet's Career Center.
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign up for more free newsletters from ZDNet
+
+
+
+The e-mail address for your subscription is qqqqqqqqqq-zdnet@example.com
+
+Unsubscribe | 
+         Manage 
+        My Subscriptions | FAQ | 
+         Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home |eBusiness | Security | Networking | Applications | Platforms | Hardware | Contact us
+
+
+
+
+        Copyright 2002 CNET Networks, Inc. All rights reserved. ZDNet is a registered service mark of CNET Networks, Inc.          
+
+
+
+
+

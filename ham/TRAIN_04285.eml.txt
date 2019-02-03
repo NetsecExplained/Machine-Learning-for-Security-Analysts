@@ -1,0 +1,21 @@
+Re: installing Lenny packages in SqueezeFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 28 April 2010 20:35:29 Rob Owens wrote:
+> If I were to install a bare-bones Squeeze system, then add Lenny
+> repositories and declare Lenny to be the Default-Release in apt.conf,
+> can I expect to have many problems installing a full desktop environment
+> from the Lenny repos?  (Gnome, LXDE, or Fluxbox, most likely).
+
+This type of setup is neither tested nor supported.  Since a number of libr=
+ary=20
+transitions have already gone into Squeeze, I would expect issues, though I=
+=20
+don't know what.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

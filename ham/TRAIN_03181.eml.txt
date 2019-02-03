@@ -1,0 +1,59 @@
+Re: Fwd: Re: Kde 3.5 ...From nobody Sun Sep 18 20:45:31 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hi Mike!
+
+Am Montag 10 Mai 2010 schrieb Mike Bird:
+> On Mon May 10 2010 05:47:08 Dotan Cohen wrote:
+> > Just let them go, Adrian. When I to to fix KDE 4 for these two, I am
+> > "obstructing KDE 3.5 at every opportunity". Let them troll themselves
+> > into obscurity. At least they cannot complain that nobody tried to
+> > help them get the features they need into KDE 4. Well, they will
+> > complain about that because apparently I "ordered" them to tell me
+> > what is wrong with KDE 4, instead of simply deducing that out of thin
+> > air.
+>=20
+> Please note the subject of this thread.  This thread is about
+> how users can best continue using KDE 3.5, or alternatively
+> where to migrate when Lenny is EOL'd.
+
+What do you want to achieve in this thread on this debian-kde user support=
+=20
+mailinglist?
+
+Resurrecting KDE 3.5 for Debian?
+
+Well did you?
+
+If not, I suggest you to try it elsewhere.
+
+Possible places are:
+
+=2D debian-qt-kde@lists.debian.org since that is where development of Debia=
+n=20
+KDE packages is coordinated
+
+=2D Trinity Desktop Environment / Vector Linux
+
+This is for KDE user support. KDE 3.5 in Lenny. KDE 4 in Squeeze unless=20
+someone - except the current Debian KDE / Qt developer team - does and=20
+maintains KDE 3.5 packages that are co-installable and meet Debians high=20
+packaging standards.
+
+This list is not for development issues like developing / maintaining KDE=20
+3.5 packages for Squeeze.
+
+So IMHO any further request for KDE 3.5 in Squeeze is off topic on this=20
+list as Debian KDE/Qt maintainers repeatedly said they won't.
+
+You want KDE 3.5 for Squeeze? Spend your energy towards that goal. Here it=
+=20
+apparently does not change the situation.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

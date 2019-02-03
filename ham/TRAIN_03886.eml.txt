@@ -1,0 +1,296 @@
+[Lockergnome Webmaster Weekly]  Compatible Whistles
+
+<!--
+ body      { BACKGROUND-IMAGE: url(http://images.lockergnome.com/images/issue/top-right.gif); color: #14367A }
+ a:link    { COLOR: #008000; TEXT-DECORATION: underline; font-weight: normal }
+ a:visited { COLOR: #003E00; TEXT-DECORATION: underline; font-weight: normal }
+ a:active  { COLOR: #000000; text-decoration: none }
+ a:hover   { color: GRAY; TEXT-DECORATION: none }
+ p.title   { BACKGROUND: #FF9700; BORDER-BOTTOM: #E08A00 4px solid; BORDER-LEFT: #FFB03F 4px solid; BORDER-RIGHT: #E08A00 4px solid; BORDER-TOP: #FFB03F 4px solid; COLOR: #4C2E00; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal }
+ p.sidebar { BACKGROUND: #FF9700; TEXT-ALIGN: center; BORDER-BOTTOM: #E08A00 3px solid; BORDER-LEFT: #FFB03F 3px solid; BORDER-RIGHT: #E08A00 3px solid; BORDER-TOP: #FFB03F 3px solid; COLOR: #4C2E00; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold } 
+ .url      { font-size: 8pt; font-family: Verdana, Tahoma, Arial }
+-->
+
+
+20020712 Sausage Sizzler - Lockergnome - Webmaster Weekly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 07.12.2002 WebREPORT
+
+
+CUT YOUR DESIGN COSTS AND TIME: Get access to 250+ Web Templates 
+with CSS at BasicTemplates.com. 
+Annual memberships are only $54.95. Individual templates are $5.00 each. 
+New templates added weekly. No link back is required, and web designers 
+are not charged higher fees to use them on their clients' sites. 
+Browse the full gallery!   
+
+Somehow, it never got mentioned that Lockergnome has a GnomeTome for all 
+you 
+Dreamweaver users out there. Dennis Jarrett, a gnomie from the UK 
+with a prolific list of writing accomplishments, lent his brain to a list 
+of things everyone should know to make using Dreamweaver 4 (and newer) 
+easier to use. I 've never actually used version 4, having stuck with 3 
+until recently starting the review process of the StudioMX  suite, but 
+I've been  able to apply every tip I tried to some aspect of DreamweaverMX, 
+so I can only guess those of you using 4 will want to 
+check 'em out too.
+
+As I mentioned in yesterday's Digital Media newsletter, I recently 
+switched cell phones to the 
+Kyocera QCP6035. 
+The unit is Palm powered, with a screen the size of an m105 and all the 
+functionality of Palm OS, in addition to having the latest bells and whistles 
+you'd want in a phone. Built in Web browsing, by way of MSN, is slightly 
+cumbersome compared to what I'm used to from my cable connection, but I can 
+already see the usefulness in carrying around portable access to things like 
+driving directions. 
+
+Now that I've got a way to test the final results in real time, I've got a 
+more vested interest in making Lockergnome considerably more WAP compatible. 
+I'm still figuring out many of the phone's features, so that's still going to 
+be at least  a few weeks away. Without a doubt, I'll be sharing my experiences 
+in WAPing Lockergnome in an upcoming series of articles.
+
+
+
+Jake Ludington        
+
+ GnomeMAIL
+phpMyNewsletter
+http://gregory.kokanosky.free.fr/phpmynewsletter/
+
+As a free solution for managing newsletters, for smaller lists, 
+this does most of what you need. Subscribers are stored in a 
+mySQL database, with the ability to send user confirmation 
+e-mails. Initially, the address must still be added manually to 
+the database, which isn't idea, but doing this generates a 
+confirmation e-mail with a link that users click on if they want 
+to be added. The software purges addresses with no response, 
+following an administrator defined waiting period. From the php 
+interface you can send either text or HTML formatted messages, 
+with a built-in preview to make sure your formatting is OK. 
+Documentation is somewhat sparse, so prior knowledge of php and 
+mySQL are useful in getting this installed.
+
+
+
+ GnomeTOOLS
+
+
+
+OpalisRobot v4.0 [60MB] NT/W2k/XP
+http://www.opalis.com
+
+Think of this as something like "cron for Windows" only even more powerful. 
+OpalisRobot allows you to schedule almost any process on your server, 
+adding an additional layer of functionality, like the ability to program 
+telephony commands to complete administrative tasks. OpalisRobot 
+effectively processes e-mail commands, in addition to telephone DTMF tones, 
+making everything on your server administerable from remote locations, 
+even when you can't get remote control access of the machine. Programming 
+jobs is point-click simple, saving you time even when you schedule tasks 
+to save you time. If you operate in a Windows server environment, you're 
+adding extra hours to your day and costing your company additional dollars 
+by not having this software.
+
+ GnomeSERVER
+PNG Files Do Not Show Transparency in Internet Explorer (Q294714)
+http://support.microsoft.com/default.aspx?scid=kb;en-us;Q294714
+
+"If you browse to a Web page that contains an image that has a transparent 
+background in Portable Network Graphics (PNG) format, the image background 
+may appear to be gray rather than transparent."
+
+Fortunately, Microsoft explains a solution for this problem. Personally, I 
+haven't encountered this PNG display error, but for those of you 
+simplementing PNGs on your sites, you'll want to review the solution.
+
+
+
+
+
+WEB TEMPLATES WITH CSS: Cut your design costs and time with an 
+annual membership from BasicTemplates.com. 
+For only $54.95 get access to 250+ Web Templates. 
+New templates added weekly.  
+
+
+ GnomeUSABILITY
+
+http://diveintomark.org/
+
+Not only is this information great for improving blog accessibility, it 
+happens to be equally relevant for *any* site. The 30 days are nearing 
+their end, which means you won't have to wait to find out what's next; 
+you can simply click to the next page. Mark Pilgrim, the site's creator, 
+sets the stage with 5 characters (all of which could easily represent 
+real people) and walks through their physical, mental, and technological 
+limitations. Following the character introductions, Mark walks through 
+an accessibility scenario each day and then relates the concept back 
+specific benefits for each character's limitations. Solutions are 
+presented with blogs in mind, but with very little extrapolation you'll 
+be able to make every site you design more user friendly.
+
+
+ GnomeBLOG
+Backend.UserLand.Com
+http://backend.userland.com/
+
+I've been using Radio from the moment I finally got around to creating 
+a blog. The software keeps things simple and automatically updates 
+itself when new things get added. Userland goes far beyond creating a 
+desktop interface for their blogging system though. They've fully 
+documented all the XML, XML-RPC, and SOAP tie-ins used to connect to 
+their network, which could easily be adapted to other content 
+management applications with some XML knowhow. Backend is the place to 
+look "under the hood" at Userland's XML inner workings, including 
+detailed documentation on making everything work. If you've got 
+modifications or improvements to the system, they have an open 
+discussion forum for trading ideas.
+
+
+
+
+
+
+http://www.lockergnome.com/issues/webmasterweekly/20020712.html
+Your subscribed e-mail address is: [qqqqqqqqqq-lg@spamassassin.taint.org] - To unsubscribe or change your delivery address, please visit the subscription management page. For further information, please refer to the GnomeCREDITS in the sidebar.
+
+
+
+
+
+
+LOCKERGNOME
+
+
+ Download Our Tip Files
+
+ Latest Windows Daily
+ Latest Digital Media
+ Latest Tech Specialist
+ Latest Penguin Shell
+
+ Latest Apple Core
+ Latest Web Weekly
+ Latest Bits & Bytes
+ Latest Audio Show
+
+
+ Low Price Search
+ $99 Tech Conference
+
+ The GnomeSTORE
+ Tell a Friend About Us!
+ Suggest a Feature
+ Advertise With Us
+ High-Tech Job Search
+ Chat With Gnomies
+ Watch The Webcams
+
+ Computer Power User
+
+ Read Past Issues
+ Download X-Setup
+ About Lockergnome
+ Our Privacy Policy
+ View More Options
+ Our XML / RSS Feed
+ Syndicate Our Tips
+
+ Link To Lockergnome
+ Get Chris's Book
+ General Feedback
+ E-mail the Editor
+ Jake's Blog
+
+ Our XML / RSS Feed
+ Syndicate Our Tips
+ Link To Lockergnome
+
+ SOUND SYSTEMS
+Yamaha RX-V1200
+Sony DAVC900
+Harman Kardon	AVR520
+Denon	AVR5803
+Pioneer VSXD811S
+Pioneer Elite	VSX49TX
+Sony HTDDW840
+Yamaha HTR5560
+BOSE LS122BK
+Sony DAVC450
+ GNOMESPECIALS
+ Manage Your Workgroup
+ Form Pilot
+ Say the Time 5.0
+ Boomer - Stream Now
+ Create Web/CD catalog
+ Easy Web Editor
+ Kleptomania
+ Tag&Rename
+ Pretty Good Solitaire
+ Visualize Color Combos
+ FirstStop WebSearch
+ Ecobuilder
+ Book Collector
+Get Listed Here
+Question: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother?
+
+
+
+
+
+ 
+LOOK IT UP
+
+
+
+
+
+ 
+CREDITS
+
+©2002, Sausage Software and Lockergnome LLC. All Rights Reserved. Nathan Allan, the Sausage Crew and Lockergnome Lunatics spin all the content. Please read our Terms of Service.
+
+
+
+  Search Past Issues:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+GETTING PAID WHAT YOU ARE WORTH? Change your career - or get a better one! Your dream job could be a mouse click away. Visit our job search page for a position with a future. Find a new career today!
+
+
+
+
+
+
+

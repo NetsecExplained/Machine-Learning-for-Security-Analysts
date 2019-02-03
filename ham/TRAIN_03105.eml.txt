@@ -1,0 +1,25 @@
+Re: Keyboard gets stuck when closing PPPOn Thu, Apr 08, 2010 at 12:14:47PM +0200, Rodolfo Medina wrote:
+> ...
+> > phone (motorola e815) through a usb cable.  It's not 100% repeatable.
+> > I suspect something in the close routine is overwriting part of the
+> > keyboard driver, but only some times.  BTW, this is on a Dell 8600,
+> > with the nvidia-legacy driver.
+> 
+> 
+> Maybe installing a new version of the kernel would fix it?  Haven't you tried,
+> A.?
+
+Maybe.  But this is my primary machine and I want to keep it stable.  I
+also don't have that much of a need any more to use the usb phone/modem.
+If that changes, I might try a newer kernel.  In fact I might try a
+backported kernel on another machine.  I'll report back when I do.
+
+A.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100408205724.GA6520@shibaya.lonestar.org
+
+

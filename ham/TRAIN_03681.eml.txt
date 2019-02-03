@@ -1,0 +1,18 @@
+LXDE session aborting immediately.Well, not really, but that is what the message says.  Actually, it says that the session lasted less than ten seconds, but who's counting.
+
+This started happening last Monday night after doing a full-upgrade on my laptop, running Squeeze.
+
+In reality:  If I click on OK (the only button available) then the session does indeed end and I am dropped back to a login window.  If I click the 'X' button, the same thing happens.  If I click the 'Minimize' button, however, the message just goes away (it does not appear in the task bar) and I can continue to work as if nothing had happened.
+
+I thought that maybe I just had something messed up in some configuration file in my home directory, so I tried creating a new user to see if it still happened there.  It did.  That eliminates a personal config file from being the problem, but leaves me no closer to an answer.  Is anyone else using LXDE on Squeeze having this problem?
+
+ Marc Shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/497147.39102.qm@web55506.mail.re4.yahoo.com
+
+

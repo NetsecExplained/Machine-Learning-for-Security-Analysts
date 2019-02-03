@@ -1,0 +1,21 @@
+Re: 64-bit netbooks with Debian linuxOn 05/03/2010 09:26 PM, Alex Samad wrote:
+[snip]
+>
+> I find with my atom, using syncplaces (a firefox addin), which encrypts
+> its files - it takes for ever, I am guess i am missing some of those
+> nice cpu op's that speed these things up.
+>
+
+AMD & Intel's low-power CPUs need encryption engines just like 
+Via's, and libssl needs hooks into it.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF9038.7010504@cox.net
+
+

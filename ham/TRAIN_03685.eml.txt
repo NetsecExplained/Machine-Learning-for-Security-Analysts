@@ -1,0 +1,90 @@
+TCPA and Palladium: Content Control for the Masses
+TCPA and Palladium: Content Control for the Masses
+
+While security experts poke and jab at what bits and pieces
+of the TCPA and Palladium specs they can get ahold of, they
+have tended to focus on how they work and what they imply as
+far as concerns such as privacy and security go, or
+alternatively, in terms of how they would impact the
+functionality of the general purpose logic device.  Analysts
+both favorable and unfavorable have been analyzing them from
+these standpoints, while paying much less attention to what
+the proposals imply from the standpoint of what content
+control itself really means.
+
+The most significant problem with TCPA and Palladium is not
+whether they may interfere with the power of the universal
+logic device, or whether they are effectual from the
+standpoint of privacy and security concerns, though these
+are all very important concerns.  Rather, the fundamental
+problem they present is in the political premises that they
+hope to implement for the sake of the "content industries."
+
+TCPA and Palladium are the technological realization of the
+concepts embodied in the WIPO Performances and Phonograms
+Treaty (WPPT), which only came into effect this past May
+20th (with little public notice or fanfare, of course).  The
+WPPT declares an unprecedented "moral right" of authors to
+control public uses of their works.
+
+*That's* the real game plan.
+
+TCPA and Palladium are simply content control for the
+masses.  They constitute an effort to "democratize" content
+control under the concept of "moral rights," encouraging the
+public to overlook the clear public interest issues raised
+by the specter of content control, and to confuse these
+issues with private interest issues such as privacy and
+security.  They are an effort to get the public to jump on
+the bandwagon without adequate consideration of what's
+really on the line.
+
+In America, we have never supported the concept of "moral
+rights" which the WPPT professes.  The US Constitution
+accords Congress the power to grant (or deny) exclusive
+rights to works and inventions for the purpose of promoting
+the progress of the useful arts and sciences, not for the
+purpose of rewarding the originality of creators -- though
+that result is obviously a consequence of exclusive rights
+statutes such as copyright law.  Our Supreme Court
+explicitly articulates this distinction, and for very good
+reason.  In America, we implicitly understand the
+distinction between expression, the aspect of works to which
+copyright statute applies, and the facts and ideas that make
+up a work, to which it does *not* apply.
+
+The reason for this is essential and unavoidable, and must
+be stated clearly and unequivocally at this juncture:
+information is free.  It's not that it *wants* to be -- it
+*is* and it always has been.  This fact is unassailable,
+however, unless we let come to pass a world that subscribes
+to "universal content control" for the sake of so-called
+"moral rights" implemented at the behest of narrow content
+industry interests.
+
+TCPA and Palladium are initiatives that hope to encourage
+the general public, and more specifically producers of
+information products in general, to identify content control
+with "moral rights," blithely overlooking the real
+implications of information technology in a free society,
+and the long tradition of American jurisprudence upholding
+the freedom intrinsic to information, a freedom on which the
+prospects of information technology crucially depend.
+
+Seth Johnson
+
+-- 
+
+[CC] Counter-copyright:
+http://cyber.law.harvard.edu/cc/cc.html
+
+I reserve no rights restricting copying, modification or
+distribution of this incidentally recorded communication. 
+Original authorship should be attributed reasonably, but
+only so far as such an expectation might hold for usual
+practice in ordinary social discourse to which one holds no
+claim of exclusive rights.
+
+http://xent.com/mailman/listinfo/fork
+
+

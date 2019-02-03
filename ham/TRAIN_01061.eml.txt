@@ -1,0 +1,27 @@
+Re: [ILUG] cups questionzzzz@example.com (Justin Mason) writes:
+
+> /dev/fd/0 is STDIN -- filedescriptor 0.  Looks like the PS file wants
+> to know its filename, but it's being read from STDIN, that's my
+> guess.  
+
+I don't think so: it should be getting a stream of PS from stdin,
+but it's not. The printing/spooling system is executing gs but
+somehow failing to provide it with input.
+
+> Try tweaking the scripts to run "gs" with the ps file on
+> the command line instead of as "-".
+
+That might clarify that the later part of the system works, but I
+suspect the problem is earlier.
+
+B
+-- 
+Brendan Halpin, Dept of Government and Society, Limerick University, Ireland
+Tel: w +353-61-213147 f +353-61-202569 h +353-61-390476;  Room F2-025 x 3147
+ 
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

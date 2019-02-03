@@ -1,0 +1,8 @@
+Yahoo Finance RSS BetaURL: http://jeremy.zawodny.com/blog/archives/000187.html
+Date: 2002-09-23T11:47:57-08:00
+
+Got a stock ticker for which you'd like to have an RSS news feed? Help test the 
+beta RSS feeds we've put up o Yahoo Finance. Take your favorite ticker, say 
+YHOO, and put this URL in your news aggregator:...
+
+

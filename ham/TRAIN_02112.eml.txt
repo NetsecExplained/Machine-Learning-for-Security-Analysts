@@ -1,0 +1,19 @@
+Re: ldconfig: /usr/lib/libwins.so is not an ELF file - it has the
+	wrong magic bytes at the startEl 2010-04-26 a las 17:14 +0530, Anand Sivaram escribió:
+
+(resending to the list)
+
+> Did you try "file /usr/lib/libwins.so" to see the file type?
+
+Greetings,
+
+-- 
+Camaleón 
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100426115554.GA5844@stt008.linux.site
+
+

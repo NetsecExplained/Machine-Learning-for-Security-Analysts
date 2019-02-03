@@ -1,0 +1,35 @@
+Asterisk in Debian/Lenny without Junghanns.net support?Hi!
+
+Asterisk in Debian/Lenny claims to be bristuffed, not? At least the
+the Debian patch tracking system shows the bristuff-patches:
+
+[1] http://bit.ly/bRRHe7
+
+We have a QuadBRI-Card and recently needed support from Junghanns.net
+but they refused telling us there is no bristuff installed because of
+the show version output:
+
+*CLI> show version
+Asterisk 1.4.21.2~dfsg-3+lenny1 built by pbuilder @ grnetbox on a  
+x86_64 running Linux on 2009-12-14 19:04:56 UTC
+
+Why was the "bristuffed" line removed? Debian/Etch did have that
+postfix.
+
+After telling them Debian/Lenny IS bristuffed they said this
+"installation method" is not supported. Huh?!
+Does anyone has a comment on this?
+
+Greetings,
+ - Darsha
+
+
+P.s.: X-Posted to debian-user and asterisk-user list.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC20ABE.1020103@syn-net.org
+
+

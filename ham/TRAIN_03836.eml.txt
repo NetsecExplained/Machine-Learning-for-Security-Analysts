@@ -1,0 +1,24 @@
+Re: Omit 32-bit Packages From InstallFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+Carlos Mennens schreef:
+> On Wed, Apr 14, 2010 at 12:50 PM, Sjoerd Hardeman
+>  wrote:
+>> Everything in the 64 bit section is 64 bit, except the ia32 compabilit=
+y
+>> libraries. If you make sure you haven't installed those (which should =
+be the
+>> case on a base system that doesn't need those), then you have a fully =
+64 bit
+>> system.
+>=20
+> OK - I omit the 'base' system when I install the O.S. so I think I
+> should be fine.
+The base system is 64 bit. 32 bit is available for some proprietary=20
+stuff that needs 32 bit libraries (not so many nowadays). But usually, a =
+
+base install pulls no 32 bit libraries.
+
+Sjoerd
+

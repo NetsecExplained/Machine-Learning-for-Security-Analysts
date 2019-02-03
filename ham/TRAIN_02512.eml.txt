@@ -1,0 +1,90 @@
+Re: horrible mc colorschemegodo wrote:
+> Hugo Vanwoerkom wrote:
+>> Hugo Vanwoerkom wrote:
+>>> Hi,
+>>>
+>>> I just made the mistake of my life and upgraded mc from 
+>>> 2:4.6.2~git20080311-4 to 3:4.7.0.1-1.
+>>>
+>>> And the new color scheme is enough to cause instant blindness :-(
+>>> No kidding!
+>>>
+>>> How do I get back to what I had?
+>>> Anybody?
+>>>
+>>
+>> So what happened is that starting with 4.7.0 mc supports skins.
+>>
+>> There are 5 skins shipped with mc:
+>>
+>> darkfar - black background
+>> default - the old default: blue background
+>> double-lines - like default but with double lines. Couldn't get that 
+>> to work
+>> featured - like double-lines
+>> gotar - black backround
+>>
+>> I found 2 skins googling:
+>>
+>> elite_commander - unreadable with black backround
+>> bluemoon - black background.
+>>
+>> I found no skins anywhere with my choice for years: white background.
+>>
+>> So it's back to the old blue default because it takes days of diddling 
+>> to make up a skin.
+>>
+>> Hugo
+>>
+>>
+> Hi,
+> I was just download and open elite_commander skin.
+> I think if in:
+> [core]
+>     _default_=gray;
+> 
+> change to white
+> [core]
+>     _default_=white;
+> it should be white background.
+> I don't have mc so I can't try, but it seems easy to modified.
+
+Hi Goran,
+
+I just posted a followup with my complaint on the mc user list:
+http://mail.gnome.org/archives/mc/2010-April/msg00024.html
+
+It's not that simple as I mention there: when you change that default 
+option all the directory entries turn bright white and in mcedit the 
+entries turn black on white with a blue background which looks ridiculous.
+
+The problem is that they changed a major function without fallback and 
+without a spectrum of options.
+
+Too bad but it's waiting until skins get developed or pinning mc to 
+prevent 4.7.0.1 from installing.
+
+Hugo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqfnap$nib$1@dough.gmane.org
+
+

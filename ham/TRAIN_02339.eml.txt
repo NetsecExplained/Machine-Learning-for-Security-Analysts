@@ -1,0 +1,45 @@
+Re: pinning + apt-get vs aptitudeOn 2010-05-15 17:32 +0200, Hugo Vanwoerkom wrote:
+
+> (on Sid) I pinned grub-legacy, to avoid going to grub2.
+>
+> Then when I do 'apt-get dist-upgrade' I see:
+>
+> The following packages have been kept back:
+>   grub
+>
+> and
+>
+> The following packages will be upgraded:
+> ... grub-legacy ...
+>
+> but when I do 'aptitude full-upgrade' I see:
+>
+> The following packages will be REMOVED:
+> ... grub-legacy{a} ...
+
+You should run "aptitude unmarkauto grub-legacy" and remove the
+transitional grub package.  Unfortunately the case where a transitional
+package A pulls in another package B is not handled well by the package
+managers, I always end up "aptitude unmarkauto B; aptitude markauto A"
+to tell apt that I want to keep the new package and that it can remove
+the transitional one as soon as nothing depends on it anymore.
+
+> The following NEW packages will be installed:
+> ... grub-pc{a} ...
+>
+> So why does aptitude pay no attention to my pin?
+
+Because it decides that the grub-legacy package is unused and can be
+removed despite the pin.  Whether this is the right thing is debatable;
+I'm sure you find some bug reports about that if you dig into the long
+list of aptitude bugs.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87fx1tcg4h.fsf@turtle.gmx.de
+
+

@@ -1,0 +1,31 @@
+Re: A couple of nits...From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+
+On Wed, 02 Oct 2002 09:54:04 EDT, "J. W. Ballantine"   said:
+
+> First, when I try and run exmh with wish from tk8.4.0 it seems to take
+> forever to start, but with wish from tk8.a.4 it starts in a snap.
+
+This sounds like something piggy in the 'flist' code - I'm seeing flist
+in general taking 5-10 seconds.  Interesting that a different wish comes up
+fast, there might be a borkedness in 8.4.
+
+> Using the latest CVS, when I open exmh and the folder I'm in has unseen
+> messages and I hit next, exmh changes to the next folder with unseen messages
+> rather than to the first unseen in the current folder.
+
+Hmm.. weirdness..
+
+> Finally, when I reach the end of the messages in a folder and go on to
+> the next unseen, exmh always goes back to inbox (which has no unseen
+> messages) rather than the next folder with unseen messages.  (When I 
+> goto next from inbox it does go where I would think it should go).
+
+I've been seeing this as well - *usually* with inbox, but it's gotten
+stuck on some other folders as well (I have procmail do rcvstore into folders
+for me).
+-- 
+				Valdis Kletnieks
+				Computer Systems Senior Engineer
+				Virginia Tech
+

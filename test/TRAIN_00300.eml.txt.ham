@@ -1,0 +1,27 @@
+Re: [SAtalk] From: and To: are my addressOn Mon, 26 Aug 2002 the voices made CertaintyTech write:
+
+> Recently I have been receiving Spam where both the From: and To: address are
+> set to my address therefore getting thru due to AWL.  Any suggestions on
+> this one?  I could turn off AWL but it does have advantages.  BTW, I use a
+> site-wide AWL.
+
+ Use cron to remove your address from the AWL daily...?!
+
+	/Tony
+-- 
+# Per scientiam ad libertatem! // Through knowledge towards freedom! #
+# Genom kunskap mot frihet! =*= (c) 1999-2002 tony@svanstrom.com =*= #
+
+     perl -e'print$_{$_} for sort%_=`lynx -dump svanstrom.com/t`'
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

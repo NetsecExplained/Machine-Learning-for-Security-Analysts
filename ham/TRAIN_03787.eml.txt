@@ -1,0 +1,37 @@
+[SACVS] CVS: spamassassin MANIFEST,1.100.2.11,1.100.2.12Update of /cvsroot/spamassassin/spamassassin
+In directory usw-pr-cvs1:/tmp/cvs-serv6501
+
+Modified Files:
+      Tag: b2_4_0
+	MANIFEST 
+Log Message:
+removed old evolver
+
+Index: MANIFEST
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/MANIFEST,v
+retrieving revision 1.100.2.11
+retrieving revision 1.100.2.12
+diff -b -w -u -d -r1.100.2.11 -r1.100.2.12
+--- MANIFEST	28 Aug 2002 13:50:15 -0000	1.100.2.11
++++ MANIFEST	28 Aug 2002 16:55:16 -0000	1.100.2.12
+@@ -50,7 +50,6 @@
+ masses/CORPUS_POLICY
+ masses/CORPUS_SUBMIT
+ masses/craig-evolve.c
+-masses/evolve.cxx
+ masses/freqdiff
+ masses/hit-frequencies
+ masses/lib/Mail/ArchiveIterator.pm
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

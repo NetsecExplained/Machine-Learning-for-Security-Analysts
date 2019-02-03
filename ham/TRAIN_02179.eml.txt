@@ -1,0 +1,115 @@
+Re: problems with apt/synaptic
+Although it looks like I'm replying to myself, I just haven't gotten
+Matthias' reply yet, although I can see it on the website (and I did
+subscribe, but probably to the digest).
+
+Anyway, Matthias wrote:
+> Once upon a time, Steve wrote :
+> 
+> > I did apt-get update, and it seemed to have gotten the new packages
+> 
+> Hmmm, "it seems"? Check closer as this may be where the problem is
+> coming
+> from.
+> > but doing things like "apt-get install synaptic" didn't work (neither
+> > did other known packages, like apt-get install lame
+> > 
+> > I just get:
+> > root@canarsie:/var/cache/apt # apt-get install lame
+> > Reading Package Lists... Done
+> > Building Dependency Tree... Done
+> > E: Couldn't find package lame
+> 
+> Could you double check what "apt-get update" does? And eventually post
+> the
+> output if there are any errors or messages you don't understand.
+
+OK, I did it again, and here's what I got:
+root@canarsie:/tmp # apt-get update
+Ign http://apt.freshrpms.net redhat/8.0/en/i386 release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/os pkglist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/os release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/updates pkglist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/updates release
+Get:1 http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms pkglist [51.8kB]
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/os srclist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/updates srclist
+Get:2 http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms srclist [12.6kB]
+Fetched 64.4kB in 2s (30.1kB/s)
+Reading Package Lists... Done
+root@canarsie:/tmp # apt-get install lame
+Reading Package Lists... Done
+Building Dependency Tree... Done
+E: Couldn't find package lame
+
+root@canarsie:/var/cache/apt # ls -ltr
+total 148
+drwxr-xr-x    2 root     root         4096 Sep 29 10:49 gensrclist
+drwxr-xr-x    2 root     root         4096 Sep 29 10:49 genpkglist
+drwxr-xr-x    3 root     root         4096 Sep 29 10:49 archives
+-rw-r--r--    1 root     root        49863 Oct  4 16:00 srcpkgcache.bin
+-rw-r--r--    1 root     root       158131 Oct  4 16:00 pkgcache.bin
+root@canarsie:/var/cache/apt # date
+Fri Oct  4 16:03:15 EDT 2002
+
+So, it looks like it worked, and the files are updated..  very strange.  
+
+Maybe something went wrong updating apt from my old version (as used
+with rh7.2), and this one.  Lemme try totally uninstalling and
+reinstalling it..
+
+root@canarsie:/ # rpm -e apt synaptic
+warning: /etc/apt/sources.list saved as /etc/apt/sources.list.rpmsave
+root@canarsie:/ # ls -l /etc/apt
+total 4
+-rw-r--r--    1 root     root         1610 Oct  4 10:07
+sources.list.rpmsave
+root@canarsie:/ # rpm -ivh /tmp/apt-0.5.4cnc7-fr1.i386.rpm
+warning: /tmp/apt-0.5.4cnc7-fr1.i386.rpm: V3 DSA signature: NOKEY, key
+ID e42d547b
+Preparing...                ###########################################
+[100%]
+   1:apt                    ###########################################
+[100%]
+root@canarsie:/ # apt-get update
+Ign http://apt.freshrpms.net redhat/8.0/en/i386 release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/os pkglist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/os release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/updates pkglist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/updates release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms pkglist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms release
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/os srclist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/updates srclist
+Hit http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms srclist
+Reading Package Lists... Done
+root@canarsie:/ # apt-get install synaptic
+Reading Package Lists... Done
+Building Dependency Tree... Done
+E: Couldn't find package synaptic
+root@canarsie:/ #
+
+Still no go...
+
+I'm stumped.
+
+-SteveK
+
+
+
+> 
+> Matthias
+> 
+
+
+-- 
+  Steve Kann - Chief Engineer - 520 8th Ave #2300 NY 10018 -  (212) 533-1775
+                HorizonLive.com - collaborate . interact . learn
+   "The box said 'Requires Windows 95, NT, or better,' so I installed Linux."
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

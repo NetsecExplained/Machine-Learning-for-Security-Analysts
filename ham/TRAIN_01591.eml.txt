@@ -1,0 +1,38 @@
+zero brightness post Snow Leopard upgradeOn my white MacBook (2007 eta) that I recently upgraded from Leopard  
+to Snow Leopard. I have installed all current updates.
+
+Now, and not before, I notice that frequently when I start to re-use  
+the machine that it has zero brightness when it powers up. The  
+'increase brightness' control has no effect (but other keys do work).  
+If I close the lid but then reopen it before the machine goes to sleep  
+that usually does the trick and I have medium(ish) brightness and can  
+turn brightness up or down.
+
+I am testing if this is related to X11/Xquartz so thought I would ask  
+here if anybody else has experience this problem.
+
+I can provide more h/w details later.
+
+Thanks, M
+
+
+Dr. Michael K Bane
+Senior Development Officer
+RESEARCH COMPUTING SERVICES
+Devonshire House
+Precinct Centre
+The University of Manchester
+Manchester
+M13 9PL
+
+www.rcs.manchester.ac.uk
+www.twitter.com/mkbane_mcr
+www.facebook.com/group.php?gid=73597922129
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

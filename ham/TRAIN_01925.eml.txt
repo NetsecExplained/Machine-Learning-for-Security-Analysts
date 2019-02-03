@@ -1,0 +1,32 @@
+Any updated information to "FileID race detected" email thread?Hello:
+
+I=92ve recently had a few users get new Snow Leopard machines.  They all =
+are having problems similar to those described in the =93FileID race =
+detected=94 (Jan 19, 2010) of this list.  I share home directories using =
+NFS (Mac OS X Server 10.5.8).  My Leopard clients do not exhibit this =
+behavior.
+
+The Snow Leopard clients are all patched up to 10.6.3.  I searched this =
+list and did not see any information indicating that this bug, alluded =
+to by Jim Luther (response to initial =93FileID race detected=94 posting =
+also on Jan 19, 2010), has been fixed by now.  Does anyone have some =
+concrete information about this bug?  Thanks a bunch for your help.
+
+--
+Peter Schwenk  ||  Campus IT Associate 3
+Mathematical Sciences  ||  University of Delaware
+Newark, DE  19716-2553  ||  (302) 831-0437 (v)
+schwenk @ math . udel . edu  ||  http://www.math.udel.edu/~schwenk
+
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

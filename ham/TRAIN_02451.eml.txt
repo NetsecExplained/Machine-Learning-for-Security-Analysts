@@ -1,0 +1,38 @@
+Re: Suspend to Disk + blacklisted module = still troubleOn Sat, 24 Apr 2010 20:33:59 +0200, Felix Natter wrote:
+
+> Camaleón writes:
+> 
+>> What does "/var/log/hibernate.log" say?
+> 
+> /var/log/hibernate* does not exist after a (succesful) resume, although
+> this is in common.conf:
+> 
+> Verbosity 0
+> LogFile /var/log/hibernate.log
+> LogVerbosity 1
+> 
+> Any idea?
+
+Yes, you can increase the log verbosity:
+
+Verbosity 4
+LogFile /var/log/hibernate.log
+LogVerbosity 4
+
+And check that file after suspending/restoring.
+
+But if you already got a success resume, why are you in the need of 
+blacklisting modules? :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.24.19.10.17@csmining.org
+
+

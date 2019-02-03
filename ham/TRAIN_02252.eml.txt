@@ -1,0 +1,35 @@
+HTTP: The Definitive Guide"HTTP: The Definitive Guide" documents everything 
+technical people need for using HTTP efficiently. 
+Written by experts with years of practical and 
+teaching experience, this book is the definitive 
+resource on HTTP and related core web technologies 
+because it clearly explains the "why" as well as 
+the "how." Readers will learn how web applications 
+work, how the core internet protocols and architectural 
+building blocks interact, and how to correctly implement 
+internet clients and servers.
+
+To order your copy or for more information
+(including sample chapter, Table of Contents, 
+index, etc), see:
+http://www.oreilly.com/catalog/httptdg/?CMP=EM8586
+or call 1-800-998-9938
+or email orders@oreilly.com
+
+HTTP: The Definitive Guide 
+By David Gourley, Brian Totty
+With Marjorie Sayer, Sailu Reddy, Anshu Aggarwal
+1-56592-509-2, Order Number: 5092
+656 pages, $44.95 US $69.95 CA 31.95 UK
+http://www.oreilly.com/catalog/httptdg/?CMP=EM8586
+
+-----------------------------------------------------------------
+If you want to cancel your subscription to this 
+newsletter, or add subscriptions to other topics, 
+go to: http://www.oreillynet.com/cs/user/home 
+
+For non-automated human help email 
+help@oreillynet.com
+---------------------------------------------------------
+
+

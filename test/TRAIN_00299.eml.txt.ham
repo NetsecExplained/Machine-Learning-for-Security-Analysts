@@ -1,0 +1,34 @@
+Re: New Sequences WindowFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Valdis.Kletnieks@vt.edu
+> Date:  Wed, 21 Aug 2002 02:36:56 -0400
+>
+> --==_Exmh_778588528P
+> Content-Type: text/plain; charset=us-ascii
+> 
+> On Tue, 20 Aug 2002 22:51:52 EDT, Valdis.Kletnieks@vt.edu said:
+> 
+> > Ever tried to get MH to *not* have a 'pseq' sequence?  I suspect everybod
+> y's
+> > looking at a big box that has unseen and pseq in it.  Might want to add
+> > 'pseq' to the 'hide by default' list....
+> 
+> Was it intended that if you added a sequence to the 'never show' list that
+> it not take effect till you stopped and restarted exmh?  I added 'pseq',
+> then hit 'save' for Preferences - didn't take effect till I restarted.
+
+No it wasn't, and at one point it worked fine.  I'll check and see why it 
+stopped working.
+
+Chris
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

@@ -1,0 +1,39 @@
+Re: Unable to connect to my home wireless* On 2010 21 May 17:30 -0500, Thomas Pircher wrote:
+> Boyd Stephen Smith Jr. wrote:
+> >> a) without asking me,
+> >> b) without telling me and
+> >> c) without being told to do so.
+> >
+> > From what I understand, all 3 of these are primary goals of the network-
+> > manager package.
+> 
+> I'm sure network-manager will live up to its goals, eventually. For the time 
+> being I have created a new bug with the title "network-manager ignores 
+> configured interfaces in /etc/network/interfaces". ;-)
+> It doesn't yet show up on bugs.debian.org, I guess it takes some time.
+
+As I understand it, both Network Manager and Wicd are intended to
+control the network interfaces.  If you want to control the interfaces
+manually, remove NM.  If you want to use NM then only the loopback
+interface should be defined in /etc/network/interface.  
+
+NM works very well for me on my Ubuntu Lucid laptop.  Meanwhile, my
+Debian desktop utilizes /etc/network/interface as it doesn't roam
+anywhere.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100522022951.GE2171@n0nb.us
+
+

@@ -1,0 +1,55 @@
+Re: Forged whitelist spam-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+
+Gordon Mohr wrote:
+> Eugen Leitl writes:
+> 
+>>On Sun, 11 Aug 2002, Gordon Mohr wrote:
+>>
+>>>If you crypto-sign your outgoing mail, you don't have to set your
+>>>mailwall whitelist to accept unsigned mail spoofed as being from you.
+
+Yup, I've been meaning to cobble together procmail + script for this, as 
+a few Google searches didn't turn up anything. Did anyone here get there 
+first?
+
+(I guess I want a config file of mailboxes who normally sign their mail, 
+and procmail that runs gpg and adds headers...)
+
+>>Users don't like entering passphrases when sending email. USB fobs, smart 
+>>cards or other removable hardware are not yet widespread.
+> 
+> Bad assumption.
+> 
+> A reasonable UI would have me enter my passphrase *at most* each 
+> time I launch my mail program -- never more than once per day,
+> sometimes once per week. 
+
+FWIW, the 'Enigmail' add-on for Mozilla's mail client has it happily 
+talking to GPG (and I believe PGP). You can choose how long it remembers 
+your passphrase for, default is 15 mins.
+
+see http://enigmail.mozdev.org/
+
+This feature was enough to get my off my Pine habit, since (to answer 
+the original question) the combination of SpamAssassin and shared 
+whitelists means that forged 'From:' headers are pretty much the only 
+spam I see in my inbox now.
+
+Dan
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQE9VvAyPhXvL3Mij+QRAkDdAJ4m/LO7Y0aki66H5AIwbmsX8Q/PegCfSQgI
+ZW2XmlcnQtrzALPimthvlr8=
+=wdf/
+-----END PGP SIGNATURE-----
+
+http://xent.com/mailman/listinfo/fork
+
+

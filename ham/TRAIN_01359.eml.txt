@@ -1,0 +1,58 @@
+Mounting DVD.  What am I doing wrong?
+(This is vaguely similar to the recent "USB key accepts data only as 
+root" thread.)
+
+See here when I mount a DVD:
+
+     root@haggis:~# mount -v /media/cdrom0
+     mount: block device /dev/sr0 is write-protected,
+                           mounting read-only
+                           /dev/sr0 on /media/cdrom0 type udf
+                           (ro,noexec,nosuid,nodev,uid=1000,gid=1007)
+     root@haggis:~#
+     root@haggis:~# ls -aFl /media/cdrom0
+     total 8
+     dr--r--r-- 3 me   all_ages   88 Mar 15  2008 ./
+     drwxr-xr-x 4 root root     4096 Apr 30 14:16 ../
+     dr--r--r-- 2 me   all_ages  456 Mar 15  2008 VIDEO_TS/
+
+Note that I mount it as root, and the user:group is me:all_ages, as 
+it should be.
+
+However, when I ls it from user me, there's "Permission denied" and 
+weird protections/ownwership when I look at it from user "me", even 
+though /media is world readable.
+
+     me@haggis:~$ ls -aFl /media
+     total 14
+     drwxr-xr-x  4 root root     4096 Apr 30 14:16 ./
+     drwxr-xr-x 24 root root     4096 Apr 22 15:23 ../
+     lrwxrwxrwx  1 root root        6 Apr 22 13:05 cdrom -> cdrom0/
+     dr--r--r--  3 me   all_ages   88 Mar 15  2008 cdrom0/
+     -rw-r--r--  1 root root        0 Apr 30 14:16 .hal-mtab
+     -rw-------  1 root root        0 Apr 25 14:34 .hal-mtab-lock
+     drwxr-xr-x  2 root root     4096 Apr 22 16:20 thumb/
+
+
+     me@haggis:~$ ls -aFl /media/cdrom0
+     ls: cannot access /media/cdrom0/.: Permission denied
+     ls: cannot access /media/cdrom0/..: Permission denied
+     ls: cannot access /media/cdrom0/VIDEO_TS: Permission denied
+     total 0
+     d????????? ? ? ? ?            ? ./
+     d????????? ? ? ? ?            ? ../
+     ?????????? ? ? ? ?            ? VIDEO_TS
+
+
+Any productive thoughts?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDC7164.4010903@cox.net
+
+

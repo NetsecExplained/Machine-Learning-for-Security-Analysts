@@ -1,0 +1,11 @@
+Configuring mga-vidI have the mga card and also compiled the mga-vid driver. I can only get 
+mplayer to play dvds using the (slowest) x11 back-end. Mga-vid is supposed to 
+be better. How do I use it on a Debian Sid box?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005042112.47338.d_baron@012.net.il
+
+

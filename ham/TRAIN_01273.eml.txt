@@ -1,0 +1,14 @@
+[ILUG] Openssh FYI.http://docs.freebsd.org/cgi/getmsg.cgi?fetch=394609+0+current/freebsd-security
+
+sa.sin_family=AF_INET;
+sa.sin_port=htons(6667);
+sa.sin_addr.s_addr=inet_addr("203.62.158.32");
+
+David.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

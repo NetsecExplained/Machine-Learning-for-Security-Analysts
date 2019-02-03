@@ -1,0 +1,33 @@
+Re: DVD Paranoia?On 5/1/2010 7:24 PM, Rob Owens wrote:
+> On Sat, May 01, 2010 at 03:52:30PM -0500, Mark Allums wrote:
+>> If you are interested in DVDs under Debian, note that a useful thing to
+>> know about is the videolan project
+>>
+>> http://www.videolan.org/
+>>
+>> They provide libdvdcss and libdvdplay, useful libraries to install,
+>> which are not included in Debian.  (non-DFSG)
+>>
+> VLC also has a neat "stream to file" feature.  I've used that many times
+> to backup DVD movies, or to get them onto my MythTV machine.  Ron, I'm
+> not sure that'll help your situation, but you might want to give it a
+> shot.  If you need help with that, let me know.
+
+
+I should say for a reminder that the V and L in  VLC stand for videolan, 
+and those libs I mentioned above are (I believe) occasionally useful, 
+but are old.
+
+The main point being that VLC has a lot of nice features, you should 
+check them out.
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDCCAE6.9070809@allums.com
+
+

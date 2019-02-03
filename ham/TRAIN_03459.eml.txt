@@ -1,0 +1,38 @@
+Re: Does QTVisualContextCopyImageForTime block?
+On Apr 30, 2010, at 9:09 PM, Matt Slot  wrote:
+
+> I'm iterating a movie frame by frame from a secondary thread. Rather  
+> than polling/spinning on QTVisualContextIsNewImageAvailable() for  
+> each frame, can I just CopyImageForTime() and let it block until the  
+> data is available? The alternative is to install a hook via  
+> QTVisualContextSetImageAvailableCallback() and trigger a semaphore,  
+> but blocking on the Copy call would be much more straightforward.
+
+If you are using SetMovieTime and  
+QTVisualContextSetImageAvailableCallback  you can do everything on the  
+secondary thread, after attaching the movie to this thread.
+
+If you are playing the movie you need to play it on the main thread.
+
+Normally you would use a display link callback which calls the  
+QTVisualContextIsNewImageAvailable/QTVisualContextCopyImageForTime  
+combo. Kind of smart polling.
+
+If you don't want to poll you can use an ImageAvailableCallback and  
+and an input queue but I don't see much benefit from that. The  
+overhead of the display link is small and if you suspect that your  
+movie has a higher frame rate than the display refresh time you can  
+always call QTVisualContextIsNewImageAvailable multiple times until it  
+returns false. Either you can keep up with the input or else you are  
+going to drop frames. The ImageAvailableCallback won't  help you there.
+
+Jan E.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,29 @@
+[Razor-users] Re: keep submitting known spam?On 08/08/02 15:26 -0700, Chip Paswater wrote:
+) > 
+) > Well, a little more than one bit -- you have to transmit the 
+) > signature, plus now the entire message body.  Plus your ID.  
+) > Plus the rights to all intellectual property contained in any 
+) > email message you submit (I guess technically there are no bits 
+) > in the rights assignment)
+) 
+) Perhaps a feature can be added to razor-report, so that it checks whether a
+) message is spam before it submits it.  If it is spam, then don't send the
+) body, 4 signatures, etc, just up the "rating" for that individual spam.
+
+  razor-report only sends the body if the server does not have
+  a copy already.  When it does, and the server just notes who also
+  thinks that mail is spam, and uses that info in TeS.  
+  
+  -chad
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,57 @@
+repeated ATA errors debian lennyFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hi all,
+
+Recently a couple of new machines came to my hands, HP DL 180 G6 with 500Gb
+SATA hard disk, and I tried to setup a 2-nodes ganeti cluster with debian
+lenny.
+
+Default 2-6-26 kernel does work without any issue.
+
+I've done a fresh installation with nothing more than the basics (vim and
+less ;) ) and after a aptitude install ganeti, editing xen-config.xsp and
+grub xen options, upon restarting I get the following error on the screen:
+
+Apr 15 13:24:56 virt8 kernel: [  297.381987] ata3.00: exception Emask 0x0
+SAct 0x0 SErr 0x0 action 0x6 frozen
+Apr 15 13:24:56 virt8 kernel: [  297.382163] ata3.00: cmd
+a0/00:00:00:24:00/00:00:00:00:00/a0 tag 0 pio 36 in
+Apr 15 13:24:56 virt8 kernel: [  297.382164]          cdb 12 00 00 00 24 00
+00 00  00 00 00 00 00 00 00 00
+Apr 15 13:24:56 virt8 kernel: [  297.382165]          res
+40/00:00:00:00:00/00:00:00:00:00/00 Emask 0x4 (timeout)
+Apr 15 13:24:56 virt8 kernel: [  297.382595] ata3.00: status: { DRDY }
+Apr 15 13:24:56 virt8 kernel: [  297.382727] ata3: hard resetting link
+Apr 15 13:24:56 virt8 kernel: [  297.858982] ata3: SATA link up 1.5 Gbps
+(SStatus 113 SControl 310)
+Apr 15 13:24:56 virt8 kernel: [  297.914096] ata3.00: configured for PIO0
+Apr 15 13:24:56 virt8 kernel: [  297.914235] ata3: EH complete
+
+The installed versions are:
+linux-image-2.6.26-1-xen-686
+xen-hypervisor-3.2-1-i386
+ganeti                              1.2.6-3+lenny2
+ganeti-instance-debootstrap         0.5-1
+drbd8-utils                         2:8.0.14-2+lenny1
+
+I upgraded to kernel 2-6-26-2 to see whether it solved the issue without
+success.
+I also tried booting with clocksource=acpi_pm. I've also just tried
+acpi=off, pci=nosmi, and nocpi as suggests the ata kernel website without
+much success.
+
+I've checked through internet and found the following:
+
+https://bugzilla.redhat.com/show_bug.cgi?id=480317
+
+It should be solved because hipervisor version 3.2 is higher than the one
+solving the issue (3.0.3) unless redhat's version differ much from the
+debian ones in minnor version....which i don't think.
+
+
+Can anyone shed some light on this issue?
+
+Thank you in advance!!
+
+Samuel

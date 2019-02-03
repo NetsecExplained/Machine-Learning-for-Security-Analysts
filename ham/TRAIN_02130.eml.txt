@@ -1,0 +1,40 @@
+[NOVICE] pl/pgsql and returns timestamp typeHi all,
+
+I cannot to get this to run...  I think I am mistaking some basic concept or I have a big brain-lock .  Somebody know what is the problem to execute this function ?
+
+Thanks in advance...
+
+--====================================
+DROP TABLE test;
+CREATE TABLE test
+(
+  clave numeric(7,0) not null,
+  PRIMARY KEY (clave)
+) WITHOUT OIDS;
+--====================================
+DROP FUNCTION f_test(numeric(7,0), numeric(7,0));
+CREATE OR REPLACE FUNCTION f_test(numeric(7,0), numeric(7,0)) RETURNS timestamp AS '
+  DECLARE
+    p_datod ALIAS FOR $1;
+    p_datoh ALIAS FOR $2;
+    --
+    tdesde timestamp;
+    thasta timestamp;
+  BEGIN
+    tdesde := now();
+    --
+    FOR X IN p_datod..p_datoh LOOP
+      INSERT INTO test VALUES (x);    
+    END LOOP;
+    --
+    thasta := now() - tdesde;
+    RETURN thasta;
+  COMMIT;
+  END;
+' LANGUAGE 'plpgsql';
+--====================================
+select f_test(1,9);
+
+---------------------------(end of broadcast)---------------------------
+TIP 1: subscribe and unsubscribe commands go to majordomo@postgresql.org
+

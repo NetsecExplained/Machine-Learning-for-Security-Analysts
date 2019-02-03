@@ -1,0 +1,46 @@
+Re: Mounting DVD.  What am I doing wrong?On 05/02/2010 04:15 AM, Camaleón wrote:
+> On Sat, 01 May 2010 18:00:58 -0500, Ron Johnson wrote:
+>
+>> On 05/01/2010 05:17 PM, Camaleón wrote:
+>
+>>>> Interesting.  What magic do I chant to make executable those files in
+>>>> udf partitions, since "exec" in the fstab options doesn't seem to
+>>>> work?
+>>>
+>>> Does this happen with all DVD/CDs you insert or just only with a few
+>>> ones?
+>>>
+>>>
+>> Apparently only on disks burned on a Toshiba DVR.
+>
+> There is an open bug report for Ubuntu where the reporter was having a
+> similar situation:
+>
+> ***
+> Users do not have permission to open files in DVDs burnt in a Mac
+> https://bugs.launchpad.net/ubuntu/+source/hal/+bug/72872
+> ***
+>
+> The media was burnt in a Mac (yours on a PVR) but in both cases the
+> permissions on the media are wrongly set and impedes the user to access
+> the files in a usual way.
+
+https://bugs.launchpad.net/ubuntu/+source/hal/+bug/72872/comments/24
+
+> Read comment #18 (it comes from a Debian user).
+>
+> Maybe it's worth to make a report in BTS.
+>
+
+There are enough bugs against the kernel already...
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDDAA77.6000402@cox.net
+
+

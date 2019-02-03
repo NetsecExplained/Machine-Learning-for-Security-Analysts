@@ -1,0 +1,100 @@
+Re: how to control tty to external monitor or local lcdFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Wed, Apr 7, 2010 at 11:55 AM, Stephen Powell wrote:
+
+> On Tue, 6 Apr 2010 18:53:46 -0400 (EDT), Alex Samad wrote:
+> >
+> > Okay a couple of things, I thing we are talking similiar and dissimiliar
+> > things.
+> >
+> >
+> > turn on laptop - not connected to ext monitor
+> > loads debian
+> > starts gdm
+> > login
+> > connect to external monitor
+> > use xrandr to move screen to ext monitor
+> > close lid on laptop
+> > use alt+ctrl+f1 to get to tty1
+> >
+> > the ext monitor stays on the X screen and the laptop monitors goes to
+> > the tty - but the lid is closed, I want to move the tty to the ext
+> > monitor
+> >
+> > hope that clears it up...
+>
+> How can you use Ctrl+Alt+F1 to switch to virtual terminal number 1 if the
+> lid is closed?  Are you using an external keyboard as well as an external
+> monitor?  You never mentioned that.
+>
+
+yep external keyboard - does that make a difference !
+
+
+>
+> I have an IBM ThinkPad 600.  Here's what I do:
+>
+> (1) While the laptop is powered off, I connect the external monitor.
+> I do not connect an external keyboard.
+>
+> (2) I power on the external monitor, then I power on the laptop.
+>
+> (3) As soon as possible during the boot process, usually after "LILO"
+> has been written to the screen but before the timeout occurs to
+> boot the default kernel (which for me is a four-second window),
+> I use Fn+F7 on the internal keyboard to switch to the external monitor.
+>
+
+I don;t need to do that, my laptop autoamically picks the external monitor
+if the lid is closed - on boot up
+
+
+>
+> (4) By the time the kernel boots, the display is on the external
+> monitor for the text-mode portion of the boot.
+>
+> (5) When gdm starts, the graphical console also displays on the
+> external monitor.
+>
+> (6) When I use Ctrl+Alt+F1 on the *internal* keyboard, without
+> closing the lid, the display switches to virtual terminal 1 on
+> the external monitor.
+>
+> (7) When I use Alt+F7 to switch back to the graphical console,
+> the display stays on the external monitor.
+>
+
+yep this doesn't work on mine, plus I want to do it from software. I would
+like a xrandr for the console if such a thing exists
+
+
+>
+> I don't have your hardware, but I would assume that some function
+> is provided on your laptop to do what Fn+F7 does on mine.
+>
+> When I do things this way, the X server picks a decent vertical
+> refresh rate (about 75 Hz) for my CRT-based external monitor.
+> I leave the lid open and use the internal keyboard for everything.
+> The internal display is black from the moment I press Fn+F7 the
+> one and only time.  I leave the lid open and I use the internal
+> keyboard for everything.  Everything, text mode virtual terminals
+> and the graphical X server, stays on the external monitor.
+>
+> HTH
+>
+> --
+>  .''`.     Stephen Powell    
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive:
+> http://lists.debian.org/875011336.1550981270605358122.JavaMail.root@md01.wow.synacor.com
+>
+>

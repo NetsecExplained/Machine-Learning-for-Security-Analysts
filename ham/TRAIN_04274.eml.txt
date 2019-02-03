@@ -1,0 +1,36 @@
+Re: automate updates in LennyFrom nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,10.Apr.10, 18:41:15, Clive McBarton wrote:
+> Andrei Popescu wrote:
+> >=20
+> > It doesn't matter. Mixing apt-get and aptitude is not a problem anymore.
+>=20
+> I believe that this is not complelely true. What is true is that, on the
+> command line, in interactive mode, you can use either and it will work
+> fine. But the options you can pass to aptitude and apt-get are not the sa=
+me.
+=20
+As I mentioned in a later mail. And the specific behaviour is also=20
+different. But there shouldn't be any problem in=20
+installing/upgrading/removing/packages with one or the other tool.
+
+> Back to the specific question of cron-apt, I tried it myself (replacing
+> "apt-get" with "aptitude" in its config) to notify me by email of
+> pending upgrades, and it was useless. I had to remove it. Had I left
+> apt-get in its config, it probably would have worked. I could probably
+> dig out or try to reproduce some of the error msgs I got, but far more
+> helpful for the list would be if someone who ever managed cron-apt with
+> aptitude (if such a person exists) would post here how they did it.
+
+Last time I experimented with cron-apt it did mention that aptitude is=20
+not really supported. But I don't see a problem in letting it use=20
+apt-get and doing your own package management with aptitude.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

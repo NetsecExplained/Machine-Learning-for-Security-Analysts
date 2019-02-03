@@ -1,0 +1,14 @@
+Keeping up with The Sims: Managing Large Scale Game Content
+    ProductionURL: http://www.newsisfree.com/click/-0,8613666,159/
+Date: 2002-10-06T18:12:54+01:00
+
+With project budgets in the multiple millions of dollars and virtually no 
+margin for error, more and more development teams are under tremendous pressure 
+to come out on top of the entertainment software market's cutthroat 
+competition. No team manager wants to contemplate dropping the ball when 
+creating the vivid graphics necessary to help make a game a success. Electronic 
+Arts' The Sims franchise is an excellent example of this pressurized situation. 
+This article highlights the critical issues that govern the high volume asset 
+production needed for today's most demanding games.
+
+

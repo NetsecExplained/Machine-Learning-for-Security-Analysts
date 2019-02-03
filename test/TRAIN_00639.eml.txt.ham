@@ -1,0 +1,28 @@
+Re: Correct way to (re)compile a kernel on Debian SidOn Thu, 8 Apr 2010 10:40:46 -0400 (EDT)
+Stephen Powell  wrote:
+
+...
+
+> It sounds to me like you want to get pristine kernel sources directly
+> from kernel.org and compile them and run them on a Debian system.
+> I've never done that, but others tell me that they do it.  Of course,
+> this is not supported by Debian.  But why don't you just install the
+
+I'm not sure that it's correct to say that using kernel-package to
+build and install vanilla kernel sources is "not supported by Debian".
+My understanding is that the package is supposed to work on any kernel
+tree, not just Debian's packaged ones.  Perhaps Manoj will comment?
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100408110101.a6211079.celejar@csmining.org
+
+

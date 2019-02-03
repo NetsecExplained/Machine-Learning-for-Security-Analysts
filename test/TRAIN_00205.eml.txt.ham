@@ -1,0 +1,15 @@
+Re: Java is for kiddies>>>>> "R" == Robert Harley  writes:
+
+    R> Depends who writes it.  One guy will write a bug every 5 lines,
+    R> another every 5000 lines.  Put them both on a project and that
+    R> will average out to a bug every 4.995 lines.  
+
+And a Java program, due to the extensive class libraries, will weigh
+in at 10% the number of lines of the equivalent C program.  QED.
+
+-- 
+Gary Lawrence Murphy  TeleDynamics Communications Inc
+ Business Advantage through Community Software : http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+

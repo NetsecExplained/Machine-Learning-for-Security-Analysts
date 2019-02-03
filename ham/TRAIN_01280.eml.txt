@@ -1,0 +1,18 @@
+Re: Where to find setup for env variable?From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Paul Chany:
+>=20
+> I have setup somewhere the JAVA_HOME environment variable, but don't
+> know where?
+
+~/.xsession?
+
+J.
+--=20
+When driving at night I find the headlights of oncoming vehicles very
+attractive.
+[Agree]   [Disagree]
+                 

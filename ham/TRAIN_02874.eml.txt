@@ -1,0 +1,133 @@
+ICMDecompressionSessionDecodeFrame() is not workingHi All,
+
+I am stuck in the quicktime API ICMDecompressionSessionDecodeFrame()
+for a while, and I could not find any other resources or any other
+sample code. Could any body help me out, and any suggestions
+appreciated.
+
+I want to import a movie file from local drive, get the compressed
+video frames, decode them, and encapsulate them into our own
+UncVideoUnit format.
+Right now we have already got the compressed video frames, but when we
+are trying to decode them, we have got some problem. Here is our
+source code, could any body tell me if there is something wrong in our
+code.
+
+
+			// initialize callback structure
+			ICMDecompressionTrackingCallbackRecord callRecord;
+			callRecord.decompressionTrackingCallback = WriteFrameToBitmap;
+			callRecord.decompressionTrackingRefCon = NULL;
+
+
+			// add attributes for pixel buffer that comes out
+			CFMutableDictionaryRef pixelBufferAttributes = NULL;
+			pixelBufferAttributes = CFDictionaryCreateMutable( NULL, 0,
+&kCFTypeDictionaryKeyCallBacks;, &kCFTypeDictionaryValueCallBacks; );
+
+			OSType format = k24RGBPixelFormat;
+			CFNumberRef pFormat = CFNumberCreate( NULL, kCFNumberSInt32Type, &format; );
+			CFDictionaryAddValue( pixelBufferAttributes,
+kCVPixelBufferPixelFormatTypeKey, pFormat );
+			CFRelease( pFormat );
+
+			int width = 1280;
+			CFNumberRef pWidth = CFNumberCreate( NULL, kCFNumberIntType, &width; );
+			CFDictionaryAddValue( pixelBufferAttributes,
+kCVPixelBufferWidthKey, pWidth );
+			CFRelease( pWidth );
+
+			int height = 720;
+			CFNumberRef pHeight = CFNumberCreate( NULL, kCFNumberIntType, &height; );
+			CFDictionaryAddValue( pixelBufferAttributes,
+kCVPixelBufferHeightKey, pHeight );
+			CFRelease( pHeight );
+
+			
+			//  set up decompression session
+			ICMDecompressionSessionRef decompressionSession;
+			ImageDescriptionHandle description =
+(ImageDescriptionHandle)NewHandleClear(sizeof(ImageDescription));
+			OSStatus nStatus = ICMDecompressionSessionCreate ( NULL,
+description, NULL, pixelBufferAttributes, &callRecord;,
+&decompressionSession;);
+			CFRelease( pixelBufferAttributes );
+
+
+			// get video frames from movie files and decode each frame
+			TimeValue64 startTime =
+GetMediaAdvanceDecodeTime(GetTrackMedia(track));						// for starting
+time of each frame
+			TimeValue64 DurationPerSample = 0;				// fro duration of each frame
+			int count = 0;
+			while(true)
+			{
+				ByteCount size = 0;
+				UInt8 *aData = new unsigned char[maxDataSize];
+				nErr = GetMediaSample2(videoMedia, aData, maxDataSize, &size;,
+startTime, nil, &DurationPerSample;, nil, nil, nil, 1, nil, nil);
+
+
+				OSStatus nStatus = ICMDecompressionSessionDecodeFrame(
+decompressionSession, (const UInt8*)aData, size, NULL, NULL, (void
+*)&count; );
+
+
+				count++;
+				startTime += DurationPerSample;
+
+				if(nErr != noErr)
+					break;
+
+				delete [] aData;
+			}
+
+
+
+Here is the definition for the callback funtion:
+
+
+static void WriteFrameToBitmap(
+			void *decompressionTrackingRefCon,
+			OSStatus result,
+			ICMDecompressionTrackingFlags decompressionTrackingFlags,
+			CVPixelBufferRef pixelBuffer,
+			TimeValue64 displayTime,
+			TimeValue64 displayDuration,
+			ICMValidTimeFlags validTimeFlags,
+			void *reserved,
+			void *sourceFrameRefCon )
+{
+	// when we get decoded frame, print it out to bitmap
+	if ( (result == noErr) && (decompressionTrackingFlags &
+kICMDecompressionTracking_EmittingFrame) && pixelBuffer )
+	{
+		char num[16];
+		sprintf_s(num, 16, "%d", *((int *)sourceFrameRefCon));
+		std::string strFilePath = std::string("Bitmap0") + std::string(num);
+
+		boost::shared_ptr pMyImage = StillImage::CreateInstance();
+		size_t size = CVPixelBufferGetDataSize(pixelBuffer);
+		BYTE *mem_buffer = (BYTE*)malloc(size * sizeof(BYTE));
+		strcpy((char*)mem_buffer, (char *)CVPixelBufferGetBaseAddress(pixelBuffer));
+		pMyImage->LoadImage(mem_buffer, size);
+		pMyImage->SaveImage(strFilePath.c_str(), BMP);
+	}
+
+
+}
+
+
+Thanks very much.
+
+Bo Peng
+Software Engineer
+Capella Systems, LLC
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

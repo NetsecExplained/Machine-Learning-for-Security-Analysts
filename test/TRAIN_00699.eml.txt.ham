@@ -1,0 +1,46 @@
+Re: [ILUG] slashdot EW Dijkstra humorGary Coady wrote:
+> Oops, I tend to feel like that most times! I tend to feel that if we
+> have extremely good compilation tools, then those tools should be able
+> to do the inlining and optimisation far better than I could. That's the
+> theory anyway :) And there's always a tradeoff with inlining between
+> speed and memory bloat (which may sometimes be no tradeoff if swap
+> starts getting involved...)
+
+
+This is something that often annoys me. Programmers can spend hours inlining
+code and relying on optimisation tools to improve performance. The best
+performance improvement can be obtained by fixing the algorithm.
+
+Most function calls get made very rarely. Optimising them often makes no
+sense, produces illegable code and nonsense algorithms.
+
+Inlining will help in functions that get called frequently and are small -
+such as string manipulation routines. But these are a small part of most
+applications.
+
+One example I frequently see is people optimising a database function call.
+Most database accesses involve many abstraction layers and millions of
+instruction cycles. Trying to save a few instruction cycles would be a cost
+saving of, say, 5 seconds in 20 hours.
+
+But a simple hashmap cache of common data without any compiler or inline
+optimisations can turn that same 20 hours into 10 minutes.
+
+
+
+- Matthew (who really should be writing code)
+
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

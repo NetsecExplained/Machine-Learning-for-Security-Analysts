@@ -1,0 +1,26 @@
+Re: Redirect stdout without clobbering?> The double > (>>) operator?
+>
+
+Yes!
+
+
+> I'd also recommend that you check out tee and tee -a.
+>
+
+Nice, that's not what I need here, but I do have use for it in a
+script that's been giving me trouble if it will output to a shell
+variable. Thanks!
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/k2g880dece01005060934s8502b5d3g623cace24898ab82@mail.csmining.org
+
+

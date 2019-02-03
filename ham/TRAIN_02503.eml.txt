@@ -1,0 +1,12 @@
+SwitcherURL: http://diveintomark.org/archives/2002/10/02.html#switcher
+Date: 2002-10-02T09:32:48-05:00
+
+_Phil Ringnalda_, in an unrelated discussion about RSS namespaces[1]: 
+“Looks like [yet another person] decided to switch to NetNewsWire Lite. 
+Does it come with crack, or what?”
+
+
+
+[1] http://groups.yahoo.com/group/RSS2-Support/message/110
+
+

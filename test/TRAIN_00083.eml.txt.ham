@@ -1,0 +1,33 @@
+[SAdev] [Bug 777] tests to find hand-written HTMLhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=777
+
+
+
+
+
+------- Additional Comments From daniel@roe.ch  2002-08-28 09:15 -------
+3. usage of  just like  (ie. without ) which is obsolete
+   (not sure whether some mailers still produce such broken html)
+4. tag argument values sometimes enclosed in "", sometimes not
+5. colour args without # in front of hex rgb code
+6. colour args with non-6-digit rgb code (typo)
+7. onMouseOver et al in nonconsistent case throughout the document
+
+Mind, those are just ideas. I'm pretty sure some or even most of them
+are not working in practice, but they might be worth checking out.
+
+
+
+
+------- You are receiving this mail because: -------
+You are on the CC list for the bug, or are watching someone who is.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

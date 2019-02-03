@@ -1,0 +1,28 @@
+Re: Anolther sequence related traceback    Date:        Tue, 27 Aug 2002 18:08:12 -0700
+    From:        Brent Welch 
+    Message-ID:  <200208280108.VAA30178@blackcomb.panasas.com>
+
+  | If we are allowed to assume 8.2 or higher, which we can't really, then
+  | we could add
+[...]
+  | to the SelectTypein procedure.
+
+Yes, I looked at "fixing" it there, but that code is really quite
+general, with almost no understanding of what anything means, so I
+didn't think that corrupting it with knowlwedge of the semantics of
+what it is fetching would really be the best thing to do.
+
+I ran out of time last night while looking for a better place for
+a similar check (I would have gone directly to the regexp - I'm not
+that up to date with all the latest tcl changes...) and I'm not sure
+I will have time today, but I will keep looking.
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

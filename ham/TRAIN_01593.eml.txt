@@ -1,0 +1,39 @@
+Re: tricky perl question - ascending orderJozsi Vadkan wrote:
+
+> or maybe in bash..
+> script/"one liner" e.g.: input: http://pastebin.com/raw.php?i=pMZPEsMZ
+> 
+> i want to make this output from it:
+> http://pastebin.com/raw.php?i=kH8VxT0A
+> 
+> 
+> So from the input, i want to make an ascendant order, how many things
+> are under a "SOMETHING-XX"
+> 
+> Does anyone has any "perl magic" in the pocket, how to do this? :D
+> 
+> Thank you very, very much..:\
+
+
+Assuming you can rely on the positions of the blank lines, this seems to 
+work. Should be easy to change if you want to rely on SOMETHING being at 
+the beginning.
+
+perl -e '$f=1; while(<>) { chomp; if ($_ eq "") { $f=1 } else { if ($f) 
+{ $x{$_}=[]; $k=$_; $f=0 } else { push @{$x{$k}}, $_ } } } for(sort keys 
+%x) { print $_, "\n", join("\n", @{$x{$_}}), "\n\n" }'
+
+There's probably a perl hacker or two who can do it neater, but as I 
+say, it seems to work ;)
+
+--
+Chris Jackson
+Shadowcat Systems Ltd.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF95E41.4020406@shadowcat.co.uk
+
+

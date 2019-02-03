@@ -1,0 +1,36 @@
+Re: libc6 upgrade lenny to squeeze failed, now dpkg is brokenOn 5/13/2010 1:51 AM, Sven Joachim wrote:
+> On 2010-05-12 23:24 +0200, Chris Austin wrote:
+>
+>> I've learned today that when there are circular conflicts while upgrading, e.g.
+>> libcairo2 has to be upgraded to install xulrunner-1.9.1, but upgrading
+>> libcairo2 breaks xulrunner-1.9, it helps to use the dpkg --auto-deconfigure
+>> option before the -i action-parameter, e.g.
+>>
+>> dpkg --auto-deconfigure -i libcairo2_1.8.10-4_i386.deb
+>>
+>> Then dpkg gives a nice message about considering deconfiguration of
+>> xulrunner-1.9, then decides to do it, and it works, or at least, it has done,
+>> the two or three times I have tried it today.
+>
+> This is indeed a nice trick to know, but apt would do this for you
+> automatically.
+
+
+Not always.  Apt depends on the dependency graph being consistent, other 
+than perhaps containing a cycle or two.  If the Debian maintainers slip 
+up and screw up the dependencies (or the user is switching back and 
+forth between distributions, say among stable, testing, and unstable), 
+apt can get confused.  It has happened to me several times.  In such 
+cases, using aptitude sometimes helps.  I have also resorted to 
+installing by hand, though this may not have been strictly necessary.
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BED2A89.4000902@allums.com
+
+

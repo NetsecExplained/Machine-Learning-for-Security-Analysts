@@ -1,0 +1,17 @@
+RE: [ILUG] Mirror a websiteThanks for the tips. The closest I've gotten to getting it working is
+Justins script except I can seem to prevent it from following links
+offsite.
+
+Typical, something that should only take a minute...
+
+Thanks for you help.
+
+ct
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

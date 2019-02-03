@@ -1,0 +1,26 @@
+Re: Fwd: Re: Kde 3.5 ...From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+On Mon, May 10, 2010 at 05:57:00AM -0700, Mike Bird wrote:
+> Nor are KDE 3.5 users saying that KDE 4 should not be
+> packaged.  The problem is KDE 4 true believers who are
+> trying to prevent people from using KDE 3.5.
+
+Actually, the problem is that nobody cares enough about KDE 3.5 to
+actually do anything about it.  Yes, fine, there's trinity, but as far
+as anybody can tell, that's just one guy.  I'm sure you could find one
+guy somewhere out there still hacking on Linux 2.2 or something equally
+dead.  Doesn't make it any less dead.
+
+YES, you can have KDE 3.5!  You can even have it as an official part of
+Debian!  Nobody will stop you!  However,  you will need to do some work.
+You will need to make sure that there is sufficient upstream developer
+committment to keep it usable and current, and you will need to make
+sure there is a sufficiently motivated packaging team to keep up with
+upstream work, triage bugs, and cooridinate package updates with
+upstream, the the release teams, the security team, etc etc.  Can you do
+that?
+
+noah
+

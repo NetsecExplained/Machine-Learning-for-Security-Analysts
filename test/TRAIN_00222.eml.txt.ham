@@ -1,0 +1,130 @@
+Re: Questions about RAID 6Disclaimer:  I'm partial to XFS
+
+Tim Clewlow put forth on 5/1/2010 2:44 AM:
+
+> My reticence to use ext4 / xfs has been due to long cache before
+> write times being claimed as dangerous in the event of kernel lockup
+> / power outage. 
+
+This is a problem with the Linux buffer cache implementation, not any one
+filesystem.  The problem isn't the code itself, but the fact it is a trade
+off between performance and data integrity.  No journaling filesystem will
+prevent the loss of data in the Linux buffer cache when the machine crashes.
+ What they will do is zero out or delete any files that were not fully
+written before the crash in order to keep the FS in a consistent state.  You
+will always lose data that's in flight, but your FS won't get corrupted due
+to the journal replay after reboot.  If you are seriously concerned about
+loss of write data that is in the buffer cache when the system crashes, you
+should mount your filesystems with "-o sync" in the fstab options so all
+writes get flushed to disk without being queued in the buffer cache.
+
+> There are also reports (albeit perhaps somewhat
+> dated) that ext4/xfs still have a few small but important bugs to be
+> ironed out - I'd be very happy to hear if people have experience
+> demonstrating this is no longer true. My preference would be ext4
+> instead of xfs as I believe (just my opinion) this is most likely to
+> become the successor to ext3 in the future.
+
+I can't speak well to EXT4, but XFS has been fully production quality for
+many years, since 1993 on Irix when it was introduced, and since ~2001 on
+Linux.  There was a bug identified that resulted in fs inconsistency after a
+crash which was fixed in 2007.  All bug fix work since has dealt with minor
+issues unrelated to data integrity.  Most of the code fix work for quite
+some time now has been cleanup work, optimizations, and writing better
+documentation.  Reading the posts to the XFS mailing list is very
+informative as to the quality and performance of the code.  XFS has some
+really sharp devs.  Most are current or former SGI engineers.
+
+> I have been wanting to know if ext3 can handle >16TB fs.  I now know
+> that delayed allocation / writes can be turned off in ext4 (among
+> other tuning options I'm looking at), and with ext4, fs sizes are no
+> longer a question. So I'm really hoping that ext4 is the way I can
+> go.
+
+XFS has even more tuning options than EXT4--pretty much every FS for that
+matter.  With XFS on a 32 bit kernel the max FS and file size is 16TB.  On a
+64 bit kernel it is 9 exabytes each.  XFS is a better solution than EXT4 at
+this point.  Ted T'so admits last week that one function call in EXT4 is in
+terrible shape and will a lot of work to fix:
+
+"On my todo list is to fix ext4 to not call write_cache_pages() at all.
+We are seriously abusing that function ATM, since we're not actually
+writing the pages when we call write_cache_pages().  I won't go into
+what we're doing, because it's too embarassing, but suffice it to say
+that we end up calling pagevec_lookup() or pagevec_lookup_tag()
+*four*, count them *four* times while trying to do writeback.
+
+I have a simple patch that gives ext4 our own copy of
+write_cache_pages(), and then simplifies it a lot, and fixes a bunch
+of problems, but then I discarded it in favor of fundamentally redoing
+how we do writeback at all, but it's going to take a while to get
+things completely right.  But I am working to try to fix this."
+
+> I'm also hoping that a cpu/motherboard with suitable grunt and fsb
+> bandwidth could reduce performance problems with software raid6. If
+> I'm seriously mistaken then I'd love to know beforehand. My
+> reticence to use hw raid is that it seems like adding one more point
+> of possible failure, but I could be easily be paranoid in dismissing
+> it for that reason.
+
+Good hardware RAID cards are really nice and give you some features you
+can't really get with md raid such as true "just yank the drive tray out"
+hot swap capability.  I've not tried it, but I've read that md raid doesn't
+like it when you just yank an active drive.  Fault LED drive, audible
+warnings, are also nice with HW RAID solutions.  The other main advantage is
+performance.  Decent HW RAID is almost always faster than md raid, sometimes
+by a factor of 5 or more depending on the disk count and RAID level.
+Typically good HW RAID really trounces md raid performance at levels such as
+5, 6, 50, 60, basically anything requiring parity calculations.
+
+Sounds like you're more of a casual user who needs lots of protected disk
+space but not necessarily absolute blazing speed.  Linux RAID should be fine.
+
+Take a closer look at XFS before making your decision on a FS for this
+array.  It's got a whole lot to like, and it has features to exactly tune
+XFS to your mdadm RAID setup.  In fact it's usually automatically done for
+you as mkfs.xfs queries the block device device driver for stride and width
+info, then matches it.  (~$ man 8 mkfs.xfs)
+
+http://oss.sgi.com/projects/xfs/
+http://www.xfs.org/index.php/XFS_FAQ
+http://www.debian-administration.org/articles/388
+http://www.jejik.com/articles/2008/04/benchmarking_linux_filesystems_on_software_raid_1/
+http://www.osnews.com/story/69
+(note the date, and note the praise Hans Reiser lavishes upon XFS)
+http://everything2.com/index.pl?node_id=1479435
+http://erikugel.wordpress.com/2010/04/11/setting-up-linux-with-raid-faster-slackware-with-mdadm-and-xfs/
+http://btrfs.boxacle.net/repository/raid/2010-04-14_2004/2.6.34-rc3/2.6.34-rc3.html
+(2.6.34-rc3 benchmarks, all filesystems in tree)
+
+XFS Users:
+
+ The Linux Kernel Archives
+
+"A bit more than a year ago (as of October 2008) kernel.org, in an ever
+increasing need to squeeze more performance out of it's machines, made the
+leap of migrating the primary mirror machines (mirrors.kernel.org) to XFS.
+We site a number of reasons including fscking 5.5T of disk is long and
+painful, we were hitting various cache issues, and we were seeking better
+performance out of our file system."
+
+"After initial tests looked positive we made the jump, and have been quite
+happy with the results. With an instant increase in performance and
+throughput, as well as the worst xfs_check we've ever seen taking 10
+minutes, we were quite happy. Subsequently we've moved all primary mirroring
+file-systems to XFS, including www.kernel.org , and mirrors.kernel.org. With
+an average constant movement of about 400mbps around the world, and with
+peaks into the 3.1gbps range serving thousands of users simultaneously it's
+been a file system that has taken the brunt we can throw at it and held up
+spectacularly."
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDD5B56.8060705@hardwarefreak.com
+
+

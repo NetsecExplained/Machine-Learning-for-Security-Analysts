@@ -1,0 +1,39 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a 
+	different version name)> What I don't understand is why Ubuntu users *post* here, when they
+> actually run Ubuntu.
+
+I run Ubuntu and regularly read the Debian list, so maybe I can answer.
+
+If I need to know where is the menus Firefox is, or how to change my
+wallpaper, the Ubuntu list is fine. But nobody there understands
+_anything_ about the OS. That is fine, the target audience of Ubuntu
+is not technical users. The barrier to entry is very low. My
+74-year-old mother in law uses Kubuntu.
+
+So if the Debian support is so great, why do I run Ubuntu and not
+Debian? Several reasons. One, the low barrier to entry means that I
+can get a system up and running in no time flat. Twice a year, 20
+minutes and I've got the latest and greatest software versions. Debian
+still needs tweaking for my problematic video card, and some other
+really small details. But the biggest reason that I run Ubuntu is to
+promote it. I have done tens of installs for friends, neighbours, and
+family. I need to be familiar with what they are running. Debian just
+needs a bit too much work, a bit too much handholding, and a bit too
+much explaining things.
+
+So while my heart is with Debian, I run the best Debian derivative out there.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/q2g880dece01004081837w316faaebs535b0ae430a03a5b@mail.csmining.org
+
+

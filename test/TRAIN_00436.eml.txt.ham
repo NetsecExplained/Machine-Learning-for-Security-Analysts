@@ -1,0 +1,42 @@
+Re: Broken signature for DSA-2040-1From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, 3 May 2010 00:47:25 +0200 Sebastien Delafond wrote:
+
+> On May/02, Francesco Poli wrote:
+> > Could it be a Sylpheed bug?
+>=20
+> We've narrowed it down to an encoding issue: the original DSA email was
+> sent as ISO-8859-1, and mutt was able to verify it just fine; however,
+> on a system using UTF-8, any kind of pasting of the original text will
+> produce a file that gpg does not verify:
+
+The fact is that I didn't perform any pasting: even running "gpg
+--verify" directly on the message file fails (Sylpheed stores e-mail
+messages in MH format, hence each message is on a separate file).
+
+I received the message encoded as quoted-printable: maybe something in
+the middle performed some re-encoding, that broke the signature?
+
+However, that does not explain why Mutt is able to correctly verify
+the signature...
+Damn Mutt, always one step beyond!  ;-)
+
+> that'll teach me to include the
+> "=C3=A9" in my firstname instead of a plain "e" ;)
+
+Wouldn't we be better off using PGP/MIME signed messages (RFC 2015)
+in order to avoid encoding issues?
+As far as I've heard, clear-signed e-mail messages are deprecated precisely
+because of this kind of signature breakages, due to possible re-encoding.
+
+Any thoughts?
+
+
+--=20
+ http://www.inventati.org/frx/progs/scripts/pdebuild-hooks.html
+ Need some pdebuild hook scripts?
+..................................................... Francesco Poli .
+ GnuPG key fpr =3D=3D C979 F34B 27CE 5CD8 DC12  31B5 78F4 279B DD6D FCF4

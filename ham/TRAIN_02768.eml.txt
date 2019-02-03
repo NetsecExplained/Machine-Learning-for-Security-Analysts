@@ -1,0 +1,25 @@
+Re: An Engineer's View of Venture CapitalistsOn 19 Jul 2002, Karl Anderson wrote:
+
+> "Adam L. Beberg"  writes:
+>
+> > Possibly replace "own" with "take from you ASAP with dilution". Their goal
+> > is to take what you have by any means nessecary and sell it to someone else
+> > for more then they paid within 7 years or less. That's what they do, nice
+> > and simple. Your based-on-GPL-thing gives them no way to do that, so you are
+> > irrelivant to the VC/investment world.
+>
+> Interestingly, it was the VC that convinced Zope Corp. to go opensource.
+
+But wasnt that before they realized that Open Source(TM) ment they couldnt
+control it? There was a time when VC love was all over Open Source(TM) as a
+revenue model.
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+
+
+http://xent.com/mailman/listinfo/fork
+
+

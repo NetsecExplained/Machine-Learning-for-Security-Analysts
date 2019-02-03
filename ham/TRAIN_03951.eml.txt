@@ -1,0 +1,37 @@
+Re: [ILUG] expanding a string multiple timesNiall O Broin wrote:
+> On Mon, Aug 19, 2002 at 10:27:57AM +0100, Padraig Brady wrote:
+> 
+> 
+>>>Well, here's a solution using seq and sed - IMHO its a rather dim solution
+>>>and it definitely dies if STRING contains / (and probably has other ways to
+>>>die too) and a bash loop would certainly be faster, but you know how to do
+>>>it with loops :-)
+>>>
+>>>PREFIX=seq -s "" $NUMBER|sed "s/./$STRING/g"OA
+>>
+>>clever. A bit more robust is:
+>>#first param is number of
+>>#times to repeat second param
+>>#
+>>#e.g. quote=`repeat 3 '> '`
+>>repeat() {
+>>    seq -s , $1 | sed "s¬[0-9]\{1,\}[,]*¬$2¬g"
+>>}
+> 
+> But it's such a crap colution anyway, why would you want to make it more
+> robust ?
+> 
+
+Give yourself credit :-) it's a nice solution,
+with just 2 lightweight processes. The same thing
+coded in shell loops wouldn't be nearly as elegant
+and not as scalable to boot.
+
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

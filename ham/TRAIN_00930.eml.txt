@@ -1,0 +1,121 @@
+Lindows.com: Michael's Minute: Do the Math...Dispel the MythsFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+If this message is not displaying properly, click here
+ to launch it in your browser.
+
+ 
+
+Michael's Minute: Do the Math...Dispel the Myths 
+
+A reporter came by the Lindows.com   offices
+last Friday. He told me that he wanted to try and use
+ LindowsOS to
+write a story, but he didn't think it was possible because his office
+used Microsoft Word .doc files. I asked him to have a seat and watch.  
+
+I turned on the Walmart.com  computer
+and then clicked on the running man  
+which took me to the Click-N-Run Warehouse
+  where I installed OpenOffice
+  using Click-N-Run. I then clicked
+the "Run It"  button which opened the word processor OpenOffice Writer.
+I then typed "Linux is ready for the desktop and consumers can save
+hundreds using LindowsOS." I selected "Save as Microsoft Word."
+
+The reporter was not only surprised, he was amazed. Like many reporters,
+he was under the impression that Linux was only for servers. The simple
+word processor demonstration went a long way to show him otherwise. For
+Linux to become a driving force in desktop computing it will have to
+overcome a couple of myths. 
+
+The first myth is that Linux is too hard to install and configure. That
+may have been true in the past, but we've annihilated this myth with the
+latest version of LindowsOS --which installs on most machines in under 5
+minutes. It's point- and-shoot easy - easier than any other operating
+system (Microsoft products included). See for yourself at  .  
+
+The other myth is that Linux is just for the server and none of the
+graphical programs --which desktop users have come to rely on-- exist.
+Not only have many of the Linux software programs made quantum leaps
+over the last couple of years, but they've gotten quite good at reading
+and writing Microsoft formats. The easiest way to experience these
+products is via the Click-N-Run  
+Warehouse.
+
+ Here's a quick list of some of the quality programs available today in
+the Warehouse  all downloaded and
+installed with a single click:
+
+OpenOffice - This one installation will equip a computer with an
+impressive collection of productivity programs each of which will open
+the corresponding Microsoft file format and allow you to edit files and
+swap them with Microsoft counterparts. 
+Programs included are:
+
+OpenOffice Writer - Word processor (reads Microsoft Word docs) 
+OpenOffice Calc - Spreadsheet (reads Microsoft Excel) 
+OpenOffice Impress- Presentation package (reads Microsoft PowerPoint)
+OpenOffice Draw - A vector based drawing program
+
+Click here   for a great
+tutorial on getting to know OpenOffice.
+
+GIMP  If you are familiar with Adobe's Photoshop,
+you'll want to Click-N-Run GIMP. It's a powerful image editor. 
+ 
+
+Evolution  For those used to Microsoft's
+Outlook email program Evolution will make them feel right at home. Check
+out how easy it is to use  .
+
+Flowchart Pro, which is similar to Microsoft's Visio, is a  rich
+charting program that makes it possible to create flow charts and
+organizational charts, plus more. See how easy it for yourself, visit
+Flowchart Pro at 
+
+This is just a handful of the quality programs available in the
+Warehouse  that make Linux a practical choice
+for the desktop today. And if you're still not convinced, then do the
+math.
+
+ 
+For  a total cost of $499  , including
+all  software, computer users save  more than $800  for a complete
+system. 
+
+With such major price differentials between the two similarly equipped
+systems, any business, school or home will find their computing dollars
+stretched much further running LindowsOS. 
+
+Michael Robertson
+
+Please visit   to
+answers questions you may have about LindowsOS or Lindows.com.
+
+Bringing Choice to Your Computer! 
+
+LindowsOS is presently available on LindowsOS Certified Computers being
+offered from Lindows.com   Builder
+partners.  The General Release of LindowsOS (available now for download
+and preview to Lindows.com   Insider
+partners) will be made available later this year for those wishing to
+install and run LindowsOS on their existing computer hardware.  The
+General Release version will support a wider range of computer hardware
+and includes unique features such as a "Friendly-Install" alongside an
+existing MicrosoftR Windows operating system, a streamlined installation
+process which requires no computer knowledge, and the ability to run a
+select set of "bridge" Windows-compatible programs. For more information
+see  
+
+LindowsOS and Lindows.com are trademarks of Lindows.com, Inc. LinuxR is
+a registered trademark of Linus Torvalds. MicrosoftR WindowsR operating
+system is a registered trademark or service mark of the Microsoft
+Corporation.
+
+mm19
+
+___________________________________________________________
+To change your mailing list options please go to 

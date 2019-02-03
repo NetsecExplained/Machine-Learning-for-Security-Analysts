@@ -1,0 +1,16 @@
+dumb question: X client behind a firewall?Let's say you're behind a firewall and have a NAT address.
+Is there any way to telnet to a linux box out there in the world
+and set your DISPLAY in some way that you can create
+xterms on your own screen?
+
+- Joe
+
+-- 
+That girl became the spring wind
+She flew somewhere, far away
+Undoing her hair, lying down, in her sleep
+She becomes the wind.
+
+
+
+

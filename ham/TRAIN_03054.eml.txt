@@ -1,0 +1,36 @@
+Ringing bell on other computer
+Hi,
+
+succeeded in ringing a bell anytime I get a mail
+to my inbox (Not Mailing lists, spams etc.) by
+using procmail to execute a "play clink.wav" on
+the "right" mails.
+Now my demands are growing ;-)
+I use my laptop remotely very often and now I would
+like the bell to sound on that when I am there.
+I triedto use the KDE remote sound server and it works in
+the tests, but when procmail runs it it doesn't, presumably
+as it doesn't have the authorization to communicate with
+the laptop, beeing another user?
+
+Any hints.
+
+BRGDS
+
+
+-- 
+Dag Nygren                               email: dag@newtech.fi
+Oy Espoon NewTech Ab                     phone: +358 9 8024910
+Träsktorpet 3                              fax: +358 9 8024916
+02360 ESBO                              Mobile: +358 400 426312
+FINLAND
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

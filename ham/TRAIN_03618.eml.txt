@@ -1,0 +1,19 @@
+KWebkitPart dependencyFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Heyho!
+
+Short note to the KDE packagers since kdenetwork now depends on=20
+libkwebkitpart-dev: don't hesitate to NMU (even with zero delay) if it help=
+s=20
+to get KDE into squeeze faster.  (In any case, and if no bug reports come=20
+in, I'll just wait with the next upload until kwebkitpart is in testing.)
+
+cheers
+=2D- vbi
+
+
+=2D-=20
+No wonder you're tired!  You understood so much today.

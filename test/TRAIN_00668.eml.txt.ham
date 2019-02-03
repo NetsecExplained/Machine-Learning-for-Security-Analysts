@@ -1,0 +1,71 @@
+Re: Another bug
+Chris said:
+> 
+> I can tell you what the 'clear' and 'del' arguments mean:
+> 
+> Mh_SequenceUpdate lists/l-k clear cur {} public
+> 	This means to clear the 'cur' sequence for lists/l-k
+> 
+> Mh_SequenceUpdate lists/l-k del unseen 5400 public
+> 	This means to delete message 5400 from the 'unseen' sequence for lists/l-k
+> 
+> Can you explain more what you were actually doing as this occurred?  This 
+> doesn't appear to be background processing.  Is there significance to message 
+> 5400?  Is it the one that isn't displaying?
+> 
+> Chris
+
+After sending the report I started fiddling with the Ftoc_RescanLine 
+stuff and I havn't seen it since. I can't really tell if it was my 
+hacking that removed it, or if it was some transitional magic 
+happening since this was the first invocation of that version of 
+exmh. I've backed out my stuff now, and'll let you know if it happens 
+again.
+
+
+On another thing with the Ftoc_RescanLine stuff. This routine is 
+called at times still unclar to me. An inspection of the routine 
+suggests that it is used in the transition of a message to/form 
+"current" state to re-paint the ftoc line. However, checking the 
+msg.tcl code (MSgChange) we find:
+
+    if {$msgid != {}} {
+        # Allow null msgid from Msg_ShowWhat, which supplies line 
+instead
+        if {$msgid < 0}  return
+    } else {
+        # line null too, try using first in folder
+        if {[string length $line] == 0} { set line 1 }
+        set msgid [Ftoc_MsgNumber [Ftoc_FindMsg $msgid $line]]
+    }
+    Ftoc_ClearCurrent
+    Mh_SetCur $exmh(folder) $msgid
+    Ftoc_ShowSequences $exmh(folder)
+
+The Ftoc_ClearCurrent calls Ftoc_RescanLIne to clear the '+' sign 
+_before_ the on-disk transition is made. I hacked this stuff and more 
+or less changed the order. It works, but fails on some folder changes.
+
+My feeling of this is that we really do not want to have a 
+Ftoc_ClearCurrent, but rather just a RescanLine and the caller had 
+better know the line or msgid. That routine shoud just put in the '+' 
+if the line/msg in question happened to be the cur msg. Thoughts?
+
+
+/Anders
+
+
+
+
+
+
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

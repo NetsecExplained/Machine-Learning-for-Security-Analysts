@@ -1,0 +1,59 @@
+Re: lilo removal in squeeze (or, "please test grub2")Stephen Powell  writes:
+
+> On Mon, 24 May 2010 13:38:55 -0400 (EDT), Ferenc Wagner wrote:
+>> Stephen Powell  writes:
+>>> On Mon, 24 May 2010 05:29:56 -0400 (EDT), Ferenc Wagner wrote:
+>>>> Stephen Powell  writes:
+>>>>> Both grub-legacy and grub-pc use sectors on the hard disk outside of
+>>>>> the master boot record [...]
+>>>>
+>>>> You may want to try extlinux, it works much like LILO in this respect.
+>>>
+>>> Thanks for the tip.  That may be an option.  I looked at the documentation
+>>> online, and there does not appear to be an option equivalent to lilo's
+>>> vga option, though, which I use a lot, especially since svgatextmode
+>>> has already been pulled from squeeze.
+>> 
+>> I'm not sure what you're after, I haven't used LILO for ages.  But
+>> typing vmlinuz-2.6.32 vga=0xf07 at the pxelinux boot prompt gives me a
+>> 80x60 console.  The other variants use the same code.
+>
+> Interesting.  At one point, the kernel itself had de-supported the
+> vga boot option, relying on the boot loader to set the video mode
+> before transferring control to the kernel.  And now you're saying
+> it's back.  Hmm.  According to Documentation/svga.txt in the kernel
+> source tree:
+>
+>    This small document describes the "Video Mode Selection" feature which
+>    allows the use of various special video modes supported by the video BIOS.
+>    Due to usage of the BIOS, the selection is limited to boot time (before
+>    the kernel decompression starts) and works only on 80X86 machines.
+>
+> Note the wording "before the kernel decompression starts".  That to me
+> implies "done by the bootloader", because the bootloader decompresses
+> the kernel (if it is compressed) before transferring control to it,
+> does it not?
+
+It does not, the kernel is sort of a self-decompressing binary.
+However, the vga= parameter is indeed parsed by the bootloader and
+passed to the kernel by a special protocol.  It's then used before the
+kernel parses its command line.
+
+> I'm going to have to try installing Squeeze using extlinux as the boot
+> loader.  (No doubt I'll have to change bootloaders after installation,
+> as the Debian Installer won't offer that option.)
+
+Yes, you'll have to back out of Grub installation, start a shell, chroot
+into /target, and install exlinux.  Take care to have /boot on an ext2
+partition.
+-- 
+Good luck!
+Feri.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87iq6dytpl.fsf@tac.ki.iif.hu
+
+

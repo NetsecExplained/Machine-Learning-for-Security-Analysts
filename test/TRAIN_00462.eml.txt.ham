@@ -1,0 +1,76 @@
+Re: [ILUG] PCTel modulesOn 0020 -0700 %{!Thu, Sep 05, 2002 at  3:17:36PM -0700}, eric nichols wrote:
+> Hello again. I tried all the suggestions for the PCTel driver and at
+> the end of it, everything still goes smoothly until I type "make"
+> after I get the output from the ./configure. 
+> 
+> However, there were a couple of things I noticed along the way. After typing 
+> * cp configs/kernel-2.4...config .config
+> * make oldconfig
+> * make dep
+> The 2nd to last line I got back said that the modversions.h file was
+> not updated. When I looked at this path to the modversions.h file, it
+> was 281 lines and every line started with a # mark.
+> Is it the case
+> that nothing is read on a line after a # mark (or am I just thinking
+> of another language?) and so should I delete the # at certain places?
+No that is appropriate content for the file.  I'm not a C programmer,
+but I think that these sort of things (#include ) are
+instructions to the compiler processed by a pre-processor in the compile
+process, and include all sorts of symbols/functions
+e.g. "#include " gives you maths type functions.  Since they
+start with "#" they are ignored in the final compilation.
+
+Regarding the rest of the compile process, you need to tell the PCtel
+software to look in the right place for the kernel headers/source. 
+I recall from your previous mail that there was a flag
+    --with-kernel-includes=/usr/src/linux-2.4
+which could be passed to the ./configure script (with the appropriate
+directory in place of /usr/src/linux-2.4).  This might allow you to
+persuade the code to compile against the correct headers.  I think this
+is the right way to proceed.
+
+Alternatively, maybe the steps above regarding "make dep" and so forth
+should have been performed in the directory where the make process is
+looking for modversions.h & Co.
+
+I don't think it is a good idea keep moving files into the directory as
+you describe below.  First of all you will move modversions.h (which you
+have done), then you would have to move all those *.ver files, after
+that, there will almost certainly be a need for further header (*.h)
+files.  This could be quickly done, but is probably bad (those files
+don't really belong there).
+
+For what it's worth I think you are very close to a successful
+compilation.
+
+m
+
+> 
+> Also, when I was in the pctel directory and typed "make", I noticed
+> that a different subdirectory is taken to a different modversions.h
+> file. Inside this other file, there's nothing at all. And so I moved
+> the modversions.h file with 281 lines to the empty modversions.h file
+> - and got a different reply after "make". The output after I moved the
+> file over mostly looked like this:
+> /usr/src/linux-2.4.18-3/linux/modversions.h:11:33:
+> linux/modules/adb.ver: No such file or directory
+> /usr/src/linux-2.4.18-3/linux/modversions.h:12:37:
+> linux/modules/af_ax25.ver: No such file or directory
+> /usr/src/linux-2.4.18-3/linux/modversions.h:13:36:
+> linux/modules/af_ipx.ver: No such file or directory
+> 
+> The odd lines being the path and the first half of the other lines are
+> what's written after the # in the modversions.h file. Should there be
+> a file at each of these (one at each of the 281 lines of the file)
+> that I'd have to compile/make?
+
+-- 
+Michael Conry   Ph.:+353-1-7161987, Web: http://www.acronymchile.com
+Key fingerprint = 5508 B563 6791 5C84 A947  CB01 997B 3598 09DE 502C
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,12 @@
+Nessus?Any plans for rolling Nessus RPMs for RH8?  Miss it already...
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

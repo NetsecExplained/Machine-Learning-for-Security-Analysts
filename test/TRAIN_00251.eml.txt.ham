@@ -1,0 +1,30 @@
+Re: Increasing number of conflictsB. Alexander wrote:
+> I've got an issue with a sid box that I have been maintaining for a 
+> while. This is my workstation, and I have noticed a growing number of 
+> broken packages, unmet dependencies and conflicts. I have been using 
+> safe-upgrade for months now, hoping that it would work itself out over 
+> time. However, this hasn't happened. So what can I do to fix the 
+> problems without losing functionality? Below is the result of aptitude 
+> full-upgrade (forgive the cut-and-paste):
+>SNIP< 
+> Thanks,
+
+
+I'm using KDE and it's fully up-to-date with no broken packages, your 
+problem seems to be that you are holding obsolete/orphan packages, you 
+may want to use Synaptic to look at your system and do some 
+investigating as to why dependence are not being met.
+-- 
+Jimmy Johnson
+
+Bakersfield, CA. U.S.A.
+Registered Linux User #380263
+K.I.S.S. (Keep it simple stupid)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD4E4F.3040506@csmining.org
+
+

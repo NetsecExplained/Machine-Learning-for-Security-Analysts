@@ -1,0 +1,24 @@
+[ILUG] NFS slowness with SuSE 8.1NFS as a protocol is not known for its speediness but this is absurd. I did an 
+NFS install of a box this morning (that would be the box which won't boot 
+from CD for those who were in IRC) and it was rather slow but I just left it 
+to it. Having got it up, I want to copy the DVD to a disk on it so I have it 
+handy for installing any further bits I might require. So I simply mounted 
+the NFS exported DVD on the new box and started copying. 
+
+After a couple of minutes I looked - it was transferring about 8MB a MINUTE. 
+So I killed that and used rsync instead which is ticking away now at about 
+100 MB/min - still not exactly turbo charged but a lot better than the NFS 
+rate. Any ideas as to what's making it SO slow ? There's really no point in 
+running more nfsd processes, as there is exactly one client, so I'm a little 
+at a loss I must say.
+
+
+
+Niall
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

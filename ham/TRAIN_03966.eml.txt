@@ -1,0 +1,22 @@
+Two New AmphetaDesk HacksURL: 4538e94b3b2c6b19041756b37b1f9916
+Date: Not supplied
+
+Since the AmphetaDesk source code is so easily modifiable on any platform, I've 
+been seeing some interesting hacks and modifications lately. The most powerful 
+of them is l.m. orchard's newest template[1], which provides an insane amount 
+of new features, including hiding old items, click counting, and an outline 
+based format. More than likely, a revised version of his hack will appear as a 
+selectable template in the next version (AmphetaDesk v0.94). 
+
+Also of interest is Brian Cantoni's FTPStore[2]: _"FTPstore is a slight 
+addition to the AmphetaDesk news aggregator. The modified code will retrieve 
+the personal channel list from an FTP location during startup and store it back 
+to the same location during shutdown. This provides a simple method to keep 
+your saved channels in a network location. If you use AmphetaDesk at home and 
+at work, for example, this feature will let you keep your list of channels in 
+sync."_ It's a major improvement for AmphetaDesk users with multiple machines.
+
+[1] http://www.decafbad.com/news_archives/000228.phtml
+[2] http://www.cantoni.org/software/amphetadesk.html
+
+

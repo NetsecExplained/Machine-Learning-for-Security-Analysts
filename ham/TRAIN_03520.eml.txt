@@ -1,0 +1,4 @@
+NoneProblem with spamtrap
+/home/yyyy/lib/spamtrap.sh: /home/yyyy/ftp/spamassassin/spamassassin: No such file or directory
+
+

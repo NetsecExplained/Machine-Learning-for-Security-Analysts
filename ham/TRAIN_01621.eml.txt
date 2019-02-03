@@ -1,0 +1,42 @@
+Re: [ILUG] adsl router modem comboOn Sun, Oct 06, 2002 at 11:10:05PM +0100, Declan de Lacy Murphy wrote:
+> I am planning to get i-stream solo and share it across a small network
+> (wireless), but I don't want to have to pay eircom for a router and having a
+> noisy pc running constantly isn't really an option because at home
+> inevitably someone will unplug it.
+> 
+> I have been looking at a number of products and although I read the thread
+> about eircom needing pppoe last august I am still not sure if the one that I
+> am interested in will do the job. It is a hawking technology ar 710
+>  http://www.hawkingtech.com/products/ar710.htm ) and if it does the job it
+> will actually be cheaper than the modem eircom is selling.
+> 
+> I would really appreciate if someone could look at the spec on the hawking
+> web page and give me an opinion.
+> 
+> Thanks in advance
+> 
+> Declan
+> 
+
+I got the DSL-W 906E from http://www.dsl-warehouse.co.uk.
+
+Though it's not at all the best one around I have to say it does the job
+and a bit. Some of the features can be a pain to get working (ie. pptp in
+pppoe mode - can't figure it out). The documentation is not the best, but
+the guys from http://www.dsl-warehouse.co.uk will help you ouit. They
+also have a message board.
+
+The command line interface is quite powerful, but absolutely not
+userfriendly.
+
+All in all it's a cheap desent performer, that I am happy enough with.
+Got this one including a microfilter (not needed) for 140euro including
+shipping. Better than any deal from Eircom.
+
+-Tor
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

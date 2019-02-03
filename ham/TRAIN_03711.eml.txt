@@ -1,0 +1,19 @@
+EOL of KDE SC 4.4.2 in qt-kde.debian.netFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+KDE SC 4.4.2 packages in qt-kde.debian.net have been superseded by packages=
+=20
+uploaded to official Debian experimental archive and therefore they were=20
+removed from the semi-official repository. As it was written on the=20
+introductory page of qt-kde.debian.net, the repository itself will remain t=
+o=20
+exist and might get some random extremely bleeding edge updates from time t=
+o=20
+time. Feel free to keep it in your /etc/apt/sources.list.
+
+=2D-=20
+Modestas Vainius 

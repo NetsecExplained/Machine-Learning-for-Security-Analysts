@@ -1,0 +1,29 @@
+Detecting a closed SSL connectionI've written my Apple Push Notification client code in Java (on my =
+server). I open an SSL socket to Apple with a client-side cert, and push =
+a stream of bytes.
+
+If part of that stream is mal-formed, as I understand it, Apple closes =
+their end of the connection. Also as I understand it, this is made =
+evident to a C client because the number of bytes written to the socket =
+is 0 (or less than was intended).
+
+However, in Java, I'm finding no evidence at all that Apple has stopped =
+accepting push notifications, except that I can see the last =
+notification doesn't go through (I set up a test case with one good and =
+one bad token. By changing the order, I can see it work or not work).
+
+What do I need to do to detect this condition in Java? I tried checking =
+that the connection is still open and not half-open after each token, =
+but it always looks good.
+
+TIA,
+Rick
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

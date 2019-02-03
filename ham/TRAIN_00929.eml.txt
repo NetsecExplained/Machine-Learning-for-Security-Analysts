@@ -1,0 +1,25 @@
+Re: What needs to improve in KDE 4?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday, 2010-05-10, Dotan Cohen wrote:
+> On 10 May 2010 19:33, Nate Bargmann  wrote:
+
+> > for *my use* I have found KDE 4.4 quite pleasant over the past few days,
+> > perhaps aided by moving the old config directories out of the way.
+> > Device Notifier is now useful for me due to the tip provided by another
+> > list member in that thread.
+>=20
+> Yes, 4.2 and now 4.4 seem to behave badly without a clean ~/.kde. I
+> find that very disturbing and unstable.
+
+This might depends somewhat on the actual configuration.
+I have been upgrading this machine since early KDE3 times, always using the=
+=20
+same .kde directory and I can't remember having any problems.
+Certainly not when upgrading from 4.3.4 to 4.4.3 the past weekend.
+
+Cheers,
+Kevin
+

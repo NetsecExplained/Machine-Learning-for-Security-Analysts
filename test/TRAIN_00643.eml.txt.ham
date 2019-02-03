@@ -1,0 +1,53 @@
+Re: how come...On Fri, Apr 9, 2010 at 11:41 AM, Hugo Vanwoerkom  wrote=
+:
+> How come the latest linux-image-2.6-686 in Sid is:
+>
+> http://packages.debian.org/sid/linux-headers-2.6-686
+>
+> and is set to linux-image-2.6-686 (2.6.32+24) while apt-cache policy
+> linux-image-2.6-686 gives:
+>
+> linux-image-2.6-686:
+> =A0Installed: 2.6.32+25
+> =A0Candidate: 2.6.32+25
+> =A0Version table:
+> =A0*** 2.6.32+25 0
+> =A0 =A0 =A0 =A0500 http://ftp.de.debian.org unstable/main Packages
+> =A0 =A0 =A0 =A0100 /var/lib/dpkg/status
+>
+> while linux-image-2.6.32-4-686 (2.6.32-11) is the latest per:
+>
+> apt-cache policy linux-image-2.6.32-4-686
+> linux-image-2.6.32-4-686:
+> =A0Installed: (none)
+> =A0Candidate: 2.6.32-11
+> =A0Version table:
+> =A0 =A0 2.6.32-11 0
+> =A0 =A0 =A0 =A0500 http://ftp.de.debian.org unstable/main Packages
+
+Same here, even though I can ftp to
+ftp.uk.debian.org
+cd to
+ftp.uk.debian.org/debian/pool/main/l/linux-2.6/
+and find
+linux-image-2.6.32-4-686_2.6.32-11_i386.deb
+with
+ls *4-686*
+
+The apt-cache policy is correct though because the changelog
+http://packages.debian.org/changelogs/pool/main/l/linux-latest-2.6/linux-la=
+test-2.6_25/changelog
+shows that
+linux-image-2.6.32-3-686
+corresponds to
+linux-image-2.6-686 (2.6.32+25)
+and is
+linux-image-2.6.32-3-686_2.6.32-9_i386.deb
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2r6d4219cc1004091025s676528f9s81b1926f2acdd799@mail.csmining.org
+
+

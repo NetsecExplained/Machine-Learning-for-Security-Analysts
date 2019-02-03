@@ -1,0 +1,46 @@
+Re: Deleting some regexp/simple expression from lots of files in a secure way-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+"Boyd Stephen Smith Jr."  writes:
+
+> On Friday 14 May 2010 12:04:42 Merciadri Luca wrote:
+>> I have many text files (actually .tex files) which contain some
+>> sequence or regexp (it depends on the files) that I would like to
+>> remove. Is there a commandline/GUI for doing this massive edit?
+>
+> (sed -i -e "s/$regexp//" "$file") for a single file.  (GNU sed only.)
+>
+> (find $dir -type f -exec sed -i -e "s/$regexp//" {} \;) for all files in a 
+> directory.
+Thanks both. (@Andrei: it was in the content of the file, sorry not to
+have specified it before.)
+
+I am using the second command. The problem is that, for one set of
+files (that I have selected, no problem for this), I have to use a
+really simple expression: I need to find all the occurences of
+`\paragraph{}' and replace them with nothing (i.e. with `'). I know
+regexps, but replacing `$regexp' with `\paragraph{}' gives error
+messages. Any idea? Thanks.
+
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+The absent are always in the wrong.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvtje0ACgkQM0LLzLt8MhzeCgCfUiKS/MXIJ3pQSvPeGEXj2/88
+zjQAoKWQ7OuTuxQRfe+SZRMI8fPicX//
+=brRM
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87vdaqqsk2.fsf@merciadriluca-station.MERCIADRILUCA
+
+

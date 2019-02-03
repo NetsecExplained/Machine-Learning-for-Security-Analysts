@@ -1,0 +1,78 @@
+Re: Can't play 24bit/96kHz flac filesFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Sat, May 1, 2010 at 12:27 PM, Anand Sivaram  wrote:
+
+> On Sat, May 1, 2010 at 15:43, James Stuckey  wrote:
+> > If I try to play them in MOC I get: (0) Can't set audio parameters:
+> Invalid
+> > argument
+> >
+> > With mplayer I see:
+> >
+> > MPlayer SVN-r30656 (C) 2000-2010 MPlayer Team
+> > Can't open joystick device /dev/input/js0: No such file or directory
+> > Can't init input joystick
+> > mplayer: could not connect to socket
+> > mplayer: No such file or directory
+> > Failed to open LIRC support. You will not be able to use your remote
+> > control.
+> >
+> > Playing 02 Lohengrin - Prelude, Act 1.flac.
+> > Audio only file format detected.
+> >
+> ==========================================================================
+> > Opening audio decoder: [ffmpeg] FFmpeg/libavcodec audio decoders
+> > AUDIO: 96000 Hz, 6 ch, s32le, 6195.6 kbit/33.61% (ratio: 774455->2304000)
+> > Selected audio codec: [ffflac] afm: ffmpeg (FFmpeg FLAC audio)
+> >
+> ==========================================================================
+> > [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open
+> /dev/snd/pcmC0D0p
+> > failed: Device or resource busy
+> > [AO_ALSA] Playback open error: Device or resource busy
+> > Failed to initialize audio driver 'alsa'
+> > [AO OSS] audio_setup: Can't open audio device /dev/dsp: Device or
+> resource
+> > busy
+> > [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open
+> /dev/snd/pcmC0D0p
+> > failed: Device or resource busy
+> > [AO_ALSA] Playback open error: Device or resource busy
+> > [AO ARTS] loading the aRts backend "/usr/lib/libartscbackend.la" failed
+> > [AO ESD] esd_open_sound failed: Connection timed out
+> > AO: [pulse] Init failed: Connection refused
+> > [JACK] cannot open server
+> > ao_nas: init(): Can't open nas audio server -> nosound
+> > [AO SDL] Samplerate: 96000Hz Channels: Stereo Format s32le
+> > [AO SDL] Unsupported audio format: 0x19.
+> > [AO_ALSA] alsa-lib: pcm_hw.c:1293:(snd_pcm_hw_open) open
+> /dev/snd/pcmC0D0p
+> > failed: Device or resource busy
+> > [AO SDL] Unable to open audio: Couldn't open audio device: Device or
+> > resource busy
+> > DVB card number must be between 1 and 4
+> > AO: [null] 96000Hz 6ch s32le (4 bytes per sample)
+> > Video: no video
+> > Starting playback...
+> > A:   3.5 (03.5) of 570.0 (09:30.0)  1.4%
+> > Exiting... (Quit)
+> >
+> > Running file on the file gives:
+> > flac: FLAC audio bitstream data, 24 bit, 6 channels, 96 kHz, 54720000
+> > samples
+> >
+> > This only happens with this file. The file plays on other systems
+> (windows).
+> >
+>
+> Most of the cheap in built audio cards could only support 16bit
+> 44100Hz/48000Hz
+> So just see the specification of your audio card.
+> But audio players could down sample them to 16bit 44100Hz/48000Hz,
+> windows player may be doing that.  But of course, that reduces the
+> quality.
+>
+>
+Ah, okay. So the decoding is being done on the sound card? In what sense
+does the sound card need to support the file type?

@@ -1,0 +1,22 @@
+Re: Re (7): xorg-server failing on IBM NetVista with Intel 82815
+ videoFrom nobody Sun Sep 18 20:45:27 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,21.May.10, 12:22:22, peasthope@shaw.ca wrote:
+> From:	Andrei Popescu 
+> Date:	Fri, 21 May 2010 22:03:19 +0300
+> > # echo 'APT::Default-Release "squeeze";' >> /etc/apt/apt.conf
+>=20
+> Somehow I had the impression that the order of the=20
+> sources would prioritize them.
+
+Yes (or at least that's what the manpage says), but only when you have=20
+the same version of a package.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

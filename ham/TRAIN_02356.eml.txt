@@ -1,0 +1,11 @@
+GDC 2002: Game Scripting in PythonURL: http://www.newsisfree.com/click/-0,8613669,159/
+Date: 2002-10-06T18:12:51+01:00
+
+Scripting languages allow rapid development of game behavior without the 
+pitfalls that await the unwary C++ programmer. Using an existing scripting 
+language saves the time and cost of developing a custom language, and typically 
+gives you a far more powerful language than you could create on your own. 
+Python is an excellent choice for a game scripting language because it is 
+powerful, easily embedded, can seamlessly be extended with C/C++ code
+
+

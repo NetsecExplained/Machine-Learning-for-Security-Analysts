@@ -1,0 +1,25 @@
+Re: Increasing number of conflictsBoyd Stephen Smith Jr. wrote:
+> 
+> In my case you probably wouldn't.  Mixed Lenny+security+volatile/lenny-
+> backports/testing+volatile/Sid/experimental systems with debian-multimedia 
+> added in don't fall on your support list do they? ;)
+
+I thought this was normal...
+
+:D
+
+-- 
+
+Arrant Drivel - really, it's just trash...
+http://www.arrantdrivel.com/
+
+Where the road takes me - a highwayman's perspective
+http://www.prestonboyington.com/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDB05C0.6030903@csmining.org
+
+

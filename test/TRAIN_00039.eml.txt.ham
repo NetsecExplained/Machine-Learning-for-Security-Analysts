@@ -1,0 +1,56 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected! Why?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Merciadri Luca wrote:
+> Johannes Wiedersich wrote:
+>> Why would an
+>> honest soul ever allow information to be read, but not printed?
+>>   
+> To maintain honesty? An honest soul (i.e. me, here) has to send some
+> data to some dishonest person.
+
+The problem is: either you give data to some dishonest person or you
+don't give that data to some dishonest person. Tertium non datur.
+
+>> Even with acroread it is possible to print screenshots of the documents.
+>> Might be a pain to reconstruct a multipage document, but not impossible.
+>>   
+> I know, and we all know this. But this needs some determination, because
+> it needs some time. And when such problems arise, one often thinks (or
+> should, at least, think) `Do I really need to copy this using that
+> painful way, to bypass some limitation which is actually imposed to me
+> by an honest person?' This is another aspect of security. There are the
+> technical means, and all the infringements which can be done. But,
+> sometimes, `le jeu n'en vaut pas la chandelle.'
+
+FWIW, if you'd like to rely on such a scheme for security by obstacles,
+you'd have to use something else than pdf. pdf's scheme is broken.
+That's all.
+
+The reason that it is broken for pdfs is that the specifications for pdf
+are freely available, and thus alternative pdf readers have been
+developed. Your scheme would require closed specifications and closed
+software to work. This list, however, is all about free software.
+
+- --
+Johannes
+
+In questions of science, the authority of a thousand is not worth the
+humble reasoning of a single individual.
+- - Galileo Galilei, physicist and astronomer (1564-1642)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEUEARECAAYFAkvNS+oACgkQC1NzPRl9qEVM2wCfQpAVsTAx7GnbTUminwiqUIlp
+cm4AlRF4NIAhaaT6neYDcg0rYaXGs+k=
+=XYrP
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD4BEA.2090901@physik.blm.tu-muenchen.de
+
+

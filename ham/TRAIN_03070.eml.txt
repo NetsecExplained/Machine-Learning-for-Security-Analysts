@@ -1,0 +1,29 @@
+Re: [Razor-users] Collision of hashes?On Thu, Aug 29, 2002 at 07:33:44PM -0400, cmeclax po'u le cmevi'u ke'umri wrote:
+> 
+> Was it sent in HTML? If so, and it had a background, the background may have 
+> been sent in a spam.
+
+razor-agents 2.14 needs all parts to be spam to make a positive decision
+(though this will change with the next release), so it couldn't have been
+a background. Could you send me the debug log?
+
+cheers,
+vipul.
+
+-- 
+
+Vipul Ved Prakash          |   "The future is here, it's just not 
+Software Design Artist     |    widely distributed."
+http://vipul.net/          |              -- William Gibson
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

@@ -1,0 +1,21 @@
+Assign keycodes to Copy and PasteAre there keycodes for cut, copy and paste? I tried using the
+"obvious" XF86Copy and XF86Paste guesses but those did not work. For
+that matter, where can one find a list of all available codes? I have
+googled for various combinations of "linux debian keycodes scancodes
+list" but found no such list!
+
+Thanks.
+
+-- 
+Dotan Cohen
+
+http://gibberish.co.il
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTin6bqGhD8sy-u7awEkim7zJjlOU7k-kFVmdDkMy@mail.csmining.org
+
+

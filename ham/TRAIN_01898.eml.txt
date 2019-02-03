@@ -1,0 +1,69 @@
+Re: http://apt.nixia.no/On Mon, Feb 04, 2002 at 02:33:29PM +0200, Peter Peltonen wrote:
+> On Fri, Feb 01, 2002 at 05:41:32PM +0200, Harri Haataja wrote:
+> > I have a local one for the main and upgrades from somewhere plus my own
+> > at $ORKPLACE.
+> 
+> Olen ajatellut pystyttää itselleni lokaalin apt-varaston, kun Suomesta ei 
+> tunnu löytyvän julkista peiliä. Osaisitko avittaa hiukan asiassa, eli 
+> kuinka lähteä liikkeelle? Ensin kannattanee peilata varsinainen RH:n rpm:t 
+> jostain, vaan millä softalla (rsync?) ja mistä (funet?) tuo kannattaa 
+> tehdä, ajatuksia?
+
+I'll post my own repository story here anyway, hope no-one minds.
+It may freely be commented on or used in another text.
+
+I have a directory like this:
+$ tree  -d
+.
+|-- current7
+|   |-- SRPMS.current
+|   |-- SRPMS.gcc3
+|   `-- redhat
+|       |-- RPMS.current
+|       |-- RPMS.gcc3
+|       `-- base
+|-- redhat-7_2
+|   |-- SRPMS.os
+|   `-- redhat
+|       |-- RPMS.os -> 
+|       `-- base
+`-- testing
+    |-- SRPMS.testing
+    `-- redhat
+        |-- RPMS.testing
+        `-- base
+
+27 directories
+
+I throw updates to current7's rpms and my own stuff (with makefile :) to
+testing.
+After each new package, 
+nice genbasedir -s --progress --topdir=$TOPDIR/ \
+testing/redhat testing
+
+(for -s to work, you need to make release files, pinch someones for
+exmple)
+
+This stuff is found under apache. I put that url, my keys and all that
+into apt conf on the machines on the network and apt away.
+
+As for .fi mirrors, funet is very slow. I think I use tuxfamily for
+updates but when I see errata I usually also put that to my own one so
+rest of the machines have a shorter path to it.
+Funet hosts a whole load of mirrors and projects (it used to be (is?)
+the main mirror for Linux. It was one of the big pub ftp sites). If
+there was a definite apt repository, maybe they might mirror that as
+well. I doubt RH would be very keen on using apt and forking a
+distribution doesn't seem like an easy option, someone should just start
+a project.
+
+-- 
+"Barry also was quick to point out that the Titanium uses torque screws as
+opposed to Phillips screws. We're not sure why this matters even a little
+bit, but Barry sure seemed to think it was interesting.
+That's why Mac geeks scare us." 	-- ZDNet Powerbook Titanium review 
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

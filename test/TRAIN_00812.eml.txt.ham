@@ -1,0 +1,7 @@
+GRUB2 resolutionFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+I have looked around on google and found some documentation to set the
+resolution within grub2 but some of the explanations are a bit vague.  Can
+someone post a clear and concise way of doing this?  When I tried the ones I
+found on google, I managed to make the box not boot anymore.

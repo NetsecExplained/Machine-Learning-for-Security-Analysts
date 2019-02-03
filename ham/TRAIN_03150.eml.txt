@@ -1,0 +1,141 @@
+Re: 2.6.32-3 does not recognize PATA WD disk...This is not a kernel bug, but the way debian uses drivers.  There are
+two different drivers in the kernel now.
+Old ide drivers and newer pata drivers.  Old ide drivers are going to
+get deprecated.
+For some reason debian stock kernel is taking only ide drivers.  I
+have seen this with both my desktop (ide amd74xx used, pata_amd is not
+at all compiled) and laptop (both ide piix and pata ata_pii modules
+are compiled, but ide piix used)
+Because of that my hard drive is shown as /dev/hda instead of /dev/sda
+with the debian stock kernel.
+
+What I did was to compile a custom kernel by including only the pata driver=
+s.
+Now with this custom kernel everything is fine and consistent.
+
+2010/4/28 =C3=E9=FE=F1=E3=EF=F2 =D0=DC=EB=EB=E1=F2 :
+> Hi to everybody!
+>
+> I =A0just got a WD caviar blue, with the classic IDE interface and tried =
+to
+> connect it to my debian squeeze pc which already has a WD SATA device, wh=
+ere
+> the OS lives.
+>
+> The problem is that 2.6.32-3 does not recognize the disk and although I'm
+> not an expert, I tend to think that it is a kernel bug. I booted with
+> 2.6.30-2-686 and it sees the disk:
+> [ =A0 =A01.560374] hda: WDC WD3200AAJB-56R1A0, ATA DISK drive
+>
+> About the IDE controller, here's what lspci -v says:
+>
+> on both 2.6.30 =A0and 2.6.32 :
+>
+> 00:14.1 IDE interface: ATI Technologies Inc SB600 IDE (prog-if 8a [Master
+> SecP PriP])
+> =A0 =A0 =A0 Subsystem: Giga-byte Technology Gigabyte GA-MA69G-S3H Motherb=
+oard
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0Flags: bus master, 66MHz, medium devsel, laten=
+cy 32, IRQ 16
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0I/O ports at 01f0 [size=3D8]
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 I/O ports at 03f4 [si=
+ze=3D1]
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 I/O ports=
+ at 0170 [size=3D8]
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 I/O ports at 0374 [size=3D1]
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 I/O ports at f900 [size=3D16]
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Kernel driver in use:
+> ATIIXP_IDE
+> The only differences between lspci -v for 2.6.30 and 2.6.32 are the
+> following:
+> # diff 2.6.30-2-lspci 2.6.32-3-lspci
+> 23c23
+> < =A0 =A0 =A0 Kernel driver in use: pcieport-driver
+> ---
+>> =A0 =A0 =A0 Kernel driver in use: pcieport
+> 38c38
+> < =A0 =A0 =A0 Kernel driver in use: pcieport-driver
+> ---
+>> =A0 =A0 =A0 Kernel driver in use: pcieport
+> 95d94
+> < =A0 =A0 =A0 Kernel driver in use: piix4_smbus
+>
+> where the pcieport differences refer to
+> 00:02.0 PCI bridge: ATI Technologies Inc RD790 PCI to PCI bridge (externa=
+l
+> gfx0 port A) (prog-if 00 [Normal decode])
+> and
+> 00:0a.0 PCI bridge: ATI Technologies Inc RD790 PCI to PCI bridge (PCI
+> express gpp port F) (prog-if 00 [Normal decode])
+>
+> The lshw utility shows almost perfect match between 2.6.30 and 2.6.32 wit=
+h
+> the difference that under the ide section which is identical in both
+> kernels:
+>
+> =A0 =A0 =A0 *-ide
+> =A0 =A0 =A0 =A0 =A0 =A0description: IDE interface
+> =A0 =A0 =A0 =A0 =A0 =A0product: SB600 IDE
+> =A0 =A0 =A0 =A0 =A0 =A0vendor: ATI Technologies Inc
+> =A0 =A0 =A0 =A0 =A0 =A0physical id: 14.1
+> =A0 =A0 =A0 =A0 =A0 =A0bus info: pci@0000:00:14.1
+> =A0 =A0 =A0 =A0 =A0 =A0version: 00
+> =A0 =A0 =A0 =A0 =A0 =A0width: 32 bits
+> =A0 =A0 =A0 =A0 =A0 =A0clock: 66MHz
+> =A0 =A0 =A0 =A0 =A0 =A0capabilities: ide bus_master
+> =A0 =A0 =A0 =A0 =A0 =A0configuration: driver=3DATIIXP_IDE latency=3D32
+> =A0 =A0 =A0 =A0 =A0 =A0resources: irq:16 ioport:1f0(size=3D8) ioport:3f6
+> ioport:170(size=3D8) ioport:376 ioport:f900(size=3D16)
+> =A0 =A0 =A0 =A0 =A0*-ide
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 description: IDE Channel 0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 physical id: 0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 bus info: ide@0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 logical name: ide0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 clock: 66MHz
+>
+> but in 2.6.32 nothing disk relevant follows, where with 2.6.30, the disk
+> section follows:
+>
+> =A0 =A0 =A0 =A0 =A0 =A0 *-disk
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0description: ATA Disk
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0product: WDC WD3200AAJB-56R1A0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0vendor: Western Digital
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0physical id: 0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0bus info: ide@0.0
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0logical name: /dev/hda
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0version: 01.03E01
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0serial: WD-WCAV2H175667
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0size: 298GiB (320GB)
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0capabilities: ata dma lba iordy smart =
+security pm
+> partitioned partitioned:dos
+> =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0configuration: mode=3Dudma5 signature=
+=3D08040000 smart=3Don
+>
+> bit strange, isn't it?
+>
+> Any ideas?
+>
+> As well as that, I can't report it via reportbug, because with: reportbug
+> linux-image-2.6.32-3-686
+> I always get
+>
+> Querying Debian BTS for reports on linux-2.6 (source)...
+> Unable to connect to Debian BTS; continue [y|N|?]?
+>
+> after a couple of minutes...
+>
+> Giorgos
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/p2ld0bf7b0b1004280643kde8b73f1q3a496cfa6602cbb0@mail.csmining.org
+
+

@@ -1,0 +1,53 @@
+Re: [SAdev] testing with less rulesjm@jmason.org (Justin Mason) writes:
+
+>>>   DATE_IN_PAST_48_96
+>>>   SPAM_PHRASE_00_01
+>>>   SPAM_PHRASE_01_02
+>>>   SPAM_PHRASE_02_03
+>>>   SPAM_PHRASE_03_05
+>>>   SPAM_PHRASE_05_08
+
+> I was thinking of just removing those particular rules, but keeping the
+> other entries in the range, since they're proving too "noisy" to be
+> effective.  But I'd be willing to keep those ones in, all the same.  What
+> do you think?  Matt/Craig, thoughts?
+
+I think I could handle commenting out the lowest SPAM_PHRASE_XX_YY
+scores.  If the GA could handle this sort of thing so they'd
+automatically be zeroed, I'd feel better since the ranges could change
+next time the phrase list is regenerated or the algorithm tweaked.
+
+I think we need to understand why DATE_IN_PAST_48_96 is so low before
+we remove it.  The two rules on either side perform quite well.
+
+>> And here are the rules that seem like they should be better or should
+>> be recoverable:
+
+>>>   FROM_MISSING
+>>>   GAPPY_TEXT
+>>>   INVALID_MSGID
+>>>   MIME_NULL_BLOCK
+>>>   SUBJ_MISSING
+
+> well, I don't like SUBJ_MISSING, I reckon there's a world of mails from
+> cron jobs (e.g.) which hit it.
+
+Okay, drop SUBJ_MISSING.
+
+> But, yes, the others for sure should be recoverable, and I'm sure there's
+> more.
+
+Probably a few, those seemed like the best prospects to me.
+
+> BTW do you agree with the proposed methodology (ie. remove the rules and
+> bugzilla each one?)
+
+I only want a bugzilla ticket for each one if people are okay with
+quick WONTFIX closes on the ones deemed unworthy of recovery.
+
+If you could put the stats for each rule in the ticket somehow (should
+be automatable with email at the very least), it would help.
+
+Dan
+
+

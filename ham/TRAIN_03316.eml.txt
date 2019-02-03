@@ -1,0 +1,25 @@
+Re: [SAtalk] CONFIDENTIALOn Wed, 2002-08-21 at 06:42, Craig R.Hughes wrote:
+> On Tuesday, August 20, 2002, at 09:38  PM, Mike Burger wrote:
+> 
+> > Of course, since I have this list before my SA filter, it got through.
+> 
+> That's exactly what they're counting on!  Actually, I think it's 
+> more likely spammer humor, and sa-talk is on a list somewhere.
+> 
+
+Oh, I dunno. Humor or not it, lets some of us with new installs test out
+SA with "real" email.
+
+:)
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

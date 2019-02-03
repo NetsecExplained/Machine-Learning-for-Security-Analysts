@@ -1,0 +1,30 @@
+Xorg and cpu usageFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello there. I own a dell studio 1555 with an ATI Mobility Radeon HD4570. I
+have a debian testing installation and currently I have to use either radeon
+or the radeonhd drivers cause the proprietary (fglrx) driver doesn't support
+the xserver currently available in testing. Everything works just fine. I
+even got 3d acceleration and Kwin effects. The problem is that the xorg
+process is using the cpu and consuming much memory. The memory consumed is
+about 160MB but that doesn't really bother me cause I got plenty of it :P.
+Well the annoying thing is the cpu fan; xorg uses about 10% (as shown in
+kde's system monitor) and so the fan does never stop. Has anyone else
+spotted any high cpu usage when using those drivers? If I disable the kde
+effects the memory consumption gets lower but the cpu is still in heavy use
+by the xorg process.
+
+
+Well I got a few more questions about these open source drivers. Does anyone
+know if they have power saving enabled? I think when I used the fgrlx driver
+the battery lasted much longer. I also got an issue with suspend. It worked
+with the fglrx driver but with the opensource drivers the laptop doesn't
+wake up. Well it does but the display shows nothing. I have to play with
+alt+ctrl+f* before it shows something. Then if I type my pass I can see that
+the s2ram process is consuming 50% of the cpu! One time when doing so the
+laptop turn off by itself. I think it overheated so that makes me think that
+something goes wrong with the acpi after waking up from suspend.
+
+Sorry for the long post. Thanks in advance for any help.
+
+J

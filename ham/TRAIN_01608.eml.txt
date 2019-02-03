@@ -1,0 +1,11 @@
+Play by Play: Effective Memory ManagementURL: http://www.newsisfree.com/click/-6,6503039,159/
+Date: 2002-08-03T08:11:17+01:00
+
+Back when 64KB was more memory than any computer would ever need, there was a 
+time when memory managers didn’t exist. But gradually, new computer systems 
+came out with larger amounts of memory and designers discovered ways to eat up 
+RAM faster than any system could dish it out. This discussion is based on 
+Tiburon's experiences in writing and rewriting the memory manager for Madden 
+NFL 97 to Madden NFL 2002.
+
+

@@ -1,0 +1,51 @@
+RE: non-ASCII environment>
+>
+>
+>---- Original Message ----
+>From: jgmb65@rezozer=2Enet
+>To: debian-user@lists=2Edebian=2Eorg
+>Subject: RE: non-ASCII environment
+>Date: Sat, 10 Apr 2010 00:14:14 +0800
+>
+>>Hello List,
+>>
+>>I am writing some C code which involves ASCII characters:
+>>in C related books, we can find a lot of comments about
+>>ASCII character issues, as far as we are concern with portability=2E
+>>
+>>Nevertheless, something bothers me: where non-ASCII environment can
+>be found =3F
+>>
+>>Furthermore, can such an environment be created on a Debian box =3F
+>>The aim is to check the portability of my code=2E
+>>
+>>Thanks in advance,
+>>Jerome
+>>
+>>
+>>
+>>--=20
+>>Jerome BENOIT
+>>jgmbenoit-at+rezozer*dot=5Fnet
+>>
+>>
+>>--=20
+>>To UNSUBSCRIBE, email to debian-user-REQUEST@lists=2Edebian=2Eorg=20
+>>with a subject of "unsubscribe"=2E Trouble=3F Contact
+>listmaster@lists=2Edebian=2Eorg
+>>Archive: http://lists=2Edebian=2Eorg/4BBF5256=2E40104@rezozer=2Enet
+>>
+Usually the "correct" answer is to stick to the ANSI standard and all
+will be well=2E  However if you have some specific issue or some
+specific questionable code, why not post it=3F
+Larry
+>>
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/380-22010459204526234@netptc.net
+
+

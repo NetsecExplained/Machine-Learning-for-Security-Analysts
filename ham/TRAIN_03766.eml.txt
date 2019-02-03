@@ -1,0 +1,49 @@
+Re: [ILUG] DHCP
+
+> Quoting Paul O'Neil :
+> 
+> > Excuse me for asking an old question here but Ive been running SuSE 
+with a
+> > cable modem for a couple months. About 5-6 weeks ago the internet 
+access
+> > was
+> > not working and I rebooted noticing I came up with a new IP 
+address, and it
+> > worked fine. How does it work exactly when the cable company 
+releases and
+> > renews an ip address. Do they merely setup their system to issue 
+new ip
+> > addresses when cusomters reboot their computer or does it take 
+affect
+> > immediately and it caused the internet disruption that required a 
+reboot or
+> > at least a network reload? If so, can this be detected 
+automatically and
+> > taken care of or is that just how it works?
+> 
+> A DHCP client daemon (dhcpcd, pump) can do this automatically.  Some 
+cable
+> companies apparently reassign the same address over and over when the 
+leases run
+> out, so you get away without a daemon for long enough to make you 
+think you
+> don't need one. :-)
+> 
+> Ronan
+> 
+> 
+
+Is what your talking about, this process is running all the time. 
+
+root       422  0.0  0.4  1332  500 ?        S    03:18   
+0:00 /sbin/dhcpcd -D -N -Y -t 999999 -h cable-modem-1 eth0
+
+If alright then maybe coincidence, I'll wait and see when I get another 
+address.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

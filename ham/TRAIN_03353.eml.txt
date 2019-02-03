@@ -1,0 +1,22 @@
+Re: Kde 3.5 ...On Thu, May 6, 2010 at 18:14, Dotan Cohen  wrote:
+
+> System Settings -> Input and Output
+> RightClick -> New -> Global Shortcut -> Command
+
+It's called "Input Actions".
+But yes, this works. Still, the current way things are done are
+less than ideal.
+
+Thus:
+https://bugs.kde.org/show_bug.cgi?id=236617
+
+
+Richard
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/w2y2d460de71005061315h83c91b98zd136a27fe5433d16@mail.csmining.org
+
+

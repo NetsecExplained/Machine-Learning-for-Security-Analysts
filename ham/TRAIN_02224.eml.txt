@@ -1,0 +1,43 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday, 2010-05-12, Mike Kasick wrote:
+> On Wed, May 12, 2010 at 10:48:43AM +0200, Richard Hartmann wrote:
+> > > - Disable "kres-migrator".  Or at least add a debconf option to
+> > >  kdepim-runtime presenting the option of running kres-migrator by
+> > > default or disabling it.
+> >=20
+> > Did you do any research as to what the longer-term implications
+> > of foregoing this might be? I am not saying there are any, I
+> > honestly don't know.
+>=20
+> There shouldn't be any long-term implications as long as the old KResource
+> code still exists.  I'm assuming it's being deprecated as of KDE 4.4, but
+> I'd be surprised if it's removed in KDE 4.5, especially since delaying
+> migration is an official recommendation.
+
+The KResource API is public API of KDE4, it can at best removed at the firs=
+t=20
+KDE5 version (which is probably still several years away).
+Some of its plugins are public API as well (those from kdepimlibs) so they=
+=20
+stay too.
+Problematic are plugins from kdepim, they can be replaced by respective=20
+Akonadi base resource implementations.
+
+> Once the DB mess is sorted out (KDE 4.5?), one can manually migrate the
+> data by running "kres-migrator".  I actually did this accidentally.  The
+> migrator _might_ also run if we remove the configuration bit, but I've not
+> tried.
+
+Right, I think it will run if it does not find its configuration, thus not=
+=20
+knowing whether it has already run.
+Could lead to duplicated resources on Akonadi side though (if it has been r=
+un=20
+before).
+
+Cheers,
+Kevin

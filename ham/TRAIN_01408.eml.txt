@@ -1,0 +1,21 @@
+Re: [Razor-users] Razor with sendmailFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Aug 23, 2002 at 04:17:55PM -0400, Sven Willenberger wrote:
+> To see all the options compiled into (and version of) sendmail, try the
+> following line:
+>=20
+> echo \$Z | /path/to/sendmail -bt -d0
+
+gives you the same information as "sendmail -d0.1 < /dev/null", which
+doesn't include milter information.  (actually the -d0 part gives you the
+info, the $Z gives you sendmail version out of the test mode (-bt)... so
+it's slightly different, but not really.)
+
+--=20
+Randomly Generated Tagline:
+Be warned that typing \fBkillall \fIname\fP may not have the desired
+ effect on non-Linux systems, especially when done by a privileged user.
+ (From the killall manual page)

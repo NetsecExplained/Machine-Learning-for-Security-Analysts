@@ -1,0 +1,40 @@
+Re: [ILUG-Social] Online BookstoresCaolan McNamara wrote:
+> On Tue, Aug 06, 2002 at 04:21:22 +0100, David O'Callaghan wrote:
+> > 
+> > Hello,
+> > 
+> > What are your recommendations for buying books (technical and
+> > otherwise) online, from Irish or European sellers. Is there 
+> > anywhere that has as good a selection as, say, Amazon but
+> > deals in Euro?
+> 
+> amazon.de and amazon.fr ? :-)
+
+Having recently checked out both of these, for a selection of
+books, the exact same basket of books cost more in both .de and
+.fr (taking delivery charges, VAT et al into account) than buying
+the same thing in amazon.co.uk
+
+The books I used to check were 
+1) C unleashed (Heathfield et al)
+2) Design Patterns (Gamma et al)
+3) Computer Graphics, principles and practice (Foley et al)
+
+I was hugely surprised that amazon.co.uk worked out cheapest - by
+a considerable margin, too - something like 12 euros after
+freight was taken into account.
+
+Cheers,
+Dave.
+
+-- 
+       David Neary,
+    Marseille, France
+  E-Mail: bolsh@gimp.org
+
+-- 
+Irish Linux Users' Group Social Events: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

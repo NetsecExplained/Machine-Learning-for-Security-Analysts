@@ -1,0 +1,59 @@
+Re: how to uninstall java preview?On Apr 6, 2010, at 10:40 AM, Gabriele Kahlout wrote:
+
+> Hello,
+>=20
+> Today presenting my application to a macbook user with the latest java
+> releasion (1.6.17)
+> my application failed to install properly (see the java console) and
+> error JOptionPane .
+>=20
+> On my machine the same works flawlessly. However I've this preview
+> installed (1.6.19) and so I'm failing to re-produce the same testing
+> environment. So I'd like to go back to the version my users have to be
+> able to better assist them, unless you have better suggestions.
+>=20
+> I'd be very thankful if you could also report to me if others have
+> problems, just launching this (you need to choose an installation
+> directory, and after doing so the error should appear):
+> https://sourceforge.net/projects/memorizeasy/
+
+WARNING: THIS IS A VERY BAD THING TO DO, AND WILL PUT YOUR MACHINE INTO =
+AN UNSUPPORTABLE CONFIGURATION!
+
+There is no official way to roll back to the GM version, however the =
+installer for 10.6 Update 1 is at , =
+and the 10.5 Update 6 is at .
+
+If you manually modify the bundle version in the =
+/System/Library/Frameworks/JavaVM.framework/Resources/Info.plist, the =
+installer should install on top of the developer preview, however it =
+will not be aware of some of the new content in the DP. This causes some =
+tools like Java VisualVM to fail, because it's bundle will contain a =
+hodgepodge of GM and DP bits, and the GM installer doesn't know to =
+remove the DP bits (because when it was created, the DP bits we not =
+invented yet).
+
+This should be enough to test the 1.6.0_17 JVM, but this is hardly a =
+"valid" configuration. Installing the 10M3044/9M3144 DP again on top of =
+this mixed mess _should_ clean up the GM bits and put you into a valid =
+DP configuration. Probably. Most likely.
+
+If things get too out of control, you should always be able to move =
+aside the /System/Library/Frameworks/JavaVM.framework/Versions =
+directory, and re-run either the GM or DP installer, and you should get =
+a fully coherent Java installation (modulo the tools in /usr/share/java =
+and a other few exceptions in /System/Library which don't really change =
+between versions).
+
+Best of luck,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,28 @@
+Re: Flash is open?On Fri, 2010-05-14 at 21:47 -0500, Ron Johnson wrote:
+> On 05/14/2010 09:20 PM, John A. Sullivan III wrote:
+> [snip]
+> > 
+> > I would disagree.  It was quite enlightening to see one of our clients
+> > work in a highly paperless way.  They received FAXes via email as pdfs,
+> > open them in Acrobat, deskew, ocr to grab text for other documents based
+> > on those faxes, make any annotations, and save the FAX into their
+> > directory structure.  They receive construction drawings as large PDF
+> > files, bind them, optimize them, stamp them as received, approved, etc.,
+> > mark them up for distribution without printing off sets of large plotter
+> > prints- all done with Acrobat and nothing specific to Windows.  In fact,
+> > they are desperately trying to move away from Windows and Acrobat is the
+> > major stumbling block - John
+> >
+> 
+> Wine/CrossOver?
+
+With a lot of work one can get it to install but it does not print -
+thus it's pretty useless for everyday use - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273894423.3747.5.camel@localhost
+
+

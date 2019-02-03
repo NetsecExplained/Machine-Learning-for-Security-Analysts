@@ -1,0 +1,26 @@
+Keyboard gets stuck when closing PPP (was: Problems when logging out Gnome)Rodolfo Medina  writes:
+
+> Lenny installed on my old Pentium III often gets stuck when logging out
+> Gnome, either via the panel menu or with `Ctrl-Alt-Backspace'.
+>
+> Does anyone have any direct experience of the same problem or can suggest
+> what the cause may ever be and how to work it out?
+
+
+The problem is reported here:
+
+ http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=508589
+
+Does anyone know if it has been fixed, and how?  I don't have the possibility
+of installing Sid.
+
+Thanks for any help
+Rodolfo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87tyrn3wv1.fsf@csmining.org
+
+

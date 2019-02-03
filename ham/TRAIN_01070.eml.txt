@@ -1,0 +1,46 @@
+Sequence Grabber and Movie Sync - Recording starts earlierHi everyone,
+
+We are struggling with an offset issue in trying to sync a movie
+playing in the background with the start of a sequence grabber record.
+ The end result of the capture always seems to be ahead of the actual
+movie that is playing back.  We are trying to pipe the end result into
+an audio echo cancellation library and this offset is causing pain.
+
+Here is the issue.
+
+- We use SGDataProc callback for the recording and preview.
+- We start by calling SGStartRecord() for the preview.
+- We then PreRoll() the movie and set up all the capture movies.
+- We share the SG SoundChannel clock with the movie, and the VideoChannel.
+- After this is all complete we call SetMovieRate() to start the
+movie.  And then log a time stamp from the clock for recording.  This
+happens about 5 seconds after previewing.
+- We call AddMediaSample() when the time stamps (adjusted for scale)
+passed into the proc are greater than the time set for recording.  We
+adjust the audio buffer and sample input so this is cut at the right
+time based on the time stamp.
+- We are using a USB Audio Mic and a USB Video Camera.
+- We have good A/V sync (lip sync)
+- When we compare the recorded track to the background track the
+recorded echo starts before the echo in the movie.  This is by about
+0.1 seconds give or take.  One would expect the echo to happen after
+not before.
+
+We have tried to manually offset the time stamp for start time.  But
+this then produces A/V sync (lip sync) issues.  I assume this is
+because our
+video frame is getting there faster than our audio frame.  As one would expect.
+
+Is there any reason why these frames are getting dropped in the
+recording?  Does anyone have any ideas to get these 2 in sync.
+
+Thx for your time,
+Matt
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,31 @@
+Re: Protocol implementation in category
+On Apr 25, 2010, at 4:12 AM, Dave Keck wrote:
+
+>> Just include the protocol in the category interface e.g.
+>> 
+>> @interface MyObject(FooDelegate) 
+>> ....
+>> @end
+>> 
+>> And make sure this is visible to the compiler when you set an instance
+>> as a delegate.
+> 
+> Ah! I was under the false impression that categories couldn't declare
+> themselves as implementing a protocol. This works beautifully.
+
+I ran into a problem doing this a few years ago, where calling
+-conformsToProtocol: would cause a hang when the protocol was 
+implemented in a category.  That might be fixed by now, but be 
+careful if you check conformance.
+
+-- 
+Adam
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

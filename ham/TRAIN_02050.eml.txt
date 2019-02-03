@@ -1,0 +1,25 @@
+Re: [Razor-users] can't find Razor/Client.pm>> Thanks, Tabor.  How do I install v1 over v2, and where does one
+>> get it?  (I don't see it at razor.sourceforge.net)
+>
+>It's there. Scroll down on the downloads page. However you might
+>consider going the other way and installing SpamAssassin's 2.40
+>bleeding-edge code as Razor v2 has a lot of nice features over v1.
+
+Hmmm... installed SA 2.40, but I get the same error when trying
+to launch amavisd-new (can't find Razor/Client.pm).  Seems like
+the amavis code is calling for this.  I'll hit up the
+amavis-users list.  (Feel free to fire off the answer if you
+have it, though!   :)
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,75 @@
+Re: USB key accepts data only as root-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ron Johnson  writes:
+
+> On 04/25/2010 02:47 PM, Merciadri Luca wrote:
+>> Ron Johnson wrote:
+>>> Not enough information.
+>> Sorry.
+>>> Automounted from a DE, or manually from the CLI?
+>> Automounted, but the related folder is still there (in /media/) even
+>> when the USB key is disconnected.
+>>> What are the ownership and privs on the mount point?  And the raw device?
+>> ==
+>> /media# ls -al
+>> total 28
+>> drwxrwxrwx  6 root root 4096 2010-04-25 13:26 .
+>> drwxr-xr-x 23 root root 4096 2010-01-27 11:13 ..
+>> drwxr-xr-x  3 root root 4096 2009-09-04 19:30 disk
+>> drwxr-xr-x  3 root root 4096 2010-04-25 13:30 disk-1
+>> lrwxrwxrwx  1 root root    7 2009-07-17 17:01 floppy ->  floppy0
+>> drwxr-xr-x  2 root root 4096 2009-07-17 17:01 floppy0
+>> -rw-r--r--  1 root root  299 2010-04-25 13:26 .hal-mtab
+>> -rw-------  1 root root    0 2010-04-25 09:31 .hal-mtab-lock
+>> drwx------  2 root root 4096 2009-08-29 22:20 KUBUNTU_LAPTOP22
+>> ==
+>>
+>> It happens for every removable disk, actually. The raw device is /dev/sde1:
+>>
+>> ==
+>> # ls -al | grep sde
+>> brw-rw----  1 root floppy    8,  64 2010-04-25 21:45 sde
+>> brw-rw----  1 root floppy    8,  65 2010-04-25 21:45 sde1
+>> ==
+>>
+>
+> $ echo $USER
+> me
+$ echo $USER
+merciadriluca
+
+> $ dir /media | grep CENTON
+> drwxr-xr-x  2 me   root 4096 1969-12-31 18:00:00 CENTON USB/
+>
+> ~$ dir /dev/sdh
+> brw-rw---- 1 root floppy 8, 112 2010-04-22 16:19:48 /dev/sdh
+>
+> You wouldn't happen to be logged in as root, would you?
+I am not logged as root. Unfortunately. I do not understand this
+problem. It happens for every removable device: USB keys, external
+HDDs, etc.
+
+
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Man is truly himself when he's alone.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvUoLYACgkQM0LLzLt8MhycrgCfaz2Tu+5UsazVXXe6AQfjr4tp
+7IwAnROwXdusiAFhs9e3aRq0R+NiF8Yf
+=0PNb
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87y6gbe1qh.fsf@merciadriluca-station.MERCIADRILUCA
+
+

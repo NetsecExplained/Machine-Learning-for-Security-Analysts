@@ -1,0 +1,13 @@
+RE: Java is for kiddies> For example, take the recent CBC Olympics site: I needed to roll
+> together a telnet client with a tokenizer, perl-regex preprocessing a
+> stream to produce parseable XML, project that XML into relational
+> databases using only the DTD to generate the rdbms schema, and open an
+> XMLRPC interface to read and post items into the news stream.  Where
+> can I find C libs for those components?
+
+You open sourced the new components you developed for this project, so the
+next person who comes along won't have to reimplement them, right?
+
+- Jim
+
+

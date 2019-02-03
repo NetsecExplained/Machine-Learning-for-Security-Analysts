@@ -1,0 +1,20 @@
+Jeremy Zawodny who works at Yahoo Finance offers an RSS 0.91 feed
+    for everyURL: http://scriptingnews.userland.com/backissues/2002/09/23#When:12:45:28PM
+Date: Mon, 23 Sep 2002 19:45:28 GMT
+
+Jeremy Zawodny[1] who works at Yahoo Finance offers an RSS 0.91 feed for every 
+stock. It's a beta feature. Here's the feed for Microsoft[2] and one for 
+Marimba[3]. Thanks to Jon Udell[4] for the pointer. Nice. Jon also notes that 
+Microsoft doesn't show up too strong in the weblog world and describes[5] a 
+conversation with John Montgomery about this. What a small world. John and I 
+got to know each other when we did the work on SOAP in the late 90s, and weblog 
+software is one of the major reasons we were interested in SOAP. So close, but 
+so far. But it's never too late!
+
+[1] http://jeremy.zawodny.com/blog/archives/000187.html
+[2] http://rss.finance.yahoo.com/rss/get?ticker=MSFT
+[3] http://rss.finance.yahoo.com/rss/get?ticker=MRBA
+[4] http://weblog.infoworld.com/udell/2002/09/23.html#a422
+[5] http://weblog.infoworld.com/udell/2002/09/23.html#a421
+
+

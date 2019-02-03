@@ -1,0 +1,13 @@
+[Spambayes] understanding high false negative rate[Jeremy Hylton]
+> Here's clarification of why I did:
+
+That's pretty much what I had guessed.  Thanks!  One more to try:
+
+> First test results using tokenizer.Tokenizer.tokenize_headers()
+> unmodified. 
+> ...
+> Second test results using mboxtest.MyTokenizer.tokenize_headers().
+> This uses all headers except Received, Data, and X-From_.
+> ...
+
+Try the latter again, but call the base tokenize_headers() too.

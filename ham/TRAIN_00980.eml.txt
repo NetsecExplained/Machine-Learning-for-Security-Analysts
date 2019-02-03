@@ -1,0 +1,36 @@
+Re: What needs to improve in KDE 4?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 11 May 2010 21.10:18 Dotan Cohen wrote:
+> On 11 May 2010 09:15, Adrian von Bidder  wrote:
+> > On Monday 10 May 2010 16.08:40 Dotan Cohen wrote:
+> >> Please tell us what problems, bugs, or issues KDE 4 that make it
+> >> difficult to use.
+> >=20
+> > Nepomuk / Strigi need to improve a *lot*.
+> >=20
+> > * Strigi sucks up all disk bandwidth and, given enough time, all memory
+> > to the point where the oom kill kills my session.
+> > * Strigi index uses all my disk.  Removing folders that were indexed
+> > (either removing these files, or removing them from the strigi
+> > configuration so they're not indexed anymore) didn't seem to have any
+> > effect on index size.
+
+I'll retry, but I think I was already on early 4.4 packages already.  Not=20
+sure though.
+
+> > * Likewise when I completely disable file
+> > indexing: the database doesn't shrink / isn't removed.
+
+This one certainly is not fixed in 4.4.  On a big database inherited from=20
+earlier strigi, enabling strigi and then disabling strigi and nepomuk=20
+alltogether, the database is still there.  (To be precise: the database=20
+*was* still there.  rm -rf is your friend.)
+
+cheers
+=2D- vbi
+
+=2D-=20
+featured product: vim - http://vim.org

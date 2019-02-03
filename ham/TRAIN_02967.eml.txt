@@ -1,0 +1,27 @@
+RE: [Razor-users] Fire.cloudmark.com is having issuesWhat does this mean?  I set up procmailrc for a spamtrap but I'm getting
+an error.  I also am reporting to pyzor and dcc and they aren't
+registering an error.  What's weird is that it works sometimes.
+
+.
+Oct 02 23:46:11.470523 report[14051]: [ 4] honor.cloudmark.com >> 20
+Oct 02 23:46:11.470805 report[14051]: [ 6] response to sent.3
+-res=1
+err=230
+.
+Oct 02 23:46:11.471825 report[14051]: [ 5] mail 1, orig_email, special
+case eng 1: Server accept
+ed report.
+Oct 02 23:46:11.472228 report[14051]: [ 8] mail 1.0, eng 4: err 230 -
+server wants mail
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

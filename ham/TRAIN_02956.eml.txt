@@ -1,0 +1,36 @@
+Re: Epiphany browser continues to get worse and worseOn 4/19/2010 9:46 PM, Mark Allums wrote:
+> On 4/19/2010 9:00 PM, Stephen Powell wrote:
+>> On Mon, 19 Apr 2010 21:01:41 -0400 (EDT), Andrew Malcolmson wrote:
+>>> Couldn't say why they switched, but I find pages in Epiphany 2.29 in
+>>> Squeeze look vivid compared with the Gecko version.
+>>
+>> I have switched back and forth between epiphany and iceweasel several
+>> times, on the same computer and monitor, and I have not noticed any
+>> difference in image quality between iceweasel, which is based on
+>> gecko (xulrunner-1.9.1) and epiphany-browser, which is based on webkit
+>> (libwebkit-1.0-2).
+>>
+>
+> One word: Chrome.
+>
+>
+>
+
+
+Sorry.  I had an aneurysm, and didn't say what I meant, what with all 
+the blood distracting me, and everything.  Disregard.
+
+Never mind, carry on...
+
+
+MAA
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD177C.6040200@allums.com
+
+

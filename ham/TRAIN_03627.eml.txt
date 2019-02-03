@@ -1,0 +1,40 @@
+Re: [ILUG] hard- vs. soft-links [was: How to copy some files ]On Fri, Jul 19, 2002 at 10:00:02PM +0100, Matthew French wrote:
+> Now here is a thought: a Unix version of the "Deleted Items" folder.
+
+am i the only one who thinks this is like "friday night 80's" for ilug?
+and here's an answer from 1989.  for those perceptive folks in the
+audience you'll note that it makes no reference to a windows icons.
+
+http://groups.google.com/groups?q=unix+undelete&hl;=en&lr;=&ie;=UTF-8&as;_drrb=b&as;_mind=12&as;_minm=5&as;_miny=1981&as;_maxd=19&as;_maxm=7&as;_maxy=1989&selm;=10113%40bloom-beacon.MIT.EDU&rnum;=10
+
+and here's one from 1984:
+
+http://groups.google.com/groups?q=unix+undelete&start;=10&hl;=en&lr;=&ie;=UTF-8&as;_drrb=b&as;_mind=12&as;_minm=5&as;_miny=1981&as;_maxd=19&as;_maxm=7&as;_maxy=1989&selm;=736%40sri-arpa.UUCP&rnum;=14
+
+on a more serious note....  would unrm be nice?  yeah.  but people have
+talked about unrm for nearly ***20*** years - and that's just what i
+bothered to look up.  think about it.  in that time bsd has been freed
+from at&t; and then forked in four different directions, gcc, linux,
+mozilla, gnome and kde have been written.  as has almost every bit
+of the gnu project - including (sh|file)-utils.  and think about it,
+have the gnu (sh|file)-utils developers ever met an option they didn't
+implement if they could?  even /bin/true and /bin/false take arguments.
+
+so yeah, unrm would be nice, but obviously it's not a simple problem.
+millions of lines of code, hundreds of projects, no unrm.  heck, the
+hurd will probably release 1.0 before unrm shows up.
+
+kevin, spinning the oldies all night long...
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

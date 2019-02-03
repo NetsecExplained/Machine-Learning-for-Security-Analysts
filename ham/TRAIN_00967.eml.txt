@@ -1,0 +1,39 @@
+Re: K3B> `athalon-redhat-linux': machine `athalon-redhat' not recognized
+> configure: error: /bin/sh admin/config.sub athalon-redhat-linux failed
+> error: Bad exit status from /home/dale/rpmbuild/tmp/rpm-tmp.26673
+> (%prep)
+
+Woah ;) did you tweak some flags yourself, like default rpm flags ? What 
+dist are you running ? I don't think there's an athalon-redhat-linux 
+machine as standard ;) it should be some permutation of athlon and linux, 
+and without redhat, but I can't tell for sure.   Any idea where your 
+system might be setting this flag ?
+
+
+ > RPM build errors:
+>     user jkeating does not exist - using root
+>     group jkeating does not exist - using root
+>     user jkeating does not exist - using root
+>     group jkeating does not exist - using root
+>     Bad exit status from /home/dale/rpmbuild/tmp/rpm-tmp.26673 (%prep)
+
+looks like the files are owned by the wrong user (ie the original spec 
+builder).
+
+Thomas
+
+-- 
+
+The Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/
+<-*-                      -*->
+Goodbye
+I've finally arrived
+<-*- thomas@apestaart.org -*->
+URGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

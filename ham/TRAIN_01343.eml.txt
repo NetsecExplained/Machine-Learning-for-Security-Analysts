@@ -1,0 +1,123 @@
+Canadians again - something a little more substantivePoliticians worldwide are discovering the internet - what a great tool 
+for fascism, once you got the laws in place to solve that whole 
+'anonymity' thing. Also I notice this story shows the truth - the 
+Canadian government is really located in Washington, DC, Ottawa is just 
+a branch office. Come to think of it, the last story I posted about 
+Canada featured the head of its military, 'speaking to us from military 
+HQ  in Palm Beach, Florida.'
+Owen
+----------------------------------------------------------------------------------------------------------------------------
+.
+*Will Canada's ISPs become spies?*
+By Declan McCullagh 
+Staff Writer, CNET News.com
+August 27, 2002, 12:56 PM PT
+http://news.com.com/2100-1023-955595.html 
+
+
+*WASHINGTON--The Canadian government is considering a proposal that 
+would force Internet providers to rewire their networks for easy 
+surveillance by police and spy agencies.*
+
+A discussion draft  
+released Sunday also contemplates creating a national database of every 
+Canadian with an Internet account, a plan that could sharply curtail the 
+right to be anonymous online.
+
+The Canadian government, including the Department of Justice 
+ and Industry Canada 
+, wrote the 21-page blueprint as a near-final step 
+in a process that seeks to give law enforcement agents more authority to 
+conduct electronic surveillance. A proposed law based on the discussion 
+draft is expected to be introduced in Parliament late this year or in 
+early 2003.
+
+Arguing that more and more communications take place in electronic form, 
+Canadian officials say such laws are necessary to fight terrorism and 
+combat even run-of-the-mill crimes. They also claim that by enacting 
+these proposals, Canada will be following its obligations under the 
+Council of Europe's cybercrime treaty 
+, which the country is in the 
+process of considering.
+
+If the discussion draft were to become law, it would outlaw the 
+possession of computer viruses, authorize police to order Internet 
+providers to retain logs of all Web browsing for up to six months, and 
+permit police to obtain a search warrant allowing them to find "hidden 
+electronic and digital devices" that a suspect might be concealing. In 
+most circumstances, a court order would be required for government 
+agents to conduct Internet monitoring.
+
+Canada and the United States are nonvoting members of the Council of 
+Europe, and representatives from both countries' police agencies have 
+endorsed the controversial cybercrime treaty 
+, which has 
+drawn protests from human rights activists and civil liberties groups. 
+Of nearly 50 participating nations, only Albania has formally adopted 
+, 
+or ratified, the treaty.
+
+Michael Geist , a professor at the 
+University of Ottawa who specializes in e-commerce law, says that the 
+justification for adopting such sweeping changes to Canadian law seems 
+weak.
+
+"It seems to me that the main justification they've given for all the 
+changes is that we want to ratify the cybercrime treaty and we need to 
+make changes," Geist said. "To me that's not a particularly convincing 
+argument. If there are new powers needed for law enforcement authority, 
+make that case."
+
+Geist added that "there's nothing in the document that indicates (new 
+powers) are needed. I don't know that there have been a significant 
+number of cases where police have run into problems."
+
+Probably the most sweeping change the legal blueprint contemplates is 
+compelling Internet providers and telephone companies to reconfigure 
+their networks to facilitate government eavesdropping and data-retention 
+orders. The United States has a similar requirement, called the 
+Communications Assistance for Law Enforcement Act 
+, but it 
+applies only to pre-Internet telecommunications companies.
+
+"It is proposed that all service providers (wireless, wireline and 
+Internet) be required to ensure that their systems have the technical 
+capability to provide lawful access to law enforcement and national 
+security agencies," according to the proposal. Companies would be 
+responsible for paying the costs of buying new equipment.
+
+Sarah Andrews, an analyst at the Electronic Privacy Information Center 
+ (EPIC) who specializes in international law, says 
+the proposal goes beyond what the cybercrime treaty specifies. "Their 
+proposal for intercept capability talks about all service providers, not 
+just Internet providers," Andrews said. "The cybercrime treaty deals 
+only with computer data." EPIC opposes 
+ 
+the cybercrime treaty, saying it grants too much power to police and 
+does not adequately respect privacy rights.
+
+Another section of the proposal says the Canadian Association of Chiefs 
+of Police recommends "the establishment of a national database" with 
+personal information about all Canadian Internet users. "The 
+implementation of such a database would presuppose that service 
+providers are compelled to provide accurate and current information," 
+the draft says.
+
+Gus Hosein, a visiting fellow at the London School of Economics and an 
+activist with Privacy International, calls the database "a dumb idea."
+
+"Immediately you have to wonder if you're allowed to use anonymous 
+mobile phones or whether you're allowed to connect to the Internet 
+anonymously," Hosein said.
+
+A representative for George Radwanski 
+, Canada's privacy commissioner, said 
+the office is reviewing the blueprint and does not "have any comments on 
+the paper as it stands."
+
+Comments on the proposal can be sent to la-al@justice.gc.ca 
+ no later than Nov. 15.
+
+
+
+

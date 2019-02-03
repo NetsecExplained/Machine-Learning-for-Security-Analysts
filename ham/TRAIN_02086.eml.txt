@@ -1,0 +1,40 @@
+Catching upURL: http://diveintomark.org/archives/2002/10/03.html#catching_up
+Date: 2002-10-03T22:03:04-05:00
+
+- _Phil Ringnalda_: Hey Radio, this PRE's for you[1]. “You did update 
+Radio.root after yesterday's fix for the double-decoding bug in the aggregator, 
+didn't you?” 
+- _Brad Choate_: Sanitize Plugin[2]. “Sanitize is a Movable Type plugin 
+that allows you to clean HTML and other markup that might exist in an comment 
+entry.” 
+- _Scott Ambler_: The Process of Database Refactoring[3] [via John Beimler[4]] 
+“A database refactoring is a simple change to a database schema that 
+improves its design while retaining both its behavioral and informational 
+semantics.” 
+- _Mac OS X Hints_: Convert Windows Outlook mail to Mail.app[5]. 
+“Converting the corporate Windows user who has all their old email in 
+.pst files for years back? Help them on their way by getting their mail out of 
+the proprietary .pst format and into standards based mbox format.” 
+- _Shelley Powers_: RDF Query-o-matic Light[6] and RDF Query-o-matic Light 
+explained[7]. “I slaved away this afternoon, persevering in my work in 
+spite of numerous obstacles (sunshine, cat on lap, languor) to bring you RDF 
+Query-o-Matic Light.” 
+- _Bill Kearney_: RDF.root[8]. “This is a tool for Radio Userland. Using 
+it will allow your Radio8 install to produce RSS-1.0 XML feeds.” 
+- _Paul Ford_: Borrowing a car[9]. “Give me a turkey sandwich.” 
+
+
+
+
+
+[1] http://philringnalda.com/archives/002337.php
+[2] http://www.bradchoate.com/past/mtsanitize.php
+[3] http://www.agiledata.org/essays/databaseRefactoring.html
+[4] http://john.beimler.org/archives/000058.html
+[5] http://www.macosxhints.com/article.php?story=2002100306134721
+[6] http://weblog.burningbird.net/class_rdql/query.htm
+[7] http://weblog.burningbird.net/archives/000568.php
+[8] http://www.ideaspace.net/users/wkearney/misc/radio/radio8/rdf/current/
+[9] http://ftrain.com/second_toothpaste.html
+
+

@@ -1,0 +1,38 @@
+Re: Snow Leopard, Java 6 and Netbeans
+On Mon, Apr 26, 2010 at 9:14 PM, Raymond Martin  =
+wrote:
+
+>> Raymond,
+>>=20
+>> Take a look at Mike's post.
+>=20
+> Which basically says that the wrong thing is being chosen in the =
+program.
+
+What I read was that there is a difference between how Java 6 and Java 5 =
+handle glyph rendering. That means that there is a not backward =
+compatible modification in Java 6 that triggers that problem. No need to =
+have a BS in computer science to parse that.
+
+> Anyway, the main thread here really is about slow performance, not =
+about Glyph rendering.
+
+And glyph rendering affects performance. And it is likely that other =
+modifications in Java 6 similarly affect performance for other areas. =
+Are you being a troll ?
+
+
+Jean-Christophe Helary
+----------------------------------------
+fun: http://mac4translators.blogspot.com
+work: http://www.doublet.jp (ja/en > fr)
+tweets: http://twitter.com/brandelune
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,29 @@
+Re: RAW photo imagesCharles Kroeger wrote:
+> Does anyone running Debian, (not Umbuto) use 'raw-therapee' or know of a good
+> raw image processor that does well with 'our' distro? I have Gimp but can't
+> find anything regarding 'raw' in the help files.
+> 
+> (i.e. 16bits)
+> 
+> have a better one.
+> 
+
+I have used ufraw successfully with Canon's crw files. I have also used
+dcraw to do the raw->jpeg conversion on the command line. The only
+problem that I have encountered in the latter method is that the dcraw
+appears to not understand camera's white balance (at least in Canon's case).
+
+-- 
+
+Please reply to this list only. I read this list on its corresponding
+newsgroup on gmane.org. Replies sent to my email address are just
+filtered to a folder in my mailbox and get periodically deleted without
+ever having been read.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/ht7glk$l7g$1@dough.gmane.org
+
+

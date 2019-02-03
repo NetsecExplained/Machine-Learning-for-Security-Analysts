@@ -1,0 +1,69 @@
+Re: Filesystem recommendationsFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 16:48:09 B. Alexander wrote:
+> On Mon, Apr 26, 2010 at 5:34 PM, Boyd Stephen Smith Jr. <
+> bss@iguanasuicide.net> wrote:
+> > On Monday 26 April 2010 16:05:31 B. Alexander wrote:
+> > > On Mon, Apr 26, 2010 at 2:22 PM, Boyd Stephen Smith Jr. <
+> > > bss@iguanasuicide.net> wrote:
+> > > > I'm also a current reiser3 user.  I find the ability to shrink the
+> > > > filesystem
+> > > > to be something I am not willing to do without.
+> > >
+> > > You know, I said the same thing, but then as the kernel and GRUB and
+> > > the like advanced, I noticed that my reiserfs partitions would have to
+> > > replay the journal every time I rebooted, even after a clean shutdown.
+> >
+> > That doesn't seem right.  I have been using reiser3 since 2005, and my
+> > system
+> > does not require a journal replay if I do a clean shutdown/reboot.  A
+> > forced
+> > reboot through Alt+SysRq+B does trigger a journal replay (as it should).
+>=20
+> No, this is a result of sync;sync;shutdown -r now.
+
+Well, WFM.
+
+Do you have a log of the shutdown messages that appear on the console?  The=
+y=20
+might tell us why your filesystem is not getting cleanly re-mounted read-on=
+ly.
+
+> > I also have 4+ tebibytes but most of them are allocated to filesystems.
+> >  I've
+> > had to shrink filesystems dozens of times since 2005, during or after a
+> > data
+> > move.
+>=20
+> I've had to extend on the fly many more times than I have had to reduce.
+
+Yes.  Many, many more times.  A filesystem that can't grow is beyond useles=
+s=20
+for me.  Luckily btrfs support growing and shrinking and it can do both whi=
+le=20
+mounted.  On-line shrinking is a trick I couldn't get reiser3 to perform.
+=20
+> >  I'm hoping to be able to move that onto LVM once I move to
+> > GRUB2 and GPT.
+>=20
+> You know, /boot on bare drive has never bothered me, especially since I u=
+se
+> encrypted filesystems on everything but VMs. On laptops, I had it set up =
+so
+> /boot lived on a thumb drive...So I'm cool with it.
+
+Well, I will still have to have a "partition" for GRUB to embed stage 1.5 i=
+f I=20
+go with GPT.  However, it won't contain files per se.  I like having as muc=
+h=20
+as possible on LVM because it makes it easier to migrate to new storage med=
+ia=20
+and retire the old media.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

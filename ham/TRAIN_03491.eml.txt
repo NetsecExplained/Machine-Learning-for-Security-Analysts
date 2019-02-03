@@ -1,0 +1,62 @@
+Re: FSEvents errors after the removal of a watched directoryOn May 5, 2010, at 9:12 PM, ext Dominic Giampaolo wrote:
+
+>> - I create a FSEventStream with the right directories to watch
+>> - if the user adds or removes a directory, I delete the current FSEventS=
+tream and create a new one with the right values
+>>=20
+> Are you sure that you're properly tearing down and
+> releasing the old FSEvent stream before creating=20
+> the new one?=20
+>=20
+
+Yes, I am sure of that.
+I printed all the steps on the output to check:
+
+# Create stream=20
+## Schedule stream=20
+### Start stream=20
+[stuff happens]
+#### Stop stream=20
+##### Invalidate stream=20
+###### Release stream=20
+# Create stream=20
+## Schedule stream=20
+### Start stream=20
+[...]
+#### Stop stream=20
+##### Invalidate stream=20
+###### Release stream=20
+
+I don't unschedule the stream from the run loop since I invalidate it.
+
+> Also, is it possible that one FSEventStream gets=20
+> deleted on one thread and another is created on
+> another thread at the same time?  Can you see if
+> putting all FSEventStream creation/deletion on=20
+> the same thread makes the problem go away?
+>=20
+
+
+All the stream related stuff is happening on the same thread (at least for =
+now).
+Plus, in my example, I don't create a new stream after deleting the first o=
+ne (since I have nothing left to watch).
+
+It seems to me the stream may not be properly closed, or it is trying to ac=
+cess something that doesn't exist anymore.
+But I am following all the steps for properly stopping and releasing the st=
+ream.
+
+--=20
+Fabien Freling
+Software Engineer, Platform team
+Nokia, Qt Development Frameworks
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

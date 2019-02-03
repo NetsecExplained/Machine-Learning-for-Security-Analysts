@@ -1,0 +1,58 @@
+Re: Questions about RAID 6Mark Allums put forth on 4/27/2010 10:31 PM:
+
+> For DIY, always pair those drives.  Consider RAID 10, RAID 50, RAID 60,
+> etc.  Alas, that doubles the number of drives, and intensely decreases
+> the MTBF, which is the whole outcome you want to avoid.
+
+This is my preferred mdadm 4 drive setup for a light office server or home
+media/vanity server.  Some minor setup details are omitted from the diagram
+to keep it simple, such as the fact that /boot is a mirrored 100MB partition
+set and that there are two non mirrored 1GB swap partitions.  / and /var are
+mirrored partitions in the remaining first 30GB.  These sizes are arbitrary,
+and can be seasoned to taste.  I find these sizes work fairly well for a non
+GUI Debian server.
+
+md raid, 4 x 500GB 7.2K rpm SATAII drives:
+
+	mirror			 mirror
+	/    \			 /    \
+ --------  3  --------    --------  3  --------
+| /boot  | 0 | /boot  |  | swap1  | 0 | swap2  |
+| /      | G | /      |  | /var   | G | /var   |
+|--------|   |--------|  |--------|   |--------|
+| /home  |   | /home  |  | /home  |   | /home  |
+| /samba |   | /samba |  | /samba |   | /samba |
+| other  |   | other  |  | other  |   | other  |
+|        |   |        |  |        |   |        |
+|        |   |        |  |        |   |        |
+ --------     --------    --------     --------
+	\	\		/	/
+         -------------------------------
+		     RAID 10
+		   940 GB NET
+
+For approximately the same $$ outlay one could simply mirror two 1TB 7.2K
+rpm drives and have the same usable space and a little less power draw.  The
+4 drive RAID 10 setup will yield better read and write performance due to
+the striping, especially under a multiuser workload, and especially for IMAP
+serving of large mailboxen.  For a small/medium office server running say
+Postfix/Dovecot/Samba/lighty+Roundcube webmail, a small intranet etc, the 4
+drive setup would yield significantly better performance than the higher
+capacity 2 drive setup.  Using Newegg's prices, each solution will run a
+little below or above $200.
+
+This 4 drive RAID 10 makes for a nice little inexpensive and speedy setup.
+1TB of user space may not seem like much given the capacity of today's
+drives, but most small/medium offices won't come close to using that much
+space for a number of years, assuming you have sane email attachment policies.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD80B6E.2010401@hardwarefreak.com
+
+

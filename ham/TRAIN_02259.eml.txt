@@ -1,0 +1,30 @@
+Re: http://apt.nixia.no/Once upon a time, Harri wrote :
+
+> > You can't get the file index from here either?
+> > http://apt.nixia.no/apt/files/
+> 
+> The requested URL /apt/files/ was not found on this server.
+
+Very strange then : It works fine from here, even shift-reloading and with
+no proxy whatsoever!
+
+> > During the past few days, I've experienced connection problems with
+> > that site from time to time, but for me right now it's working.
+> 
+> Maybe it's temporary :-/
+
+If you need another apt repository with Red Hat Linux 7.2 files, there are
+a few others. See : http://freshrpms.net/apt/
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

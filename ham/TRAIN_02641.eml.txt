@@ -1,0 +1,33 @@
+Re: use of base image / delta image for automated recovery from
+    attacksreply to the mail from Ben Mord (bmord@icon-nicholson.com):
+
+> Hi,
+
+Hello,
+
+< ... snipped for brevity ... >
+
+> ... This concept could also be
+> applied to the application servers, and even the database server partitions
+> (except for those partitions which contain the table data files, of course.)
+
+	Although the data might just be the information that needs protecting.
+
+> Does anyone do this already? Or is this a new concept?
+
+	I've seen this implemented for a shell server, although they chose
+to have their root on a CD-WR in a CD-R drive. Which meant that even
+when compromised it was only possible to examine other users data.
+	AFAIR(emember) they just swapped CD's when a root exploit was found.
+
+> Thanks for any opinions,
+
+NP
+
+blaze your trail
+--
+redhat
+
+'I am become Shiva, destroyer of worlds'
+
+

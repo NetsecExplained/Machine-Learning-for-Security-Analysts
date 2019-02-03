@@ -1,0 +1,25 @@
+Re: Fwd: Re: Kde 3.5 ...From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon,10.May.10, 09:25:42, Dotan Cohen wrote:
+>=20
+> Sorry for CCing to you messages that are meant for you, Lisi. If you
+> haven't noticed the mailing list headers are broken and Reply sends
+> messages off list. Therefore I use Reply All and oh nos, you get CCed.
+
+http://www.unicom.com/pw/reply-to-harmful.html
+http://woozle.org/~neale/papers/reply-to-still-harmful.html
+
+(no, I don't want to start *that* discussion yet again; interested=20
+people can just search the archives)
+
+I can't tell what mailer you are using, but most of the FLOSS mailers=20
+have reply-to-list.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

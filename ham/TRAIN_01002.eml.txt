@@ -1,0 +1,45 @@
+Re: KDE4 & KDE3 || Gnome2 & Gnome3Alan Ianson wrote:
+
+> On Tue May 11 2010 08:41:59 am deloptes wrote:
+> 
+>> Don't understand me wrong. I am for improvement and progress but not the
+>> way kde4 is pushing it to the end user.
+> 
+> If there was enough interest, kde3 could continue to be developed as it's
+> own project.
+> 
+> I would support the project but I can't contribute anything more than bug
+> reports since I am just a user and not a programmer.
+
+I remember I asked on kde-develop and they said they don't have the
+ressources to support it. But what I mean is that someone should care to
+get the code compiled on newer libraries. This could be challenging though
+if the code is working ATM, it's not that much effort to keep it running at
+least for the next few years.
+
+The interest is present I think, but not in the focus of interest of kde
+management/development team. I personally could and will make a repo for my
+needs ... but it does not seem to be urgent ATM. If someone starts similar
+project I would love to know and join.
+
+Hm, so we have to think about doing something like kde3.10 for debian
+squeeze. I personally hate k/ubuntu but there are few very useful features
+in the 3.10 version there.
+
+This plan could cover 3-4 years. And in that time kde4 should have matured
+enough to fit our needs.
+
+As far as I know kde3 is not in squeeze (apps are supported but framework
+not) or am I wrong?
+
+What do you think?
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hscb3a$f9f$1@dough.gmane.org
+
+

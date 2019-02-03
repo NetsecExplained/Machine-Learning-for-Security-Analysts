@@ -1,0 +1,54 @@
+Re: How to trick my Debian in thinking that a package is not
+ installedOn Tue, Apr 27 at 10:32, Boyd Stephen Smith Jr. penned:
+> On Tuesday 27 April 2010 08:48:48 Daniel Burrows wrote:
+> 
+> > Essentially, it causes held packages to be added to the root set
+> > (and that's the best implementation, I think: modify aptitude's
+> > custom root set function to include held packages).
+> 
+> You lost me, but I haven't delved into the aptitude source code.  My
+> approach would have been just making the 'hold' action also clear
+> the 'automatically installed' flag; essentially "institutionalizing"
+> the temporary solution.  But, I defer to your solution as it sounds
+> more flexible.
+
+I'm also not familiar with the implementation, but I would prefer that
+automatically installed packages stay automatically installed, so that
+they have the possibility of being automatically removed when no longer
+needed.
+
+I use "hold" liberally to weather Sid storms.  There are two cases I
+see crop up: one, aptitude suggests removing packages without an
+obvious replacement.  Two, aptitude marks things as broken that have
+been working just fine.  In either case, I start slamming the "=" key
+until packages will no longer be removed, and nothing is marked
+broken.  This works 99.99% of the time.  At some later period when I
+suspect the storm has passed, I test the waters by unholding the
+packages and gauging aptitude's reaction.
+
+I also use "hold" when apt-listbugs + some investigation leads me to
+believe I'm better off with the current version.  (There's some reason
+I don't use forbid-version, but I don't recall.  Maybe it wasn't
+persisting between sessions?  But that would have been years ago.)
+
+All of which is to say, just because I've marked a package on hold
+doesn't mean that I want it on my system forever.  But if that's the
+only way to deal with the problem, then I can certainly manage.  My
+system is ancient, and there are already plenty of package on it whose
+presence I can't easily explained.  What's the harm in a few more?
+
+If this is a misuse of "hold" and there's a better way, though, I'm
+all ears.  Rereading, it seems like "forbid-version" would be the
+right call for most of what I'm doing, assuming it does persist
+between aptitude sessions.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100427155919.GB30298@mail.bounceswoosh.org
+
+

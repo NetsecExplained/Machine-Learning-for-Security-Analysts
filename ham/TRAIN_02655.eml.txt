@@ -1,0 +1,46 @@
+Re: RH 8 no DMA for DVD driveOn Mon, 2002-10-07 at 19:36, Matthias Saou wrote:
+
+> > Eek.  Maybe it's just me, but I don't think that's a good idea. 
+> > Outputting a message in %post and providing a README of some kind would
+> > be better, as well as perhaps adding a note in %description.
+> 
+> Why "Eek"? :-)
+> If no /dev/dvd exists, it'll create it.
+> If /dev/dvd exists, it won't touch it.
+
+I assume that you won't %ghost or remove these and the modules.conf
+change on uninstall, though.  So people who are installing this RPM and
+are unfortunate enough to have a DVD drive (or just an ordinary CD,
+non-DVD drive) that doesn't support DMA will be left with a system
+without a working CD drive, even after removing the RPM.  And without
+ever knowing what struck them.  You can't remove the DMA setting from
+modules.conf either unless you're sure that ogle added it there and
+nothing else needs it.
+
+The /dev stuff isn't that dangerous, but the modules.conf change can
+be.  That's why "Eek" :)
+
+> If someone installs ogle (a DVD player), I'm assuming the hardware is
+> recent enough for software playback and that the drive is a DVD-ROM... all
+> of them support DMA! But since that change requires a reboot or a manual
+> change, I'm still hesitating to integrate it :-/
+
+A worthy goal...
+
+> My goal is to allow users to install a DVD player through synaptic and play
+> DVDs in no time. Outputting a message in the %post section of a package is
+> always a bad idea, putting the tip in the %description sounds good though.
+
+How about splitting the creation of the symlinks and modules.conf
+modifications into a separate RPM?
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

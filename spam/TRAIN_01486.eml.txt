@@ -1,0 +1,52 @@
+Hi, hibody, unbelievable 80% off prices
+
+
+
+Newsletter
+
+<!--
+a:visited
+{ color: #D02E3A; text-decoration: underline; }
+
+dyloi
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-family: Tahoma;
+ font-size: 14px;
+ color: #C42A3C;
+}
+
+a:link
+{ color: #5A46FD; }
+
+a:hover
+{ color: #CCF16B; text-decoration: none; }
+
+-->
+
+
+
+
+
+
+To view this email online,
+		click here.
+      
+
+
+
+
+
+
+ 
+Click here to
+	unsubscribe. 
+Read our privacy policy.
+(c) 2008-2010 Ukeuysubudy. All rights reserved.
+
+
+
+
+

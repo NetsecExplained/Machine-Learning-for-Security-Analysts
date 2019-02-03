@@ -1,0 +1,22 @@
+Re: VM software for personal use?Hi, Richard,
+
+I am running Windows XP 32 bit, Windows XP Pro 64 bit, and, at the
+moment, Ubuntu 10.04 in Virtual Box. Every "just works", including the
+web, usb attachments, etc.. I recommend it.
+
+This is the non-free Sun version, though, as I didn't have a lot of
+luck (it was some time ago) with the packaged version.
+
+YMMV
+
+HTH
+
+Terence
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2mc7e110fe1004230945qd8d3d37zc5a50d60a3e8b961@mail.csmining.org
+
+

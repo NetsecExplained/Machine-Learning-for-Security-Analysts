@@ -1,0 +1,52 @@
+Re: Problems with JNI included in a JNLP on Mac OS XOn 4/7/2010 9:50 AM, Mike Swingler wrote:
+> On Apr 7, 2010, at 8:38 AM, Brandon Moon wrote:
+>
+>    
+>> On 4/7/2010 7:00 AM, Tomas Hurka wrote:
+>>
+>>      
+>>> On 7 Apr 2010, at 00:29, Brandon Moon wrote:
+>>>
+>>>        
+>>>> I'm having an issue with a JNI library when distributed as part of a JNLP app (or Java Web Start).  The Java application loads the library, then calls a native function that spawns a new thread.  I attach this thread to the JVM (using AttachCurrentThreadAsDaemon) and initialize a JNIEnv object.  I then use this JNIEnv object to get the Java class and a few methods (so I can get back to java on certain events).  When I run this over Java Web Start, the call that requests a method id crashes.  I have no idea why this happens, and can't find any related errors online.  Has anyone else run into this problem?  Any input would be appreciated.
+>>>>
+>>>> This is the native code, the line that causes problems has *** around it:
+>>>>
+>>>> // Attach this thread to Java VM
+>>>>    if ((*javaVM)->AttachCurrentThreadAsDaemon(javaVM, (void**)&eventPumpEnv;, NULL)<  0) {
+>>>>        NSLog(@"Failed to attach event pump to Java VM");
+>>>>    }
+>>>>    else {
+>>>>        // Cache class and method references
+>>>>        systemHooks = (*eventPumpEnv)->FindClass(eventPumpEnv, "com/pixelture/systemhooks/SystemHooks");
+>>>>        systemHooks = (*eventPumpEnv)->NewGlobalRef(eventPumpEnv, systemHooks);
+>>>>
+>>>> ***        notifySuspend = (*eventPumpEnv)->GetStaticMethodID(eventPumpEnv, systemHooks, "notifySuspend", "()V"); ***
+>>>>        //notifySuspend = (jmethodID)(*eventPumpEnv)->NewGlobalRef(eventPumpEnv, (jobject)notifySuspend);
+>>>>        notifySystemEvent = (*eventPumpEnv)->GetStaticMethodID(eventPumpEnv, systemHooks, "notifySystemEvent", "(JI)V");
+>>>>        //notifySystemEvent = (jmethodID)(*eventPumpEnv)->NewGlobalRef(eventPumpEnv, (jobject)notifySystemEvent);
+>>>>
+>>>>        ...
+>>>>
+>>>>        if (DEBUG) NSLog(@"Attached PollingLoop to Java and got environment&  methods");
+>>>>    }
+>>>>          
+>>> I think that class "com/pixelture/systemhooks/SystemHooks" is not found for some reason. Check that systemHooks is not NULL and that FindClass method does not throw an exception.
+>>>        
+>> So you were right, Java is throwing a ClassNotFoundException, but I don't understand why this would be the case.  I have a static initializer in that class, and that's where it is loading and calling that native method.  How can the class not be found if that's where the native method is being called from?
+>>      
+> Think about it: you are calling your JNI function from the class' static initializer. The class is not initialized yet. Attempts to find the (uninitialized) class should probably fail.
+>
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+
+I'm not trying to load an instance of the class, I'm trying to load the 
+actual class definition.  The error is telling me that the Java 
+ClassLoader can't find that class on the classpath (at least that's my 
+understanding).  What I don't understand is, for it to have called the 
+static initializer, that means Java has already loaded the class 
+definition, right?  So why can't it find it?
+
+Brandon Moon

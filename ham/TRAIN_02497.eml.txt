@@ -1,0 +1,34 @@
+Re: a problem with apt-getOn Mon, 7 Oct 2002, Thomas Vander Stichele wrote:
+
+> Hi,
+> 
+> In my build scripts, I have problems with some of the kernel packages.
+> 
+> For kernel-sources, I get :
+> 
+> Package kernel-source is a virtual package provided by:
+>   kernel-source#2.4.18-3 2.4.18-3
+>   kernel-source#2.4.18-3 2.4.18-3
+> 
+> on running apt-get install kernel-source
+> 
+> Now, first of all, this doesn't really tell me what the two options are ;)
+> Second, is there some way I can tell apt-get to install either ? This is 
+> done from automatic build scripts so I'd like it to proceed anyway.
+
+That's just apt's way of telling you the package is in "AllowDuplicated", 
+meaning multiple versions of the package can be installed at the same 
+time. Yes the output is a bit strange.. especially when there's only one 
+version available.
+
+'apt-get install kernel-source#2.4.18-3' will install it...
+
+-- 
+	- Panu -
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

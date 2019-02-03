@@ -1,0 +1,39 @@
+Re: xorg-server failing on IBM NetVista with Intel 82815 video; was
+ Re (6): Re^n: Grub vs. linux-image-2.6.32 conundrumOn Sat, 22 May 2010 03:13:06 -0400 (EDT), Andrei Popescu wrote:
+> On Sat,22.May.10, 00:55:34, David Jardine wrote:
+>> Stephen Powell wrote:
+>>> 
+>>> I see.  All comments.  Which is about the same as not having one.  Hmm.
+>> 
+>> Or is it?  I'm as baffled as anyone alse by xorg configuration, but 
+>> can't such a file, blank though it be, override some other config file?
+>> Just a thought.
+> 
+> It's not impossible to have different logic for when the file exists, 
+> even if entirely commented out[1]. I can think of two ways to check 
+> this:
+> 
+> - read the source
+> - diff Xorg.0.log files from starting X with an empty (or completely 
+>   commented out) xorg.conf and one with an xorg.conf specifying the same 
+>   driver X would choose.
+> 
+> [1] at least in shell scripts it's much easier to check for the 
+> existence of a file than parsing its contents
+
+That's a good point.  That's another thing he can try: erasing or renaming
+the /etc/X11/xorg.conf file.  But I suspect he's already tried that.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270201588.348778.1274572124208.JavaMail.root@md01.wow.synacor.com
+
+

@@ -1,0 +1,26 @@
+Re: Zoot apt/openssh & new DVD playing docOn Tue, Oct 08, 2002 at 04:36:13PM +0200, Matthias Saou wrote:
+> Two new things today :
+> 
+> 1) I've had to install a Red Hat Linux 6.2 server because of an old
+> proprietary IVR software that doesn't work on newer releases :-( So
+> I've recompiled both the latest apt and openssh packages for it, and
+> they are now available with a complete "os, updates & freshrpms" apt
+> repository at apt.freshrpms.net, for those who might be interested.
+
+Oh, neat.
+
+I have similiar thing in my hands, though it might be migratable if I
+had the time to try. I've been using another 6.x repository though.
+http://apt-rpm.tuxfamily.org/apt
+
+Anyone tried (dist-)upgrade from 6.x to 7? Theoretically it should drop
+in some -compat's (notably libc) and upgrade the rest and after a reboot
+and maybe a new kernel (and grub, but I have long before put those to
+v6's :) run just fine. Haven't had a spare machine to try it on myself,
+though.
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

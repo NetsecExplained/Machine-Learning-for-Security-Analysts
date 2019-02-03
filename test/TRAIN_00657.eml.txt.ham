@@ -1,0 +1,104 @@
+Re: TOra with Oracle support (was: Re: Kde 3.5 ...)Cassiano Leal wrote:
+
+> On 6 May 2010 14:06, deloptes  wrote:
+>> Dotan Cohen wrote:
+>>
+>>>
+>>> Yes, KDE 4 seems to be much better for the average Joe. But that is
+>>> the reason that power users suffer at the moment! A.Joe already has
+>>> Gnome...
+>>>
+>>>
+>>
+>> Exactly! OK, I'll look forward to test this weekend.
+>> Main issue for me is tora with oracle, but also a bunch of other apps
+>> that I'm using.
+>> Thanks anyway!
+> 
+> Speaking of which... Have you managed to compile TOra with oracle
+> support using dpkg-buildpackage?
+
+No, didn't have time when I needed it and when I don't I don't have time to
+do the deb building.
+
+> 
+> I used to be able to just by setting oracle's env variables. Something
+> has changed, though, and now I get these messages after issuieng
+> dpkg-buildpackage:
+> 
+> -- Found Oracle: /usr/lib/oracle/11.1/client64/lib/libclntsh.so
+> (ORACLE_HOME='/usr/lib/oracle/11.1/client64')
+> -- Found XML Oracle: ORACLE_INCLUDES_XML-NOTFOUND
+> ORACLE_LIBRARY_XML-NOTFOUND -- Oracle not found.
+> -- Oracle: You can specify includes:
+> -DORACLE_PATH_INCLUDES=/usr/include/oracle/10.2.0.3/client
+> --    currently found includes: ORACLE_INCLUDES-NOTFOUND
+> -- Oracle: You can specify libs:
+> -DORACLE_PATH_LIB=/usr/lib/oracle/10.2.0.3/client/lib
+> --    currently found libs: /usr/lib/oracle/11.1/client64/lib/libclntsh.so
+> -- No Oracle OCI found. TOra will be build without Oracle support
+
+Sorry, I can not help you in this. I just downloaded the tora code and
+compiled it against my oracle sdk which is in the /opt/oracle dir. (I mean
+I've put it there and setup all I need to use it thisway)
+
+> 
+> 
+> Note that it first stats that it has found Oracle in
+> /usr/lib/oracle/11.1/client64, but then says that Oracle was not
+> found.
+> 
+> What do I have to do in order to compile it with Oracle support?
+> 
+> I am using Oracle InstantClient 11.1 libs converted from rpm do deb
+> with alien in a squeeze box. sqlplus works fine.
+> 
+
+So you are asking me how I did manage to compile it in kde 3.5?
+
+First you need the sdk. I've put it in each version dir respectively. This
+is an extra package.
+
+Also why would you convert something from rpm to deb, when you can go to the
+vendor and download for free the real code?
+
+I've downloaded and put all I need in /opt/oracle
+
+ll /opt/oracle/
+общо 20
+drwxr-xr-x 5 root    root    4096  6 яну 14,37 .
+drwxr-xr-x 7 root    root    4096 14 дек  2,22 ..
+drwxr-xr-x 3 emanoil emanoil 4096 22 ное 16,58 instantclient_10_2
+drwxr-xr-x 3 emanoil emanoil 4096 14 дек  0,35 instantclient_11_1
+lrwxrwxrwx 1 root    root      18  6 яну 14,37 lib -> instantclient_11_1
+drwxr-xr-x 3 emanoil emanoil 4096 22 ное 16,54 network
+
+export ORACLE_HOME="/opt/oracle/instantclient_11_1"
+export TNS_ADMIN="/opt/oracle/network/admin"
+export PATH=/opt/oracle/instantclient_11_1:$PATH
+
+./configure --prefix=/usr --with-instant-client \
+        --with-oracle-includes=/opt/oracle/instantclient_11_1/sdk/include \
+        --with-oracle-libraries=/opt/oracle/instantclient_11_1  \
+        --with-oci-version=11G
+
+make
+make install
+
+that's it.
+
+I have to admit that for me the biggest challenge was to download the
+packages I need from the Oracle site.
+
+I remember I've tried to debianize once but it failed and I gave up, because
+I didn't have the time.
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hs0vic$t06$1@dough.gmane.org
+
+

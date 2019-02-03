@@ -1,0 +1,24 @@
+Re: [SAdev] SpamAssassin v2.40 released (finally)!From nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, Sep 02, 2002 at 06:53:24PM +0100, Justin Mason wrote:
+>   - Razor v2 now supported fully
+
+Hmmm...  I just upgraded from my modified 2.31 to a slightly modified 2.40
+(I add a routine to EvalTests) and get:
+
+Sep  2 15:32:24 eclectic spamd[20506]: razor2 check skipped: No such file o=
+r directory Can't call method
+"log" on unblessed reference at /usr/lib/perl5/site_perl/5.6.1/Razor2/Clien=
+t/Agent.pm line 211, 
+line 22.=20
+
+I haven't quite figured out why yet, more to come.
+
+--=20
+Randomly Generated Tagline:
+"So on one hand, honey is an amazingly sophisticated and efficient food
+ source. On the other hand it's bee backwash."
+             - Alton Brown, Good Eats, "Pantry Raid IV: Comb Alone"

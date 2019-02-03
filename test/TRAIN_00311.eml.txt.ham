@@ -1,0 +1,44 @@
+Re: gforce 9400On Sat, 10 Apr 2010 06:50:05 +0200, steef wrote:
+
+> Camaleón wrote:
+
+>> Just another thing to try.
+>>
+>> Issue "lspci | grep VGA" and put here the output.
+
+(...)
+
+> here it comes:
+> 
+> steef@debianlennynw:~$ lspci | grep VGA 00:02.0 VGA compatible
+> controller: Intel Corporation 4 Series Chipset Integrated Graphics
+> Controller (rev 03) 04:00.0 VGA compatible controller: nVidia
+> Corporation Device 0641 (rev a1) 
+
+So, do you have the two VGA cards enabled? I also have an Intel embedded 
+card but IIRC, I disabled it in the BIOS as soon as I plugged the nvidia 
+card (7600 GS).
+
+OTOH, it seems that device ID corresponds to nvida 9400 GT. So I would 
+test with the nvidia Debian drivers. If they do not work, you can always 
+come back and activate the Intel one.
+
+> I'll look into that wiki (again),
+> 
+> it can take some time before i answer again: got to take care of my
+> family now,
+
+Take your time. Family is first :-)
+
+Saludos,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.10.17.22.47@csmining.org
+
+

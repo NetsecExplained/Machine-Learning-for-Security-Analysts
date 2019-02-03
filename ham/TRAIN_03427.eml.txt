@@ -1,0 +1,43 @@
+Re: XQuartz 2.5.0_rc2Hello All,
+
+On Apr 7, 2010, at 10:49 PM, Jeremy Huddleston wrote:
+
+> There is a bug in your remote mesa.
+> See https://bugs.freedesktop.org/show_bug.cgi?id=3D24226
+>=20
+>=20
+> You should be able to do it via:
+> LIBGL_ALWAYS_INDIRECT=3D1 glxgears
+
+do you mean to set a shell environment variable
+%> setenv LIBGL_ALWAYS_INDIRECT 1
+then=20
+%> glxgears
+
+> That works for me.
+
+This still gives me the  heinous error:
+
+X Error of failed request:  BadAlloc (insufficient resources for =
+operation)
+  Major opcode of failed request:  147 (GLX)
+  Minor opcode of failed request:  3 (X_GLXCreateContext)
+  Serial number of failed request:  19
+  Current serial number in output stream:  21
+
+
+My remote linux machine is running CentOS 5.4 with everything up-to-date =
+via yum. Would you recommend filing a bug report with the developers of =
+mesa and hope that some day it trickles down to RHEL and then to CentOS? =
+Or should I build my own mesa? And just to clarify, this is NOT an X11 =
+problem right?
+
+Thanks,
+Scott=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

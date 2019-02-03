@@ -1,0 +1,65 @@
+Re: Battery monitor tools?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I may be a light debian user. 'Cause i simply use GNOME power manager as
+battery tool, supposed to be the default power manager in GNOME. I think it
+is kind of dull. I've found battery using up much more quickly under debian
+than it under windows(yes, i'm using a dual-booting laptop).
+
+So, is this just because i choosed a unsuitable tool? Or it has any other
+reason. In the comparison mentioned above, I was doing some file work and/o=
+r
+running emacs
+
+On Mon, Apr 19, 2010 at 11:29 PM, Bob Proulx  wrote:
+
+> Joe Emenaker wrote:
+> > I'm looking for a good battery charge/discharge profiler tool for my
+> > Ubuntu laptop.
+>
+> Of course I am sure that you know you are posting about Ubuntu to the
+> Debian laptop mailing list?  The least you could do is to lie to us
+> and say you are running Debian when posting to a Debian list.  :-)
+>
+> > A couple of years ago, I came across a really neat tool for Windows for
+> > estimating the time remaining until the battery is completely charged o=
+r
+> > discharged. It was pretty clever about how it went about it. It would
+> > ...
+> > tool was learning what "80%" /really/ meant to that battery.
+>
+> I have often wanted this too.  And your other wishlist items as well.
+> As far as I know there isn't a tool that does exactly this for
+> GNU/Linux in general or on Debian in particular.  If you find one I
+> would be interested in it.
+>
+> There are some useful tools available though.  You might look at 'ibam'.
+>
+>  IBAM is an advanced battery monitor for laptops, which uses
+>  statistical and adaptive linear methods to provide accurate
+>  estimations of minutes of battery left or of the time needed until
+>  full recharge. It requires APM, ACPI or PMU.
+>
+> It needs some training.  But given that it does perform fairly well.
+> Unfortunately it isn't tied into the system tray tools and so isn't
+> going to be a seemless integration there.  It is available in gkrellm
+> if you use that stack.  See the gkrellm-ibam package.
+>
+> Bob
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.9 (GNU/Linux)
+>
+> iEYEARECAAYFAkvMyzoACgkQ0pRcO8E2ULYdhACdGU6+dGFyC/JEBZ7ZKJ1DADeQ
+> QQIAnifmqo0x0oW6l6rSl4pqZdpuTG6z
+> =3DEbsH
+> -----END PGP SIGNATURE-----
+>
+>
+
+
+--=20
+Mit freundlichen Gr=C3=BC=C3=9Fen
+
+Zichen Chen

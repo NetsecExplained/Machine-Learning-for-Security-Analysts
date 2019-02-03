@@ -1,0 +1,30 @@
+[Solved] xorg synaptics driver no longer working with udev?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+> On Thu, Apr 15, 2010 at 23:27:41 +0200, Sjoerd Hardeman wrote:
+>=20
+> [...]
+>=20
+>> Hal is certainly no longer working, see #567389. Yet, udev now also
+>> stopped working...
+>=20
+> OK, I think I understand a little bit better how this is supposed to be=
+
+> working now. Try to add your touchpad options to the InputClass section=
+
+> of the file /usr/lib/X11/xorg.conf.d/10-synaptics.conf as a first test.=
+
+>=20
+> [...]
+>=20
+> I am curious to hear if this actually works because I cannot try it
+> myself. (My up-to-date Sid desktop does not have a touchpad.)
+Hi Florian,
+
+The new xorg version migrated to testing today, and indeed contains the
+file /usr/share/X11/xorg.conf.d/50-synaptics.conf. Setting the options
+there enabled my special touchpad-tricks again. Thanks!
+
+Sjoerd
+

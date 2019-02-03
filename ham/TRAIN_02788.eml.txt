@@ -1,0 +1,36 @@
+Re: [SAtalk] Trend: Spam disguised as newsletters
+"Kerry Nice" said:
+
+> What about some reality check rules.  Yeah, you can pack in lots of things
+> into the header to try and get some negative points, but do they all make
+> sense in combination.  Can you have a Pine message id in the same header
+> with an Outlook Express one or a Mutt User-Agent?
+
+Yes, this is a big bonus of meta rules (new in 2.40); we can now
+e.g. check for an Outlook-style forwarded message, and not give
+it negative points unless it contains other signs of being from
+Outlook.
+
+> I think the headers should be paid special attention to.  The message
+> content of something from the NY Times or Lockergnome might look spammy, but
+> usually they don't forge or fake anything in the header.  Tone down the
+> negative scores and ding them extra for any obvious forgeries.
+
+When we get more (good) "nice" tests, the GA will assign lower
+scores to them.  I think the current problem is that there are
+very few really good nice tests in the current rulebase, and lots
+of +ve tests that those newsletters hit, giving the GA a big
+problem to solve.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

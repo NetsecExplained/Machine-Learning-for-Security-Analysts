@@ -1,0 +1,62 @@
+Re: Kde 3.5 ...* On 2010 06 May 01:35 -0500, Jorge Gonçalves wrote:
+> Hello!
+> 
+> First, thank you for the great distro that is Debian, one of the best.
+> 
+> I would like to suggest you some way so that the users keep on using
+> the good old KDE 3.5 when they migrate to the upcoming Lenny.
+
+Others have probably pointed this out, Lenny has 3.5, the upcoming
+Squeeze will not.
+
+> Maybe use dummy packages, or rename the packages so that KDE 3.5 could
+> remain installed, and not be forced to upgrade to Kde4.
+
+That ship has sailed and it isn't coming back.  KDE 3.5 is considered
+dead.  Why some motivated person has not forked it yet has escaped me.
+
+If I had the time, resources, and ability, it would be worthwhile to me
+to see the KDE 3.5 codebase live on.  If nothing else, the Lenny source
+tarballs would be a starting point for a new branch.  I'd expect some
+pushback from the KDE devs so it's likely the fork could not call itself
+KDE.  Some will say that KDE 3.5 can go no further which was also said
+of XMMS which spawned Beep Media Player which spawned Audacious which is
+alive and well, last I checked.  As I see it, KDE4 has been given 2+
+years to match KDE 3.5 and they've been unable to do so thus the time
+has come for someone to seriously consider reviving the KDE 3.5
+codebase.
+
+> I really feel sorry that KDE 3 series is no more being developed, and
+> when the day cames that I no longer will be able to use KDE 3, I will
+> switch to Apple or even Windows, but NEVER to kde4 or Gnome!
+> (and I feel many users out there think like me!!!)
+
+Well, don't go throwing the baby out with the bathwater as we say over
+here!  I felt the same way but even though it is quirky, XFCE works
+fairly well as does GNOME in Linux Mint 8.  Still, either pales in
+comparison to the KDE 3.5 as does KDE4 but at the end of the day, the 
+DE is really not why I use a Linux distribution in the first place.  So
+jumping to a proprietary OS is not an option.
+
+- Nate >>
+
+> Thank you, keep the good work, Debian is one of the best.
+
+Agreed.  No matter the distro I choose, they are all Debian based.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506120356.GT28964@n0nb.us
+
+

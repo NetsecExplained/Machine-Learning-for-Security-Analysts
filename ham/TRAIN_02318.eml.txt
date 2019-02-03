@@ -1,0 +1,42 @@
+Re: GRUB Hard Disk ErrorJozsi Vadkan wrote:
+> I've got two pendrives.
+> 
+> I want to install a Debian on them. RAID1.
+> 
+> Ok...
+> 
+> ...
+> 
+> After I installed it in RAID1, it works perfectly, ok! :)
+> 
+> When I pull out one of the pendrive [good pendrive], it still boots up,
+> hurrah :)
+> 
+> But: ...
+> 
+> When I pull out the other pendrive [i plug in the first one i tried] it
+> say's:
+> 
+> GRUB hard disk error
+> 
+> What can I do?
+
+
+Different UUID?
+
+In the console as root type "blkid" to get UUID of your partitions then 
+setup /etc/fstab accordingly, you also may need to change the kernel 
+syntax too.
+-- 
+Jimmy Johnson
+
+SimplyMEPIS 8.5 at sda9
+Registered Linux User #380263
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF783BE.5080203@csmining.org
+
+

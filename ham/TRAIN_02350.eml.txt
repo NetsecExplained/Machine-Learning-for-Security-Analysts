@@ -1,0 +1,10 @@
+Re: [SAdev] phew!jm@jmason.org (Justin Mason) writes:
+
+> Yes -- 50% of the entire set for training and 50% for evaluation.
+
+Once you've settled on the final method for any one release, why not
+use 100% of the data for a final run?
+ 
+Dan
+
+

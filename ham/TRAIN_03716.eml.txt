@@ -1,0 +1,26 @@
+Prob. w/ install/uninstallhey i have a problem:
+i have a rpms that i have installed that i want to uninstall, i do it
+like so:
+rpm -e [rpm package]
+and it gives the error: package not installed, so i install it like
+so:
+rpm -i [rpm package]
+and it gives the error: package already installed, so i force it to
+install like so:
+rpm -i --force [rpm package]
+this installs it and then i try to uninstall it again and it still
+gives me the same error: package not installed.
+ 
+How can i get it to recognize that the package is indeed installed it,
+and/or get it to unstall it?
+ 
+Thanx in advance,
+Brian French
+
+-French
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

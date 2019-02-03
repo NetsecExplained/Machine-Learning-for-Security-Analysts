@@ -1,0 +1,35 @@
+Re: --with ...Once upon a time, C.Lee wrote :
+
+>  > I think I'll use this "--with " switch more and more where
+>  > possible.
+> 	Mmm, great stuff ... Now to get the RedHat Samba packager to do the
+> 	same thing ...
+
+I'm sure that if you file a bugzilla entry with a relevant patch against
+the spec file, chances of getting the change done are on your side ;-)
+
+> 	I have used there spec file and fun a few problems in it, and one
+> 	of them was just hashing out things for other use ...
+> 
+> 	Now to get to grips with the Kernel ... still have not found and
+> 	easy way to rebuild the Kernel without having to wait and hour for
+>       it to generate the headers for all arch ... arrrrhhhh ...
+
+The problem is that "--with  --without " is clearly not meant to
+change deeply the way a package is built. Its use would be more like
+enabling/disabling gpg, ldap, whateversql support in packages as it's not
+possible to use something like "--with-=" which could be used for
+a much wider scope.
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 0.00 0.12 0.32, AC on-line, battery charging: 100% (4:47)
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

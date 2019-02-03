@@ -1,0 +1,33 @@
+Re: Umont ownership?On Tue, 06 Apr 2010 16:22:19 -0400, Stephen Powell wrote:
+
+> On Tue, 6 Apr 2010 13:51:31 -0400 (EDT), Camaleón wrote:
+>> 
+>> Note the device "mount" options, automatically added by hal:
+>> 
+>> ***
+>> /dev/sdc1 on /media/disk type vfat
+>> (rw,nosuid,nodev,uhelper=hal,shortname=lower,uid=1000) ***
+> 
+> I didn't see that in your /etc/fstab file, Camaleón.  Where did this
+> come from? (Pardon my ignorance; but as I said before, I never use USB
+> hot plug and I am largely ignorant of this subject.  I know a few things
+> about the regular mount and umount commands issued from a shell prompt. 
+> But this hotplug stuff is new to me.)
+
+Nothing to pardon :-)
+
+That was the output of the "mount" command I sent in an early post, just 
+after I plugged the USB key.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.06.21.42.21@csmining.org
+
+

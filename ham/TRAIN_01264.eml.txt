@@ -1,0 +1,22 @@
+Re: [volatile] Updated clamav-related packages available for
+ testingFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, Apr 17, 2010 at 08:46:55AM +1000, Tomasz Ciolek wrote:
+> Will the packages me migrated from lenny-proposed-updates/volatile to
+> lenny/volatile in near future?
+> > Please report any problems (or successes) with testing the packages to
+> > the debian-volatile list.
+
+As you quoted we're waiting for problem and/or success reports.  So far
+there were too few.
+
+Kind regards,
+Philipp Kern
+--=20
+ .''`.  Philipp Kern                        Debian Developer
+: :' :  http://philkern.de                         Stable Release Manager
+`. `'   xmpp:phil@0x539.de                         Wanna-Build Admin
+  `-    finger pkern/key@db.debian.org

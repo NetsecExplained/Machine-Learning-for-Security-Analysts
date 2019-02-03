@@ -1,0 +1,13 @@
+Automating xmodmap keymapsEverytime I log into GNOME, I run this command in my home directory.
+
+xmodmap keymaps
+
+How can I automate this?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2q308d4701004100901x25a058e1h1156855fafe10044@mail.csmining.org
+
+

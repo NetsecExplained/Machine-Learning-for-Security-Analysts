@@ -1,0 +1,19 @@
+[qtMovie frameImageAtTime:frameTime] nil w/Flip4Macimage = [qtMovie frameImageAtTime:frameTime]
+
+This returns nil for all wmv files even with Flip4Mac installed. Note that
+the video can be opened in QTPlayer, and even plays fine via QTKit in a
+MoviePlayer within my app.
+
+How can I correctly get a frame image?
+
+Trygve
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

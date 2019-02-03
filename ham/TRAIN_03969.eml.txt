@@ -1,0 +1,46 @@
+Re: xterm colorYou are hardcoding the :0 DISPLAY there... you are probably just getting =
+a different one... you should really look into ssh tunneling X11 =
+instead...
+
+--Jeremy
+
+On May 25, 2010, at 01:42, William Chops Westfield wrote:
+
+>=20
+> On Apr 29, 2010, at 9:27 AM, Jeremy Huddleston wrote:
+>=20
+>>> Also, this is another newbie question, but
+>>> if I use ssh to connect to my desktop,
+>>> I cannot forward any X11 applications into
+>>> my laptop. I tried xhost + and nothing happens.
+>>=20
+>> 'xhost +' enables connection without authentication from other =
+systems over TCP/IP and has nothing to do with ssh tunnels.  Make sure =
+you're sshing to the remote system using 'ssh -Y' and that the remote =
+system allows ssh tunneling in its /etc/sshd_config.
+>=20
+> I also recently got the latest System updates for 10.5.8 and had to =
+install X11-2.5.1_rc1 over that to get working again (not unexpected.)
+>=20
+> However, I no longer seem to be able to start xwindows remotely on my =
+desktop (NOT via ssh tunnels; just ssh to the host with no tunneling, =
+and do "xterm -display mymac:0")  It fails with 'cannot connect" issues, =
+in spite of either xhost +remotesystem or even just "xhost +"  I don't =
+see any related messages on the Mac-side console...
+>=20
+> Is this something in X, or something in the security update?  I CAN =
+still ssh to my mac, so the firewall hasn't cut everything out.  By the =
+firewall panel does look different than I remember it.
+>=20
+> Any ideas?
+> Thanks
+> Bill W
+>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

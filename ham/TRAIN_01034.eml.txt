@@ -1,0 +1,24 @@
+No CORE DUMP.Hi All,
+
+I am using DSL [ damn small linux ] which is branched from debain.
+I am trying to use GCC, GDB.  Able to install both of them.
+
+I am doing following
+     - run a helloworld.c program whic has a while loop.  So while
+running, its stuck in while.
+     - another shell, "kill -11 PID" [ PID of the ./a.out ]
+After kill, i get Segmentation fault.  But Core is not dumped. [ I
+expect a print ( Core dumped ) ]
+
+Anyone faced this ??? Please help.
+
+Thanks
+- Avinash
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTimx6s-mqKKZx7ZnyC5xNIvc6STJHfrH7TS6rXUC@mail.csmining.org
+
+

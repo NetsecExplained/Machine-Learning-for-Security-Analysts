@@ -1,0 +1,24 @@
+Re: Attach gdb to program?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 08 April 2010 07.21:59 Adrian von Bidder wrote:
+> Just gdb -p  /usr/bin/kmail doesn't work :-(
+
+Arrgh!
+
+As it turns out, gdb 7.0 (squeeze) doesn't really work with binarries from=
+=20
+sid (or experimental), at least onn 32bit x86.  gdb 7.1 (sid) works fine.
+
+cheers
+=2D- vbi
+
+=2D-=20
+As we found out later, our activities had both saturated an uplink two
+"hops" up from our university, at the Nordic University Network level
+and made some DoS-alarms go off at the national level. All part of a fun
+release.
+        -- serving Debian sarge and Ubuntu Breezy CD images
+           http://www.acc.umu.se/~maswan/2005-12-10/2gbit-freesoftware.html

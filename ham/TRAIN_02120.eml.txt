@@ -1,0 +1,63 @@
+Re: Hptalx is buggy once calculator is plugged and linkedOn Sat, 08 May 2010 22:18:05 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> Can you see the "Awaiting Server Cmd." message in calculator's display?
+
+> Pointing this out is a good thing, but I had already tested this.
+> Actually, since I installed many programs in Spanish, my calculator is
+> (to my dismay) in Spanish, and I get, by pressing and holding right
+> shift and by pressing the right arrow, on the calculator,
+> 
+> ==
+> Espero comand.Servidor
+> ==
+> 
+> It looks like
+> 
+> ==
+> Awaiting Server Cmd.
+> ==
+
+Ah, in Spanish. Curious :-). Yes, so it translates.
+ 
+> and, evidently, doing *another* combination of keys gives me a text with
+> the Xmodem server.
+> 
+> Thus, what I am doing is right.
+
+O.k.
+
+>> Port "100"? What kind of port nomenclature is that? :-?
+> I do not know. I also wondered.
+> 
+>> I would expect "/dev/ttyUSB0" for an USB device or "/dev/ttyS0" for the
+>> first rs-232 port...
+> Me too.
+> 
+>> I think the application is crashing because cannot establish a
+>> connection with the device.
+> Such a (trivial, as habitual) case should have been handled by the
+> developers, shouldn't it?
+
+Yes... I would report. But also take a look into this:
+
+Connect HP 50g (or HP 49g+) to a Linux Box with hptalx
+http://bleedux.wordpress.com/2010/03/11/connect-hp-50g-to-a-linux-box-with-hptalx/
+
+And see if that helps. It seems to be written for ArchLinux (another 
+linux distribution) but it points some interesting things that you can 
+check.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.08.22.47.21@csmining.org
+
+

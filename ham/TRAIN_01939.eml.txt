@@ -1,0 +1,48 @@
+Re: pinning + apt-get vs aptitudeOn Sat, May 15, 2010 at 10:32:36AM -0500, Hugo Vanwoerkom wrote:
+> Hi,
+> 
+> (on Sid) I pinned grub-legacy, to avoid going to grub2.
+> 
+> Then when I do 'apt-get dist-upgrade' I see:
+> 
+> The following packages have been kept back:
+>   grub
+> 
+> and
+> 
+> The following packages will be upgraded:
+> ... grub-legacy ...
+> 
+> but when I do 'aptitude full-upgrade' I see:
+> 
+> The following packages will be REMOVED:
+> ... grub-legacy{a} ...
+> 
+> and
+> 
+> The following NEW packages will be installed:
+> ... grub-pc{a} ...
+> 
+> So why does aptitude pay no attention to my pin?
+> 
+
+High pin scores can be thrown off, even without high-scoring dependency
+issues, if there are more than two releases involved.
+
+This explains better than I could:
+
+http://www.argon.org/~roderick/apt-pinning.html
+
+-- 
+Kind Regards,
+Freeman
+
+http://bugs.debian.org/release-critical/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517203253.GA4143@Europa.office
+
+

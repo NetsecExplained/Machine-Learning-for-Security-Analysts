@@ -1,0 +1,35 @@
+Re: Put date on log file names?Hi!
+
+* vr  wrote:
+> I'd like to have the date in the file names so visually I'll know
+> what span is in each file.
+>
+> Can this be done? (put dates into the file name)
+Depends. See the other posts about logrotate
+> Should this be done? (put the date into the file name)
+No clue
+
+> If you're doing something like this already, how did you do it?
+I am logging to syslog (the protocol) and replaced syslog (the package)
+with syslog-ng. syslog-ng can be configured to do this:
+
+destination df_syslog {
+        file("/var/log/$HOST/$YEAR/$MONTH/$DAY/syslog"
+        template("$ISODATE $HOST $MSG\n")
+        owner(root) group(root) perm(0600) dir_perm(0700) create_dirs(yes));
+};
+
+This is a snipped that configures a file in a directory-structure matching
+the hostname and the date (you should be able to guess the details...)
+
+http://www.syslog.org/syslog-ng/v2/ has some more examples.
+
+ Timo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517211206.GA5127@spinnennetz.org
+
+

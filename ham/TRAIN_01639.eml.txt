@@ -1,0 +1,52 @@
+Re: Fwd: Re: Kde 3.5 ...Dotan Cohen schreef:
+> On 10 May 2010 14:37, steef  wrote:
+>    
+>> Dotan Cohen schreef:
+>>      
+>>>> where is the copy-files option in 'edit', dolphin in kde4.x (in 3.5 edit>
+>>>> copy files in konqueror) or did my old eyes look not sharp enough?
+>>>>
+>>>>
+>>>>          
+>>> In KDE 4.4.2 I have Edit ->    Copy in both Dolphin and in Konqueror. Can
+>>> you send to me a screenshot of your Edit menu? What KDE version?
+>>>
+>>>
+>>>        
+>> hi dotan:
+>>
+>> that is not exactly what i mean: i was not clear enough: so another time:
+>>
+>> i mean in kde 3.5 in the same row as 'copy' under 'edit' the 'copy files'
+>> possibility that i cannot find back in kde4.x.x
+>> i'll look at exact the version of kde 4.x.x later. this version of kde 4.x.x
+>> is on another (non-production) machine with os debian_sid, up to date.
+>>
+>> thanks for your answer,
+>>
+>> kind regards,
+>>
+>> steef
+>>
+>>      
+> What does "copy files" do then? Describe to me what it does and I will
+> see if Dolphin can do that, or if it is reasonable I will file a
+> feature request.
+>
+> Thanks.
+>
+>    
+look at (in my files) the next mail from sjoerd hardeman
+[un. of leiden (netherlands)]
+
+thank you,
+
+steef
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE80A26.7030407@home.nl
+
+

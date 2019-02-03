@@ -1,0 +1,60 @@
+[ILUG] semaphores on linux RH7.3Hi All,
+
+I have a question which is a bit tricky and was
+wondering of anyone has come across this problem
+before or could point me in the right direction.
+
+I am involved in porting a SCO unix application to
+Linux, and we have encountered a problem with the way
+semaphores  are being handled. The application uses
+mulitple processes to run application code with the
+main process known as the bsh which controls all i/o
+be it screen, or file i/o, syncronisation is handled
+via semaphores.
+
+In certain circumstances the main process and the
+application child process seem to lock up both waiting
+for the syncronisation semaphores to change state, I
+have attached ddd to the processes and it seems that
+the semaphore code is doing the correct things for
+syncronisation but the processes stay stuck in the
+semop() system call.
+
+I have also noticed that if I introduce a slight delay
+between changing semaphore states the problem goes
+away, but this causes our entire application to run
+really sloooww !! lol
+
+Is there anything weird or different with the standard
+implemenation of semaphores on modern linux that could
+cause a semop() to fail to pick up the change in state
+
+in a semaphore immediately?
+
+Setting sem_flg = IPC_NOWAIT and checking for errno ==
+EAGAIN and recalling semop() if the semop() call fails
+(-1) also fixes the problem but again system
+performance goes down the toilet.
+
+both the parent controlling process run as the same
+uid, and the parent creates the semaphores with
+permissions 0666.
+
+Any pointers would be appreciated!
+
+Rgds,
+
+Colin Nevin 
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

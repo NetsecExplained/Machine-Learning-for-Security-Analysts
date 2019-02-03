@@ -1,0 +1,14 @@
+Re: RSA (repost)"Adam L. Beberg" wrote:
+> So, who has done RSA implementation before?
+
+/me raises hand.
+
+
+> Having a typo-I-cant-spot problem with my CRT...
+
+Send me the source.
+
+
+R
+
+

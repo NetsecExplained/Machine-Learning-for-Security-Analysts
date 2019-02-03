@@ -1,0 +1,50 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is	protected! Why?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Merciadri Luca wrote:
+> Johannes Wiedersich wrote:
+>> Just use a grey-by-dotting watermark for black text, merge the layers
+>> and it will
+>> be rather difficult to remove the watermark.
+> I did not merge the layers before sending it to them. Problematic?
+
+Difficult to judge, since I somehow lost track of what exactly you tried
+to achieve and what is the nature of the document.
+
+If you are simply afraid, that someone would use this document as
+her/his own work you could watermark the pdf and convert it to a low
+resolution bitmap (as others have already suggested). If the document
+was later misused, you could just show your nice, high quality printout
+without watermarks to prove that you are the real author.
+
+Another way might be to hand out that bad quality printout on some
+special paper, either coloured or with rules and keep the pdf version to
+yourself. It will be about as difficult to retype/recreate such a
+document from paper as from retyping it from screen, which was your
+first choice (disallow printing, allow screen viewing).
+
+I think you might have gotten better replies in shorter time, if you had
+been more explicit and clear about what you try to achieve.
+
+- --
+Johannes
+
+In questions of science, the authority of a thousand is not worth the
+humble reasoning of a single individual.
+- - Galileo Galilei, physicist and astronomer (1564-1642)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvOssIACgkQC1NzPRl9qEVFsgCfVRlKyYWkvwPViEKl1j1mWOVj
+7GUAn2knZWl/41ciugK7HRDfXVmKgI62
+=18lF
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCEB2C2.6050004@physik.blm.tu-muenchen.de
+
+

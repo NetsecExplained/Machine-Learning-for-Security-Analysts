@@ -1,0 +1,26 @@
+Re: debian on a raid5 (4TB) issues
+> Hi, maybe OT but, I\m trying to install debian lenny on a raid5 with
+> 4TB. OS sees one big sda with 4TB, I can particion /boot, / and swap
+> but it only recognize 78GB instead the 4TB available. Is this
+> because
+> the partition in booteable? Can I install debian OS  on this hdd
+> with
+> these 3 partitions and use the rest for LVM? Thanks in advance,
+>
+.
+
+Seriously consider using Raid 6. If you use Raid 5 then the
+probability of an unrecoverable read error (URE) occurring while
+rebuilding the 4TB of data is IMO a little too high. With Raid 6 it
+would require 2 URE's that happen to be located in the same raid
+segment on both disks - the odds of that are extremely low.
+
+my 2c,- tim
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/b15e5b53f92a5f588f473e131f0b6409.squirrel@192.168.1.100
+
+

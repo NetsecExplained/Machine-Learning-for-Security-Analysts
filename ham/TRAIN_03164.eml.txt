@@ -1,0 +1,12 @@
+Re: [ILUG] Formatting a windows partition from LinuxHmm.
+
+Make sure you formatted the partition with fat 16 and have made the
+partition /dev/hda1 a size such that dos won't have a problem recognising
+it!
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

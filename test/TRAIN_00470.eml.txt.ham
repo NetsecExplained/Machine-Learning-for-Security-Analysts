@@ -1,0 +1,20 @@
+Re: shouldn't apt-get upgrade, you know, upgrade ?On 2010-04-06 07:12 +0200, Brian Ryans wrote:
+
+> Quoting Johan Grönqvist on 2010-04-05 23:50:37:
+>>
+>> I think you may be interested in the dist-upgrade command instead.
+>
+> Now called full-upgrade (though dist-upgrade remains for backcompat).
+> upgrade is now safe-upgrade.
+
+This is true for aptitude but not for apt-get.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87sk79kv51.fsf@turtle.gmx.de
+
+

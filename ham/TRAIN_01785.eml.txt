@@ -1,0 +1,53 @@
+Re: Umont ownership?On Wed, 07 Apr 2010 08:41:06 -0700, jeremy jozwik wrote:
+
+> getting more interesting at every attempt...
+> 
+> step 1.
+> # mount
+
+(...)
+
+ /dev/sdb1 on /media/video type vfat
+> (rw,nosuid,nodev,uhelper=hal,shortname=lower,uid=1000)
+
+O.k. That seems now reasonable :-)
+ 
+> step 2.
+> GNOME right click > unmount. error shows
+
+Yep. I told you that some devices display this message. It happens to me 
+*always* with my mobile phone. It does not happen with standard usb flash 
+disk, though.
+
+> step 3.
+> # mount
+
+(...)
+
+Which means it has been umounted.
+
+I get the same behaviour than you, but only when I attach a special 
+device (GNOME recognizes the mobile phone as some kind of music stuff). 
+
+Try this:
+
+1/ Plug on the device
+2/ Type mount (to get the device listed)
+3/ Type "umount /media/video" (adjust the command to point the right path)
+4/ Type "mount"
+
+With these steps I get no pop-up or warning messages and the device gets 
+umounted normally.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.07.16.37.25@csmining.org
+
+

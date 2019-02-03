@@ -1,0 +1,39 @@
+[SAdev] [Bug 828] spamassassin.org is unreliablehttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=828
+
+jm@jmason.org changed:
+
+           What    |Removed                     |Added
+----------------------------------------------------------------------------
+             Status|ASSIGNED                    |RESOLVED
+         Resolution|                            |FIXED
+
+
+
+------- Additional Comments From jm@jmason.org  2002-09-21 16:35 -------
+OK, this should now be considered fixed, I should think.
+
+   Domain Name: SPAMASSASSIN.ORG
+   Name Server: NS.PEREGRINEHW.COM
+   Name Server: NS1.RTS.COM.AU
+   Name Server: NS2.RTS.COM.AU
+   Name Server: NS3.RTS.COM.AU
+   Name Server: FAMILY.ZAWODNY.COM
+
+etc.
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

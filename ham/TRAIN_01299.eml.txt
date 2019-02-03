@@ -1,0 +1,28 @@
+Re: notification barOn Mon, 10 May 2010 07:42:33 -0700, Mark wrote:
+
+> On Mon, May 10, 2010 at 1:28 AM, Camaleón wrote:
+> 
+> 
+>> AFAIK, in Lenny, the updater icon only appears in system tray when
+>> security patches are available.
+>>
+> I'm running Lenny and the updater icon alerts me for program updates,
+> etc., as well as security updates.
+
+Unless I'm wrong, lenny does not get package updates for newer versions 
+of programs, only patches for bugs.
+
+What repositories do you have enabled in your "/etc/apt/sources.list"? :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.10.14.50.47@csmining.org
+
+

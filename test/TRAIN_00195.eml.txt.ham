@@ -1,0 +1,31 @@
+Re: Password messed upOn Tuesday 04 May 2010 05:30:25 Don wrote:
+> Hi,
+> 
+> I have a problem (actually more than one, but let's tackle this one
+> first) with my password on KDE log in screen no being accepted.  The
+> password does work OK when logging in using command line / terminal.
+> 
+> I have 3 users, and all have this same situation.  Their passwords work
+> on CLI but not on the welcome log in screen graphically.
+> 
+> Using 2.6.32-3-686 #1 SMP with squeeze/sid.
+> 
+> Never a problem like this previous to past month or so (cannot pinpoint
+> date as I was out of circulation in hospital for a week late March).
+> 
+> Any help appreciated -- knowledgeable enough to be dangerous, so even
+> though I'm not a newbie, don't assume I'm an expert.
+> 
+> Regards,
+> Don
+> 
+First idea would be keyboard country in X, but I bet you thought about that?
+Thierry
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005040632.39783.tchatelet@free.fr
+
+

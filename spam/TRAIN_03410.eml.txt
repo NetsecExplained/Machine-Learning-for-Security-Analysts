@@ -1,0 +1,113 @@
+[SPAM]  Death of Oscar nominee
+
+
+	Important Newsletter Issue 6054
+
+
+	.ctl00_menu_0 { background-color:white;visibility:hidden;display:none;po=
+sition:absolute;left:0px;top:0px; }
+	.ctl00_menu_1 { text-decoration:none; }
+	.ctl00_menu_2 { width:100%; }
+	.ctl00_menu_3 { color:White; }
+	.ctl00_menu_4 {  }
+	.ctl00_menu_5 {  }
+	.ctl00_menu_6 {  }
+	.ctl00_menu_7 {  }
+
+
+
+
+
+
+
+
+
+
+
+
+ .headerTop { background-color:#FFCC66; border-top:0px solid #000000; bor=
+der-bottom:1px solid #FFFFFF; text-align:center; }
+ .adminText { font-size:10px; color:#996600; line-height:200%; font-famil=
+y:verdana; text-decoration:none; }
+ .headerBar { background-color:#FFFFFF; border-top:0px solid #333333; bor=
+der-bottom:10px solid #FFFFFF; }
+ .title { font-size:20px; font-weight:bold; color:#CC6600; font-family:ar=
+ial; line-height:110%; }
+ .subTitle { font-size:11px; font-weight:normal; color:#666666; font-styl=
+e:italic; font-family:arial; }
+ td { font-size:13px; color:#333333; line-height:150%; font-family:trebuc=
+het ms; }
+ .sideColumn { background-color:#FFFFFF; border-left:1px dashed #CCCCCC; =
+text-align:left; }
+ .sideColumnText { font-size:11px; font-weight:normal; color:#999999; fon=
+t-family:arial; line-height:150%; }
+ .sideColumnTitle { font-size:15px; font-weight:bold; color:#333333; font=
+-family:arial; line-height:150%; }
+ .footerRow { background-color:#FFFFCC; border-top:10px solid #FFFFFF; }
+ .footerText { font-size:10px; color:#996600; line-height:100%; font-fami=
+ly:verdana; }
+ a:link {color: #003399; text-decoration: underline;}
+ a:hover {color: #003399; text-decoration: none;}
+
+
+
+
+
+
+
+
+Email not displaying correctly? 
+View it in your browser.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Subscriber menu
+
+
+
+
+
+	Unsubscribe |
+	
+	Forward |
+	
+	Contact information |
+	
+	Privacy Policy
+
+
+
+
+
+
+
+    Copyright =A9 2008 Iurapi Zywo, Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

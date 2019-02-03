@@ -1,0 +1,29 @@
+Re: md does a monthly resync??  (was Re: Questions about RAID 6)On 05/03/2010 03:45 AM, martin f krafft wrote:
+> also sprach Ron Johnson  [2010.05.03.1039 +0200]:
+>> Is that Q21?
+>>
+>> http://git.debian.org/?p=pkg-mdadm/mdadm.git;a=blob_plain;f=debian/FAQ;hb=HEAD
+>
+> Yes.
+>
+>>> 2. You were asked upon mdadm installation whether you wanted it, and
+>>>     you chose to accept yes. dpkg-reconfigure mdadm if you don't
+>>>     believe in this feature.
+>>
+>> Well, not me, since I don't have a soft array...
+>
+> Then you probably have much more annoying problems, or will have. ;)
+>
+
+I regularly backup to an external lvm2 LV.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDE8FF2.6070403@cox.net
+
+

@@ -1,0 +1,43 @@
+Re: Debian Sys Admin Training / CertificationThe info you guys shared is much appreciated - this gives me a good
+idea of direction and what routes to take.
+
+
+Thank you,
+
+Abraham
+
+
+
+
+
+On Thu, Apr 8, 2010 at 6:44 PM, Carlos Mennens  wrote:
+> On Thu, Apr 8, 2010 at 4:34 PM, Abraham Chaffin  wrote:
+>> What training / certification courses would you guys recommend for Sys Admin
+>> / Security Admin training or certification for Debian?
+>> Is the LPIC a good route? Go with Red Hat certification? Or what do you all
+>> suggest?
+>
+> Certifications are really nothing special these days. Back in 2001
+> they might have held water but I don't think this is the case any
+> longer. As for your question, I recommend you start 1st with the
+> CompTIA Linux+ certification exam. After that I can only recommend the
+> RHCT / RHCE Red Hat exam. It's industry respected and very useful for
+> career advancement and personal satisfaction.
+>
+> Good luck!
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/y2sd80f793f1004081844r61d3e2f0z8d8d480be79b6f96@mail.csmining.org
+>
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2sd82d32e1004090748y8eacd3aaj9e598346cc905d57@mail.csmining.org
+
+

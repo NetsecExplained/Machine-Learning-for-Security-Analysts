@@ -1,0 +1,34 @@
+Re: [Webdev] PHP+Javascript requestAt 06:10 PM 19/08/2002 +0100, Dave Wilson wrote:
+
+>In order for PHP to parse the results of the SELECT MULTIPLE after it's 
+>submitted, the variable name needs to end with []. That's great; PHP will 
+>take each selected element and plant them as consecutive elements in an 
+>array. But that makes for quite messy code when trying to link the regions 
+>SELECT action with the sites SELECT MULTIPLE. Javascript can't refer to 
+>the SELECT MULTIPLE by name because of the brackets, so I have to refer to 
+>it by its location in the form.
+
+er, i understood you until you reached the above. Maybe its my lack of PHP 
+but why would a variable name _need_ to end with [] ?
+
+With most languages you parse the submitted form data and should come out 
+with either variables or an array / hash, which you then work with and name 
+whatever you like.
+
+
+Lee Hosty -x- hostyle AT csn.ul.ie -x- +353 (0)86 8768780
+--
+YONDER BOGINE (n.)
+The kind of restaurant advertised as 'just three minutes from this cinema' 
+which
+clearly nobody ever goes to and, even if they had ever contemplated it, have
+certainly changed their mind since seeing the advert.
+
+
+
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

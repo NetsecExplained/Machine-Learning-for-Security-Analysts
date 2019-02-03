@@ -1,0 +1,24 @@
+Re: class variablesOn Sun, Apr 11, 2010 at 4:15 PM, Ariel Feinerman  wrote:
+
+> Can we use static variables as a class variables in Objective C?
+
+Objective-C doesn't have class variables, but you can use C's static
+variables in a similar way, since they're global within the scope of
+the file in which they're defined. So, you need to define them in your
+.m file (not as part of your class @interface), and keep in mind that
+they won't be visible from category methods that are defined in a
+different .m file.
+
+sherm--
+
+-- 
+Cocoa programming in Perl:
+http://www.camelbones.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

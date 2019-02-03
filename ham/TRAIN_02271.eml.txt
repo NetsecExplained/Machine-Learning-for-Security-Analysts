@@ -1,0 +1,15 @@
+Re: Xine DependenciesThanks Matthias...After installing those packages Xine now installs
+fine.  Guess I shoulda figured that one out...
+
+Thanks...
+QuaffAPint
+
+
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

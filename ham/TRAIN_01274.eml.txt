@@ -1,0 +1,50 @@
+Re: Why are there no latest books written for Debian systems?On Mon, 26 Apr 2010 02:24:52 -0400 (EDT), martin f krafft wrote:
+> 
+> Stephen Powell wrote:
+>> This is hardly a new book.  In fact, it was written in the days of Woody.
+>> (Woody -> Sarge -> Etch -> Lenny -> Squeeze)
+> 
+> It was written in the days of the sarge freeze and is entirely
+> focused on sarge.
+>>
+>> And parts of it are obsolete.  But the author focuses on the core
+>> stuff of Unix/Linux, and so most of it is still current. It's an
+>> excellent guide for how to accomplish common computing tasks in
+>> Linux,
+> 
+> Interesting analysis. ;)
+>
+> 
+> I /wanted/ to focus on Debian and leave out the "core stuff of
+> Unix/Linux" and "common computing tasks", because that's documented
+> elsewhere.
+> 
+> It is true that in the last 5 years, some parts have been obsoleted,
+> but I'd say most of it still applies.
+> 
+> Regardless, there's a need for a new edition. I am working on it.
+
+I think there may be some confusion here, Mr. Krafft.  The comments
+I made above were not in reference to anything _you_ wrote.  They were
+in reference to the original edition of "The Linux Cookbook", by
+Michael Stutz, which was copyrighted in 2001.
+
+   http://dsl.org/cookbook/cookbook_toc.html
+
+I suggest that you go back and look more closely at my original post.
+
+;-)
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/701354956.9070.1272291449420.JavaMail.root@md01.wow.synacor.com
+
+

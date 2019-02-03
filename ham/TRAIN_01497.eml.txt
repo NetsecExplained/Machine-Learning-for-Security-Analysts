@@ -1,0 +1,18 @@
+How to get kdict or aequivalent in KDE4 / Squeeze?Hi folks,
+
+a few days ago I've upgraded my Debian from Lenny to Squeeze. My
+problem: the beloved kdict with the small input-field in the kicker are
+not there anymore. I am missing it:-(
+What can I do to get access with such a small input-field to my local
+dictd?
+
+
+ciao, Dirk
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517172053.GA8454@dserver.dnetz
+
+

@@ -1,0 +1,32 @@
+Re: pinentry window?From nobody Sun Sep 18 20:45:29 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 08 April 2010 schrieb Modestas Vainius:
+> Hello,
+>=20
+> On ketvirtadienis 08 Balandis 2010 08:26:03 Adrian von Bidder wrote:
+> > Heyho!
+> >=20
+> > ... and, sending the last mail: is it a Debian specific issue, or
+> > some local feature of my KDE profile, or a KDE bug: recently (4.3 to
+> > 4.4, but I'm not sure exactly which updates triggered it), the
+> > pinentry window always comes up behind the kmail windows when I sign
+> > email.  Confused me a bit at first... (luckily it is still modal
+> > relative to the kmail window, so the kmail composer gets greyed out,
+> > indicating that the pinentry might be somewhere...)
+> >=20
+> > Mostly everything related to KDE is experimental or qt-kde
+> > repository. pinentry-qt4 is 0.8.0-1.
+>=20
+> I believe this is new pinentry-qt4 to blame rather than KDE SC 4.4.
+
+Seconded. I saw this behavior after I upgraded to pinentry-qt4 0.8.0-1=20
+today. I used KDE 4.4.2-0rc1 packages before and do not think that the=20
+upgrade to 4.4.2-1 made any significant difference regarding pinentry-qt4=20
+behavior.
+
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

@@ -1,0 +1,47 @@
+Re: Bug#578383: Bug nautilus-clamscanyes, tomorrow i'll try...
+thanks for the moment
+
+2010/4/24 Josselin Mouette :
+> Le samedi 24 avril 2010 =C3=A0 13:02 +0200, Philipp Kern a =C3=A9crit :
+>> On Wed, Apr 21, 2010 at 09:00:34AM +0200, Philipp Kern wrote:
+>> > On Wed, Apr 21, 2010 at 08:36:24AM +0200, Josselin Mouette wrote:
+>> > > Dear volatile team, would it be possible to have binNMUs for
+>> > > python-clamav in volatile? Or does it need a source upload? If so, w=
+ho
+>> > > could do it?
+>> > thanks to adsb that already happened. =C2=A0However unless somebody wh=
+o's used
+>> > to the package tests it and reports back a success it won't be copied =
+over.
+>> > dansguardian was the only package for now where that happened. =C2=A0W=
+ould you
+>> > mind testing it?
+>>
+>> ping. =C2=A0It's in volatils's lenny-proposed fwiw.
+>
+> Giulio, could you test it? Or Cl=C3=A9ment?
+> --
+> =C2=A0.''`. =C2=A0 =C2=A0 =C2=A0Josselin Mouette
+> : :' :
+> `. `' =C2=A0=E2=80=9CIf you behave this way because you are blackmailed b=
+y someone,
+> =C2=A0`- =C2=A0 =C2=A0[=E2=80=A6] I will see what I can do for you.=E2=80=
+=9D =C2=A0-- J=C3=B6rg Schilling
+>
+>
+
+
+
+--=20
+Dr. Giulio Spinozzi
+E-Mail: giuliospinozzi@csmining.org
+Web: http://giuliospinozzi.altervista.org
+GnuPG Key ID: 0xABBF9D15 | http://pgp.mit.edu/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-volatile-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/r2n951d34ac1004240746he45d72ebq4958a7bdc6141510@mail.csmining.org
+
+

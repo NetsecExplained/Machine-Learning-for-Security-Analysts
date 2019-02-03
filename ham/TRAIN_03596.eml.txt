@@ -1,0 +1,33 @@
+Re: Problem with an rpm...Do I need to do anything to recreate anything after deleting this?
+
+I did notice an rpm I made the other day didn't work, and just sat there 
+for ages  seemingly doing nothing, which probably did this :(
+
+Ok, now I get:
+
+
+Fetched 88.1kB in 2m31s (581B/s)
+error: cannot get exclusive lock on /var/lib/rpm/Packages
+error: cannot open Packages index using db3 - Operation not permitted (1)
+E: could not open RPM database:cannot open Packages index using db3 - 
+Operation not permitted (1)
+
+Arrrrg.
+
+--On Tuesday, February 05, 2002 15:06:28 +0100 Roy-Magne Mo 
+ wrote:
+
+> It's not the rpm, it's the rpm-system with you. The cache seems to have
+> rottened. Try removing /var/lib/rpm/__db*
+
+
+
+                                    -- \m/ --
+  "...if I seem super human I have been misunderstood." (c) Dream Theater
+         mark@talios.com - ICQ: 1934853 JID: talios@myjabber.net
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

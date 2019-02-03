@@ -1,0 +1,8 @@
+[Spambayes] spambayes package?
+    Guido> Why would we care about installing a few extra files, as long as
+    Guido> they're inside a package?
+
+I guess you needn't worry about that.  It just doesn't seem "clean" to me.
+
+S
+

@@ -1,0 +1,44 @@
+[SAtalk] help with postfix + spamassassinHi Folks,
+
+I have just installed spamassassin 2.31 in my postfix MTA server.
+
+At first, I would like to test it just in my email account before 
+applying it to the wole site.
+
+I configured just as in the INSTALL file:
+
+	5. Create a .forward...
+	"|IFS=' ' && exec /usr/bin/procmail -f- || exit 75 #user"
+	6. create a .procmailrc
+	:0fw
+	| /usr/bin/spamassassin -c 
+			/etc/mail/spamassassin/rules
+
+But the spams get trought it untouched. When I run it by the hand:
+
+cat sample-spam.txt | /usr/bin/spamassassin -c 
+				/etc/mail/spamassassin/rules
+
+it does tag it as spam and send me the email.
+
+what should I look at?
+
+Thank you,
+
+
+-- 
+Luiz Felipe Ceglia 	-  Staff TereNet
+lceglia@terenet.com.br	-  +55-21-9135-3679
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

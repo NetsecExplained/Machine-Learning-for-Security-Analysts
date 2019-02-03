@@ -1,0 +1,37 @@
+Re: class structure questionsOn Wed, May 19, 2010 at 4:13 AM, Jason T. Slack-Moehrle
+ wrote:
+> It is not true, I am not looking for a free ride, I am looking to learn. I
+> think I get confused because of all the possiblities (View, DataSource,
+> Delegate, Controller, etc) I dont have a strong MVC background.
+
+I think you should pick up a book that covers MVC in the iPhone world.
+"Beginning iPhone 3 Development" by Dave Mark and JeffLaMarche is
+probably your best bet.
+
+> I actually attended the Big Nerd Ranch with Aaron many years ago in 2002 in
+> Whitesburg Georgia. It was a fabulous week, but I made the mistake of never
+> using what I learned after that My job changed, had 3 kids ugh the list goes
+> on.
+> I was considering going again this summer as I have between semesters off.
+
+That may be worthwhile.  Even if you had retained your 2002-era BNR
+knowledge, the prevailing use of framework-provided view controllers
+in UIKit is a pretty significant change with lots of interesting (and
+mostly very positive) consequences.  Even some Cocoa old-timers had a
+hard time grasping it at first--I'm living proof!  That being said, I
+don't know if BNR is covering a lot of iPhone material now (though I
+assume that's the case) or if they're still more Mac-focused, so check
+first.
+
+-- 
+// jack
+// http://nuthole.com
+// http://learncocoa.org
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,60 @@
+Re: use new apt to do null to RH8 upgrade?> Matthias Saou (matthias@egwn.net) wrote*:
+> >As Red Hat does, I really don't recommend trying to upgrade between betas
+> >or from a beta to a final release either. Simply backup your /home, /etc
+> >(and /root and/or /usr/local/ if needed) then reinstall cleanly, it'll
+> >probably save a few hassles and you'll get the cleanest possible system ;-)
+> 
+> I think this is probably the best way, because I think (maybe) with upgrading you
+> do not always automatically get the latest feature enabled in some config file
+> because RH would rather take it easy and not update that config file (you get a
+> rpmnew instead of rpmsaved file) so they get less calls to support that way.
+
+If you dislike Red Hat, why use it ? This was a really bad argument 
+against using Red Hat that makes no sense at all.  I for one am GLAD that 
+they 
+a) don't overwrite your config files on a whim (be GLAD they don't do some 
+sort of autodetection and changing crap)
+b) tell you on rpm upgrade what config files you should look at because 
+formats have changed.
+
+Red Hat is not "taking it easy" on this, it's putting control in the hands 
+of you, the maintainer of the machine.  Don't be lazy.
+
+> Anyway, I have tons of media files in /home/* probably 5 to 10 gigs at least, my
+> laptop's CDROM takes 700MB at a time (obviously) and compressing media files is
+> dumb because they are already compressed. Dumb question: how to backup huge data?
+> Network backup to another box? I do not have a box with a tape drive, but maybe box
+> with a large HD with much free space could take the backup (oops, I do not have a
+> space computer with a large HD with much free space).
+
+You don't need to backup /home if you are careful enough.  You did put 
+/home on a separate partition, no ? Just install rh80 and tell it to use 
+the same partition as /home and tell it to NOT format it, but keep the 
+data as is.
+
+If you didn't put /home on a separate partition, then you really do need 
+to make backups.  Use an nfs or smb mount from another machine to backup 
+and rsync straight to the mount, or if that's not possible, rsync over 
+ssh.  It's the best way to make backups.
+
+> These media files are backed up - ON THE CD'S THEY CAME FROM! 
+
+It's the other way around - your media files are backups of the CD's they 
+came from ;)
+
+Good luck,
+Thomas
+-- 
+
+The Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/
+<-*-                      -*->
+You know the shape my breath will take before I let it out
+<-*- thomas@apestaart.org -*->
+URGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

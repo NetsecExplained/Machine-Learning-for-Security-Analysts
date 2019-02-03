@@ -1,0 +1,112 @@
+Re: Flash is open?On Sat, 15 May 2010 00:27:32 +0200, Michelle Konzack wrote:
+
+> Am 2010-05-14 19:06:06, hacktest Du folgendes herunter:
+
+(...)
+ 
+>> So the reality is that anyone wanting to view a flash based site has to
+>> have Adobe Flash player installed as is the only one able to fully
+>> support all the features listed in their "open" specs.
+> 
+> THE SPECS ARE OPEN and if the Open Source Community is not able or  even
+> willing to implement it, it is NOT THE FAULT of Adobe.
+
+No need to SHOUT. I read all the messages in the same manner.
+
+"The specs are open"... o.k., now so it seems. Since 2008, just 2 years 
+ago, which is good, but Adobe, since the adquisition of Macromedia on 
+2005, was holding all the rights on Flash format.
+
+"(not having a good FLOSS Flash player) Not the fault of Adobe...". Of 
+course not! The fault of Adobe, and this is my personal POW, is 
+developing a very bad quality flash player, for all the users (windows, 
+linux, Solaris). 
+
+Heck, how in the hell can a company provide such players if they are the 
+developers of the product the players are handling (.swf)? I cannot 
+understand that, and "that" precisely makes me doubt about the quality of 
+the format they are trying to populate and rise.
+
+That said, even they (they=Adobe)now "open the specs" for Flash I will 
+avoid either using it or promoting as much as I can.
+
+
+
+In the times I worked as webmaster and web designer (now sysadmin), 
+people (clients, partners and my company) "urged" me to adopt flash 
+technology, just because "looked nice" and, "(sic) hey, anyone has the 
+Flash Player installed so it was also kinda cross-platform". 
+
+Yes, Flash Player was (is) available for many systems but the fact is 
+that that did not change my perception about the suitability of using it.
+
+There is nothing you couldn't do with standard html technologies 
+(javascript, css, dom...) that Flash can, so why bother about spending 
+time and money in acquiring a license for Adobe products that were (in 
+those times) the only powerful ones that allowed the development of "rich 
+sites" ("rich site" → Adobe "dixit")?
+
+Why bother if there was only a unique Flash player out there and was 
+pretty bad quality? Why forcing my users to have to use such player if 
+there were alternatives in a very good shape that were open and 
+compatible?
+
+My perception is that web developers wrongly refugiated into flash to 
+escape from the incompatibilities of the web browers, any of them 
+applying different renderings of the elements of the page layout and not 
+following the W3C standards. Yes, Firefox and Opera had also their own 
+glicthes and of course, Internet Explorer.
+
+So web developers, instead trying to compatibilize "the 
+incompatibilities" of the browsers by making a more fine-grained code, 
+they took the "easy path" and just fall into the arms of Flash format: 
+format was bad but hey, at least it renedered the site in the same manner 
+in all the browsers >:-)
+
+And then it came html5, promoting open standard ways to handle video and 
+audio... ooops, Adobe must thought their Flash format will be forgotten 
+and lost in the Helm's Deep if html5 will succeed, so the decided to open 
+Flash to be more user-friendly and calm down the accusations about 
+monopolistic tactics, being their flash player installed in more than 95% 
+of the computers >:-)
+
+Adn here we are now, with Adobe developing, promoting and enforcing DRM 
+technologies in their products and, OTOH providing an "open spec" for 
+flash... quite contradictory :-)
+
+That is my personal opinion, of course.
+
+
+ 
+>> And the same situation goes for Adobe Reader for Linux. I dunno what is
+>> going on with Adobe but true is that I dislike the path is taking that
+>> company :-/
+> 
+> I am using Debian GNU/Linux since over 11 years and I have more then  20
+> commercial progras like Eagle, FAB3000 and VariCAD with a total value of
+> more then 80.000 Euro  installed,  because  there  are  NO  Open  Source
+> equivalents available.
+
+I have nothing against good quality programs, even they are closed source 
+or commercial. But Acrobat products does not fall into that category :-)
+ 
+> ...and no, gEda is NO OPTION du to the incompatible Gerber  outputs  and
+> it can not handel Layots with BGA 421 and bigger plus  correct  handling
+> of more then 4 Signal layers (I need at least 8).  Auto-Router? Oh Hell!
+
+I now that. I'm working for a engineering company, and I'm "forced" (is 
+market demand, we need a 110% compatibilty with our partners and they use 
+AutoCAD...) to use such products.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.15.09.44.16@csmining.org
+
+

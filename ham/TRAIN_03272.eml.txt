@@ -1,0 +1,41 @@
+Struts 1.1 Article, JavaServer Faces Tech Talk, iXML & Widget Pages Patterns, JRun 4.0 ReviewFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+
+=================================
+    TheServerSide Connection
+-Your J2EE Community Newsletter-
+=================================
+September 4, 2002      Circulation: 130 000+           No. 42 
+
+
+
+IN THIS ISSUE 
+--------------------------------------------------------------------------------
+Featured Articles 
+ o Struts 1.1: Should I Upgrade? 
+
+Hard Core Tech Talks
+ o Amy Fowler - Senior Staff Engineer, Java Software, Sun Microsystems 
+
+Upcoming Conferences 
+ o Great Lakes Software Symposium 2002 
+
+Enterprise Java Education Strategies 
+ o Floyd Marinescu to co-teach J2EE Patterns - Sept 16, Dallas 
+
+New Patterns 
+ o iXML Pattern 
+ o Widget Pages 
+
+New App Server Reviews 
+ o JRun 4.0 - Good Stuff 
+
+Key J2EE Industry News Headlines 
+ Some key headlines: 
+ o Java Server Faces Public Draft and Early Access Available 
+ o Apache Cactus 1.4 J2EE Unit Testing Framework Released 
+
+
+This newsletter is available in HTML format at:
+http://www.theserverside.com/resources/newsletters/news42.html?text-click

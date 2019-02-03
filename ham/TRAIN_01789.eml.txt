@@ -1,0 +1,46 @@
+[Webdev] Very nice tool-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi all, 
+
+Normally I would not post such things, but this is really cool for a
+visual idea of how ppl are linking to you
+http://www.touchgraph.com/TGGoogleBrowser.html
+
+It may not work from the submit button, but one the java appelet is
+loaded then try your URL. Its really quite nice.
+
+Aj
+
+- ----------------------------------------
+AJ McKee
+NMTB media
+
+Phone: (Europe) +353 1 473 53 72
+       (North America) +1 206 339 4326
+
+Fax:   (Europe) +353 1 473 53 73
+       (North America) +1 206 339 4326
+
+Website: http://www.nmtbmedia.com
+- -----------------------------------------
+
+	
+
+-----BEGIN PGP SIGNATURE-----
+Version: PGPfreeware 6.5.8 for non-commercial use 
+Comment: PGP/GPG Keys located at http://www.nmtbmedia.com/keys/
+
+iQA/AwUBPWQpnIHmA/TOOP95EQLE6gCcDlPEdah2rBmwTNUixPi4aung3g8AoJTK
+llXGK8OOdlMSV/0o3YynpOEa
+=Kxad
+-----END PGP SIGNATURE-----
+
+
+
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

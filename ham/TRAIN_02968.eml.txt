@@ -1,0 +1,57 @@
+Re: Replies to the list-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón  writes:
+
+> On Mon, 26 Apr 2010 09:11:57 +0200, Merciadri Luca wrote:
+>
+>> Camaleón writes:
+>
+>>> I use Gmane (e-mail to news gateway) to send posts and read the list
+>>> via Pan newsreader.
+>>>
+>>>>From time to time Gmane have had some "glitches" (messages can be
+>>>>delayed
+>>> or in the worst cases, they are lost) but if the post reached the list
+>>> archive, you (everyone subscribed) also should get it:
+>>>
+>>> http://lists.debian.org/debian-user/
+>
+>> But the matter is that I can see _all_ your answers everywhere, but by
+>> e-mail, where some answers (only from you) are completely unreceived.
+>
+> One thing you could do is contact the mail list admin and ask for a 
+> concrete "Message-ID:" (of one of the e-mails you didn't receive) to 
+> check if it was correctly sent out to all the list members.
+Before doing this, you could try to send me an e-mail to my e-mail
+adress (at ulg). It is quite possible that my university blocks your
+e-mail for a reason which is still unknown to me.
+
+> True is that I'm not sure how to manage this. I'm reluctant to think your 
+> e-mail provider is dropping *just* my e-mais... that makes no sense
+> :-/
+You may try to send me a test e-mail, for example your answer to a
+message. We will discuss after. But that's weird.
+
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Procrastination is the thief of time.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvVfxIACgkQM0LLzLt8MhxZeQCdHBqnWyRuOmuA349pBjs0a08M
+ku4An0WGksLqSErwbwjmIy2rZLYYYYRp
+=1Fyu
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87r5m2a0od.fsf@merciadriluca-station.MERCIADRILUCA
+
+

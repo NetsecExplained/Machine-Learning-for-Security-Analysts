@@ -1,0 +1,95 @@
+Re: Problem with ALC662 Intel HDALeonardo Meira wrote:
+
+> Hello everybody,
+> 
+> I have a problem with my sound card (nVidia Corporation MCP67 High
+> Definition Audio | ALC662 High Definition Audio) and I would like you to
+> indicate the best location and the best way for me to report the bug that
+> I will describe:
+> 
+> After a fresh installation and setup of alsa, I only have sound in one of
+> two outputs and the microphone does not work. After reading a lot of
+> documentation about the subject, I found that inserting the line "options
+> snd-hda-intel model = 3stack 6ch-index = 0" in alsa-base.conf file I can
+> make my sound card work better, but with some problems, which are:
+> 
+> a) If I select the 6-channel mode (in kmix or alsa-mixer), the two sound
+> outputs work but the microphone do not work.
+> b) If I select the 2-channel mode (in kmix or alsa-mixer), the microphone
+> works but only one sound output works.
+> 
+> You do not agree with me that this is a bug? I've been experiencing it in
+> different distributions and several versions of the Linux kernel. As in
+> several versions of ALSA.
+> 
+> Before you ask me, yes, I've tried all the options associated with ALC662
+> codec (
+>
+http://www.mjmwired.net/kernel/Documentation/sound/alsa/HD-Audio-Models.txt)
+> and the option mentioned above was that worked best.
+> 
+> 
+>  I am a novice user of Linux. So I ask you for help. How could I help
+>  solve
+> this problem? What is the right place to report this bug?
+> 
+> Thanks,
+> 
+> Motherboard: ASUS M2N68-AM SE
+> Debian Lenny
+> Squeeze Debian / Sid
+
+may be this will help you
+
+/usr/src/linux/Documentation/sound/alsa/HD-Audio-Models.txt
+
+ALC662/663/272
+==============
+  3stack-dig    3-stack (2-channel) with SPDIF
+  3stack-6ch     3-stack (6-channel)
+  3stack-6ch-dig 3-stack (6-channel) with SPDIF
+  6stack-dig     6-stack with SPDIF
+  lenovo-101e    Lenovo laptop
+  eeepc-p701    ASUS Eeepc P701
+  eeepc-ep20    ASUS Eeepc EP20
+  ecs           ECS/Foxconn mobo
+  m51va         ASUS M51VA
+  g71v          ASUS G71V
+  h13           ASUS H13
+  g50v          ASUS G50V
+  asus-mode1    ASUS
+  asus-mode2    ASUS
+  asus-mode3    ASUS
+  asus-mode4    ASUS
+  asus-mode5    ASUS
+  asus-mode6    ASUS
+  dell          Dell with ALC272
+  dell-zm1      Dell ZM1 with ALC272
+  samsung-nc10  Samsung NC10 mini notebook
+  auto          auto-config reading BIOS (default)
+
+read also /usr/src/linux/Documentation/sound/alsa/HD-Audio.txt
+
+There is also excelent ALSA documentation in their project page.
+
+write also in feature how you are testing things (which programs) and
+possibly supply log information.
+
+i.e. 
+        arecord -L 
+and 
+        aplay -L 
+and
+        amixer
+output
+
+
+regards
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hs8jj8$ub5$1@dough.gmane.org
+
+

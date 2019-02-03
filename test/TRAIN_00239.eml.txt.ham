@@ -1,0 +1,32 @@
+Re: installing Lenny packages in SqueezeOn Thu, Apr 29, 2010 at 09:48:41AM -0500, Boyd Stephen Smith Jr. wrote:
+> On Wednesday 28 April 2010 22:11:00 Rob Owens wrote:
+> > My understanding is that live-helper must build the kernel so that
+> > certain modules necessary to the live system get included.  I confess
+> > that I don't completely understand that answer, but it's what I was told
+> > by the developer.
+> 
+> You should look into the live-helper configuration and adjust where it gets 
+> the kernel source and any (extra?) patches it applies.  It should be able to 
+> work with kernel sources provided from lenny-backports with the proper 
+> configuration, since it already works with both Lenny and Squeeze kernel 
+> sources.  The bpo kernels are not packaged significantly differently.
+> 
+> If live-helper doesn't have any relevant configuration, looking into how it 
+> receives, patches, compiles, and packages the kernel should give you some 
+> insight into a work-around.  (e.g. repackaging the bpo kernel package to have 
+> the same package name but a higher version than the Lenny kernel package.)
+
+Thanks.  I think this is the approach I'm going to take.  I just tried
+install barebones Squeeze in Virtualbox, and I'm running into packaging
+problems when I try to install certain software from Lenny (LXDE and
+apt-show-versions, for example).
+
+-Rob
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430175523.GA4133@aurora.owens.net
+
+

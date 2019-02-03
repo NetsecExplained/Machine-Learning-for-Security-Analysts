@@ -1,0 +1,121 @@
+Re: How about subsidizing SSL access to Google?Good idea!
+
+This could also be a job for P2P; lots of people would love to
+devote their spare cycles, bandwidth, and unblocked IP addresses
+to giving the Chinese unfettered net access.
+
+In a sense, this is what the "peek-a-booty" project does:
+
+   http://www.peek-a-booty.org
+
+But let's play out the next few moves:
+
+Good Guys: Google enables SSL access
+ Bad Guys: Chinese government again blocks all access to Google domains
+Good Guys: Set up Google proxies on ever-changing set of hosts (peek-a-booty)
+ Bad Guys: Ban SSL (or any unlicensed opaque traffic) at the national firewall
+Good Guys: Hide Google traffic inside other innocuous-looking activity
+ Bad Guys: Require nationwide installation of client-side NetNannyish
+           software
+Good Guys: Offer software which disables/spoofs monitoring software
+ Bad Guys: Imprison and harvest organs from people found using
+           monitoring-disabling-software
+
+...and on and on.
+
+The best we can hope is that technological cleverness, by raising the
+costs of oppression or by provoking intolerable oppression, brings
+social liberalization sooner rather than later.
+
+- Gordon
+
+----- Original Message -----
+From: "Rohit Khare" 
+To: 
+Sent: Monday, September 23, 2002 2:44 PM
+Subject: How about subsidizing SSL access to Google?
+
+
+[a cheeky letter to the editors of the Economist follows, along with the
+article I was commenting on... Rohit]
+
+In your article about Chinese attempts to censor Google last week ("The
+Search Goes On", Sept. 19th), the followup correctly noted that the most
+subversive aspect of Google's service is not its card catalog, which
+merely points surfers in the right direction, but the entire library. By
+maintaining what amounts to a live backup of the entire World Wide Web,
+if you can get to Google's cache, you can read anything you'd like.
+
+The techniques Chinese Internet Service Providers are using to enforce
+these rules, however, all depend on the fact that traffic to and from
+Google, or indeed almost all public websites, is unencrypted. Almost all
+Web browsers, however, include support for Secure Sockets Layer (SSL)
+encryption for securing credit card numbers and the like. Upgrading to
+SSL makes it effectively impossible for a 'man-in-the-middle' to meddle;
+censorship would have to be imposed on each individual computer in
+China. The only choice left is to either ban the entire site (range of
+IP addresses), but not the kind of selective filtering reported on in
+the article.
+
+Of course, the additional computing power to encrypt all this traffic
+costs real money. If the United States is so concerned about the free
+flow of information, why shouldn't the Broadcasting Board of Governors
+sponsor an encrypted interface to Google, or for that matter, the rest
+of the Web?
+
+To date, public diplomacy efforts have focused on public-sector
+programming for the Voice of America, Radio Sawa, and the like. Just
+imagine if the US government got into the business of subsidizing secure
+access to private-sector media instead. Nothing illustrates the freedom
+of the press as much as the wacky excess of the press itself -- and most
+of it is already salted away at Google and the Internet Archive project.
+
+On second thought, I can hardly imagine this Administration *promoting*
+the use of encryption to uphold privacy rights. Never mind...
+
+Best,
+   Rohit Khare
+
+===========================================================
+
+The search goes on
+China backtracks on banning Google—up to a point
+
+Sep 19th 2002 | BEIJING
+ From The Economist print edition
+
+IN CHINESE, the nickname for Google, an American Internet search engine,
+is gougou, meaning “doggy”. For the country's fast-growing population of
+Internet users (46m, according to an official estimate), it is proving
+an elusive creature. Earlier this month, the Chinese authorities blocked
+access to Google from Internet service providers in China—apparently
+because the search engine helped Chinese users to get access to
+forbidden sites. Now, after an outcry from those users, access has been
+restored.
+
+An unusual climbdown by China's zealous Internet censors? Hardly. More
+sophisticated controls have now been imposed that make it difficult to
+use Google to search for material deemed offensive to the government.
+Access is still blocked to the cached versions of web pages taken by
+Google as it trawls the Internet. These once provided a handy way for
+Chinese users to see material stored on blocked websites.
+
+After the blocking of Google on August 31st, many Chinese Internet users
+posted messages on bulletin boards in China protesting against the move.
+Their anger was again aroused last week when some Chinese Internet
+providers began rerouting users trying to reach the blocked Google site
+to far less powerful search engines in China.
+
+Duncan Clark, the head of a Beijing-based technology consultancy firm,
+BDA (China) Ltd, says China is trying a new tactic in its efforts to
+censor the Internet. Until recently, it had focused on blocking
+individual sites, including all pages stored on them. Now it seems to be
+filtering data transmitted to or from foreign websites to search for key
+words that might indicate undesirable content. For example earlier this
+week when using Eastnet, a Beijing-based Internet provider, a search on
+Google for Falun Gong—a quasi-Buddhist exercise sect outlawed in China—
+usually aborted before all the results had time to appear. Such a search
+also rendered Google impossible to use for several minutes.
+
+
+

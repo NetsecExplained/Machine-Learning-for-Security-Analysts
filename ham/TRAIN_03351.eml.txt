@@ -1,0 +1,43 @@
+Re: Secure Sofware KeyHi
+
+On Wed, 4 Sep 2002, Yannick Gingras wrote:
+
+> BTW thanks for all of you who provided interestiong insight.  I'm playing with 
+> gdb's dissassembler now but I don't think it's what a typical cracker would 
+> use.  Any hints on UNIX cracking tools ?
+
+There's also an 'objdump' program, and 'biew' hex viewer/disassembler. A good 
+starting point to search is http://www.freshmeat.net/
+
+However, cracking and reverse engineering tools are not so ubiquitous on UNIX as 
+they are on Windows platform for two main reasons:
+
+1. The main customers of commercial Unices (Solaris, HP-UX, Aix, SCO...) are 
+respectable companies. They are ready to pay big bucks for software they need: the reputation matters.
+
+2. Most software for free and open source Unices like Linux and xBSD (this 
+software often may be used on commercial unices as well) is, well, free and 
+open source.
+
+Regards
+/Artem
+
+-- 
+ Artem Frolov 
+/------------------------------------------------------------------\
+ Software Engineer, System Administrator                       
+ Institute for System Programming, Russian Academy of Sciences     
+ Tel. +7 095 912-5317 (ext 4406), Cellular: +7 095 768-7067
+ C7 40 CA 41 2A 18 89 D6  29 45 DF 50 75 13 6D 7A  A4 87 2B 76
+\------------------------------------------------------------------/
+
+------------------------------------------------------------------
+Basic Definitions of Science:
+	If it's green or wiggles, it's biology.
+	If it stinks, it's chemistry.
+	If it doesn't work, it's physics.
+------------------------------------------------------------------
+
+
+
+

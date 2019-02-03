@@ -1,0 +1,42 @@
+Re: How to run an X program as a different user?On 2010-05-18, Robert Latest  wrote:
+> Hello all,
+>
+> my question is already in the subject line. Also I think that I've got
+> the basics figured out, it's just that I don't understand the details.
+>
+> Essentially I want user A to run a specific X app as user B. So I
+> think I need to write a tiny shell script like this:
+>
+> #!/bin/sh
+> xhost +B
+> sudo -u B /path/to/app arg1 arg2 arg3
+> xhost -B
+>
+> I need help with two things though:
+>
+> One, "xhost +B" doesn't work, contrary to the manpage. "xhost +"
+> works, granting X access to the entire Net, but who cares. This is
+> just a home computer.
+>
+> Two, I can't figure out for the life of me what the entry in
+> /etc/sudoers must look like to make sudo do what I want.
+>
+> Thanks,
+> robert
+>
+>
+
+Consider using the gksu package instead.
+
+-- 
+Liam O'Toole
+Birmingham, United Kingdom
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhv5vtj.b3s.liam.p.otoole@dipsy.selfip.org
+
+

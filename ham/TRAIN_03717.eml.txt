@@ -1,0 +1,103 @@
+Re: debuild of evolution-data-server failsOn Fri, 2010-05-07 at 17:11 -0400, John A. Sullivan III wrote:
+> On Fri, 2010-05-07 at 22:57 +0200, Sven Joachim wrote:
+> > On 2010-05-07 22:17 +0200, John A. Sullivan III wrote:
+> >=20
+> > > Hello, all. We are trying to rebuild the evolution-data-server packag=
+e
+> > > after patching it to hopefully end our current email nightmare.  The
+> > > base system is Lenny but we are using evolution from squeeze.  When I
+> > > try to debuild, I am getting the following errors:
+> > >
+> > > checking for GNOME_PLATFORM... configure: error: Package requirements
+> > > (glib-2.0 >=3D 2.16.1
+> > >         gtk+-2.0 >=3D 2.14.0
+> >=20
+> > I think this is the problem, since lenny has only gtk+-2.0 2.12.12.  Th=
+e
+> > build dependencies in debian/control might not be correct.  Note that
+> > lenny-backports has a newer version, though.
+> >=20
+> > >         ORBit-2.0 >=3D 2.9.8
+> > >         libbonobo-2.0 >=3D 2.20.3
+> > >         gconf-2.0 >=3D 2.0.0
+> > >         libglade-2.0 >=3D 2.0.0
+> > >         libxml-2.0 >=3D 2.0.0
+> > >         libsoup-2.4 >=3D 2.3.0) were not met:
+> > >
+> > > Package zlib was not found in the pkg-config search path.
+> > > Perhaps you should add the directory containing `zlib.pc'
+> > > to the PKG_CONFIG_PATH environment variable
+> > > Package 'zlib', required by 'GnuTLS', not found
+> > >
+> > > zlib is installed.
+> >=20
+> > True, but the zlib1g-dev package in lenny does not ship a zlib.pc file;
+> > the version in squeeze does.
+> >=20
+> > > I did not check all the listed packages but the ones
+> > > I checked were installed with the latest versions.  My command sequen=
+ce
+> > > was:
+> > >
+> > > apt-get -t testing source evolution-data-server (as non-root)
+> > > apt-get -t testing build-dep evolution-data-server (as root)
+> >=20
+> > This might not do what you want.  When you fetch the build dependencies
+> > from testing, the built packages will likely also depend on libraries
+> > not present in stable.  But it appears to be impossible to build
+> > squeeze's evolution-data-server in lenny anyway (see above).
+> >=20
+> > > patched evolution-data-server
+> > > edited debian/changelog and debian/rules (disabled gnome-key-ring - a=
+lso
+> > > tried it with this enabled as per the default)
+> > > debuild -uc -us
+> > >
+> > > What am I doing wrong? We are rather desperate to get this running.
+> >=20
+> > There are various possibilities, all not very appealing:
+> >=20
+> > - Install the lenny backport of gtk+-2.0 and see what's necessary to ge=
+t
+> >   the zlib.pc file into the libz1g-dev package.  Resolve further build
+> >   problems by installing packages from lenny-backports or creating your
+> >   own backports.  You may want to hire somebody to do the work.
+> >=20
+> > - Upgrade to squeeze, deal with the ensuing breakage and hope that it
+> >   will freeze in a few months.
+> >=20
+> > - use Ubuntu 10.04 or whatever current distribution has the new
+> >   evolution-data-server and deal with whatever bugs these distributions
+> >   have.
+> >=20
+> > I would go for the first option, but note that you should set
+> > GDK_NATIVE_WINDOWS=3D1 in the environment if you upgrade gtk+-2.0 to
+> > version 2.18, otherwise several applications might break=C2=B9.
+> >=20
+> > Sven
+> >=20
+> >=20
+> > =C2=B9 http://blogs.gurulabs.com/dax/2009/10/what-gdk-native.html
+> >=20
+> >=20
+> The upgrade to the squeeze zlib did the trick but now I've hit what I
+> think is a linker problem:
+>=20
+> libtool: link: only absolute run-paths are allowed
+>=20
+> I ran libtoolize and aclocal but that didn't seem to help.  Off to
+> Google to find out what this is.  Thanks - John
+>=20
+>=20
+It looks like the error was due to an autoconf I had run earlier while
+troubleshooting.  I wiped it all out, started over again with the newer
+zlib1g-dev in place and all worked.  We are rather ecstatic.  Thanks -
+John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273268997.17252.34.camel@Family.pacifera.com
+
+

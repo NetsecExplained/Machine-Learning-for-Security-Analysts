@@ -1,0 +1,55 @@
+Re: Fwd: Re: Kde 3.5 ...On Fri, May 7, 2010 at 3:13 PM, Lisi  wrote:
+
+> No - that is the problem!! =A0I loved KDE 3.5.x and have become quite sli=
+ck with
+> it. =A0KDE 4 is different. =A0I don't like it. =A0If I have to, in effect=
+, change
+> DE, and go through the learning curve again, there is no reason why it wo=
+uld
+> have to be to KDE 4. =A0When the time comes that I cannot sensibly go on =
+using
+> KDE 3, I shall chose where I go next on the basis of what the options are
+> looking like at the time. =A0I can see little liklihood that that choice =
+will
+> be KDE 4. =A0I may even switch to a window manager without a DE, and chos=
+e
+> other ways of working, if that is the only way that I can avoid the glitz
+> that is now all the rage.
+>
+> How things look is very important to me. =A0I have problems with my eyes,=
+ and
+> how a thing looks can influence whether I can work on a thing for one min=
+ute,
+> ten minutes or an hour.
+>
+> I have no problem with other people liking and wanting to use KDE 4. =A0I=
+ have a
+> problem with their, in some cases, not allowing me the freedom _not_ to u=
+se
+> it. =A0And I personally shall mourn the passing of KDE 3.
+
+
+The unexpected forced downgrade from KDE 3.5 to 4 in Sid actually
+ended up being a good thing for me. (the loss of the ability to have a
+different background for each desktop was a KDE showstopper.  So the
+forced downgrade prompted me to actually take a serious look at other
+desktop environments.   And had that not happened, I would not be
+using Enlightenment on all my Linux boxes today.  I have become quite
+enamored with Enlightenment, and now see no need whatsoever to go back
+to KDE or switch to Gnome.
+
+Granted, I will happily use various KDE and Gnome based tools if
+needed.  That is no big deal.  But E (with the Steampunk theme)  is
+now my environment of choice.  :)  Only drawback so far I have
+encountered is the inability to change the background color on the
+desktop if the wallpaper image does not fill the entire screen.  It
+can be a bit hard on the eyes with that harsh white background, but I
+think I can get used to it.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/o2j5cf6328d1005071703y84c3ff84q2002145f39c3f4e5@mail.csmining.org
+
+

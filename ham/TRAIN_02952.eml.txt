@@ -1,0 +1,27 @@
+[SAdev] [Bug 1052] bondedsender.com is a scamhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1052
+
+
+
+
+
+------- Additional Comments From rOD-spamassassin@arsecandle.org  2002-10-03 18:51 -------
+Ignoring the conspiracy theories, can you supply examples of spam which was 
+scored with RCVD_IN_BONDEDSENDER?  The only mail I have received which scored 
+this were from Amazon.com.
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

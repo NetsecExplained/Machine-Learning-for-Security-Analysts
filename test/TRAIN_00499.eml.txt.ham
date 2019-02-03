@@ -1,0 +1,52 @@
+Re: [Razor-users] razor-revoke, trust levels, slashdot is not  spam.From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+Attached is the slashdot digest.
+It seems to be plain text.
+
+Jon.
+
+On Wednesday 13 November 2002 12:20, you wrote:
+> 1) You cannot look up your trust level at present. They are working on this
+> however.
+>
+> 2) I don't think it would be wise for razor to even tell you which users
+> reported a piece as spam, much less what their confidence is. That sounds
+> WAY too easy to abuse by spammers to me. (ie: I'm a spammer, let me work on
+> driving down the confidence values of those who report me by submitting
+> nonspam to their trolls and revoke it)
+>
+> 3) you should be able to see what the cf score for a given email is with
+> razor's debug output. I know running SA in debug mode causes razor to spew
+> a ton of debug output, including the scores for each part of the message
+> and what cf values they had.
+>
+> and as a side question, is the slashdot digest a multi-part mime message?
+> By default razor calls it spam if any mime part matches. This is currently
+> causing problems because a lot of spam and nonspam out there tends to
+> contain an empty mime block. I've personally made some changes to my
+> razor-agent.conf to try to prevent some false alarms, at the expense of
+> missing some spam:
+>
+> #flag only if all parts listed
+> logic_method           = 5
+> #require a bit more than "average" confidence.
+> min_cf                 = ac + 10
+>
+> This seems to have quelled some false alarm problems I was having, but also
+> makes the razor hit-rate somewhat lower.
+>
+> At 09:52 AM 11/13/2002 -0600, you wrote:
+> >I just installed razor2, and one of the first message i
+> >receive as "spam" is the daily slashdot digest.
+> >I revoked this message, but it still shows up as spam.
+> >Is there a way to see what my trust level is, what the
+> >confidence level of a given piece of spam is, and what
+> >the trust levels are of anyone who reported the given
+> >"spam''.
+> >
+> >Thanks.
+> >
+> >Jon.

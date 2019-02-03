@@ -1,0 +1,27 @@
+Dragon Player bad AVI audioI'm running Debian Testing on two computers, and Dragon Player has 
+terrible audio when I play AVI files, but only on *one* of the 
+computers.  It has a lot of noise / hiss over top of the regular audio.
+
+Both computers have the same packages installed, thus it must be a 
+hardware difference.  The computer with normal audio is a laptop running 
+the built-in speakers.  The computer with the bad audio is a tower 
+playing the audio through USB speakers (built into my monitor).
+
+Interestingly, mplayer gives ok audio on both computers, and codeine 
+(which I understand is the KDE3 version of Dragon Player) also gives ok 
+audio on both computers.
+
+All other audio applications work fine on both computers (youtube, 
+Skype, system notifications).
+
+Has anyone else encountered this problem?
+
+Glen Reesor
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC6A452.4070207@telus.net
+
+

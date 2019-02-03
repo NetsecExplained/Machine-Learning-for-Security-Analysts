@@ -1,0 +1,37 @@
+RE: [ILUG] BBC suggest using Linux over MS softwareThis sounds very similar to what was read on the internet spot on 2fm last
+Thursday too.
+
+
+-----Original Message-----
+From: ilug-admin@linux.ie [mailto:ilug-admin@linux.ie]On Behalf Of
+John_White@dell.com
+Sent: 25 July 2002 13:53
+To: ilug@linux.ie
+Subject: [ILUG] BBC suggest using Linux over MS software
+
+
+Near the top :
+"One of the easiest ways to avoid many common [security] problems is to stop
+using Microsoft software. "
+
+And further on :
+"The ultimate step would be to use a Mac or install Linux on your PC..."
+
+cool !
+
+http://news.bbc.co.uk/2/hi/technology/2143630.stm
+
+
+--
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

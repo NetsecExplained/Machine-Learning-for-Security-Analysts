@@ -1,0 +1,39 @@
+Re: Nil messaging statement in "Cocoa Fundimentals Guide"
+	misleading?On Sun, May 23, 2010 at 7:34 PM, John Engelhart
+ wrote:
+> If you believe otherwise, show your work. =C2=A0Otherwise, the point is s=
+ettled.
+
+Fact: the C standard does not say anything about machine-level calling
+conventions.
+
+Fact: the C standard does not address the behavior which results when
+the call site of a function sees a prototype whose return type differs
+from the return type present at the definition of the function.
+
+Conclusion: a conforming C compiler could use completely different
+techniques for returning 'int' and 'long'.
+
+Conclusion: in such an ABI, machine-level code which arranges for
+callers to see an 'int' return value of 0 could easily be written such
+that a caller which expects 'long' to see something other than zero.
+
+Conclusion: if you're paranoid about portability, you can't assume
+that messages to nil with a 'long' return type will return 0, with a
+strict reading of Apple's guarantees.
+
+And note that absolutely nothing in the above is even slightly related
+to integer type sizes, type conversions, casts, promotions, the
+bit-level representation of the NULL pointer, or any other such
+things, so any discussion of them in this context is utterly
+pointless.
+
+Mike
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

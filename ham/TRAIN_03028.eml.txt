@@ -1,0 +1,28 @@
+Re: [ILUG] How to copy some filesOn July 19, niall@linux.ie said:
+> 
+> There are lots of benefits to using hard links, for all sorts of reasons. In
+
+"...but there is insufficient room in the margin of this email to
+ describe them..." :)
+
+> this case, they are being used to provide two quite different namespaces
+> for the same set of files.
+
+Sure, but soft links would do the same. To be honest, I'm trying to
+think of a useful use of hard links right now, and I'm a little
+stumped. There's gotta be some benefit that I'm missing that's
+immediately obvious to everyone.
+
+Cheers,
+Waider.
+-- 
+waider@waider.ie / Yes, it /is/ very personal of me.
+
+merde says, "in other news, our mini-blimp blew away."
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

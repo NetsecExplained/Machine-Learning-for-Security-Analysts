@@ -1,0 +1,22 @@
+package my stuff please :PIf I have any RPMS in
+
+http://www.dudex.net/rpms/
+
+that could be useful to some one with a real apt repository or someone who wants to
+maintain a package, be it known I am not selfish :)
+
+I found stuff I thought would later get popular so I would not have to maintain the
+RPMs for them after they hit the big time. Gnump3d is an exapmple of this.
+
+So if anyone is psyched, go for it. If so, let me know so I can get the RPMs from
+you in the future.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

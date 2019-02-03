@@ -1,0 +1,41 @@
+Re: FluxboxFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+=09I made a spec file for it some weeks ago, maybe it can be included in =
+fresh.=20
+If not,  at least you can use it...
+
+I'm attaching it here...
+
+Hope it might be some use for you, does the trick for me. Might be an old=
+=20
+version though, but should still work
+
+Nick
+
+
+
+
+On Wednesday 04 September 2002 21:00, Doug Stewart wrote:
+> I've noted that there are packaged versions of
+> Blackbox and hackedbox available from FreshRPMs.  What
+> about FluxBox? http://fluxbox.sf.net
+>
+> I'd certainly enjoy a packaged version, since its
+> creators seem hesitant to provide .rpms (.debs, yes,
+> but no .rpms).
+>
+> .Doug
+>
+> __________________________________________________
+> Do You Yahoo!?
+> Yahoo! Finance - Get real-time stock quotes
+> http://finance.yahoo.com
+>
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list

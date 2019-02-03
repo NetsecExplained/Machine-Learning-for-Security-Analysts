@@ -1,0 +1,50 @@
+Re (4): Re^n: Grub vs. linux-image-2.6.32 conundrumDate:	Wed, 12 May 2010 11:05:21 -0400 (EDT)
+Stephen Powell  wrote,
+> Your kernel installation environment is not configured correctly for
+> use with lilo.  That's why you are having trouble upgrading to
+> a newer kernel.  Assuming that you are using only stock kernel images,
+> here is what you should do:
+
+The instructions are like clockwork.  Thanks!
+Incorporation in the lilo package would be good.
+
+> I don't know if the new kernel will fix the X problem ...
+
+Unfortunately X remains broken with an error 
+about /dev/fb0.
+
+The log is here in case anyone is interested.
+    http://carnot.yi.org/dalton.Xorg.0.log
+With minimal understanding, I noticed these lines.
+
+(II) Primary Device is: PCI 00@00:02:0
+(WW) Falling back to old probe method for vesa
+(WW) Falling back to old probe method for fbdev
+(II) Loading sub module "fbdevhw"
+(II) LoadModule: "fbdevhw"
+(II) Loading /usr/lib/xorg/modules/linux/libfbdevhw.so
+(II) Module fbdevhw: vendor="X.Org Foundation"
+	compiled for 1.7.6.901, module version = 0.0.2
+	ABI class: X.Org Video Driver, version 6.0
+(EE) open /dev/fb0: No such file or directory
+
+I've tried various ideas found with Google.
+Remove the intel driver and leave the vesa 
+driver installed for example.
+
+Is fb a standalone driver?  Is it an accessory 
+to the vesa driver?
+
+Thanks for any ideas,          ... Peter E.
+
+-- 
+Google "pathology workshop".
+In ETHNO click here -> Desktops.OpenDoc http://carnot.yi.org/.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/171056496.45946.40347.@heaviside.invalid
+
+

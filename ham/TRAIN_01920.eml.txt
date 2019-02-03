@@ -1,0 +1,44 @@
+Re: Replies to the listOn Sun, 25 Apr 2010 22:04:16 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> Does anyone here have to reply to my posts in the same manner? >:-?
+
+> Actually, I have two choices to read your answers. Either I use my Gnus,
+> through emacs, which shows me all the posts in the group. There, your
+> contributions appear.
+> My second choice is to use Google Groups, which also gives your messages
+> in the group.
+> 
+> But what is really weird is that, as I receive every message which is
+> posted in the group by e-mail (because I have subscribed to the list), I
+> should receive _all_ your contributions, but, sometimes, your
+> contributions do not appear. I do not understand why. I cannot explain
+> it.
+
+Mmm, yes, sounds weird. 
+
+And you only experience this with some of my replies, right? Are you 
+using any kind of spamfilter at your end? :-?
+
+I use Gmane (e-mail to news gateway) to send posts and read the list via 
+Pan newsreader. 
+
+>From time to time Gmane have had some "glitches" (messages can be delayed 
+or in the worst cases, they are lost) but if the post reached the list 
+archive, you (everyone subscribed) also should get it:
+
+http://lists.debian.org/debian-user/
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.26.06.27.09@csmining.org
+
+

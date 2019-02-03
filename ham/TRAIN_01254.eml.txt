@@ -1,0 +1,34 @@
+Re: Basic install - which DVDs?On 05/02/2010 11:41 PM, Mark Allums wrote:
+> On Sun, May 2, 2010 at 7:20 PM, Mark Allums  wrote:
+>>
+>> All you *need* is the Debian installer and basic networking, so the 
+>> netinst
+>> disc (or business card disc) and internet will get you going. Once 
+>> you boot
+>> into a base system, APT will take care of you.
+>>
+>> So, yeah.  You have enough to get started.
+>
+>
+> Also, when you get to the screen where you are asked what type of
+> system to install, unselect everything.  Then when you reboot, you
+> will have a very very basic bare system, which you can then build up
+> to your tastes.
+>
+> scarletdown@csmining.org
+>
+>
+> [redirected back to Debian user list]
+>
+>
+For a basic install Id just get the first cd iso and install that. That 
+is assumeing you want a Desktop. For just command line id get the 
+business card size one.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDE4A55.6050707@csmining.org
+
+

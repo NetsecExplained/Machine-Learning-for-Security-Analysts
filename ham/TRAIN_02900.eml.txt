@@ -1,0 +1,26 @@
+Re: [ILUG] [OT] Dell machine giving me hassle.
+I'm not familiar with Dell Dimension XPS, and, to be honest, not familiar
+with any brand-name computers. Most of my experience is China
+motherboards, but I've seen same behavior once. Changing the battery helps
+that time. It was big round battery with 'Panasonic' on it.
+Computer starts beeping then we removed battery from MB. It even booted up
+(well, loosing time and some other things).
+
+Just my 2 cents.
+
+Misha
+
+On Wed, 28 Aug 2002, Aherne Peter-pahern02 wrote:
+
+> Ok, Iknow this is blatantly OT but I'm beginning to go insane.
+> Had an old Dell Dimension XPS sitting in the corner and decided to
+> put it to use,
+
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,55 @@
+Re: Minor feature request> How easy would it be to code a menu item that marks as read all messages 
+> before the current message?  I often have problems reading heavy-traffic 
+> mailing lists in exmh because I want to read only a subset of a lists 
+> messages, but I lose track of where I was in the particular folder.  
+> 
+> This could also be coded more generally in the new sequences code as a way to 
+> remove all messages before current from a particular sequence.
+
+Easy.
+
+First, you'll have to excuse me as I'm still using 2.3.1 (*), so, this
+may not play well with recent changes.  (I did look at 2.5.1, too).
+And, I just did this off the top of my head (I wanted to see if it
+(**) still worked), so this is somewhat untested.
+
+Adding a menu entry is trivial; add this to your ~/.exmh/exmh-defaults:
+
+*Fops.more.m.uentrylist:	ketchup
+*Fops.more.m.l_ketchup:		Catch-up all b4 cur
+*Fops.more.m.c_ketchup:	 	My_Mark2CurSeen
+
+Then you just need to provide the source for My_Mark2CurSeen and 
+arrange for Exmh to include it (put it in your ~/.tk/exmh directory
+in your user.tcl; or in pick.patch if you enable the "source hook"
+under Prefs->Hacking Support)
+
+It's going to look something like this:
+
+proc My_Mark2CurSeen {} {
+    global exmh pick msg
+    Exmh_Status "Clearing unseen up to cur..." red
+    Mh_SetCur $exmh(folder) $msg(id)
+    set pick(ids) [...get message ids for "pick 1-cur"...]
+    busy PickMarkSeen
+    Exmh_Status ok blue
+}
+
+(that's based upon the guts of Pick_MarkSeen)
+
+You need to fill in the code for the [...get...] section; I ran out of
+time!
+
+John
+
+(*) "It just works" (tm)
+(**) "it" == my head
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

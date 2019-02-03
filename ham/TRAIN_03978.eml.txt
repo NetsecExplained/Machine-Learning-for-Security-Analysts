@@ -1,0 +1,47 @@
+Re: router policy question
+On Apr 16, 2010, at 8:35 PM, Daniel D Jones wrote:
+
+>> But is there any reason at all to allow anything, aside from some =
+ICMP, to
+>> go beyond the ACL on its Internet facing interface -- to get to the =
+router
+>> itself, that is?
+>=20
+> You mean packets coming in from the Internet with a destination IP =
+that is=20
+> assigned to the router itself? =20
+
+Yup. I've blocked telnet and some irrelevant ICMP for a long time. It =
+dawned on me the other day that I couldn't think of any reason not to =
+just drop all TCP and UDP traffic to the router's outside IP.
+
+> Are you running any sort of routing protocol=20
+> or similar that communicates with your ISP's routers, including things =
+like=20
+> MPLS, or any VPNs/tunnels that terminate at the border router?
+
+No routing protocols on the outside interface. The VPNs are handled by a =
+host in the DMZ. To this router, the VPN traffic looks like just more =
+UDP between public IPs.
+
+> What about NAT=20
+> or port forwarding on the border router?
+
+There's no port forwarding, and NAT all happens inside, on the firewall =
+that connects the outside, the DMZ, and the LAN. This router sees only =
+my routable address space (and its IP on the 1918 net between it and the =
+firewall).
+
+--=20
+Glenn English
+ghe@slsware.com
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/41EBEF30-1BF2-4092-AD4B-B0713E968150@slsware.com
+
+

@@ -1,0 +1,17 @@
+[Spambayes] DeploymentI think one step towards deployment is creating a re-usable tokenizer
+for mail messages.  The current codebase doesn't expose an easy-to-use
+or easy-to-customize tokenizer.
+
+The timtest module seems to contain an enormous body of practical
+knowledge about how to parse mail messages, but the module wasn't
+designed for re-use.  I'd like to see a module that can take a single
+message or a collection of messages and tokenize each one.
+
+I'd like to see the tokenize by customizable, too.  Tim had to exclude
+some headers from his test data, because there were particular biases
+in the test data.  If other people have test data without those
+biases, they ought to be able to customize the tokenizer to include
+them or exclude others.
+
+Jeremy
+

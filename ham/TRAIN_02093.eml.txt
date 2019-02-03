@@ -1,0 +1,23 @@
+How To Manage LogmailsHello,
+
+we have several servers which generate logmails every day.
+How do you manage these if several people should have access? 
+With a logmail-mailbox, a shared mailbox or a special software?
+
+thx
+
+Moritz
+
+
+-- 
+Wissen ist das einzige Gut, das sich vermehrt, wenn man es teilt.
+--
+http://www.lagerkochbuch.ch
+
+
+-- 
+To UNSUBSCRIBE, email to debian-isp-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409071939.GF23814@aletschhorn.itds.ch
+
+

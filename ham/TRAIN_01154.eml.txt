@@ -1,0 +1,46 @@
+RE: [ILUG] RE: Newbie QuestionYes, the lasat speed basic sucks-ass.com, it won't work coz its from eircon
+who are shite. 
+
+I have two of em sitting in my drawer of "might have a use some day or
+other"...
+
+Get yourself an el-cheapo ISDN card, 50 yoyo's will usually suffice. I have
+a TRUST load a crap HFC based one which has been trodding along nicely for
+yonks. Gets detected automagically by pretty much ANY distro, has kernel
+support for a million years or so. 
+
+Later,
+CW
+
+p.s.: you other modems are probably winmodems and are a pain in ze arse.com,
+they will work with lots of poking but not worth the effort IMHO. Just use
+ISDN and NAT it.
+
+
+-----------------
+Regarding:
+Another problem I have is that I cannot install my ISDN, USB modem ( LASAT
+Speed Basic ), however im pretty sure its not supported by Linux, but again
+it is featured in the Hardware Browser, without installed drivers.
+
+Thanks for your replies.... However i still cant get it to detect the
+External USB modem. I also have an internal 56k fax modem, but i cannot get
+that detected either ( maybe its because it was designed for Windows and is
+not supported ). Im not going to buy a new modem ( I think 2 is more than
+enough for 1 PC ).
+
+It could well be my inexperience with Linux that is making this more
+difficult, but whatever it is iv just about had enough!! Any last gasp ideas
+would be welcome
+
+Many Thanks
+
+Mark
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

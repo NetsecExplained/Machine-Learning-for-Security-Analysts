@@ -1,0 +1,29 @@
+Re: ALSA Problem with Null kernelMatthias Saou wrote:
+> 
+> I'd like to aks this on the rpm-zzzlist : Would a new dependency of 250k, the
+> alsa-lib package, for many packages (mplayer, ogle, xine) be a problem for
+> the freshrpms.net packages users? As I really feel like blending ALSA in
+> now, especially since I've just spent some time recompiling alsa-kernel
+> package for all the Psyche kernels!!!
+
+I don't know a lot about ALSA, but use custom kernels for many of the 
+machines -- would this mean, in order to get mplayer (eg) to work, I'd 
+first have to compile a custom kernel option? or kernel module? Since I 
+wouldn't have your alsa-kernel(??) installed, would that mean alsa-libs 
+and so on won't install?
+
+(I guess, in short, if it *requires* the shipped kernel to be used, I'd 
+be against --with-alsa as a default?)
+
+-te
+
+-- 
+Troy Engel, Systems Engineer
+Cool as the other side of the pillow
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

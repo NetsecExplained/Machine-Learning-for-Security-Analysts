@@ -1,0 +1,34 @@
+a problem with apt-getHi,
+
+In my build scripts, I have problems with some of the kernel packages.
+
+For kernel-sources, I get :
+
+Package kernel-source is a virtual package provided by:
+  kernel-source#2.4.18-3 2.4.18-3
+  kernel-source#2.4.18-3 2.4.18-3
+
+on running apt-get install kernel-source
+
+Now, first of all, this doesn't really tell me what the two options are ;)
+Second, is there some way I can tell apt-get to install either ? This is 
+done from automatic build scripts so I'd like it to proceed anyway.
+
+Thanks,
+Thomas
+
+-- 
+
+The Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/
+<-*-                      -*->
+I'm alive.
+I can tell because of the pain.
+<-*- thomas@apestaart.org -*->
+URGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

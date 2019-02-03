@@ -1,0 +1,24 @@
+[ILUG] [OT]:Bill Gates in PeruHi guys,
+   slightly OT. This comes from The Register from last
+month, but I only came across it;
+
+http://www.theregister.co.uk/content/4/26207.html
+
+   Some/all of you may know that the government in
+Peru were going to instruct state bodies to look at
+using open source software in an attempt to save money
+over M$ licences. Well, read the above article.
+
+   Eamonn
+
+__________________________________________________
+Do You Yahoo!?
+Everything you'll ever need on one web page
+from News and Sport to Email and Music Charts
+http://uk.my.yahoo.com
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

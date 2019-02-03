@@ -1,0 +1,24 @@
+Re: Hptalx is buggy once calculator is plugged and linkedOn Fri, 07 May 2010 18:40:46 +0200, Merciadri Luca wrote:
+
+> Now that I know that my calculator is connected through ttyusb0, I have
+> configured HpTalx. Nice, I clicked `Save' and it directly bugged (I had
+> the bug-buddy tool which popped up). 'Was too good to be true, wasn't
+> it?
+
+(...)
+
+Just a wild guess, but try to launch the application as "root" user. 
+Maybe it's a device permissions issue :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.07.16.51.41@csmining.org
+
+

@@ -1,0 +1,27 @@
+Re: [ILUG] Using Normal IDE Device with a Dell Latitude CPx laptopDarren Kenny wrote:
+> Hi,
+> 
+> I've got an normal 3.5" CD-RW IDE drive that I'd like to be able to use 
+> with a Dell Latitude CPx laptop that I've got. Does anyone know any way 
+ > enable this, for example through the use of a special cable for the
+ > Modular Bay (where CD-ROM or floppy drive is normally).
+
+There is absolutely no way to use a conventional 3.5" drive with a
+laptop directly. However, you can get an external firewire or USB
+cradle and attach it to the laptop like that, and any 3.5" drive
+will work in that case.
+
+Example :
+
+http://www.microsense.com/USB_35_combo.asp
+
+Regards,
+
+Vin
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

@@ -1,0 +1,22 @@
+[IIU] spyware calling home?Hello all
+I'm looking for advice. My pc has developed a disturbing tendency of trying
+to access IP 62.17.143.253 without my consent. It has got to the stage where
+normal web-browsing is almost impossible.
+I have checked IP address on RIPE database and I know precisely who is being
+called. I contacted that company on 14 July, when the problem first arose
+and asked for a remedy but (surprise) got no reply.
+A helpful person on the ie.comp list suggested Adaware spyware removal. I
+ran this and haven't had a problem again until today.
+The offending program is obviously not in Adaware db. (I run adaware with
+current ref files every day now).
+Any suggestions, please,  for removing whatever the f*** is causing this
+from my pc?
+Brian
+
+
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+
+

@@ -1,0 +1,59 @@
+Re: mount information from DA framework.
+On May 18, 2010, at 18:41 PM, Daniel Markarian wrote:
+
+> Hey Dale,
+>
+> You have to use BSD.  eg.
+>
+>     1. DADiskCopyDescription()
+>     2. CFDictionaryGetValue() with kDADiskDescriptionVolumePathKey
+>     3. CFURLGetFileSystemRepresentation()
+>     4. statfs()
+>     5. f_flags with MNT_DONTBROWSE
+
+Sample code would have been helpful but I guess I can try and figure =20
+it out.
+
+> I have a suggestion though.  It seems to me that the mount can be =20
+> made without the assistance of an I/O Kit extension and a Disk =20
+> Arbitration daemon.  You can mount a diskXs3 partition directly =20
+> with BSD, through your application, agent, or whatnot, without any =20
+> requirement to expose diskXs3s1 in I/O Kit.  eg.
+>
+>     /sbin/mount -t hfs -o nobrowse /dev/diskXs3 /var/tmp/=20
+> com.MyCompany.MyProduct.X
+
+Fails cause the directory does not exist so I would have to not only =20
+create the directory I would have to remove it upon a dismount and =20
+create code to manage multiple drives.
+
+> You can use posix_spawn() to invoke such a command.
+>
+> Dan
+>
+> PS:  Disk Arbitration 1 is deprecated, thus the sample code that =20
+> uses Disk Arbitration 1 is deprecated.  It is not useful in modern =20
+> code, but if you must insist, look at disktool.c in the Disk =20
+> Arbitration project.
+
+This code did not display the nobrowse option.
+
+OK, how can I do it using DA 2?
+
+> Le 2010-05-16 =E0 14:24, websrvr a =E9crit :
+>
+>> Does anyone know how I can find out if a partition is mounted =20
+>> nobrowse using the DA framework?
+>>
+>> -- Dale
+>
+>
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

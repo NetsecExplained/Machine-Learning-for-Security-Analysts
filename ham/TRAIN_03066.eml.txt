@@ -1,0 +1,61 @@
+Re: Resizing Raid 1 partitionsAaron Toponce wrote:
+> On 05/19/2010 12:47 PM, Erwan David wrote:
+>> 	Hi,
+>>
+>> I have a setup with 2 disks and following raid setting:
+>>
+>> sda1+sdb1 -> md0, /
+>> sda2+sdb2 -> md1 swap
+>> sda3+sdb3 -> md2 /home
+>>
+>> I'd like to resize partitions to get more space on md2 and less on md0.	
+>>
+>> What would bea good way to achieve this ?
+> 
+> The "best" way to acheive this would be to use LVM above your software
+> RAID. At that point, it would be very painless, compared to what is
+> ahead of you now. If you're curious, here would be the steps:
+> 
+> mdadm -C /dev/md0 -n 2 -l 1 -a yes /dev/sd{a,b}
+> pvcreate /dev/md0
+> vgcreate home /dev/md0
+> lvcreate -L 1G -n swap home
+> lvcreate -L 10G -n root home
+> lvcreate -l 100%FREE -n home home
+> 
+> Then, for giving more space to home, and less to root, boot off a live
+> CD, and (assuming you're using ext3/4):
+> 
+> e2fsck /dev/home/root
+> resize2fs /dev/home/root 6G
+> lvreduce -L 6G /dev/home/root
+> lvextend -L +4G /dev/home/home
+> resize2fs /dev/home/home
+> 
+> That's it! However, because you chose not to use LVM, you will need to
+> boot of a live CD that supports Linux software RAID, rebuild the array,
+> and perform the resizing there. I'm not sure if GParted supports this or
+> not. Worth checking out, however.
+> 
+> I would personally recommend backing up your data, and reinstalling,
+> with LVM on top of your software RAID. You still have the redundancy,
+> and you have the awesome flexibility of resizing volumes with great ease.
+> 
+
+Thanks. But I would have preferred avoiding full reinstall...
+
+I found this tutorial
+http://www.howtoforge.com/how-to-resize-raid-partitions-shrink-and-grow-software-raid
+
+I will try first.
+
+-- 
+Erwan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF4EB53.9060908@rail.eu.org
+
+

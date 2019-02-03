@@ -1,0 +1,27 @@
+Re: Bug 226394 NOT confirmedOn 2010-05-07 Dotan Cohen wrote:
+> Can other KDE users please triage these dataloss bugs in Korganizer in KDE
+> 4.4:
+> 
+>  https://bugs.kde.org/show_bug.cgi?id=172464
+>  https://bugs.kde.org/show_bug.cgi?id=226394
+>  https://bugs.kde.org/show_bug.cgi?id=228674
+>  https://bugs.kde.org/show_bug.cgi?id=236563
+>  https://bugs.kde.org/show_bug.cgi?id=236658
+> 
+> Each one should take less than a minute to triage.
+> 
+> Dataloss is a huge issue and I fear that it is not getting the
+> attention that it deserves. Hopefully if some other users confirm the
+> issues then the bugs will get priority. Thanks.
+
+I was not able to reproduce the bug and added that to the bug report.
+
+Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071326.14497.didi.debian@cknow.org
+
+

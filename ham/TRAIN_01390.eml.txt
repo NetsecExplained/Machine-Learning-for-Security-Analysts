@@ -1,0 +1,32 @@
+Re: [SAtalk] RBL timed oiut and Spam Assassin killedOn Sun, 15 Sep 2002, Vernon Webb wrote:
+
+> I'm getting these messages and I'm not sure what they mean. Can anyone clear 
+> this up for me? Thanks.
+> 
+> Sep 15 11:45:09 linux mailscanner[6128]: RBL Check ORDB-RBL timed out and 
+> was killed, consecutive failure 3 of 7
+> Sep 15 11:45:24 linux mailscanner[6128]: SpamAssassin timed out and was 
+> killed
+
+Your running mailscanner and the timeout used got to check ORDB-RBL is too 
+low and your timing out.  mailscanner will count up to seven timeouts and 
+then automatically disable these checks until it restarts itself (within 4 
+hours).
+
+-- 
+Gerry
+
+"The lyfe so short, the craft so long to learne"  Chaucer
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

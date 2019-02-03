@@ -1,0 +1,71 @@
+Re: Capture (for video) what is displayed on the screen-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón  writes:
+
+> On Sun, 09 May 2010 18:46:20 +0200, Merciadri Luca wrote:
+>
+>> Camaleón writes:
+>> 
+>>> Ffmpeg (command line tool) can achieve that:
+>>>
+>>> http://ffmpeg.org/ffmpeg-doc.html#SEC4
+>>>
+>>> With "-t" you specify the time interval for screen grabbing.
+>> Nice, but
+>> 
+>> ==
+>> ~$ ffmpeg -f x11grab -s cif -i :0.0 /tmp/out.mpg 
+>
+> (...)
+>
+>> [x11grab @ 0xb7f7fec8]device: :0.0 -> display: :0.0 x: 0 y: 0 width: 352
+>> height: 288 [x11grab @ 0xb7f7fec8]AVParameters don't have video size
+>> and/or rate. Use -s and -r. :0.0: I/O error occured
+>> Usually that means that input file is truncated and/or corrupted. 
+>
+> And what happens when you specify another "-s" (size) and "-r"
+> (rate)?
+See my answer to our fellow Alexander. (And also, sorry for not trying
+it correctly, apparently.)
+
+> ffmpeg -f x11grab -r 24 -s 640x480 -i :0.0 /tmp/out.mpg
+>
+>>> There also some nice GUI apps ("Istambul" or "gtk-recordmydesktop")
+>>> that can also help you with this task.
+>
+>> Istanbul looks nice, but I am obliged to choose `Record 3D' to actually
+>> record something acceptable: if this option is unticked, the video
+>> images' alternate between (black&white;) and (color). Note the `n' at the
+>> place of your `m'. Weird, once again!
+>
+> Yep, it's named "Ista[n]bul" :-)
+>
+> "Recordmydesktop" is another option. There are many others, just check 
+> what is better for you.
+I do not even try it. I could not have asked for something better than
+Istanbul: it just fits my needs. (Except if you're `recordmydesktop's
+secret developer, case where I would try it ;-).)
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+Love doesn't make the world go round. Love is what makes the ride
+ worthwhile.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvm788ACgkQM0LLzLt8MhwwlgCgkaVLwS5X9F6L3h9JWgWQFwMr
+o/0An0XOh8v9AOoIrkvRgUvgmrS4Umxk
+=DPAz
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/8739y1xa28.fsf@merciadriluca-station.MERCIADRILUCA
+
+

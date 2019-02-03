@@ -1,0 +1,31 @@
+Re: cross-connecting console ports?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hi Miles,
+
+On Mon, May 17, 2010 at 04:59:38PM -0400, Miles Fidelman wrote:
+> Short of buying a remote KVM, it occurs to me that it might be possible =
+=20
+> to cross-connect the serial ports on the two computers - using a terminal=
+=20
+> program on one, to access the other, and vice versa.
+
+This works fine; I do it all the time when testing hardware.
+
+> Has anybody done this?  Any suggestions on where to start - both re. =20
+> cabling (USB vs. serial cross-over), and/or software?
+
+These days it becomes easier to have a bunch of USB ports than a
+bunch of serial ports, so USB/serial converters are cheap and useful
+and I've yet to find one that doesn't just work under Debian.
+
+I used to use minicom, but lately I use "screen /dev/ttyUSB0 9600"
+or whatever.
+
+Cheers,
+Andy
+
+--=20
+http://bitfolk.com/ -- No-nonsense VPS hosting

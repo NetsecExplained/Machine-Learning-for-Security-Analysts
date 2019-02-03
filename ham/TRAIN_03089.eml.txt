@@ -1,0 +1,73 @@
+Re: use of base image / delta image for automated recovery from
+    attacksBen Mord wrote:
+
+>     -----Original Message-----
+>     *From:* Crispin Cowan [mailto:crispin@wirex.com]
+>     *Sent:* Wednesday, September 04, 2002 5:46 PM
+>     *To:* Ben Mord
+>     *Cc:* Webappsec Securityfocus.Com; SECPROG Securityfocus
+>     *Subject:* Re: use of base image / delta image for automated
+>     recovery from attacks
+>
+>     Ben Mord wrote:
+>
+>>I was inspired by a mode of operation supported by VMWare. [use VMWare's ability to rolll back state to recover from intrusions]
+>>
+>     I did my dissertation work in this area (Optimistic Computing
+>     ) and so was
+>     interested in applying it to the security problem. Unfortunately,
+>     you hit a bunch of problems:
+>
+>         * When can you "commit" a state as being "good"?  You can't
+>           run from a redo log forever; the performance and storage
+>           penalties accumulate. Even log structured file systems
+>           garbage collect eventually. So you have to commit sometime.
+>           The problem is that if you commit too eagerly, you might
+>           commit corrupted state. If you commit too conservatively,
+>           you eat performance and storage penalties.
+>         * What do you do if you discover that there is corrupted state
+>           in the *middle* of your redo log, and you want some of the
+>           critical state that comes after it? You need some way to dig
+>           the corruption out of the middle and save the rest. My
+>           dissertation solves this problem, but you have to re-write
+>           everything in my programming language :)
+>         * Just doing this at all imposes substantial performance
+>           penalties. I love VMWare, and use it every day (the best
+>           $200 I ever spent on software) but it is not very fast.   
+>
+> My proposed solution to the first two problems you mention is to be 
+> less ambitious. The idea is that you *never* commit - instead, you 
+> simply revert to base state on reboot.
+
+Ah. In that case, you can use something considerably less powerful than 
+VMWare. All you need is a machine configured to boot from CD-ROM and use 
+a RAM disk for scratch space. Numerous Linux distros are available that 
+let you boot a stateless but functional system from CD-ROM.
+
+> Obviously, you can't do this with partitions that accrue important 
+> state, e.g. a partition that stores database table data.
+
+... but if you *do* want some state to persist, then you need a 
+mountable writable partition. To protect it, you need some kind of 
+access control management to decide who can do what to the writable 
+partition, blah blah blah ... and before you know it, the security 
+problem starts to look just like it does for conventional servers.
+
+Simple approxmation to this: make /usr a separate partion, and mount it 
+read-only:
+
+    * The good news: attackers that want to trojan your software have to
+      reboot, at least.
+    * The bad news: administrators that want to update your software
+      have to reboot, at least.
+
+Crispin
+
+-- 
+Crispin Cowan, Ph.D.
+Chief Scientist, WireX                      http://wirex.com/~crispin/
+Security Hardened Linux Distribution:       http://immunix.org
+Available for purchase: http://wirex.com/Products/Immunix/purchase.html
+
+
+

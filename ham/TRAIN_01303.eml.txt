@@ -1,0 +1,60 @@
+Re: Sudden reboots with Firefox and FlashOn Tue, 20 Apr 2010 21:00:26 +0200, Nick Douma wrote:
+
+> I recently built a new computer with the following specs:
+> 
+> * Intel Core i7 930
+> * Gigabyte X58A-UD7
+> * OCZ Platinum XTC OCZ3P1333LV6GK (6GB DDR3) * Gigabyte GV-N275UD-896I
+> (nVidia GeForce GT 275) * 2x 1TB Saamsung Spinpoint F1 HD102UJ * 2x
+> 500GB Seagate Barracuda 7200.10 ST3500630AS
+>   - both in RAID0 using Intel Matrix RAID
+
+
+I hope you also get a 1000 watts power supply to feed that equipment >:-)
+ 
+
+> Here's the problem: I initially installed Windows 7 64bit on this pc.
+> Whenever I tried to watch a Flash movie using Minefield and Adobe Flash
+> 10.1, I would always get sudden reboots. It wasn't a BSOD, because I
+> received no such screen and no memory dumps were made. Suspecting that
+> it might be because of Minefield, I installed Firefox 3.6. I received
+> the same results. Even using IE8 and Opera, I would reliably get sudden
+> reboots when watching Flash movies. Fed up with this, I installed Debian
+> Lenny as a dual boot.
+
+(...)
+
+> Can anyone advise me what to do from here on? I tried googling the
+> initials Firefox + Flash problems, but nothing conclusive came up. I'm
+> posting a message on this list, because the problem is not limited to
+> just Windows, and I believe someone can give me some new insights on
+> this problem.
+
+
+So, as you already discarded FlashPlayer as unique source of your 
+reboots, I will take a look into:
+
+1/ System overheating (reboots tend to happen due to high temperatures, 
+watch the BIOS CPU temps and control the rpm of the fans).
+
+2/ RAM memory modules and voltages. Check the ram dimms are certified for 
+you motherboard and also, look into the BIOS voltages are the correct 
+ones for you type of ram.
+
+3/ Hard disks health. You can test this with "smartcl".
+
+Being a brand-new computer I would suspect for bad hardware or assembly 
+problems :-/
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.20.19.14.21@csmining.org
+
+

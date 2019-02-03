@@ -1,0 +1,32 @@
+Re: Why are there no latest books written for Debian systems?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+also sprach Charles Kroeger  [2010.04.24.0045=
+ +0200]:
+> Mr. Krafft, I have your "Debian System, concepts and techniques"
+> a first editon from 2005. I think it's a good choice for a new
+> Debian user.
+
+Thank you.
+
+> Why does a cow ride a surfboard on the cover, Is this widely understood?
+
+The image came to me as I was dozing off to sleep. The history of
+the Super-Cow in Debian is long and secret. I am afraid I cannot
+spill the details. ;)
+
+But given that Debian has Super-Cow Powers, I figured my book might
+let you surf properly. That's why.
+
+--=20
+ .''`.   martin f. krafft       Related projects:
+: :'  :  proud Debian developer               http://debiansystem.info
+`. `'`   http://people.debian.org/~madduck    http://vcs-pkg.org
+  `-  Debian - when you have better things to do than fixing systems
+=20
+"we did rate the microsoft security researcher as less-bad than the
+ people who prepare the carcasses for dissection in biology
+ laboratories."
+             -- michael moyer, executive editor of _popular science_

@@ -1,0 +1,12 @@
+Ken Dow reports that the current version of OmniOutliner can read
+    and writeURL: http://scriptingnews.userland.com/backissues/2002/09/25#When:8:47:05AM
+Date: Wed, 25 Sep 2002 15:47:05 GMT
+
+Ken Dow reports[1] that the current version of OmniOutliner can read and write 
+OPML. This means, for example, with a little Radio script (or an AppleScript) 
+you could use Omni as an Instant Outliner[2].
+
+[1] http://radio.weblogs.com/0001015/images/2002/09/25/omniOutlinerWithOpml.jpg
+[2] http://davenet.userland.com/2002/04/02/jonUdellOnInstantOutlining
+
+

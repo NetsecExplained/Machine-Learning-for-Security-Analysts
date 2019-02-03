@@ -1,0 +1,27 @@
+Re: [SAtalk] Setting up a spam eating address
+"Steve Thomas" said:
+
+> I created a user (honeypot) and set up an alias to it. Then I added a
+> 'hidden' (font color same as background color) link to that address at the
+> bottom of my html pages. The .procmailrc file for that user is: .....
+> which will submit the msg to razor then save it locally. I set this up about
+> a month ago, and haven't received anything other than some viruses (Sircam)
+> on it yet. The viruses are rejected at the MTA level, so they're not being
+> saved/reported to razor.
+
+FWIW, I would now recommend doing this (using a user with a procmailrc)
+instead of a system alias; more secure, and easier to filter out crud
+like bounces, virii etc. that render a corpus dirty.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

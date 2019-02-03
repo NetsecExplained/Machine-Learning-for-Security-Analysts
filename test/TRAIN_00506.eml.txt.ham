@@ -1,0 +1,29 @@
+Re: where is what kontrol did?Dotan Cohen wrote:
+>> But at what price: hal comes back in again, after I just got rid of it, and
+>> also consolekit, after I just got rid of that too...
+>> I dunno, all for just a sound...
+>>
+> 
+> I suppose that depends on how (and why) you got rid of them.
+> 
+> Have you tried installing Pulse Audio, you can control that without
+> the KDE tools.
+> 
+> 
+
+Hal and friend got installed because they used to be needed for 
+xserver-xorg, but that is no longer true in the latest versions, so I 
+just removed them.
+
+But will pulse audio make my Konsole make a sound because that is the 
+only reason I would install systemsettings.
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqvfnr$bkp$1@dough.gmane.org
+
+

@@ -1,0 +1,47 @@
+Re: How to trick my Debian in thinking that a package is not installedFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Tuesday 27 April 2010 08:48:48 Daniel Burrows wrote:
+>   aptitude's resolver will *still* upgrade held packages
+
+Oh noes!
+
+>   A temporary solution for you is to cancel the auto flag on any
+> package you hold.
+
+Simple enough.
+
+>   Long-term solutions in the code could include postponing dependency
+> resolution until after the resolver finishes (which could have
+> wide-ranging implications), refusing to remove unused held packages, and
+> somehow "remembering" the held flag on packages that were removed
+> because they were unused.
+>=20
+>   Of these three solutions, I prefer the second one, refusing to remove
+> unused held packages.  It fits in with the intuitive meaning of "hold",
+> it's easy to implement, and it doesn't have a high risk of surprising
+> side-effects, since it only affects a fairly precisely defined set of
+> packages.
+
+As a user, I also prefer that approach, for all the reasons you mention.
+
+> Essentially, it causes held packages to be added to the root
+> set (and that's the best implementation, I think: modify aptitude's
+> custom root set function to include held packages).
+
+You lost me, but I haven't delved into the aptitude source code.  My approa=
+ch=20
+would have been just making the 'hold' action also clear the 'automatically=
+=20
+installed' flag; essentially "institutionalizing" the temporary solution. =
+=20
+But, I defer to your solution as it sounds more flexible.
+
+$(reportbug -k aptitude)
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

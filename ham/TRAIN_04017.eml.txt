@@ -1,0 +1,72 @@
+Automounting problems.I am running an up to date Lenny box with FVWM.  I do not run Gnome, or KDE.  I want to have removable devices, such as flash drives and mp3 players, automount.  I have read the mini How-To on automounting, but I still can't get it to work.
+
+This is the relevant data:
+
+$ cat /etc/auto.master
+
+#
+# $Id: auto.master,v 1.4 2005/01/04 14:36:54 raven Exp $
+#
+# Sample auto.master file
+# This is an automounter map and it has the following format
+# key [ -mount-options-separated-by-comma ] location
+# For details of the format look at autofs(5).
+#/misc  /etc/auto.misc --timeout=60
+#/smb   /etc/auto.smb
+#/misc  /etc/auto.misc
+#/net   /etc/auto.net
+/mnt    /etc/auto.mnt
+
+
+
+$ cat /etc/auto.mnt
+#
+# $Id: auto.misc,v 1.2 2003/09/29 08:22:35 raven Exp $
+#
+# This is an automounter map and it has the following format
+# key [ -mount-options-separated-by-comma ] location
+# Details may be found in the autofs(5) manpage
+
+#cd             -fstype=iso9660,ro,nosuid,nodev :/dev/cdrom
+
+# the following entries are samples to pique your imagination
+linux           -ro,soft,intr           ftp.example.org:/pub/linux
+#boot           -fstype=ext2            :/dev/hda1
+#floppy         -fstype=auto            :/dev/fd0
+#floppy         -fstype=ext2            :/dev/fd0
+#e2floppy       -fstype=ext2            :/dev/fd0
+#jaz            -fstype=ext2            :/dev/sdc1
+#removable      -fstype=ext2            :/dev/hdd
+#pen            -fstype=auto            :/dev/sda1
+mp3             -fstype=auto            UUID="7CE2-E7EA"
+lexar           -fstype=vfat            LABEL="LEXAR MEDIA"
+
+
+
+$ /etc/init.d/autofs status
+Configured Mount Points:
+------------------------
+/usr/sbin/automount --timeout=300 /mnt file /etc/auto.mnt
+
+Active Mount Points:
+--------------------
+/usr/sbin/automount --pid-file=/var/run/autofs/_mnt.pid --timeout=300 /mnt file /etc/auto.mnt
+
+
+The last two lines in /etc/auto.mnt refer to the devices that I am trying to automount.  I would use UUID for lexar, but it is "0000-0000" and would conflict with other devices.  I unplugged the devices prior to updating the files, the replugged them, but they do not automount.  I made sure that there are no references to the files in /etc/fstab, but still no automounting.  I also tried reloading autofs and then replugging the devices.  Nothing.
+
+What am I missing?
+
+All help appreciated.
+
+-- 
+Marc Shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/861952.20797.qm@web55508.mail.re4.yahoo.com
+
+

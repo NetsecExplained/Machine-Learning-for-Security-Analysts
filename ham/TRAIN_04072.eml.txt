@@ -1,0 +1,22 @@
+Re: What to choose for Core i5 64 bits?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Tue, May 11, 2010 at 2:02 PM, Kelly Clowers wrote:
+
+> On Tue, May 11, 2010 at 06:56, Jordan Metzmeier 
+> wrote:
+> >
+> > Adobe's 64bit flash player does not function on all the sites
+> > that the 32bit plugin will.
+>
+> [citation needed]
+>
+>
+> Cheers,
+> Kelly Clowers
+>
+>
+> https://bugs.adobe.com/jira/browse/FP-4067
+
+-- 
+Jordan Metzmeier

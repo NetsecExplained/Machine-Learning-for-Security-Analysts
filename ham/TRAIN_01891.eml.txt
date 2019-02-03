@@ -1,0 +1,30 @@
+Re: Updrading or reinstalling?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+IMHO, Debian seems to have the best record of successful upgrades. I run Si=
+d
+on several of my boxes, which means it is in a constant state of upgrade. O=
+n
+my workstation, with a very eclectic mix of software, I have only started
+over from scratch twice in the last 10 years...Once in 2000 and once in
+2007.
+
+--b
+
+On Fri, May 14, 2010 at 10:25 PM,  wrote:
+
+> Hi there,
+>
+> Just one question,
+>
+> Is it better to upgrade debian using dist-upgrade or just download the ne=
+w
+> iso and reinstalling it?? I'm waiting for the squeeze final release..
+> Currently still using lenny.
+>
+> Thanks
+> RJB
+> Sent from my BlackBerry=AE
+> powered by Sinyal Kuat INDOSAT
+>

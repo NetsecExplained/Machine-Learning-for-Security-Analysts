@@ -1,0 +1,14 @@
+debian lenny support timeHi,
+Do you know the support time for debian lenny?
+
+-- 
+Regards;
+Israel Garcia
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/y2h194a2c241004280638j2fa55597ue966d8a9a03c0d28@mail.csmining.org
+
+

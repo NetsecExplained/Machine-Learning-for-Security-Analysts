@@ -1,0 +1,66 @@
+Re: [ILUG] How to copy some filesOn Sat, Jul 20, 2002 at 08:24:47PM +0100, Aidan Kehoe wrote:
+>  Ar an 20ú lá de mí 7, scríobh kevin lyda :
+>  > actaully i think soft links were invented because you can't hard link
+>  > directories. 
+> But you could hard link directories, back when soft links were
+> being invented, AFAIK. 
+
+that was before my time.  all unix systems i've used didn't allow hard
+links to directories, or if they did they were restricted to root.
+the reason why is because you could cause infinite loops in the kernel -
+usually a bad place for infinite loops.
+
+>  > apparently some systems limited soft links to the same device but
+>  > gave up after a while.  
+> Why?
+
+to make them consistent with hard links.
+
+> A better way of doing it would be a) have global unique filesystem
+> identifiers for every FS created (such that the chance of two of them
+> clashing is miniscule; 64 bits creatively used would do it, I'd say),
+> and b) implement the target info for the soft link as a {FSID, inode}
+> pair; the OS can work out if the thing linked to is now on a different
+> mount point, or has been moved. (HFS fans, is that what's done? Or are
+> aliases implemented differently?)
+
+let's call these super-soft-links.  ln -ss
+
+    % ln -ss foo bar
+    % ls -i foo
+    111 foo
+    % mv floyd foo
+    % ls -i foo
+    222 foo
+
+and now bar no longer points to foo.
+
+    % ln -ss foo bar
+    % ls -i foo
+    111 foo
+    % rm foo
+    % touch floyd
+    % ls -i floyd
+    111 floyd
+
+the fs would need to maintain a table of links going the other direction.
+so when the move command unlinks foo in the first example, it could
+check the table and mark that bar is now disconnected.  the same would
+be true for the second example - and even more important since bar points
+to floyd if no table is consulted.
+
+and this all fails to handle nfs mounted file systems or filesystems
+that have dynamic inodes (the fat fs's and reiser lacks inodes i think).
+
+kevin
+
+-- 
+kevin@suberic.net     that a believer is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspace place: home       than a sober one. the happiness of credulity is a
+http://ie.suberic.net/~kevin   cheap & dangerous quality -- g.b. shaw
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie

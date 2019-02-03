@@ -1,0 +1,59 @@
+Strange behaviour: Scanner and NetbeansHi all
+
+=46rom time to time I have to assess Flash projects, and to assist my =
+marking a few years ago I wrote a program which uses a Scanner to open =
+the .fla file and read it on a "line by line" basis.  Although this is =
+really stretching what a Scanner should do, it has proven surprisingly =
+useful over the years.
+
+My original version of the software was written with an "old" Xcode =
+style project using the now deprecated jam.  Recently I decided I needed =
+to make some changes to it and I thought it would be a good move to =
+transfer it to Netbeans --- and it didn't work!  The Scanner wouldn't =
+read a .fla file when run from Netbeans, but it would when run from =
+Xcode, using either a jam or ant type project.  It would also work if I =
+navigated to the Netbeans "dist" folder and double clicked the jar =
+directly. =20
+
+The following code shows the problem:
+
+      String fullFileName =3D "/Users/boblang1/Desktop/xxx.fla";
+     =20
+      try {
+        Scanner in =3D new Scanner (new File (fullFileName));
+        while (in.hasNextLine ()) {
+          String line =3D in.nextLine ();
+          System.out.println (line);
+        }
+      }
+      catch (Exception e) {
+        System.out.println ("Exception reading file: " + fullFileName);
+        System.out.println (e);
+      }
+
+When run inside Xcode or by double clicking the jar, the Scanner reads =
+the .fla file.  When run inside Netbeans, it appears to open the file =
+but won't return any lines (the while loop terminates early).  There are =
+no exceptions reported. =20
+
+BTW, the problem only seems to happen with .fla files.  I can read .txt =
+files quite successfully.
+
+I'm running fully up to date Snow Leopard, with the latest developer =
+preview Java. As far as I can tell, I don't have any older versions of =
+Java on my computer.  All the versions in /System/Library appear to link =
+to Java 1.6.=20
+
+Any ideas?
+
+Bob
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

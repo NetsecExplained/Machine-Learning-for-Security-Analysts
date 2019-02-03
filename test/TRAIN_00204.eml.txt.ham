@@ -1,0 +1,39 @@
+Re: Filesystem recommendations
+Ron Johnson  wrote:
+> B. Alexander wrote:
+> > Ron Johnson  wrote:
+
+> [snip]
+
+> >> XFS is the canonical fs for when you have lots of Big Files.  I've
+> >> also seen simple benchmarks on this list showing that it's faster
+> >> than ext3/ext4.
+
+> > Thats cool. What about Lots of Little Files? That was another of the draws
+> > of reiser3. I have a space I mount on /media/archive, which has everything
+> > from mp3/oggs and movies, to books to a bunch of tiny files. This will
+> > probably be the first victim for the xfs test partition.
+>
+> That same unofficial benchmark showed surprising small-file speed by
+> xfs.
+
+Would you happen to have any links to such benchmarks, unofficial or
+otherwise?
+
+My experience has been that whenever I look at filesystem benchmarks,
+they skip the many-small-files case.  I've always had the feeling that
+most of the big filesystems cared a lot about scaling up in file-size,
+but not too much about anything else.
+
+I'm a Reiser3 user myself, and I've never had any problems with it.
+
+(The trouble with it being "long in the tooth" is mostly hypothetical,
+isn't it?)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004291917.o3TJHSIg000473@kzsu.stanford.edu
+
+

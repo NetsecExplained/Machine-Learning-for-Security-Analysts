@@ -1,0 +1,25 @@
+Am I This Or Not?Wow, talk about a pheenomeenon
+
+==
+http://www.iamcal.com/software/ami/
+
+AmIThisOrNot Dynamic Peer Rating System
+
+What is It?
+It's a tool to help you build your own "Am I X Or Not" sites.
+
+Where Can I Get It?
+Basic Version $20
+The basic version lets you build a specific "Am I X" site (example). The
+license covers a single installation on a single site.
+
+Advanced Version $40
+The advanced version lets your users create their own "Am I X" sites
+(example). The license covers a single installation on a single site.
+
+Installation $20
+Either version of the system can be installed on your web server, given FTP
+access and MySQL login details.
+
+
+

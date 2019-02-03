@@ -1,0 +1,22 @@
+Re: inbox mail notification broken    Date:        Tue, 06 Aug 2002 09:04:58 +0100
+    From:        Marc Baaden 
+    Message-ID:  
+
+  | Any hints ?
+
+Probably a private sequence has gotten set, the highlighting only
+works for public ones.
+
+If "scan unseen" works as you'd expect, but highlighting doesn't,
+that's the usual explanation.
+
+kre
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

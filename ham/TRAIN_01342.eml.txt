@@ -1,0 +1,56 @@
+Re: cycle through windows causes freezeLeopard will see limited development releases.  You will need to wait =
+for rc1.
+
+--Jeremy
+
+On Apr 23, 2010, at 09:21, Michael McCracken wrote:
+
+> It looks like 2.5.1_beta series is only up for 10.6 -- is a release
+> for 10.5 planned or was 2.5.0 the last 10.5 release?
+>=20
+> Sorry if this was discussed already, I did a quick search but didn't
+> see anything obvious.
+>=20
+> -mike
+>=20
+> On Thu, Apr 22, 2010 at 6:21 PM, Jeremy Huddleston =
+ wrote:
+>> =
+http://xquartz.macosforge.org/trac/wiki/Releases#AutomaticUpdatesforBetaVe=
+rsions
+>>=20
+>> On Apr 22, 2010, at 16:01, Jon Markle wrote:
+>>=20
+>>> Link please.
+>>>=20
+>>> Thanks,
+>>>=20
+>>> Jon
+>>>=20
+>>> On Apr 22, 2010, at 4:45 PM, Jeremy Huddleston wrote:
+>>>=20
+>>>>=20
+>>>>=20
+>>>> This was fixed in 2.5.1_beta1 3 weeks ago.  2.5.1_beta2 was just =
+released a few minutes ago which also contains this (and other) fixes.
+>>>>=20
+>>>> --Jeremy
+>>>=20
+>>=20
+>>  _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> X11-users mailing list      (X11-users@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription: =
+http://lists.apple.com/mailman/options/x11-users/michael.mccracken%40gmail=
+.com
+>>=20
+>> This email sent to michael.mccracken@csmining.org
+>>=20
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

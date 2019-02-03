@@ -1,0 +1,52 @@
+Re: asignar hora a PCOn Wed, 28 Apr 2010 09:28:23 -0400, Stephen Powell wrote:
+
+> On Wed, 28 Apr 2010 02:16:20 -0400 (EDT), Camaleón wrote:
+
+>> After some attemps to try to contact the user (he also writes into the
+>> Spanish list), I reached the following conclusions:
+>> 
+>> 1/ The user does not receive many of the e-mails coming from the list.
+>> 
+>> 2/ He cannot receive e-mails from the outside (maybe is behind a proxy
+>> or firewall or any kind of filter system that rejects external
+>> e-mails).
+> 
+> That is indeed strange.  I have never heard of an e-mail system that
+> allows e-mails out but not in.  (Except for spam setups, of course!)  
+
+Look at his e-mail address :-/
+
+This won't be the first time I see problems with user coming from some 
+restrictive networks. 
+
+> He must have *some* way of receiving replies, such as viewing the 
+> mailing list archives via a browser.  Otherwise, why would he ask a 
+> question to which he knows that he cannot receive replies? And if 
+> memory serves me correctly, this user has been repeatedly told that 
+> debian-user is for English only.  I must therefore conclude that he is 
+> either (a) stupid, (b) careless, or (c) obnoxious. And none of those 
+> alternatives speak well of him or motivate people to help him.
+
+There is still another option: "d) Other" :-)
+
+Many cuban users are not able to browse the web (they have Internet but 
+only e-mail access, no web browsing) so if that is the case, he cannot 
+review the mailing list posts using web archives and if he is not 
+receiving e-mails coming from external users (non *.cu addresses), he is 
+then stuck.
+
+But I'm just guessing, true is that in the Spanish mailing list there are 
+some posts coming from him, but *not* replies.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.28.14.03.15@csmining.org
+
+

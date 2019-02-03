@@ -1,0 +1,20 @@
+Re: How to Find a Printer Driver?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, 10 May 2010 21:59:56 +0100
+Brad Rogers  wrote:
+
+Hello Brad,
+
+> hplip-data package from there, or wait for it to migrate.
+
+Oops!  It may also be in hpijs-ppds.  I didn't check closely.
+
+--=20
+ Regards  _
+         / )           "The blindingly obvious is
+        / _)rad        never immediately apparent"
+
+I ain't got no time for intellectual music, e.g. Hergest Ridge
+Alberto y Lost Trios Paranoias

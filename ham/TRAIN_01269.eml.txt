@@ -1,0 +1,25 @@
+More acroread printing problemsHello, all.  With the appreciate help from this list, we finally learned
+we needed to install Acrobat Reader version 9.3.2 from unstable into our
+Lenny systems in order for Acrobat to see our CUPS printers.  However we
+are still having problems printing anything other than letter size jobs.
+It looks like acroread is creating an lpr command using the -o
+PageRegion and setting that option incorrectly.  For example, in one
+case we saw -o PageSize=11x17 -p PageRegion=Letter which printed the
+11x17 print job on letter sized paper.  On a plotter we saw -o
+PageSize=24x36 -p PageRegion=A4 which resulted in the plotter rejecting
+the job as an invalid page size.  Bypassing the Acroread print command
+by using a Custom printer and sending the job to KPrinter works so this
+seems to be a clear bug in how Acrobat is reading the PPD file and
+creating the print command.
+
+Has anyone else encountered this problem? Is there a workaround? If not,
+I suppose I'll need to figure out how one reports bugs for acroread to
+Adobe.  Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273092061.19539.74.camel@Family.pacifera.com
+
+

@@ -1,0 +1,35 @@
+Debian Lenny + Grub2 + kernel message log capturingFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello=2C
+
+I was hoping to get some feedback or tips on how to setup a PCI serial card=
+ (not onboard) for kernel message log capturing. I am using Debian Lenny x6=
+4 with the grub2 bootloader.
+
+This might sound like an easy question=2C but does the Linux kernel module =
+have to be compiled with the running kernel in order to log messages at boo=
+t time? I mean obviously the driver is required to be loaded in Debian GNU/=
+Linux when the serial/com device is used in conjunction
+with /dev/ttyD[01].
+
+I have found a website providing patches for the chip on the PCI serial car=
+d I am using at:
+http://izto.org/mcs9865/
+
+Does Debian not include drivers for serial cards in any packages or would t=
+hese drivers be considered non-free?
+
+Thanks.
+
+=20
+
+-M
+
+
+ 		 	   		 =20
+_________________________________________________________________
+Videos that have everyone talking! Now also in HD!
+http://go.microsoft.com/?linkid=3D9724465=

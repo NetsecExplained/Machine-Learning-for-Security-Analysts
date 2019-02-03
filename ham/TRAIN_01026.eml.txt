@@ -1,0 +1,66 @@
+Re: Moving /tmp to a separate partition. Advice?On Sunday 23 May 2010 04:37:18 Klistvud wrote:
+> Howdy, fellow Debianites!
+> Given some extra hard drive space, I decided to move my /tmp dir
+> (currently located under / ) to a partition of its own. I am looking
+> forward to any advice, particularly of the been-there-done-that type:
+> * how should I configure my fstab entry? How does Debian installer do
+> it?
+
+  Watch out for permissions -- /tmp is "1777" (rwxrwxrwt), it has to
+be world-writable and have the sticky bit set, which ensures that only
+users who create files in there can write to them.  Permissions come
+from the mounted FS, not the mount point, so make sure you set these
+permissions while it's mounted.
+
+  Because of the world-writability, security conscious admins mount
+it nodev and nosuid.  If you're more careful, you can mount it noexec,
+too, but that will break some third-party software installers that
+work by examining your system, writing a custom config script inside
+/tmp somewhere, and then running it.
+
+  So your fstab entry might look like:
+
+> /dev/with/temp/ /tmp ext3 nosuid,nodev 0 2 
+
+  
+> * is there anything Debian-specific to watch for?
+
+  Not that I recall.
+
+> * is it true that setting /tmp permissions to non-executable, while
+> hardening your box, prevents apt from working properly?
+
+  Setting /tmp to non-executable by the noexec mount option does break 
+things, but as I said above, my recollection is that it mostly breaks 
+third-party stuff.  I think the apt scripts are all in /var/lib/dkpg/info,
+and are run from there.
+  Setting the *directory* noexec seems very bad, since the exec bit
+on directories controls the ability to cd to it, and turning that
+off would make it largely useless. 
+
+  As to "why", on moderately-high-availability multi-user systems, I 
+often put /tmp on a separate partition precisely so I can use mount
+options to globally control access.  This is more important in a 
+truly multi-user system than a home system, of course.
+
+  Misbehaving apps rarely but sometimes blow the lid off of /tmp, and
+having it be on its own partition means this doesn't compromise the
+system as a whole, and you can easily figure out what's going on by 
+seeing the logged errors and looking at "df" output.  Some folks keep
+/var/log on a separate partition for similar reasons.
+
+  Again, all of this is more important in a multi-user production 
+environment.  On my home systems, I mostly don't worry about this
+sort of thing.
+
+					-- A. 
+-- 
+Andrew Reid / reidac@bellatlantic.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005231038.48482.reidac@bellatlantic.net
+
+

@@ -1,0 +1,19 @@
+Re: How to flush cache of certain disk?Alexander Batischev wrote:
+> But all you said made me hard thinking about the way I mount and
+> unmount my removable media. Maybe I should forget about sync and use
+> 'umount /mnt/sd[a-z]' instead, or even write little script which will
+> ask me which device I want to unmount… [snip]
+
+Which is what eject(1) is.  It will search mountpoints in /dev, /media and 
+/mnt by default btw, so it's just "eject sd[a-z]" for your example.  You 
+might want to use /media and volume names instead.
+
+-thib
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE473CC.1040808@stammed.net
+
+

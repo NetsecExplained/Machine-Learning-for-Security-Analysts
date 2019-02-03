@@ -1,0 +1,23 @@
+Gnome 2.30 icons (was: Has Iceweasel adopted Chrome's icons?)On Thu, 2010-05-06 at 08:44 +0000, Liam O'Toole wrote:
+> You're probably seeing the new (version 2.30) GNOME icon theme. I don't
+> particulary like the new navigation buttons, but I suppose I'll get used
+> to them.
+
+I found the new icons don't have enough contrast to be easily
+distinguishable so I changed the icons theme. Unfortunately, some apps
+still use the new ones; I'm guessing this may be due to gnome icon
+symlinks named gtk-*.
+
+Once Gnome 2.30 is fully in Squeeze, I'm hoping to find some time to
+discover what hacks are required to get legible icons again.
+
+-- 
+Tixy
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273141362.6253.18.camel@computer2.home
+
+

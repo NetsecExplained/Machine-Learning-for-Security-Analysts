@@ -1,0 +1,24 @@
+Re: =?koi8-r?B?9dPUwc7P18vBIERlYmlhbiDO?=
+	=?koi8-r?Q?=C1?= x86_64On Thu, May 06, 2010 at 09:37:18AM +0400, íÉÈÁÉÌ wrote:
+> úÄÒÁ×ÓÔ×ÕÊÔÅ.
+
+  Hi. You can use debian-russian@lists.debian.org for russian speaking
+  mailing list. This list use only english.
+
+> ÷ ÏÒÇÁÎÉÚÁÃÉÉ ÓÔÏÉÔ ÓÅÒ×ÅÒ ÓÐÒÏÃÅÓÓÏÒÏÍ Intel(R) Xeon(TM). ïó: Red Hat Ent. Lic.5 x86_64.
+> ôÒÅÂÕÅÔÓÑ ÐÅÒÅ×ÅÓÔÉ ÅÇÏ ÎÁ Debian.
+> ëÁËÏÊ ÄÉÓÔÒÉÂÕÔÉ× ×ÙÂÉÒÁÔØ - x86 ÉÌÉ AMD64? ëÁËÏÊ ÉÚ ÎÉÈ ÕÓÔÁÎÏ×ÉÔÓÑ ÎÁ ÓÅÒ×ÁË ?
+> óÐÁÓÉÂÏ.
+
+  You can use ia64 debian for Xeon 64bit. i386 will work too.
+
+  [ru]éÓÐÏÌØÚÕÊÔÅ ia64 ÄÌÑ 64 ÒÁÚÒÑÄÎÏÇÏ Xeon'Á. äÉÓÔÒÉÂÕÔÉ× i386 ÔÏÖÅ ÂÕÄÅÔ
+  ÒÁÂÏÔÁÔØ[/ru]
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506063615.GA19902@debian
+
+

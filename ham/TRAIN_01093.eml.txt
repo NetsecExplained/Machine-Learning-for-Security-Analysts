@@ -1,0 +1,57 @@
+Security update for Debian Testing - 2010-04-23This automatic mail gives an overview over security issues that were recently 
+fixed in Debian Testing. The majority of fixed packages migrate to testing 
+from unstable. If this would take too long, fixed packages are uploaded to the 
+testing-security repository instead. It can also happen that vulnerable 
+packages are removed from Debian testing.
+
+Migrated from unstable:
+=======================
+couchdb 0.11.0-1:
+CVE-2010-0009: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-0009
+               http://bugs.debian.org/576304
+
+liboggplay 0.2.1~git20091227-1.1:
+CVE-2009-3388: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3388
+               http://bugs.debian.org/575743
+
+mediawiki 1:1.15.3-1:
+CVE-2010-1150: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1150
+
+poppler 0.12.4-1:
+CVE-2009-3938: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3938
+               http://bugs.debian.org/534680
+
+
+
+How to update:
+--------------
+Make sure the line
+
+	deb http://security.debian.org squeeze/updates main contrib non-free
+
+is present in your /etc/apt/sources.list. Of course, you also need the line
+pointing to your normal squeeze mirror. You can use
+
+	aptitude update && aptitude dist-upgrade
+
+to install the updates.
+
+
+More information:
+-----------------
+More information about which security issues affect Debian can be found in the 
+security tracker:
+
+	http://security-tracker.debian.org/tracker/
+
+A list of all known unfixed security issues is at
+
+	http://security-tracker.debian.org/tracker/status/release/testing
+
+
+-- 
+To UNSUBSCRIBE, email to debian-testing-security-announce-request@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E1O56tl-0002sS-5n@soler.debian.org
+
+

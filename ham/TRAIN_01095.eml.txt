@@ -1,0 +1,69 @@
+Re: About USB hard drives and errorsOn 20100411_005025, Stan Hoeppner wrote:
+> Paul E Condon put forth on 4/10/2010 11:41 PM:
+> 
+> > So, the fact that my WD drives don't play well with S.M.A.R.T doesn't 
+> > make them special, and I should not spend much, if any, time looking
+> > for a USB solution. What other options are there for external HD?
+> 
+> You're got 3 USB hard drives already, and you're throwing them out and
+> looking for another solution, just because they don't do S.M.A.R.T?  If
+> neither USB nor firewire do smart, you choices are very limited.
+
+Well, the sad story is that I don't really want to do S.M.A.R.T. I was
+experiencing disk errors on the drives which caused something in the
+kernel to throw a fit. When this happened, the only recovery I could
+find was to reboot. This is slow and not really a way to learn how to
+fix the problem. So I ask for advice on this list. I work down the
+list of suggestions, not having much success, and arrive at
+smartctl. But now we know that that doesn't work for reasons that I
+might have known if I had read the whole of wikipedia and had total
+recall --- but I hadn't and I don't.
+
+Since my last post, I have succeeded in doing a successful, error
+free, backup to each of the disks. One notable fact about all the
+errors is that after reboot it would appear that no data was lost and
+the backup could be resumed from where it advanced to just before the
+crash. The only thing that I can think that I did differently in these
+new successful runs is that I did not sit at the computer and
+watch. Can software detect being watched? I think not, but ...
+
+My reading about eSATA gives me suspicion that it has its own poorly
+documented problems. I'm not convinced that I cannot make USB work
+without S.M.A.R.T, but I really don't have any good ideas as to
+how. And now, without errors happening fairly frequently, I doubt that
+I will be able to test and debug any approach that I dream up.
+
+> 
+> The only other realistic option I know of is eSATA, but a quick scan of
+> Newegg shows only 6 devices total, 2 DVR expander drives and 4 eSATA RAID
+> enclosures.  I have no idea if the DVR expander drives will work with a
+> standard PC setup.  They "should".  The two DVR drives are both 1TB and both
+> just under $130 USD, one Iomega and one Western Digital:
+> 
+> http://www.newegg.com/Product/Product.aspx?Item=N82E16822186175
+> http://www.newegg.com/Product/Product.aspx?Item=N82E16822136384
+> 
+> Are you planning on connecting this drive to a laptop or desktop?  To
+> multiple computers or just one computer?
+
+This is for a LAN of desktop systems, three computers in all. One
+computer acts as a collector of backups from the itself and the other
+two, and is responsible for getting the files onto an external drive
+in a timely way.
+
+All of the computers are hand-me-downs. None have eSATA capability. So
+far I have not convinced myself that spending money would help solve
+the problem. Perhaps in a few years, computers with eSATA will start
+showing up in dumpsters. Maybe I should just wait.
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100411214050.GF10774@big.lan.gnu
+
+

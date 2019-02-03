@@ -1,0 +1,37 @@
+Re: [ILUG] converting strings of hex to asciiPaul Jakma wrote:
+> On Tue, 27 Aug 2002, David Neary wrote:
+> 
+> > > Actually the following would be in some way sensible:
+> > > echo -e "`echo "$enc" | sed 's/%\([0-9a-fA-F]\{2,2\}\)/\\\x\1/g'`"
+> > 
+> > Why {2,2}? Why not {2}?
+> 
+> the above was something along the lines i was attempting, once i 
+> realised it was a straight swap. but i couldnt get awk's gensub to 
+> insert the \x for %'s and ='s.
+
+Perl's pack() would do the job...
+
+> > PS the late reply is because the footer on the original mail (If
+> > you received this mail in error yadda yadda) got caught in my
+> > spam filter, and ended up in my junkmail directory.
+> 
+> might not have been the footer - check my headers. :)
+
+Actually, it was worse - a bodycheck showed up a "remove" URL. I
+need a new spam filter (but I want to be able to process false
+positives, rather than dump them).
+
+Cheers,
+Dave.
+
+-- 
+       David Neary,
+    Marseille, France
+  E-Mail: bolsh@gimp.org
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

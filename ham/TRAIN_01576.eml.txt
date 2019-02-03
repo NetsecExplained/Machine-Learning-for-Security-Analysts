@@ -1,0 +1,31 @@
+Re: Kernel updating (was: Keyboard gets stuck when closing PPP)On Fri, 9 Apr 2010 14:32:14 -0400 (EDT), Rodolfo Medina wrote:
+> 
+> When I close a PPP connection with `C-c', the keyboard gets stuck and I have to
+> reboot the system.  The problem is reported here:
+> 
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=508589
+> 
+> In the hope of fixing it by updating the kernel, I want to install a freshly
+> new one from the backport repositories.  Can anyone suggest the exact package
+> name?  I have Lenny on an old Pentium III.
+> 
+> Thanks for any help
+> Rodolfo
+
+I would suggest linux-image-2.6.32-bpo.3-686
+
+That appears to be the closest to what is in Squeeze right now.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/970515686.2201551270842290414.JavaMail.root@md01.wow.synacor.com
+
+

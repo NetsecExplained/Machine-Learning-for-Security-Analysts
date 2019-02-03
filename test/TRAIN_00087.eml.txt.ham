@@ -1,0 +1,24 @@
+Re: [Razor-users] Problem with Razor 2.14 and Spamassassin 2.41On Thu, Sep 05, 2002 at 10:12:59PM -0400, Leland Woodbury wrote:
+> I found a nice little Perl script for this purpose called rotate, which 
+> makes the process of rotating log files very simple.  If there's an 
+> official source for this script, I couldn't find it.  (My hosting 
+> provider, pair.com, has it installed, and that's where I found it.) 
+>  However, redistribution appears to be allowed, so I've attached it.
+
+Thanks for the script.  It also appears that the standard logrotate tools
+included with many systems (or at least RedHat systems) will support
+wildcards when rotating files so something like
+/home/*/.razor/razor-agent.log can be specified...
+
+-Dave
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

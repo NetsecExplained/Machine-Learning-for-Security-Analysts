@@ -1,0 +1,14 @@
+[Spambayes] understanding high false negative rate>>>>> "TP" == Tim Peters  writes:
+
+  >> First test results using tokenizer.Tokenizer.tokenize_headers()
+  >> unmodified.  ...  Second test results using
+  >> mboxtest.MyTokenizer.tokenize_headers().  This uses all headers
+  >> except Received, Data, and X-From_.  ...
+
+  TP> Try the latter again, but call the base tokenize_headers() too.
+
+Sorry.  I haven't found the time to try any more test runs.  Perhaps
+later today.
+
+Jeremy
+

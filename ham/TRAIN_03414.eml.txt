@@ -1,0 +1,30 @@
+Re: [SAtalk] Microsoft developer newsletter tagged as spamThis MSDN mail thing reminds me of how I've documented this feature of
+SpamAssassin here so that our users understand it.
+
+I define "Solicited Commercial Email" vs "Unsolicited Commercial Email" -
+the latter being SPAM. As SpamAssassin basically looks for "Commercial
+Email", both get hit, and that's something they must understand.
+
+Our SA documentation further tells users to filter off their SCE before
+applying a SA rule - gets rid of 100% of the problem as the users know who
+is sending them SCE.
+
+-- 
+Cheers
+
+Jason Haar
+Information Security Manager, Trimble Navigation Ltd.
+Phone: +64 3 9635 377 Fax: +64 3 9635 417
+PGP Fingerprint: 7A2E 0407 C9A6 CAF6 2B9F 8422 C063 5EBB FE1D 66D1
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

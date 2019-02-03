@@ -1,0 +1,38 @@
+Re: Re (2): xorg-server failing on IBM NetVista with Intel 82815
+ videoOn Wed, 19 May 2010 18:43:41 -0400 (EDT), Peter Easthope wrote:
+> Now in the log there is no (EE) and no /dev/fb0.  
+> This is what appears on the screen after startx is issued.
+> 
+> peter@dalton:~$ startx 
+>   [many lines omitted]
+> (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+> error setting MTRR (base = 0xf8000000, size = 0x03000000, type = 1) Inappropriat
+> e ioctl for device (25)
+> SELinux: Disabled on system, not enabling in X server
+> 
+> waiting for X server to shut down ...error setting MTRR (base = 0xf8000000, size
+>  = 0x03000000, type = 1) Inappropriate ioctl for device (25)
+> 
+> 
+> peter@dalton:~$
+> 
+> Regards,        ... Peter E.
+
+This may be unrelated, but I noticed from the log that ACPI is disabled.  A standard
+stock Debian kernel has ACPI enabled by default.  The only way it should fail is if
+you have a kernel boot parameter to disable it.  Please post your /etc/lilo.conf
+file.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2022607631.279778.1274320646171.JavaMail.root@md01.wow.synacor.com
+
+

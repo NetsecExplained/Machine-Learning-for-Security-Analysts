@@ -1,0 +1,21 @@
+Re: backup apt tree?On Wed, 21 Apr 2010 14:14:54 +0200, Sjoerd Hardeman wrote:
+
+> Downgrading is not supported... It will *not* fix your problem. You can 
+> of course uninstall the package and reinstall a previous version 
+> directly from its deb.
+
+And most often, after a major upgrade, the previous versions can't be 
+installed or not function properly any more.
+
+-- 
+Tong (remove underscore(s) to reply)
+  http://xpt.sourceforge.net/techdocs/
+  http://xpt.sourceforge.net/tools/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqn5oe$ipm$2@dough.gmane.org
+
+

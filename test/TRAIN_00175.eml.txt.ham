@@ -1,0 +1,68 @@
+[use Perl] Stories for 2002-07-31use Perl Daily Newsletter
+
+In this issue:
+    * Mac OS X Conference Registration Opens
+    * New Pumpking is Crowned
+
++--------------------------------------------------------------------+
+| Mac OS X Conference Registration Opens                             |
+|   posted by ziggy on Monday July 29, @22:58 (events)               |
+|   http://use.perl.org/article.pl?sid=02/07/30/0317236              |
++--------------------------------------------------------------------+
+
+[0]gnat writes "[1]Registration is now open for the O'Reilly [2]Mac OS X
+Conference. Look for sessions by Randal Schwartz and brian d foy ("[3]Programming
+Perl on Mac OS X"), Dan Sugalski ("[4]Programming Cocoa with Perl"),
+David Wheeler ("[5]Migrating from Linux to Mac OS X"), and many other
+people from the world of Perl."
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/07/30/0317236
+
+Links:
+    0. mailto:gnat@oreilly.com
+    1. http://conferences.oreillynet.com/pub/w/19/register.html
+    2. http://conferences.oreillynet.com/macosx2002/
+    3. http://conferences.oreillynet.com/cs/macosx2002/view/e_sess/3281
+    4. http://conferences.oreillynet.com/cs/macosx2002/view/e_sess/3114
+    5. http://conferences.oreillynet.com/cs/macosx2002/view/e_sess/3155
+
+
++--------------------------------------------------------------------+
+| New Pumpking is Crowned                                            |
+|   posted by pudge on Tuesday July 30, @16:15 (releases)            |
+|   http://use.perl.org/article.pl?sid=02/07/30/2016230              |
++--------------------------------------------------------------------+
+
+[0]Dan writes "One of the many things that's come out of this year's TPC
+is the appointment of a new Pumpking. No, not Hugo van der Sanden, who
+hopefully everyone knows is taking on the task of 5.9 and 5.10. No, I'm
+talking about the inimitable Michael Schwern, who's now holder of the
+perl 1 pumpkin and, I'm assured, is well on the way to a new maintenance
+release. Details are over on [1]dev.perl.org. Join the porters list and
+help Schwern out!" Yes, he said "perl 1".
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/07/30/2016230
+
+Links:
+    0. http://yetanother.org/dan/
+    1. http://dev.perl.org/perl1/
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

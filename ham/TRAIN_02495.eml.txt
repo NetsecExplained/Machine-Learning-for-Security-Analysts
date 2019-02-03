@@ -1,0 +1,20 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with
+ a different version name)From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,11.Apr.10, 00:00:24, Dotan Cohen wrote:
+=20
+> I was thinking of squeeze as (if I'm not mistaken, correct me if I am)
+> Lenny is still on KDE 4.2.x and Open Office 2.x. KDE 4.4 is such an
+> improvement over 4.2, and OOo 3.2 is worlds ahead of 2.4.
+
+Actually lenny is still on KDE 3.5, but you can get OOo 3.2 from=20
+backports.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

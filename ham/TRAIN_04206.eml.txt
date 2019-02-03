@@ -1,0 +1,46 @@
+Re: Umont ownership?On Tue, 06 Apr 2010 13:07:46 -0400, Stephen Powell wrote:
+
+> On Tue, 6 Apr 2010 12:35:08 -0400 (EDT), Camaleón wrote:
+
+>> My "fstab":
+>> 
+
+(...)
+
+> Well, I see three entries with the "user" option, but none of them
+> appear to be related to mount points for USB devices.  It would appear
+> that some sort of system daemon with root privileges is issuing the
+> actual "mount" and "umount" commands.  The hot-plug event causes the
+> mount; so the system doesn't associate that with any particular user.
+> (How does it know who plugged the device in?  It doesn't!)  But the
+> umount is requested by a specific user through a desktop icon.
+
+Note the device "mount" options, automatically added by hal:
+
+***
+/dev/sdc1 on /media/disk type vfat (rw,nosuid,nodev,uhelper=hal,shortname=lower,uid=1000)
+***
+
+nosuid, nodev, uhelper=hal, uid=1000
+
+Maybe the perms of the OP's device are wrong :-?
+
+> Perhaps the system daemon that I speak of is D-Bus, and it decides
+> whether or not to allow the umount depending on what group(s) the user
+> belongs to.  And his missing /etc/group file is probably the key.
+
+We still don't know if "umount" works when logged with another user in a 
+GNOME session :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.06.17.51.30@csmining.org
+
+

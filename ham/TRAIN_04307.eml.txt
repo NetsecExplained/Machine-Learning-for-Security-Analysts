@@ -1,0 +1,38 @@
+Re: CD player UI for toddlersMr Fork writes:
+  Jim Whitehead writes:
+> > For toddlers, pressing play must cause the music to start immediately,
+> > within half a second, for the toddler to get the causality and not press
+> the
+> > button multiple times.
+> Or some sound indicating that the music will start real soon now.
+
+A tonal countdown would be nice.
+
+> > What would the ideal toddler CD player be like? It would immediately start
+> > playing a CD after it was loaded.
+> It'd be an MP3 player with solid state storage... instant on.
+
+Hmm. Seems like every CD player should include the
+capability to rip, encode, and cache the last few CDs 
+inserted. 
+
+Playback would then never need to face seek delays... 
+after the initial ripping, the only use of the laser 
+pickup would be recognizing which CD is inserted --
+which might be doable faster than a seek-and-start-at-
+first-track operation.
+
+You could also take the CD out while it is "playing".
+
+Hmm. If the CD is still in the cache, maybe you don't
+even have to insert it. Or choose it from a step-through
+UI. Instead, you just wave it at an electronic eye of
+some sort... and the player recognizes it from the 
+silkscreening. Kids would like that. "Play this," they'd
+say, facing the CD at the player, and the player would
+start immediately.
+
+- Gordon
+
+
+

@@ -1,0 +1,37 @@
+Re: Temporary deconnection from the Internet when too much pages
+ are loadedFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson wrote:
+> On 2010-04-15 06:38, Merciadri Luca wrote:
+> [snip]
+>
+> Hmph...
+>
+> Before opening the pages, start capturing packets (using wireshark if
+> you must, or tshark from the CLI).
+I will try this.
+>
+> Your symptoms *probably* happen to me, but I just accept it as part of
+> Firefox's poor threading.
+>
+> For example, if I "kill -15" the Iceweasel pid then exit the GUI to
+> apt-get upgrade and then restart xfce and Iceweasel, all the (4 or 5)
+> windows and (total of 20-50) tabs restore.  It takes 3-4 minutes for
+> all of them to complete loading.
+That is a good example of a massive tab load. If I have so many tabs
+opened, and that I kill the resp. pid, I can restore the tabs, just as
+you do, and then the whole connection stalls. Nothing loads, and each
+URL keeps its name, not the page's title.
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

@@ -1,0 +1,63 @@
+Re: who initiates mounting in debian?On Tue, 04 May 2010 21:46:56 +0200, Jonas Stein wrote:
+
+> it looks if some devices are mounted automatic (after plugging into USB
+> slot)
+> and some wait until i click on the device name in dolphin/thunar or
+> similar.
+> 
+> I dont understand who mounts when...
+> I suppose some of the "magic" is done by udev, automounter and KDE and
+> so on.
+
+Yes, in stable, it's a mix between hal/udev and desktop environment mount 
+system. 
+ 
+> I am looking for a set of rules which software is allowed to do mounts
+> and in which hierachy.
+> Is there a kind of debian policy about mounting?
+
+I suppose Debian follows FHS ("/media" for removable devices and "/mnt" for 
+temporarily mount points) :-?
+ 
+> On a debian stable PC i users are not allowed to umount their usb stick,
+> if its mounted in KDE. But it works on console.
+
+On GNOME yes, users can mount/umount their own usb devices via Nautilus.
+
+> On a debian testing PC i'd like to have some automatic action after
+> inserting my GPS device in the USB slot. First it should be mounted
+> somewhere 
+
+It should be automatically mounted anywhere under "/media" as AKAIK, that 
+is the default action for removable storage.
+
+> and second the latest trackfiles should be moved to /foo
+
+You will need a bit of scripting to achieve this.
+ 
+> Is it a good way to use a udev rule for that? 
+
+There must be some pre-made applications to get that but you can also try 
+to get it done with udev rules. A quick example, courtesy of Google:
+
+http://www.gradstein.info/hardware/how-to-automatically-run-a-script-after-inserting-a-usb-device-on-ubuntu/
+
+> Should i use /media to mount the USB device, or is /media reserved for 
+> the system?
+
+You can use /media, and as Boyd already suggested, give the device a 
+label to get a static name so it always get mounted under the 
+same path, i.e., "/media/mygps".
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.05.08.09.47@csmining.org
+
+

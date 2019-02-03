@@ -1,0 +1,44 @@
+Re: Submitting my Java Web Start application to Apple downloadsGabriele,
+
+tell us your successes, this would be interesting to several!
+
+paul
+
+
+Le 07-avr.-10 =E0 18:43, Mike Swingler a =E9crit :
+
+> On Mar 28, 2010, at 10:25 AM, Gabriele Kahlout wrote:
+>
+>> Hello,
+>>
+>> I'd like to submit my JWS application MemorizEasy to apple downloads,
+>> however it requires a zip folder download link, while I distribute it
+>> as jnlp, as in these links:
+>>
+>> http://memorizeasy.mysimpatico.com
+>> http://mac.softpedia.com/get/Educational/MemorizeEasy.shtml
+>>
+>> Does anyone know If I still must provide a zip (of the jnlp file) for
+>> submitting, or submitting the jnlp would be accepted?
+>
+> You could create a desktop shortcut of your application (and ensure =20=
+
+> the full URL to your JNLP is correct in it's Info.plist), wrap up =20
+> the shortcut, and submit that. I think that would provide a more Mac-=20=
+
+> like experience for your customers coming from =
+ >.
+>
+> Regards,
+> Mike Swingler
+> Java Runtime Engineer
+> Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

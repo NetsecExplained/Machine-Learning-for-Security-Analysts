@@ -1,0 +1,39 @@
+Missing option in manual page for getconfHi!
+
+I was toying around with getconf and was looking for options to print
+all configuration values. I've found there is a -a option for that. You
+can find about it by running getconf with no arguments:
+
+---
+razvan@valhalla:~$ getconf
+Usage: getconf [-v specification] variable_name [pathname]
+       getconf -a [pathname]
+---
+
+However, the option is not printed when using the --help option:
+---
+razvan@valhalla:~$ getconf --help
+Usage: getconf [-v SPEC] VAR
+  or:  getconf [-v SPEC] PATH_VAR PATH
+
+Get the configuration value for variable VAR, or for variable PATH_VAR
+for path PATH.  If SPEC is given, give values for compilation
+environment SPEC.
+
+For bug reporting instructions, please see:
+.
+---
+
+Moreover, there is no documentation in the manual page about the -a
+option. Should this be corrected? Should I submit a feature request/bug
+report on this issue?
+
+Razvan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1270557630.17580.6.camel@valhalla
+
+

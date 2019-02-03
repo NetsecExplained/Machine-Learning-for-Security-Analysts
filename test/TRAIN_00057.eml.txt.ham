@@ -1,0 +1,18 @@
+Re: What happened to 'permissions.rules?' [Re: Why does /dev/rtc0 belong to group audio in Lenny but not in Sid?]On 2010-05-12 16:43 +0200, Rick Thomas wrote:
+
+> Sid does not seem to have anything that corresponds to Lenny's /etc/
+> udev/rules.d/*permissions.rules
+>
+> Any idea why?  Any idea what has replaced it.
+
+Read /usr/share/doc/udev/NEWS.Debian.gz.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87hbmdw3rj.fsf@turtle.gmx.de
+
+

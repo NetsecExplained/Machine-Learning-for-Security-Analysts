@@ -1,0 +1,84 @@
+Re: Suggestion/Question for the approx apt(itutde) proxy daemonOn 20100505_184737, Rick Thomas wrote:
+> Hi Eric,
+> 
+> I just started using approx.  I'm really impressed.  It's a great
+> piece of work.  Thanks!
+> 
+> Here's a question:  Is it permissible/possible to have two (or more)
+> different mirrors listed as servers for the same set of archives?
+> 
+> for example, my approx server's approx.conf file has
+> 	security http://security.debian.org/
+> 	volatile http://volatile.debian.org/debian-volatile/
+> 	debian http://ftp.us.debian.org/debian/
+> 
+> but the University has a fast Internet2 link so I'd like to use that
+> to connect when I can.  e.g. I'd like to add
+> 	debian http://debian.cs.binghamton.edu/debian/
+> 	debian http://debian.lcs.mit.edu/debian/
+
+Look at man approx.conf for more details on what I say here.
+Each of you example lines is interpreted by approx as a name/value
+pair. Thus each line starting with debian binds a different value
+to the name debian. Only one can apply. They cannot all apply at once.
+
+If, instead, you change them to
+
+ 	debian http://ftp.us.debian.org/debian/
+ 	debia2 http://debian.cs.binghamton.edu/debian/
+ 	debia3 http://debian.lcs.mit.edu/debian/
+
+Put into your sources.list three lines where you now have only one
+pointing to debian in you approx proxy server, the other two point to
+debia2 and debia3, also in you proxy server. You probably will get
+something close to what you want. Apt-get or aptitude will work its
+way down sources.list until it finds a working server and update the
+corresponding section of the proxy cache.
+
+But this would make approx create three separate proxy caches, one for
+each external repository. I think that this is not really what you want.
+
+I suggest that you look at 
+/var/cache/approx/
+You will find one one subdirectory there for each definition
+line in your /etc/approx.conf file. You might get what you
+want by replacing directories debia2 and debia3 by symlinks
+that point to debian.
+
+Post a reply saying whether this works. I don't have a situation where
+I can test this exactly, and I'd like to know.
+
+HTH
+
+> 
+> before the one for ftp.us.d.o and have those be used by preference
+> unless our link to I2 is down, in which case have it switch over to
+> the more generic ftp.us .
+> 
+> Is this possible now?  Could it be added as a feature in a future
+> release?
+> 
+> 
+> Thanks!
+> 
+> Rick
+> 
+> 
+> -- 
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.orgwith a
+> subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/F6ADABA9-636B-4D51-878C-A8DD8EC73C17@cs.rutgers.edu
+> 
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100507012736.GD15335@big.lan.gnu
+
+

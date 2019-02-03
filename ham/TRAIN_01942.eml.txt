@@ -1,0 +1,37 @@
+Re: Hi how to escaping under ` ` in shOn Wed, Apr 21, 2010 at 02:27:47PM +0530, Siju George wrote:
+> On Wed, Apr 21, 2010 at 2:16 PM, Mart Frauenlob
+>  wrote:
+> >
+> > how about:
+> > ... -p 'my$qlPW' -N ...
+> >
+> 
+> # `mysql -u root -p 'my$qlPW' -N -B -e 'show databases'`
+> Enter password:
+> 
+> asks for PW
+> 
+> # `mysql -u root -p'my$qlPW' -N -B -e 'show databases'`
+> -bash: information_schema: command not found
+
+You got the output of 'show databases'. You then consider it a shell
+command and try to excute it. Why would you want to do that? What do you
+want to do with that output?
+
+BTW: I would suggest that you actually use a .my.cnf to hold the
+password, otherwise the password is available in e.g. the output of 'ps
+auxww'
+
+-- 
+Tzafrir Cohen         | tzafrir@jabber.org | VIM is
+http://tzafrir.org.il |                    | a Mutt's
+tzafrir@cohens.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100421090133.GV16560@pear.tzafrir.org.il
+
+

@@ -1,0 +1,36 @@
+Internet Archive bookmobilehttp://www.sfgate.com/cgi-bin/article.cgi?file=/gate/archive/2002/09/26/bono
+act.DTL
+
+Opening arguments are set to begin early next month in Eldred vs. Ashcroft,
+a landmark U.S. Supreme Court case that will decide the future of copyright
+law, including how and when artists and writers can build upon the work of
+others.
+
+....
+
+To heighten public awareness of the importance of the case an Internet
+bookmobile is set to depart San Francisco next Monday on a trip that will
+bring it to the steps of the Supreme Court building in Washington, D.C.,
+before arguments wrap up. The van, which will be stopping at schools,
+libraries and senior centers along the way, is equipped to provide free
+high-speed access to thousands of literary and artistic works that are
+already in the public domain.
+
+--------
+
+I had the opportunity to visit the Internet Archive about a month ago, and
+saw the bookmobile under construction. It's a neat idea. Take an SUV, put a
+small satellite dish on the top, and put a computer, printer, and binding
+machine in the back. Voila -- people can search for a book, then print out a
+copy right there on the spot. Quite literally on-demand printing. Total
+fixed cost of the computer/printer/binding machine, if bought new (the IA
+had the equipment donated) is under $10k.
+
+One of the goals is to show libraries across the country that they could, if
+they wished, add these "virtual holdings" (public domain materials) to their
+existing library, at a fixed cost most libraries can afford. This should be
+compelling to small libraries in remote areas.
+
+- Jim
+
+

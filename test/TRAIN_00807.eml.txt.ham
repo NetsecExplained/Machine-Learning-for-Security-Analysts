@@ -1,0 +1,66 @@
+Re: Ctrl+alt+Fn not showing consolesFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+How about single user mode?  Are you able to get virtual console there.
+Also try to disable gdm/kdm, see whether virtual consoles are working.
+
+On Tue, Apr 27, 2010 at 16:08, rudu  wrote:
+
+> Le 27/04/2010 03:48, Hugo Vanwoerkom a =E9crit :
+>
+>>
+>> rudu wrote:
+>>
+>>> Le 26/04/2010 20:55, Hugo Vanwoerkom a =E9crit :
+>>>
+>>>>
+>>>> So are you still running nv?
+>>>>
+>>> Yes
+>>>
+>>>  and what was the driver that wouldn't compile?
+>>>> I run x86-195.36.15 on the latest Sid kernel and it compiles just
+>>>> fine, but I don't (yet) have a AMD64 system.
+>>>>
+>>>
+>>> Excerpt from /var/log/nvidia-installer.log :
+>>>
+>>>> Using: nvidia-installer ncurses user interface
+>>>> WARNING: Skipping the runlevel check (the utility `runlevel` failed
+>>>> to run).
+>>>> -> License accepted.
+>>>> -> Installing NVIDIA driver version 195.36.15.
+>>>> -> Performing CC sanity check with CC=3D"cc".
+>>>> -> Performing CC version check with CC=3D"cc".
+>>>> -> The CC version check failed:
+>>>>
+>>>>   [...]
+>>>>
+>>>
+>>>
+>> Indeed. Forget this if it is beating a dead horse, but did you have
+>> gcc-4.3 + gcc-4.4 both installed? I did and I set the symlink gcc to
+>> gcc-4.3 and that got rid of the message.
+>>
+>
+> Thank you Hugo, I managed to compile the proprietary driver.
+> Now every ctrl+alt+Fn leads to a complete black screen, with no prompt or
+> cursor or anything.
+> Ctrl+alt+F7 works as expected.
+> Could it be that my system stopped creating the consoles at boot time ?
+> What should I check and where ?
+>
+> TIA,
+> Jean-Marc
+>
+>
+>
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org with a
+> subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+> Archive: http://lists.debian.org/4BD6BEA3.3060705@cegetel.net
+>
+>

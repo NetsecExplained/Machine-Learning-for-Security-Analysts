@@ -1,0 +1,10 @@
+[Razor-users] unable to connect to ubik or aptFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+"connection refused" .... currently I am only able to connect to =
+honor[.cloudmark.com] and am suffering a high rate of timeouts as a =
+result. Is there a problem with the other two servers?????
+
+Sven

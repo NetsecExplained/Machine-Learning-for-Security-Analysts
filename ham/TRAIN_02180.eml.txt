@@ -1,0 +1,43 @@
+Re: question about avoid duplicated ip addressOn Mon, 10 May 2010 11:57:35 +0200, Israel Garcia wrote:
+
+> On Mon, May 10, 2010 at 10:41 AM, Camaleón wrote:
+> 
+>> Does this help?
+>>
+>> ***
+>> http://wiki.xensource.com/xenwiki/XenNetworking#head-
+d5446face7e308f577e5aee1c72cf9d156903722
+
+> I could be possible for me to configure this on every dom0 and setup an
+> DHCP server for all hosts. But, it's a little complicated. I'd prefer to
+> look for other solution to see how can I protect my IP servers if a
+> newone gets an used IP. I was taking a look at this
+> http://sourceforge.net/projects/ipwatchd/, but I've to make my own test.
+> 
+> Is there something similar tp ipwatchd inside debian OS?
+
+It's available in Sid:
+
+http://packages.debian.org/sid/ipwatchd-gnotify
+
+But, are you sure you want such a solution for your Xen doms? :-? 
+
+That tool seems to be focused for desktop users and just for alerting 
+purposes, I mean, what is intended to do when it detects a IP conflict?
+
+You can use a network scanner (nmap, arp-scan, netdiscover...) to prevent 
+assigning a duplicate IP address to the hosts but I'm not sure this is 
+your goal.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.10.10.49.45@csmining.org
+
+

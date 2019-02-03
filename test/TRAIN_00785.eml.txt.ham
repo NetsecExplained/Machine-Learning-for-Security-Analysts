@@ -1,0 +1,27 @@
+Re: [ILUG] dial-on-demandOn Wed, Aug 21, 2002 at 02:52:11PM +0800, al@mpsc.ph wrote:
+> Could you please help me how to set up a dial-on-demand, what are the
+> packages needed,
+> and other requirements to get on.
+depends on what you are using to dial. for debian put "demand" in
+/etc/ppp/peers/. use "idle 600" to set the timeout to 10
+minutes(600 secs). im not sure where exactly to put it for other
+distros. whereever pppd gets it options from.
+
+regards
+-- 
+Ivan Kelly
+
+ivan@ivankelly.net
+
+-----BEGIN GEEK CODE BLOCK-----
+Version: 3.12
+GCS d- s+: a--- C++ UL++++ P+++ L+++ E--- W++ N+ o-- K- w--- 
+O-- M-- V-- PS+++ PE- Y+ PGP++ t+ 5 X++ R tv+ b+ DI+ D++ 
+G e h! r-- y+ 
+------END GEEK CODE BLOCK------
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

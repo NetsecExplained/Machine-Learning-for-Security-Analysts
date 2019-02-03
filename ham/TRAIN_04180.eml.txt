@@ -1,0 +1,26 @@
+Java Web Start Offline ProblemsIn recent Java versions, there is a regression that prevents Java Web =
+Start applications from launching if there is no internet connection, =
+even if they have  attribute.  Launching without an =
+internet connection causes the application to "hang".  This is a serious =
+problem for us, since many of our users move between having an internet =
+connection and not having an internet connection - we have lots of =
+unhappy customers.
+
+I believe that at least part of the problem is this Oracle bug: =
+ which =
+claims will be fixed in 1.6.0_20.  (There also seem to be other bugs =
+because launching without an internet connection still takes way too =
+long even with the developer preview of 1.6.0_20 on Windows7 - but at =
+least it does launch.)
+
+Has anyone figured out a workaround for this problem?  Any suggestions?
+
+thanks, Nick=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

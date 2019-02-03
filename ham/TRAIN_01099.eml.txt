@@ -1,0 +1,44 @@
+Re: pdftk or related: how to make a bookmark for every inserted  PDF?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón  writes:
+
+> PDF manipulation is still very limited in Linux so don't expect the same 
+> manageability and easiness of Acrobat Professional or such programs 
+> here :-)
+Mmh okay, but what I want looks basic, doesn't it? No problem.
+
+> That said, I would make first the big PDF file (with all the needed 
+> appended files in there) and then make the bookmarks with a program that 
+> allows creating/editing them, like "jPdfBookmarks¹".
+Thanks. I'll check it out.
+
+> Dunno whether "pdfkt" or "pdfedit" will allow creating/editing
+> bookmarks.
+I think you meant `pdftk' at the place of `pdfkt'.
+
+> ¹ http://flavianopetrocchi.blogspot.com
+Thanks for this link. I'll check it.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+To live is the rarest thing in the world.  Most people exist, that's
+ all. (Oscar Wilde)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvl17MACgkQM0LLzLt8MhxbAgCfYPgyruQ1P851+ob77Z/EuP92
+5qsAn0FmUa7iHdB+I3pYMgA1TdiusRyV
+=Q+Pr
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87pr16yte3.fsf@merciadriluca-station.MERCIADRILUCA
+
+

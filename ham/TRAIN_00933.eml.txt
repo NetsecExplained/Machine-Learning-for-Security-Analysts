@@ -1,0 +1,19 @@
+Re: The future of "nv" driverOn 4/24/2010 5:11 AM, Sven Joachim wrote:
+>> Except that Nvidia's drivers are still *much* better than ATI's drivers.
+>
+> Only the proprietary ones, and not everybody wants to taint their system
+> with these non-free blobs.
+
+I've never understood the use of the word "taint" in this context.
+
+[Possibly private] Explanation?
+
+MAA
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD2C6CE.7090902@allums.com
+
+

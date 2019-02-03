@@ -1,0 +1,19 @@
+Re: Sorting> I don't understand.  How does sorting one folder add messages to
+> other folders?  What do you use to sort?
+> 
+
+Sorry I wasn't clear. I am transferring messages from my inbox to other folders 
+and since I am doing it from most recent to oldest, they appear in those 
+folders in the wrong order and need re-sorting.
+
+--
+rick
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

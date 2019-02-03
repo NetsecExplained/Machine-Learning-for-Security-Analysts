@@ -1,0 +1,134 @@
+Re: Shutdown problem -- cron job related?>> At certain times, seems Friday noontime, I am unable to shutdown the
+>> system. Instead of the usual scripts to killing all processes, unmounting
+>> everything and will now halt, goodby, I get:
+>> 
+>>  process running pstree (or something like that)
+>>  shutdown aborted
+>> 
+>>  At this point, the system (or at least any console or UI) is dead.
+>> 
+>>  What it this?
+
+
+> Just see which process is running pstree.
+> "ps -eaf | grep pstree"
+> You could find the parent pid of pstree (second column).
+> Look at the parent of pstree, and the process started this one.
+> If you go back that way, finally you will reach init, but before that you
+> could find which system process started these processes.
+I'll have to try it when I know the thing is running.
+
+> As I recall, pstree is not part of basic installation.
+> It was put to do some scripting, regarding found, in
+> perl/python?
+> My first bet would be to remove offensive cron line and
+> shutdown normally. Than to do filesystem checks. Next,
+> to set cron to use pstree as a regular user. I think that
+> shutdown was done in some parts, aka closed network. What
+> has to wait, hangs the system.
+> Otherwise, there is a chance that some housekeeping pro-
+> cesses are started at noon every day. You could always
+> look at /etc directory and find them. Some unices have
+> it in /etc/periodic/daily. It starts with #!/bin/sh.
+> Another clue may be in /var/log, as a result of newsyslog.conf.
+
+I have no /etc/periodic and no logs for pstree
+
+I manually ran it (x11 variant) and this is what I got:
+init-+-Xprt
+     |-akonadi_control-+-akonadi_ical_re
+     |                 |-8*[akonadi_kabc_re]
+     |                 |-4*[akonadi_kcal_re]
+     |                 |-42*[akonadi_maildir]
+     |                 |-akonadi_maildis
+     |                 |-akonadi_nepomuk---{akonadi_nepomu}
+     |                 |-akonadi_vcard_r
+     |                 |-akonadiserver-+-mysqld---74*[{mysqld}]
+     |                 |               `-66*[{akonadiserver}]
+     |                 `-4*[{akonadi_contro}]
+     |-apmd
+     |-atd
+     |-avahi-daemon---avahi-daemon
+     |-boinc
+     |-clamd---2*[{clamd}]
+     |-console-kit-dae---63*[{console-kit-da}]
+     |-cron
+     |-cupsd
+     |-das_watchdog---{das_watchdog}
+     |-3*[dbus-daemon]
+     |-2*[dbus-launch]
+     |-ddclient
+     |-dirmngr
+     |-dovecot-+-2*[dovecot-auth]
+     |         |-imap
+     |         |-3*[imap-login]
+     |         `-3*[pop3-login]
+     |-exim4
+     |-fail2ban-server---6*[{fail2ban-serve}]
+     |-fetchmail
+     |-2*[getty]
+     |-gpm
+     |-hald-+-hald-runner-+-hald-addon-inpu
+     |      |             `-hald-addon-stor
+     |      `-{hald}
+     |-in.tftpd
+     |-inetd
+     |-jackdbus
+     |-kaccess
+     |-kded4---{kded4}
+     |-kdeinit4-+-kio_file
+     |          |-kio_http_cache_
+     |          |-kio_imap4
+     |          |-klauncher
+     |          |-ksmserver-+-kwin
+     |          |           `-{ksmserver}
+     |          |-python---python---python
+     |          `-qjackctl---{qjackctl}
+     |-kdm-+-Xorg
+     |     `-kdm---startkde-+-kwrapper4
+     |                      `-2*[ssh-agent]
+     |-kget
+     |-kglobalaccel
+     |-klipper
+     |-klogd
+     |-kmail---{kmail}
+     |-kmix
+     |-knemo
+     |-knotify4
+     |-korgac---{korgac}
+     |-krunner---{krunner}
+     |-kxkb---{kxkb}
+     |-nepomukserver
+     |-plasma-desktop-+-ksysguardd
+     |                `-7*[{plasma-desktop}]
+     |-portmap
+     |-postmaster-+-postmaster
+     |            `-postmaster---postmaster
+     |-preload
+     |-proftpd
+     |-rpc.mountd
+     |-rpc.statd
+     |-smartd
+     |-spamd---2*[spamd]
+     |-sshd
+     |-svscanboot-+-readproctitle
+     |            `-svscan
+     |-syslogd
+     |-tinyproxy---11*[tinyproxy]
+     |-udevd---2*[udevd]
+     |-xfs
+     |-xfstt
+     `-yakuake-+-bash---pstree.x11
+               `-{yakuake}
+Press return to close
+
+Which would basically reflect what init ran and what kde4 is doing when I did 
+it. Why would this be stuck at the end?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005091612.33337.d_baron@012.net.il
+
+

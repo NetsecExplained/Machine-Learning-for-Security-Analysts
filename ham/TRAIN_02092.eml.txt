@@ -1,0 +1,37 @@
+Re: New Sequences WindowFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Brent Welch 
+> Date:  Wed, 28 Aug 2002 10:32:42 -0700
+>
+> 
+> >>>Robert Elz said:
+>  > Mh_Sequence also goes and rereads the files (.mh_sequences and the
+>  > context file) but I'm not sure how frequently that one is called.
+> 
+> In some places I maintain caches of files by checking their modify time,
+> but the sequence files are soo small that by the time you stat them to
+> check their date stamp, you could just read them again.
+
+Do you really think this is true?  I added a modify time check thinking that 
+it would make an improvement since we were reading it a *lot* more times in 
+the new code because we're trying to use the sequences.
+
+On the other hand, the sequences files are probably being read out of cache 
+when that happens anyway.
+
+Even with a small file, I'd think that the time taken to do a 
+[file mtime $filename] would be worth it.  My code is in proc MhReadSeqs.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

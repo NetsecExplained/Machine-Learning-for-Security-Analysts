@@ -1,0 +1,47 @@
+Re: PDF grief - was Re: Flash is open?On Fri, 2010-05-14 at 14:22 -0500, Boyd Stephen Smith Jr. wrote:
+> On Friday 14 May 2010 13:40:35 John A. Sullivan III wrote:
+> > On Fri, 2010-05-14 at 06:31 -0500, Ron Johnson wrote:
+> > > On 05/14/2010 06:14 AM, John A. Sullivan III wrote:
+> > > > On Fri, 2010-05-14 at 06:52 +0000, Camale=C3=B3n wrote:
+> > > >> Look at PDF. PDF became a ISO/IEC standard but we (at linux) still
+> > > >> lack for a PDF editor that can compete with Acrobat Professional.
+> > > >
+> > > > That comment really strikes home.  We are working on a potential ma=
+jor
+> > > > Windows desktop replacement project.  The two things that are
+> > > > absolutely killing us are email and a viable substitute for Acrobat
+> > > > Standard.  We can roughly mimic everything Acrobat does
+> > >
+> > > Forms, you mean?
+> >=20
+> > No, editing the PDF file, e.g., adding text, stamps, markups.
+> >=20
+> > They can't run their business if the functionality is missing with no
+> > viable workaround.  Editing a page at a time in GIMP, editing a page at
+> > a time in Inkscape and watching it crash on large construction drawings
+> > after consuming 3GB of RAM, importing a page at a time in Scribus only
+> > to have it display anything half the time, seeing negative images or
+> > text flowing over the margins in OpenOffice pdfimport, the ability to
+> > only add text in pdfedit, xournal, or flpsed, deskewing and OCR in
+> > gscan2pdf really aren't viable options.
+>=20
+> That's the most cogent argument I've heard for paying for Adobe Acrobat (=
+or=20
+> whatever they call it now) for now, and donating *at least* as many resou=
+rces=20
+> toward and professional F(L)OSS PDF editor.
+Yes, exactly.  We are hoping that, as we build our business and become
+cash positive, a part of our profits can be used to shore up those areas
+where FOSS is still weak as a desktop solution.  We have just put out
+and received a response to our first bounty for fixing Kontact in KDE
+3.5 so it is robust enough for Enterprise use and integration with
+Zimbra.  A viable PDF editor is high on our list - John
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273866189.16485.22.camel@localhost
+
+

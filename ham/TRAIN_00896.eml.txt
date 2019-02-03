@@ -1,0 +1,28 @@
+Re: executable won't executeAlexey Salmin wrote:
+> On Sat, May 15, 2010 at 3:08 AM, Kent West  wrote:
+>   
+>> Kent West wrote:
+>>     
+>>> westk[@]goshen.acu.edu]:/usr/local/Maple_Network_Tools/FLEXlm/11.7:> ldd
+>>> lmgrd
+>>> /usr/bin/ldd: line 117: ./lmgrd: No such file or directory
+>>>       
+> Not amd64, ok :) Try to use ldd on that binary and check if all
+> dependencies are present.
+>   
+
+See above.
+
+-- 
+Kent West     <*)))><
+http://kentwest.blogspot.com
+Praise Yah! \o/
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEDB3CF.5070101@acu.edu
+
+

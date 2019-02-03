@@ -1,0 +1,78 @@
+Re: @synchronized scope strangeness
+On Apr 16, 2010, at 3:53 PM, Hamish Allan wrote:
+
+> Hi,
+>=20
+> I'm rather puzzled by some behaviour I'm seeing, as explained by the
+> comment in the following short category:
+>=20
+> @implementation NSPersistentStore (OTAdditions)
+> - (NSNumber *)autoincrementingNumberForKey:(NSString *)key
+> {
+>    NSNumber *number;
+>    @synchronized(self)
+>    {
+>        NSMutableDictionary *metadata =3D [[self metadata] =
+mutableCopy];
+>=20
+>        // need to copy and autorelease the number because the original
+>        // does not remain valid outside of the @synchronized block =
+(why?!)
+>        number =3D [[[metadata objectForKey:key] copy] autorelease];
+>=20
+>        if (!number)
+>            number =3D [NSNumber numberWithUnsignedLongLong:1];
+>        [metadata setValue:[NSNumber
+> numberWithUnsignedLongLong:([number unsignedLongLongValue] + 1)]
+> forKey:key];
+>        [self setMetadata:metadata];
+>    }
+>    return number;
+> }
+> @end
+>=20
+> The behaviour I'm seeing is as though the NSNumber returned by
+> [metadata objectForKey:key] has been added to a special
+> mini-autorelease pool scoped by the @synchronized block, whereas the
+> autoreleased copy is added to the normal autorelease pool. At least, I
+> assume the NSNumber is being deallocated, but symbolic breakpoints on
+> -[NSNumber release] and -[NSNumber dealloc] remain in a pending state
+> so I haven't been able confirm that.
+>=20
+> Can anyone tell me what's going on here?
+
+Nothing related to @synchronized. Your problem is that you are acquiring =
+an unretained pointer to an object, then doing something that releases =
+the object behind your back.
+
+    number =3D [metadata objectForKey:key];
+
+`number` now points to some object. Importantly, -objectForKey: just =
+hands back the pointer, without doing the [[result retain] autorelease] =
+dance. It's possible that the only thing that retained `number` is the =
+`metadata` dictionary.
+
+    [metadata setValue:something forKey:key];
+
+Now `metadata` has released `number`. It may be dead.
+
+You need to be careful with -objectForKey: and -objectAtIndex: while you =
+are mutating the container. Those methods avoid autorelease for =
+performance, but (as you found) it's also less safe.
+
+Your solution of copy+autorelease is correct. retain+autorelease might =
+be better.=20
+
+
+--=20
+Greg Parker     gparker@apple.com     Runtime Wrangler
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

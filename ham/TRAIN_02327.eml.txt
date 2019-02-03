@@ -1,0 +1,27 @@
+Re: Kde 3.5 ...From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Tue,11.May.10, 20:58:33, Dotan Cohen wrote:
+> > Said in a nice way, Dotan could you put this on your list and pass it t=
+o kde
+> > developers. I'm missing for sure the old bulgarian phonetic layout where
+> > w=3D"=D0=B2" and v=3D"=D0=B6" and this is a showstopper for me.
+> >
+>=20
+> I can't, as I am not Bulgarian and I cannot triage. It might even be a
+> Debian issue, not a KDE issue. If your Debian install has the proper
+> layout installed and KDE is not finding it, then please file the issue
+> here:
+> https://bugs.kde.org/wizard.cgi
+>=20
+
+I'd rather think it's an Xorg issue (specifically the package xkb-data,=20
+which contains all keyboard maps).
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

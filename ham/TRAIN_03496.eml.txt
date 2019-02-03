@@ -1,0 +1,38 @@
+Re: how to activate canberyOn Wed, 21 Apr 2010 10:14:45 +0100, abdelkader belahcene wrote:
+
+> Hi,
+
+Please, keep quoting when replying e-mails to avoid messing the 
+content :-)
+
+> I suppose so,  since I hear  sounds and can play music ?  or  it is
+> another thing ?
+
+AFAIK, it's another thing as I have disabled my system sounds but still 
+can hear any other music :-)
+
+> otherwise  how to enable "system sounds" thanks for help
+> bela
+
+In Lenny, go to "menu / system / preferences / sound" and open "Sounds" 
+tab. There you can enable system sounds.
+
+If you are running squeeze, take a read into this thread:
+
+***
+No GNOME system sounds in Squeeze
+http://lists.debian.org/debian-user/2010/01/msg02369.html
+***
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.21.09.59.34@csmining.org
+
+

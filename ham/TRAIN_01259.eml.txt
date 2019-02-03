@@ -1,0 +1,43 @@
+Re: Re: The future of "nv" driver (was: Linux compatible mainboards
+ -another thought)
+
+On 01/-10/-28163 02:59 PM, Ron Johnson wrote:
+ > That's one difference between us: I don't use Compiz.
+
+That's not a difference. I don't use it, either. My use of Compiz was 
+just a part of exploration of the Gnome DE. I don't even use Gnome now.
+
+ > ... because I don't need glitzy special effects.
+
+Neither do I. That's why I use Xfce.
+
+ > Are there any non-glitzy benefits to compositors?
+
+I occasionally turn on Xfce's compositing for specific tasks in which it 
+actually makes my work easier. But most if the time, it's off.
+
+ > Which driver version do you use?
+
+nv - Debian Squeeze
+
+Gave up finally in December last year trying to get the blobs to work 
+reliably. They're simply not worth the effort for someone with my 
+particular needs.
+
+I'm reasonably happy with the systems with the nvidia workstation cards. 
+But the cheaper systems with Intel and ATI graphics are faster and 
+handle any special effects I might want (like occasional use of desktop 
+compositing) better, and I'm happier with them. Nvidia is simply not on 
+my radar for any future systems because I consider their approach to 
+Linux to be inimical to FOSS.
+
+PS: My apologies. Recent update to my mail client coupled with lack of 
+sleep. I accidentally sent Ron a direct e-mail reply. Mea culpa.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD37AA0.2040002@comcast.net
+
+

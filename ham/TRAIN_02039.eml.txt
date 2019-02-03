@@ -1,0 +1,44 @@
+Re: libc6 upgrade lenny to squeeze failed, now dpkg is brokenOn 2010-05-11 22:11 +0200, Chris Austin wrote:
+
+> I was required to upgrade libc6 from lenny to squeeze in order to meet
+> dependencies to install a package from unstable, but the libc6 upgrade
+> failed because libc-bin was not installed.
+
+How could this happen, given that libc6 depends on libc-bin?
+
+> Now dpkg is broken.  I
+> tried a manual reinstall of the lenny libc6, as suggested in another
+> thread on this list, but it did not work.  The result was:
+
+> debian:/home/chris# dpkg -i libc6_2.7-18lenny2_i386.deb
+> dpkg: `ldconfig' not found on PATH.
+> dpkg: 1 expected program(s) not found on PATH.
+> NB: root's PATH should usually contain /usr/local/sbin, /usr/sbin and /sbin.
+>
+> How can this be fixed?
+
+Use the "--force-bad-path" option, see "dpkg --force-help".
+
+>  And shouldn't there be a big warning that trying to upgrade libc6 can
+>  break dpkg, on the Debian website page for libc6?
+
+There is, actually this holds for any package:
+
+,----[ http://packages.debian.org/en/squeeze/i386/libc6/download ]
+| If you are running Debian, it is strongly suggested to use a package
+| manager like aptitude or synaptic to download and install packages,
+| instead of doing so manually via this website.
+`----
+
+Follow this advice and do not use dpkg directly if you don't know what
+you're doing.  Especially not for required packages.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87vdaujggp.fsf@turtle.gmx.de
+
+

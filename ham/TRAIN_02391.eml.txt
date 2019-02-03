@@ -1,0 +1,21 @@
+Re: What to choose for Core i5 64 bits?From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+On 05/11/2010 04:40 PM, Oscar Corte wrote:
+> Hi:
+>
+> I would like to test Debian on a new PC.
+>
+> It's a DELL XPS Inspiron 8100 with a Core i5 64 bits processor.
+>
+> What would it be the recommended architecture/versioin to choose for 
+> download an install?
+>
+> Could Intel IA-64 work right?
+>
+> Regards
+> ------------------------------------------------------------------------
+> Hotmail: Free, trusted and rich email service. Get it now. 
+> 
+Not IA64 , that's Itanium; amd64 will work for you.

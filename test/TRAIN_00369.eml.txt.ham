@@ -1,0 +1,40 @@
+Re: Sorting
+On Tue, 10 Sep 2002 01:20:56 PDT,
+	J C Lawrence  wrote:
+
+> On Mon, 09 Sep 2002 15:36:37 -0400 
+> Tom Reingold  wrote:
+> 
+> > At work, I have to use Outlook.  Ick.  I hate it.  
+> 
+> Ahh.  At work we fire people who use Outlook (Literally true: They get
+> escorted to the door, their badge confiscated, and told to return the
+> next day to collect their office contents).
+
+Why?  What threat does Outlook pose to your organization?
+
+> > But it does a few things right.  Like making indices for each folder,
+> > and not just by date, but also by sender, message size, subject.  So I
+> > can sort by any column instantly.
+> 
+> Have you looked into using a custom sequences file?
+
+More detail please?  I do use sequences, so I'm familiar with their
+use, but how can I make indices with them, and how can I keep them
+up to date?
+
+> > And mime handling is pretty bad compared with modern mailers.
+> 
+> The only thing I actually miss in that regard is support for S/MIME.
+
+You're probably running exmh on a local machine.  I'm running it on
+a very remote machine.  In this scenario, the mime handling is weak.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

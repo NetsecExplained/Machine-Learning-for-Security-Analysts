@@ -1,0 +1,105 @@
+Re: Re (5): xorg-server failing on IBM NetVista with Intel 82815
+ videoOn Fri, 21 May 2010 13:07:26 -0400 (EDT), Peter Easthope wrote:
+>
+> Runs OK.  These lines appear on the console.
+>   xserver-xorg-video-intel 2:2.9.1-3
+>     ...
+
+:-)
+
+>   update-initramfs: Generating /boot/initrd.img-2.6.32-3-686
+> 
+
+This should also have caused lilo to be run, if the customization
+is correct.  There are only two or three lines of output from
+lilo; so it's easy to overlook.
+
+> The first seemed promising but no such luck.
+
+:-(
+
+> Under the 
+> 2.6.32-3 kernel X still shuts down with the message 
+> "error setting MTRR ... Inappropriate ioctl for device (25)".
+
+I found this thread on the internet.  I don't know if it's
+your problem, but it's worth looking at.  I always use GNOME,
+so I have no experience with messing with .xinitrc:
+
+http://www.linuxquestions.org/questions/linux-software-2/lxde-error-808065/
+
+> Stephen Powell wrote:
+>> If everything was customized correctly, the symlinks should
+>> be automatically updated and lilo should be automatically run.
+> 
+> Lilo continues to work and all appears well.
+> 
+> dalton:/# ll /boot/i*
+> lrwxrwxrwx 1 root root      23 May 12 15:07 /boot/initrd.img -> initrd.img-2.6.32-3-686
+> -rw-r--r-- 1 root root 7369012 May 11 15:53 /boot/initrd.img-2.6.30-2-686
+> -rw-r--r-- 1 root root 7368816 May  5 09:01 /boot/initrd.img-2.6.30-2-686.bak
+> -rw-r--r-- 1 root root 8191597 May 21 08:00 /boot/initrd.img-2.6.32-3-686
+> -rw-r--r-- 1 root root 7915734 May 12 15:07 /boot/initrd.img-2.6.32-3-686.bak
+> lrwxrwxrwx 1 root root      23 May 12 08:34 /boot/initrd.img.old -> initrd.img-2.6.30-2-686
+> dalton:/# ll /boot/v*
+> lrwxrwxrwx 1 root root      20 May 12 15:07 /boot/vmlinuz -> vmlinuz-2.6.32-3-686
+> -rw-r--r-- 1 root root 2024144 Sep 25  2009 /boot/vmlinuz-2.6.30-2-686
+> -rw-r--r-- 1 root root 2234080 Feb 25 00:59 /boot/vmlinuz-2.6.32-3-686
+> lrwxrwxrwx 1 root root      20 May 12 08:33 /boot/vmlinuz.old -> vmlinuz-2.6.30-2-686
+> dalton:/#
+>
+> Stephen Powell wrote:
+>>
+>> you will normally want to manually purge any older kernels that are
+>> still installed to save disk space *after* the upgrade.
+> 
+> Will do.  
+
+At this point, you only have two kernels installed; so there's nothing to
+purge right now.  But be sure to add the optional flag to the LinuxOld
+section in /etc/lilo.conf.  Without it, lilo will generate an error if
+there are not at least two kernels installed.
+> 
+> Any chance of you posting the customization instructions on 
+> your Web site?
+
+Well, I already have, sort of.  The trouble is that it's buried in a
+larger document on custom kernel building.  People see that and think,
+"Oh, I'm not building a custom kernel; so I don't need to read this."
+But Step 10 on my kernel building page
+
+   http://www.wowway.com/~zlinuxman/Kernel.htm
+
+talks about customizing the kernel installation environment, and that
+part is applicable to both stock and custom kernels.  The instructions
+for customizing the Lenny environment work for Squeeze also, provided
+that you use *only* stock kernels.  The minute you introduce a custom
+kernel, you *must* use the hook scripts, as documented in the Squeeze
+section.
+
+> Stephen Powell wrote:
+>> There is a newer kernel available in squeeze now, 2.6.32-5.
+> 
+> Sid isn't it?  But if this is a kernel bug, it is worthy  
+> of fixing for squeeze.  But no harm in trying the sid 
+> kernel I suppose.
+
+As I explained in another post, yes, it is in Sid.  If you need
+instructions for how to pull in the Sid kernel without upgrading
+your whole system to Sid, let me know and I can provide that.
+Also, you might try disabling ACPI and try the vesa driver,
+as explained in another post.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1211541152.323977.1274465212079.JavaMail.root@md01.wow.synacor.com
+
+

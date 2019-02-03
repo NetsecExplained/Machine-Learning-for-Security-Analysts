@@ -1,0 +1,28 @@
+Re: USB device attached via RS232 adaptorOn 4/18/2010 3:27 PM, Brad Rogers wrote:
+> On Sun, 18 Apr 2010 15:15:53 -0500
+> Ron Johnson  wrote:
+>
+> Hello Ron,
+>
+>> Plz show us a link to a USB adapter that plugs into a PC's serial port.
+>
+> I've never even looked for one.  I'm just going what by Dotan wrote.  By
+> the sounds of it, he's not seen the set up yet, anyhow.  It could well
+> be that his neighbour has got a USB-RS232 adapter plugged in the wrong
+> way round.  Of course, at this point, I'm just guessing.
+>
+
+That ought actually to work, if a computer were plugged into the USB 
+side.  Then you would have a very slow transfer cable.
+
+MAA
+
+(Useless, I know.  Not helpful.)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCD2F1.10202@allums.com
+
+

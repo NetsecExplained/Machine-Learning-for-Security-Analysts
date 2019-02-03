@@ -1,0 +1,14 @@
+Perl programmers are so cuteURL: http://diveintomark.org/archives/2002/10/05.html#perl_programmers_are_so_cute
+Date: 2002-10-05T21:33:22-05:00
+
+_Ian Hickson_: #include web-log.txt[1]. “I used some of Perl's niftier 
+features, such as using method lookup instead of a switch statement for the 
+preprocessing instruction dispatching, and exceptions instead of passing error 
+codes back and forth.” He he. Perl programmers are so cute when they 
+imitate Python programmers.
+
+
+
+[1] http://ln.hixie.ch/?start=1033841933&count;=1
+
+

@@ -1,0 +1,33 @@
+Re: [SAtalk] URL blacklist
+SpamTalk said:
+> Probably better than the "spam phrases" approach would be the database
+> approach as currently used for white/black listing.
+> Any way to tie that to an XML retrieval from a list of central repositories?
+> Does mySQL do replication? A properly done XML would let us eyeball the list
+> as well as use it to keep the database up to date.
+> Another idea: could we synthesize an RBL so that
+> http://www.spammer.com/spam/web/bug/ becomes spam.web.bug.x.www.spammer.com
+> for a reverse lookup? It is going to get tricky, how to specify a randomized
+> intermediate directory?
+
+A good plan, needs an implementation though: 
+
+        http://bl.reynolds.net.au/ksi/email/
+
+hmm. seems down to me.  Basically it's a plan to store hash sums of
+URLs/phone numbers found in spam in a DNSBL, for apps like SpamAssassin to
+look up.  A little like spamcop's "spamvertized URL" list...
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: DEDICATED SERVERS only $89!
+Linux or FreeBSD, FREE setup, FAST network. Get your own server 
+today at http://www.ServePath.com/indexfm.htm
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

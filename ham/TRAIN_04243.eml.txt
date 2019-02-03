@@ -1,0 +1,27 @@
+Re: How to keep debian current??RyanJB wrote:
+>
+> I find a net install works best 
+> nowadays. Then you just download and install packages as you want to.
+> 
+> The archive is simply huge now so it's a lot to download and burn unless you 
+> have machines that are not connected to the net that you want to install or 
+> update.
+
+
+Yes, start with a testing netinst www.debian.org/devel/debian-installer/ 
+and install the base and then add the sid repos and do an aptitude 
+full-upgrade to the base, after that you can start to build your 
+testing/unstable system the way you want it.
+-- 
+Jimmy Johnson
+
+Debian Testing at sda12
+Registered Linux User #380263
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEE4E5B.70909@csmining.org
+
+

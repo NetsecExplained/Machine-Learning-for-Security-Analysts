@@ -1,0 +1,57 @@
+Re: X11 just froze, and /var/log/syslog (dmesg)'s output seems to  mean something-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón  writes:
+
+> On Tue, 18 May 2010 18:08:24 +0200, Merciadri Luca wrote:
+>
+>> I realized that my computer (this one, Debian Lenny, w. k.
+>> 2.6.26-2-686-bigmem) was frozen. I tried escaping from the screensaver,
+>> but nothing worked, except launching another tty, and restarting gdm.
+>> Here is the interesting output I obtained by looking at /var/log/syslog
+>> and dmesg:
+>> 
+>> ==
+>> [24892.623421] atkbd.c: Unknown key pressed (translated set 2, code 0xbb
+>> on isa0060/serio0).
+>
+> (...)
+>
+> That seems to be unrelated with a X freeze. Looks like a keyboard key 
+> mapping error but nothing serious.
+>
+> Just review your "/var/log/Xorg.0.log". If X crashed there must something 
+> there :-?
+Nothing really interesting there. Just:
+
+==
+AUDIT: Tue May 18 18:01:04 2010: 3716 X: client 33 rejected from local host (uid 0)
+  Auth name: MIT-MAGIC-COOKIE-1 ID: -1
+==
+but 18:01:24 seems to be when I asked to restart gdm.
+
+Note that I do not think that X crashed entirely. I just mean that the
+screen was looking like frozen, but screensaver was still
+moving... slowly, or sometimes really slowly.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+All flowers are not in one garden.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvy14IACgkQM0LLzLt8MhwcwQCbBd5balF2To8ZrwuwiyFXLHdC
+G10AnjGUZqN84eQdh4Qc6os5S2GaaHk8
+=ayaU
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/877hn1ytfh.fsf@merciadriluca-station.MERCIADRILUCA
+
+

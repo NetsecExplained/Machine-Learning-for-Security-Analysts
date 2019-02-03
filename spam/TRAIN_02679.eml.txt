@@ -1,0 +1,205 @@
+[SPAM]  Help me remove virus
+
+
+
+World news
+
+                td { font-family: Tahoma, Arial, Helvetica, sans-serif; f=
+ont-size: 11px; color: #000000; letter-spacing: 1px; line-height: 16px}
+                ul {
+                margin-left: 24px ; margin-bottom: 0px}
+                a:link  { color: #2A669A; text-decoration: none; font-wei=
+ght: bold; font-family: Tahoma, Arial, Helvetica, sans-serif }
+                a:visited       { color: #2A669A; text-decoration: underl=
+ine; font-weight: bold; font-family: Tahoma, Arial, Helvetica, sans-serif=
+ }
+                a:hover { color: #2A669A; text-decoration: underline; fon=
+t-weight: bold; font-family: Tahoma, Arial, Helvetica, sans-serif}
+                a:active        { color: #2A669A; text-decoration: none; =
+font-weight: bold; font-family: Tahoma, Arial, Helvetica, sans-serif }
+                p {margin: 0px;
+					width: 585px;
+					text-align: center;
+				}
+                td.list a       {font-weight: normal; text-decoration: no=
+ne}
+                td.list a:visited       {font-weight: normal; text-decora=
+tion: none}
+
+                td.list a:hover         {font-weight: normal; text-decora=
+tion: none}
+
+                td.list a:active        {font-weight: normal; text-decora=
+tion: none}
+                td.agenda a     {font-weight: bold; text-decoration: none=
+}
+                td.agenda a:visited     {font-weight: bold; text-decorati=
+on: none}
+
+                td.agenda a:hover       {font-weight: bold; text-decorati=
+on: none}
+
+                td.agenda a:active      {font-weight: bold; text-decorati=
+on: none}
+
+                div.advertorial_kop     { text-align: left }
+                div.advertorial_body    { text-align: left }
+                div.advertorial_payoff  { text-align: left }
+
+                .advertorial_kop a:link {  text-align: left; line-height:=
+ 16px; font-weight: bold;}
+
+                .advertorial_kop a:visited {  text-align: left; line-heig=
+ht: 16px; font-weight: bold;}
+
+                .advertorial_kop a:hover {  text-align: left; line-height=
+: 16px; font-weight: bold; text-decoration: underline}
+
+                .advertorial_kop a:active {  text-align: left; line-heigh=
+t: 16px; font-weight: bold;}
+
+                .advertorial_body a:link { text-align: left; color: #0000=
+00; font-weight: normal; line-height: 16px; font-family: Tahoma, Arial, H=
+elvetica, sans-serif; font-size: 11px;}
+
+                .advertorial_body a:visited { text-align: left; color: #0=
+00000; font-weight: normal; line-height: 16px; font-family: Tahoma, Arial=
+, Helvetica, sans-serif; font-size: 11px;}
+
+                .advertorial_body a:hover { text-align: left; color: #000=
+000; font-weight: normal; text-decoration: none; line-height: 16px; font-=
+family: Tahoma, Arial, Helvetica, sans-serif; font-size: 11px;}
+
+                .advertorial_body a:active { text-align: left; color: #00=
+0000; font-weight: normal;line-height: 16px; font-family: Tahoma, Arial, =
+Helvetica, sans-serif; font-size: 11px;}
+
+                .advertorial_payoff a:link {  text-align: left; line-heig=
+ht: 16px; font-weight: bold;}
+
+                .advertorial_payoff a:visited {  text-align: left; line-h=
+eight: 16px; font-weight: bold;}
+
+                .advertorial_payoff a:hover {  text-align: left; line-hei=
+ght: 16px; font-weight: bold; text-decoration: underline}
+
+                .advertorial_payoff a:active {  text-align: left; line-he=
+ight: 16px; font-weight: bold;}
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								NEWS
+
+
+
+
+
+
+
+
+
+									24 Jul 2009 
+
+
+ 
+ Read
+											more..
+
+
+
+
+
+
+
+
+
+                         
+
+
+
+
+
+
+
+
+
+
+
+						ABOUT THIS NEWSLETTER
+
+
+
+
+
+
+
+
+
+
+
+								Free newsletter
+
+								To subscribe to this newsletter click 
+								here=BB.
+
+To unsubscribe to this newsletter click
+
+								here=BB.
+To update your details click
+
+								here=BB.
+
+
+
+								World news magazine
+
+								To receive your complimentary copy of World
+								news, click 
+								here=BB.
+
+
+
+
+
+						Through this newsletter you can communicate with poultry
+						professionals worldwide. For more information click 
+						here=BB.
+
+
+
+
+
+
+
+
+
+
+
+		Contact
+
+		Disclaimer
+
+
+
+
+
+
+
+
+
+
+

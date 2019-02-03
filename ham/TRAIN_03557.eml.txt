@@ -1,0 +1,62 @@
+Re: [scoop] Scoop MS Word .doc file into something that plucker or other Palm app can display?On Thu, 2002-08-29 at 19:27, Barry Dexter A. Gonzaga wrote:
+> On Thu, Aug 29, 2002 at 05:10:47PM -0400, Larry W. Virden wrote:
+> > I am wondering whether there's a way that I can use sitescooper and/or plucker
+> > or some other free utility to convert word documents into something a bit
+> > more palmos friendly?
+> 
+> 	You could try antiword (http://www.winfield.demon.nl/linux/).
+> It's consoled based and converts word 6+ docs to text and some images to
+> postscript and png.
+
+also there's catdoc and wv for Word --> text conversions.  actually, wv
+consists of wvWare, which as the manpage says "converts word documents
+into other formats such as PS, PDF, HTML, LaTeX, DVI, ABW".  HTML would
+probably be the best format for use with Plucker/SiteScooper, depending
+on how good the DOC --> HTML conversion is.  i haven't used either in
+over a year as AbiWord or OpenOffice work well enough.  (prefer AbiWord
+for it's light-weight size, but OpenOffice has the better DOC importer.)
+
+don't know which of these are better or worse than the other, but i
+figure, "the more the merrier". ;-)
+
+> You could also try openoffice and/or abiword if you
+> have x installed.
+
+AbiWord supports exporting to PalmDoc (.pdb) which is about as
+PalmOS-friendly as you can get.  never tried/needed it, but it's listed
+there in the "Save As" dialog box.
+
+Wine (or CrossOver Office, if you already have it) may support Word
+Viewer (free download from Microsoft), but didn't a year or so ago when
+i last tried.  Word Viewer is what i used back in the day to convert
+Word 97 docs to Word 95, as you could display the Word 97 doc and copy &
+paste the text (with formatting) into Word 95, which was the only
+version of Word that i had.  anyways, a little nostalgia.
+
+> > I don't have a Windows machine, so it becomes problematic to convert them;
+> > I know that if this were not the case, in Word I could save them as some
+> > other more friendly format.
+
+i have a windows (dual-boot) machine, but it only get used by my
+significant other and for burning multi-session cd-r/rw.  (is there any
+linux gui app that supports cdrecord's multi-session feature?)  since
+OpenOffice, i've been able to edit Word docs flawlessly (or at least the
+simple Word documents i receive from others).
+
+anyways...
+-- 
+
+PLEASE REQUEST PERMISSION TO REDISTRIBUTE
+   AUTHOR'S COMMENTS OR EMAIL ADDRESS.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Sitescooper-talk mailing list
+Sitescooper-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/sitescooper-talk
+

@@ -1,0 +1,27 @@
+Re: About apt, kernel updates and dist-upgradeOn Mon, Feb 04, 2002 at 04:53:14PM +0100, Matthias Saou wrote:
+> It skips it. See the /etc/apt/apt.conf file for this.
+
+In my apt.conf reads:
+
+----
+RPM
+{
+   // Leave list empty to disable
+   AllowedDupPkgs {"^kernel$"; "kernel-smp"; "kernel-enterprise"; };
+   HoldPkgs {"kernel-source"; "kernel-headers"; };
+}
+----
+
+If I understand this correctly, then only kernel-source and kernel-headers 
+are held from being installed, but kernel will be installed, right?
+
+Maybe I should test this on some vanilla system...
+
+-- 
+Peter
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

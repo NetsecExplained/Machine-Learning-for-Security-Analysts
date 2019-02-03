@@ -1,0 +1,66 @@
+Re: How to play 3gp audio files?On Sat, 17 Apr 2010 10:52:10 -0700, John Magolske wrote:
+
+> I installed the amrnb package from the multimedia repo, but it didn't
+> help. 
+
+
+Wow :-(
+
+
+> I also installed the OpenCORE AMR libraries to /usr/local/lib as
+> recommended on the Mplayer site:
+> 
+>     MPlayer can use the OpenCORE AMR libraries through FFmpeg. Download
+>     the libraries for AMR-NB and AMR-WB from the opencore-amr project
+>     and install them according to the instructions on that page.
+>     http://www.mplayerhq.hu/DOCS/HTML/en/codec-installation.html
+>     http://sourceforge.net/projects/opencore-amr/
+> 
+> But that didn't help. 
+
+
+Ouch! :-(
+
+
+> Also built ffmpeg from source as suggested here:
+> http://ubuntuforums.org/showthread.php?t=178455 and did this:
+> 
+>     svn checkout svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg ./configure
+>     --enable-libopencore-amrnb --enable-version3 make
+>     make install
+
+
+Mmm, those instructions seems pretty old (2006-2007), maybe something has 
+changed since then.
+ 
+> That didn't help either, keep getting "Cannot find codec 'libamr_nb' in
+> libavcodec..." still searching around the www to see what I can find.
+
+Two more hints:
+
+1/ The error message you got was:
+
+***
+(...)
+Cannot find codec for audio format 0x726D6173.
+Read DOCS/HTML/en/codecs.html!
+***
+
+So follow their wise advice and take a look into that doc file. 
+
+2/ Dunno if you already installed the mpeg/ffmpeg versions from "debian-
+multimedia" repo, as Ron already pointed out. That could be another thing 
+you can test.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.17.18.42.56@csmining.org
+
+

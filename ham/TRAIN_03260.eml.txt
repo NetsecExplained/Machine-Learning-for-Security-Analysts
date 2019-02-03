@@ -1,0 +1,20 @@
+Re: latest php upgrade in 7.3On Thu, 2002-08-22 at 19:10, Troy Engel wrote:
+
+> Anyone have an idea what the heck RedHat did here, and why we're now 
+> trying to install a ton of crap I don't want?  (I'm hoping someone else 
+> has chased this down and could save me time... ;) )
+
+I'm told that even our best people occasionally screw up. And QA had
+tested the rpm on an "Everything" install. Expect a fixed version soon,
+and QA procedures have been adjusted to catch this kind of braindamage
+in the future. There is nothing really wrong with the binary inside the
+rpm, so if you want to --nodeps for now it's ok.
+
+-- 
+Chris Kloiber
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

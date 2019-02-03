@@ -1,0 +1,25 @@
+Re: [SAtalk] OT: DNS MX Record Clarification PleaseOn Fri, 2002-09-13 at 14:33, vernon wrote:
+> 
+> But only some of the mail is actually being scanned which leads me to
+> believe that not all of the mail is actually hitting that box and the 10
+> never goes down. Why? Have I got something confused here?
+> 
+Sending mail directly to a backup mail server in the hopes that it has
+less stringent spam scanning is a common spammer trick.
+
+-- 
+Jason Kohles                                 jkohles@redhat.com
+Senior Engineer                 Red Hat Professional Consulting
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

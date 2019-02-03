@@ -1,0 +1,51 @@
+Re: FW: Parallellizing the boot in Debian Squeeze - ready for wider
+  testingOn Thu, 6 May 2010 23:31:15 +0300
+Alexander Batischev  wrote:
+
+> > These days, the init.d script dependencies in Squeeze are quite
+> > complete, so complete that it is actually possible to run all the
+> > init.d scripts in parallell based on these dependencies.  If you want
+> > to test your Squeeze system, make sure dependency based boot
+> > sequencing is enabled, and add this line to /etc/default/rcS:
+> >
+> > CONCURRENCY=makefile
+> >
+> > That is it.  It will cause sysv-rc to use the startpar tool to run
+> > scripts in parallel using the dependency information stored in
+> > /etc/init.d/.depend.boot, /etc/init.d/.depend.start and
+> > /etc/init.d/.depend.stop to order the scripts.  Startpar is configured
+> > to try to start the kdm and gdm scripts as early as possible, and will
+> > start the facilities required by kdm or gdm as early as possible to
+> > make this happen.
+> >
+> > Give it a try, and see if you like the result.  If some services fail
+> > to start properly, it is most likely because they have incomplete
+> > init.d script dependencies in their startup script (or some of their
+> > dependent scripts have incomplete dependencies).  Report bugs and get
+> > the package maintainers to fix it. :)
+> 
+> Well, I did that and restarted system. I didn't notice any errors, and
+> system doesn't boot faster or slower than usual. Don't know is it good
+> or bad news, though…
+
+The last time we discussed this, it was claimed that there will be no
+difference on single core systems:
+
+http://lists.debian.org/debian-user/2009/09/msg00721.html
+
+I have a single core (Celeron M) system - should I bother with this at
+all?
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100506184743.09f79826.celejar@csmining.org
+
+

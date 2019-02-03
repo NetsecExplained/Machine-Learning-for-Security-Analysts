@@ -1,0 +1,39 @@
+Re: lilo removal in squeeze (or, "please test grub2")Stephen Powell  writes:
+
+> Ferenc Wagner wrote:
+>
+>> Stephen Powell  writes:
+>>>
+>>> Both grub-legacy and grub-pc use sectors on the hard disk outside of
+>>> the master boot record and outside of a partition ...
+>>
+>> You may want to try extlinux, it works much like LILO in this respect.
+>
+> It does not use the master boot record.  It relies on a master boot
+> record program to chain load it from the partition boot sector.  (I
+> use the mbr package for that.)
+
+The extlinux package itself also contains an mbr.bin, which you can use
+(it's strong point is probably EBIOS support).
+
+> Speaking of documentation, that seems to be its main weakness.
+> Documentation is sketchy and spread out over a number of different files.
+
+/usr/share/doc/extlinux.txt.gz references syslinux.txt, which is fairly
+comprehensive according to my standards, at least as far as the core is
+concerned.  What did you miss?  Some modules may be less well documented.
+
+> It installs hook scripts that I don't want (and that have bugs).
+
+I hope we can fix them soon (they are Debian specific additions).
+-- 
+Cheers,
+Feri.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874ohwt3td.fsf@tac.ki.iif.hu
+
+

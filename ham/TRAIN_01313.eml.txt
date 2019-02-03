@@ -1,0 +1,242 @@
+United We Fall?From nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+To view this newsletter in full-color, visit:
+http://newsletter.mediaunspun.com/index000018904.cfm
+
+MEDIA UNSPUN
+What the Press is Reporting and Why (www.mediaunspun.com)
+-----------------------------------------------------------------
+August 13, 2002
+
+-----------------------------------------------------------------
+IN THIS ISSUE
+-----------------------------------------------------------------
+* UNITED WE FALL?
+* SLEEPING WITH THE PENGUIN
+* OTHER STORIES
+
+Media Unspun serves business news and analysis, authoritatively
+and irreverently, every business day. An annual subscription
+costs $50, less than a dollar a week. If your four-week free
+trial is coming to an end soon, please visit
+http://www.mediaunspun.com/subscribe.html and sign up via credit card 
+or check.
+
+
+-----------------------------------------------------------------
+ADVERTISEMENT
+-----------------------------------------------------------------
+Ken Fisher offers his Quarterly Report for high net worth
+investors FREE of cost & without obligation. Access the same
+investment research he uses to guide his clients at:
+http://pcg.fisherinvestments.com/newrespond/letter.asp?site=UNSP&KC;=1229EFCAD0000
+
+
+-----------------------------------------------------------------
+UNITED WE FALL?
+-----------------------------------------------------------------
+US Airways scored a $500 million bankruptcy court bailout.
+American Airlines announced a re-org. United Airlines' parent
+company's stock sank on speculation that UAL is next in line for 
+Chapter 11. It's a wonder none of this happened last September,
+but it's not much consolation to airline employees,
+shareholders, and customers that it's happening now.
+
+The Wall Street Journal had the most extensive coverage of
+American's plan as of Unspun's deadline. The airline will lay
+off 7,000 workers, ground some jets, cut back on flight
+amenities such as food, and retool its hub operations to make
+for longer layovers. "In the past, airlines were loath to have
+longer connection times because flights were listed in travel
+agents' computers by elapsed time," said the Journal. "Now,
+online booking tools and search engines most often list flights
+by price, not time." In this age of penny-pinching, American's
+worried about low-cost carriers, not the big guys like, um, US
+Air and United. 
+
+Speaking of United, it's hard to come up with a verb for its
+parent company's stock that doesn't invoke an air disaster.
+Let's just say it didn't go up yesterday. The $3.80 share price
+may be the least of UAL's worries while it waits for an
+increasingly unlikely $1.8 billion loan from the Air
+Transportation Stabilization Board. "The ATSB expects an
+applicant's workers, suppliers and creditors to make concessions 
+to help the airline repay the loans and thus protect U.S.
+taxpayers' interests," said the L.A. Times. Sounds nice for
+uninvolved taxpayers but not so good to some of United's unions, 
+which are balking at a wage cut. Workers did enough by deferring 
+$498 million in retroactive pay this year, said the
+36,000-member machinists' union. Analysts moaned in anti-labor
+frustration. 
+
+The basic problem here is too many empty airplane seats, and
+non-U.S. outlets didn't have a lot of sympathy. "The U.S.
+government has bailed out carriers with insurance subsidies and
+federal loan guarantees" while "European authorities have acted
+more wisely," letting Swissair and Sabena "go to the wall," said 
+the Financial Times. Canadian pundits agreed that America should 
+let a couple of airlines wilt, since the Canadian airline
+industry benefited from the demise of Canadian Airlines and
+Canada 3000. Paging Charles Darwin to the white courtesy
+phone... - Jen Muehlbauer
+
+-----------------------------------------------------------------
+ADVERTISEMENT
+-----------------------------------------------------------------
+You've heard about identity management, but do you know about
+the opportunities and business models that will emerge as a
+result? Download a free executive summary of Esther Dyson's coverage of
+identity management in Release 1.0. Learn more about the
+expanding market for these services and applications.
+http://release1.edventure.com/executivesummary.cfm?MCode=Unspun
+
+-----------------------------------------------------------------
+SLEEPING WITH THE PENGUIN
+-----------------------------------------------------------------
+The LinuxWorld Conference and Expo, which opened yesterday in
+San Francisco, will host two of the strangest bedfellows ever to 
+lie down with a stuffed penguin: Microsoft and Sun. These are
+companies that once referred to Linux as a "bathtub of code"
+(Sun) and "a cancer" (Microsoft), according to Sun's hometown
+paper the San Jose Mercury News.
+
+Both companies are taking Linux seriously despite the absolute
+numbers. By January 2, 2001, Microsoft had made as much on
+server software as all Linux vendors put together would reap in
+the entire year.
+
+Honors for the best attention-grabber on Microsoft's presence at 
+the show go to Brier Dudley, who opened his piece for the
+Seattle Times this way: "Microsoft executive Peter Houston
+wasn't too worried about the reception he'd get at LinuxWorld
+... until he heard about the pie cannon."
+
+Wired informed us that the section of LinuxWorld where Microsoft 
+will be holding the fort is dubbed the Rookery -- "a place where 
+you can watch companies hatch and grow right before your eyes,"
+deadpanned reporter Michelle Delio, quoting Microsoft's Houston: 
+"Hatching isn't exactly on the agenda, but I certainly hope to
+grow."
+
+Turning to Sun, Unspun notes that five years ago a joke press
+release circulated on the Net claiming that Linux creator Linus
+Torvalds, then still living in Finland, was moving to Silicon
+Valley to work for Sun. The joke was that Sun had decided to
+scrap its Solaris operating system and instead concentrate on a
+version of Linux, to be called "Solinux." How time does make
+April fools of us all: Linus Torvalds is now thriving in Silicon 
+Valley (at Transmeta), and yesterday Sun Microsystems
+demonstrated Sun Linux 5.0. and introduced its first
+general-purpose servers running Linux.
+
+The Merc ran a comprehensive wrap of Sun's evolving attitude
+toward the upstart operating system. Sun has little choice but
+to embrace Linux, wrote reporter Therese Poletti, because some
+of its traditional Wall Street customers were deserting it.
+"Several investment banks have tossed out whole sections of Sun
+servers and replaced them with Intel-based servers running
+Linux," Poletti reported. And you thought Microsoft hated Linux? 
+- Keith Dawson
+
+Linux expo has come a long way
+http://www.siliconvalley.com/mld/siliconvalley/3847040.htm
+
+Microsoft changes its tune toward Linux (Seattle Times)
+http://makeashorterlink.com/?Q12B23181
+
+Microsoft Puts On the Tux 
+http://www.wired.com/news/linux/0,1411,54489,00.html
+
+(Hoax press release on "Solinux")
+http://www.ibiblio.org/dbarberi/fools/classic/1997/sun-pr.html
+
+Sun to name Linux-Solaris chief 
+http://news.com.com/2100-1001-949469.html
+
+Sun Microsystems flexes Linux to jab at Microsoft (Seattle
+Times)
+http://makeashorterlink.com/?A25B52181
+
+Microsoft and Free Software at the Same Show? It's True
+http://www.nytimes.com/2002/08/10/technology/10LINU.html
+
+Linux begins its descent into the enterprise
+http://www.internetnews.com/ent-news/article.php/1443811
+
+-----------------------------------------------------------------
+OTHER STORIES
+-----------------------------------------------------------------
+Ex-CEO Pleads Not Guilty to ImClone Fraud
+http://www.washingtonpost.com/wp-dyn/articles/A10407-2002Aug12.html
+
+Security flaw found in Microsoft Web browser (Reuters)
+http://www.philly.com/mld/philly/business/technology/3851394.htm
+
+Fed seen leaving rates unchanged
+http://www.msnbc.com/news/793177.asp
+
+Some Sad No-Signs of the Times 
+http://www.businessweek.com/bwdaily/dnflash/aug2002/nf20020813_0067.htm
+
+Publisher dodges bankruptcy bullet
+http://www.chicagotribune.com/business/chi-020812ziff.story
+
+Gates Foundation Walks Fine Line As It Increases Its Cable
+Holdings
+http://online.wsj.com/article/0,,SB1029180416481589035,00.html
+(Paid subscription required.)
+
+PGP defect reveals encrypted messages
+http://news.com.com/2100-1001-949368.html
+
+Bell Labs simplifies single sign-on
+http://www.theregister.co.uk/content/55/26624.html
+
+Bigger Bar Code Inches Up on Retailers
+http://www.nytimes.com/2002/08/12/technology/12CODE.html
+
+Damn the Constitution: Europe must take back the Web
+http://www.theregister.co.uk/content/6/26612.html
+
+Japanese Drop Out of New ID System (Newsday, AP)
+http://makeashorterlink.com/?T69B22181
+
+-----------------------------------------------------------------
+Do you want to reach the Net's savviest audience?
+Advertise in Media Unspun.
+Contact Erik Vanderkolk for details at erikvanderkolk@yahoo.com 
+today.
+
+-----------------------------------------------------------------
+STAFF
+-----------------------------------------------------------------
+Written by Deborah Asbrand (dasbrand@world.std.com), Keith
+Dawson (dawson@world.std.com), Jen Muehlbauer
+(jen@englishmajor.com), and Lori Patel (loripatel@hotmail.com).
+
+Copyedited by Jim Duffy (jimduffy86@yahoo.com). 
+
+Marketing: Cowpoke Productions (cowpokeproductions.com.
+Advertising: Erik Vanderkolk (erikvanderkolk@yahoo.com). 
+
+Editor and publisher: Jimmy Guterman (guterman@vineyard.com).
+
+Media Unspun is produced by The Vineyard Group Inc. 
+Copyright 2002 Media Unspun, Inc., and The Vineyard Group, Inc.
+Subscribe already, willya? http://www.mediaunspun.com 
+
+Redistribution by email is permitted as long as a link to
+http://newsletter.mediaunspun.com is included.
+
+-|________________
+POWERED BY: http://www.imakenews.com
+To be removed from this list, use this link:
+http://www.imakenews.com/eletra/remove.cfm?x=mediaunspun%2Czzz-unspun@spamassassin.taint.org
+To receive future messages in HTML format, use this link:
+http://www.imakenews.com/eletra/change.cfm?x=mediaunspun%2Czzz-unspun@spamassassin.taint.org%2Chtm
+To change your subscriber information, use this link:
+http://www.imakenews.com/eletra/update.cfm?x=mediaunspun%2Czzz-unspun@spamassassin.taint.org
+

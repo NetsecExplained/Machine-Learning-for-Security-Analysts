@@ -1,0 +1,57 @@
+RE: [ILUG] slashdot EW Dijkstra humor
+schemers are often slagged of for that sort of thing 
+they "know the Value of Everything, Cost of Nothing" 
+did i get that the right way arround ?
+
+
+--B
+
+-----Original Message-----
+From: John P. Looney [mailto:valen@tuatha.org]
+Sent: 08 August 2002 11:38
+To: ilug@linux.ie
+Subject: Re: [ILUG] slashdot EW Dijkstra humor
+
+
+On Thu, Aug 08, 2002 at 11:27:59AM +0100, wintermute mentioned:
+> Interesting. I've always wondered about things 'considered' to be bad. 
+> Example the GOTO, most languages support a goto of some sort, so are gotos
+really bad?
+
+ Yes. Especially in the languages he was talking about - C, Pascal and
+Assembler. Goto's can be used well; there are a few used in the kernel
+code to improve efficency. They are almost required in some languages
+(like C) where 'break' or 'continue' can't be told how many loops/switches
+to break out of.
+
+ But, in general, goto's make a mess of code.
+
+> Is a loop or a recursive call actually any better than a goto 
+> or is the goto used as a kind of common enemy of 
+> programming syntax
+> to make sure people use loops or recursion?
+> <>
+
+ Recursion is only truely useful if you have an infinite stack. People
+that think they have an infinite stack shouldn't be let near a compiler.
+
+> Kind of makes you wonder about things considered to be 'good'.  For
+> example people bang on about polymorphism, but is there actually any
+> advantage in using an overloaded function based on class inheritance?
+
+ I don't care, to be honest.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

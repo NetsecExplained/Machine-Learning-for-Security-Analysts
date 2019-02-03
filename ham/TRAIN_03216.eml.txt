@@ -1,0 +1,13 @@
+[Spambayes] understanding high false negative rate
+    >> > ##Remove: jeremy@alum.mit.edu##
+
+    Tim> Yuck: it got two 0.01's from embedding your email address at the
+    Tim> bottom here.
+
+Which suggests that tagging email addresses in To/CC headers should be
+handled differently than in message bodies?
+
+Skip
+
+
+

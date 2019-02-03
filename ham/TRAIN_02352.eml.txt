@@ -1,0 +1,25 @@
+Re: bad focus/click behaviours    Date:        Fri, 13 Sep 2002 11:26:30 +1000
+    From:        Tony Nugent 
+    Message-ID:  <200209130126.g8D1QUf21470@hobbit.linuxworks.com.au.nospam>
+
+  | I can cut'n'paste from exmh's message display window into spawned
+  | gvim processes, but not into anything else.
+
+That's odd.  I cut & paste between all kinds of windows (exmh into
+mozilla, xterm, another wish script of mine I use for DNS tasks (but
+that one I guess is to be expected) netscape (when I used to use it,
+but I suppose it and mozilla are the same codebase, approx) - in fact
+I can't thing of anything it fails for, that I have noticed.
+
+What is an example of an "anything else" that it fails for for you?
+
+kre
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

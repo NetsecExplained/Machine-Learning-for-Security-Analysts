@@ -1,0 +1,444 @@
+[Lockergnome Windows Daily]  Beefier Vinyl
+
+<!--
+ body      { BACKGROUND-IMAGE: url(http://images.lockergnome.com/images/issue/top-right.gif); color: #990000 }
+ a:link    { COLOR: #000000; TEXT-DECORATION: underline; font-weight: normal }
+ a:visited { COLOR: #C84200; TEXT-DECORATION: underline; font-weight: normal }
+ a:active  { COLOR: GRAY; text-decoration: none }
+ a:hover   { color: GRAY; TEXT-DECORATION: none }
+ p.title   { BACKGROUND: #FFCC99; BORDER-BOTTOM: #FF9966 4px solid; BORDER-LEFT: #FFEEDD 4px solid; BORDER-RIGHT: #FF9966 4px solid; BORDER-TOP: #FFEEDD 4px solid; COLOR: #990000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal }
+ p.sidebar { BACKGROUND: #FFEEDD; TEXT-ALIGN: center; BORDER-BOTTOM: #FFCC99 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #FFCC99 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #990000; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold } 
+ .url      { font-size: 8pt; font-family: Verdana, Tahoma, Arial }
+-->
+20020712 Lockergnome Windows Daily
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  07.12.2002 GnomeREPORT 
+
+Content Management Is Key: Need a reason your boss should be sending you to Gnomedex? Some of the leading experts on content management solutions (those things we affectionately call blogs) will be sharing the future of blogging and how you can adapt it to both the way you do business and the way you communicate in general. Join Evan Williams and Doc Searls as they share pearls of wisdom on blogging, Linux and other open source applications that are changing our lives. If that's not enough incentive, remind the boss that THE Internet security guru, Steve Gibson, will be sharing his wisdom as well. Register for Gnomedex today!   
+
+
+
+My mom just notified me of my aunt Theresa's death. She was my
+father's older sister, though I only knew her through a few e-mail
+exchanges and a couple of brief encounters as a child. This news
+came hours after I received ANOTHER bit of disturbing news:
+"Please tell Chris that one of his first fans died last weekend of
+a heart attack at home." I first met Jon Snyder at an Apple user's
+group meeting a couple of years ago; to me, he always looked like
+a beefier Robert Beltran. Death is something we all must deal
+with, but you never seem to be prepared for it when someone
+actually dies. A few months ago, Aunt Theresa sent word that she
+had seen my show. It was good to know that even though we hadn't
+interacted much over the past few years, she was still able to see
+me on TV. And even though you didn't know him, you're closer to
+Jon than you realize. Witness this message he sent to his boss a
+few months ago:
+
+
+"I evangelized for months last year for having our company at
+the first of these consumer computer conferences in Des Moines
+last October, but got shot down. The conference was a hit despite
+being postponed by 9/11, and having to move the venue at the last
+minute. I know... I was there. So, I'm starting all over again
+being 'pushy' about our presence at this event in August of this
+year. Chris Pirillo, whose Des Moines-based commercial email
+publishing group 'Lockergnome' puts this conference together, is a
+friend of mine. He was the 'kid' hired by TechTV to host their
+Call for Help daily TV program in SF starting last fall. If you
+get the Dish network or Mediacom cable you can catch his show. I
+have my DishPlayer set up to record his show on a daily basis.
+It's VERY well done, as is TechTV as a whole."
+
+
+I returned from speaking to another user group the other night and
+found that approximately 100 new GnomeTomes had been ordered.
+Sweet! When I started looking closer at the numbers, I realized
+that Jake was offering his Converting
+Vinyl LPs to CD eBook for free - and that's all anybody was
+taking. No, seriously - five hundred orders later, and 99% of them
+were just for that particular title. Now, while I don't have a
+problem with Jake's offer, I do want to encourage you to check out
+the non-free titles (and if you've already looked, please
+look again). A lot of blood,
+sweat, and tears went into them - and they're just as helpful. In
+fact, Jake's also written one for OS X (which
+probably wouldn't impress you if you weren't using an Apple
+machine). Although, I'm sure plenty of you use
+Dreamweaver.
+Which reminds me: Jake's also now authoring our Webmaster Weekly
+newsletter. So, if you haven't read that in a while, I'd encourage
+you to give it another glance. After all, as Elwood
+Edwards so finely said: You've
+Got Lockergnome! Thanks to David
+Lawrence for making that MP3 a reality. El can make one with your
+name, too. And yes, that's the AOL guy.
+
+
+
+See You in August,              Chris Pirillo       
+ GnomeDOWNLOADS
+VLINK v0.6.8.0 [257k] W9x FREE
+
+http://www.vxtech.org/
+
+{Desktop link manager} Nothing gets you there faster than a link.
+I mean, imagine if while you're surfing, you had to stop and type
+in a URL every time you wanted to move to a new page. Simply
+unacceptable. So why not have that convenience when working with
+other files? This application gives you the option of opening or
+running any file or program you desire via links. You can also
+shut down your computer or disable your screensaver through this
+program. "No installer is required for VLink - it will not change
+any of your registry settings or other Windows settings; simply
+extract the files PowerLink.dll and VLink.exe to a directory and
+run it."
+
+
+GhiaTracker v1.5 [370k] W9x/2k/XP FREE
+
+http://homepage.mac.com/karmannghia/ghiatracker/
+
+{Learn about your Ghia} Gearheads, motorheads, call them whatever
+you will, but I've never been part of their ranks. Not that I
+don't like cars, mind you; I find them much more useful than pogo
+sticks. If you happen to own a little vehicle known as the Karmann
+Ghia, you should drive on over and download this program. Click on
+any year between 1956 (the year it went into production) and 1974
+to get a brief synopsis of the car and its changes for that year.
+You can also get other specifications such as torque, horsepower,
+compression, etc. Even if you're not "into" cars, check this out.
+This program was created for use on the Mac, but a Windows version
+is also available.
+
+
+
+
+
+Recommend It!
+ GnomeCLICKS
+
+
+
+
+
+
+
+
+
+
+ GnomeSYSTEM
+WebTV Viewer v2.6 [6.8M] W9x FREE
+
+http://developer.msntv.com/tools/viewer/
+
+"Preview your sites on WebTV without leaving your PC! The WebTV
+Viewer simulates WebTV on your system. Read the online Viewer
+Installation Guide to find out more on how to use this software.
+Important: the PC version of the WebTV Viewer (2.6) reflects all
+of the features of the most recent upgrade from Spring 2001. Note:
+The Viewer is similar, but not identical, to a real WebTV system.
+The WebTV Viewer program is currently beta-level software on both
+Windows and Macintosh. This means that it has not been completely
+tested and debugged. The WebTV Viewer is like a WebTV browser
+because: it changes page layout by compressing page width and
+enlarging text; and it supports HTML, JavaScript, as well as other
+Internet standards in the same way. The WebTV Viewer is not like a
+WebTV browser because: your computer monitor has a higher
+resolution than a television screen, and displays color better;
+and the Viewer does not support email or audio, while the WebTV
+browser does."
+
+
+
+
+Recommend It!
+ GnomeWILDCARD
+
+Full PDF Books
+Poor Richard's Web
+Internet Promotions
+E-Mail Publishing
+Web Site Makeover
+Websites Made Easy
+Online Communities
+Home Networking
+Internet Recruiting
+Online Branding
+
+The Evidence is Against You
+Scribbled by Jim Girard
+
+Every time some new technology has expanded free access to popular
+music, starting with radio broadcasts of recorded songs in the
+1930s, the recording industry has fought it - claiming that it
+would cost them money. And every time, it has resulted in
+increased sales. The best-known example, of course, was the
+advances in tape cassette technology in the 60s and 70s, including
+Dolby sound technology. As with MP3, this technology was opposed
+by the music industry as different from previous such
+developments, because it made it possible for ordinary people to
+create their own copies at near-professional quality. The actual
+result was the creation of a whole new profit center for the music
+industry - pre-recorded cassette tapes - which actually became
+more popular than vinyl for a while (before the advent of CD
+technology).
+
+The thing is, the music industry is well aware of this effect -
+ and they are not really aiming to stop the private exchange of
+songs in MP3 format. If that were their goal, they'd be
+instituting widespread, aggressive legal actions against all the
+server-centered nodes (as they did against all radio stations
+playing their music in the 30s, when they really thought the
+phenomenon was going to wipe them out). Instead, they have focused
+on the best-known services - first Napster, then Morpheus, KaZaA,
+and most recently, Audiogalaxy. Even in those cases, they've
+limited their legal challenges to things they know they can win -
+ and they've avoided actual court trials whenever possible (to
+avoid the possibility of setting some damaging precedent).
+
+The point that seems to escape a lot of people is that copyright
+is not a property in the same sense as most of the things we think
+of as property. One key difference is that if you don't defend it,
+you lose it. If you left your car sitting in the driveway, with
+the window open and the keys in the ignition, and somebody drove
+away in it, that would still be theft - and you'd still be
+entitled to get your car back. Not so with copyright. If you are
+aware of infringement and you do nothing to try to stop it, you
+are voluntarily allowing it to enter the public domain. It's for
+the same reason that big companies insist that newspapers put a
+copyright or trademark symbol after the names of their products
+whenever they're mentioned, and not use words like "Coke" or
+"Kleenex" as generic terms. They don't really expect everybody to
+do what they say - and they're well aware that having the name of
+one's product become the generic term for a product is actually a
+great marketing boon. But if they DON'T do that, someone at some
+point could start using the word on their own product, arguing
+that it is in the public domain.
+
+The efforts of the music industry are not aimed at actually
+stopping the exchange of music between individuals - which they
+know from long experience, increases their sales because most of
+the people who normally buy the music aren't really satisfied with
+near-perfect copies. For most of them, the learning curve and the
+cost in time of creating those copies themselves outweighs the
+cost of simply buying the CD. Most of the outright piracy is
+committed by people who wouldn't have bought the music in the
+first place. What the music industry is doing is clearly aimed at
+establishing a public record of their efforts to defend copyright,
+in the broadest, most public way; to prevent anyone from making a
+legal claim that the stuff they own has entered the public domain.
+The thing they're really worried about, in terms of profits, is
+the change in the marketing model. Even legitimate online music
+commerce threatens the album format, with its traditional mix of a
+few good songs and a bunch of others most people wouldn't pay for
+if they were buying the stuff song by song. The problem is how to
+make as much money on a per-song basis - and, at the moment, it
+requires charging far more for an individual song that most people
+are willing to pay.
+
+At any rate, copyright is actually a fairly complex matter of
+civil law, with a good deal of history behind it - dating back to
+the Renaissance. The strategies music companies use are clearly
+directed to realities and necessities, in light of history and
+case law. They have also done a great PR job, convincing the most
+technically knowledgeable people on the Internet that it is a
+simple moral or criminal issue. "Common sense" tells a lot of
+people that copying music without paying for it is just like
+stealing someone's car, and represents a loss to the owner. But if
+common sense could decide the issue equitably, we wouldn't have
+the law in the first place. Most of our great intellectual
+systems, including not only law but science, are designed in large
+part to overcome the errors of common sense, and that is more the
+case in civil law than criminal. The people who work within those
+systems are well aware of that, but they are also well aware that
+most people aren't - and that it can work to their advantage. Any
+time a highly paid civil attorney begins by telling you that an
+issue vital to his client is actually very simple, or just a
+matter of common sense, there's a very high probability that what
+he means is that it's to his clients advantage if people like you
+believe that. If it really WERE that simple, the client wouldn't
+be paying him as much as he is.
+
+
+
+Submit Your Thoughts | Recommend It!
+
+A BOOK FOR EVERY GEEK: Want to know more about networking? Have you ever wanted to write an e-book? Maybe you need to polish your Web design skills? Get full-length books from the Poor Richard's series, including Poor Richard's E-mail Publishing, by Chris Pirillo, at GnomeTomes.com, for 50% off the suggested retail price of the print versions. Click here to learn more.    
+
+ GnomeFAVORITE
+My Virtual Model
+
+http://www.myvirtualmodel.com/
+
+{Make a model of you} Wouldn't it be cool if you could physically
+walk into cyberspace? Well, you can't... so stop thinking about
+it. However, you can design a virtual model of yourself on this
+site. Choose your features like body shape, eyes, nose, lips,
+facial hair, height, and weight. The amazing thing is how closely
+your model resembles you. My only complaint is that you can't add
+glasses. How in the heck is my digital doppelganger supposed to
+see? Once you're finished, the site can even offer style advice
+for your body type. (I'll stick with plaid, thank you very much.)
+
+
+
+
+
+Recommend It!
+ GnomeTIP
+
+Our Tip eBooks
+Microsoft Office Tips
+PC Productivity Tips
+Cool Internet Tips
+Windows 2000 Tips
+Windows XP Tips
+Top 50 Fun Sites
+Must-Know Terms
+Top 50 Useful Sites
+Top 75 Tech Sites
+
+Who has no trouble with controling his codes? Lockergnomie Wayne
+Smith: "Here is a bit of information specifically for Hotmail
+users who may have trouble opening your links, due to the service
+wanting to place the referred URL in a separate frame. I receive
+my Lockergnome newsletters via Hotmail and find it really useful
+when you folks include the link as text. However, sometimes this
+isn't practical - or it stops the flow of the article. The trouble
+here is that the link sometimes returns the message: 'There was an
+error displaying this link' in the frame. No problem! Right-click,
+copy shortcut, paste to metapad (freeware from LIQUIDNINJA.COM),
+then do a global search and replace. The trick is to replace the
+control codes with the correct characters: %26 is an ampersand;
+%3a is a colon; %2e is a period; %20 is a blank space; %2f is a
+forward slash; %3d is an equals symbol; %3f is a question mark.
+The Windows character map can help with any others. Select a
+character, look at the status bar, replace 'U+[code]' with the
+percent sign. In other words, the ampersand (U+0026) is %26 which
+translastes into a '&' symbol. Maybe a more clever Gnomie can come
+up with some script which we can place in the 'Web' folder,
+correctly register, and use in IE's right-click / context menu?"
+
+
+
+Recommend It!
+
+
+
+http://www.lockergnome.com/issues/daily/20020712.html
+Your subscribed e-mail address is: [qqqqqqqqqq-lg@example.com] - To unsubscribe or change your delivery address, please visit the subscription management page. For further information, please refer to the GnomeCREDITS in the sidebar.
+
+
+
+
+
+LOOK OVER HERE
+
+ Download Our Tip Files
+
+ Latest Windows Daily
+ Latest Digital Media
+ Latest Tech Specialist
+ Latest Penguin Shell
+ Latest Apple Core
+ Latest Web Weekly
+ Latest Bits & Bytes
+ Latest Audio Show
+
+ Low Price Search
+ $99 Tech Conference
+
+
+
+
+
+ The GnomeSTORE
+ Tell a Friend About Us!
+ Suggest a Feature
+ Advertise With Us
+ High-Tech Job Search
+ Chat With Gnomies
+ Watch The Webcams
+ Computer Power User
+
+ Read Past Issues
+ Download X-Setup
+ About Lockergnome
+ Our Privacy Policy
+ View More Options
+ Our XML / RSS Feed
+ Syndicate Our Tips
+ Link To Lockergnome
+ Get Chris's Book
+
+ General Feedback
+ E-mail the Editor
+ The Editor's Blog
+ MP3 SOFTWARE
+Havas MP3 Pro
+Magix MP3 Maker
+Ejay MP3
+Audiostation 5.0
+Jack The MP3 Ripper
+Pearson MP3 Maker
+Steinberg My MP3
+MusicMatch Jukebox 7.0
+Hip Hop E-jay Record
+MP3-Wolf
+MP3 Maker Gold
+The MP3 Wizard
+ GNOMESPECIALS
+ Manage Your Workgroup
+ Form Pilot
+ Say the Time 5.0
+ Boomer - Stream Now
+ Create Web/CD catalog
+ Easy Web Editor
+ Kleptomania
+ Tag&Rename
+ Pretty Good Solitaire
+ Visualize Color Combos
+ FirstStop WebSearch
+ Ecobuilder
+ Book Collector
+Get Listed Here
+Question: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother? 
+
+
+ HAPPY FUN STUFF
+And now, we see the story of the ugly shoe unfold before our very eyes. This footwear was outcast from the group weeks ago, and has been very depressed ever since. Pity my shoe.
+
+The Lone Shoe
+ 
+
+
+CLICK HERE TO ZOOM
+
+ 
+BYTE ME NOW
+
+©2002, Lockergnome LLC. ISSN: 1095-3965. All Rights Reserved. Please read our Terms of Service. Our Web site is hosted by DigitalDaze. Domain registered at DNS Central.
+
+
+
+
+I'd feel better about doctors if it wasn't called a 'Practice.'
+
+
+
+

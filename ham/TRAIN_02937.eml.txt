@@ -1,0 +1,32 @@
+Re: Mossberg on 'ChoiceMail': "In my tests, it cut my spam to  zero."On Tue, 23 Jul 2002, Mike Masnick wrote:
+
+> Lately, a fairly large % of the spam I've been getting has been coming
+> from spam systems that forge my own address as the "from" address...
+
+Include a random token with an expiration date with anything you send.  
+Valid whitelisting of From:you@here.net yet invalid random token would get 
+blocked.
+
+> Those spam messages would get through any whitelist I set up
+> (especially since I email stuff to myself all the time).  If
+> whitelists become more popular, I imagine spammers will resort to
+> doing that for the majority of their spams, making whitelists less
+> helpful.
+
+Spammers cannot be bothered to keep track if individual whitelists 
+associated with a given email address.
+ 
+> Plus, I'm still not sure how I feel about whitelists.  I don't think I'm so
+> special that people should need to fill out a special form just to send me
+
+Of course you populate your whitelist with contents of your inbox minus 
+spam, and then add manually stuff from your addressbook.
+
+> email.  I could see certain friends of mine getting fairly annoyed
+> (especially those with multiple email addresses...).
+
+What's the point of multiple email addresses? They're a pain.
+
+http://xent.com/mailman/listinfo/fork
+
+

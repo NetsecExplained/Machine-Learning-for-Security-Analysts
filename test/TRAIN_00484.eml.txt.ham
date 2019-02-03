@@ -1,0 +1,43 @@
+Re: How to remove oowriter delay on opening document?On 2010-04-19 13:11, Sthu Deus wrote:
+> Thank You for Your time and answer, Ron:
+> 
+>> What version is that?  v3.2 from Sid opens much faster than any 
+>> other version I've seen.
+> 
+> 3.2.0-4
+
+For me, that version performs much better than an other than the old 
+1.x ones.
+
+>> "Hang" has a specific meaning.
+>> Do you mean "seemingly does nothing"?
+> 
+> Correct, just hangs for a while (no any responses) then opens the document.
+> 
+>> Upgrade to v3.2; add more RAM; buy a faster CPU; learn C++ and join 
+>> the OOo development team.
+> 
+> Thank You for the wisdom - so I will do.
+
+Also, run top(1) sorting by (M)emory.  You'll almost definitely see 
+OOo grind up CPU and RAM.
+
+>> There use to be a "preloader", but I don't see it anymore.
+> 
+> ?
+> 
+
+There was a feature where GNOME or KDE would pre-load OOo at DE 
+startup.  That way, it *appears* that OOo loads much faster, even 
+though it was really just shifted.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCAB01.6050505@cox.net
+
+

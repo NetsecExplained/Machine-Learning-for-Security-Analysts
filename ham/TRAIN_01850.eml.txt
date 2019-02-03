@@ -1,0 +1,65 @@
+Re: Kde 3.5 ...-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Thursday 06 May 2010 it was so written:
+> So, let me ask the above question again: where is your code ?
+
+I was thinking about getting all obsequious and fawning at the High 
+Priests of Development, to verbally bow in thanks for the scraps of 
+code that we mere users are able to pick up off the ground after the 
+Priests have passed, but then I realized that there are lots of 
+people for whom English isn't a first language, and sarcasm doesn't 
+work in email very well anyway.
+
+What's left for a user to do? As Nate put it a moment ago, just move 
+on.
+
+> Are _you_ interested in doing it ?
+
+Backporting KDE4 applications to a KDE3 working environment is beyond 
+my skills. I can't even get Squeeze KDM to use a different background 
+as it is.
+
+> At that game, there are two types of players: those who rant and
+> contribute to fix the root of their rant (aka code) and those who
+> rant and do nothing.
+
+Going back to obsequious pandering is looking very tempting. Yes, us 
+mere users have nothing to contribute, since we don't write code.
+
+> We are all volunteers and among those volunteers, nobody is
+> interested in maintaining KDE 3.5 within Debian. I don't see this
+> as a problem; its just a fact.
+
+Indeed. And I assure you, that fact is not lost on anyone.
+
+> Ranting wont change the facts.
+
+Let them eat cake.
+
+> OdyX
+
+Curt-
+
+- - -- 
+Those who torment us for our own good will torment us without end,
+for they do so with the approval of their consciences.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iQEVAwUBS+LLAC9Y35yItIgBAQKlVwf/TpRme9P/nghvduVJ14Lao0+ejEA7Vdro
+AdkSgUIHkxYx1PzcW4qISXkC3VL1ZWz8ZZCxXn6o2Z/C/5582tif4A/tpaeISPfg
+lgC2RSNRLZIGOqo4t9iWWp8cCWbnPMP1GZaq/PRh6AaFDvk+bJ7KdP7Wg/JjK7xE
+iilXzb0S+gOYlacvJ6f28Nv9sQJMsLFcqlS4g6F3mKkAEKWERwI5Y36nCunJvdEw
+5/90K1ZWWAv7HMR7iaWmiX61pg6vOru7KewLw+0OesEbdPF28WhCpHqAZHHr4ep+
+wcP88A/uYa9s+wC/KhGuZ8V12Bfgm/ZL4K8WcTrXhoLXS6RbJhGYEA==
+=svYH
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060958.24930.Howland@priss.com
+
+

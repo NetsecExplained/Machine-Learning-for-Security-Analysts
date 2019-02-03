@@ -1,0 +1,18 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)On 2010-04-14 22:35, briand@aracnet.com wrote:
+[snip]
+> 
+>   r8169 requesting rtl8169-1.fw
+> 
+
+What package is that in?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC691B8.7090200@cox.net
+
+

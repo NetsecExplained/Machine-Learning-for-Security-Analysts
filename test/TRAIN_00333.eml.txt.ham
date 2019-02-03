@@ -1,0 +1,18 @@
+Re: automate updates in LennyFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat,10.Apr.10, 08:51:16, Clive McBarton wrote:
+=20
+> Certainly so. What I meant to ask is what to do if you (like the OP)
+> want automatic upgrades (downloaded and installed without the admin
+> present) but (unlike the OP) only use aptitude and never apt-get.
+
+It doesn't matter. Mixing apt-get and aptitude is not a problem anymore.
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

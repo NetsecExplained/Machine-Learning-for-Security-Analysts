@@ -1,0 +1,24 @@
+Re: RH 8 no DMA for DVD driveOn Mon, 7 Oct 2002 19:28:51 +0200
+Matthias Saou  wrote:
+
+# I've never heard of any CD-ROM or DVD-ROM drive having problems with
+# DMA... although there probably is since Red Hat decided to default
+# disabling it a few releases back :-/
+
+When I worked as a PC repair tech for a Computer store chain, I did
+run across quite a few DVD drives that would lock up if DMA was
+enabled.  It's more of a chipset/drive problem than a Drive by itself.
+
+-- 
+Jesse Keating
+j2Solutions.net
+Mondo DevTeam (www.mondorescue.org)
+
+Was I helpful?  Let others know:
+ http://svcs.affero.net/rm.php?r=jkeating
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,26 @@
+Re: FAQ: taint warnings from SA in /etc/procmailrcFrom nobody Sun Sep 18 20:45:27 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed, Aug 28, 2002 at 12:14:24AM +0100, Justin Mason wrote:
+> actually, I think procmail supports this directly. use DROPPRIVS=3Dyes
+> at the top of the /etc/procmailrc.
+
+Hey, look at that!
+
+       DROPPRIVS   If  set  to	`yes'  procmail  will drop all privileges
+		   it might have had (suid or sgid).  This is only
+		   useful if you want to guarantee that the bottom half
+		   of  the /etc/procmailrc file is executed on behalf
+		   of the recipient.
+
+Of course, removing setuid/gid bits on programs that don't need it is
+always a good idea.  A general rule of system administration: don't give
+out permissions unless you absolutely need to.   ;)
+
+--=20
+Randomly Generated Tagline:
+"The cardinal rule at our school is simple. No shooting at teachers. If
+ you have to shoot a gun, shoot it at a student or an administrator."
+                 - "Word Smart II", from Princeton Review Pub.

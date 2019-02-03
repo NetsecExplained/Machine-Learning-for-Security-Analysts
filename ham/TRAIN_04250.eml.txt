@@ -1,0 +1,49 @@
+Re: Battery monitor tools?Am Dienstag, den 20.04.2010, 12:33 +0200 schrieb Jonas Andradas:
+Hi Jonas et al, 
+> 
+> In my humble opinion, this statement holds true if you keep the
+> "original" Windows that came with your laptop.  
+
+...i'm not using my originally Windows Software which was preinstalled on
+my laptop. I bought it seperately but it's also Software originally
+belonging to a laptop but a different model than my own. 
+
+Maybe this might play a role, but i'm far away from being an expert in
+this items.
+
+One can read on some Linux websites which deal with this energy saving
+problem, that it makes no sense anyway to change, for example, your cpu
+state in order to save battery power, i.e. that it is useless to choose
+the mode "powersave" or "conservative"  for saving power. On the other
+side. it is likewise useless to choose the mode "performance" to tune
+your cpu efficiency.
+
+For me this makes sense. Modern cpu's are flexible enough to quickly
+change between "low" and "performance" if needed. Modern notebook hdd's
+are likewise already optimized for energy saving modes. 
+
+But something must be different between windows and linux. Using my
+windows there is indeed a different if i would set the power management
+to "performance" or to "powersave". This makes nearly an hour or a half
+difference in battery lifetime of my multiboot laptop! Of course this
+drepends on what you do, but the difference is obvious.
+
+Using my Debian i seldom reach a larger time span as if using windows in
+"performance" mode, in spite of it is so "quiet" when working with it or
+when idle, and windows always is so "restless" as if always something
+happens on the disk, some processes are running etc.
+
+Maybe this after all has something to do with the different kernels? 
+
+Greetings Dirk 
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271769864.30038.54.camel@linux-d59.Netz
+
+

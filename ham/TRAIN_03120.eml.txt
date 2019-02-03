@@ -1,0 +1,12 @@
+MacNet Journal reports that OmniOutliner will support OPML soon.
+    That's verURL: http://scriptingnews.userland.com/backissues/2002/09/24#When:10:02:01AM
+Date: Tue, 24 Sep 2002 17:02:01 GMT
+
+MacNet Journal reports[1] that OmniOutliner will support OPML[2] soon. That's 
+very good news[3] indeed. 
+
+[1] http://www.whiterabbits.com/MacNetJournal/2002/09/23.html#a2282
+[2] http://www.opml.org/
+[3] http://www.omnigroup.com/mailman/archive/omnioutliner-users/2002-September/000402.html
+
+

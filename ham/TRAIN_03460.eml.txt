@@ -1,0 +1,31 @@
+Re: [Razor-users] report and revoke the same messageOn Fri, Aug 09, 2002 at 12:27:25AM -0500, Steve Price wrote:
+> Maybe I'm the only one confused but what you are saying is that you
+> have a spamtrap that receives Bugtraq messages and you are auto-
+> matically reporting them as SPAM only to revoke them shortly there-
+> after???  Either way automatic reporting is a Bad Thing (tm) IMHO.
+
+To be more precise, automatic reporting is a Good Thing only if there's
+/zero/ possibility of reporting positives falsely (or as close to zero
+as makes no difference in the end).
+
+cmeclax's example (which incidentally points out a major vulnerability
+of auto-reporting trollboxes) basically says "I'll blindly report as
+spam whatever some other user(s) have reported as spam".  That "blindly"
+part undermines the very purpose of Razor, so I too hope that:
+
+> if that's what you are doing that it negatively impacts your rating
+> at a near exponential rate with every report/revoke cycle.
+
+- Adrian
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

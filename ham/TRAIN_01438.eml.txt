@@ -1,0 +1,23 @@
+Re: [TexLive] This math formula work a few month a go, but  nowadays
+ it didn't work anymoreYou seem to have configuration files of older texlive packages on your
+system (marked with "rc" in your dpkg output).
+
+So try to get rid of them and, may be, update your
+texlive-installation'. With aptitude the commands are
+
+aptitude purge ~c            # this removes all old configuration files
+
+aptitude update
+aptitude install ~Utexlive   # update of all texlive packages
+
+-- 
+Regards,
+Jörg-Volker.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hre6lt$495$1@dough.gmane.org
+
+

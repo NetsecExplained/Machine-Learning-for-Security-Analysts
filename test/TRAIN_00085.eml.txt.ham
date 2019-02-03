@@ -1,0 +1,29 @@
+Re: rpm-zzzlist@freshrpms.netOnce upon a time, dTd wrote :
+
+> 
+> Thanks for the great work Mathias but I would like to point out that this
+> list is fastly become the apt-rpm-list instead of the rpm-list. The
+> discussion concerning apt is overwhelming. Maybe another list is in order
+> for those having trouble with apt-rpm. apt-rpm-hotline@freshrpms.net ? :)
+> 
+> Though I think apt-rpm is a great tool, I don't use it and would like to
+> get back to talk of new packages and rpm building techniques.
+
+Hmmm, know what? On http://lists.freshrpms.net/ the apt-list has been up
+for a while now ;-) There is almost no traffic though, since I wanted to
+keep that list for apt-rpm on the server side (mirrors, building
+repositories etc.), but hey, it could be a good place for general apt-rpm
+questions ;-)
+
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

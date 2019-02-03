@@ -1,0 +1,15 @@
+Looks like Google did a deal to index the NY Times. If you do
+    this news seaURL: http://scriptingnews.userland.com/backissues/2002/09/24#When:8:53:42AM
+Date: Tue, 24 Sep 2002 15:53:42 GMT
+
+Looks like Google did a deal to index the NY Times. If you do this news search
+[1], and mouse over the link, you'll see there's a partner attribute on the 
+URL, like the ones in our links[2]. What are the implications of this? Here's 
+one. Martin Nisenholtz may now have a _chance_ of winning his bet[3] with me. 
+";->"
+
+[1] http://news.google.com/news?hl=en&q;=%22new+york+times%22+blog
+[2] http://www.nytimes.com/2002/09/24/technology/24GOOG.html?ex=1033444800&en;=0557fe246dd68b12&ei;=5007&partner;=USERLAND
+[3] http://www.google.com/search?hl=en&lr;=&ie;=UTF-8&oe;=UTF-8&safe;=off&q;=nisenholtz+winer&btnG;=Google+Search
+
+

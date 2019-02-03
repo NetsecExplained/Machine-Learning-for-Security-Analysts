@@ -1,0 +1,30 @@
+Re: Re (6): xorg-server failing on IBM NetVista with Intel 82815
+ videoOn Fri, 21 May 2010 14:55:52 -0400 (EDT), Peter Easthope wrote:
+> Stephen Powell wrote:
+>> If you need
+>> instructions for how to pull in the Sid kernel without upgrading
+>> your whole system ...
+> 
+> As far as I know this line should be appended to /etc/apt/sources.list
+> deb     http://debian.oregonstate.edu/debian/ sid main
+> and then update and upgrade.
+
+Not unless you want to upgrade your entire system to Sid.  To install
+only certain cherry-picked applications from Sid, you have to use
+apt pinning.  And don't use synaptic.  (But since you don't have X
+running, you can't use synaptic.  Yet.  But once you get it running,
+don't use synaptic.  I've heard that it does not respect apt pinning.)
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1018134636.325971.1274469195306.JavaMail.root@md01.wow.synacor.com
+
+

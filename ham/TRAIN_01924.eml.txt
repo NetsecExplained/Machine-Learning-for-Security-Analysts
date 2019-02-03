@@ -1,0 +1,58 @@
+Re: KDE 4.4.3 upgrade eats 141 MB of /homeOn Wed, May 12, 2010 at 10:48:43AM +0200, Richard Hartmann wrote:
+
+> > - Disable "kres-migrator".  Or at least add a debconf option to
+> >  kdepim-runtime presenting the option of running kres-migrator by default
+> >  or disabling it.
+> 
+> Did you do any research as to what the longer-term implications
+> of foregoing this might be? I am not saying there are any, I
+> honestly don't know.
+
+There shouldn't be any long-term implications as long as the old KResource
+code still exists.  I'm assuming it's being deprecated as of KDE 4.4, but
+I'd be surprised if it's removed in KDE 4.5, especially since delaying
+migration is an official recommendation.
+
+Once the DB mess is sorted out (KDE 4.5?), one can manually migrate the
+data by running "kres-migrator".  I actually did this accidentally.  The
+migrator _might_ also run if we remove the configuration bit, but I've not
+tried.
+
+> > - Add a warning dialog during kdepim-runtime upgrade stating that
+> >  kres-migrator will run by default and potentially consume a large amount
+> >  of per-user disk space, unless migration is manually disabled by the
+> >  above command.
+> 
+> Personally, I would like to see such a warning, but I am not sure if
+> that is acceptable by Debian's standards. apt-listchanges exists for
+> a reason.
+
+It extends beyond just a change in package behavior, it's a non-reversible
+and potentially aggravating alteration to user data.  I've seen similar
+warnings before, most recently to rebuild OpenOffice.org .rdb files due to
+possible corruption.
+
+> > - Reduce the default size of the InnoDB transaction logs in the Akonadi
+> >  per-user MySQL configuration.
+> 
+> Seems like the best bet to me. If need be, the file size could be adapted
+> automagically. But that functionality would be in 4.5 at the earliest unless
+> it's patched downstream.
+
+Forgot to mention before, apparently there's an Innodb_log_waits counter
+that increments when you have write bursts that exceed the REDO log size.
+It can be used for feedback to increase the log size if needed.  Perhaps
+something to suggest manually doing in NEWS.
+
+> Also, what about /root?
+
+Should have same problem, if one runs a KDE desktop as root, which I do
+not.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100512174253.GA17540@club.cc.cmu.edu
+
+

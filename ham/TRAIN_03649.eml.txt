@@ -1,0 +1,39 @@
+Re: PDF is blocked for printing, etc. OK for acroread (it behaves
+ as expected), but KPDF allows me to print it, even if it is protected!
+ Why?On Wed, Apr 21 at 15:04, Stefan Monnier penned:
+> 
+> Now think about the other route: the one based on the law instead of
+> technology: the legal document can simply describe what she's
+> allowed to do, and that will automatically cover all imaginable ways
+> to circumvent any technological means you could imagine.  And if she
+> does break the contract, you can sue her.  Don't know about you, but
+> to me, it sounds a lot more useful.
+
+Except that most technical people would probably rather hammer a nail
+through their forehead than go through the pain of suing someone and
+dealing with the legal system, the paper work, the time involved ...
+
+So looking for a technical solution, even one that requires an
+enormous amount of development time, makes sense.  Maybe the
+development time is actually a bonus, if you're interested in that
+sort of tinkering already.
+
+All of that being said - this entire thread is really a question of
+security, and security is a process and an approach, not an end result.
+There is no such thing as a 100% secure system that is also useful, in
+the same way that there is no such thing as a 100% secure PDF that is
+also useful.  So the real goal is to make the document "secure enough"
+for one's purposes, while also making the document "usable enough" for
+those purposes.  I think there have been a lot of good ideas on this
+thread for managing that trade-off.
+
+-- 
+monique
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100421193947.GO30298@mail.bounceswoosh.org
+
+

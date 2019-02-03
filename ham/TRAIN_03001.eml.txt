@@ -1,0 +1,17 @@
+Re: non-ASCII environmentJerome BENOIT writes:
+> Nevertheless, something bothers me: where non-ASCII environment can be
+> found ?  Furthermore, can such an environment be created on a Debian
+> box ?  The aim is to check the portability of my code.
+
+Look at the Hercules System/370, ESA/390 and z/Architecture Emulator.  I
+believe that it can use EBCDIC.
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/874ojkecr0.fsf@thumper.dhh.gt.org
+
+

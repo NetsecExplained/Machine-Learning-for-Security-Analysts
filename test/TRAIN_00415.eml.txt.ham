@@ -1,0 +1,33 @@
+Re: X11 just froze, and /var/log/syslog (dmesg)'s output seems to
+ mean somethingOn Tue, 18 May 2010 18:08:24 +0200, Merciadri Luca wrote:
+
+> I realized that my computer (this one, Debian Lenny, w. k.
+> 2.6.26-2-686-bigmem) was frozen. I tried escaping from the screensaver,
+> but nothing worked, except launching another tty, and restarting gdm.
+> Here is the interesting output I obtained by looking at /var/log/syslog
+> and dmesg:
+> 
+> ==
+> [24892.623421] atkbd.c: Unknown key pressed (translated set 2, code 0xbb
+> on isa0060/serio0).
+
+(...)
+
+That seems to be unrelated with a X freeze. Looks like a keyboard key 
+mapping error but nothing serious.
+
+Just review your "/var/log/Xorg.0.log". If X crashed there must something 
+there :-?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.18.17.20.50@csmining.org
+
+

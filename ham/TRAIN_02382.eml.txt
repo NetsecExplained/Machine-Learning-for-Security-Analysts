@@ -1,0 +1,30 @@
+Re: The case for spam
+me:
+> >Spam is *the* tool for dissident news, since the fact that it's unsolicited 
+> >means that recipients can't be blamed for being on a mailing list.
+> 
+
+Russell Turpin:
+> That depends on how the list is collected, or
+> even on what the senders say about how the list
+> is collected. Better to just put it on a website,
+> and that way it can be surfed anonymously. AND
+> it doesn't clutter my inbox.
+
+It doesn't work that way.  A website is opt-in, spam is no-opt.  If you
+visit a samizdat site you can get in trouble.  If you get samizdat spam,
+the worst that can be said is that you might have read it.  And as long as
+the mailers send to individuals who clearly didn't opt-in, like party
+officials, then other recipients can't get in trouble for requesting the
+mail.  
+
+Plus, it's much harder to block spam than web sites.
+
+But this shouldn't come as a surprize.  Spam is speech.  It may be sleazy, 
+but so what.
+
+- Lucas
+
+
+http://xent.com/mailman/listinfo/fork
+

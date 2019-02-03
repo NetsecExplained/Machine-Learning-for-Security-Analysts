@@ -1,0 +1,44 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)Ron Johnson wrote:
+> On 2010-04-14 21:58, Stan Hoeppner wrote:
+>> Ron Johnson put forth on 4/14/2010 8:28 AM:
+>>> On 2010-04-13 22:50, Stan Hoeppner wrote:
+>>>> Hugo Vanwoerkom put forth on 4/13/2010 3:53 PM:
+>>> [snip]
+>>>> Either way, avoid onboard RealTek ethernet as it's not currently
+>>>> supported
+>>>> well by Debian.  One might be able to make it work, but the process
+>>>> requires
+>>>> some serious hoop jumping.
+> 
+<-- SNIP -->
+
+>> AFAIK, for those who roll their own kernels from kernel.org source, 
+>> there's
+>> no problem with RTL chips if you compile all blobs into the kernel.  For
+>> those using stock Debian kernels, RTL chips have been a problem, and 
+>> may yet
+>> be again.
+>>
+> 
+> Maybe if I ever get .32 or .33 I'll squeal in anger.  Until then...
+> 
+
+  ~$ lspci |grep Real
+  04:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. 
+RTL8111/8168B PCI Express Gigabit Ethernet controller (rev 03)
+  [1]+  Done                    play 
+/usr/local/sounds/identification.wav > /dev/null 2>&1
+
+
+Running fine here since 2.6.26 and currently on 2.6.32-4-amd64. Stock
+kernel images on testing.
+
+Wayne
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC7134A.500@csmining.org
+
+

@@ -1,0 +1,29 @@
+strange issue after upgrading to latest 10.6.3Hi folks,
+
+I *think* this happened after upgrading to 10.6.3, but I also recall
+there was a security patch, I apologize because I was sort of
+absentmindedly updating myself which I hadn't done in a while.  So...er,
+not exactly sure what the cause is.  But, the issue is this:
+
+When I'm using X11/XQuartz (I've just tried the default xterm as well as
+rxvt I installed via macports), what seems to happen is that I can open
+a terminal and use it for a little while, but if I leave x11, that is if
+it looses focus, and then I come back, I can no longer switch between
+windows, enter anything with the keyboard, click and select windows with
+my mouse, etc.  All input to x11 seems to be dead.  I have to kill it
+and then restart it again to get it to work at all, and then the same
+thing happens.  I've tried reinstalling it but that hasn't helped.
+
+Does this behavior ring a bell to anyone?  Any help would be greatly
+appreciated, I live in rxvt and don't like using Terminal.app very much!
+
+Thanks--
+
+Dave
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

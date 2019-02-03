@@ -1,0 +1,38 @@
+Re: How to keep debian current??On Tue, 2010-05-18 at 20:30 +0300, Andrei Popescu wrote:
+> On Wed,19.May.10, 00:34:02, Osamu Aoki wrote:
+> >=20
+> > New:
+> > If "sid" is used in the above example instead of "lenny", the "deb:
+> > http://security.debian.org/ =E2=80=A6" line for security updates in the
+> > "/etc/apt/sources.list" is not required. This is because "sid"
+> > (unstable) is always updated whenever security issues are fixed.  There
+> > is no need to have a separate security update archive for "sid".
+>=20
+> May I suggest:
+> ---
+> If "sid" is used in the above example instead of "lenny", the "deb:
+> http://security.debian.org/ =E2=80=A6" line for security updates in the
+> "/etc/apt/sources.list" is not required as there is no need to have a=20
+> separate security update archive for "sid". This is because "sid"
+> (unstable) is *usually* updated whenever security issues are fixed for=20
+> stable.
+>=20
+> However, it can happen that the fixes are not applied immediately (e.g. =20
+> the maintainer is waiting for a new version from upstream which fixes=20
+> the issue) or issues exist which do not affect the version in stable or=20
+> testing, in which case Debian will not even issue a DSA.
+> ---
+> (DSA might need expanding/explaining if not already done in some other=20
+> paragraph)
+I thought John Hasler's response was very good. It explained why I was
+confused - there are security updates but they are not the same type of
+updates as testing and stable receive.  Perhaps John's wording should be
+included; it clarified a very murky issue for me - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1274204951.20211.18.camel@Family.pacifera.com
+
+

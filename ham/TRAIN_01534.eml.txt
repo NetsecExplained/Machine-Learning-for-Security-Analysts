@@ -1,0 +1,31 @@
+Re: [Razor-users] Authentication ErrorOn Wed, 24 Jul 2002, rODbegbie wrote:
+
+> rODbegbie wrote:
+> > I get the impression that Vipul & co are deliberately trying to
+> > mislead users into downloading the dev code in order to get more
+> > unwitting test sites.
+>
+> Apologies to all.  In re-reading, that sentence sounds a lot harsher than I
+> intended.
+
+The question I have is: what needs to be done/help needs to be provided to
+make the system suck less? It's obviously a great idea, it just needs some
+work...
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+                               Patrick Greenwell
+         Asking the wrong questions is the leading cause of wrong answers
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

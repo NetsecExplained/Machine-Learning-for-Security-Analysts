@@ -1,0 +1,68 @@
+RE: [ILUG] hard- vs. soft-links [was: How to copy some files ]Use the GUI and don't delete files, use the other option, whats it called
+again, the dustbin or something ;-)
+
+Conor who only knows about symbolic links ;-))
+
+I'm pretty sure that I have a softlink from
+/mnt/public/mnt/public/downloads/Linux/wasteCPU/setiathome to
+/home/cwynne/seti
+
+The /mnt/pub....../seti.. directory resides on an external raidvolume and
+/home/../seti is on the internal IDE2 drive. 
+So I dont have to cd around the gaf. I suppose that would count as across
+different devices. 
+
+If you're wondering [probably not] why /mnt/public is there twice, its
+because I restored from tapebackup and I didn't know that it keeps the
+directory structure. I know now ;-)
+
+Actually, how can I fix that quickly and easily? I thought about firstly
+mv'ing the structure to /tmp. Then copying it back again but I'm sure some
+wee genius knows a quickie solution. Mind you I never even bothered trying a
+its not a priority now that its all linked anyway. 
+
+CW
+
+--------------------------------
+ hum.  interesting variation on the classic technique of
+ redefining `rm' to `mv' the files into `./.trash/' (or
+ with a prefix of `#' or a suffix of `~'; the variations
+ are endless).  these classic techniques only provide a
+ means to roll back accidental `rm's, so there is still
+ considerable scope for data lost as there are other ways
+ of deleting files --- which is not a problem for this
+ hard link idea.
+
+ but, like the classic techniques, there is no rolling
+ back of accidental overwrites.
+
+ ( rolling back overwrites reminds me of the "snapshot"
+  facility on NetWork Appliance fileservers.  and of the
+  various "versioning" filesystems which appeared --- and
+  then vanished? --- over the years.... )
+
+ one severe(?) gotcha is some files shouldn't have any
+ hard links.  both RCS *,v (and hence CVS) and SCCS s.*
+ files are like this --- the RCS(/CVS?)/SCCS toolsets
+ complain if there are hard links.
+
+cheers,
+	-blf-
+--
+ Innovative, very experienced, Unix and      | Brian Foster    Dublin,
+Ireland
+ Chorus (embedded RTOS) kernel internals     | e-mail: blf@utvinternet.ie
+ expert looking for a new position ...       | mobile: (+353 or 0)86 854
+9268
+  For a résumé, contact me, or see my website  http://www.blf.utvinternet.ie
+
+    Stop E$$o (ExxonMobile):  «Whatever you do, don't buy Esso --- they
+     don't give a damn about global warming.»    http://www.stopesso.com
+     Supported by Greenpeace, Friends of the Earth, and numerous others...
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

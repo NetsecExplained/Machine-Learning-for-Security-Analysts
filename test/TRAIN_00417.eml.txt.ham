@@ -1,0 +1,23 @@
+Re: Limbo beta 2 ?On Mon, Aug 12, 2002 at 11:06:18PM +0000,  Angles  Puglisi wrote:
+> Michel Alexandre Salim (salimma1@yahoo.co.uk) wrote*:
+> Limbo beta2 ? I'm running Limbo 7.3.92 with kernel 4.2.18-5.58, is what I am running
+> an "older" version of the Limbo beta, it is it "the" limbo beta?
+
+The current version of the Limbo beta is 7.3.93 (yeah, they should
+have renamed it, but they didn't). It's in the same
+redhat/linux/beta/limbo directory on the ftp servers. Just check the
+redhat-release package to find out which version is on the server. 
+Looking at ftp.redhat.com, the current one is redhat-release-7.3.93-2.
+
+If you're using GNOME2 from the beta, I'd upgrade as there were some
+important bugfixes since the first beta. The only thing to watch out
+for is that Limbo2 switched gcc to 3.2, which is once again
+incompatible with the previous gcc (v3.1 shipped in Limbo1).
+
+gary
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

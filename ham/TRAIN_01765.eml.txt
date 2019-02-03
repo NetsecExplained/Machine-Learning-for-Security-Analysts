@@ -1,0 +1,22 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Boyd Stephen Smith Jr.:
+> On Thursday 06 May 2010 04:59:35 Martin Steigerwald wrote:
+> > Am Donnerstag 06 Mai 2010 schrieb Boyd Stephen Smith Jr.:
+> > > Heck, just stop kmail from migrating.  Korganizer and KAddressBook
+> > > have  required Akonadi since 4.2 or earlier.
+> >=20
+> > Again, AFAIK, kmail does not use Akonadi in KDE 4.4.
+>=20
+> Have you installed and tried it?  I have.  It does require Akonadi in
+> KDE 4.4.3.
+
+Again, no. KAddressBook does. And KMail uses KAddressBook for address=20
+completion.
+
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

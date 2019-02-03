@@ -1,0 +1,213 @@
+[SPAM]  Video problems
+
+Update: High Quality, Low Cost
+
+
+<!--
+body {
+margin: 0px;
+}
+body,
+p,
+td {
+font: normal 12px Arial, Helvetica, sans-serif;
+color: #000000;
+}
+p {
+margin: 0 0 10px 0;
+
+}
+h6 {
+padding-bottom: 4px;
+}
+ul, ol {
+margin: 0px;
+padding: 0px;
+}
+rightCol p {
+margin: 0 0 5px 0;
+}
+rightCol,
+rightCol a,
+rightCol p,
+rightCol td {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+rightCol .adRight {
+border: none;
+}
+adRight a {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 13px;
+color: #006699;
+}
+
+a {
+color: #006699;
+font-weight: normal;
+text-decoration: none;
+}
+adSection a, .adArticle a, .adTop a {
+color: #006699;
+font-weight: bold;
+text-decoration: none;
+font-size: 14px;
+}
+a:hover {
+text-decoration: underline;
+}
+
+
+/* most TOC styles inline */
+toc li a:hover {
+text-decoration: underline;
+color: #FFFFFF;
+}
+
+/* Headline styles are inline*/
+
+p.article,
+p.more {
+margin-right: 15px;
+}
+more a {
+color: #0099CC;
+}
+
+safesenders td {
+color: #000000;
+font-size: 12px;
+}
+safesenders td a {
+text-decoration: none;
+}
+safesenders td a:hover {
+text-decoration: underline;
+}
+sponsored li {
+margin-left: 15px;
+padding-left: 5px;
+border-bottom: 1px solid #E0E0E0;
+line-height: 16px;
+}
+sponsored a {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+}
+
+a img {
+border: none;
+}
+rightCol p {
+padding-bottom: 10px;
+}
+
+options a {
+font-size: 11px;
+color: #FFFFFF;
+font-weight: bold;
+}
+footer td,
+footer p,
+footer {
+font-size: 12px;
+}
+footer a {
+font-weight: normal;
+}
+footer p {
+margin: 0 0 10px 0;
+}
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+			 
+
+
+
+In the October 1, 2009 Issue:
+
+
+
+
+
+
+
+News
+
+
+
+
+
+
+
+
+									READ THE FULL ARTICLE
+
+
+
+
+
+
+
+
+
+
+Subscribe  |  Change email address  |  Online Version  |  Mobile Version
+
+
+
+
+
+
+
+ABOUT OUR NEWSLETTER
+To unsubscribe 
+					click here.
+ 
+ To subscribe, visit our e-newsletter subscription center at
+
+this link
+
+ Read the 
+Penton Media Privacy Policy. 
+Penton Media | 249 W. 17th Street | New York, NY 10011
+
+Copyright 2009, Penton Media. All rights reserved. This article is protected by
+United States copyright and other intellectual property laws and may not be
+reproduced, rewritten, distributed, re-disseminated, transmitted, displayed,
+published or broadcast, directly or indirectly, in any medium without the prior
+written permission of Penton Media.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+Re: Trunk version of linux-image ISSUEIn <1271511450.21791.6.camel@brutus>, JW Foster wrote:
+>I', sent this previously but so far no reply. Can anyone tell me how to
+>get rid of this issue. I did an update & the trunk version of
+>linux-image was installed as the upgraded version. A few weeks later I
+>tried to install the newer regular version & after a few attempts it
+>finally installed & grub configured it. However it is not properly
+>configured according to the installer as it keeps trying to configure
+>the non-trunk version every time I do an update. Now I've been able to
+>select the non-trunk version & have my system running it, even though
+>it's not properly configured. I tried to then remove the trunk ver. &
+>this is the error message I get.
+[...]
+>Examining /etc/kernel/postrm.d .
+>run-parts: executing /etc/kernel/postrm.d/extlinux
+>2.6.32-trunk-686 /boot/vmlinuz-2.6.32-trunk-686
+>run-parts: /etc/kernel/postrm.d/extlinux exited with return code 1
+[...]
+>A package failed to install.  Trying to recover:
+[...]
+>Examining /etc/kernel/postinst.d.
+>run-parts: executing /etc/kernel/postinst.d/extlinux
+>2.6.32-3-686 /boot/vmlinuz-2.6.32-3-686
+>run-parts: /etc/kernel/postinst.d/extlinux exited with return code 1
+[...]
+
+I don't have any /etc/kernel/postrm.d/extlinux or 
+/etc/kernel/postinst.d/extlinux, so I don't know what they do, but yours are 
+evidently broken.
+
+If they are scripts you wrote, fix them.
+
+If they are from a Debian package, it might be appropriate to file a bug 
+against that package.
+-- 
+Boyd Stephen Smith Jr.                   ,= ,-_-. =.
+bss@iguanasuicide.net                   ((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy         `-'(. .)`-'
+http://iguanasuicide.net/                    \_/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004171022.07395.bss@iguanasuicide.net
+
+

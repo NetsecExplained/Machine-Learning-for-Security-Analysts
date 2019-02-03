@@ -1,0 +1,13 @@
+[ILUG] linux based IVRJust wondering if anyone has implemented one before, and any suggestions 
+etc.
+
+Yes i am googling, but would like some experienced opinion if available ;)
+
+Gavin
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

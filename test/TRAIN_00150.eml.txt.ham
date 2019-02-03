@@ -1,0 +1,17 @@
+Automated Installation - Copy files from CD?Greetings all-
+
+I need to modify a product based on Debian. It installs from a CD and uses the Debian installer system. Since this product does not contain the proper driver for some of my hardware, I need a way to have the installer copy some files from the CD (which I'll add to the master ISO) to the appropriate locations on the installation target. I've been through the preseed documentation and cannot seem to find it there.
+
+Any tips/pointers/etc?
+
+Thanks!
+
+--Tim
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/30407954.92.1272995170409.JavaMail.root@mail
+
+

@@ -1,0 +1,28 @@
+Re: whoa>>>>> "J" == James Rogers  writes:
+
+    J> ...  They aren't selling the software, which is pretty pricy as
+    J> it happens.  They are using it to optimize next generation
+    J> wireless canopies over metro areas and fiber networks on a
+    J> large scale.  There are an essentially infinite number of metro
+    J> wireless configurations, some of which generate far more dead
+    J> or marginal spots and others which are very expensive to
+    J> operate (due to backhaul transit considerations) or both.  This
+    J> software can be used as a tool to optimize the canopy coverage
+    J> and minimize the actual transit costs since the wireless is
+    J> tied into fiber at multiple points.
+
+So you only need to map a handful of metropolitan areas?
+
+    J> Or at least investors find this capability very sexy and
+    J> compelling
+
+Ah ... now /that/ I will believe :)
+
+Don't mind me; I'm just getting even more cynical in my old age.   
+
+-- 
+Gary Lawrence Murphy  TeleDynamics Communications Inc
+ Business Advantage through Community Software : http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+

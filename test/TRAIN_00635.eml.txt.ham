@@ -1,0 +1,29 @@
+Re: Filesystem recommendationsMike Castle put forth on 4/25/2010 10:29 AM:
+> On Sat, Apr 24, 2010 at 10:53 AM, B. Alexander  wrote:
+>> Does anyone have suggestions and practical experience with the pros and cons
+>> of the various filesystems?
+> 
+> Google is switching (has switched by now?) all of it's servers over to
+> ext4.  A web search will turn up more details on the subject.  But
+> they are mostly lots of big files.
+
+If it weren't for the live migration requirement, I read this to say that
+Google would be using XFS due to its superior performance:
+
+"In a mailing list post, Google engineer Michael Rubin provided more insight
+into the decision-making process that led the company to adopt Ext4. The
+filesystem offered significant performance advantages over Ext2 _and nearly
+rivaled the high-performance XFS filesystem_ during the company's tests.
+Ext4 was ultimately chosen over XFS because it would allow Google to do a
+live in-place upgrade of its existing Ext2 filesystems."
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD54389.1030604@hardwarefreak.com
+
+

@@ -1,0 +1,46 @@
+Re: KDE unable to play complete K3B .wav files* On 2010 08 May 09:10 -0500, Diederik de Haas wrote:
+> On 2010-05-08 Nate Bargmann wrote:
+> > In System Settings configure notification (also from the same menu in
+> > configure K3B) only the first note is played.
+> 
+> Tried it from K3b and I can confirm your findings
+>  
+> > In Dolphin clicking on k3b_success1.wav launches gnome-mplayer and the
+> > entire file is played.
+> 
+> Same here, although I've played it with both Amarok as smplayer
+>  
+> > Also in Dolphin with k3b_success1.wav highlighted clicking the play
+> > button in the far right hand pane plays the first three notes.
+> 
+> Same here.
+> 
+> > Here is an oddity I've noticed
+> 
+> It sure is odd.
+
+Thanks for the confirmation, Diederik.  I wonder which package to file a
+bug report against?  The k3b package may in fact be easiest to request
+that the sound files be packaged in .ogg format, but that only masks
+that fact that something in the KDE sound stack is having an issue with
+.wav files.
+
+My system is configured to use the Phonon Xine Backend in Sound and Video 
+Configuration.  Could that be the culprit and how can we test?
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100509023401.GB7341@n0nb.us
+
+

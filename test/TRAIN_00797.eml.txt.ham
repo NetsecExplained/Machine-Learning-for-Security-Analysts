@@ -1,0 +1,31 @@
+Re: lilo removal in squeeze (or, "please test grub2")On Sun, 23 May 2010 16:11:30 -0400 (EDT), William Pitcock wrote:
+> "Stephen Powell"  wrote:
+>> (blah blah blah blah)
+>
+> Nobody cares if you are opposed to it.  Unless you are offering to become
+> lilo upstream, it's going away.
+> 
+> William
+
+I do understand why a Debian package maintainer does not wish to become
+"upstream".  And I hope that someone who is both willing and able to do
+so steps up to the plate.  But withdrawing it from the distribution seems
+like overkill to me, especially since you want to withdraw it from Squeeze
+and not Squeeze+1.  Lilo, as it exists today, works just fine for my
+purposes.  And apparently it works just fine for a lot of other people too.
+
+The Lord bless you, William.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1170680188.363342.1274662130640.JavaMail.root@md01.wow.synacor.com
+
+

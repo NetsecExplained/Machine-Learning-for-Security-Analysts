@@ -1,0 +1,95 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)Ron Johnson put forth on 4/14/2010 10:14 PM:
+
+> Nothing I've seen in dmesg has ever led me to think that the r8169
+> driver in my Sid linux-source-2.6.31 kernel (yes, it's old; .32 and 33
+> fail to build) loads a blob.
+
+Almost all NICs load firmware blobs.  It's in dmesg somewhere.  When the
+firmware doesn't load you get something like this in dmesg:
+
+eth1: RTL8168d/8111d at 0xffffc90000c4e000,xx:xx:xx:xx:xx:xx, XID 083000c0
+IRQ 32
+eth1: unable to apply firmware patch
+
+That's a paste from one of the OPs here who was bitten by the 2.6.32-trunk
+upgrade which IIRC is the one that ripped out the RTL firmware blob.
+
+I can't find via Google a dmesg snippet of a successful RTL firmware load.
+Here's what it looks like for Intel 8255X using the e100 driver, with the
+firmware blobs all compiled into the kernel:
+
+e100 0000:00:0d.0: firmware: using built-in firmware e100/d101m_ucode.bin
+
+"built-in" signifies that the firmware blob has been included in the kernel
+at compile time.  I do this to avoid issues such as this RTL problem.  It
+only adds a couple hundred K to the kernel image.  And I use the vanilla
+kernel.org sources to avoid any Debian "non-free" issues.
+
+Just about every NIC on the planet uses a firmware blob.  There are, IIRC, 3
+ways to load the device firmware into the Linux kernel.  This applies to all
+devices that require soft firmware, not just NICs:
+
+1.  Compile all device firmware blobs into the kernel
+2.  Compile the individual blob into the driver, use initrd
+3.  Put firmware file in root filesystem, tell kernel the path
+
+#3 won't work with drivers that are needed during the boot process such as
+block device drivers.  Those require method 1 or 2.  NICs should be able to
+use 1-3.
+
+There are 3 different dmesg statements and 3 different errors depending on
+which method 1-3 above that you're using.
+
+>> At least a couple of people on this list went out and bought
+>> non-RealTek PCI
+>> NICs to fix the problem instead of reverting to the older kernel.
+> 
+> I sort of remember that.
+
+Yeah, I just pulled the mails.  One upgraded to 2.6.32-trunk on his
+firewall, bricking it until he disabled the onboard RTL and installed an
+Intel e100 IIRC.  They thought it was a udev issue til I noticed the
+firmware load failure message referenced up above in this email.  The other
+had an RTL wireless that failed for the same reason.  I can't recall how
+they fixed that one.  IIRC the OP didn't swap hardware to achieve the fix,
+so they did something with the kernel/driver/firmware.
+
+> I'm not surprised.  Since I'm only connected to a small 100Mbps LAN
+> which then connects to a 12Mbps cable modem, it doesn't really affect me.
+
+Do some FTP or SCP tests back and forth to another LAN machine and see what
+transfers rates you get out of that RTL chip.  I bet you get 1/3rd wire
+speed at best, about 30MB/s, if even that.  The machines themselves need to
+be modern to saturate the link--no slow CPUs or disks.  Any ~2GHz CPU with
+512MB RAM and a decent 7.2K RPM SATA disk should be able to push/pull 50MB/s
+across the wire.  For that matter, eliminate the disk by creating a 200MB
+RAM disk on each machine.  Create a test file with dd and FTP/SCP it back
+and forth between the RAM disks.  If your RTL chip can peak the wire it'll
+be a 2-3 second transfer if your network chips and Linux TCP stacks are up
+to the task.
+
+> Maybe if I ever get .32 or .33 I'll squeal in anger.  Until then...
+
+It's looking like the RTL firmware blob issue may have been limited to the
+trunk kernel.  You may get lucky.  Then again, if you roll your own and put
+the firmware blobs in the kernel itself as I do, you shouldn't have a
+problem.  That is, if the Debian kernel source doesn't have the blob ripped
+out for being "non-free".
+
+You mentioned you had problems building 2.6.32 and .33 kernel source.  Do
+you use the Debian kernel source or kernel.org source?  I've been using the
+kernel.org source for quite some time and have never had any real problems
+with it (knocks on wood).  I had a build problem with .33 a while back but
+that turned out to be due to a slight bit too much overclock on my machine
+in this warmer weather.  ;)
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC6960E.7020202@hardwarefreak.com
+
+

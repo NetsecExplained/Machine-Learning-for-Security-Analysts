@@ -1,0 +1,38 @@
+Want it? GiveHiya
+
+I came across this blog
+
+http://ryanbigg.com/2010/04/want-it-give/
+
+and I couldn't agree more with this person.
+
+But I would like to bring this a little more home, and make it in the 
+Debian sense.
+I would like to encourage more people to run Debian Testing, get more 
+debugging, but more importantly, please try and get involved. Submit 
+your findings. Take the time to learn reportbug.
+You be surprised in the little contributions that help the greater and I 
+think its a satisfying feeling.
+
+
+Dan Pickett also has similar advice on contributing back to Rails 3. He 
+makes a good point that if you are able to demonstrate that you have 
+contributed to Rails that it looks awesome on your CV / Resume.
+
+I could not agree more on this. I know this, because it has worked in my 
+favour.
+
+Everyones mileage may vary, but I believe whole heartily that the really 
+winner is Debian and the community.
+
+Kind Regards
+Brent Clark
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC13A41.2030206@csmining.org
+
+

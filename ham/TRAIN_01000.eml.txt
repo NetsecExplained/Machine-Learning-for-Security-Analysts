@@ -1,0 +1,108 @@
+UAE/Ami*/Linux Laptop:  Important details.Well, for one, it would free up the similar laptop I already got to
+just run Amithlon (or if that wasn't so fun, bsd) to run just OpenBSD!
+
+This is a near-term thing I could look forward to!
+
+However, an 'official' laptop seems unexciting to me with only
+the items mentioned.  Most important are the particulars distinguishing
+the listed spec from a Dell 2650, preferably:
+1- GeForce4 440 Go or newer, pleasingly modern GPU; the
+   GeForce2Go (with 16MB video RAM; too little) I have is
+   not so much too slow as inefficient; with factory settings it would
+   actually crash from running too hot and too fast.
+   (Accelerating the Ami* and possibly OpenUAE graphics
+   is a necessity to meet for good speed in those environments,
+   but an energy-efficient GPU is a good sideeffect and
+    portability (read: battery lifetime) enabler.)
+
+1.5- Great control over CPU state; by use of 'internet keys'
+    wired to BIOS/bhipset routines directly or preferably a scroll
+    wheel.  Also, hibernate that works, please.
+
+1.7- Bootable to USB 2.0 drives (e.g. larger external ones)
+    in BIOS, please.
+
+2- P4 Dells overheat.  They have a big heatsink and a little fan
+   to pull air through it, and if you don't elevate thelaptop off
+   the desk or table or bed it's on, the fan will -stay- on.  Not good
+  for MTBS (mean time between service; unless you've got an
+  angle on making money on service from Amigans.....)
+     One excellent solution is to include a heatpipe which runs
+  behind the AMLCD, thus using the backside of the display
+  half as a radiator.; though it interferes with the case notion
+  below.  (yes, Aavid or such makes some as a standard part.)
+      I prefer to include the heatpipe but employ the radiative
+  mass in elevating the laptop (i.e. in the form of a catch-handle
+  and second logo device behind the laptop, which generally
+  provides stow and attachment for elevation legs (move them
+  out farther to get to the next-higher ekevation, until the sides
+  of the laptop are met.)  This also happens to provide a little
+  protection for USB 2  and 1394 cables that I tend to keep
+  plugged in all the time (a bit longer port life? Please.) 
+
+3- A case color other than brown or black, and preferably (if the
+    display module NRE is entirely permissive) the capability to
+    -run with the backlight off.-  Again, to save battery power, but
+    also as a feature; maybe you remember the iBooks modified
+   in this manner.  The user has the privilege to pull out the
+   backlight diffuser and fiberoptic lightpipe/CF assembly, with
+   its backreflector, and the whole warrantee.  This provides
+   for excellent outdoor use, often with the diffuser reinserted
+   to keep depth-of-field distractions minimised.
+     What would I like?  A1200 putty color, any translucency,
+   in or over a rosewood-colored (in KDE color browser, I see
+   chocolate, firebrick and a couple of 'indian red' that are great
+   candidates) base.  
+      I would also like to be able to at least turn off the backlight
+    without closing the lid, and to be -able- to fit an -external-
+    light source such as a UV-filtered solar collector (and glare
+    hood) to feed
+    into the backlight.  Not only does this make an excellent 
+    color environment but lets one work outdoors tolerably.
+      The logo should be a coloration of a
+   minimal surface, as the MAA is trying to get me to renew
+   with:  demos at http://astronomy.swin.edu.au/pbourke/geometry/
+   at first blush.  We'll see what comes out of the contest and
+   maybe you'll like the mapping MathCAD does of the
+   logo to a minimal surface or manifold that reflects the
+   openness of AmigaOS, Ami* and Amiga community.
+   MAA.org has more references, I'm sure.
+
+4- Obviously Elfin details., e,g, the backlight inlet.
+
+Other details:
+USB2.x preferred; FireWire would be needed if that's unavailable.
+Options like 802.11b or attabhable WiFi hub for ethernet port
+should round out the offering.  An option for just-released 
+.13 micron P4 (with mobile power features) could make more
+reviewers greenlight the series; much better power consumption,
+and almost certainly a higher a top clock come with that.
+CompactFlash, SmartMedia and MMC flash memory card
+interfaces would be very pleasant.  I've mentioned booting to
+USB, and booting from CF would be a pleasant extigency also.
+To that end, a backup solution with compression using
+USB 2 storage or the multimode drive is always a nice 
+bundle item; that or a chance to back out a patch under 3 OS.....
+
+
+Blue skies (and clear water and fresh air): 
+Waterproof to 30 feet, 3 Ethernet ports plus onboard WiFi.
+Svelte; 3-line frontpanel LCD and bright red pager LED,
+builtin G4 cellphone functions, choice of side and 
+frontpanel trim: Ivory-like stuff inscribed with M68k memory map
+and various OS 3.9 structures or textured fur that
+says 'This is Amiga Speaking' when stroked 'round. 
+Decent keyboard, as in Toshiba or IBM laptops; perhaps 
+an ergonomic fingerworks.com device (they work as 
+keyboard and mouse) as the keyboard/trackpad.
+2 Directional planar mics atop AMLCD; soundcard with multiple 
+18 bit A-D and noise reduction DSP that work in our
+(second-through-fourth, at least) favorite OS.
+Actual 7" bellows pulls out at nominal ventilation 
+fan location for real void-comp (the test in Blade
+Runner) style cooling and extended bass; active cooling
+and airfiltering is available to adjust humidity at user
+seat and provide mineral water.
+HyperTransport ports.
+
+

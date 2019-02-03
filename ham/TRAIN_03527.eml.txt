@@ -1,0 +1,26 @@
+Re: Java is for kiddiesOn Sunday 01 September 2002 08:43 pm, Reza B'Far (eBuilt) wrote:
+> 3.  Java is not just a programming language!
+
+The astounding thing about java is that despite all of the many significant 
+points in its favor, it still manages to suck, and break across JVMs.
+
+I was really looking forward to being able to use a better language like 
+java and get it compiled to real platform-specific binaries via the GNU 
+compiler collection.   But this seems to have never really gotten anywhere 
+because it would require porting or reimplementing libraries, which are 
+probably not source-available or tolerably licenced.   When I looked at 
+what I had to do to gcc and link "hello world," I lost interest.
+
+Who the hell is writing the runtimes, anyway?   Why are Perl/Python/Ruby 
+more reliable?   In a world where the Macs all ran emulated 68K code 
+utterly reliably, it's just hard to accept that there can't be a single 
+portable JVM that just works.
+
+My opinion is biased because of the disgraceful state of non-Windoze 
+browser java implementations.
+
+Eirikur
+
+
+
+

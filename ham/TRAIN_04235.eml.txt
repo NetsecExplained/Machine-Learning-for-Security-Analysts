@@ -1,0 +1,33 @@
+Re: pinning + apt-get vs aptitudeOn Tue, May 18, 2010 at 05:54:27PM -0500, Hugo Vanwoerkom  was heard to say:
+> Sven Joachim wrote:
+> >>The following packages will be REMOVED:
+> >>... grub-legacy{a} ...
+
+  [snip]
+
+> >>The following NEW packages will be installed:
+> >>... grub-pc{a} ...
+> >>
+> >>So why does aptitude pay no attention to my pin?
+> >
+> >Because it decides that the grub-legacy package is unused and can be
+> >removed despite the pin.  Whether this is the right thing is debatable;
+> >I'm sure you find some bug reports about that if you dig into the long
+> >list of aptitude bugs.
+> >
+> 
+> That explains it well, thanks
+
+  It probably won't help, though.  If grub-legacy was unused, it would
+say "grub-legacy{u}".  Instead it says "grub-legacy{a}", indicating that
+it was forced off the system by a conflicting package.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519140621.GC12104@emurlahn.burrows.local
+
+

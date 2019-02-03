@@ -1,0 +1,48 @@
+Embed code stopped working ?hi list
+
+after installing Snow leopard and doing several updates and installing =
+Xcode
+
+the "embedet live stream code " that i integrated in my blog does not =
+work nomore ?
+
+this is what is what i use.
+
+=20
+
+// <![CDATA[
+  	QT_WritePoster_XHTML('Play', 'http://ipsix.org/live.jpg', 		=
+'http://ipsix.org:554/live.sdp', 		'452', '388', '', 		=
+'controller', 'true', 		'autoplay', 'true', 		=
+'bgcolor', 'white', 		'scale', 'aspect');
+// ]]>
+
+any recommendation what i should use ?
+
+thanks
+
+marc
+
+-- =20
+Les enfants teribbles - research / deployment
+Marc Manthey- Vogelsangerstrasse 97
+50823 K=F6ln - Germany
+Tel.:0049-221-29891489
+Mobil:0049-1577-3329231
+blog: http://let.de
+project : http://opencu.org
+twitter: http://twitter.com/macbroadcast/
+facebook : http://opencu.tk
+
+
+Opinions expressed may not even be mine by the time you read them, and =
+certainly don't reflect those of any other entity (legal or otherwise).
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-Users mailing list      (QuickTime-Users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

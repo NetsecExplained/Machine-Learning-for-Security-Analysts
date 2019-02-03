@@ -1,0 +1,36 @@
+Re: Debian And Advanced Layer3 9924TOn 2010-04-06 02:08, Andreas Weber wrote:
+> On 2010-04-04 01:42, Stan Hoeppner wrote:
+>> Telling the OP to throw out a multi thousand dollar 24 port managed GigE
+>> switch due to a minor issue with one PC or server is not very sage advice.
+> 
+> I said "try changing", not "throw out" (reading and quoting is a basic
+> skill). Having sold many _multi-thousand-Euro-switches_ let me tell you
+> that they can be broken right from the start. DOA should ring a bell. A
+> simple temporary change of the switch (often the replacement is provided
+> by the vendor) would immediately show if this could be the problem.
+> 
+> It's a bit of a general problem on lists like this one (very technical
+> ones) that some very smart people dislike simple straight forward
+> solutions to be checked first, although it happens all the time that
+> smart people stumble over simple problems. Instead they like to tell
+> other people they're not sage enough.
+> 
+> So sorry for my "Is the cable ok?" approach as a first aid, I will keep
+> my mouth shut now, knowing that there's a savvy elite around.
+> 
+
+Stan definitely did not exercise sufficient reading comprehension.
+
+Adding the word "temporarily" would have reduced all ambiguity, though.
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBB0A8A.9010407@cox.net
+
+

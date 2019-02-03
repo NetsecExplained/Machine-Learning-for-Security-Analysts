@@ -1,0 +1,35 @@
+Re: Iceweasel/FF makes the embedded videos going 4 times faster 
+ when it bugs!On Sun, 09 May 2010 18:37:59 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+
+(...)
+ 
+>> Check if you already have the Adobe flash player version installed in
+>> your system.
+> Sure, and even the non-free one, that I installed manually. Adobe
+> (http://www.adobe.com/software/flash/about/) confirms it:
+> 
+> ==
+> You have version 10,0,22,87 installed ==
+> 
+> Thanks though.
+
+I've never experienced speed problems with Adobe Flash plugin. Well, 
+"buffering" issues, yes (pauses) but not "double speed".
+
+Can you send a concrete URI where you are getting problems so we can 
+check?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.09.17.04.53@csmining.org
+
+

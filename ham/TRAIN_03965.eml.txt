@@ -1,0 +1,20 @@
+aptitude stuckToday's run of 'aptitude -s safe-upgrade' had been running for over an
+hour and was using half my memory when I killed it. The status line was:
+
+open: 107756; closed: 119093; defer: 107181; conflict: 167
+
+There's evidently some situation it can't resolve. How can I figure out
+what package(s) cause the problem?
+
+-- 
+If tyranny and oppression come to this land, it will be in the guise
+of fighting a foreign enemy. -- James Madison
+    Rick Pasotto    rick@niof.net    http://www.niof.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430133128.GA30106@niof.net
+
+

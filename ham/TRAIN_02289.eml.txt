@@ -1,0 +1,32 @@
+bbkeys: NextWindow command does not work with java programsPackage: bbkeys
+Version: 0.9.0-7.1
+Severity: normal
+
+I am not shure if this is for bbkeys or blacbox!
+When I run any java program I am not able to switch to it by bbkeys
+binding that work for every other program just fine.
+In my ~/.bbkeysrc I have:
+
+    [NextWindow]      (Mod4-Tab)
+    [PrevWindow]      (Mod4-Shift-Tab)
+    [nextWorkspace]   (Mod4-Control-Tab)
+    [prevWorkspace]   (Mod4-Control-Shift-Tab)
+
+and it work. It is just java programs are not included in 'Switch to...'
+window that pops up. To be more concrete I just downloaded 
+OmegaT_2.1.5_Beta_Linux.tar.bz2 from http://www.omegat.org and this
+java program (nor any other window that it create) does not appear in
+'Switch to...' list. When I click with mouse on the arrow in the
+blackbox toolbar it does cycle all opened windows on workspace
+(including java programs).
+
+Martin
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100425155505.GA6884@alfa
+
+

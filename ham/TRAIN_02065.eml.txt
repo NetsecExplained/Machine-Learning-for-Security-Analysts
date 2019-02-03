@@ -1,0 +1,38 @@
+Re: Tiny terminal text after kernel updateOn 2010-05-25 10:41 +0200, Brian wrote:
+
+> On Mon 24 May 2010 at 17:11:37 +0200, Sven Joachim wrote:
+>
+>> You can blacklist the module or use nouveau.modeset=0 kernel parameter,
+>> leaving you with the nv (or nvidia) driver for X.
+>
+> Changing the console resolution is easily done with the nouveau driver
+> by using 'video=VGA-1:1024x768' as a kernel option. The output (VGA-1
+> in my case) can be omitted.
+
+Interesting, I did not know that.
+
+> This is also useful to employ if the driver and card do not play well
+> together and the native resolution of the screen is not detected. With
+> one card I force 'video=VGA-1:1280x1024', otherwise I get 1024x768.
+
+If the native resolution is not detected, it is a problem of the monitor
+which should have reported its preferred resolution via EDID.
+
+>>                                                    Another possibility
+>> is to use a bigger font.  Install the console-setup and kbd packages and
+>> use "dpkg-reconfigure console-setup" to choose your preferred font.
+>
+> I don't know which bigger console font you have in mind but if it is
+> one of the Terminus family screen corruption will most likely happen.
+
+I never had any problems with the terminus fonts, YMMV.
+
+Sven
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87632c3xc8.fsf@turtle.gmx.de
+
+

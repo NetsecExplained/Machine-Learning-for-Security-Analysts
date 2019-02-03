@@ -1,0 +1,25 @@
+Re: unable to connect to Debian BTSOn 2010-04-08 06:40, Γιώργος Πάλλας wrote:
+> The last few days, when using reportbug, I get (from two machines, on 
+> two different networks):
+> 
+> Querying Debian BTS for reports on linux-2.6 (source)...
+> Unable to connect to Debian BTS; continue [y|N|?]?
+> 
+> except some very rare cases.
+> 
+> Anybody else having the same problem?
+> 
+
+I just tried it from the southern US, and it worked like a charm.
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBDD4FF.6050105@cox.net
+
+

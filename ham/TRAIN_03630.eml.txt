@@ -1,0 +1,36 @@
+Re: Timezones for Kontact seriously broken in LennyOn Mon, 19 Apr 2010 22:28:37 -0400, John A. Sullivan III wrote:
+
+> Ah, this is so deeply frustrating! KDE 4.4 sounds great but it is
+> nowhere to be found in Debian but in experimental and it sounds like it
+> is nowhere near ready for production.  3.5.10 is truly and completely,
+> unusably broken for calendaring other than in a standalone world.
+
+If you are using Lenny then you are stuck. Unless you compile KDE SC 4.4 
+from sources which I don't recommed unless you know what are you doing :-/
+
+For Squeeze and Sid there are KDE SC 4.3 and 4.4, respectively:
+
+http://pkg-kde.alioth.debian.org/
+
+> It looks like Evolution has introduced webdav support for contacts in
+> 2.24 and we can grab 2.28 from testing.  That sounds better than
+> experimental so maybe we need to abandon KMail (sigh) and think about
+> Evolution instead.  Thanks, all - John
+
+Not sure if you already tested, but Thunderbird+Lightning (Icedove
++Iceowl) have also support for webdav calendars :-?
+
+BTW, I agree. I miss some of the KMail/Kontact features :-)
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.03.06.08.01@csmining.org
+
+

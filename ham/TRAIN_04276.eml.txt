@@ -1,0 +1,25 @@
+Re: Temporary deconnection from the Internet when too much pages
+ are loadedOn 2010-04-15 09:07, Matthew Moore wrote:
+[snip]
+> 
+> I also experienced this problem, and found that liberal use of noscript and 
+> flashblock really helped.
+
+Good point.  While I got sick of creating noscript exceptions, I'm a 
+great fan of flashblock and ABP.
+
+>                           I finally got fed up and just started using chrome. 
+> Chrome isn't perfect, but it is certainly a lot faster than firefox/iceweasel.
+
+How effective is ad blocking with Chrome addons?
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC7202D.7010700@cox.net
+
+

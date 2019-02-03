@@ -1,0 +1,23 @@
+Sun donates elliptic curve code to OpenSSL? (fwd)---------- Forwarded message ----------
+Date: 19 Sep 2002 22:18:46 -0400
+From: Perry E. Metzger 
+To: cryptography@wasabisystems.com
+Subject: Sun donates elliptic curve code to OpenSSL?
+
+
+According to this:
+
+http://www.sun.com/smi/Press/sunflash/2002-09/sunflash.20020919.8.html
+
+Sun is donating some elliptic curve code to the OpenSSL project. Does
+anyone know details that they would care to share on the nature of the
+donation?
+
+-- 
+Perry E. Metzger		perry@piermont.com
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@wasabisystems.com
+
+

@@ -1,0 +1,41 @@
+Re: Resources for learning LinuxOn Sat, 08 May 2010 08:54:29 -0400 (EDT), Girish Kulkarni wrote:
+> On Mon, 26 Apr 2010 13:37:53 -0400 (EDT) Stephen Powell wrote:
+>> My favorite free on-line reference for general Linux knowledge is
+>> currently the original edition of "The Linux Cookbook", by Michael
+>> Stutz.  Here is the link:
+>> 
+>>    http://dsl.org/cookbook/cookbook_toc.html
+>> 
+>> There is a greatly expanded second edition of the book, which is more
+>> comprehensive, but it is not free.  You have to pay for it.
+>> Others, I'm sure, will have other ideas.
+> 
+> Yes, Michael Stutz book is good, both in content and style.  Also,
+> there is the Linux Documentation Project, with many learning
+> resources: http://tldp.org/
+
+Yes, the Linux Documentation project is good too.  I go there mainly
+for the HOWTOs if I want to research a specific subject.  But for
+how to perform typical daily computing tasks using Linux, The Linux
+Cookbook is the best that I have found.
+
+"Oh, you want to do that?  Here, type this ..."
+
+That's the kind of everyday usage question that the Linux Cookbook was
+designed to solve.  And the second edition is even better.
+Unfortunately, it's not available online.  But I liked the original
+so well that I bought a hard copy of the second edition.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1847001195.164270.1273343260580.JavaMail.root@md01.wow.synacor.com
+
+

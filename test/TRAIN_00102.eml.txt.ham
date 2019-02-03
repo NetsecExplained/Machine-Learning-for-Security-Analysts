@@ -1,0 +1,17 @@
+Re: What needs to improve in KDE 4?At this moment, for me, kaddressbook?  Akonadi did not  get configured right, I 
+had to follow this advice to get it to start working:  
+http://forum.kde.org/viewtopic.php?f=20&t;=79717&sid;=ce96096a96a9d8ca3ebb13105dce3d21&start;=10#p137002
+
+Having done that yesterday I noticed that the concept of contact categories is 
+missing.  Today I found that I only get empty dialogs when I attempt to edit a 
+contact!  So for me kaddressbook is unstable.
+
+- Allen
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005112038.02484.blowers@computer.org
+
+

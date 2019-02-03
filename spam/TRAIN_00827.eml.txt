@@ -1,0 +1,60 @@
+[SPAM]  We've found keys
+
+
+
+Your daily reminder
+
+
+<!--
+body {
+        background-color: #FBE7F0;
+}
+style1 {color: #E61577}
+style3 {color: #E61577;
+        font-weight: bold;
+        font-size: 9px;
+}
+style4 {color: #990066}
+-->
+
+
+
+
+
+
+
+
+Are you having difficulty viewing our HTML email?
+		View this email in a browser window.
+
+
+
+
+
+
+
+Your daily reminder
+
+
+
+
+
+(c) 2009 Ovolo Inc.
+
+
+
+ 
+
+
+
+
+
+
+This email was delivered to you by
+	  Odquena. If you would like to be removed from this email distribution list, please click here. We will honor your request. To report abuse, please click here.
+ Like this newsletter? Please forward
+ to a friend!
+
+
+
+

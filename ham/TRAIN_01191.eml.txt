@@ -1,0 +1,42 @@
+Re: VM software for personal use?On 4/26/2010 5:24 PM, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Mark Allums wrote:
+>> Some people are scared of shared folders as possible attack vectors, thus security risks.
+>
+> What exactly are those risks?
+
+
+(For me, personally, it's theoretical, as I only am repeating things I 
+have picked up.  It may be out of date, now, but if I had to guess, the 
+level of threat has only grown.)
+
+It depends on the mechanism used to share the folders.  If if is through 
+a network interface, then the risks are similar to the risks on any 
+trusted intranet.
+
+If the folders are provided by the VM internals, then the risk is what 
+you can lose by a successful attack on the guest kernel or the host VM. 
+  If the host VM is kernel-based, then the risk is that of a (host) 
+kernel attack.
+
+Note: I'm using "risk" as in "what can you lose?"  If you mean attack 
+vectors, then those should be evident; again, I am not a security 
+reseacher.  Google Joanna Rutkowska.  She probably knows as much as 
+anyone about breaking out of a VM to attack the host.
+
+I'm sure others on this list know more than I do about it.
+
+MAA
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD7A9D3.7040301@allums.com
+
+

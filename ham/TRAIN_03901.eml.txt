@@ -1,0 +1,22 @@
+Re: Optical analog computing?Uh, WWII Enigma was cracked at Bletchly Park, based on the work of some 
+Poles, who had been trying to figure out when they would be invaded.   
+Entirely mechanical!   Definitely not optical at all.    Enigma was 
+originally broken based on bad use practice.  If it had been employed more 
+sensibly it would have been a lot harder.
+
+See "The Code Book" by Singh, Doubleday, 1999.     Or, for that matter, 
+"Cryptonomicon" by Stephenson, which is a fictionalization of the Enigma 
+cracking story, and pretty accurate.
+
+I eventually get born as a side-effect of the Battle of Britain, you 
+see....
+
+Computing with interference patterns, etc, makes perfect sense, but Enigma 
+was cracked by building mechanical systems that were essentially Enigma 
+machines and brute-forcing.
+
+Eirikur
+
+
+
+

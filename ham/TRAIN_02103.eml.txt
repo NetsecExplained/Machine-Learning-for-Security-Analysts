@@ -1,0 +1,81 @@
+Postfix, SASL and LDAPDBHey guys,
+
+I want to set up SASL authentication using LDAPDB, but it seems that
+postfix connects to LDAP but doesn't send anything to it...
+
+I try to authenticate using 'auth plain ', and I receive :
+
+535 5.7.8 Error: authentication failed: authentication failure
+
+Connection to LDAP works fine at the network level, but the only thing
+that postfix send to Slapd (sniffed using tcpdump) is a "UNBIND" request.
+Confirmed by the logs of slapd:
+
+----
+May 18 17:25:29 samchiel slapd[1431]: conn=35 fd=17 ACCEPT from
+IP=127.0.0.1:57368 (IP=127.0.0.1:389)
+May 18 17:25:29 samchiel slapd[1431]: conn=35 op=0 UNBIND
+May 18 17:25:29 samchiel slapd[1431]: conn=35 fd=17 closed
+----
+
+Postfix says the following:
+
+----
+May 18 17:25:29 samchiel postfix/smtpd[12094]: < localhost[127.0.0.1]:
+auth plain XXXXXXXXXXXXXXXXXXXXX
+May 18 17:25:29 samchiel postfix/smtpd[12094]: xsasl_cyrus_server_first:
+sasl_method plain, init_response XXXXXXXXXXXXXXXXXXXXX
+May 18 17:25:29 samchiel postfix/smtpd[12094]: xsasl_cyrus_server_first:
+decoded initial response
+May 18 17:25:29 samchiel postfix/smtpd[12094]: warning: SASL
+authentication failure: Password verification failed
+May 18 17:25:29 samchiel postfix/smtpd[12094]: warning:
+localhost[127.0.0.1]: SASL plain authentication failed: authentication
+failure
+May 18 17:25:29 samchiel postfix/smtpd[12094]: > localhost[127.0.0.1]: 535
+5.7.8 Error: authentication failed: authentication failure
+----
+
+So, I assumed there might be something wrong with my configuration. Since
+I'm on Debian Squeeze (for testing purpose), I have a
+/etc/postfix/sasl/smtpd.conf that contains the configuration of ldapdb:
+
+----
+# cat /etc/postfix/sasl/smtpd.conf
+pwcheck_method: auxprop
+auxprop_plugin: ldapdb
+mech_list: PLAIN LOGIN
+ldapdb_uri: ldap://localhost
+ldapdb_id: postfix
+ldapdb_pw: ZZZZzzzzZZZZZZZ
+ldapdb_mech: DIGEST-MD5 PLAIN LOGIN
+----
+
+and sasl directives in main.conf
+
+----
+# grep smtpd_sasl main.cf
+smtpd_sasl_type = cyrus
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_path = smtpd
+smtpd_sasl_security_options = noanonymous
+smtpd_sasl_local_domain = $mydomain
+smtpd_sasl_authenticated_header = yes
+----
+
+
+Did I miss anything ? Any clue on why postfix doesn't send anything but an
+UNBIND request to LDAP ?
+
+
+
+Thanks,
+Julien
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/505f7e7fe90abdcfc03c0d7611f5ceca@localhost
+
+

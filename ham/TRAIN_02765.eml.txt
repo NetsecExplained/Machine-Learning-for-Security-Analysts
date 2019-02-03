@@ -1,0 +1,42 @@
+Re: Unable to connect to my home wirelessFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On 04/05/10, Zoran Kolic (zkolic@sbb.rs) wrote:
+
+| > ...
+| > IBM High Rate Wireless LAN PC Card
+| > Chipset: Hermes I
+| > Drivers: orinoco_cs
+
+| Woops!
+| Cannot say I had an experience with orinoco. It was
+| old kind of chip. I think that support for orinoco
+| was abandoned for bsd year or so ago. And no wpa2, for
+| sure.
+
+The curious thing, or one of them, is that I do get a connection
+whether the router is set to WPA or WPA@ -- the first time it is set
+that way.
+
+
+| Any chance you could put some newer card in
+| place?
+
+Possibly, but so long as it and the 600X ThinkPad it is in run, I'm
+not inclined to spend the money.
+
+Thanks for responding.=20
+
+--=20
+JohnRChamplin@columbus.rr.com
+219 East Beck Street=20
+Columbus, OH 43206
+home: 1-614-228-3623; cell: 1-614-477-6724
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+GPG key 1024D/99421A63 2005-01-05
+EE51 79E9 F244 D734 A012 1CEC 7813 9FE9 9942 1A63
+gpg --keyserver subkeys.pgp.net --recv-keys 99421A63

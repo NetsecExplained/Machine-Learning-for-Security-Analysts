@@ -1,0 +1,21 @@
+Re: use of base image / delta image for automated recovery from attacks
+
+take a look at http://www.pcworld.com/news/article/0,aid,102881,00.asp
+
+ Andrey                            mailto:andr@sandy.ru
+
+
+
+BM> Does anyone do this already? Or is this a new concept? Or has this concept
+BM> been discussed before and abandoned for some reasons that I don't yet know?
+BM> I use the physical architecture of a basic web application as an example in
+BM> this post, but this concept could of course be applied to most server
+BM> systems. It would allow for the hardware-separation of volatile and
+BM> non-volatile disk images. It would be analogous to performing nightly
+BM> ghosting operations, only it would be more efficient and involve less (or
+BM> no) downtime.
+
+BM> Thanks for any opinions,
+BM> Ben
+
+

@@ -1,0 +1,32 @@
+Re: Problems with JNI included in a JNLP on Mac OS XMike Swingler wrote:
+
+> Your class is scoped under a JNLP-specifc ClassLoader: using the =
+provided jclass reference or directly passing a reference to the class =
+object you need will remove any lookup ambiguity. You should not =
+consider the JNI class lookup mechanism to be reliable while you are =
+being called from a static initializer.
+
+If you spawn the new thread in Java, and have it call down into your JNI =
+library, the thread will already be attached to the JVM, be part of the =
+correct Java ThreadGroup, and inherit all the expected behaviour of the =
+JWS environment. If you create the Thread in native code, what Java =
+ThreadGroup does it belong to? I've always avoided spawning new threads =
+in native code because of the amibuguity here.
+
+Be advised, however, that the thread where the static initializer is =
+running is holding the monitor lock for the class being loaded. The =
+monitor is not released until the static initializer returns and class =
+initialization is complete. This can result in deadlock when a helper =
+thread attempts to do anything with the class while the static =
+initializer is still running. I think it is in the JVM specification =
+where this is spelled out. I had to do some digging through it once, a =
+long time ago, to resolve a deadlocking issue (involving the native =
+Carbon native event thread, which tells you how long ago this was).=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

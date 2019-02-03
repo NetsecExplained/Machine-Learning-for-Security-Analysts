@@ -1,0 +1,27 @@
+Re: Sorting
+Tom Reingold wrote:
+
+> > 
+> > Ahh.  At work we fire people who use Outlook (Literally true:
+> > They get escorted to the door, their badge confiscated, and
+> > told to return the next day to collect their office contents).
+> 
+> Why?  What threat does Outlook pose to your organization?
+> 
+
+It has been described as "the technological equivalent of
+soliciting blood transfusions from random strangers in the
+street".  In short - it's a virus magnet.
+
+
+
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,92 @@
+[SPAM]  Moving back :)
+
+
+Show Tip of the Day
+
+div p, table p { margin-bottom:1em !important; }
+body {margin: 12px 0 0 12px;}
+td {font-family: verdana, arial, sans-serif; font-size: 12px; line-height: 18px;}
+td#header-footer {font-size: 11px; color: #93E0E9; line-height: 12px;}
+td#header-footer strong {font-size: 11px; color: #FFFFFF; line-height: 12px;}
+span.store {color: #046E84;}
+h1 {font-family: georgia, helvetica, sans-serif; font-size: 18px; color: #012939; margin: 0 0 12px 0;}
+td#footer-info {font-size: 11px; color: #FFFFFF}
+ul {list-style-image: url(images/h-emails-li-black-cross.gif); font-size: 12px; margin: 0 20px 0 0; list-style-position: inside;}
+a:link{font-family: arial, sans-serif;font-size: 12px; color: #00798E;text-decoration: underline;}
+a:Hover{font-family: arial, sans-serif;font-size: 12px; color: #00798E;text-decoration: none;}
+a:Visited{font-family: arial, sans-serif;font-size: 12px; color: #00798E;text-decoration: underline;}
+a#nav{font-family: arial, sans-serif;font-size: 12px; color: #FFFFFF;text-decoration: none;}
+a#nav:Hover{font-family: arial, sans-serif; color: #FFFFFF;text-decoration: underline;}
+a#nav:Visited{font-family: arial, sans-serif; color: #FFFFFF;text-decoration: none;}
+a#nav:Visited{font-family: arial, sans-serif; color: #FFFFFF;text-decoration: none;}
+a#footer {font-size: 12px;font-family: arial, sans-serif;color: #FFFFFF;text-decoration: none;}
+a#footer:Hover {font-size: 12px;font-family: arial, sans-serif;color: #FFFFFF;text-decoration: underline;}
+a#footer:Visited {font-size: 12px;font-family: arial, sans-serif;color: #FFFFFF;text-decoration: none;}
+a#ad {font-family: arial, sans-serif; font-size: 12px; color: #B11C3D;text-decoration: none;}
+ .ad_body {	font-family: Arial, Helvetica, sans-serif; font-size: 10pt;	color: #000000;}
+ 
+
+
+
+
+To view this e-mail as a Web page, go here.
+
+
+
+ 
+
+Kim's Club
+ 
+
+Shop
+ 
+
+Listen
+ 
+
+Columns
+ 
+
+Cool Sites
+ 
+
+Tips
+ 
+
+Buying Guide
+ 
+
+Video of the Day
+
+
+
+
+Sept. 30, 2009
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reprint Permission | Advertise | Advertiser Comments | Subscribe to our Newsletter | Newsletter FAQs
+
+Copyright © 2009, The Kim Komando Show. All rights reserved. Reproduction in whole or in part in any form or medium without express written permission of The Kim Komando Show is prohibited and strictly enforced. Newsletters may contain links to sites on the Internet owned and operated by third parties. The Kim Komando Show is not responsible for the availability of, or the content located on or through, any such third-party site. Information in this document is provided "as is" without warranty of any kind, either expressed or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose and freedom from infringement. The user assumes the entire risk as to the accuracy and the use of this document. We will not be liable for any damages of any kind arising from the use of this information, including, but not limited to direct, indirect, incidental, punitive, and conseq!
+ uential damages.
+If you must, unsubscribe details are below. :/
+To unsubscribe, use my online form.
+You may also unsubscribe by sending a request via postal mail. Please include your name, e-mail address and a printed copy of your Newsletter e-mail. Send to:
+Unsubscribe Kim's Newsletter2711 N. 24th St.Phoenix, AZ 85008
+
+
+
+

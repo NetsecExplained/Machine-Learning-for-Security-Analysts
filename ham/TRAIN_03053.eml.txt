@@ -1,0 +1,55 @@
+Re: recompiling the kernel with a different version nameOn Wed, Apr 07 2010, Stephen Powell wrote:
+
+> On Wed, 7 Apr 2010 14:54:53 -0400 (EDT), Celejar wrote:
+>> On Wed, 7 Apr 2010 13:48:18 -0400 (EDT), Stephen Powell wrote:
+>>>
+>>> ...
+>>>
+>>> Note: you must always issue "make-kpkg clean" after running "make menuconfig"
+>>> or after running "make-kpkg" with any target other than "clean".  Otherwise,
+>>> version and revision numbers will not work as expected.  Assuming that you
+>> 
+>> Are you sure that this is currently required?  From the changelog:
+>> 
+>> kernel-package (12.016) unstable; urgency=low
+>> 
+>>   * [4df65e7]: Remove obsolete warnings about running make-clean
+>>     With the new facility to regenerate ./debian, all the old strictures
+>>     about running make clean after anything that might change the version
+>>     number have beenmade obsolete, so remove from man page.  
+>>     Bug fix: "Is the --append-to-version section still accurate?", thanks
+>>     to Frédéric Brière. Short answer: No.                  (Closes: #534743).
+>> 
+>>  -- Manoj Srivastava   Sun, 28 Jun 2009 15:31:12 -0500
+>
+> I must confess I did not look at the change log.  But the README file
+> (/usr/share/doc/kernel-package/README.gz) still documents it as necessary.
+> As to whether this is out of date or not, I do not know.
+> But there is one thing I *do* know: the --revision flag he was using was
+> not taking effect, as evidenced by the name of the package file produced.
+> And I also know that when I use "make-kpkg clean" before building the kernel
+> package, I never have any trouble.  Note also that the comment above talks
+> about changing the version number, not the revision number.  They aren't
+> the same.
+
+        The README is out of date. I'll try and remember to fix this
+ (feel free to file a bug report to remind me). 
+
+        I am not sure why the revision flag was not taking effect (I
+ have not had time to look into the mails yet), but the +drm3 is coming
+ from the kernel code (something is setting .localversions or the ilk).
+
+        manoj
+-- 
+Guard against physical unruliness. Be restrained in body. Abandoning
+physical wrong doing, lead a life of physical well doing. 231
+Manoj Srivastava    
+4096R/C5779A1C E37E 5EC5 2A01 DA25 AD20  05B6 CF48 9438 C577 9A1C
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/877hojkm99.fsf@anzu.internal.golden-gryphon.com
+
+

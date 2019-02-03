@@ -1,0 +1,35 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with a 
+	different version name)>> No, these are normal everyday people who don't know what Windows or
+>> what Linux is. They have a problem, they call me. No bitching, no
+>> blaming.
+>>
+>>
+> In that case there is no really meter what they have. Only you will do hi=
+m a
+> big favor if you put Debian because in that case they will be much =C2=A0=
+safer
+> from virus's and it's much easier to open synaptic, hit refresh button,
+> upgrade and apply then manually download all app. and next, next, next,
+> reboot.
+> From my experience it is really much easier to have Debian then Windows.
+> They will call you less :-)
+>
+
+That is exactly what I do! However, I use a Debian derivative as it
+has slightly better hardware support out of the box and more
+up-to-date packages than straight Debian. That is exactly what this
+thread is about.
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/p2g880dece01004110349x335b1dcdx88bdf3472c07fb1c@mail.csmining.org
+
+

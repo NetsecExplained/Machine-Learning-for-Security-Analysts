@@ -1,0 +1,28 @@
+Jakob Nielsen on Offshore Usability: "To save costs, some
+    companies are ouURL: http://www.joelonsoftware.com/news/20020917.html
+Date: Not supplied
+
+Jakob Nielsen on Offshore Usability[1]: "To save costs, some companies are 
+outsourcing Web projects to countries with cheap labor. Unfortunately, these 
+countries lack strong usability traditions and their developers have limited 
+access -- if any -- to good usability data from the target users." 
+
+Offshore usability is a specific case of the general "offshore design" problem. 
+Put simply, software teams are not successful when 
+design or management are done in a different physical location than 
+programming. Once I actually had a job where I was in New York, my direct 
+manager was in Singapore, _his_ manager was in Hyderabad, and if I needed 
+any management input I had literally no choice but to go to the CEO because at 
+least he was awake during the same hours as I was. You can't get things done 
+like this. A good project team relies on hundreds of small interactions a day. 
+Here in the Fog Creek offices, we have 10 small conversations about FogBUGZ 3.0 
+development every day. 
+
+What I don't understand is people who think it's OK to move the developers ten 
+time zones away from their managers and expect good results. Those same people 
+would scream bloody murder if you told them that you were going to 
+send the whole _management_ team to Bangalore or Beijing.
+
+[1] http://www.useit.com/alertbox/20020916.html
+
+

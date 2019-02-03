@@ -1,0 +1,39 @@
+Re: Issue between KDE 4.xFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+Am Samstag, 10. April 2010 schrieb Christophe Prud'homme:
+
+> ** Very slow desktop
+>=20
+> With 4.3.x and 4.4.1 (and possibly earlier versions of Kde 4 I cannot
+> remember ) I
+> had also plasma or the desktop that would become incredibly slow to
+> the  point of being unusable then sometimes
+> after a little while it would be back.
+
+Just for the record, I am experiencing similar problems: X (or KDE) becomin=
+g=20
+almost unusably slow. FWIW, I have a Lenovo Z61m with a Radeon Mobility X14=
+00=20
+chipset.
+
+When I'm just working on the notebook display, everything is fine usually, =
+but=20
+when I connect a separate display, performance decreases a lot.
+
+Suspend works fine for me, though. With 4.4.2, I even get a nice notificati=
+on=20
+that the display settings have changed afer having plugged the notebook in =
+the=20
+docking station and waking up from suspend.
+
+> In my opinion, there is something wrong KDE/Plasma and its use of OpenGL.
+> Before this experience, I blamed nvidia and was looking
+> for changing my laptop and use ATI but now I definitely blame KDE/Plasma
+
+Have you tried not using desktop effects? Does that make a difference?
+=20
+Cheers,
+Carsten

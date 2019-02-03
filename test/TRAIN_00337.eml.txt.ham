@@ -1,0 +1,9 @@
+How to schedule for a repeated task?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+>>telnet, as in the original responses.  Google gives several example
+scripts
+With many thanks for your reply, I found very simple expect telnet examples
+(like the case that I am dealing with) so I wrote for the same but it
+doesn't work my case. Do you think it may come from the fact that the remote
+node is VxWorks or maybe some mistake in my code?

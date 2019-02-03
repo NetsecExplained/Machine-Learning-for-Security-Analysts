@@ -1,0 +1,31 @@
+Re: libc6 upgrade lenny to squeeze failed, now dpkg is brokenFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+>
+>
+> How can this be fixed?  And shouldn't there be a big warning that trying to
+> upgrade libc6 can break dpkg, on the Debian website page for libc6?
+>
+> Best regards,
+> Chris Austin.
+>
+>
+>
+What should really be the "big warning" is mixing releases... I don't see
+this as possible however. How is dpkg to know that the libc6 upgrade is not
+for security patches or point release?  I suppose something could be put in
+place so that the security repo is treated differently.
+
+The best way to avoid this: Don't mix releases. When necessary, its
+generally safer to build the source packages. You will also realize how far
+you are digging into testing when you start needing to backport libs.
+
+This is potentially reversible, but you should know in the future that core
+packages such as libc6, perl, python, and etc should never be mixed between
+releases.
+
+I have no advice for fixing the current issue... Only avoiding it in the
+future.
+
+-- 
+Jordan Metzmeier

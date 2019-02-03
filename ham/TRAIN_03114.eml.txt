@@ -1,0 +1,39 @@
+Re: DataPower announces XML-in-siliconOn Tue, 27 Aug 2002, Rohit Khare wrote:
+
+> DATAPOWER TECHNOLOGY ON Monday unveiled its network device designed
+> specifically to process XML data. Unlike competing solutions that
+> process XML data in software, DataPower's device processes the data in
+> hardware -- a technology achievement that provides greater performance,
+> according to company officials.
+
+Now, to do this, we all know they have to be cracking the strong crypto used
+on all transaction in order to process them... So this has some preaty heavy
+implications, unless it's just BS.
+
+> Kelly explained that converting data into XML increases the file size up
+> to 20 times. This, he said, makes processing the data very taxing on
+> application servers; DataPower believes an inline device is the best
+> alternative.
+
+Or.... you could just not bloat it 20x to begin with. Nah! (that was the
+whole point of XML afterall, to sell more CPUs - much like Oracle's use of
+Java allows them to sell 3x more CPU licenses due to the performance hit)
+
+> In addition to the large file sizes, security is also of paramount
+> importance in the world of XML.
+>
+> "Today's firewalls are designed to inspect HTTP traffic only," Kelly
+> said. "A SOAP packet with XML will go straight through a firewall.
+> Firewalls are blind to XML today."
+
+Again, see above... they _are_ claiming to decode the crypto...
+
+> "Our XG3 execution core converts XML to machine code," said Kelly,
+
+Mmmmmmmmmmm, machine code, never a good idea ;)
+
+- Adam L. "Duncan" Beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

@@ -1,0 +1,56 @@
+Re: Questions about RAID 6From nobody Sun Sep 18 20:45:29 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 09:29:28 Tim Clewlow wrote:
+> I'm getting ready to build a RAID 6 with 4 x 2TB drives to start,
+> but the intention is to add more drives as storage requirements
+> increase.
+
+Since you seem fine with RAID 6, I'll assume you are also fine with RAID 5.
+
+I don't know what your requirements / levels of paranoia are, but RAID 5 is=
+=20
+probably better than RAID 6 until you are up to 6 or 7 drives; the chance o=
+f a=20
+double failure in a 5 (or less) drive array is minuscule.
+
+> I intend to use mdadm to build / run the array.
+
+Modern mdadm can migrate from RAID 5 to RAID 6 when you add the 6th/7th dri=
+ve=20
+into the array.
+
+Also modem mdadm has a wealth of RAID 1/0 features that may actually be a=20
+better performance-wise than RAID 5 or RAID 6.
+
+> If an unrecoverable
+> read error (bad block that on disk circuitry cant resolve) is
+> discovered on a disk then how does mdadm handle this? It appears the
+> possibilities are:
+> 1) the disk gets marked as failed in the array - ext3 does not get
+> notified of a bad block
+
+This one.
+
+> I would really like to hear it is either 2 or 3 as I would prefer
+> not to have an entire disk immediately marked bad due to one
+> unrecoverable read error
+
+Sorry.
+
+> I would prefer to be notified instead so
+> I can still have RAID 6 protecting "most" of the data until the disk
+> gets replaced.
+
+You can add the failed device back into the array and it will re-sync until=
+=20
+there is another issue with the device.  Just be sure to remember which dev=
+ice=20
+needs replacing for when your new HW arrives.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

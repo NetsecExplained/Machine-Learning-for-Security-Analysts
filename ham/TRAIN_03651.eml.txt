@@ -1,0 +1,97 @@
+Re: CVS report
+
+
+> > > > Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow on 
+> > > > large (>100 msgs) unseen sequences. Anybody else having this problem?
+> > > 
+> > > I'll take the blame.
+> > > 
+> > > The reason, I suspect, is that we're needlessly reading the .sequences file 
+> > > multiple times because of other sequences.  I need to make the code much 
+> > > smarter about handling that file, but first I have a few other fish to fry in 
+> > > my rather large patch that's on it's way.
+> > > 
+> > 
+> > No panic,
+> > 
+> > I'm all for cleaning things up before getting it optimized.
+> 
+> Okay, this fix is now checked in.
+> 
+I'm afraid it didn't help. It still seems to be slower than ~1 month 
+ago. Maybe slightly faster than yeasterday. I'm (still) seeing an 
+"unseen countdown" in the log.
+
+18:51:25 Writing /home/ander/Mail/lists/l-k/.mh_sequences
+18:51:25 lists/l-k has 57 msgs in unseen
+18:51:25 lists/l-k has 56 msgs in unseen
+18:51:25 lists/l-k has 55 msgs in unseen
+18:51:26 lists/l-k has 54 msgs in unseen
+18:51:26 lists/l-k has 53 msgs in unseen
+18:51:26 lists/l-k has 52 msgs in unseen
+18:51:26 lists/l-k has 51 msgs in unseen
+18:51:26 lists/l-k has 50 msgs in unseen
+18:51:26 lists/l-k has 49 msgs in unseen
+18:51:26 lists/l-k has 48 msgs in unseen
+18:51:26 lists/l-k has 47 msgs in unseen
+18:51:26 lists/l-k has 46 msgs in unseen
+18:51:26 lists/l-k has 45 msgs in unseen
+18:51:27 lists/l-k has 44 msgs in unseen
+18:51:27 lists/l-k has 43 msgs in unseen
+18:51:27 lists/l-k has 42 msgs in unseen
+18:51:27 lists/l-k has 41 msgs in unseen
+18:51:27 lists/l-k has 40 msgs in unseen
+18:51:27 lists/l-k has 39 msgs in unseen
+18:51:27 lists/l-k has 38 msgs in unseen
+18:51:27 lists/l-k has 37 msgs in unseen
+18:51:27 lists/l-k has 36 msgs in unseen
+18:51:28 lists/l-k has 35 msgs in unseen
+18:51:28 lists/l-k has 34 msgs in unseen
+18:51:28 lists/l-k has 33 msgs in unseen
+18:51:28 lists/l-k has 32 msgs in unseen
+18:51:28 lists/l-k has 31 msgs in unseen
+18:51:28 lists/l-k has 30 msgs in unseen
+18:51:28 lists/l-k has 29 msgs in unseen
+18:51:28 lists/l-k has 28 msgs in unseen
+18:51:28 lists/l-k has 27 msgs in unseen
+18:51:28 lists/l-k has 26 msgs in unseen
+18:51:29 lists/l-k has 25 msgs in unseen
+18:51:29 lists/l-k has 24 msgs in unseen
+18:51:29 lists/l-k has 23 msgs in unseen
+18:51:29 lists/l-k has 22 msgs in unseen
+18:51:29 lists/l-k has 21 msgs in unseen
+18:51:29 lists/l-k has 20 msgs in unseen
+18:51:29 lists/l-k has 19 msgs in unseen
+18:51:29 lists/l-k has 18 msgs in unseen
+18:51:29 lists/l-k has 17 msgs in unseen
+18:51:29 lists/l-k has 16 msgs in unseen
+18:51:30 lists/l-k has 15 msgs in unseen
+18:51:30 lists/l-k has 14 msgs in unseen
+18:51:30 lists/l-k has 13 msgs in unseen
+18:51:30 lists/l-k has 12 msgs in unseen
+18:51:30 lists/l-k has 11 msgs in unseen
+18:51:30 lists/l-k has 10 msgs in unseen
+18:51:30 lists/l-k has 9 msgs in unseen
+18:51:30 digits changed
+18:51:30 lists/l-k has 8 msgs in unseen
+18:51:30 lists/l-k has 7 msgs in unseen
+18:51:31 lists/l-k has 6 msgs in unseen
+18:51:31 lists/l-k has 5 msgs in unseen
+18:51:31 lists/l-k has 4 msgs in unseen
+18:51:31 lists/l-k has 3 msgs in unseen
+18:51:31 lists/l-k has 2 msgs in unseen
+18:51:31 lists/l-k has 1 msgs in unseen
+18:51:31 lists/l-k has 0 msgs in unseen
+18:51:31 FlistUnseenFolder lists/l-k
+18:51:31 ok
+18:51:47 Folder_Change lists/exmh {Msg_Show cur}
+
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

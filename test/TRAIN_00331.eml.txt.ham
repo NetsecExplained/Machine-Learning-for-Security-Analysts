@@ -1,0 +1,78 @@
+Re: Increasing number of conflictsFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+
+B. Alexander schreef:
+>=20
+>=20
+> On Tue, Apr 20, 2010 at 8:07 PM, John Hasler  > wrote:
+>=20
+>     B. Alexander wrote:
+>      > I've got an issue with a sid box that I have been maintaining fo=
+r a
+>      > while. This is my workstation, and I have noticed a growing numb=
+er of
+>      > broken packages, unmet dependencies and conflicts. I have been u=
+sing
+>      > safe-upgrade for months now, hoping that it would work itself ou=
+t
+>     over
+>      > time. However, this hasn't happened.
+>=20
+>     No, of course not.  Sid is constantly undergoing the sort of change=
+s
+>     that take place when you upgrade from one release to the next and w=
+hich
+>     full-upgrade is designed to handle (and which safe-upgrade blocks):=
+
+>     transitions, removal of obsolete packages, major version changes th=
+at
+>     require new library versions that may be incompatible with other
+>     packages, etc.  Sid is often also in an inconsistent state when, fo=
+r
+>     example, a package is uploaded in advance of its dependencies.  By
+>     repeatedly running safe-upgrade you have forced these things to pil=
+e
+>     up.
+>=20
+>      > So what can I do to fix the problems without losing functionalit=
+y?
+>=20
+>     "aptitude full-upgrade" and then patiently sort through the resulti=
+ng
+>     mess.  It might be simplest to write down all the proposed removals=
+, let
+>     it do its thing, and then install the removed packages.
+>=20
+>=20
+> Yes. I need to block out some time and do just this.
+> =20
+>=20
+>      > No problem. Most of my Debian installs at home run sid, with the=
+ rest
+>      > running testing...Except my firewall, which runs stable for the =
+first
+>      > 6 months or so (until critical packages start getting long in th=
+e
+>      > tooth), then I upgrade it to testing and run until the next stab=
+le
+>      > release.
+>=20
+>     I'm having trouble imagining what packages appropriate to a firewal=
+l
+>     could get long in the tooth.
+>=20
+>=20
+> ssh, ssl, iptables, snort, etc. I don't have an extensively large=20
+> package list on my firewall, especially compared to a workstation, but =
+
+> since it is on the sharp end of my network, I try to keep it as up to=20
+> date as is feasable.
+Then use stable, as security updates are often available earlier for=20
+stable than for testing. Up to date is something different than=20
+cutting-edge.
+
+Sjoerd
+
+PS. If you do need cutting-edge, use debian-backports!
+

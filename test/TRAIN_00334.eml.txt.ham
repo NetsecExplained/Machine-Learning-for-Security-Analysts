@@ -1,0 +1,28 @@
+Re: How to schedule for a repeated task?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+> It doesn't matter what the remote system is, as long as it has telnet,
+> which I'm assuming it does, since that's what you originally asked about.
+>  To be able to help, we would need to know the output you are getting when
+> you run it, and probably the contents of the expect script that you are
+> using (edit out any passwords).
+>
+>
+>
+>
+> Please find below my simple expect telnet script :
+/usr/bin/expect
+>set name 172.16.17.160
+>spawn telnet $name
+>set cmd1 command1
+>set cmd2 logout
+>send "$cmd1"
+>send "$cmd2"
+>exit
+When I try for this procedure , I just see loging in and loging out from the
+telnet session . Actually , I need to have the output result of issuing
+'command1' on the remote node to be captured on my local host . But when I
+try manually , say telnet to it and issue the command , I see the output on
+my screen . Please help me how to modify my simple code to have the desired
+result?
+Thank you

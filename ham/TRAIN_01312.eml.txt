@@ -1,0 +1,26 @@
+Re: USB device attached via RS232 adaptor> Indeed. =C2=A0Sounds to me as though Dotan's neighbour isn't all that tec=
+h
+> savvie.
+>
+
+He's not, he's calling _me_ for support! Actually, he is very
+knowledgeable in his field, but this is not his field.
+
+It turns out to be a mess of parts. There is the USB card reader that
+I mentioned earlier, and also a serial usb reader with no
+documentation or numbers to google. I took a picture of it with my
+camera phone, I will post a link shortly.
+
+--=20
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/i2s880dece01004220817pda7fdce6u2eb60f1e1f6d9903@mail.csmining.org
+
+

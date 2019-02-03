@@ -1,0 +1,47 @@
+Re: auto mounting a partition with nobrowse
+On May 13, 2010, at 19:10 PM, Chris Suter wrote:
+
+> Hi Dale,
+>
+> On Thu, May 13, 2010 at 7:29 PM, websrvr
+>  wrote:
+>
+>> Using DiskArbitration seems to offer the results I need so I  
+>> started coding
+>> a little test app but due to the lack of sample code I'm not sure  
+>> I'm doing
+>> any of it properly since it segfaults when I use  
+>> DADiskMountWithArguments().
+>
+> I'm not sure why you're pursuing this approach. In my opinion, unless
+> I'm misunderstanding your requirements, I think it'll be much easier
+> for you to change the Content Hint parameter for your IOMedia object
+> (so that Disk Arbitration doesn't try and mount it) and then mount the
+> volume directly using the mount system call (or by calling the mount
+> command-line utility which is arguably more future proof).
+
+Having to rely on the existence of the /etc/fstab to do any work is a  
+bad choice.
+
+I wasn't aware that the SampleContentFilter project has options to  
+prevent mounting.
+
+Whatever solution is used must only allow the partition to be  
+available where the software is installed and must do this  
+automatically in the background.
+
+I'm open to other solution if someone has one that works.
+
+> Kind regards,
+>
+> Chris
+>
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

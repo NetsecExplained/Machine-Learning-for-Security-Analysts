@@ -1,0 +1,36 @@
+Re: Boot / LVM best practicesOn 2010-04-13 11:13, thib wrote:
+> Ron Johnson wrote:
+>> On 2010-04-13 05:23, Jon Dowland wrote:
+>>> Stan Hoeppner wrote:
+>>>> If you're going to buy two
+>>>> drives, you'd be stupid to not use mirroring for fault tolerance and a
+>>>> little added read performance here and there (depends on application).
+>>>
+>>> I disagree. Mirroring only protects you against drive failures and not
+>>> human error.
+>>
+>> And I disagree with that.  Mirroring *definitely* makes both reads and 
+>> writes go faster, due to parallelism.
+> 
+> Hmm.  Don't ^ these.
+> 
+> Backups are always necessary, mirroring is optional but speeds up 
+> recovery from hardware failure *only*.  Sometimes, you can't backup (it 
+> doesn't make sense, it's too big, ..) and thus, yes, you also *need* 
+> mirroring (not just to speed up things).  But it will not help you in 
+> case of human error, as Stan said.
+> 
+
+Note that I didn't mention human error; probably should have snipped 
+out that part.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC4AA3A.1040007@cox.net
+
+

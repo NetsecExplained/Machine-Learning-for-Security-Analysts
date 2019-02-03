@@ -1,0 +1,24 @@
+Re: reportugFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+In , IAN DELANEY wrote:
+>oh, i may have just figured it out.  It's using vim.  Must be different
+> version perhaps.  Once entered the data, I couldn't see how to save and
+> exit.  I'm used to nano. The other instance uses nano as a text editor to
+> enter the description.'   No matter, let's persevere since I've started.
+
+Setting EDITOR=3D/usr/bin/nano in your environment will make most Debian=20
+utilities use it instead of /usr/bin/sensible-editor.
+
+>The bug report:
+
+That's a decent report, but bug reports don't go to debian-user@l.d.o.  The=
+y=20
+go to submit@b.d.o.
+=2D-=20
+Boyd Stephen Smith Jr.                   ,=3D ,-_-. =3D.
+bss@iguanasuicide.net                   ((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy         `-'(. .)`-'
+http://iguanasuicide.net/                    \_/

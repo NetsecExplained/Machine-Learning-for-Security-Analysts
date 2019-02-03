@@ -1,0 +1,22 @@
+Re: [SAdev] Re: Web subscription for spamassassin package> eh? any reason why?  wasn't causing any trouble for me, and
+> seems like a good idea.
+
+Because every time someone submitted a bug, they'd get a response
+saying "Message is held for moderator because of implicit message
+destination" or something like that. It annoyed users, it annoyed me,
+and Justin, you never actually got around to accepting the messages :-)
+
+-- 
+Duncan Findlay
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

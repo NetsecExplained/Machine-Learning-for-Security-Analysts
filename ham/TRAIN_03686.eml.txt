@@ -1,0 +1,33 @@
+Re: DVD-RamFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+
+On Wednesday 12 May 2010 10:53:27 Boyd Stephen Smith Jr. wrote:
+> On Wednesday 12 May 2010 10:21:53 Curt Howland wrote:
+> > Anyway, I believe the DVD drive handles DVD-RAM, and this is the
+> > message I get in the kern.log:
+> >
+> > [10357.909024] UDF-fs: No anchor found
+> > [10357.909032] UDF-fs: No partition found (1)
+> > [10359.847262] ISOFS: Unable to identify CD-ROM format.
+>=20
+> Sounds like you need to create a filesystem on it.  I think normally,
+>  you'll want to use UDF for a DVD-RAM.  Package udftools, binary mkudffs
+>  should do something like that.  The pktsetup binary might also be useful,
+>  but I'm not sure.
+
+You can use UDF, if you want, but you can also use any file system you want=
+=20
+based on OS compatibility and speed, as long as it can handle the 2k sector=
+s=20
+size.
+
+"pktsetup" is for when you want to use a normal CD-R/DVD-R as a read/write =
+UDF=20
+file system.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

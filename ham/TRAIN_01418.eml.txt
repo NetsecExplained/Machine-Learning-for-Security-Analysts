@@ -1,0 +1,21 @@
+Sidekick's browser blowsURL: http://boingboing.net/#85524549
+Date: Not supplied
+
+Anil Dash discovers that the T-Mobile Sidekick's web-browser is pretty 
+arbitrary in which pages it will load and which pages it will throw up its 
+hands at: 
+
+    So I decided I was going to modify my page to conform to your browser's 
+    idiocy. I went looking for technical docs on what you do to mangle web 
+    pages. None. I went looking for a desktop emulator that I could run to 
+    simulate your device on my computer. None. I went looking to see an 
+    acknowledgement of the shortcomings of your device, indicating that the 
+    situation would be improved. None.  
+
+Link[1] Discuss[2] (_Thanks, Joe[3]!_)
+
+[1] http://www.dashes.com/anil/index.php?archives/003378.php
+[2] http://www.quicktopic.com/boing/H/gQqkijtv3NhWZ
+[3] http://joeclark.org/access/
+
+

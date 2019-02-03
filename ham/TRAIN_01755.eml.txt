@@ -1,0 +1,26 @@
+Re: [Razor-users] can't find Razor/Client.pmOn Tue, Jul 23, 2002 at 06:06:05PM -0400,
+Scott Henderson  is thought to have said:
+
+> Thanks, Tabor.  How do I install v1 over v2, and where does one
+> get it?  (I don't see it at razor.sourceforge.net)
+
+It's there. Scroll down on the downloads page. However you might
+consider going the other way and installing SpamAssassin's 2.40
+bleeding-edge code as Razor v2 has a lot of nice features over v1.
+
+-- 
+--------------------------------------------------------------------
+Tabor J. Wells                                razor-users@fsckit.net
+Fsck It!                 Just another victim of the ambient morality
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

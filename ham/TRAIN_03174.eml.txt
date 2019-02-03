@@ -1,0 +1,51 @@
+Re: Secure Sofware Key
+Yannick Gingras wrote:
+
+>    I am wondering if there are any techniques to make a CD-Key of the like 
+> unbreakable.  Either by giving it a cancelation date and a periodic renewal 
+> from a server or just by using self md5 signature on the resulting 
+> executable.  I know it must not be easy because the whole software piracy 
+> problem would be resolved but there must be some way to make it really hard 
+> to break it.  Anyone have hints on this issue ?
+
+What do you mean by "CD-Key or the like" (I presume that "of" was a
+typo)? And what do you mean by "unbreakable"?
+
+You need to be far more explicit about the problem which you wish to
+solve, and about the constraints involved.
+
+Some general points:
+
+1. For a conventional "CD key" system, where the actual CDs are
+mass-produced (where you have many identical CDs), and the entire
+system has to work offline, you cannot solve the problem of valid keys
+being "traded" (e.g. included along with bootleg copies of the
+product).
+
+If there's an online element involved, you can "tie" keys to a
+specific hardware configuration, as is done (AFAIK) for Windows XP's
+"product activation".
+
+2. Anything which uses a symmetric cipher (or hash) is bound to be
+vulnerable to reverse engineering of the validation routines within
+the executable.
+
+3. Ultimately, any software mechanism will be vulnerable to
+"cracking", i.e. modifying the software to disable or circumvent the
+validation checks.
+
+This can only be prevented by the use of trusted hardware (e.g. a
+Palladium-style system).
+
+Most significantly, the data must be supplied in a form which is only
+accessible by that hardware. If anyone can get at the data in a
+meaningful (i.e. unencrypted) form, they can extract the useful parts
+and discard the rest (i.e. any associated protection mechanisms).
+
+IOW, you have to "keep the genie in the bottle" at all times. If the
+data can be got at just once (even if it requires the use of dedicated
+hardware such as a bus analyser), it can then be duplicated and
+distributed without limit.
+
+-- 
+Glynn Clements 

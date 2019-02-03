@@ -1,0 +1,13 @@
+howto setup my own wikipedia siteCan anyone post a link, howto install/setup a wikipedia-like site? 
+
+I just want to put my "stiky-notes" to my own wikipedia site.
+
+Thank you
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271788628.4547.1.camel@localhost
+
+

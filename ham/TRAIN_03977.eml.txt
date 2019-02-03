@@ -1,0 +1,59 @@
+MD subsystem is not loadedHi,
+
+
+When I install a kernel I get "MD subsystem is not loaded" as a warning:
+
+...
+/usr/srcThu May 13-13:50:50SDB6# dpkg -i linux-image-2.6.33.4-hvw_1_i386.deb
+Selecting previously deselected package linux-image-2.6.33.4-hvw.
+(Reading database ... 133008 files and directories currently installed.)
+Unpacking linux-image-2.6.33.4-hvw (from 
+linux-image-2.6.33.4-hvw_1_i386.deb) ...
+Examining /etc/kernel/preinst.d/Done.
+Setting up linux-image-2.6.33.4-hvw (1) ...
+Running depmod.
+Examining /etc/kernel/postinst.d.run-parts: executing 
+/etc/kernel/postinst.d/initramfs
+W: mdadm: /etc/mdadm/mdadm.conf defines no arrays.
+W: mkconf: MD subsystem is not loaded, thus I cannot scan for arrays.
+W: mdadm: failed to auto-generate temporary mdadm.conf file.
+W: mdadm: no configuration file available.
+run-parts: executing /etc/kernel/postinst.d/initramfs-tools
+run-parts: executing /etc/kernel/postinst.d/pm-utils
+Running postinst hook script update-grub.
+Searching for GRUB installation directory ...
+found: /boot/grubSearching for default file ...
+found: /boot/grub/defaultTesting for an existing GRUB menu.lst file ...
+found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-2.6.33.4-hvw
+Found kernel: /boot/vmlinuz-2.6.33.3-hvw
+Found kernel: /boot/vmlinuz-2.6.32-3-686
+Updating /boot/grub/menu.lst ... done
+...
+
+
+Googling that I get zip, more or less.
+
+How does one load the MD subsystem?
+
+I have mdadm:
+hugo@debian:~$ dpkg -l mdadm
+Desired=Unknown/Install/Remove/Purge/Hold
+| 
+Status=Not/Inst/Cfg-files/Unpacked/Failed-cfg/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                   Version                Description
++++-======================-======================-============================================================
+ii  mdadm                  3.1.1-1                tool to administer 
+Linux MD arrays (software RAID)
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsjl89$ciq$1@dough.gmane.org
+
+

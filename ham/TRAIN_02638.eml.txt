@@ -1,0 +1,25 @@
+Re: How to list packages in various priorities or sectionsOn Mon, Apr 05, 2010 at 06:14:42PM -0400, Mike Viau  was heard to say:
+> Both "aptitude search ~pextra ~smisc" and "aptitude search ~pextra search ~smisc" resulted in a list of package which did not necessarily meet both the search patterns specified.
+
+  That's because "aptitude search" implicitly puts an ?or between its
+parameters.  Around them.  Whatever.
+
+  If you quote the arguments so they end up in a single command-line
+parameter, this should work.
+
+  On the surface, this behavior is dumb.  On the other hand, if an
+implicit ?and was used, "aptitude search gnome kde" would return only
+packages matching *both* gnome and kde, which probably isn't what the
+user wanted.  Trade-offs in both directions; the one aptitude picked
+means that if you want to use complex patterns, you need to be aware
+of where your command-line arguments are.
+
+  Daniel
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100430143733.GF22310@emurlahn.burrows.local
+
+

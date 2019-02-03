@@ -1,0 +1,26 @@
+Re: [SAtalk] help with postfix + spamassassin
+Luiz Felipe Ceglia said:
+
+> 	:0fw
+> 	| /usr/bin/spamassassin -c 
+> 			/etc/mail/spamassassin/rules
+
+are you using exactly that -- with the line break -- or is it like this:
+
+  :0fw
+  | /usr/bin/spamassassin -c /etc/mail/spamassassin/rules
+
+all on one line?  it should be the latter.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

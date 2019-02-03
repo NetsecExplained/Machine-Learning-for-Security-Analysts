@@ -1,0 +1,48 @@
+Re: New Sequences WindowFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Robert Elz 
+> Date:  Thu, 22 Aug 2002 18:32:00 +0700
+>
+>     Date:        Wed, 21 Aug 2002 10:54:46 -0500
+>     From:        Chris Garrigues 
+>     Message-ID:  <1029945287.4797.TMDA@deepeddy.vircio.com>
+> 
+>   | I can't reproduce this error.
+> 
+> Ah, I think I just found the cause, nmh is broken (which is probably
+> obvious from my previous mail).
+> 
+> The man page for pick (and how it always used to work) was that -list
+> would list messages matched.  -nolist would supress that.   If -sequence
+> is given the default is -nolist, without -sequence the default is -list.
+> 
+> That's all fine - but it appears now (which probably means I had never
+> used pick since I upgraded nmh last) that what counts is the order of
+> -list and -sequence - that is, if -sequence comes after -list, the -list
+> gets turned off (-sequence implies -nolist instead of just making -nolist
+> the default).
+> 
+> An easy workaround for this is to make sure that -list is the last arg
+> given to pick, so if I run ...
+> 
+> delta$ pick +inbox -lbrace -lbrace -subject ftp -rbrace -rbrace  4852-4852 
+> -sequence mercury -list
+> 4852
+> 
+> which is just as it should be.
+
+hmmm, I assume you're going to report this to the nmh folks?
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

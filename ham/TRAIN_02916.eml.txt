@@ -1,0 +1,54 @@
+Re: Patch to complete a change...Done
+
+>>>Robert Elz said:
+ > I suspect that as part of Chris' set of changes, he cleaned up the
+ > use of the variable that was named "L" in FtocCommit (in ftoc.tcl).
+ > Its name got changed from L to lineno
+ > 
+ > But there's one reference of $L left.   That causes tracebacks if
+ > you attempt to use "link" with the current CVS version of exmh.
+ > 
+ > I guess that most of us don't use "link" very often ... I noticed it
+ > last week, but only got time to look and see why today.
+ > 
+ > If someone with the ability to commit to the CVS repository would
+ > apply the following patch (to lib/ftoc.tcl) that would be nice.
+ > (It works... and is trivial, and you could perhaps just apply it by
+ > making the change with an editor faster than saving this patch and
+ > applying it - there's only one instance of $L in the file, that
+ > should be changed to $lineno)
+ > 
+ > kre
+ > 
+ > 
+ > --- ftoc.tcl.PREV	Wed Aug 21 15:01:48 2002
+ > +++ ftoc.tcl	Tue Sep 10 12:47:06 2002
+ > @@ -1131,9 +1131,9 @@
+ >  		}
+ >  	    }
+ >  	    incr ftoc(numMsgs) -1
+ >  	} else {
+ > -	    FtocUnmarkInner $L
+ > +	    FtocUnmarkInner $lineno
+ >  	}
+ >  	incr ftoc(changed) -1
+ >      }
+ >      if {$delmsgs != {}} {
+ > 
+ > --==_Exmh_16073047980--
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

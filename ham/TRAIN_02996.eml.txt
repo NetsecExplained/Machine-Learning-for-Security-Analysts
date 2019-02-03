@@ -1,0 +1,44 @@
+Updating JRE in Lenny-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+A website I want to use would allow access unless my java applet is JRE
+6 update 13 or higher.  As far as I can figure out the applet provided
+by package sun-java6-bin is update 12.
+
+- From the Sun Microsystems site I downloaded file jre-6u19-i586.bin;
+moved it to directory /usr/lib/jvm, changed ownership to root:root and
+permissions to rwxr-xr-x and ran the binary.  It created a new directory
+/usr/lib/jvm/jre1.6.0_19 and opened in that directory a number of
+subdirectories and files.
+
+Next, I needed to add this new JRE to /etc/alternatives.  Using the
+alternatives configurator provided by package galternatives, as root I
+selected 'java' as the alternative to configure and added to the options
+list /usr/lib/jvm/1.6.0_19/bin/java and finally selected this new option.
+
+After reloading Iceweasel, about:plugins still showed the previous JRE I
+was using, /usr/lib/jvm/java-6-openjdk/jre/bin/java.
+
+Assuming that I can use a later version of JRE downloaded from Sun on
+Iceweasel 3.5, am I on the right track but did not get the newer version
+set up correctly, or is there a different way?
+
+Ken Heard
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvEzi8ACgkQlNlJzOkJmTc8GwCfSO/C8Xip3eo02hMLm2LbUMxB
+43gAn1fgJ6lPRotxSt5Oh30hnVduQzkp
+=pYRX
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC4CE30.20704@heard.name
+
+

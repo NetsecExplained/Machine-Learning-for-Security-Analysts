@@ -1,0 +1,64 @@
+RE: Any luck with HD web cams?> -----Original Message-----
+> From: quicktime-api-bounces+mark.jones=3Dmathworks.com@lists.apple.com
+> [mailto:quicktime-api-bounces+mark.jones=3Dmathworks.com@lists.apple.com]=
+ On
+> Behalf Of Ken Aspeslagh
+> Sent: Friday, April 23, 2010 11:13 AM
+> To: quicktime-api@lists.apple.com
+> Subject: Re: Any luck with HD web cams?
+>=20
+> Hi Beth:
+>=20
+> If you can get your hands on a Second Generation MacBook Pro (LED Backlig=
+ht),
+> one of the Aluminum iMacs, or one of the Apple Displays with a built-in c=
+am,
+> these all have a 1280 x 1024 capable built-in iSight. Not exactly HD but
+> larger than 640x480.
+>=20
+> Thanks,
+> Ken
+>=20
+> -------------------------------------
+> "The major difference between a thing that might go wrong and a thing tha=
+t
+> cannot possibly go wrong is that when a thing that cannot possibly go wro=
+ng
+> goes wrong it usually turns out to be impossible to get at or repair." -
+> Douglas Adams
+>=20
+>=20
+> On Apr 23, 2010, at 7:05 AM, quicktime-api-request@lists.apple.com wrote:
+>=20
+> > I need to choose a web cam with which to do some Quicktime experimental
+> > work.  It would need to give me high quality frames larger than 640x480=
+.  I
+> > tried the Logitech Quickcam Vision Pro last year but wasn't particularl=
+y
+> > pleased with the quality.  Maybe I was doing something wrong.
+
+Really?  I think that the Logitech Quickcam Vision Pro and Logitech Quickca=
+m Pro 9000 are two of the better web cams that I have used. =20
+
+> >
+> > What web cams are you developers having good Quicktime luck with?
+> >
+> > Thanks,
+> > -Beth.
+>=20
+>  _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-
+> api/mark.jones%40mathworks.com
+>=20
+> This email sent to mark.jones@mathworks.com
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

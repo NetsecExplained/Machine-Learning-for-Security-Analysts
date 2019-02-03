@@ -1,0 +1,233 @@
+[Razor-users] Preproc erasing messageThe following razor debugging sequence show my mail going from 9295 bytes to
+0 bytes after the preproc runs, which gives me an exit code that is not 0.
+I included the message below.
+
+Fox
+
+Razor-Log: No /etc/razor/razor-agent.conf found, skipping.
+Razor-Log: No razor-agent.conf found, using defaults.
+Aug 26 10:28:09.225237 check[3469]: [ 1] [bootup] Logging initiated
+LogDebugLevel=9 to stdout
+Aug 26 10:28:09.225890 check[3469]: [ 5] computed razorhome=/etc/razor,
+conf=, ident=/etc/razor/identity
+Aug 26 10:28:09.226006 check[3469]: [ 2] Razor-Agents v2.14 starting
+razor-check -d -home=/etc/razor
+Aug 26 10:28:09.229704 check[3469]: [ 9] uname -a: Linux qmail.mckee.com
+2.4.8-34.1mdk #1 Mon Nov 19 12:40:39 MST 2001 i686 unknown
+Aug 26 10:28:09.230155 check[3469]: [ 8] reading straight RFC822 mail from
+Aug 26 10:28:09.231524 check[3469]: [ 6] read 1 mail
+Aug 26 10:28:09.231923 check[3469]: [ 8] Client supported_engines: 1 2 3 4
+Aug 26 10:28:09.233017 check[3469]: [ 8] prep_mail done: mail 1 headers=631,
+mime0=9295
+Aug 26 10:28:09.233434 check[3469]: [ 6] skipping whitelist file (empty?):
+/etc/razor/razor-whitelist
+Aug 26 10:28:09.233995 check[3469]: [ 5] read_file: 1 items read from
+/etc/razor/servers.discovery.lst
+Aug 26 10:28:09.234369 check[3469]: [ 5] read_file: 1 items read from
+/etc/razor/servers.nomination.lst
+Aug 26 10:28:09.234697 check[3469]: [ 5] read_file: 3 items read from
+/etc/razor/servers.catalogue.lst
+Aug 26 10:28:09.235184 check[3469]: [ 9] Assigning defaults to
+honor.cloudmark.com
+Aug 26 10:28:09.235415 check[3469]: [ 9] Assigning defaults to
+truth.cloudmark.com
+Aug 26 10:28:09.235624 check[3469]: [ 9] Assigning defaults to
+fire.cloudmark.com
+Aug 26 10:28:09.235830 check[3469]: [ 9] Assigning defaults to
+apt.cloudmark.com
+Aug 26 10:28:09.236715 check[3469]: [ 5] read_file: 11 items read from
+/etc/razor/server.truth.cloudmark.com.conf
+Aug 26 10:28:09.237368 check[3469]: [ 5] read_file: 11 items read from
+/etc/razor/server.fire.cloudmark.com.conf
+Aug 26 10:28:09.237825 check[3469]: [ 5] 149643 seconds before closest
+server discovery
+Aug 26 10:28:09.238135 check[3469]: [ 6] truth.cloudmark.com is a Catalogue
+Server srl 51; computed min_cf=1, Server se: 0B
+Aug 26 10:28:09.238414 check[3469]: [ 8] Computed supported_engines: 1 2 4
+Aug 26 10:28:09.238656 check[3469]: [ 8] Using next closest server
+truth.cloudmark.com:2703, cached info srl 51
+Aug 26 10:28:09.238871 check[3469]: [ 8] mail 1 Subject: New Freeware
+Download
+Aug 26 10:28:09.290618 check[3469]: [ 6] preproc: mail 1.0 went from 9295
+bytes to 0, erasing
+Aug 26 10:28:09.291100 check[3469]: [ 5] Connecting to truth.cloudmark.com
+...
+Aug 26 10:28:09.505431 check[3469]: [ 8] Connection established
+Aug 26 10:28:09.505662 check[3469]: [ 4] truth.cloudmark.com >> 29 server
+greeting: sn=C&srl;=51&ep4;=7542-10&a;=l
+Aug 26 10:28:09.506086 check[3469]: [ 6] truth.cloudmark.com is a Catalogue
+Server srl 51; computed min_cf=1, Server se: 0B
+Aug 26 10:28:09.506342 check[3469]: [ 8] Computed supported_engines: 1 2 4
+Aug 26 10:28:09.506604 check[3469]: [ 8] mail 1.0 skipped in check
+Aug 26 10:28:09.506686 check[3469]: [ 5] No queries, no spam
+Aug 26 10:28:09.506787 check[3469]: [ 5] disconnecting from server
+truth.cloudmark.com
+Aug 26 10:28:09.507071 check[3469]: [ 4] truth.cloudmark.com << 5
+Aug 26 10:28:09.507155 check[3469]: [ 6] a=q
+Aug 26 10:28:09.507959 check[3469]: [ 8] razor-check finished successfully.
+
+
+
+>>From bounce-html-sales1-21787251@lyris.execsoft.com Mon Aug 26 14:28:10 2002
+Return-Path: 
+Delivered-To: log@qmail.mckee.com
+Received: (qmail 3472 invoked from network); 26 Aug 2002 14:28:10 -0000
+Received: from unknown (HELO port-216-3073879-ds200.devices.datareturn.net)
+(216.46.231.87)
+  by 10.97.5.1 with SMTP; 26 Aug 2002 14:28:05 -0000
+X-Mailer: Lyris Web Interface
+Date: Sat, 24 Aug 2002 09:45:48 -0700
+Subject: New Freeware Download
+ - Jammed: eric_koester@ccmail.mckee.com
+To: 
+From: "Diskeeper Product Manager, Executive Software"
+
+List-Unsubscribe: 
+Reply-To: executive@executive.com
+Message-Id:
+
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+Spam-File:
+Envelope-Recipient: eric_koester@ccmail.mckee.com
+Status: RO
+
+
+
+
+
+New Freeware Download
+
+
+
+
+
+
+
+IT'S
+        FREE!
+
+
+
+
+      
+
+
+
+
+Includes the same
+advanced defragmentation technology
+used in Diskeeper 7.0.
+
+
+ 
+
+
+
+Much faster than the
+previous
+    Diskeeper Lite and all built-in defragmenters.
+
+
+ 
+
+
+
+Now runs on Windows
+NT®/98/2000/XP.
+
+
+Millions of downloads attest to the popularity of
+Diskeeper Lite, but it only ran on Windows NT 4.0. Now it's been updated
+for all
+Windows operating systems from Windows 98 onward.
+New Diskeeper Lite is still manual-only and cannot
+be
+scheduled or run across a network, but it is far superior to any built-in
+defragmenter and much faster. And it will show you why full-version
+Diskeeper is
+the most recommended automatic defragmenter ever built. 
+Find out what you are really missing.
+Free!
+
+
+
+
+
+
+
+
+            Full version Diskeeper
+
+available for purchase from:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOTICE: We periodically send new product
+information electronically or
+survey those individuals who voluntarily give us their e-mail address. We
+hope you enjoy receiving this timely information. However, if you would
+like to remove yourself from this list, please do not reply to this e-mail
+to be removed.
+
+
+You have received this message from
+esi-vp-marketing at the e-mail
+address: eric_koester@ccmail.mckee.com
+ To unsubscribe, send the above e-mail address in the body of a message
+along with your name, on a separate line, to
+ unsubscribe@executive.com.
+
+© 2002 Executive Software International,
+Inc.
+All Rights Reserved. DISKEEPER, Executive Software and the Executive
+Software
+logo are either registered trademarks or trademarks of Executive Software
+International, Inc. in the United States and/or other countries. Windows
+and
+Windows NT are registered trademarks of Microsoft Corporation in the
+United
+States and/or other countries. All other trademarks and brand names are
+the
+property of the respective owners.
+ 
+
+
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

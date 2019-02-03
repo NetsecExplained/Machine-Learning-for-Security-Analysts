@@ -1,0 +1,45 @@
+Re: [ILUG] Looking for a file / directory in zip file-----BEGIN PGP SIGNED MESSAGE-----
+
+Justin MacCarthy wrote:
+| Is there a way to look for a particular file or directory in 100's of zip
+| files??
+| Something like zgrep but for the filename instead of a word
+|
+| Thanks Justin
+|
+|
+
+probably there are more elegant solutions, but if your zips are in one
+directory you can do something like
+
+for i in *.zip
+do
+if unzip -v $i | grep -q FILEYOUWANT
+then
+~  echo $i
+fi
+done
+
+Cheers,
+Waider.
+- --
+waider@waider.ie / Yes, it /is/ very personal of me
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iQEVAwUBPW5AmaHbXyzZsAb3AQH+qQgA1vnUjJUwGDa1yCRQd3vZAnhkCF0KDBBA
+o9MYq4CUg9cEzKALkTyZu4eOprhL50ReaICUGLMMEc5htU9zove4F+CSuvbAKKHL
+nx7xa6kk2V+LFnwS6hWpdQolCaT+4iGZZbdFwmyNAWb/IrEYB0R4gp05sitDOl5U
+RRlzYSM3IUYDrYpDUuX7Ta7bLvSdC1PpWSqy/wXphNIh7Bs2+eB9ERAujuqi6vJo
+MBichYb3f3teVCQUbxTcaMowjpmv/Xm3gdUlGrUFbpc2O7447Xi5uDfRexzzDoJT
+HlFS6OO2ZqzcMrtUYEgsfyqpaF1WuD38JoFpa2TmSyX74bBhxS8ecw==
+=KYCm
+-----END PGP SIGNATURE-----
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

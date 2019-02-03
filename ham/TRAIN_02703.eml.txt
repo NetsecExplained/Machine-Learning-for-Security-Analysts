@@ -1,0 +1,27 @@
+Re: [OT] Home UPS (was  Filesystem recommendations)owens@netptc.net put forth on 4/29/2010 2:26 PM:
+
+> Also I might have an issue with Stan's use of AND.  While surge
+> protection of printers is a good idea, most UPS vendors advise
+> against connecting the printer to the UPS for power protection
+> Larry
+
+Most inkjets on a UPS are fine (for small jobs), lasers no--too much current
+draw heating up the fuser.  I've never printed during a power outage but I
+could if I really needed to.  The odds of that are terribly low though.
+
+Them main reason for plugging all my equipment into the UPS is that the MOVs
+in UPSes are usually much larger and of better quality than those found in
+surge protector power strips.  For those who do not know, an MOV or metal
+oxide varistor, is the device that sucks up the excess voltage and current
+that frequently enters lines during a lighting strike.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDA3C34.206@hardwarefreak.com
+
+

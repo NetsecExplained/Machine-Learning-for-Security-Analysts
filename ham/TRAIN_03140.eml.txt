@@ -1,0 +1,26 @@
+Re: earthviewer (was Re: whoa}On 9/8/02 8:09 PM, "Gary Lawrence Murphy"  wrote:
+> My car is only just over 1.5 meters across and maybe 3 meters long, so
+> that means roughly six pixels total surface area.  You might find a
+> 16-wheeler this way, but how often do people misplace a 16-wheeler
+> such that it is _that_ important to get old images of the terrain?
+> Since they can't send up aircraft to update images in realtime every
+> time, how is this different from just releasing the map on DVDs?  Why
+> wireless?
+
+
+It seems that several people are missing the point that this is NOT an image
+database.  It is high-resolution topological data rendered in three
+dimensions.  Images are overlayed on the topological data to help people
+navigate familiar terrain visually.  In other words, it is not intended as a
+wannabe spy satellite.  Rather it is a very accurate three dimensional model
+of the earth's surface.  When a particular region in question is covered in
+a city, the buildings in the city are mapped as though they are part of the
+earth's surface.  The part that makes the app killer is that you can map all
+sorts of data layers on top of their core topological data.
+
+Got it?
+
+-James Rogers
+ jamesr@best.com
+
+

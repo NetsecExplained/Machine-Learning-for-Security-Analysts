@@ -1,0 +1,17 @@
+RE: [ILUG] SUSE 8 disks? (thread changed slightly)> Of course, it would require a minimum of EUR300,000 in funding, which is
+> the
+> reason I have not started this project myself... :(
+> 
+> - Matthew
+
+It would?
+Sounds like you are talking about setting up a company, to be a vendor....
+I'd venture the early days of Debian, Slackware and other involveds there
+was no such financing.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

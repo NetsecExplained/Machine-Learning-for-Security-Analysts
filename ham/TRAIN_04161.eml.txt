@@ -1,0 +1,27 @@
+Re: Linking message [was: Re: Patch to complete a change...]
+
+>>>>> On Fri, 13 Sep 2002, "Robert" == Robert Elz wrote:
+
+  Robert> That (the way I have it configured, and it sounds as if
+  Robert> the way Tony does too) just does a move (rather than
+  Robert> select as target without moving).
+
+Ah.  I had forgotten that was settable.  
+
+Preferences, Folder Display, "Action when Target Button
+clicked..." set to "Select only" will change it.  I seem to
+recall that the button that is used as "Target button" is
+configurable but I haven't had enough caffeine to recall where
+that is.
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

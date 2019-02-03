@@ -1,0 +1,39 @@
+Re: [OT] Birthday Gear (was Re: Epiphany browser continues to get
+ worse andOn Thu, Apr 22, 2010 at 10:04:57AM -0400, Stephen Powell wrote:
+> On Wed, 21 Apr 2010 14:22:54 -0400 (EDT), Freeman wrote:
+> > On Tue, Apr 20, 2010 at 10:11:46AM -0400, Stephen Powell wrote:
+> >> ...
+> >> I got a new laptop for my birthday a few days ago.
+> >> ...
+> >
+> > Ooooo. 
+> > 
+> > But you don't say what kind of birthday equipment you received or what you
+> > installed/are planning on installing!!  :-(
+> 
+> When I said "a new laptop", I meant "new to me".  It's not new in the
+> retail sense: it's a newer used laptop.  It's an IBM ThinkPad X31.  I haven't
+> had a chance to use it yet, but according to my brother, it has a 40G hard
+> drive and 1G of RAM.  The other stats I don't know yet.
+> 
+> It currently has some version of Windows on it, probably XP.  But it won't
+> for long.  I'm going to install Debian on it, of course.  Probably Squeeze.
+> 
+
+Be proud of them! They know what to get. Always wanted an IBM ThinkPad. :-) But
+owners tend to hang on to them.
+
+-- 
+Kind Regards,
+Freeman
+
+http://bugs.debian.org/release-critical/
+l
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100422210950.GA15855@Europa.office
+
+

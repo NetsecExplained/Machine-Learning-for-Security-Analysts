@@ -1,0 +1,22 @@
+Re: [SAdev] 2.40 RELEASE PROCESS: mass-check status, folks?
+Theo Van Dinter said:
+
+> >         nonspam-theo.log
+> 
+> Hmmm.  I did re-run mass-check and resubmit...  I sort the log by score,
+> so the timestamp is at the end:
+
+ah, OK.  didn't see that.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

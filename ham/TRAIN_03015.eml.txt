@@ -1,0 +1,58 @@
+Re: Dual channel memory questionAioanei Rares put forth on 4/15/2010 7:06 PM:
+
+>> Are you guys displaced Ubuntu users who landed on debian-user after a
+>> tornado came through Kansas?  ;)
+
+I guess you've never seen "The Wizard of Oz".
+
+> You made me dig my latest mobo's manual :) [Gigabyte GA-M56S-S3], which
+> says plainly : "The four DDR2 memory sockets are divided into two
+> channels and each channel has two memory sockets as following :
+> Channel 0 : DDRII_1, DDRII_3
+> Channel 2 : DDRII_1, DDRII_4"
+
+You typo'd that.  It should be:
+
+Channel 0 : DDRII_1, DDRII_3
+Channel 1 : DDRII_2, DDRII_4
+
+> Please refrain from making such "wise" comments as , even if you're
+> right, you're damaging Debian's image and yours.
+
+I'm not sure how you come to that, but, ok..
+
+Gigabyte has screwed up the DIMM slot color coding on the GA-M56S-S3, at
+least according to the manual.  I just looked at Intel, Asus, and other
+Gigabyte boards and they all follow the correct alternating color pattern.
+
+Aioanei, you've based your entire argument on your knowledge of a single
+main board.  This board was incorrectly manufactured, or the manual text is
+incorrect.  Yes, manufacturers do make mistakes.  Look at the ATA_HORKAGE
+blacklist sections in libata-core.c to see lists of hard drives the
+manufacturers screwed up.  All of the Goliaths are in there, Hitachi,
+Maxtor, Seagate, Western Digital.  They're all shipped drives that don't
+meet one spec or another.  If these Goliaths can screw up, I guarantee you a
+tiny company like Gigabyte can, and probably does so far more often.
+
+Now, go look at the DIMM socket colors and layout pattern on the Intel,
+Asus, and yes, other Gigabyte boards to see what the proper color coding for
+dual channel memory sockets is, and look at the text descriptions of the
+slot and channel numbers.  This GA board is an anomaly, and is flawed in
+this regard.
+
+Take a look at the RHS of my email address.  That's my personal domain.
+They call me TheHardwareFreak for a reason. ;)
+
+The odds against me making a factually incorrect statement here about
+hardware are so high you should place a standing bet with your local bookie. :P
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC7BDDE.40503@hardwarefreak.com
+
+

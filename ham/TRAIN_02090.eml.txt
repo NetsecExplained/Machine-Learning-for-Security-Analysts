@@ -1,0 +1,30 @@
+Re: Why are there no latest books written for Debian systems?On 21/04/10 06:15, surreal wrote:
+> I wanted to buy a book about Debian, I found that the last book written was
+> way back in 2005 by Martin F.
+> Krafft
+
+This is hardly a new book.  In fact, it was written in the days of Woody.
+(Woody -> Sarge -> Etch -> Lenny -> Squeeze)
+And parts of it are obsolete.  But the author focuses on the core stuff of
+Unix/Linux, and so most of it is still current.  It's an excellent guide
+for how to accomplish common computing tasks in Linux, usually with a
+command line tool, and the author has a clear bent toward Debian.
+
+   http://dsl.org/cookbook/cookbook_toc.html
+
+This is the original version of the book, and it is free.  There's an
+expanded 2nd Edition available in hard copy for a fee.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/2047298230.199548.1271856862719.JavaMail.root@md01.wow.synacor.com
+
+

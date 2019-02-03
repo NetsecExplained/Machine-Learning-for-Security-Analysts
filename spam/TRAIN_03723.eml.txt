@@ -1,0 +1,87 @@
+[SPAM]  Card validation
+
+
+Newsletter : June 2009
+
+
+
+
+body { margin: 0;
+    padding: 0; }
+
+div.newsletter a { color: #0864a5; }
+
+div.newsletter h3 { margin: 0 0 5px 0;
+    line-height: 25px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 150%;
+    color: #0864a5;
+    font-weight: bold; }
+
+div.newsletter h3 a { color: #0864a5; }
+
+div.newsletter h3.underline { border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 7px;
+    margin-bottom: 1em; }
+
+div.newsletter img { border-width: 0px;
+	vertical-align: bottom; }
+
+div.newsletter img.border { border: 1px solid #dbdada;
+    padding: 3px; }
+
+div.newsletter .imgright { float: right;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    padding-top: 3px; }
+
+div.newsletter table { font-size: 12px; }
+
+
+
+
+If you experience difficulty viewing this message, you can view it in your browser.
+
+
+
+
+
+
+eNews
+
+					June 2009
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+					Update your details | 
+					Unsubscribe or edit options
+
+					Please forward this eNewsletter to a friends
+
+
+
+
+
+
+
+

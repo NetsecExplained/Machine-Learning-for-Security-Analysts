@@ -1,0 +1,42 @@
+Re: KDE 4.4.3 in unstableI don't get what you're trying to accomplish.
+
+On 2010-05-05 Boyd Stephen Smith Jr. wrote:
+> In 4.4, kmail depends on mysql-server in order to send mail. (kmail ->
+> Akonadi  -> mysql-server).
+
+So you don't like the dependency to Akonadi? Too bad. As can be read on many places, Akonadi is 
+there to stay. And as you mentioned in another post, the dependency to Akonadi has been in place for 
+a while now (Korganizer and KAddressBook since 4.2). So there's no way in hell you're going to have 
+(upstream) support for an Akonadi-less PIM.
+
+Or don't you like the Akonadi dependency to mysql-server? Well, it's not the full mysqld package 
+anymore, but the dependency is to mysql-server-core(-5.1) (see #548419).
+SQLite has been found inappropriate since it lacks proper transaction support.
+PostgreSQL is apparently capable of providing the proper features and Tobias Koenig has made Akonadi 
+working with PostgreSQL since the end of last year (http://tokoe-kde.blogspot.com/2009/12/akonadi-
+and-postgresql.html). That patch was committed to trunk at that time, but apparently didn't make 
+into SC 4.4 (?).
+So if you want to use PostgreSQL, your best bet would be to port/base that patch on 4.4.
+
+> Just block the KDEPIM 4.4 apps from migrating to testing.  The KDEPIM 4.3 
+> programs already work with the KDEBASE 4.4 libraries.
+> 
+> Heck, just stop kmail from migrating.  Korganizer and KAddressBook have 
+> required Akonadi since 4.2 or earlier.
+
+Yeah right, let's get a combination of 4.3 and 4.4 (and 4.2?) into stable, that surely must be 
+preferable. And good luck getting any upstream support for bugs resulting from that.
+
+As Ana indicated the freeze won't wait for SC 4.5, so better make the best out of 4.4.
+If you want the freeze to wait for 4.5, better try to convince the release team. Good luck.
+
+
+Diederik
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005060913.06917.didi.debian@cknow.org
+
+

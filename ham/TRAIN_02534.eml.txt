@@ -1,0 +1,43 @@
+Re: Aptitude ErrorFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Try
+
+apt-get install fakeroot devscripts build-essential
+
+If it gives error then post your /etc/apt/sources.list
+
+
+
+On Fri, Apr 30, 2010 at 4:07 PM, James Stuckey  wrote:
+
+>
+> Have you tried "apt-get update" or "aptitude update" before trying to
+>> install these packages?
+>>
+>>
+>  Yes, I did "aptitude safe-upgrade" after "aptitude update" and then
+> "aptitude full-upgrade".
+>
+> I selected "n" and it prompted me to "downgrade the packages to testing".
+> This means that the versions it had were newer than testing, i.e., from s=
+id.
+> How could this be if I followed 2.7.3 of DR? According to that, my candid=
+ate
+> version is appropriately set:
+>
+> stuckey@debian:~$ cat /etc/apt/apt.conf
+> APT::Default-Release "testing";
+>
+>
+>
+>
+
+
+--=20
+Wishing you the very best of everything, always!!!
+Kousik Maiti(=E0=A6=95=E0=A7=8C=E0=A6=B6=E0=A6=BF=E0=A6=95 =E0=A6=AE=E0=A6=
+=BE=E0=A6=87=E0=A6=A4=E0=A6=BF)
+Registered Linux User #474025
+Registered Ubuntu User # 28654

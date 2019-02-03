@@ -1,0 +1,23 @@
+Re: Kde 3.5 ...On 2010-05-06, Alejandro Exojo  wrote:
+> El Jueves, 6 de Mayo de 2010, Curt Howland escribió:
+>> Thank you, I appreciate that. Really, I do. Unfortunately, my problems
+>> with KDE4 are not bugs, they're systematic. I liked having my
+>> removable devices show up as desktop icons, for instance, and that
+>> feature is just plain gone.
+>
+> I miss the media:/ kioslave. Does somebody know if it was gone because nobody 
+> ported it, or by design?
+
+By design. It only almost worked good.
+Codewise it is replaced by the kfileplacesmodel, I'm sure one could
+write a plasma widget around it quite easy if one wanted.
+
+/Sune
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/slrnhu5nlt.rvp.nospam@sshway.ssh.pusling.com
+
+

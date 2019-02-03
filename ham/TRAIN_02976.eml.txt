@@ -1,0 +1,32 @@
+Re: ALSA (almost) made easyOnce upon a time, Ville wrote :
+
+> Ok, some more nits: alsa-xmms doesn't work if I don't have
+> alsa-lib-devel installed, but xmms dies on startup telling me:
+> 
+>    Cannot load alsa library: libasound.so: cannot open shared object
+>    file: No such file or directory
+> 
+> libasound.so is part of alsa-lib-devel... if I install it, the ALSA XMMS
+> output plugins works fine.
+
+OK, will fix :-)
+
+> I can't install the xine stuff, because xine-libs needs libGLcore.so.1,
+> which I can't find anywhere (NVidia stuff?  I have Radeon 7500...)
+
+Argh, got bitten again! :-(
+Will fix too...
+
+Thanks a lot for pointing these out!
+Matthias
+
+-- 
+Matthias Saou                                World Trade Center
+-------------                                Edificio Norte 4 Planta
+System and Network Engineer                  08039 Barcelona, Spain
+Electronic Group Interactive                 Phone : +34 936 00 23 23
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,38 @@
+Re: How to manage multiple Internet connections?On Sat, 15 May 2010 16:32:05 +0200, Merciadri Luca wrote:
+
+> `Bonding' seems to achieve what I wanted to do. Thanks.
+
+Sure? I don't think so :-)
+
+"Bonding" is for ethernet devices, nothing to do with using your 
+"router's bandwith". Ethernet bonding is like hard disk raid: it will 
+prevent for a "link" going down and you can use it to increasing 
+throughput but what you want to achieve is not done with that, as you 
+will be still facing the problem on how/where to route packages.
+
+Also, bonding requires at least 2 ethernet adapters. 
+
+A very good bonding tutorial:
+
+http://www.linuxfoundation.org/collaborate/workgroups/networking/bonding
+
+But you may need something like this:
+
+How To: Load Balancing & Failover With Dual/ Multi WAN / ADSL / Cable 
+Connections on Linux
+http://blog.taragana.com/index.php/archive/how-to-load-balancing-failover-with-dual-multi-wan-adsl-cable-connections-on-linux/
+
+And I advance you is not an easy task :-P
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.15.15.03.31@csmining.org
+
+

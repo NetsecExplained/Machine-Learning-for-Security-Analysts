@@ -1,0 +1,11 @@
+A Non-Integer Power Function on the Pixel ShaderURL: http://www.newsisfree.com/click/-0,8613675,159/
+Date: 2002-10-06T18:12:45+01:00
+
+This feature, excerpted from Wolfgang Engel's ShaderX book from Wordware 
+Publishing, presents a simple shader trick that performs a good per pixel 
+approximation of a non-integer power function. The technique works for input 
+values between 0 and 1 and supports large exponents. The presented shader does 
+not require any texture look-up and is scalable, making it possible to spend 
+more instructions in order to decrease the error or to reach greater exponents.
+
+

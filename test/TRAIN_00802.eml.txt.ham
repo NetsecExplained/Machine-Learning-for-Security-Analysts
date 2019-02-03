@@ -1,0 +1,45 @@
+shoe horn KDE3.5 systemHi 
+it sounds a bit weird but its pretty close to what I need to do.
+As you can see from my footer I use mandriva and I like it.
+I have however an app which does not.
+It needs QT3 and KDE3.5 to run, anfd it has to be run in a KDE DM. It crashes
+when run on gnome.I have made space in the middle of one of the two SATA drives.
+There's about 100 GB it can use.
+I have gone back on Mandriva releases and 2008.0 was the last to solely use
+KDE3.5, if piklab finds a KDE4 lib it crashes, and from MDV2008.1 they merged.
+MDV 2008.0 would be OK but it won't recognise SATA HDs.
+I tried Ubuntu to try and load it in that 100 Gb gap, but it wanted all of the
+drive, even when told use unused space.
+I know Debian is stable, will the installer if told install its self on to an
+unused section of the SATA HD and put its bootloader at the start of the rott
+partition , ie" /", not /root.
+Is the a version that used KDE3.5, QT3 that will work on a SATA HD, will the 32
+bit versions run on a 64 bit or must I use the AMD_64 version.
+Are the any problem with the kernel supplied with what ever version is
+suggested with RTL8111/8168B PCI express ethernet cards, on MDV certain kernels
+in 2009 had problems with the driver for that card.
+
+A quick reply would really be appreciated, I've been trying to get this app to
+run for the last couple of days without any luck.
+
+TIA
+
+-- 
+Best wishes
+
+Richard Bown G8JVM
+
+###################################################################################
+Registered Linux User 36561
+OS: Mandriva 2010.0 Powerpack on an AMD Dual Athlon 64 +4400: 8 GB RAM DDR2
+Ham Call: G8JVM , QRA IO82SP, Interests Microwave 1.3 GHz,2.3 GHz & 5.7GHz & 10
+GHz
+###################################################################################
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100518194221.4344b180@blueyonder.co.uk
+
+

@@ -1,0 +1,73 @@
+Re: Aptitude ErrorOn Sat, May 1, 2010 at 00:08, Tom H  wrote:
+> On Fri, Apr 30, 2010 at 1:54 PM, Boyd Stephen Smith Jr.
+>  wrote:
+>> On Friday 30 April 2010 12:10:45 James Stuckey wrote:
+>>> On Fri, Apr 30, 2010 at 5:44 PM, Boyd Stephen Smith Jr. <
+>>>
+>>> bss@iguanasuicide.net> wrote:
+>>> > On Friday 30 April 2010 06:16:22 James Stuckey wrote:
+>>> > > The unstable/sid doesn't have to be comment out. Setting the defaul=
+t
+>>> > > =A0release will keep the system tracked to, in this case, testing.
+>>> >
+>>> > Er, mostly.
+>>> >
+>>> > If there is a versioned dependency that can be satisfied from sid but=
+ not
+>>> > testing, you will get the package from sid. =A0This shouldn't happen =
+given
+>>> > the
+>>> > way testing is managed, unless you installed at least one package fro=
+m
+>>> > sid.
+>>>
+>>> I installed eclipse from sid, since there isn't eclipse in testing.
+>>
+>> It may have pulling in some dependencies from Sid, then.
+>>
+>> I know the official line is to use '-t $something' as arguments to apt-
+>> get/aptitude for pulling in packages from Sid/experimental/backports, bu=
+t I
+>> think it is better to use the '$package=3D$version' format.=A0(After get=
+ting the
+>> version from something like (apt-cache policy $package).)
+>>
+>> My instinct is that '-t $something' effectively increases the priority o=
+f all
+>> packages from the $something repository, which may make the dependency
+>> resolver pull more from that repository than is absolutely necessary.
+>
+> If you are running stable
+> aptitude install /testing
+> will install  from testing and try to satisfy dependencies
+> from stable whereas
+> aptittude install -t testing 
+> will install  from testing and try to satisfy dependencies
+> from testing.
+>
+> I assume that
+> aptitude install =3Dtesting_version
+> behaves like
+> aptitude install /testing
+> and that in both these methods the dependencies might not be satisfied
+> (I had that problem in December with Firefox 3.6).
+>
+>
+> --
+> To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian=
+.org
+> Archive: http://lists.debian.org/s2g6d4219cc1004301138i6947c1e1n6c12c267d=
+8e83003@mail.csmining.org
+>
+>
+
+Thanks for this nice information, Tom
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2nd0bf7b0b1004301943o2dd0f30fwb811b71e1ef8682a@mail.csmining.org
+
+

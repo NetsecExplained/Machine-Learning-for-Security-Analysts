@@ -1,0 +1,27 @@
+Re: plasma desktop missing after upgradeFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On pirmadienis 17 Gegu=C5=BE=C4=97 2010 11:59:14 Nicola Chiapolini wrote:
+> I agree.
+>=20
+> My intention was more to let you know that upgrading brakes the system
+> and leaves you with a black screen. (If you had my combination of
+> packages installed).
+> I guess this could be avioded with adjusted dependencies.
+> Let me know if you need any further info.
+
+Yes, it is inconvenience, but testing -> testing or unstable -> unstable do=
+=20
+not have to be flawlessly supported. Only stable -> next stable should. kde-
+minimal is not stable so we are not going to workaround it (i.e. keep dummy=
+=20
+package around) just because it causes a minor issue in current testing or=
+=20
+sid.
+
+=2D-=20
+Modestas Vainius 

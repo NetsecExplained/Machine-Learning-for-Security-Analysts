@@ -1,0 +1,29 @@
+Re: Cyrus 2.2 imapd in AMD64On Fri, 23 Apr 2010 16:18:31 -0300, Carlos Bergero wrote:
+
+> Sorry forget to copy it
+> tlsprune is disable now so it doesnt lock the start up of the cyrus
+
+Next time use an online service (such Pastebin) to put the data and send 
+a link ;-)
+
+(...)
+
+> Both are mostly standar files.
+
+Yep, I see nothing strange in there.
+
+I would start Cyrus setup and user migration from scratch to avoid any 
+incompatibility between the old installation and the new.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.24.08.58.14@csmining.org
+
+

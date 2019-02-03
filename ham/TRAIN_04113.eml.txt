@@ -1,0 +1,41 @@
+Re: [ILUG] Mail sent to ILUGThanks lads,
+
+I didn't mean to criticise/give offence or anything (someone mailed me off
+list who seemed to think I did) but I was just wondering "if anything could
+be done" about those messages.
+Maybe it was a stupid question, seeing as I know virtually nothing about
+mailman, listservs, or server side spam filtering, but thanks for answering
+intelligently!
+
+Ciaran
+
+Waider elucidated:
+
+> Martin Feeney wrote:
+> | On Tue, 20 Aug 2002 10:14:59 Ciaran Mac Lochlainn wrote:
+> |
+> |> is it really necessary to send these to the list?
+> |
+> |
+> | What's happening is that the scumbag spammers are forging the from
+> | address to be ilug@linux.ie as well, so the notification to them that
+> | their email is being reviewed gets sent back to the from address:
+> | ilug@linux.ie
+> |
+> | Martin.
+> |
+>
+> Not to belabour the point, but noone can legitimately send mail to ilug
+> from ilug@linux.ie, so Mailman should be catching this and stopping it.
+> Not sending confirms or whatever, just dropping the mail on the floor.
+>
+> Cheers,
+> Waider.
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

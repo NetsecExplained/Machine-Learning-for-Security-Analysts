@@ -1,0 +1,26 @@
+Why does /dev/rtc0 belong to group audio in Lenny but not in Sid?In Lenny, "ls -ld /dev/audio" gives
+
+> lenny:~$ ls -ld /dev/rtc0
+> crw-rw---- 1 root audio 254, 0 May  2 15:25 /dev/rtc0
+>
+
+
+But in Sid, it gives
+
+> sid:~$ ls -ld /dev/rtc0
+> crw-rw---- 1 root root 254, 0 May 10 23:51 /dev/rtc0
+>
+
+Anybody know why?
+
+Thanks!
+
+Rick
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AC045FBC-F572-4D9E-967B-67660214AA82@cs.rutgers.edu
+
+

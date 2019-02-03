@@ -1,0 +1,48 @@
+Re: [SAtalk] Highest-scoring false positiveLike an alias for each list that points to the nonspamtrap address.
+
+J
+
+
+At 10:50 AM -0700 8/22/02, Craig R.Hughes wrote:
+>Are you filtering the nonspamtrap for spam when those newsletters 
+>sold your address to someone you didn't sign up with?  You should 
+>probably manually verify that all the mail in the trap is in fact 
+>nonspam!
+>
+>C
+>
+>On Thursday, August 22, 2002, at 07:59  AM, Justin Mason wrote:
+>
+>>
+>>Justin Shore said:
+>>
+>>>I just ran across a false positive that scored 8.6.  The message was
+>>>a solicited ad from Apple.com on educator deals.  I can send a copy
+>>>if anyone wants it.
+>>
+>>Yes, please do send it on, and I'll add it to the non-spam corpus.
+>>
+>>To date, the scores evolved by SpamAssassin are very biased towards
+>>non-HTML, non-newsletter-ish mail.  This release should be different, as
+>>I've been spending the last month signing up a "nonspamtrap" to every
+>>legit newsletter I can find ;)
+>>
+>>This should mean that tests which match common-enough newsletter practices
+>>will no longer get such high scores once we re-run the GA.
+
+-- 
+
+--
+Justin Shore, ES-SS ES-SSR                Pittsburg State University
+Network & Systems Manager                 http://www.pittstate.edu/ois/
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

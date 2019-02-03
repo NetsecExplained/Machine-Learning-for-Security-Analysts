@@ -1,0 +1,58 @@
+Re: [SAtalk] O.T. Habeus -- Why?Dan Kohn  writes:
+
+> Guys, the Habeas Infringers List (HIL) exists explicitly to deal with
+> spammers while we're getting judgments against them and especially in
+> other countries, where those judgments are harder to get.
+
+My concern doesn't stem from failing to understand how your business is
+intended to work.  My concern is the lack of empirical evidence that it
+will reduce the amount of uncaught spam.
+
+> Please note that nobody has ever had an incentive before to go after
+> regular spammers.  Yes, some attorneys general have prosecuted blatant
+> pyramid schemes, and ISPs have won some theft of service suits, but
+> the vast majority of spammers go forward with out any legal hassles.
+> So, I can't understand how Daniel can assert that you can't track
+> spammers down when it's never really been tried.
+
+Please don't misquote me.  I did not assert that you "can't track
+spammers".  Here is what I said:
+
+| It will be difficult to find, prosecute, and win money from someone in
+| various non-friendly countries where spam originates (China is a good
+| example) even if they do officially "respect" copyright law.
+
+I understand the incentive that you have to pursue spammers, but that
+does not directly translate to less spam being sent to my inbox.  It is
+an indirect effect and the magnitude of the effect may not be sufficient
+to counteract the ease with which a -20 score on the mark allows spam to
+avoid being tagged as spam.
+
+> Daniel, it's easy enough for you to change the Habeas scores yourself
+> on your installation.  If Habeas fails to live up to its promise to
+> only license the warrant mark to non-spammers and to place all
+> violators on the HIL, then I have no doubt that Justin and Craig will
+> quickly remove us from the next release.  But, you're trying to kill
+> Habeas before it has a chance to show any promise.
+
+I think I've worked on SA enough to understand that I can localize a
+score.  I'm just not comfortable with using SpamAssassin as a vehicle
+for drumming up your business at the expense of our user base.
+
+I think it would make more sense to start Habeas with a less aggressive
+score (one which will not give spammers a quick path into everyone's
+inbox) and after we've seen evidence that the system works, then we can
+increase the magnitude of the score.
+
+Dan
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

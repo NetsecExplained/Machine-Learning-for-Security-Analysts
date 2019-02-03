@@ -1,0 +1,72 @@
+Re: 10.6 Update 2 crashing IDEA on pasting codeHi Guy,
+                The problem is caused by an NPE in the Swing =
+accessibility code when a JList subclass overrides the =
+getAccessibleContext() method and returns null. You can hit this crash =
+when using a tool that scans the IntelliJ UI using the Accessibility =
+API. We believe we have a fix for it, but as a workaround if you avoid =
+using tools that use Accessibility with IntelliJ, you can avoid the =
+crash.
+
+Thanks,
+Bino George,
+Java Runtime Engineer,
+Apple Inc.
+
+
+
+On May 25, 2010, at 8:29 AM, Guy Gascoigne-Piggford wrote:
+
+> Is there any update on this?  I use Idea all day and every day so this
+> is a complete blocker to me upgrading.
+>=20
+> Is there any way for anyone other than the bug reporter to see the
+> status of a specific bug?  Apple's bug parade doesn't appear to be as
+> open as say Sun's was.
+>=20
+> Guy
+>=20
+> On Wed, May 19, 2010 at 11:06 PM, Phillip Ashworth =
+ wrote:
+>> Thanks - I've filed bug report ID: 8002471
+>> I've discovered that the crash occurs when the pasted code includes =
+class name that are not already imported in the current document, IDEA =
+then pops-up a window to select the class to import and crashes =
+instantly and every time.
+>> I've not got any screen reader or accessibility software running but =
+I do have LaunchBar and TextExpander.. not sure if these count.
+>> -Phill
+>>=20
+>>=20
+>> On 20/mag/2010, at 07.07, Bino George wrote:
+>>=20
+>>> Hi Phillip,
+>>>                    Can you please file a bug at =
+http://bugreporter.apple.com with the crash log attached to it ? I tried =
+to reproduce this myself but could not, can you also include the exact =
+steps to reproduce. Please mention any screen readers or other =
+Accessibility tools you may have running.
+>>>=20
+>>> Thanks,
+>>> Bino George,
+>>> Java Runtime Engineer,
+>>> Apple Inc.
+>>>=20
+>>> On May 19, 2010, at 9:15 PM, Phillip Ashworth wrote:
+>>>=20
+>>>> Since updating to 10.6 Update 2 Intellij IDEA crashes when I paste =
+code from one class into another in the main editor - see exception =
+below.
+>>>> JetBrains support say this is an Apple problem, anything I can do =
+about it or is it a bug in this java version?
+>>>>=20
+>>>> Regards
+>>>> Phill
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

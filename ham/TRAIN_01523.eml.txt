@@ -1,0 +1,56 @@
+Re: usb raid1 pendrive bootOn Friday 07 May 2010 08:22:00 deloptes wrote:
+> Jozsi Vadkan wrote:
+> > Did anyone managed to boot from RAID1?
+> >
+> > Lenny gives this error message:
+> >
+> > "mdadm: no devices found for /dev/md0"
+> >
+
+> You'll need a small i.e. 20-30MB partition out of raid to boot from with
+> i.e. initrd which loads the md driver and your raid device becomes visible.
+
+  Just for the record, it actually *is* possible to boot off a partition
+that's in RAID1, but you might have to use grub.  The reason it works
+is because grub can read past the md-raid1 metadata without getting
+confused -- since the raid is not running when grub is looking at the
+disks, it only sees one of the two, but since they're mirrored, and
+since grub doesn't *write* to the partition, everything works.
+
+  I have several production systems that do this.
+
+  It's a bit complicated to set up, but generally, it goes
+something like:
+
+  - Install a basic system onto one drive, with the correct
+      size of partition (call this /dev/sda1).
+  - Set up an "incomplete" RAID1 array, with one device and
+      one missing, with the second drive -- this is /dev/md0,
+      consisting of /dev/sdb1 and an empty slot.
+  - Configure /etc/mdadm/mdadm.conf, and re-build your initramfs
+      so that it has the md modules and knows about the array.
+  - Mount /dev/md0 somewhere and copy all the data off /dev/sda1 to it.
+      It's very important to get the *new* initramfs onto the array.
+  - Install grub in the bootloader of the 2nd drive. (The installer
+      already did this for the first one). This actually isn't
+      essential, but you may need it if/when /dev/sda fails.
+  - Boot on to the incomplete RAID array -- root=/dev/md0.
+  - Add /dev/sda1 to the array, and sync.
+
+  Now you have a bootable software raid-1 system.
+
+  I'm not saying this solves the OP's problem, necessarily,
+but it's perfectly possible.  I've never tried it with LILO
+or grub2, but I would think it would work.
+
+                                -- A.
+-- 
+Andrew Reid / reidac@bellatlantic.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005071303.20994.reidac@bellatlantic.net
+
+

@@ -1,0 +1,38 @@
+Re: Flash is open?On Fri, 14 May 2010 04:12:03 -0500, Ron Johnson wrote:
+
+> On 05/14/2010 02:42 AM, Camaleón wrote:
+
+>> Then, there must be an error in Wikipedia "Adobe Flash¹" page.
+> 
+> Not at all.
+> 
+>> It says: "Licence: Proprietary EULA">:-)
+>>
+>> ¹ http://en.wikipedia.org/wiki/Adobe_Flash
+>>
+>>
+> You seems to be conflating 3 different entities: 
+> 1. Adobe Flash 
+> 2. Adobe Flash Player
+> 3. SWF file format
+
+AFAIK:
+
+#1 As per Wikipedia → Licence: Proprietary EULA (it can be wrong, though)
+#2 Adobe Flash Player is closed source, non freely distributable, etc...
+#3 Falls into #1 (is just a "container")
+
+So, what is the current status of Flash technology, which license uses...?
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.14.09.32.06@csmining.org
+
+

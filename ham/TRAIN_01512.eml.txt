@@ -1,0 +1,39 @@
+Re: Migrate OS to smaller drive?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Eduardo M KALINOWSKI wrote:
+>>> mount the new device (mount -odev /dev/newdevice), and do a
+>>>   rsync -ax / /media/newdevice.
+>>>      
+>> What exactly is the advantage of this approach over "cp -a" or "mv"?
+>>    
+> 
+> Over mv? That you keep the original files.
+
+Of course. But in this case the OP said "migrate".
+
+> Over cp? That you can resume from where you left off in case the
+> transfer is stopped for any reason.
+
+Useful point. With cp you'd have to start over.
+
+What are the disadvantages of rsync? E.g., doesn't it compress and
+decompress everything, hence hogging the CPU and possibly slowing transfers?
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iEYEARECAAYFAkvBzscACgkQ+VSRxYk4409N6QCg2H+F4XhpS/eRmSUaxiFAZG5v
+nNUAoL1+BijzOvhecWOzULmWvIBJ2Nyb
+=FU3d
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BC1CEC7.7030909@web.de
+
+

@@ -1,0 +1,40 @@
+Re: alsa-driver.spec tweak for homemade kernelsOn Wed, Oct 02, 2002 at 10:45:04PM +0200, Matthias Saou wrote:
+> > So I've attached a patch to specify an alternate kernel by setting the
+> > "TARGET_KERNEL" environment variable before running rpmbuild. You
+> > still need to have the rpm for the specified kernel installed, but at
+> > least it doesn't have to be currently running. It's kinda hackish, so
+> > if someone has a better way to do this, let me know.
+> 
+> That idea looks good although it maybe needs to be tweaked a bit more (what
+> you sent doesn't support packages named "kernel-smp"). I'd also prefer a
+> cleaner way than the env variable, and preferrably not editing the spec...
+> probably "--define 'target 2.4.xx-xx' --with smp". Sound good enough?
+> The BuildRequires on "kernel-source" will also need to be removed because
+> it won't necessarily need to be true, and that does bug me a bit :-/
+
+The "--define" is exactly what I was looking for! I was trying to
+figure out a way to do it within the mechanism of rpm (like the
+"--with" switches), but for some reason didn't think of using
+"--define". My computer is currently gone for repairs, but once it's
+back, I'll rewrite the specfile, add support for kernel-smp, and email
+it to the list for further criticism :)
+
+As far as requiring kernel-source, I don't feel it's a big problem. If
+you're gonna go to the trouble of packaging custom kernels into rpms,
+it's not a far stretch to package the source tree too (as I currently
+do).
+
+Also, I've found that the alsa-driver source needs a usb-related patch 
+to compile under the latest test kernels (2.4.20-preX). Are other 
+people seeing the same thing, or is this just a problem with my setup?
+
+gary
+
+P.S. If I didn't mention it before, thanks for the alsa packages! They 
+greatly simplified what used to take way too long before.
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,13 @@
+Shader Integration: Merging Shading Technologies on the Nintendo
+    GamecubeURL: http://www.newsisfree.com/click/-0,8613661,159/
+Date: 2002-10-06T18:12:59+01:00
+
+Rendering polygons is not as easy as it used to be, the reason being the vast 
+amount of different rendering techniques, methods and algorithms available. Not 
+only is choosing the right ones a problem, even worse, all that are selected 
+need to work together. There are some algorithms which simply do not work 
+together, and in that case, only one may be used whilt the other one needs to 
+be replaced witha more compatible method. This feature explores how Factor 5 
+approached the problem when developing Rogue Leader for Gamecube.
+
+

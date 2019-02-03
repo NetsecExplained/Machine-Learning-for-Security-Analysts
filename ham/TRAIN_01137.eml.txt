@@ -1,0 +1,26 @@
+Re: [volatile] Updated clamav-related packages available fortestingOn Thu, Apr 15, 2010 at 12:52:47PM -0700, Jason Self wrote:
+> Kurt Roeckx  wrote ..
+>  
+> > What does this mean exactly?
+> 
+> It means that versions older than 0.95 will be remotely disabled by the ClamAV 
+> folks once your copy of ClamAV gets the CVD update that includes what I like to 
+> call the special "self-destruct" code. :)
+> 
+> It means that you need to be running least version 0.95 of ClamAV, and 
+> preferably always the latest & greatest version, to be protected. Outdated anti-
+> virus software is not effective.
+
+I forgot about DSA 1906 in october which basicly already announced
+it.
+
+
+Kurt
+
+
+-- 
+To UNSUBSCRIBE, email to debian-security-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415201641.GA837@roeckx.be
+
+

@@ -1,0 +1,49 @@
+Re: PDF grief - was Re: Flash is open?From nobody Sun Sep 18 20:45:33 2016
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Hello John A. Sullivan III,
+
+Am 2010-05-14 15:43:09, hacktest Du folgendes herunter:
+> Yes, exactly.  We are hoping that, as we build our business and become
+> cash positive, a part of our profits can be used to shore up those areas
+> where FOSS is still weak as a desktop solution.  We have just put out
+> and received a response to our first bounty for fixing Kontact in KDE
+> 3.5 so it is robust enough for Enterprise use and integration with
+> Zimbra.  A viable PDF editor is high on our list - John
+
+Hahaha...  Who want to use this KDE crap?
+
+On my test Workstation I had to install over 400 MByte of KDE crap  even
+if I do not use KDE...  KDE and GNOME are the  most  unreliable  Desktop
+Envirement ever coded.
+
+I can not even run some progams on my ARM  Workstation which is based on
+the "Marvel Armada 300" with 2 GHz and 1 GByte of memory du to a  memory
+problem with KDE.
+
+Thanks, Greetings and nice Day/Evening
+    Michelle Konzack
+    Systemadministrator
+
+--=20
+##################### Debian GNU/Linux Consultant ######################
+   Development of Intranet and Embedded Systems with Debian GNU/Linux
+
+itsystems@tdnet France EURL       itsystems@tdnet UG (limited liability)
+Owner Michelle Konzack            Owner Michelle Konzack
+
+Apt. 917 (homeoffice)
+50, rue de Soultz                 Kinzigstra=DFe 17
+67100 Strasbourg/France           77694 Kehl/Germany
+Tel: +33-6-61925193 mobil         Tel: +49-177-9351947 mobil
+Tel: +33-9-52705884 fix
+
+ 
+ 
+
+Jabber linux4michelle@jabber.ccc.de
+ICQ    #328449886
+
+Linux-User #280138 with the Linux Counter, http://counter.li.org/

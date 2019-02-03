@@ -1,0 +1,29 @@
+Re: Realtek ethernet (was Re: recent mobo recommendation)On Thu, 15 Apr 2010 00:59:50 -0500
+Stan Hoeppner  wrote:
+
+> briand@aracnet.com put forth on 4/15/2010 12:08 AM:
+> 
+> > And .32-trunk is the running kernel, has been for some time, and
+> > I've rebooted several times.
+> 
+> Did up aptitude upgrade to the .32-trunk kernel or is your .32-trunk
+> kernel what resulted from a fresh install?  Also, what architecture
+> is your kernel? Most, if not all, of the commenters in the bug were
+> using amd64 kernels.
+> 
+
+Intel Atom 
+
+I have an AMD64 also, but it is an NVIDIA based ethernet.
+
+I'm relatively certain it's an upgrade kernel, but I'm not positive.
+
+Brian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100415071301.17b13eb6@windy.deldotd.com
+
+

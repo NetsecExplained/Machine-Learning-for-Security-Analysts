@@ -1,0 +1,306 @@
+[SACVS] CVS: spamassassin configure,1.1.2.1,1.1.2.2
+    configure.in,1.1.2.1,1.1.2.2Update of /cvsroot/spamassassin/spamassassin
+In directory usw-pr-cvs1:/tmp/cvs-serv15398
+
+Modified Files:
+      Tag: b2_4_0
+	configure configure.in 
+Log Message:
+NetBSD support patch from Klaus Heinz, bug 785
+
+Index: configure
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/configure,v
+retrieving revision 1.1.2.1
+retrieving revision 1.1.2.2
+diff -b -w -u -d -r1.1.2.1 -r1.1.2.2
+--- configure	27 Aug 2002 23:07:13 -0000	1.1.2.1
++++ configure	28 Aug 2002 23:29:04 -0000	1.1.2.2
+@@ -1273,18 +1273,22 @@
+                  cat > conftest.$ac_ext <
+ #include 
++int main() {
++printf ("%d", SHUT_RD); return 0;
++; return 0; }
+ EOF
+-if (eval "$ac_cpp conftest.$ac_ext") 2>&5 |
+-  egrep "SHUT_RD" >/dev/null 2>&1; then
++if { (eval echo configure:1283: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+   rm -rf conftest*
+   shutrd=yes
+ else
++  echo "configure: failed program was:" >&5
++  cat conftest.$ac_ext >&5
+   rm -rf conftest*
+   shutrd=no
+ fi
+-rm -f conftest*
+-
++rm -f conftest*,
+        
+ fi
+ 
+@@ -1298,7 +1302,7 @@
+ 
+ 
+ echo $ac_n "checking for socket in -lsocket""... $ac_c" 1>&6
+-echo "configure:1302: checking for socket in -lsocket" >&5
++echo "configure:1306: checking for socket in -lsocket" >&5
+ ac_lib_var=`echo socket'_'socket | sed 'y%./+-%__p_%'`
+ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+@@ -1306,7 +1310,7 @@
+   ac_save_LIBS="$LIBS"
+ LIBS="-lsocket  $LIBS"
+ cat > conftest.$ac_ext <&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
++if { (eval echo configure:1325: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
+   rm -rf conftest*
+   eval "ac_cv_lib_$ac_lib_var=yes"
+ else
+@@ -1345,7 +1349,7 @@
+ fi
+ 
+ echo $ac_n "checking for connect in -linet""... $ac_c" 1>&6
+-echo "configure:1349: checking for connect in -linet" >&5
++echo "configure:1353: checking for connect in -linet" >&5
+ ac_lib_var=`echo inet'_'connect | sed 'y%./+-%__p_%'`
+ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+@@ -1353,7 +1357,7 @@
+   ac_save_LIBS="$LIBS"
+ LIBS="-linet  $LIBS"
+ cat > conftest.$ac_ext <&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
++if { (eval echo configure:1372: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
+   rm -rf conftest*
+   eval "ac_cv_lib_$ac_lib_var=yes"
+ else
+@@ -1392,7 +1396,7 @@
+ fi
+ 
+ echo $ac_n "checking for t_accept in -lnsl""... $ac_c" 1>&6
+-echo "configure:1396: checking for t_accept in -lnsl" >&5
++echo "configure:1400: checking for t_accept in -lnsl" >&5
+ ac_lib_var=`echo nsl'_'t_accept | sed 'y%./+-%__p_%'`
+ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+@@ -1400,7 +1404,7 @@
+   ac_save_LIBS="$LIBS"
+ LIBS="-lnsl  $LIBS"
+ cat > conftest.$ac_ext <&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
++if { (eval echo configure:1419: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
+   rm -rf conftest*
+   eval "ac_cv_lib_$ac_lib_var=yes"
+ else
+@@ -1439,7 +1443,7 @@
+ fi
+ 
+ echo $ac_n "checking for dlopen in -ldl""... $ac_c" 1>&6
+-echo "configure:1443: checking for dlopen in -ldl" >&5
++echo "configure:1447: checking for dlopen in -ldl" >&5
+ ac_lib_var=`echo dl'_'dlopen | sed 'y%./+-%__p_%'`
+ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+@@ -1447,7 +1451,7 @@
+   ac_save_LIBS="$LIBS"
+ LIBS="-ldl  $LIBS"
+ cat > conftest.$ac_ext <&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
++if { (eval echo configure:1466: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
+   rm -rf conftest*
+   eval "ac_cv_lib_$ac_lib_var=yes"
+ else
+@@ -1489,12 +1493,12 @@
+ for ac_func in socket strdup strtod strtol snprintf shutdown
+ do
+ echo $ac_n "checking for $ac_func""... $ac_c" 1>&6
+-echo "configure:1493: checking for $ac_func" >&5
++echo "configure:1497: checking for $ac_func" >&5
+ if eval "test \"`echo '$''{'ac_cv_func_$ac_func'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   cat > conftest.$ac_ext <&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
++if { (eval echo configure:1525: \"$ac_link\") 1>&5; (eval $ac_link) 2>&5; } && test -s conftest${ac_exeext}; then
+   rm -rf conftest*
+   eval "ac_cv_func_$ac_func=yes"
+ else
+@@ -1544,20 +1548,20 @@
+ 
+ 
+ echo $ac_n "checking for h_errno""... $ac_c" 1>&6
+-echo "configure:1548: checking for h_errno" >&5
++echo "configure:1552: checking for h_errno" >&5
+ if eval "test \"`echo '$''{'herrno'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   
+                 cat > conftest.$ac_ext <
+ int main() {
+ printf ("%d", h_errno); return 0;
+ ; return 0; }
+ EOF
+-if { (eval echo configure:1561: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
++if { (eval echo configure:1565: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+   rm -rf conftest*
+   herrno=yes
+ else
+@@ -1580,20 +1584,20 @@
+ 
+ 
+ echo $ac_n "checking for optarg""... $ac_c" 1>&6
+-echo "configure:1584: checking for optarg" >&5
++echo "configure:1588: checking for optarg" >&5
+ if eval "test \"`echo '$''{'haveoptarg'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   
+                 cat > conftest.$ac_ext <
+ int main() {
+ if (optarg == (char *) 0L) { return 0; } return 1;
+ ; return 0; }
+ EOF
+-if { (eval echo configure:1597: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
++if { (eval echo configure:1601: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+   rm -rf conftest*
+   haveoptarg=yes
+ else
+@@ -1616,20 +1620,21 @@
+ 
+ 
+ echo $ac_n "checking for in_addr_t""... $ac_c" 1>&6
+-echo "configure:1620: checking for in_addr_t" >&5
++echo "configure:1624: checking for in_addr_t" >&5
+ if eval "test \"`echo '$''{'inaddrt'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   
+                 cat > conftest.$ac_ext <
+ #include 
+ int main() {
+ in_addr_t foo; return 0;
+ ; return 0; }
+ EOF
+-if { (eval echo configure:1633: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
++if { (eval echo configure:1638: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+   rm -rf conftest*
+   inaddrt=yes
+ else
+@@ -1645,12 +1650,12 @@
+ echo "$ac_t""$inaddrt" 1>&6
+ if test $inaddrt = no ; then
+   echo $ac_n "checking for in_addr_t""... $ac_c" 1>&6
+-echo "configure:1649: checking for in_addr_t" >&5
++echo "configure:1654: checking for in_addr_t" >&5
+ if eval "test \"`echo '$''{'ac_cv_type_in_addr_t'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   cat > conftest.$ac_ext <
+ #if STDC_HEADERS
+@@ -1681,20 +1686,21 @@
+ 
+ 
+ echo $ac_n "checking for INADDR_NONE""... $ac_c" 1>&6
+-echo "configure:1685: checking for INADDR_NONE" >&5
++echo "configure:1690: checking for INADDR_NONE" >&5
+ if eval "test \"`echo '$''{'haveinaddrnone'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   
+                 cat > conftest.$ac_ext <
+ #include 
+ int main() {
+ in_addr_t foo = INADDR_NONE; return 0;
+ ; return 0; }
+ EOF
+-if { (eval echo configure:1698: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
++if { (eval echo configure:1704: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+   rm -rf conftest*
+   haveinaddrnone=yes
+ else
+@@ -1717,20 +1723,23 @@
+ 
+ 
+ echo $ac_n "checking for EX__MAX""... $ac_c" 1>&6
+-echo "configure:1721: checking for EX__MAX" >&5
++echo "configure:1727: checking for EX__MAX" >&5
+ if eval "test \"`echo '$''{'haveexmax'+set}'`\" = set"; then
+   echo $ac_n "(cached) $ac_c" 1>&6
+ else
+   
+                 cat > conftest.$ac_ext <
++#endif
+ #include 
+ int main() {
+ int foo = EX__MAX; return 0;
+ ; return 0; }
+ EOF
+-if { (eval echo configure:1734: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
++if { (eval echo configure:1743: \"$ac_compile\") 1>&5; (eval $ac_compile) 2>&5; }; then
+   rm -rf conftest*
+   haveexmax=yes
+ else
+
+Index: configure.in
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/configure.in,v
+retrieving revision 1.1.2.1
+retrieving revision 1.1.2.2
+diff -b -w -u -d -r1.1.2.1 -r1.1.2.2
+--- configure.in	27 Aug 2002 23:07:13 -0000	1.1.2.1
++++ configure.in	28 Aug 2002 23:29:04 -0000	1.1.2.2
+@@ -26,9 +26,11 @@
+ 
+ AC_CACHE_CHECK([for SHUT_RD],
+        shutrd, [
+-                 AC_EGREP_HEADER(SHUT_RD, sys/socket.h,
++                AC_TRY_COMPILE([#include 
++#include ],
++                        [printf ("%d", SHUT_RD); return 0;],
+                                         [shutrd=yes],
+-                                        [shutrd=no])
++                                        [shutrd=no]),
+        ])
+ if test $shutrd = yes ; then
+   AC_DEFINE(HAVE_SHUT_RD)
+@@ -73,7 +75,8 @@
+ 
+ AC_CACHE_CHECK([for in_addr_t],
+         inaddrt, [
+-                AC_TRY_COMPILE([#include ],
++                AC_TRY_COMPILE([#include 
++#include ],
+                         [in_addr_t foo; return 0;],
+                                         [inaddrt=yes],
+                                         [inaddrt=no]),
+@@ -86,7 +89,8 @@
+ 
+ AC_CACHE_CHECK([for INADDR_NONE],
+         haveinaddrnone, [
+-                AC_TRY_COMPILE([#include ],
++                AC_TRY_COMPILE([#include 
++#include ],
+                         [in_addr_t foo = INADDR_NONE; return 0;],
+                                         [haveinaddrnone=yes],
+                                         [haveinaddrnone=no]),
+@@ -99,7 +103,10 @@
+ 
+ AC_CACHE_CHECK([for EX__MAX],
+         haveexmax, [
+-                AC_TRY_COMPILE([#include ],
++                AC_TRY_COMPILE([#ifdef HAVE_SYSEXITS_H
++#include 
++#endif
++#include ],
+                         [int foo = EX__MAX; return 0;],
+                                         [haveexmax=yes],
+                                         [haveexmax=no]),
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

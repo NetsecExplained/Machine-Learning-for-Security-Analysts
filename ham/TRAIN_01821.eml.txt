@@ -1,0 +1,16 @@
+Re: lenny-volatile updates for clamav-related packagesFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+> As a Debian Maintainer, I can't upload to Volatile. The current Klamav from Testing should work fine if someone cares to upload it.
+>
+
+[...]
+
+Scott, we'll need to bump the version number; if you keep the package in some
+VCS it might make sense if you prepare an updated package; otherwise I can take
+care of that.
+
+Best,
+Michael
+

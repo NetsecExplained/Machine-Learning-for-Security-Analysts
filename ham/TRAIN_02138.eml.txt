@@ -1,0 +1,30 @@
+Re: Making onscreen fonts read-able[was:New monitor, how to change 
+	screen resolution?]On Thu, 29 Apr 2010 21:46:31 +0200, James Stuckey wrote:
+
+>> > I don't use gnome or KDE.
+>>
+>> And what DE (if any) are you using? :-)
+>>
+> I'm using wmii
+
+Uh... and how does one change DPI settings in that :-)?
+
+You could try running:
+
+xrandr --dpi 96
+
+Or if you have installed nvidia control panel application, IIRC you can 
+also change it from there.
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.04.29.20.03.03@csmining.org
+
+

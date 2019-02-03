@@ -1,0 +1,57 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sun Sep 18 20:45:27 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Am Donnerstag 06 Mai 2010 schrieb Boyd Stephen Smith Jr.:
+> On Wednesday 05 May 2010 17:58:09 Modestas Vainius wrote:
+> > Hello,
+> >=20
+> > On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 01:54:06 Boyd Stephen Smith =
+Jr.=20
+wrote:
+> > > I'm still using kmail/kontact/etc. (basically kdepim) from 4.3
+> > > since I have no desire to run yet another RDBMS on my system.  (I
+> > > already run PostgreSQL, and have a number of apps that use SQLite
+> > > installed.)
+> >=20
+> > ...
+> >=20
+> > > Okay, ending this email here, because thinking about a stable
+> > > Debian that includes KDEPIM 4.4 angers and saddens me.
+> >=20
+> > How many users have postgres installed on their desktop? Do you
+> > complain
+> >=20
+> >  just because `ps aux | grep mysqld` returns something and you can't
+> >  stand it or you have any real issues with it?
+>=20
+> I have real issues with having to spare the disk space and RAM on my
+> laptop for it.  PostgreSQL is for work; I don't get much choice about
+> running that.
+>=20
+> I also have a history with MySQL and I *do* *not* *trust* it with my
+> data. UPS or not.  My email is fairly important for me -- I am
+> probably in KMail only slightly less than I am in a source code
+> editor.  When I'm testing or deploying updates, I spend *more* time in
+> KMail.
+
+KMail doesn't use Akonadi at all in KDE 4.4. It might use Akonadi in KDE=20
+4.5. The only thing using Akonadi by default in KDE 4.4 is the new=20
+KAddressBook. AFAIK.
+
+So KDE 4.5 might even be more problematic in the beginning. Especially=20
+when I remember the roughnesses of KDE 4.3.0 and KDE 4.4.0 I do not=20
+suggest to ship a .0 or even .1 release of KDE. Even KDE 4.4.2 had quite=20
+some bugs that KDE 4.4.3 fixed.
+
+So shipping KDE 4.4.3 or 4.4.4 oder 4.4.5 IMHO could well be a better=20
+option that to ship KDE 4.5.0 with Debian Squeeze.
+
+Sadly I have not seen any KDE 4.x.0 release yet thats really suitable for=20
+Debian Stable.
+
+Ciao,
+=2D-=20
+Martin 'Helios' Steigerwald - http://www.Lichtvoll.de
+GPG: 03B0 0D6C 0040 0710 4AFA  B82F 991B EAAC A599 84C7

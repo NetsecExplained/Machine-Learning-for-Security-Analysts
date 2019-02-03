@@ -1,0 +1,26 @@
+Re: [OT] spam-taggingFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=iso-8859-1
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Wed,05.May.10, 21:52:08, Nuno Magalh=E3es wrote:
+> Hi,
+>=20
+> An idea that just came to me... With all the (small amounts of,
+> granted,) spam that has been coming through the list, would there be a
+> feasible way for uses to reply to spam-messages to the list with some
+> sort of tag, so that those would be tagged as spam asap? I.e. one
+> receives spam, one replies to it (to the list) with a string like
+> "SPAM DEBIAN@LIST" or whatever, and after a few hits of those the
+> mailer or whatever would tag that message as spam.
+
+See=20
+http://wiki.debian.org/Teams/ListMaster/ListArchiveSpam#MethodstoNominateSp=
+amfortheReview-Process
+
+Regards,
+Andrei
+P.S. Why do think this is off-topic?
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

@@ -1,0 +1,45 @@
+Re: how to uninstall java preview?On 07/04/2010 19:48, Gabriele Kahlout wrote:
+> I'll be even more thankful now, if you guys may report to me if an error is
+> encountered just launching this (you need to choose an installation
+> directory, and after doing so the error could appear):
+>> https://sourceforge.net/projects/memorizeasy/
+
+Yes an error occurs.
+/Users/sam/crap2/Desktop/MemorizEasy/derby.properties (no such file or
+directory).
+
+It's a correct error too. Using the install dialog I tried to make
+folder ~/Desktop/crap2, but maybe messed up (that dialog is horrid)
+because it's actually created a folder ~/crap2. Which is empty, and note
+this isn't ~/crap2/Desktop as in the error message above. So it's
+looking in the wrong place.
+
+By the way that install dialog is REALLY horrible. :) Especially that
+you're just thrown into it. I hope you can remove the install process.
+You could make it into a .dmg-distributed .app-bundle for Mac users
+instead of WebStart at all, which would be nice.
+
+WebStart can be ok too, but please make it really be WebStart, ie let
+Java manage where the program files are stored. Either way, there's no
+need to make users select a folder for user data either - you can
+automatically store any user data files somewhere reasonable like
+~/Library/Application Support/yourapp on Mac, the equivalent Application
+Data folder on Windows, and ~/.AppName on other platforms.
+
+Either 'normal WebStart' or '.app bundle in DMG' would give you an app
+that requires no configuration or installation process, making it much
+easier/less scary for users to install and try out your app. Would
+probably also sidestep this platform bug (?). :)
+
+--sam
+
+PS If it wasn't clear, I haven't installed the developer preview yet, so
+still on 1.6.0_17... really need to do that soon.
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

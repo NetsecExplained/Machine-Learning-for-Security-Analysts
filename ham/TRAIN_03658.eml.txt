@@ -1,0 +1,67 @@
+Re: Automounting problems.On Wed, May 12, 2010 at 01:30:40PM -0700, Bob McGowan wrote:
+> On 05/12/2010 02:55 AM, Chris Bannister wrote:
+> > On Tue, May 11, 2010 at 10:54:47PM -0700, Marc Shapiro wrote:
+> >> I am now slapping myself on the head for being so STUPID!  Automount is 
+> >> working just fine, and has been all along.  Automount does its thing as 
+> >> soon as a device is ACCESSED, not plugged in.  I was plugging the flash 
+> >> drives in and looking in /mnt to see if they were showing up.  The 
+> >> weren't.  The weren't supposed to, either.  As soon as I executed "ls 
+> >> /mnt/lexar" lo and behold, there was the listing and everything was 
+> >> working just fine.
+> >>
+> >> I think I'll slap myself on the head, again.
+> > 
+> > Not so fast! :) How are you supposed to access them if you don't know
+> > what they will be labelled as?
+> > 
+> > What does "ls /mnt/" do?
+> > 
+> > Are you supposed to carry round a scrap of paper with the mount labels
+> > written down?
+> > 
+> 
+> No...
+> 
+> Generally, you set up an auto.xxx file to create a mount point in some
+> specific directory that is not /media.  For example, with xxx being 'usb':
+> 
+>  auto.usb: zodiac -fstype=vfat,rw,user,noauto,gid=backup,umask=002 \
+>            :/dev/disk/by-id/usb-ROCKCHIP_USB_MP3_USBV1.00
+> 
+> And auto.master:
+> 
+>  /var/autofs/usb /etc/auto.usb --timeout=###
+> 
+> This setup associates the auto.usb file with /var/autofs/usb and the
+> device identified by the id with the name zodiac.  The timeout should be
+> set to some convenient value.
+> 
+> So, automount will mount that device on /var/autofs/usb/zodiac, when it
+> is accessed.
+> 
+
+It should be noted that the  --ghost option of automount will create
+an appropriate "ghost" directory for the device's mount point. For the
+above auto.master stanza you could use:
+  /var/autofs/usb /etc/auto.usb --timeout=### --ghost
+
+This can lead to a cluttered /var/autofs/usb directory, however,
+unless you do some udev-based scripting to manage things on the fly.
+
+dt
+  
+
+
+-- 
+Dave Thayer           | Whenever you read a good book, it's like the 
+Denver, Colorado USA  | author is right there, in the room talking to 
+dave@thayer-boyle.com | you, which is why I don't like to read 
+                      | good books. - Jack Handey "Deep Thoughts"
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100513033544.GA9530@thayer-boyle.com
+
+

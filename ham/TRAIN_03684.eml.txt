@@ -1,0 +1,56 @@
+RE: Amarok's Issues
+
+-----Original Message-----
+From: Marcus Better [mailto:marcus@better.se] 
+Sent: maandag 12 april 2010 14:23
+To: debian-kde@lists.debian.org
+Subject: Re: Amarok's Issues
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Edson Marquezani Filho wrote:
+
+> I would like to know if people here have the same problems with Amarok
+> (Squeeze's version of it), as I do. I haven't looked for bugs filled
+> about it yet, but these issues have been annoying for time enough to
+> put me wondering if I'am the only who has been facing them.
+
+I've had other weird problems with the collection (like missing albums) 
+after an upgrade of Amarok. This was due to database corruption, and the fix
+
+was to nuke the database (somewhere under ~/.kde).
+
+Cheers,
+
+Marcus
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkvDEKQACgkQXjXn6TzcAQleVgCfe1FbgnBz+meuuveGGHaHwWmW
+YzUAoIgxPWIrzc+8FcrKwu42+jb6RHbN
+=Uo2C
+-----END PGP SIGNATURE-----
+
+I do run with an external MySQL database.
+
+Cheers,
+
+Robert
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact
+listmaster@lists.debian.org
+Archive: http://lists.debian.org/hpv3bl$fjp$1@dough.gmane.org
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/BAY110-DS169B20CF8BCA0A85EC138387120@phx.gbl
+
+

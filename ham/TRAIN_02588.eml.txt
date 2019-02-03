@@ -1,0 +1,46 @@
+Re: [Razor-users] empty mail is spamm?Razor won't filter empty emails. What version of the agents are you using?
+
+cheers,
+vipul.
+
+On Mon, Sep 16, 2002 at 04:16:31PM +0300, Raido Kurel wrote:
+> Hi,
+> 
+> Is it possible to use razor without filtering empty mails as spamm?
+> An mail with an attachment is considered spamm. Is this normal?
+> Or I mysqlf like to send emails to myself where all important is said in
+> subject and body is empty (for remaining smth).
+> 
+> Thanks,
+> Raido Kurel
+> 
+> 
+> 
+> 
+> -------------------------------------------------------
+> This sf.net email is sponsored by:ThinkGeek
+> Welcome to geek heaven.
+> http://thinkgeek.com/sf
+> _______________________________________________
+> Razor-users mailing list
+> Razor-users@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/razor-users
+
+-- 
+
+Vipul Ved Prakash          |   "The future is here, it's just not 
+Software Design Artist     |    widely distributed."
+http://vipul.net/          |              -- William Gibson
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

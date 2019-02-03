@@ -1,0 +1,15 @@
+Re: [ILUG] Linux InstallGianni Ponzi wrote:
+> I have a prob when trying to install Linux (tried RedHat, Suse) on my
+> laptop. I can start the install but after about 2min, the whole pc just
+> dies.
+
+Can you disable DMA and see if this makes a difference?
+
+Nick
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

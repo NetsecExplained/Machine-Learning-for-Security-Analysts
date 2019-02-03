@@ -1,0 +1,36 @@
+Re: [IIU] OCTR unlicensed band changes ...
+Does that mean that you could reach further, but you couldn't take up as 
+much bandwidth then?
+
+a.
+
+At 04:27 PM 7/26/2002 +0100, Bernie Goldbach wrote:
+>Hi,
+>
+>I believe the higher allowance nationally comes with a prescribed specific 
+>frequency constraint, so if you want 2 watts, you will have to confine 
+>yourself to a tighter limit of the open spectrum. That could affect 
+>deployments that channel-hop when they encounter degradations in signal 
+>strength.
+>
+>regards
+>Bernie Goldbach
+>::talking to signs::
+>
+>
+>_______________________________________________
+>IIU mailing list
+>IIU@iiu.taint.org
+>http://iiu.taint.org/mailman/listinfo/iiu
+
+--
+
+Antoin O Lachtnain
+**  antoin@eire.com ** http://www.eire.com ** +353-87-240-6691
+
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+
+

@@ -1,0 +1,17 @@
+Re: New Sequences WindowFrom nobody Sun Sep 18 20:45:27 2016
+Content-Type: text/plain; charset=us-ascii
+
+On Tue, 20 Aug 2002 17:27:47 CDT, Chris Garrigues   said:
+
+> For those who have other sequences defined, the window will widen to display 
+> the other sequences.  Preferences allow you to say if you want a given 
+> sequence display to never show or to always show.
+
+Ever tried to get MH to *not* have a 'pseq' sequence?  I suspect everybody's
+looking at a big box that has unseen and pseq in it.  Might want to add
+'pseq' to the 'hide by default' list....
+-- 
+				Valdis Kletnieks
+				Computer Systems Senior Engineer
+				Virginia Tech
+

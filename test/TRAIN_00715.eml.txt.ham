@@ -1,0 +1,30 @@
+Re: MotherboardsOn 05/25/2010 01:03 PM, Jean-François wrote:
+> Hello,
+>
+> I might be wrong, but I guess the exact name for your motherboard is 
+> DFI Lanparty DK p45-t2rs PLUS (as opposed to the Elite or Turbo 
+> models), which has 8 SATAII ports, and I also guess you have used the 
+> two yellow ports? If so, plug your drives in the orange ports to use 
+> the Sata controller from the ICH10R and not the JMicron JMB363 (given 
+> the vast amount of options traditionnally present in a DFI LanParty 
+> BIOS, you can probably disable the JMicron controller if you want to 
+> do so).
+>
+> The ICH10R only provides 6 SATAII ports, and the JMicron controller is 
+> there to provide 2 additionnal ports.
+>
+
+Yes, the PLUS is the correct model. I will have to look into it again, 
+but I have 3 drives so they could not all be in the two yellow ports. 
+This may also explain why fdisk lists my drives in the order: sdc, sdb, 
+sda. Running lspci -k, I don't recall seeing ata_piix at all.
+
+Thanks for the input, I will have another look tonight.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFC04C3.9090907@csmining.org
+
+

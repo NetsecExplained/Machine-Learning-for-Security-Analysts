@@ -1,0 +1,22 @@
+Re: ditching muttOn 2010-04-08 22:36, green wrote:
+[snip]
+> 
+> I am using mutt.  I had procmail set up to drop messages in different maildir 
+> boxes.  Then I switched to mailfilter.  And because it is such a pain when a 
+> new mailing list is added (or whatever), 
+
+??????
+
+It takes 30 seconds to pull up ~/.mailfilter in vim, duplicate an 
+if-block and modify it.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBEB45B.1080806@cox.net
+
+

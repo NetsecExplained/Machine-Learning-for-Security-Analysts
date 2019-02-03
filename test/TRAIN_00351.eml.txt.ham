@@ -1,0 +1,44 @@
+[SAdev] [Bug 1052] New: bondedsender.com is a scamhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=1052
+
+           Summary: bondedsender.com is a scam
+           Product: Spamassassin
+           Version: unspecified
+          Platform: Other
+               URL: http://www.bondedsender.com/
+        OS/Version: other
+            Status: NEW
+          Severity: normal
+          Priority: P2
+         Component: Rules
+        AssignedTo: spamassassin-devel@example.sourceforge.net
+        ReportedBy: friedman+spamassassin@splode.com
+
+
+The default score for bondedsender-certified domains is -10, but I do not
+believe they should be trusted and encourage you to change the default.
+
+* I have been spammed by their customers.
+* There is no documentation on their website about how I can complain about
+  this and have their customers financially penalized for sending me unsolicited
+  mail.
+* What proof do any of us have that they really even do anything about it?
+  Their contract is with their customers, not with us.
+
+This is a scam!  Don't trust them!
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

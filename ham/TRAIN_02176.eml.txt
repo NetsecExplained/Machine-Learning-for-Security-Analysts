@@ -1,0 +1,8 @@
+Re: Java is for kiddies
+>
+> 6.  Hardware is getting so fast that I'm not sure if the performance
+> difference between Java and C/C++ are relevant any more.
+
+When out-of-the-box parsing & transform of XML in java is 25x slower than
+C++ on the same hardware then it does matter.
+

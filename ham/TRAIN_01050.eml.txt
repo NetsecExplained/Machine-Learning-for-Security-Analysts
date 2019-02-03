@@ -1,0 +1,48 @@
+Re: The future of "nv" driver (was: Linux compatible mainboards -another thought)From nobody Sun Sep 18 20:45:29 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 16:34:36 Celejar wrote:
+> On Mon, 26 Apr 2010 16:16:32 -0500
+> "Boyd Stephen Smith Jr."  wrote:
+> > On Monday 26 April 2010 15:09:57 Celejar wrote:
+> > > What makes the non-free firmware question particularly interesting is
+> > > that the alternative is often to hardcode the functionality into the
+> > > hardware.  Now, if you had a board with completely closed HW, but that
+> > > presented an open, well documented interface for the driver, most
+> > > people would be very happy (although there are, of course, the open
+> > > hardware crusaders - more power to them!).  So, now that they've simp=
+ly
+> > > implemented some of that functionality in SW, in the form of firmware
+> > > which the driver installs on the card, but which has nothing to do wi=
+th
+> > > your host machine, are you really any worse off?
+> >
+> > As a distributor you may very well be.  If you can't provide the source
+> > code, you can't satisfy the terms of the GPL (usually).
+>=20
+> ?  We're talking about firmware for things like wireless cards, produced
+> by the HW manufacturers, e.g., Broadcom.  Where does the GPL enter into
+> this?
+
+Some are included in the tarball provided by the Linux kernel team, which i=
+s=20
+distributed under the GPLv2.  In particular, I am thinking of the iwl3945=20
+firmware that is required to run my wireless card.
+
+It doesn't matter what upstream wants to call source code.  The GPL(v2)=20
+defines it as the preferred form for making modifications.  (GPLv2, section=
+=20
+3.)  It is unlikely that the firmware was written in a hex editor (or=20
+equivalent).  Most likely it is C source for a freestanding (non-hosted)=20
+environment with some manufacturer-specific libraries, but it could also be=
+ in=20
+some manufacturer-specific assembly code.  Either form would be better for=
+=20
+making modifications than a binary blob.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

@@ -1,0 +1,79 @@
+Re: Problem with me Modem Huawei on Debian LennyOn 25 April 2010 04:41, Danny  wrote:
+> Hi Christian,
+>
+> It looks like Vista and Windows 7 people are experiencing the same proble=
+m as
+> you are. If you go to the www.huawei.com forum you will find a bunch of n=
+on
+> linux people have more or less the same problem with communicating with t=
+his
+> modem.
+>
+> Just a stupid question, can Debian see this modem?
+> Do the following for a start just to see if Debian can see it :
+> dmesg | more | grep --color -A1 'dev'
+>
+> It is a simple command but at least you will see if it is recognised
+>
+> Danny
+>
+> On Apr 23 10, Umarzuki Mochlis :
+>> To: Christian Simo 
+>> Date: Fri, 23 Apr 2010 23:11:41 +0800
+>> From: Umarzuki Mochlis 
+>> Subject: Re: Problem with me Modem Huawei on Debian Lenny
+>> X-Loop: debian-user@lists.debian.org
+>>
+>> i had done that once and documented it at=C2=A0http://umarzuki.org/blogk=
+u/?p=3D174
+>>
+>> P/S: use google translate to translate from Malay to English
+>>
+>> On Fri, Apr 23, 2010 at 11:06 PM, Christian Simo  wro=
+te:
+>>
+>> =C2=A0 =C2=A0 Hi Dear Team
+>>
+>> =C2=A0 =C2=A0 Please, I am new on Debian, so I try to connect my Modem H=
+uawei E1752 on
+>> =C2=A0 =C2=A0 Debian Lenny.
+>> =C2=A0 =C2=A0 On Suse, I do it easy
+>>
+>> =C2=A0 =C2=A0 Thanks for your response.
+>>
+>> =C2=A0 =C2=A0 Christian
+>>
+
+Hi,
+
+I have the Huawei E1762 usb dongle running under Lenny and Squeeze
+using pppd as were I live I have no access to dsl or cable.
+
+With Lenny you need to install the the kernel 2.6.30 from Debian
+backports[1] first, as the 2.6.28 kernels onwards will flip flop the
+device for you. At the moment it maybe just being picked up as a mass
+storage device and not a modem if you still using the 2.6.26 kernel.
+And if you want to stay with the 2.6.26 kernel you will have to
+install usb-modeswitch[3].
+
+Setting up wvdial this might help you[2].
+
+
+Regards
+Dale
+
+[1] http://backports.org/dokuwiki/doku.php
+[2] http://quail.southernvaleslug.org/webblog/archives/136
+[3] http://www.draisberghof.de/usb_modeswitch/
+--=20
+[WWW] http://quail.southernvaleslug.org/
+"The significant problems we face cannot be solved at the same level
+of thinking we were at when we created them" - Albert Einstein
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/x2g9b3004971004241956kdd1e6ab5j6bc962f52f9ddc6f@mail.csmining.org
+
+

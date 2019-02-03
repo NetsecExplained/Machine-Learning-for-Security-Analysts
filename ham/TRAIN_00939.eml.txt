@@ -1,0 +1,43 @@
+[SAtalk] OT: DNS MX Record Clarification Please
+This may be a little off topic but thought people here would have a better
+response to this elsewhere.
+
+I have setup two MX records (mail and bmail) for my mail server. The one I
+gave a 10 (bmail) the other a 20 (mail).
+
+bmail(10) I gave a 10 because I want all mail to go through this server to
+be scanned for SPAM and viruses and then relayed to the mail(20) server for
+delivery.
+
+As I understand it, DNS A records are used in a rotating fashion for load
+balancing, but DNS MX records are used in order or prority, meaning the 10
+before the 20 and only 20 if the 10 isn't available.
+
+But only some of the mail is actually being scanned which leads me to
+believe that not all of the mail is actually hitting that box and the 10
+never goes down. Why? Have I got something confused here?
+
+Thanks,
+V
+------- End of Forwarded Message -------
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner at comp-wiz.com,
+and is believed to be clean.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

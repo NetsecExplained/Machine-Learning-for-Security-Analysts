@@ -1,0 +1,55 @@
+Re: ALSA (almost) made easy (gamix rocks)This mixer is specific to ALSA's special stuff, I use it in addition to the other
+mixers if I need something special.
+
+I built it a while ago, may need a --rebuild.
+
+http://www.dudex.net/rpms/gamix-1.99.p13-aap1.i686.rpm
+http://www.dudex.net/rpms/gamix-1.99.p13-aap1.src.rpm
+http://www.dudex.net/rpms/gamix.spec
+
+Matthias Saou (matthias@egwn.net) wrote*:
+>
+>Once upon a time, Ville wrote :
+>
+>> Ah!  The mixer stuff was what made me look for an init script in the
+>> first place, I didn't bother to check whether the existing stuff would
+>> have worked with that.  Will try that out, you can assume silence ==
+>> success :)
+>
+>Well, from what I've tried, both the main and the PCM (at least) volume
+>levels can be controlled either by "alsamixer" or the good old "aumix".
+>
+>> > >From what I can tell after only 2 days using it : ALSA rocks,
+>> > >especially
+>> > since having a full OSS compatibility results that it breaks nothing at
+>> > all! :-)
+>>
+>> Agreed.  Though with only 2 hours experience...
+>
+>I guess/hope some other people from the list will try it out ;-)
+>
+>Both problems you reported (libasound.so and wrong xine dependency) are now
+>fixed in the current packages.
+>
+>Oh, it's maybe also worth pointing out : I've implemented at last sorting
+>by both last change date and alphabetically for my "build list" in the php
+>code : http://freshrpms.net/builds/
+>
+>And yes, I accept patches/comments/suggestions about all those spec files!
+>
+>Matthias
+>
+>
+>_______________________________________________
+>RPM-List mailing list 
+>
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,17 @@
+Re: [ILUG] Secure remote file accessOn Tue, Aug 13, 2002 at 12:22:14PM +0100, Niall O Broin wrote:
+> What are the best options available on Linux ? SFTP ? WebDAV ? Something
+> else ? Linux servers - Linux and Mac OS-X clients.
+
+Can't speak for the other alternatives, but i've been using scp for
+years with sexy results.
+
+Steve, yes, it's a simpsons quote(ish).
+-- 
+High salt diets are bad for you - but only outside marriage.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

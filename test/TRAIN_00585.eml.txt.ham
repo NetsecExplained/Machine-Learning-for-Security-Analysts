@@ -1,0 +1,114 @@
+Re: Snow Leopard refresh problemsYes, I fixed those issue with some silly workarounds only. The repaint 
+methods are not producing any fruitful results.
+
+These are the options I used:
+1. In some cases, resizing the frame solved the issue.
+2. In few cases, changed the location of one of the component present inside 
+the frame and then relocating the same component to its original position at 
+the end of the method solved the problem.
+3. In one case, removed the component and added the same component to the 
+frame solved the issue.
+
+Another typical point to note is, I could not find a single common solution 
+for all the above 3 cases.
+
+Regards,
+VPKVL
+
+----- Original Message ----- 
+From: "hoverfrog" 
+To: "Vijay Kachhawal" 
+Sent: Friday, May 14, 2010 03:44 PM
+Subject: Re: Snow Leopard refresh problems
+
+
+hello,
+
+did you find any workarounds?
+Are some methods of asking for a repaint more reliable than others?
+
+regards,
+
+Mary
+
+Le 14 May , 2010 à 7:55 AM, Vijay Kachhawal a écrit :
+
+> I have also experienced similar problem in many cases. My project  is 
+> based on purely swing and graphics API. Everything works fine  and no 
+> repaint issues when I am running the app on Mac 10.4/10.5  but found 
+> several repaint issues when executed the same application  on Snow 
+> Leaopard.
+>
+> Regards,
+> VPKVL
+> ----- Original Message -----
+> From: Bino George
+> To: hoverfrog
+> Cc: java-dev@lists.apple.com
+> Sent: Friday, May 14, 2010 03:52 AM
+> Subject: Re: Snow Leopard refresh problems
+>
+> Hi,
+>         Is your App publicly accessible ? Please file a bug at 
+>  with the URL for the App and steps  to 
+> reproduce it etc. If it is not accessible,
+> please create a standalone test case that can reproduce the problem  and 
+> attach it to the bug. Also, please include your configuration  (which java 
+> update etc).
+>
+> Thanks,
+> Bino George,
+> Java Runtime Engineer,
+> Apple Inc.
+>
+>
+>  On May 13, 2010, at 2:06 PM, hoverfrog wrote:
+>
+>> various components in our app refresh by calling paintComponent(), 
+>> updateUI(), paintImmediately(), etc.
+>> On SL we're seeing a range of refresh errors - basically the  components 
+>> are not being redrawn!
+>> Usually, if you change the content pane of a JFrame it repaints -  it's 
+>> not happening, even when explicitly asked for.
+>> Has anyone else seen anything like this?
+>>
+>> Oh, Tiger works like a dream, as does Windoze and Linux.
+>>
+>> hoverfrog@mac.com
+>> http://www.veytisou.com
+>>
+>>
+>>
+>> _______________________________________________
+>> Do not post admin requests to the list. They will be ignored.
+>> Java-dev mailing list      (Java-dev@lists.apple.com)
+>> Help/Unsubscribe/Update your Subscription:
+>> http://lists.apple.com/mailman/options/java-dev/bino%40apple.com
+>>
+>> This email sent to bino@apple.com
+>
+>
+>
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Java-dev mailing list      (Java-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/java-dev/vijay.kachhawal% 
+> 40valuelabs.net
+>
+> This email sent to vijay.kachhawal@valuelabs.net
+
+hoverfrog@mac.com
+http://www.veytisou.com
+
+
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

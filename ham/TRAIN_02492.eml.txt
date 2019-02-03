@@ -1,0 +1,31 @@
+Re: pinning + apt-get vs aptitudeAndrei Popescu wrote:
+> On Sat,15.May.10, 10:32:36, Hugo Vanwoerkom wrote:
+>> Hi,
+>>
+>> (on Sid) I pinned grub-legacy, to avoid going to grub2.
+>  
+> [...]
+>  
+>> So why does aptitude pay no attention to my pin?
+> 
+> Please post the output of 'apt-cache policy grub'.
+> 
+hugo@debian:~$ apt-cache policy grub
+grub:
+   Installed: 0.97-47lenny2
+   Candidate: 0.97-61
+   Version table:
+      0.97-61 0
+         500 http://ftp.de.debian.org unstable/main Packages
+  *** 0.97-47lenny2 0
+         100 /var/lib/dpkg/status
+
+Hugo
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hsv4rt$1s4$1@dough.gmane.org
+
+

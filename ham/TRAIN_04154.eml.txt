@@ -1,0 +1,59 @@
+Re: What needs to improve in KDE 4?Am Dienstag 11 Mai 2010, 21:10:18 schrieb Dotan Cohen:
+> On 11 May 2010 09:15, Adrian von Bidder  wrote:
+> > On Monday 10 May 2010 16.08:40 Dotan Cohen wrote:
+> >> Please tell us what problems, bugs, or issues KDE 4 that make it
+> >> difficult to use.
+> > 
+> > Nepomuk / Strigi need to improve a *lot*.
+yes, for sure
+> > * Strigi sucks up all disk bandwidth and, given enough time, all memory
+> > to the point where the oom kill kills my session.
+at least it sucks up memory without releasing it afterwards
+> > * Strigi index uses all my disk.  Removing folders that were indexed
+> > (either removing these files, or removing them from the strigi
+> > configuration so they're not indexed anymore) didn't seem to have any
+> > effect on index size. * Likewise when I completely disable file
+> > indexing: the database doesn't shrink / isn't removed.
+> > 
+> > I'd really like to use file indexing, but everytime I enable it, I
+> > quickly turn it off again :-(
+> 
+> What version? Strigi in 4.4 seems rather usable, those issues sound
+> like familiar 4.3 issues.
+The whole virtuoso/strigi ensemble needs a lot of polishing. It is not ready 
+for simple usage yet.
+I have spent some days fiddling with that stuff based on my own experience and 
+feedback i got from users at sidux.
+The best way i found to have a usable index is:
+ - stop nepomuk and strigi in systemsettings
+ - move away or delete everything in: 
+~/.kde/share/apps/nepomuk/repository/main/data/virtuosobackend
+(there might be incompatible database from virtuoso 5.x in there)
+ - out and back in to your account
+ - start nepomuk andv strigi
+ - let it do the indexing
+ - test (in dolphin, krunner is unreliable atm) your index
+ - see if e.g. files under kmail got indexed
+
+for me to have a complete index i had to do 5 runs of strigi.
+in the first 3 runs it would not even touch any dot files under .kde
+in the end it works fine now but popular searches use a lot of ram.
+
+regards
+Ferdinand
+
+-- 
+Ferdi Thommes
+Vorstand sidux e.V.
+Fellow of FSFE
+LinuxTag e.V.
+____________________________________________________________
+we are sidux - resistance is futile - you will be assimilated :)
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005120858.36643.devil@sidux.com
+
+

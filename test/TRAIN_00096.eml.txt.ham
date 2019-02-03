@@ -1,0 +1,16 @@
+Re: gentoo 0.11.31 relased.....it's a major release and supports now SGI's FAM technology
+(see http://www.oss.sgi.com/projects/fam/), meaning gentoo will
+now be aware of changes made to the directories it's viewing.
+
+More details see emils ChangeLog on 
+https://sourceforge.net/project/shownotes.php?release_id=103492
+
+--
+regards from Germany
+                   Matthias
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

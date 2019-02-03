@@ -1,0 +1,47 @@
+Re: [Razor-users] Problem with Razor 2.14 and Spamassassin 2.41You might be better asking this on the spamassassin-talk list.  The folks 
+there will almost definitely have an answer for this.
+
+On Thu, 5 Sep 2002, David Rees wrote:
+
+> This is my first time running Razor, heard a lot of good things about it so
+> I thought I'd give it a shot.  I also run SpamAssassin so I'd like to
+> integrate the two.
+> 
+> I'm not sure if this problem is with SpamAssassin or Razor, so I though I'd
+> shoot the message here first
+> 
+> With a freshly installed SpamAssassin 2.41 and Razor 2.14 I'm seeing these
+> messages spit out from spamd:
+> 
+> razor2 check skipped: No such file or directory Can't call method "log" on
+> unblessed reference at /usr/lib/perl5/site_perl/5.6.0/Razor2/Client/Agent.pm
+> line 211,  line 75.
+> 
+> Any ideas?  razor seems to run correctly over the command line.
+> 
+> Thanks,
+> -Dave
+> 
+> 
+> -------------------------------------------------------
+> This sf.net email is sponsored by: OSDN - Tired of that same old
+> cell phone?  Get a new here for FREE!
+> https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+> _______________________________________________
+> Razor-users mailing list
+> Razor-users@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/razor-users
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

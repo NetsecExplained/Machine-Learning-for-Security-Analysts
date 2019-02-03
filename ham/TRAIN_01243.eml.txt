@@ -1,0 +1,48 @@
+Re: (OT) suggestion on terse wording of "IT Helpdesk"Zhang Weiwu put forth on 5/24/2010 11:02 PM:
+> Hello. In our company we use a email naming convention like this:
+> 
+> Zhang Weiwu on Holz Project 
+> 
+> Problem being when a special email address is needed for Office IT, it
+> become too long for many web forms and email clients:
+> 
+> Zhang Weiwu the support engineer of Office IT services of ICD SS 
+> 
+> So what would a *nix Guru make this shorter?
+> 
+> I ask here because Debian people, or especially those who find unix
+> style homy, likes terse names. Who else than unix folks that can make
+> such short name like "ls" and "etc"?
+> 
+> I thought of "zhangweiwu+ihd.icc_ss@realss.com", ihd for "IT help desk".
+> I would take that if none better. Chances are the email address will be
+> used for years, thus I think I should be so prudent that I ask on the list.
+
+This is exactly why display names were invented...
+
+address:       abs@example.com
+display name:  Alphabet Soup
+
+or
+
+address:       zw@realss.com
+display name:  Zhang Weiwu, Support Engineer
+
+and something called a signature, which is where you should put all that other
+crap:
+
+Office IT services of ICD SS
+
+To try to jam all of that information into the smtp address itself is silly.
+Again, this is what display names and sigs are for.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BFB6376.8040004@hardwarefreak.com
+
+

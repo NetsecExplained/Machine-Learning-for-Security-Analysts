@@ -1,0 +1,41 @@
+Apt repository authentication: it's time
+    Cliped from the latest CERT.org warning list:
+
+-----------------------------------------------------------------------------------------------
+"I. Description
+
+   The  CERT/CC  has received confirmation that some copies of the source
+   code  for  the  Sendmail  package have been modified by an intruder to
+   contain a Trojan horse.
+
+   The following files were modified to include the malicious code:
+
+     sendmail.8.12.6.tar.Z
+     sendmail.8.12.6.tar.gz
+
+   These  files  began  to  appear  in  downloads  from  the  FTP  server
+   ftp.sendmail.org  on  or  around  September  28,  2002.  The  Sendmail
+   development  team  disabled  the  compromised FTP server on October 6,
+   2002  at  approximately  22:15  PDT.  It  does  not appear that copies
+   downloaded  via  HTTP contained the Trojan horse; however, the CERT/CC
+   encourages  users  who  may  have  downloaded the source code via HTTP
+   during  this  time  period  to take the steps outlined in the Solution
+   section as a precautionary measure."
+
+     OK, it's now time to work out the PGP securing of apt repository traffic. I've never gotten anything but "sitename.whatever will not be authenticated" until running Redhat 8.0 when I get something about having "No Key" for various files.
+
+    What's it take to ensure we're covered against this kind of childish/moronic/Microsoft-era problems?
+ 
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+angegangen, Schlange-Hüften, sein es ganz rüber jetzt. Bügel innen fest,
+weil es eine lange, süsse Fahrt ist. 
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

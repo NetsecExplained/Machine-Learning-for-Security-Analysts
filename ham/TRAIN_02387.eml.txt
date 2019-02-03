@@ -1,0 +1,162 @@
+Re: ICMDecompressionSessionDecodeFrame() is not workingHi
+
+You need to fill out the ImageDescription before creating the =
+decompression session, using eg GetMediaSampleDescription.
+
+There is documentation and a couple of ICMDecompressionSession samples =
+in Xcode.
+
+Best of luck - T
+
+On 1 May 2010, at 02:42, Bo Peng wrote:
+
+> Hi All,
+>=20
+> I forgot to tell you guys the error code. The returned value of
+> ICMDecompressionSessionDecodeFrame() function call is always -50,
+> which means error in user parameter list.
+>=20
+> I am stuck in the quicktime API ICMDecompressionSessionDecodeFrame()
+> for a while, and I could not find any other resources or any other
+> sample code. Could any body help me out, and any suggestions
+> appreciated.
+>=20
+> I want to import a movie file from local drive, get the compressed
+> video frames, decode them, and encapsulate them into our own
+> UncVideoUnit format.
+> Right now we have already got the compressed video frames, but when we
+> are trying to decode them, we have got some problem. Here is our
+> source code, could any body tell me if there is something wrong in our
+> code.
+>=20
+>=20
+> // initialize callback structure
+> ICMDecompressionTrackingCallbackRecord callRecord;
+> callRecord.decompressionTrackingCallback =3D WriteFrameToBitmap;
+> callRecord.decompressionTrackingRefCon =3D NULL;
+>=20
+> // add attributes for pixel buffer that comes out
+> CFMutableDictionaryRef pixelBufferAttributes =3D NULL;
+> pixelBufferAttributes =3D CFDictionaryCreateMutable( NULL, 0,
+> &kCFTypeDictionaryKeyCallBacks;, &kCFTypeDictionaryValueCallBacks; );
+>=20
+> OSType format =3D k24RGBPixelFormat;
+> CFNumberRef pFormat =3D CFNumberCreate( NULL, kCFNumberSInt32Type, =
+&format; );
+> CFDictionaryAddValue( pixelBufferAttributes,
+> kCVPixelBufferPixelFormatTypeKey, pFormat );
+> CFRelease( pFormat );
+>=20
+> int width =3D 1280;
+> CFNumberRef pWidth =3D CFNumberCreate( NULL, kCFNumberIntType, &width; =
+);
+> CFDictionaryAddValue( pixelBufferAttributes, kCVPixelBufferWidthKey, =
+pWidth );
+> CFRelease( pWidth );
+>=20
+> int height =3D 720;
+> CFNumberRef pHeight =3D CFNumberCreate( NULL, kCFNumberIntType, =
+&height; );
+> CFDictionaryAddValue( pixelBufferAttributes, kCVPixelBufferHeightKey, =
+pHeight );
+> CFRelease( pHeight );
+>=20
+> //  set up decompression session
+> ICMDecompressionSessionRef decompressionSession;
+> ImageDescriptionHandle description =3D
+> (ImageDescriptionHandle)NewHandleClear(sizeof(ImageDescription));
+> OSStatus nStatus =3D ICMDecompressionSessionCreate ( NULL, =
+description,
+> NULL, pixelBufferAttributes, &callRecord;, &decompressionSession;);
+> CFRelease( pixelBufferAttributes );
+>=20
+>=20
+> // get video frames from movie files and decode each frame
+> TimeValue64 startTime
+> =3DGetMediaAdvanceDecodeTime(GetTrackMedia(track));     // for =
+starting
+> time of each frame
+> TimeValue64 DurationPerSample =3D 0;               // fro duration of =
+each frame
+> int count =3D 0;
+> while(true)
+> {
+>       ByteCount size =3D 0;
+>       UInt8 *aData =3D new unsigned char[maxDataSize];
+>       nErr =3D GetMediaSample2(videoMedia, aData, maxDataSize, &size;,
+> startTime, nil, &DurationPerSample;, nil, nil, nil, 1, nil, nil);
+>=20
+>       OSStatus nStatus =3D ICMDecompressionSessionDecodeFrame(
+> decompressionSession, (const UInt8*)aData, size, NULL, NULL, (void
+> *)&count; );
+>=20
+>       count++;
+>       startTime +=3D DurationPerSample;
+>=20
+>       if(nErr !=3D noErr)
+>            break;
+>=20
+>        delete [] aData;}
+> }
+>=20
+>=20
+> Here is the definition for the callback funtion:
+>=20
+> static void WriteFrameToBitmap(
+>                       void *decompressionTrackingRefCon,
+>                       OSStatus result,
+>                       ICMDecompressionTrackingFlags =
+decompressionTrackingFlags,
+>                       CVPixelBufferRef pixelBuffer,
+>                       TimeValue64 displayTime,
+>                       TimeValue64 displayDuration,
+>                       ICMValidTimeFlags validTimeFlags,
+>                       void *reserved,
+>                       void *sourceFrameRefCon )
+> {
+>       // when we get decoded frame, print it out to bitmap
+>       if ( (result =3D=3D noErr) && (decompressionTrackingFlags &
+> kICMDecompressionTracking_EmittingFrame) && pixelBuffer )
+>       {
+>               char num[16];
+>               sprintf_s(num, 16, "%d", *((int *)sourceFrameRefCon));
+>               std::string strFilePath =3D std::string("Bitmap0") +
+> std::string(num);
+>=20
+>               boost::shared_ptr pMyImage =3D
+> StillImage::CreateInstance();
+>               size_t size =3D CVPixelBufferGetDataSize(pixelBuffer);
+>               BYTE *mem_buffer =3D (BYTE*)malloc(size * sizeof(BYTE));
+>               strcpy((char*)mem_buffer, (char
+> *)CVPixelBufferGetBaseAddress(pixelBuffer));
+>               pMyImage->LoadImage(mem_buffer, size);
+>               pMyImage->SaveImage(strFilePath.c_str(), BMP);
+>       }
+>=20
+>=20
+> }
+>=20
+>=20
+> Thanks very much.
+>=20
+> Bo Peng
+> Software Engineer
+> Capella Systems, LLC
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/quicktime-api/bangnoise%40csmining.org=
+
+>=20
+> This email sent to bangnoise@csmining.org
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

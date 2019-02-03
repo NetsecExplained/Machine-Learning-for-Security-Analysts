@@ -1,0 +1,44 @@
+[use Perl] Stories for 2002-09-11use Perl Daily Newsletter
+
+In this issue:
+    * DynDNS.org Offers Free DNS To Perl Sites
+
++--------------------------------------------------------------------+
+| DynDNS.org Offers Free DNS To Perl Sites                           |
+|   posted by KM on Tuesday September 10, @08:23 (news)              |
+|   http://use.perl.org/article.pl?sid=02/09/10/1225228              |
++--------------------------------------------------------------------+
+
+[0]krellis writes "[0]DynDNS.org today [1]announced that it will provide
+free premium DNS services (primary and secondary DNS hosting) to any
+domains involved in the Perl Community. Read the press release for full
+details, [2]create an account, and [3]request credit under the Perl DNS
+offer! Never lose traffic to your Perl site due to failed DNS again!"
+Sweet. Thanks.
+
+Discuss this story at:
+    http://use.perl.org/comments.pl?sid=02/09/10/1225228
+
+Links:
+    0. http://www.dyndns.org/
+    1. http://www.dyndns.org/news/2002/perl-dns.php
+    2. https://members.dyndns.org/policy.shtml
+    3. https://members.dyndns.org/nic/perl
+
+
+
+Copyright 1997-2002 pudge.  All rights reserved.
+
+
+======================================================================
+
+You have received this message because you subscribed to it
+on use Perl.  To stop receiving this and other
+messages from use Perl, or to add more messages
+or change your preferences, please go to your user page.
+
+	http://use.perl.org/my/messages/
+
+You can log in and change your preferences from there.
+
+

@@ -1,0 +1,13 @@
+Jon Hanna, on the RSS-DEV list, says that RSS, was "not designed
+    to be of aURL: http://scriptingnews.userland.com/backissues/2002/09/25#When:6:25:23AM
+Date: Wed, 25 Sep 2002 13:25:23 GMT
+
+Jon Hanna, on the RSS-DEV list, says[1] that RSS, was "not designed to be of 
+any particular use to bloggers, aggregators, or metadata providers." This is 
+not true. Half of RSS 0.91 was scriptingNews format[2], which was totally 
+designed to model a weblog in XML. 
+
+[1] http://groups.yahoo.com/group/rss-dev/message/4023
+[2] http://my.userland.com/stories/storyReader$11
+
+

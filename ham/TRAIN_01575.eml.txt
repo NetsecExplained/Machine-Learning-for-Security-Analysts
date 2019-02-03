@@ -1,0 +1,32 @@
+Re: [ILUG] converting strings of hex to asciiDavid Neary wrote:
+> Padraig Brady wrote:
+> 
+>>>Paul Jakma wrote:
+>>>
+>>>>chars in hex to plain ASCII?
+>>>>
+>>>>eg given
+>>>>   http://w%77%77%2Eo%70%74%6F%72%69um.n%65t/remove.html
+>>>>
+>>>>is there an easy way to turn it into
+>>>>
+>>>>   http://www.optorium.net/remove.html
+>>>>eg, whether by piping through some already available tool, or 
+>>>>programmatically (printf? - but i dont see how.).
+>>>
+>>Actually the following would be in some way sensible:
+>>echo -e "`echo "$enc" | sed 's/%\([0-9a-fA-F]\{2,2\}\)/\\\x\1/g'`"
+> 
+> 
+> Why {2,2}? Why not {2}?
+
+Me being silly, that's all.
+
+Pádraig.
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

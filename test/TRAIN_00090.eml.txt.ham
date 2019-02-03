@@ -1,0 +1,8 @@
+[Spambayes] spambayes package?> That has the nasty side effect of placing all .py files in the
+> package.  What about obvious executable scripts (like timtest or
+> hammie)?  How can I keep them out of the package?
+
+Why would we care about installing a few extra files, as long as
+they're inside a package?
+
+--Guido van Rossum (home page: http://www.python.org/~guido/)

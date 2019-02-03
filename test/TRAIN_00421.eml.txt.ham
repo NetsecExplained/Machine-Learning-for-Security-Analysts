@@ -1,0 +1,27 @@
+Re: [ILUG] Serial number in hosts fileRay Dermody's [DERMODYR@ITCARLOW.IE] 20 lines of wisdom included:
+> Hi All,
+> The serial number in our hosts files on our DNS server has gone 
+> corrupt e.g. 2002082999999999901 should be 20002082901.
+> Its okay to set this back to todays date but I understand that our 
+> secondary and terninary DNS servers will only update from the master 
+> hosts file if the master host serial number is greater than the current 
+> serial number in the hosts file.
+> Is there any way I can reset this on the secondary and terninary DNS 
+> servers?
+
+Once you have the serial changed on the master DNS server, remove
+the appropiate zone(s) on your slaves, and refresh your DNS servers.
+
+Bind has a special case, if you set the serial to '0' I think. DNS &
+Bind should have something on that.
+
+-- 
+  Philip Reynolds        
+   RFC Networks          tel: 01 8832063
+www.rfc-networks.ie      fax: 01 8832041
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

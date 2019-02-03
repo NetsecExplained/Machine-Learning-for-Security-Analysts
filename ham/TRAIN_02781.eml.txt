@@ -1,0 +1,15 @@
+Electric Language
+Eric tells me the site is back up, debugged, and ready for comments;
+it's a first-hand guided tour of McLuhanism and the Internet, from
+tetrads to teleconferencing.
+
+http://home.istar.ca/~jwaddell/McLuhan/
+
+-- 
+Gary Lawrence Murphy  TeleDynamics Communications Inc
+Business Innovations Through Open Source Systems: http://www.teledyn.com
+"Computers are useless.  They can only give you answers."(Pablo Picasso)
+
+http://xent.com/mailman/listinfo/fork
+
+

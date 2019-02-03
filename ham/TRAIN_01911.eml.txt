@@ -1,0 +1,15 @@
+Re: [ILUG] SUSE 8 disks? (thread changed slightly)On Mon, 2002-08-12 at 19:26, Rick Moen wrote:
+> NON-freely redistributable apps (in boxed sets):
+> -----------------------------------------------
+> SAP database
+
+The same one as provided on www.sapdb.org? 
+Which is released under the GPL/LGPL?
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

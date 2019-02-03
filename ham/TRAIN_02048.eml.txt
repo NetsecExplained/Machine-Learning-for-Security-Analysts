@@ -1,0 +1,13 @@
+ANN: libktorrent 1.0rc1 && ktorrent 4.0rc1From nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Till libktorrent waits in NEW, both libktorrent 1.0rc1 && ktorrent 4.0rc1 a=
+re=20
+available in experimental-snapshots repository on http://qt-kde.debian.net/
+
+=2D-=20
+Modestas Vainius 

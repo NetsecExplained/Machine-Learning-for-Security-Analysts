@@ -1,0 +1,35 @@
+Re: supporting Get Info "Locked" checkbox in a file system driverThe lock bit comes into a VFS as the UF_IMMUTABLE flag.  See man chflags
+
+On Apr 23, 2010, at 3:02 PM, mogambo wrote:
+
+> Hi,
+>=20
+> It seems that clicking that checkbox makes the file read-only.  =
+However, the actual permissions do not change on the file when I check =
+with ls.  Trying to modify the file, with vi say, fails saying it's a =
+read-only file.
+>=20
+> Is it handled with some extended attributes?  What are the =
+expectations from a file system driver for a remote file system to =
+support this feature?
+>=20
+> Thanks,
+> -m.
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> =
+http://lists.apple.com/mailman/options/filesystem-dev/nelson%40thursby.com=
+
+>=20
+> This email sent to nelson@thursby.com
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Filesystem-dev mailing list      (Filesystem-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/filesystem-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

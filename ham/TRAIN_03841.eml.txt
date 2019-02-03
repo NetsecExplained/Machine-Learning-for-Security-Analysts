@@ -1,0 +1,43 @@
+Re: ALSA (almost) made easyMatthias Saou wrote:
+> OK, I'll add this.
+
+Cool :)
+
+> Requiring a file that isn't part of an rpm is not possible, no, except
+> maybe by stopping the build process if it isn't found... but that's errr...
+> ugly!
+> And I really think that for people who installed a kernel from sources, the
+> easiest is to install the alsa kernel drivers from source too...
+
+Yes, it is...  But then alsa-driver requires alsa-kernel, and I don't quite 
+like --nodeps...
+
+> This would be a tricky one since to use the "--with " feature of
+> rpmbuild, I think you'd need to add individual handling of each and every
+> card :-/
+
+That's ok.  I was only considering it for the sake of tweaking anyway, not 
+for some real-world need :).
+
+> That's what the "alsa-driver" is there for, create all the base files
+> excluding the kernel drivers. What I would suggest for dependency reasons
+> it to install an "alsa-kernel" for the original kernel (you've kept it,
+> right? ;-)) and install ALSA modules from source for custom kernels built
+> from source.
+
+Um...  I keep 2.4.18-12.2 for emergency sitations (like I forget to include 
+keyboard support in kernel, dumb me), but alsa-kernel_2.4.18-10 does not 
+require kernel-2.4.18-10, so that's ok.
+
+> Matthias
+
+-silent
+
+-- 
+... And on the seventh day, God was arrested for tresspassing.
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

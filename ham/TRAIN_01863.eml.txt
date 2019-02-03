@@ -1,0 +1,38 @@
+Re: Kde 3.5 ...>> KDE 4.4 is lighter than KDE 3.5 was, even with desktop effects
+>> enabled. The only time you will see it appear that KDE 4 is "heavy" is
+>> if you are loading the Qt3 libraries in addition to the Qt4 libraries,
+>> for instance by using KDE3 applications. I understand that some people
+>> still need Quanta or the old Kdevelop, but if you are not using KDE 3
+>> applications (and therefore loading Qt3 libraries) then Qt4 is lighter
+>> than Qt3 was.
+>
+> Did you measure it? If so, how?
+>
+
+Actually, I personally have not. However, this was actually the design
+goal of Qt4 and many users have tested and reported lower memory usage
+in KDE 4 compared to KDE 3. I don't know about CPU, though.
+
+Also, the last time I ran KDE 3.5.10 it felt was noticeably lagging
+compared to my then-current KDE 4.3 setup on the same hardware. Note
+that the KDE 4.3 even had quite a few other apps installed, and the
+KDE 3.5.10 was a new install that I did to triage a possible
+regression.
+
+Like I said, though, if you need Qt3 libraries in addition to Qt4 (for
+Quanta, for instance) then you will be using the memory of _both_,
+naturally, and that is a lot!
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/t2k880dece01005060833m28d2878cj50e94205c9cb0112@mail.csmining.org
+
+

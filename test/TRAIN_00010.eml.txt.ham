@@ -1,0 +1,83 @@
+Re: (no subject)I've picked up these patches and will submit to CVS eventually.
+If there are bugs worth fixing, please let me know about the fixes
+for them.
+
+>>>Mark Scarborough said:
+ > 
+ > tg@sema.se said:
+ > >  mscar  said:
+ > >  > My biggest problem with it is that it will _always_ render 
+the HTML
+ > >  > in messages that are only HTML (possible speed and/or "I 
+didn't
+ > >  > want to see that porno email" problems). Also, it does away 
+with
+ > >  > the option to view an HTML part in Netscape. There might be 
+times
+ > >  > when I want to use a more fully-featured viewer if I 
+determine that
+ > >  > it's worth the risk.
+ > 
+ > 
+ > > Try these two patches (for exmh-2.5 07/13/2001) I just tossed
+ > > together.
+ > 
+ > > The config option $uri(deferDisplaysInline) probably doesn't 
+makes any
+ > > sense,  it should probably always be off. But you never know what
+ > > people like...
+ > 
+ > > Anyway, when you get a text/html part and you have defer 
+selected, you
+ > > can  display it inline by checking the box in the right-button 
+menu.
+ > 
+ > > /Tomas G. 
+ > 
+ > 
+ > Tomas,
+ > 
+ > This is GREAT!  Thank you!  This is exactly what I was thinking 
+about as
+ > the "best" solution whether I expressed it well or not.
+ > 
+ > There are a couple of "coloring" or "highlighting" bugs that I 
+haven't had
+ > time to fully characterize yet, but I don't care.  We can work out 
+the bugs
+ > - at least we have the functionality.
+ > 
+ > Everyone: if you have ever wanted to be able to choose between the 
+internal
+ > HTML engine and whatever external browser you have defined - on a 
+per
+ > message basis - give Tomas' patches a try.
+ > 
+ > Thanks again Tomas.
+ > 
+ > Mark
+ > 
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > Exmh-users mailing list
+ > Exmh-users@redhat.com
+ > https://listman.redhat.com/mailman/listinfo/exmh-users
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,23 @@
+Re: Ringing bell on other computer
+BTW:  I remember messing about with such things long ago.  One 
+problem I ran into was making sure that no attempt was made to 
+play a sound when either:
+
+a)  the screen was locked
+  or
+b)  no exmh was running.
+
+Just something to think about, Dag.
+
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

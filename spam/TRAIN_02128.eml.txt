@@ -1,0 +1,50 @@
+Exclusively for hibody, -80%
+
+
+
+Newsletter
+
+<!--
+a:hover
+{ color: #A93125; text-decoration: underline; }
+
+a:visited
+{ color: #CFA6DA; text-decoration: underline; }
+
+casiheli
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-family: Tahoma;
+ font-size: 10px;
+ color: #1D3488;
+}
+
+a:link
+{ color: #6C8583; text-decoration: underline; }
+
+-->
+
+
+
+
+
+
+To view this email online, click here.
+      
+
+
+
+
+
+
+ Click here to
+	unsubscribe. 
+Read our privacy policy.
+(c) 2008-2010 Oebicihir. All rights reserved.
+
+
+
+
+

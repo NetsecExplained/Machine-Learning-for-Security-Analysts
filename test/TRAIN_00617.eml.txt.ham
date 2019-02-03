@@ -1,0 +1,27 @@
+Always do a full backup first [Re: Broken dependencies]
+> On Sat, May 01, 2010 at 17:20:56 +0200, Alois Mahdal wrote:
+>> Hello,
+>>
+>> because a stupid mistake, I have interrupted apt-get during early
+>> stage of dist-upgrade from Lenny to Squeeze.
+>>
+>> Now I cannot get apt-get working and I don't know how to fix it.
+>>
+
+
+I know it's cold comfort, but this is the reason why people say  
+"Before you do a major upgrade, always do a full backup.  And be sure  
+you know how to do a full "bare-metal" restore from that backup, just  
+incase you actually need it!"
+
+Enjoy!
+
+Rick
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/E3CFC3C9-600E-499F-899A-D9B6B92E32A4@pobox.com
+
+

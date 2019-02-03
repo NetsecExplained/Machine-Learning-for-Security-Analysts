@@ -1,0 +1,50 @@
+[Razor-users] Re: Content-Type: message/rfc822  supported ?  For what you're trying to do, forwarding does not work.
+  'bounce' works perfectly, if you can do that.
+  Another option is to save spam to a folder and report 
+  it all at once.
+
+  -chad
+
+
+On 26/07/02 08:41 +0200, Jørgen Thomsen wrote:
+) Thu, 25 Jul 2002 18:33:15 -0700 skrev du:
+) 
+) >  Not sure what you're asking.
+)   
+) I just want to be sure, that forwarding an email to my own spamtrap address
+) which performs a razor-report on the entire received email is not waste of
+) time, because the contents of the forwarded email is not recognized as equal
+) to the email originally received. The forwarded email has a new set of
+) headerlines, which should be discarded and instead the headerlines of the
+) original message are in the body of this new message and should be recognized
+) as such and treated properly.
+) 
+) An ordinary Forward Unquoted in Agent is subject to character set conversions
+) and does not depict the received spam in its original form.
+) 
+) I hope this clarifies my concerns.
+) 
+) - Jørgen
+) 
+) 
+) 
+) -------------------------------------------------------
+) This sf.net email is sponsored by:ThinkGeek
+) Welcome to geek heaven.
+) http://thinkgeek.com/sf
+) _______________________________________________
+) Razor-users mailing list
+) Razor-users@lists.sourceforge.net
+) https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,42 @@
+Re: Vnc serverIl 09/05/2010 21:50, Andrew Lapham ha scritto:
+> Hello all.
+>
+> I'm new to debian (2 days) but have been using Linux for a while. Anyway my
+> problem is with Vnc4server.
+>
+> Yesterday I set up my /home/.Vnc/xstartup to include gnome session and I
+> commented terminal emulator. And I remoted in no problem (I forget if I used
+> vnvserver or Vnc4server)
+>
+> Today I turned on the pc and ran the server and all I get is a grey screen
+> and a mouse. I tried vncserver and Vnc4server. Any ideas?
+>
+> (Sorry for the case/spelling errors this was composed on my phone..)
+>
+I ran into a similar issue some time ago (and found the solution on a 
+vnc mailing list, in case you have further problems).
+If you closed your vnc session by *logging out*, what happens is that 
+your session (gnome) is no longer active, but vnc is not concerned.
+
+The workaround that was suggested to me is to *not* have vncstartup exec 
+the session, but rather launch a session and cleanup afterwards, ie
+
+# wrong
+#exec gnome-session
+
+# right
+gnome-session
+vncserver -kill $DISPLAY
+
+If you grok the shell you'll probably use the trap command to make sure 
+that cleanup is done no matter what, but that's just a detail
+
+good luck
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4be7f312$0$1126$4fafbaef@reader3.news.tin.it
+
+

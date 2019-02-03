@@ -1,0 +1,43 @@
+Re: [SAtalk] O.T. Habeus -- Why?Robin Lynn Frank  writes:
+
+> I may be dense, but why would anyone want to utilize Habeus?  To me,
+> it looks like a potential backdoor to anyone's defenses against spam.
+>
+> If I were a spammer, I'd simply set up a server, send out my spam with
+> the Habeus headers and continue till I was reasonably certain I'd been
+> reported.  Then I'd simply reconfigure the server and reconnect to a
+> different IP.  As long as no one can establish my connection to the
+> web sites my spam is directing people to, I'm home free.
+
+Here is the bug I opened:
+
+  http://www.hughes-family.org/bugzilla/show_bug.cgi?id=762
+
+RBLs have the same problem, but there is no negative RBL header rule
+with a -20 score that can be forged, so the problem is unique to Habeas.
+
+> Since I can set up spamassassin to I don't "lose" any email, what do I
+> gain by making it easier for spam to get through??
+
+My primary issue is the magnitude of the negative score and that it was
+not determined empirically.  I am also concerned that it was added after
+the rules freeze, that such a major change was not discussed in advance,
+etc.
+
+There's also no evidence that the rule will actually reduce FPs.  People
+who are smart enough to use the rule are probably capable of writing
+email that doesn't look like spam (I'm not counting spam mailing lists
+which you need to be exempted from spam filtering).
+
+Dan
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

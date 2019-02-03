@@ -1,0 +1,32 @@
+Re: [SAdev] 2.41 release? 
+"Craig R.Hughes" said:
+
+> Seems like a good idea.  We might get one of two other issues 
+> raised tomorrow too once US people get back to work tomorrow and 
+> start downloading 2.40 in earnest.
+
+yep, I reckon that's likely.
+
+BTW I'm hearing reports about problems resolving spamassassin.org.
+Anyone else noticing this?  if it's serious I'll see if I can get
+Mark Reynolds to add a 2ndary in the US, to go with the primaries
+in Oz.
+
+> >    - looks like there may be a razor2 issue
+
+I think this is a Razor bug/glitch triggered when file permissions
+don't allow its own log system to work.  At least that's the report
+I heard on the Razor list in the past...
+
+Theo, does it work now that you /dev/null'd the logfile?
+
+> >    - version number (says "cvs")
+> >    - tag tree as "Rel" this time too
+
+I won't bother tagging with Rel, IMO; I don't think we should
+rely on the version control system inside our code, so I've just
+put a line in Mail/SpamAssassin.pm instead.   I will of course
+tag with a release *label* though.
+
+--j.
+

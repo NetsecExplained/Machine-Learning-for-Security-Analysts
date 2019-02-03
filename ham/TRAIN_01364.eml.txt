@@ -1,0 +1,58 @@
+Ack, apt-get still failing for me, stumped. [RH8]
+I posted about this last week, and I'm still stumped.  apt-get is just
+not working for me, and I can't figure out what the problem is.
+
+I've tried removing the apt rpms, making sure to remove any traces left
+behind (/etc/apt /var/state/apt /var/cache/apt), and still, I get
+"couldn't find package xmms-mp3" when running "apt-get install xmms-mp3".
+
+Any clues?  Here's a log of a fresh try:
+
+root@canarsie:/tmp # rpm -e apt apt-devel
+root@canarsie:/tmp # rm -rf /etc/apt /var/cache/apt /var/state/apt
+root@canarsie:/tmp # rpm -ivh apt-0.5.4cnc7-fr1.i386.rpm apt-devel-0.5.4cnc7-fr1.i386.rpm
+warning: apt-0.5.4cnc7-fr1.i386.rpm: V3 DSA signature: NOKEY, key ID
+e42d547b
+Preparing...                ########################################### [100%]
+   1:apt                    ########################################### [ 50%]
+   2:apt-devel              ########################################### [100%]
+root@canarsie:/tmp # apt-get update
+Ign http://apt.freshrpms.net redhat/8.0/en/i386 release
+Get:1 http://apt.freshrpms.net redhat/8.0/en/i386/os pkglist [1276kB]
+Get:2 http://apt.freshrpms.net redhat/8.0/en/i386/os release [108B]
+Get:3 http://apt.freshrpms.net redhat/8.0/en/i386/updates pkglist [14B]
+Get:4 http://apt.freshrpms.net redhat/8.0/en/i386/updates release [113B]
+Get:5 http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms pkglist
+[57.1kB]
+Get:6 http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms release
+[125B]
+Get:7 http://apt.freshrpms.net redhat/8.0/en/i386/os srclist [152kB]
+Get:8 http://apt.freshrpms.net redhat/8.0/en/i386/updates srclist [14B]
+Get:9 http://apt.freshrpms.net redhat/8.0/en/i386/freshrpms srclist
+[14.4kB]
+Fetched 1500kB in 11s (125kB/s)
+Reading Package Lists... Done
+root@canarsie:/tmp # apt-get install xmms-mp3
+Reading Package Lists... Done
+Building Dependency Tree... Done
+E: Couldn't find package xmms-mp3
+root@canarsie:/tmp # apt-cache search xmms
+root@canarsie:/tmp #
+
+
+Beats me..
+
+-SteveK
+
+
+
+-- 
+  Steve Kann - Chief Engineer - 520 8th Ave #2300 NY 10018 -  (212) 533-1775
+                HorizonLive.com - collaborate . interact . learn
+   "The box said 'Requires Windows 95, NT, or better,' so I installed Linux."
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

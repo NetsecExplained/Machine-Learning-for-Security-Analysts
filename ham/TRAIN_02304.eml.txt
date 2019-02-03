@@ -1,0 +1,45 @@
+Re: OOwriter always hangs, and then quits unexpectedly when images
+ are copied (copy/paste) from a websiteOn 05/09/2010 02:42 PM, Merciadri Luca wrote:
+> Hi,
+>
+> As stated in the title, my OOwriter always hangs and then quits
+> unexpectedly when I copy at least one image from a website. This
+> situation happens e.g. when I copy some text from wikipedia, and that
+> there are some images between the different paragraphs.
+
+I just opened a new Writer 3.2.0-9+b1 document then selected the 
+"title image" http://i.space.com/images/080702-voyager-01.jpg from 
+http://www.space.com/missionlaunches/nasa-tracking-voyager2-problem-100506.html 
+and pasted it into the document.
+
+No errors, hangs or "quits".
+
+> Is it normal? It is really annoying. Technically speaking, copying and
+> pasting such images directly should be avoided, and the images should be
+> included from an image file, but doing this is not necessary,
+
+An example would help.
+
+>                                                               and should
+> not be the only way to copy text without making OOwriter bugging! And,
+> sometimes, I do not even want the images, but as the selection in
+> Iceweasel/FF needs to be `continuous,' they need to be included in my
+> selection if I want to take a bunch of text into OOwriter, and then
+> remove the images from the copied stuff.
+
+http://en.wikipedia.org/wiki/Ignace_Bourget
+
+I selected all of the Early life section, copied it to the clipboard 
+with Edit->Copy then bounced over to a new Writer document and 
+pasted it with Edit->Paste.  No problems whatsoever.
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE7197F.5000507@cox.net
+
+

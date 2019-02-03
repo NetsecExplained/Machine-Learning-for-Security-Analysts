@@ -1,0 +1,48 @@
+Re: my movies don't idleHi James et al,
+
+I am just using QTMovie because I need to draw the contents of the
+movie into a bitmap. So I am grabbing the NSImage of the current frame
+and using that.
+
+Is QTMovie dependant on QTMovieView for events in some fashion?
+
+
+
+thx
+
+bill appleton
+
+
+
+
+
+
+
+On Tue, May 18, 2010 at 12:51 PM, James Walker  wr=
+ote:
+> On 5/18/2010 11:55 AM, Bill Appleton wrote:
+>
+>> i am using cocoa and QTMovie to open and play valid movie files
+>
+> Are you using QTMovieView, or QTMovieLayer, or what?
+>
+> --
+> =A0James W. Walker, Innoventive Software LLC
+> =A0
+> _______________________________________________
+> Do not post admin requests to the list. They will be ignored.
+> QuickTime-API mailing list =A0 =A0 =A0(QuickTime-API@lists.apple.com)
+> Help/Unsubscribe/Update your Subscription:
+> http://lists.apple.com/mailman/options/quicktime-api/billappleton%40dream=
+factory.com
+>
+> This email sent to billappleton@dreamfactory.com
+>
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+QuickTime-API mailing list      (QuickTime-API@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/quicktime-api/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,30 @@
+Re: KDE Issues under "Squeeze"From nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+On Sunday 25 April 2010 05.49:44 lrhorer wrote:
+> KDE is much more stable, but still has problems.
+
+Hmm.
+
+Using KDE 4 for months now; currently 4.4 from experimental.  If that's=20
+what'll end up in squeeze I wouldn't say "it has problems" in general.  KDE=
+=20
+certainly is far from bug-free, but it's very usable as an everyday desktop.
+( Sune & Co: you can consider this a general reportbug --kudos :-)
+
+lrhorer: I recommend you update to the packages that are currently in=20
+experimental and check if the problems are still there.  I'm sure bug=20
+reports are welcome.  If you can be bothered to do the necessary work and=20
+separately report packaging issues to the Debian bts and KDE 4.4 issues to=
+=20
+the KDE bug reporting sysstem, then all the better..
+
+cheers
+=2D- vbi
+
+=2D-=20
+featured link: http://www.pool.ntp.org

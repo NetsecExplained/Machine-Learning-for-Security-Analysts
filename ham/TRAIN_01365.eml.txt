@@ -1,0 +1,24 @@
+Re: [Razor-users] Trivial false-positives> 
+> It seems that an email consisting of a single line containg a
+> control-M is detected as spam. 
+> 
+> It also seems that an email consisting of 5 blank lines is also
+> treated as spam:
+
+Please ignore my last message. It seems that my problems results from
+a homebrewn patch.
+
+  -- Michael 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

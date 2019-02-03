@@ -1,0 +1,119 @@
+Re: applets on 32-bit 1.6.0_20On May 21, 2010, at 12:04 PM, Rob Dickens wrote:
+
+> Mike,
+>=20
+> Thanks for responding, and explaining what causes the flickering.
+>=20
+>> If your MacBook is actually 32-bit only, you should never even see =
+the 64-bit JVMs.
+>=20
+> And I don't. But like I said,
+>=20
+>> Have just tested my applet on a 64-bit Mac
+>=20
+> Please could you confirm that the 'In their own process' preference is
+> not currently available for 32-bit Macs (and whether there would be
+> any point in putting in an RFE).
+
+The out-of-process Plugin2 should work fine on 32-bit only Macs.
+
+Switching between the in and out-of-process plugins is a simple matter =
+of adding or removing a symlink to the in-process plugin to =
+/Library/Internet Plug-Ins. You should only see grey radio buttons in =
+Java Preferences if you don't have write permissions in that directory. =
+It's possible that if you have other Java plugins present in your =
+~/Library/Internet Plug-Ins folder, that could be confusing the =
+logic...maybe.
+
+Can you "ls -al@e /Library/Internet\ Plug-ins" and "ls -al@e =
+~/Library/Internet\ Plug-ins" to see what plugins are present, and if =
+there are any funny ACLs or extended attributes?
+
+Best of luck,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+> On Fri, May 21, 2010 at 7:28 PM, Mike Swingler  =
+wrote:
+>=20
+>> There is a known race condition between native background repainting =
+and Java drawing in the resize/scrolling case for Java applets embedded =
+in the browser process. The reason you don't see this behavior when =
+using the out-of-process plugin is because the applet painting is =
+happening in a seperate process, and the browser is "pulling the pixels" =
+from the Java process when the browser thinks it's a good time to =
+repaint.
+>>=20
+>> I'm not clear why unchecking the "64-bit" checkbox in Java =
+Preferences should enable or disable the out-of-process vs. in-process =
+applet setting. If your MacBook is actually 32-bit only, you should =
+never even see the 64-bit JVMs.
+>>=20
+>> On May 21, 2010, at 4:42 AM, Rob Dickens wrote:
+>>=20
+>>> Have just tested my applet on a 64-bit Mac, and it seems,
+>>>=20
+>>> * you have to select the 'In their own process' preference, in order
+>>> to stop the flicker-on-resize
+>>>=20
+>>> * unticking the 64-bit Java checkbox greys out the radio buttons =
+that
+>>> let you make the above change.
+>>>=20
+>>> Ergo, the non-flickering applet container is only available on =
+64-bit Macs.
+>>>=20
+>>> If anyone from Apple could clarify the situation, I'd be much =
+obliged.
+>>>=20
+>>> On Wed, May 19, 2010 at 10:41 AM, Chung-Kai Chen =
+ wrote:
+>>>=20
+>>>> It's really frustrating to see something on Mac so bad compared to =
+Windows.
+>>>> I use this page =
+(http://www.javafx.com/samples/TableInsights/index.html) to test
+>>>> the newly arrived JVM and it still flickers like a hell when =
+scrolling the page.
+>>>> The same applet run on Windows hosted in VirtualBox on my Mac shows =
+almost
+>>>> no flickering.
+>>>>=20
+>>>>=20
+>>>> 2010/5/19 Rob Dickens :
+>>>>=20
+>>>>> Dear Mac-Java Devs,
+>>>>>=20
+>>>>> Have just installed the new version of Java, hoping that my =
+applets[1]
+>>>>> (in Safari) would stop flickering when I resized the browser
+>>>>> window--something which the release notes suggest[2] might be the
+>>>>> case--, but I find that they do still flicker.
+>>>>>=20
+>>>>> One thing I note is that the Java Preferences app won't let me =
+change
+>>>>> the way applets are run (from 'Within the browser process' to 'In
+>>>>> their own process'), since the radio buttons are greyed out.
+>>>>>=20
+>>>>> I'm on a 32-bit MacBook, btw.
+>>>>>=20
+>>>>> Please could somebody help.
+>>>>>=20
+>>>>> Best regards,
+>>>>>=20
+>>>>> Rob
+>>>>>=20
+>>>>> 1 http://lafros.com/gui
+>>>>> 2 Plugin2 Graphics Rendering
+>>>>> =
+
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

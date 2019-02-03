@@ -1,0 +1,82 @@
+[SPAM]  Our staff reduction
+
+
+
+
+<!--
+mainborder {
+        border: medium solid #007FA2;
+}
+footer {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        color: #FFFFFF;
+        margin: 5px;
+        padding: 5px;
+        background-color: #00566F;
+	text-align: center;
+}
+}
+mainborder_2sides {
+        border-top-width: thin;
+        border-right-width: thin;
+        border-bottom-width: thin;
+        border-left-width: thin;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: double;
+        border-left-style: none;
+        border-top-color: #007FA2;
+        border-right-color: #007FA2;
+        border-bottom-color: #007FA2;
+        border-left-color: #007FA2;
+        padding: 5px;
+}
+picture_border {
+        border: medium solid #FFFFFF;
+}
+-->
+
+
+
+
+
+
+
+	To view a web version of this message, 
+click here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More Items On SALE This
+			Week
+
+
+
+
+©2009 Fqsjawes, Inc.,
+
+
+If you would like to discontinue receiving our emails, click 
+here
+	Our privacy policy 
+	here
+
+
+
+
+
+
+

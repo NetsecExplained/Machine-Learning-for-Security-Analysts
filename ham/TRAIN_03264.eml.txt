@@ -1,0 +1,36 @@
+Re: Epson Stylus SX110 under Debian Lenny?On 2010-04-06 11:30, Rodolfo Medina wrote:
+[snip]
+> 
+> Today I went back to that shop and found many other printers - about ten - none
+> of whose is listed there.  So, that list seems to be quite old.  On the other
+> hand, I seriously need a new printer but would like to be sure it'll work under
+> Debian.  What do you Debian users suggest?
+> 
+
+(What's your budget and what country do you live in?)
+
+openprinting.org has a by-manufacturer listing grouping all the 
+"Perfectly" working printers together, then the "Mostly" then the 
+"Partially" and "Paperweight".
+
+For example:
+http://www.openprinting.org/printers/manufacturer/Epson/
+http://www.openprinting.org/printers/manufacturer/Fujitsu/
+http://www.openprinting.org/printers/manufacturer/HP
+http://www.openprinting.org/printers/manufacturer/Dell
+
+Even though it's marked as "Mostly", I really like my Dell 3100cn 
+color laser printer.  It's *big*, and was $350 about 5 years ago but 
+being laser printer is toner-based, and powder doesn't dry out.
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBB694F.8000405@cox.net
+
+

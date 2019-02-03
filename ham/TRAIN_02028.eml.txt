@@ -1,0 +1,28 @@
+Re: [SAtalk] BIG CHANGE coming up in cvs
+On Tuesday, August 6, 2002, at 10:19  AM, Justin Mason wrote:
+
+>
+> "Craig R.Hughes" said:
+>
+>> Excellent.  After that, I'd suggest we work on stabilizing (ie
+>> no new features) for a bit, and getting 2.40 released.  I think
+>> we're in reasonably good shape now with 2.40 (plus or minus some
+>> build issues occasionally creeping in), and Razor2 is starting
+>> to get a little less flakey (minus one or two server issues in
+>> the last few days).
+>
+> Yeah, I agree.  Although note: I'd like to see the proposal to use
+> Received IPs in the AWL, get into 2.40 too.  That's being actively
+> exploited right now.
+
+Yeah, AWL IPs is a good thing for 2.40
+
+> Razor2 is definitely getting solid, and getting some good hits too!
+
+When it works, yeah.  But it's so flakey I have to turn it off 
+so that my mail can be guaranteed to actually get through in a 
+decent timeframe.
+
+C
+
+

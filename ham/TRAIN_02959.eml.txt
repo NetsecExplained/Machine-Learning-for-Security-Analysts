@@ -1,0 +1,46 @@
+Re: Java for Mac OS X 10.6 Update 2 and 10.5 Update 7 are liveOn May 22, 2010, at 9:30 AM, Paul Libbrecht wrote:
+
+> Le 22-mai-10 =E0 17:36, Mike Swingler a =E9crit :
+>=20
+>>> I don't think this was mentioned but the Mac beta of the Chrome =
+browser will now run applets which I gather is dependent on this java =
+upgrade.
+>>>=20
+>>> (Not that I am in any way suggesting Mac users should use anything =
+other than Safari themselves, but if one produces web sites that contain =
+Java applets it is obviously something which one has to be aware of.)
+>>=20
+>> This is because the out-of-process Plugin2 is now present in =
+/Library/Internet Plug-Ins by default, and is picked up automatically by =
+browsers that support it.
+>=20
+> Which browsers is that?
+> My java preferences indicate I wish JDK 1.6 but browserspy confirms =
+I'm running 1.5:
+> 	http://browserspy.dk/java.php
+> (for Safari and Camino at least)
+
+Off the top of my head:
+
+Safari will pickup Plugin2 if Plugin1 is not present - which Java =
+Preferences toggles
+Chrome picks up Plugin2 only
+Firefox is hardwired to Plugin1 with the JEP/MRJ, unless you remove it =
+them from (app)/Contents/MacOS/plugins
+Camino is also hardwired with the JEP/MRJ, but does not pick up Plugin2 =
+if they are disabled (not sure why)
+Opera seems to always die on launch for me
+
+Regards,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,16 @@
+Re: Diskless notebooks with Debian Lenny or Squeeze?> are there any advices for diskless notebooks that is compatible with
+> Debian Lenny or Squeeze?
+
+What means "diskless"?  Do you mean "without a harddrive" or "without
+removable media (like CD/DVD/floppy)"?  Something else?
+
+
+        Stefan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/jwvfx1pt91e.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

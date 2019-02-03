@@ -1,0 +1,18 @@
+Re: Chromium in Sidon Fri, May 21, 2010 at 8:23 AM, Steve Fishpaste
+ wrote:
+> Why is the Chromium-browser in Sid so old? Chromium has been on the
+> 6.x branch for a couple of weeks now and Debian is still using the 5.x
+> branch.
+
+question, on lenny is there a different repository for chromium? just
+did a apt search to find chromium.
+
+only package is some arcade game.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTilbhlIdmEcE40Pe70dNLnqUnDq-EME_0mOgAzWZ@mail.csmining.org
+
+

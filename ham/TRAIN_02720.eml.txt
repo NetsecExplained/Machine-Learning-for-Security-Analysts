@@ -1,0 +1,52 @@
+Re: nvidia legacy driver//kernel 2.6.32 issuesOn Tuesday 06 April 2010 12:02:12 Stephen Powell wrote:
+> On Tue, 6 Apr 2010 10:46:35 -0400 (EDT), Francesco Pietra wrote:
+> > Following "apt-get dist-upgrade" with debian squeeze i386, upgrading
+> > from kernel 2.6.30 to 2.6.32, the xserver was broken at "startx"
+> > because kernel compiled with gcc 4.3 while now gcc 4.4. I could only
+> > boot from previous 2.6.30 to have the xserver at startx.
+> > ...
+> > (EE) NVIDIA(0): Failed to load the NVIDIA kernel module!
+> > (EE) NVIDIA(0): *** Aborting ***
+> 
+> There is a solution to this.  It was discussed on this list in the last
+> couple of months, I think; but I didn't find it on a quick look-see.
+> I'll have another look later when I have more time.  It involves
+> generating the nvidia kernel module with module-assistant.  But I'll
+> have to find the thread for the specifics.
+> 
+
+I tried using module assistant with kernel 2.6.32 and it failed, so I 
+downloaded the .run file from nvidia and it built (after issuing "export 
+CC=/usr/bin/gcc-4.3") and installed and runs fine here (squeeze amd64).  Did 
+you (OP) purge the Debian packages first, and did you use nvidia-xconfig to 
+generate a conf file?
+
+-Chris
+
+------------------------------------------------------------------------
+|   Christopher Judd, Ph. D.                                           |
+|   Research Scientist III                                             |
+|   NYS Dept. of Health                           judd@wadsworth.org   | 
+|   Wadsworth Center - ESP                                             |
+|   P. O. Box 509                                    518 486-7829      |
+|   Albany, NY 12201-0509                                              |
+------------------------------------------------------------------------
+
+
+IMPORTANT NOTICE: This e-mail and any attachments may contain
+confidential or sensitive information which is, or may be, legally
+privileged or otherwise protected by law from further disclosure.  It
+is intended only for the addressee.  If you received this in error or
+from someone who was not authorized to send it to you, please do not
+distribute, copy or use it or any attachments.  Please notify the
+sender immediately by reply e-mail and delete this from your
+system. Thank you for your cooperation.
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004061251.15240.judd@wadsworth.org
+
+

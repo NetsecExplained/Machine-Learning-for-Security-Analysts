@@ -1,0 +1,110 @@
+exmh and pgp: support for external passphrase cache (+patch)From nobody Sun Sep 18 20:45:28 2016
+Content-Type: multipart/mixed; boundary="Multipart_Fri_Sep_27_14:42:27_2002-1"
+Content-Transfer-Encoding: 8bit
+
+--Multipart_Fri_Sep_27_14:42:27_2002-1
+Content-Type: text/plain; charset=US-ASCII
+
+i'm a very happy user of exmh, but i'm paranoid also :-)
+therefore i'm not too happy with exmh caching my pgp passphrases.
+
+usually i use a relatively secure tool called 'quintuple agent' 
+ to store my passphrases,
+and i've just added the few lines of code to exmh which allow for such
+external caches.
+
+the patch is attached, it is against version 2.5-1 (debian), and the
+files modified are extrasInit.tcl and pgpExec.tcl.
+
+i've added three new preferences in the 'general pgp' section, which
+allow everybody to use his/her favourite external tool to get the
+passphrase (everything which spits out the phrase on stdout is ok).
+
+i'd be happy if somebody with cvs access thinks that this stuff 
+is worth to be added and does so; apart from that i'm happy for 
+suggestions, comments or critique (mind you, i'm not exactly a special 
+friend of tcl so my code may leave things to be desired...)
+
+regards
+az
+
+
+--Multipart_Fri_Sep_27_14:42:27_2002-1
+Content-Type: text/plain; charset=US-ASCII
+Content-Disposition: attachment; filename="exmh-patch"
+Content-Transfer-Encoding: 8bit
+
+--- /usr/lib/exmh/extrasInit.tcl	Sat Mar  2 17:26:38 2002
++++ ./extrasInit.tcl	Fri Sep 27 14:22:13 2002
+@@ -642,6 +642,18 @@
+     {pgp(passtimeout) pgpPassTimeout 60 {Minutes to cache PGP passphrase}
+ "Exmh will clear its memory of PGP passphrases after
+ this time period, in minutes, has elapsed." }
++{pgp(extpass) pgpExtPass OFF {Use external passphrase cache}
++"If this is enabled, then exmh will use an external program to retrieve 
++your passphrase when needed. pgpKeepPass and pgpPassTimeout will 
++be ignored."}
++{pgp(getextcmd) pgpGetExtCmd {/usr/bin/q-client get %s} {Method to query external passphrase cache}
++"This external program is used to retrieve the passphrase for your key,
++if pgpExtPass is active. The passphrase is expected on stdout.
++The key id is substituted with %s (using format)." }
++{pgp(delextcmd) pgpDelExtCmd {/usr/bin/q-client delete %s} {Method to invalidate external passphrase cache}
++"This external program is used to delete the passphrase for your key
++from the external cache, if pgpExtPass is active. 
++The key id is substituted with %s (using format)." }
+     }
+ 
+     # Make sure we don't inherit a bad pgp(version) from a previous setup
+--- /usr/lib/exmh/pgpExec.tcl	Sat Mar  2 17:26:39 2002
++++ ./pgpExec.tcl	Fri Sep 27 14:19:40 2002
+@@ -647,6 +647,33 @@
+ proc Pgp_GetPass { v key } {
+     global pgp
+ 
++    if {[info exists pgp(extpass)] && [set pgp(extpass)] \
++	    && [info exists pgp(getextcmd)]} {
++	Exmh_Debug "Pgp_GetPass $v $key external"
++	set keyid [lindex $key 0]
++	set cmd [format $pgp(getextcmd) $keyid]
++	while (1) {
++	    Exmh_Debug "running cmd $cmd"
++	    if [ catch {exec sh -c "$cmd"} result ] {
++		Exmh_Debug "error running cmd: $result"
++		Exmh_Status "Error executing external cmd" warn
++		return {}
++	    } else {
++		if {[Pgp_Exec_CheckPassword $v $result $key]} {
++		    return $result
++		} else {
++		    Exmh_Debug "bad passphrase"
++		    if {[info exists pgp(delextcmd)]} {
++			Exmh_Debug "trying to invalidate bad passphrase"
++			if [catch {exec sh -c "[format $pgp(delextcmd) $keyid]"}] {
++			    Exmh_Debug "invalidation failed"
++			    return {}
++			}
++		    }
++		}
++	    }
++	}
++    } else {
+     Exmh_Debug "Pgp_GetPass $v $key"
+ 
+     if {[lsearch -glob [set pgp($v,privatekeys)] "[lindex $key 0]*"] < 0} {
+@@ -695,6 +722,7 @@
+             }
+             return $password
+         }
++	}
+     }
+ }
+ 
+
+--Multipart_Fri_Sep_27_14:42:27_2002-1
+Content-Type: text/plain; charset=US-ASCII
+
+-- 
++ Alexander Zangerl + az@snafu.priv.at + DSA 42BD645D + (RSA 5B586291)
+Kind of like my 404K fund, "wealth not found." -- shrox
+
+--Multipart_Fri_Sep_27_14:42:27_2002-1--

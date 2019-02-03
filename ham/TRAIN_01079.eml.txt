@@ -1,0 +1,34 @@
+[ILUG] Mutt reply hooks
+Hi all,
+
+I have 3 or 4 email addresses (which get used for different
+reasons), and I'd prefer not to mix them up. So I was wondering
+if anyone knows of a way that I can have mail (apart from list
+mail, which I have already sorted) which arrives to a certain
+e-mail address have the From: header in the reply automatically
+set to the address it came to.
+
+For example, say I have a company, and sales@company.com,
+info@company.com and tech@company.com arrive in the same mailbox.
+I don't want to reply to sales@company.com mails with the From:
+set to dave@company.com, I would like the mail to come from
+sales@company.com.
+
+Is there any way to do this? Bearing in mind that mail can arrive
+with my email in the To or Cc fields (and Bcc?), and it might be
+buried in a couple of dozen other recipients...
+
+Cheers,
+Dave.
+
+-- 
+       David Neary,
+    Marseille, France
+  E-Mail: bolsh@gimp.org
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

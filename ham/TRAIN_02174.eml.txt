@@ -1,0 +1,24 @@
+Re: KDE Issues under "Squeeze"Hi,
+
+AFAIK, the next KDE package manager is adept, which you can already install=
+ in=20
+squeeze (though i recommend aptitude).
+
+kind regards,
+Alejandro.
+
+El Domingo 02 Mayo 2010 02:23:39 lrhorer escribi=F3:
+> >[...] KPackage is being removed very soon and is already gone in
+> > experimental.
+>=20
+>         That's really bad news.  Without KPackage, there really isn't much
+> reason to run KDE.
+>=20
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005021212.28534.alerabagr@csmining.org
+
+

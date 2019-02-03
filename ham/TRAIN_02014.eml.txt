@@ -1,0 +1,25 @@
+Re: Questions about RAID 6
+> I don't know what your requirements / levels of paranoia are, but
+> RAID 5 is
+> probably better than RAID 6 until you are up to 6 or 7 drives; the
+> chance of a
+> double failure in a 5 (or less) drive array is minuscule.
+>
+.
+I currently have 3 TB of data with another 1TB on its way fairly
+soon, so 4 drives will become 5 quite soon. Also, I have read that a
+common rating of drive failure is an unrecoverable read rate of 1
+bit in 10^14 - that is 1 bit in every 10TB. While doing a rebuild
+across 4 or 5 drives that would mean it is likely to hit an
+unrecoverable read. With RAID 5 (no redundancy during rebuild due to
+failed drive) that would be game over. Is this correct?
+
+Tim.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/706fc98e51cb5ceddd4e32ea1bc05cc3.squirrel@192.168.1.100
+
+

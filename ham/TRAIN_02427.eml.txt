@@ -1,0 +1,79 @@
+Re: Fwd: Re: Kde 3.5 ...On 8 May 2010 22:35, consul tores  wrote:
+> 2010/5/8 Dotan Cohen :
+>> On 8 May 2010 15:32, consul tores  wrote:
+>>> the windows are absolutely useless, i can not
+>>> use many, they have all kind of useless information;
+>
+>> What useless information? I'd like to fix that if you will be more specific.
+>
+> Who are you figuring out you are, man?
+>
+
+A KDE contributor who is trying to help make KDE suitable for you. If
+you do not appreciate that then I can just buzz right off, no hard
+feelings.
+
+
+>>> the menu, needs 3
+>>> times more clicks than 3.5;
+>
+>> Can you be more specific? Are you referring to Kmenu?
+>
+> If this were a kde list, i could take you seriously, but it is not!
+>
+
+The go ahead and post to kde@mail.kde.org or
+debian-kde@lists.debian.org, I'm subscribed to both.
+
+
+>>> the time to be ready to use is 5
+>>> times than 3.5;
+>
+>> Do you mean the load time of the desktop? I do agree that it takes a
+>> long time (and the starting Akonaki takes even longer!), but I do not
+>> remember KDE 3 starting so fast either. The new Gnome starts in
+>> seconds!
+>
+> As i said before! This is a Debian list!
+
+Wow, sorry for trying to help.
+
+
+>>> In my case, kde 4.x indicate me when is time to change Desktop, i am
+>>> going to stay with 3.5 still support finish, and then to test others
+>>> desktops which follow the kiss principle. Jo, Jo, Jo.
+>
+>> When you do that, please mail me (privately or on list with CC to me
+>> privately) to let me know what features other desktops have that you
+>> like. I'd like to incorporate them into KDE. Thanks. I highly
+>> recommend testing Gnome Shell, which will be Gnome 3. A lot of people
+>> are very happy with it. Ion and Enlightenment are popular too, each
+>> for their own reasons. XFCE and the boxen might be a little lacking if
+>> you are used to KDE 3.
+>>
+>> --
+>> Dotan Cohen
+>
+> Who are you in reality? Do you really think that i am going to obey your orders?
+>
+
+Orders? I asked what problems you have, so that I can fix them. You
+don't even have to file a bug, I was willing to do that for you. Go
+look at the bugs that I've posted in reply to other peoples' issues.
+Go look at who is filing them. Oh, sorry, you might take that as an
+order and get offended.
+
+
+-- 
+Dotan Cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/AANLkTikbiBu6r8OlMTAZfxtOm3ReVmz_EOudF1LEBcfz@mail.csmining.org
+
+

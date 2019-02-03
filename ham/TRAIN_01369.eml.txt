@@ -1,0 +1,30 @@
+Re: Dual Monitors Twin View on NvidiaOn Tue, 18 May 2010 11:02:50 +0100, James Allsopp wrote:
+
+> Hi,
+> I've a small 4:3 monitor which was working fine with Debian at about
+> 1152x864 (VGA connection) on a nvidia 9500GT with the proprietary
+> drivers (sorry want to experiment with CUDA so non-free wasn't an
+> option). However, I've just bought a new 1080p TV and connected it to
+> the computer via HDMI. This unfortunately has permanently knocked the
+> resolution down on the monitor to 800x600, which is next to unusable.
+> Would anyone with a similar configuration be willing to share an
+> xorg.conf or share some advice on this. I think I'd like the monitor to
+> be either 1280x960, 1152x864, 1024x768 and the TV to work at 1600x900
+> 1366x768 or 1280x720.
+
+Sure, here is my "xorg.conf" for a dual dvi-d setup:
+
+http://lists.debian.org/debian-user/2010/04/msg00261.html
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.18.11.15.29@csmining.org
+
+

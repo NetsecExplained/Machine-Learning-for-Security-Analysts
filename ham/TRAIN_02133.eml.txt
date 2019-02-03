@@ -1,0 +1,29 @@
+Re: Kde 3.5 ...From nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+Hi Dotan,
+
+> This is what I'd like to know! It is very subjective, but KDE 3 was
+> very intuitive in some aspects. Tell me what is not intuitive in KDE
+> 4.4 and I will file the bugs. Thanks, this is an important one! I
+> agree that many things are _not_ intuitive.
+
+The thing I miss most in KDE4 is: pausing the cursor over a music
+file in Konq (file manager, icon view) and hearing the contents.
+This was such an awesome feature that Microsoft has copied it for
+Windows 7; and it's disappeared from Konq/Dolphin. I asked about it
+once, and got  back.
+
+Otherwise, I'm a happy KDE4.4 user (on a number of distros).
+
+Any chance?
+
+--=20
+Trish Fraser, JD9R RQ2D
+52.4161N,16.9303E
+do mei  6 19:16:30 CEST 2010
+GNU/Linux 1997-2010 #283226 counter.li.org
+andromeda up 1 hour(s), 3 min.
+kernel 2.6.31.13-desktop-1mnb
+--

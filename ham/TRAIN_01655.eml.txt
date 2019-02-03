@@ -1,0 +1,18 @@
+Re: `Print selection' unimplemented in Iceweasel?On Thu, Apr 1, 2010 at 1:34 PM, Merciadri Luca
+ wrote:
+> Thanks for all your messages. What I regret is simply that, once you
+> click on `Print,' there is no `Selection' checkbox. Thanks all.
+
+There's an existing upstream bug report for this here:
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=541132
+
+Click on 'Vote' to show that you want this fixed.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/j2rae6dd7d31004061448r431c99b4gbd549652855843e0@mail.csmining.org
+
+

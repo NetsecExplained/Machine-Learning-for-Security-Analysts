@@ -1,0 +1,45 @@
+Re: [OT] Home UPS (was Filesystem recommendations)Kelly Clowers put forth on 4/29/2010 12:07 PM:
+
+> Furthermore most almost all power outages here are very brief,
+> and I end up not having to shutdown at all, which is just pure
+> convenience. For me, my Back-UPS XS 1000 was one of my
+> best computer-related purchases.
+
+I've got an old APC RM1400NET in the bottom of my home rack backing just one
+server at the moment, a rarely used CRT, and my comms gear.  I get about an
+hour out of it during a total outage.  I bought it used from a local "off
+lease equipment" reseller/liquidator.  Gave just over $100 USD for it.  The
+battery pack lasted 6 months.  Bought a replacement pack from batteries.com
+for a little over $100 with shipping.  I've got over 4 years on the current
+battery pack.  Average lifespan on the 1400 pack is 5-7 years depending on
+the number and duration of inverter cycles.  As with you, this is one of the
+smartest hardware purchases I ever made.  The electronics and electrical
+parts in UPSes very rarely fail, so as long as you replace batteries every 5
+years or so you'd got reliable power backup, and cheap--$20 per year
+basically for batteries.  This level of power (and piece of mind) protection
+costs less per year than one trip to the movie theater to see Avatar.
+
+I've got an equally old MinuteMan 650 floor model backing my home
+workstation.  Again I purchased this one used from a liquidator (different
+one in this case) for around $40 back in 1998.  I've replaced the battery
+once after 6 years and am about ready to replace it again.  The battery for
+this one runs around $40.
+
+Today you can buy a 700kva class consumer UPS for $100.  If the battery
+lasts you 5 years, you've paid $20/year for power/surge and data protection.
+ Not to mention convenience.
+
+I can't imagine ever going without a UPS, whether server or workstation.
+Laptops are great because, for all practical purposes, you get a free UPS
+built in.
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD9CE86.90009@hardwarefreak.com
+
+

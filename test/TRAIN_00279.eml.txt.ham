@@ -1,0 +1,34 @@
+Re: Hptalx is buggy once calculator is plugged and linkedOn Fri, 07 May 2010 19:36:36 +0200, Merciadri Luca wrote:
+
+> Camaleón writes:
+> 
+>> Just a wild guess, but try to launch the application as "root" user.
+>> Maybe it's a device permissions issue :-?
+
+> I had thought about it. I had not tried it, and, to my deception,
+> exactly the same facts happen. When I use hptalx for the first time as
+> root, I configure the calculator, I `Save' but when I click `Connect'
+> bug buddy pops. :-(
+
+Wow...
+
+How about...?
+
+1/ Pressing "O.K", instead "save", it will keep your settings only for the
+current session but it just to test if it works :-?
+
+2/ Look at "~/.hptalx" file and check if the previously saved settings 
+seem right (port connection pointing to /dev/ttyUSB0, and so on...).
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.07.18.12.32@csmining.org
+
+

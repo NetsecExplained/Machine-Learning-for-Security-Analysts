@@ -1,0 +1,46 @@
+Re: Ximian apt repos?On Sun, 21 Jul 2002 14:50:13 -0400
+che  wrote:
+
+> On 21 Jul 2002 23:59:59 +1200
+> Mark Derricutt  wrote:
+> 
+> > On Mon, 2002-07-22 at 06:20, che wrote:
+> > 
+> > > The server mentioned above works again now :)!
+> > 
+> > Any problems with the rpm's they provided?
+> > 
+> > 
+> > _______________________________________________
+> > RPM-List mailing list 
+> > http://lists.freshrpms.net/mailman/listinfo/rpm-list
+> 
+> #redhat 7.3
+> rpm http://apt.sunnmore.net gnome2 73
+> rpm-src http://apt.sunnmore.net gnome2 73
+> 
+> #redhat 7.2
+> rpm http://apt.sunnmore.net gnome2 72
+> rpm-src http://apt.sunnmore.net gnome2 72
+> 
+> thats the correct lines to be added to sources.list for the repository
+> 
+> i just did a apt-get install gnome-session its still progressing :)
+> 
+
+after apt-get install gnome-session
+i did another apt-get upgrade (25 more packages) and it works now... i am in gnome 2.0 wohooooo :) looks very great very "tidy" only error message i got was about a mixer applet on login (no biggie to me) even the old sawfish still works. yet its great and works cant say anythign negative yet :)
+
+just btw. if someone knows any other nice repositorys please post em :).
+
+thanks in advance,
+che
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

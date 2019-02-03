@@ -1,0 +1,25 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Thursday 06 May 2010 10:50:52 Facundo Aguilera wrote:
+> El Mi=E9rcoles 05 Mayo 2010 17:24:49 Ana Guerrero  escrib=
+i=F3:
+> > Following Qt 4.6.2, uploaded a couple of weeks ago, KDE 4.4.3, has
+> > finally found its way to unstable in the last 48 hours.
+>=20
+> Just for add a good comment, I'm testing 4.4.3 and it working very good!!
+> Thanks!!
+
+While I've already aired my complaints, I haven't yet chimed in here.
+
+Thank you!
+
+The packaging work is greatly appreciated.  The uploads to Sid are quite=20
+timely and save me a lot of work.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

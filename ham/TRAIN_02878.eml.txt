@@ -1,0 +1,23 @@
+Re: self adaptive apt sourceOn Thu, 06 May 2010 21:58:32 +0900, Osamu Aoki wrote:
+
+> I think you are talking CDN.
+
+Bingo!
+
+>  http://lists.debian.org/debian-devel/2008/02/msg00700.html
+>  http://wiki.debian.org/DebianGeoMirror
+
+Thanks for the url!
+
+-- 
+Tong (remove underscore(s) to reply)
+  http://xpt.sourceforge.net/techdocs/
+  http://xpt.sourceforge.net/tools/
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hrugvj$dlf$1@dough.gmane.org
+
+

@@ -1,0 +1,43 @@
+RE: [Razor-users] New to razorI concur, but just ignore the razor errors during the make test of
+spamassassin.  That recently started failing but appears just to be the
+test failing.  
+
+-----Original Message-----
+From: Justin Mason [mailto:yyyy@spamassassin.taint.org] 
+Sent: Thursday, August 08, 2002 9:07 AM
+To: Michael Graff
+Cc: razor-users@example.sourceforge.net
+Subject: Re: [Razor-users] New to razor 
+
+
+
+Michael Graff said:
+
+> I'm trying to get spamassassin 2.31 and razor (latest) to play 
+> together.  From what I see, this isn't likely to happen trivially,
+
+Mike -- use the CVS version of SpamAssassin.  it works well and supports
+Razor 2.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

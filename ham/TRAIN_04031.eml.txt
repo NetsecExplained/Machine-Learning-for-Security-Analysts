@@ -1,0 +1,137 @@
+Fwd: Re: Kde 3.5 ...Sorry, list - sent to me privately again, and messing up my email client!
+=2D---------  Forwarded Message  ----------
+
+Subject: Re: Kde 3.5 ...
+Date: Friday 07 May 2010
+=46rom: Lisi 
+To: Dotan Cohen 
+
+On Friday 07 May 2010 17:17:52 you wrote:
+> On 7 May 2010 11:56, Lisi  wrote:
+> > On Thursday 06 May 2010 18:22:18 you wrote:
+> >> >> You still have gnustep, xfce, lxde, no using any or simply never
+> >> >> upgrade.
+> >> >
+> >> > I have looked at all those, in addition to KDE 4 and Gnome. =A0None
+> >> > appeals to me. =A0Each has something that I strongly dislike or does=
+ not
+> >> > have something that I like and use a lot.
+> >>
+> >> Please tell me what KDE 4.4 is missing, or what it has that you
+> >> dislike. I can help address those issues.
+> >
+> > I doubt it, because I think that the problem is the basic philosophy.
+> > =A0They have sacrificed funtionality in favour of glitz.
+> >
+> > E.g.
+> > 1. You cannot turn off all those horrible, and to me actually physically
+> > painful (I have problems with my eyes) "special effects" _before_ being
+> > subjected to them. =A0(All that horrible wobbly, wavy, shimmery, spinni=
+ng
+> > transparent glitz.)
+>
+> That boils down to "it's on by default". Just go turn them off.
+
+But I have to _look_ at them to turn them off.  In KDE 3 I do not.  I can t=
+urn=20
+them off without ever having to see them.
+
+> And
+> the defaults do not have wobbly windows, wavy effects, or anything
+> shimmering. Nothing spins either, but the Alt-tab dialogue does slide.
+> There is plenty of transparency, though, and I hate that too. So I
+> turn it off.
+>
+> My mother suffers from what she calls "vertigo" and the effects do not
+> upset her. Nor do they upset the autistics that I volunteer with. They
+> are merely an annoyance to those annoyed by them, nothing wild.
+
+Bully for your mother and your autistics.  They make me feel sick and trigg=
+er=20
+a bad headache.
+
+> > 2. ctrl+tab does not move to the next window.
+>
+> Do you mean between tabs? Fixed:
+> https://bugs.kde.org/show_bug.cgi?id=3D231541
+>
+> > 3. alt+F2 is cumbersome and unhelpful. =A0(In KDE 3.5.x I can type e.g.=
+ k
+> > and be presented with a list of all the applications that I have
+> > previously used beginning with k.)
+>
+> It works that way in KDE 4 as well, so long as you have opened them
+> from Krunner in the past. That is how I open all my applications.
+
+They do not.  They are much more complicated than in KDE 3 and you have to=
+=20
+type more to be offered anything.
+
+> > 4. Alt+F1 does not bring up the menu.
+>
+> It's Alt-F5 for the Kmenu. Has been since KDE 3 I think.
+
+No, it's alt+F1 in KDE 3.5.x.  Alt+F5, which I also like and use a lot, bri=
+ngs=20
+up a list of running windows.
+
+> > 5. Kcontrol no longer exists.
+>
+> It's called System Settings, and with the Tree menu it's very similar.
+> It is being reworked for KDE 4.5, so if you have any suggestions then
+> now is the time to make them!
+
+But I don't _like_ KDE 4 and I do, very much, like KDE 3.  I like Kcontrol=
+=20
+better than those work-arounds.
+
+> > etc etc.
+>
+> Tell me more!
+
+Why?  You will only tell me that I have not got your petrmission to=20
+dislike/miss whatever it is.
+
+> >> > I am, however, very sad that KDE 3.5, which I regard as the pinnacle
+> >> > of DE's, is being laid to rest.
+> >>
+> >> Then help me shape it's successor. What is not suitable about KDE 4?
+> >
+> > Why would I rather have a Toyota hatchback (especially a hybrid one) th=
+an
+> > a two seater sports car?
+>
+> You evaded the question. I cannot help when you evade the question.
+
+I have not evaded the question.  I have pointed out that I prefer things th=
+at=20
+are functional to things that are showy.  As I stated at the beginning.  As=
+=20
+someone else has pointed out, KDE 4 has had 2 years to become half way=20
+bearable and has signally failed.  I mourn the passing of KDE 3.5.x, which =
+I=20
+regard as the pinnacle of DE's.  In other words, we have come full circle a=
+nd=20
+are back at the beginning.  You have to learn to accept that not everyone=20
+agrees with you.
+
+And, I fear that the lengths you are going to to try and persuade me that I=
+ am=20
+wrong, even to the extent of telling me that I am only allowed to be made i=
+ll=20
+by something that also makes your mother ill, do not strike me as helping m=
+e.
+
+Lisi
+
+
+
+=2D------------------------------------------------------
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005080859.00025.lisi.reisz@csmining.org
+
+

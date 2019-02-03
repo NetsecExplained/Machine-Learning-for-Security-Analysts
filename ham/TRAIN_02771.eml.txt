@@ -1,0 +1,126 @@
+Re: Multiple Graphics cards and HDMI: How to?Victor Padro wrote:
+> On Thu, Apr 29, 2010 at 6:53 PM, KS  wrote:
+>> Hi all,
+>>
+>> I have setup a system with Gigabyte MA-790GPT-UD3H motherboard and use a
+>> Nvidia GeForce 8600GTS PCI-E video card. It also has an onboard ATI
+>> Radeon HD 3300 graphics chipset. The PCI-E card is being used at the
+>> moment for the monitor (nvidia driver). I was thinking of using the HDMI
+>> port(onboard) to play movies directly on the TV rather than using a
+>> DVD-RW (current method).
+>>
+>> I did configure the onboard chipset to be detected after the PCI-E card
+>> as D-SUB+HDMI output in the BIOS. This is on a Debian Unstable box.
+>>
+>> The question is: would it be possible to use two graphics cards from
+>> different manufacturers?
+>>
+>> I also noticed that the onboard chipset does not come up with lspci.
+> 
+> AFAIK, when you use a PCI-e VGA onboard video is disable, and your
+> lspci states that...
+> 
+
+Yes, that seems to what was happening. I have remove the PCI-E card and
+the machine was able to detect the onboard VGA chipset (using module
+radeonhd).
+
+At the moment, when I boot, I get 1024x768 resolution on both of them
+(monitor and TV) with both showing the same image. I have tried to
+create an xorg.conf using
+http://wiki.debian.org/XStrikeForce/HowToRandR12 but it is not being
+applied (both outputs have 1024x768 resolution even though I have
+specified the preferred resolution in xorg.con). Does anyone see obvious
+mistakes in the file or if I have missed something?
+
+Thanks,
+KS.
+PS: I just realized that I could have used a DVD-HDMI adapter for my
+Nvidia 8600GTS card too. However, its fan is really noisy :(
+
+--------------
+Section "Module"
+        #Load    "bitmap"
+        #Load    "dbe"
+        #Load    "ddc"
+        #Load   "dri"
+        #Load    "extmod"
+        #Load    "freetype"
+        #Load    "int10"
+        #Load    "record"
+        #Load   "type1"
+        #Load    "vbe"
+EndSection
+
+Section "InputDevice"
+        Identifier      "Generic Keyboard"
+        Driver          "kbd"
+        Option          "XkbRules"      "xorg"
+        Option          "XkbModel"      "pc104"
+        Option          "XkbLayout"     "us"
+EndSection
+
+Section "InputDevice"
+        Identifier      "Configured Mouse"
+        Driver          "mouse"
+        Option          "CorePointer"
+        Option          "Device"                "/dev/input/mice"
+        Option          "Protocol"              "ImPS/2"
+        Option          "Buttons"               "7"
+        Option          "ZAxisMapping"          "4 5"
+        Option          "ButtonMapping"         "1 2 3 6 7 4 5"
+EndSection
+
+Section "Device"
+        Identifier      "ATI Technologies Inc Radeon HD 3300 Graphics"
+        Driver          "radeonhd"
+#       BusID           "01:05.0"
+        Option          "AccelMethod"   "EXA"
+        Option          "Monitor-VGA-0" "Lenovo Monitor"
+        Option          "Monitor-HDMI-0" "External TV"
+        Option          "Audio" "on"
+        Option          "HDMI" "all"
+EndSection
+
+Section "Monitor"
+        Identifier      "Lenovo Monitor"
+        Modeline        "1920x1200_60.00"  193.16  1920 2048 2256 2592
+1200 1201 1204 1242  -HSync +Vsync
+        Option          "PreferredMode" "1920x1200_60.00"
+EndSection
+
+Section "Monitor"
+        Identifier      "External TV"
+        DisplaySize     1600 900
+        Modeline        "1360x768_60.00"  84.72  1360 1424 1568 1776
+768 769 772 795  -HSync +Vsync
+        Option          "PreferredMode" "1360x768_60.00"
+        Option          "RightOf" "Lenovo Monitor"
+EndSection
+
+Section "Screen"
+        Identifier      "Big Screen"
+        Device          "ATI Technologies Inc Radeon HD 3300 Graphics"
+        DefaultDepth    24
+        SubSection      "Display"
+                Depth           24
+                #Virtual Screen size add widths + max(height of monitor)
+for right+left config
+                Virtual         3280 1200
+        EndSubSection
+EndSection
+
+Section "ServerLayout"
+        Identifier      "Default Layout"
+        Screen          "Big Screen"
+        InputDevice     "Generic Keyboard"
+        InputDevice     "Configured Mouse"
+EndSection
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDD99F6.4020803@fastmail.fm
+
+

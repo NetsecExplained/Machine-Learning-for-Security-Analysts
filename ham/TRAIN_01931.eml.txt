@@ -1,0 +1,53 @@
+Re: Optical analog computing?
+--- begin forwarded text
+
+
+Status: RO
+Date: Thu, 03 Oct 2002 03:21:05 +1000
+To: "John S. Denker" 
+From: Greg Rose 
+Subject: Re: Optical analog computing?
+Cc: "R. A. Hettinga" ,
+   Digital Bearer Settlement List ,
+   cryptography@wasabisystems.com
+
+At 01:30 AM 10/2/2002 -0400, John S. Denker wrote:
+>"R. A. Hettinga" wrote:
+>...
+> > "the first computer to crack enigma was optical"
+>1) Bletchley Park used optical sensors, which were (and
+>still are) the best way to read paper tape at high speed.
+>You can read about it in the standard accounts, e.g.
+>   http://www.picotech.com/applications/colossus.html
+
+But Colossus was not for Enigma. The bombes used for Enigma were
+electro-mechanical. I'm not aware of any application of optical techniques
+to Enigma, unless they were done in the US and are still classified. And
+clearly, the first bulk breaks of Enigma were done by the bombes, so I
+guess it depends whether you count bombes as computers or not, whether this
+statement has any credibility at all.
+
+Greg.
+
+
+
+Williams/Zenon 2004 campaign page: http://www.ben4prez.org
+
+Greg Rose                                       INTERNET: ggr@qualcomm.com
+Qualcomm Australia          VOICE:  +61-2-9817 4188   FAX: +61-2-9817 5199
+Level 3, 230 Victoria Road,                http://people.qualcomm.com/ggr/
+Gladesville NSW 2111    232B EC8F 44C6 C853 D68F  E107 E6BF CD2F 1081 A37C
+
+--- end forwarded text
+
+
+-- 
+-----------------
+R. A. Hettinga 
+The Internet Bearer Underwriting Corporation 
+44 Farquhar Street, Boston, MA 02131 USA
+"... however it may deserve respect for its usefulness and antiquity,
+[predicting the end of the world] has not been found agreeable to
+experience." -- Edward Gibbon, 'Decline and Fall of the Roman Empire'
+
+

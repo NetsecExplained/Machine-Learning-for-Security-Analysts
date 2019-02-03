@@ -1,0 +1,45 @@
+Re: Sorting
+On Mon, 09 Sep 2002 12:21:42 PDT,
+	Rick Baartman  wrote:
+
+> Sorry I wasn't clear. I am transferring messages from my inbox to
+> other folders and since I am doing it from most recent to oldest, they
+> appear in those folders in the wrong order and need re-sorting.
+
+OK, gotcha.
+
+I don't think you can do that with exmh, but you can do it on the
+command line, if you use sh or ksh:
+
+	for f in `folders -fast -r`
+	do
+		echo sorting $f ...
+		sortm +$f
+	done
+
+It could take a long time.
+
+At work, I have to use Outlook.  Ick.  I hate it.  But it does a few
+things right.  Like making indices for each folder, and not just by
+date, but also by sender, message size, subject.  So I can sort by any
+column instantly.
+
+I believe this is possible, too, with an IMAP compliant reader,
+provided the IMAP server makes such indices.
+
+I am facing the fact that exmh has been left behind in some industry
+standards.  I use it for my personal mail.  My mail server runs unix,
+and I connect over ssh and tunnel my X traffic over ssh.  With a slow
+link, this makes exmh very slow.  And mime handling is pretty bad
+compared with modern mailers.  I am just scared to move.  I've been
+using MH or nmh since 1985 and exmh since 1995.  17 years is a long
+time!
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

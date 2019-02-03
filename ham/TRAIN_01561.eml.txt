@@ -1,0 +1,54 @@
+Re: [ILUG] ipfw vs ipchains vs iptables[warning: veering further off topic]
+
+Philip Reynolds wrote:
+> Paul Jakma's [paul@clubi.ie] 67 lines of wisdom included:
+>>i thought the firewalling code on all the BSDs was fairly related -
+>>sorry. So FreeBSD's ipfw is not encumbered in the same way the old
+>>OBSD firewalling was?
+
+ipfw was written specifically for FreeBSD under a bsd license by Luigi
+Rizzo, who's one of the FreeBSD whizzes.  All three of the BSD's
+packaged IPFilter, which has been around for donkeys years and which has
+a slightly different feature set to ipfw.
+
+However, last year the author of IPFilter (Darren Reed) changed the
+license on development branches of ipfilter to prohibit redistribution,
+although official releases would still be kept under the old license. 
+This policy got up the nose of Theo de Raadt (lots of things do, which
+is why OpenBSD exists in the first place), so OpenBSD re-invented the
+wheel and called their firewall "pf", under a full-time BSD license.   
+
+The standard release versions of ipfilter are unencumbered, as always.
+
+> Nope, indeed IPFW2 has just been rolled out into -STABLE. (-STABLE
+> is a stable branch of the code that has been rolled into -CURRENT
+> first. It's basically a major release, that's still a work in
+> progress)
+
+I'm not so sure that ipfw2 is really ready for production yet, having
+only been mfc'd last wednesday.  It certainly adds some nice syntactic
+sugar, and is apparently much faster for certain types of complex
+rulesets.  It will be good once it's had some time to settle down a
+little.
+
+>>i've no experience of ipfw. (closest i've come is looking at IPFilter 
+>>for IRIX - but it had a problem in that it wasnt maintained 
+>>anymore. however, while the englishy syntax is nice, i dont think 
+>>iptables command  syntax is a big obstacle).
+
+ipfilter is quite nice, and is my current o/s firewall of choice.  It
+has some nice features like the ability to save and restore state so
+that connections are persistent across reboots, and its logging is
+marginally better organised than ipfw's.  It's also very mature code,
+which appeals to the rather conservative tastes of my old age.
+
+Nick
+
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

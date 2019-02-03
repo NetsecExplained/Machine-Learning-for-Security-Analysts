@@ -1,0 +1,26 @@
+Copy/Paste .ps/.pdf often gives a `snippets' iconFrom nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+When copying and pasting a .ps or a .pdf file, or a serie of such files,
+the resulting (i.e. pasted) files' icon is often the `snippets' one,
+i.e. the one which designates a broken/corrupted file. However, when
+right-clicking on the files, their content appears as the icon, i.e. the
+`snippets' icon disappears. Why? Is it normal? I do not like copying and
+pasting files and seeing such an icon, because one might think that
+these are corrupted files.
+
+Thanks.
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+You can fool all of the people some of the time, some of the people all
+of the time, but you can't fool all of the people all of the time.
+(Abraham Lincoln)
+

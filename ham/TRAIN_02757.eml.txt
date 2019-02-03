@@ -1,0 +1,11 @@
+Re: Java is for kiddiesJoeBar wrote:
+>C is more reliable than Java??
+
+Depends who writes it.  One guy will write a bug every 5 lines,
+another every 5000 lines.  Put them both on a project and that will
+average out to a bug every 4.995 lines.
+(Irrespective of language.  Pick the one
+that best suits what you're trying to do.)
+
+R
+

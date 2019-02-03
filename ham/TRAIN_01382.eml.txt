@@ -1,0 +1,44 @@
+Re: tool tips remaining after window switchingOn Tue, 27 Apr 2010 10:40:58 -0500
+"Boyd Stephen Smith Jr."  wrote:
+
+> On Monday 26 April 2010 21:09:06 Celejar wrote:
+> > I use a
+> > number of applications that implement tool tips, those little boxes
+> > that come up explaining some on screen widget.  Very often, when one
+> > comes up and I then switch to a different window,
+> > the tool tip remains, superimposed over the new
+> > application, and won't go away until I switch back to the first app,
+> > move the cursor somewhere else to get it to go away, and then switch
+> > back to the other application.
+> > 
+> > Should I file a bug,
+> 
+> Sounds like a bug to me.  Not exactly high-priority, but a bug nonetheless.
+> 
+> > and against
+> > what?
+> 
+> Well, does this only happen with tooltips from a single application?  Multiple 
+> related applications (e.g. multiple Qt-4 applications)?  Every application?
+> 
+> Single -> that app.
+> Multiple -> that library / related "thing".  Or any one of the applications, 
+> but include information about which other applications are affected.
+> Every -> Probably your window manager, maybe X.
+
+The main offender is oowriter.  I think that I've seen a similar
+problem with other applications, but I can't reproduce such right now.
+
+Celejar
+-- 
+foffl.sourceforge.net - Feeds OFFLine, an offline RSS/Atom aggregator
+mailmin.sourceforge.net - remote access via secure (OpenPGP) email
+ssuds.sourceforge.net - A Simple Sudoku Solver and Generator
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100427171801.53fff689.celejar@csmining.org
+
+

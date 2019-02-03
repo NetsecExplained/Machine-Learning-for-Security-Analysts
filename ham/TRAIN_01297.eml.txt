@@ -1,0 +1,65 @@
+Re: About USB hard drives and errorsOn 20100410_092044, Clive McBarton wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Paul E Condon wrote:>
+> > dumpe2fs -b  is supposed to print the bad blocks that have
+> > been marked on a device. When I run it, it prints nothing. I find it
+> > hard to believe that a 500GB HD contains ZERO bad blocks. 
+> 
+> Every HD that is even remotely close to being usable will always have
+> zero bad blocks when seen from outside the HD. All HDs have error
+> recognition and error correction and automatic replacement of faulty
+> sectors with spare ones. A HD will only show bad blocks after all of its
+> remapping area is used, at which point it is far beyond being usable.
+> 
+> In other words, scanning for bad blocks on a HD cannot work.
+
+Thanks Clive. Your post has been invaluable in fixing some faulty thinking
+on my part, and in provoking other useful posts. But I want more ...
+
+The errors that I am experiencing are all similar. The first
+indication of a problem is a message from the kernel (I think). An
+example is:
+
+kernel: [78454.939948] journal commit I/O error
+
+This appears on all xterm windows on the affected machine. On the
+xterm that is controlling a process that is using one of the USB
+drives, there follows a long sequence of error messages about the
+drive being read-only, which stops after a while. Or sometimes I stop
+it by typing ^C on that xterm. 
+
+When this happens, all the USB drives (3 of them) disappear from
+/dev/disks/by-label (they are all labeled by me). I have not
+discovered any to make them re-appear, short of rebooting the
+computer. After reboot, I run e2fsck on all of them, and always get a
+longish delay on each while e2fsck commits (or whatever) the
+journal. This can take a few seconds or up to half a minute. Then
+I manually mount them using pmount, and all data upto the point
+where the crash happened seems to be present. 
+
+I have installed smartmontools, but I think there is some
+incompatibility between the installed version and the installed
+docs. The README.Debian makes reference to editing some lines in the
+config file that are not present in the default, package installed,
+config file. There is (apparently) some incompatibility between using
+the daemon and using smartctl. The problem host is running Lenny, but
+the docs seem to be the same as on a different host that is running
+Squeeze. 
+
+I would very much appreciate some help in understanding the docs.
+What is a safe thing for a nubie to type as a first command to
+smartctl? 
+
+-- 
+Paul E Condon           
+pecondon@mesanetworks.net
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100410222445.GC5664@big.lan.gnu
+
+

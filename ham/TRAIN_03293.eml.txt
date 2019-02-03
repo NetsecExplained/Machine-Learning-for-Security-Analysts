@@ -1,0 +1,29 @@
+Re: apt and a hybrid systemOn Thu, Sep 05, 2002 at 12:32:58PM +0200, Axel Thimm wrote:
+> On Thu, Sep 05, 2002 at 07:11:23AM +0000,  Angles  Puglisi wrote:
+> > If I can use apt, can I use it to get updates from these 3 different
+> > places:
+> > 1. the (null) up2date Redhat upgrades
+> > 2. the (null) files at Freshrpms.net
+> > 3. the regular RH7.3 files from freshrpms.net
+> You could build your own apt-repository. Just mirror the needed
+> directories (e.g. by using a wget cron job), symlink the needed rpms
+> and recreate the repository. It is already worth the trouble, if you
+> have more than one installation.
+
+Always nice to have one to put stuff that overrides RH things. Like if
+you absolutely detest qt and some programs are rebuildable from sources
+with different %configure options. You can get src.rpm, edit spec, bump
+release numberwith your initials and another number and rebuild, insert
+into apt and let loose... :)
+
+Doesn't freshrpms have updates dir too? Maybe not quite as up to date as
+up2date but still. I would never use up2date. There is another
+repository at apt-rpm.tuxfamily.org IIRC. Not sure if that had The
+updates.
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

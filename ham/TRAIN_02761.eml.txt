@@ -1,0 +1,46 @@
+Re: X freezes with 2.6.32-5; okay with 2.6.26-2From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Thu, May 13, 2010 at 08:42 -0500, Kent West wrote:
+> I've got an older 600MHz PIII running Sid; if I boot into the
+> installed 2.6.26-2-68 kernel, everything's fine, but if I boot into
+> the installed 2.6.32-5-68 kernel, everything's fine until X is
+> started (either manually or with a session manager or even when
+> trying to create a new xorg.conf file using "X -config"). At that
+> point, the screen goes black, the keyboard stops responding, and the
+> Xorg.log fills up with :
+>=20
+> (EE) R128(0): Idle timed out, resetting engine...
+> (EE) R128(0): R128CCEWaitForIdle: CCE stop -9
+> (EE) R128(0): R128CCEWaitForIdle: CCE start -9
+> (EE) R128(0): R128CCEWaitForIdle: CCE idle -9
+> (EE) R128(0): Idle timed out, resetting engine...
+> (EE) R128(0): R128CCEWaitForIdle: CCE stop -9
+> (EE) R128(0): R128CCEWaitForIdle: CCE start -9
+> (EE) R128(0): R128CCEWaitForIdle: CCE idle -9
+
+I've seen this recently in #debian and we were able to "fix" this with
+the following in /etc/X11/xorg.conf
+
+Section "Device"
+        Identifier "r128"
+        Driver "r128"
+        Option "NoAccel"
+EndSection
+
+the related bug report is [1] and this will disable acceleration for
+your card, so it is not really a good fix. You might also want to make
+sure that you have the firmware package(s) installed.
+
+Good luck
+
+    Wolodja
+
+[1] http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D581216
+--=20
+  .''`.     Wolodja Wentland    =20
+ : :'  :   =20
+ `. `'`     4096R/CAF14EFC=20
+   `-       081C B7CD FF04 2BA9 94EA  36B2 8B7F 7D30 CAF1 4EFC

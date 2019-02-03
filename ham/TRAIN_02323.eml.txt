@@ -1,0 +1,9 @@
+Re: storage bitsOn 11 Sep 2002, Gary Lawrence Murphy wrote:
+
+> So then why does my webhost _still_ only give me 200MB?
+
+Because ~10 krpm server SCSII doesn't follow the curve. Most rackspace is
+ridiculously expensive/unit, so people don't use low end EIDE hardware 
+there.
+
+

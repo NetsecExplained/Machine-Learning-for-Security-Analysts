@@ -1,0 +1,29 @@
+pinentry window?From nobody Sun Sep 18 20:45:32 2016
+Content-Type: text/plain;
+  charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Heyho!
+
+=2E.. and, sending the last mail: is it a Debian specific issue, or some lo=
+cal=20
+feature of my KDE profile, or a KDE bug: recently (4.3 to 4.4, but I'm not=
+=20
+sure exactly which updates triggered it), the pinentry window always comes=
+=20
+up behind the kmail windows when I sign email.  Confused me a bit at=20
+first... (luckily it is still modal relative to the kmail window, so the=20
+kmail composer gets greyed out, indicating that the pinentry might be=20
+somewhere...)
+
+Mostly everything related to KDE is experimental or qt-kde repository.=20
+pinentry-qt4 is 0.8.0-1.
+
+cheers
+=2D- vbi
+
+=2D-=20
+Development code can brick your network adapter,
+scramble your filesystems, open up severe security
+holes, or save your documents as OOXML
+        -- Jonathan Corbet, Linux Weekly News

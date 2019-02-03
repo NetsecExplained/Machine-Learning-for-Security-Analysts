@@ -1,0 +1,23 @@
+Re: [ILUG] removing liloQuoting jac1 (jac1@student.cs.ucc.ie):
+
+> i recently had to wipe linux from my pc but forgot to restore the original
+> MBR (NT). Anyone know how i can do this? linux is entirely gone and no boot
+> floppy. formatting the entire disk doesn't do it either.
+
+The easy way is just to install whatever Microsoft or whatever OS you
+have in mind:  It should overwrite the MBR.  Indeed, the problem is
+usually _preventing_ this from happening, as Microsoft Corporation's
+installers seem to forever be overwriting your MBRs when you least wish
+it, without asking your permission.
+
+-- 
+Cheers,               "We're sorry; you have reached an imaginary number.
+Rick Moen             Please rotate your 'phone ninety degrees and try again."
+rick@linuxmafia.com
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

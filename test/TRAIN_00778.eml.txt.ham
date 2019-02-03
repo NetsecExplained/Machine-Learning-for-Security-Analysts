@@ -1,0 +1,40 @@
+Re: Which kernel for ThinkPad 760XD ?-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ionreflex wrote:
+> @Stefan
+> 
+> [quote]
+> 486 will work.  686 may work.
+> [/quote]
+> 
+> 
+> My impression exactly, but I'd like to be sure : if I scrape this install,
+> I'll have a hard time recovering it...
+
+There is nothing in the way to install *both* kernels. Just give the 686
+a try and if it does not work you can just reboot into the 486 and
+uninstall the 686. Make sure that the 486 is installed before you try
+the 686, though.
+
+- --
+Johannes
+
+In questions of science, the authority of a thousand is not worth the
+humble reasoning of a single individual.
+- - Galileo Galilei, physicist and astronomer (1564-1642)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvNRaMACgkQC1NzPRl9qEUw0ACdFHBG9PluIDZpuMGD2fTPsEiQ
+4pQAn2clzpn7qmch9FpkkKkXZoeDV/JV
+=leB4
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCD45A3.3020902@physik.blm.tu-muenchen.de
+
+

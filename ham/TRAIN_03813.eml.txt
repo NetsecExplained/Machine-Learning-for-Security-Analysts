@@ -1,0 +1,42 @@
+Re: [ILUG] Fwd: Linux Beer HikeOn Tue, Jul 30, 2002 at 01:17:25PM +0100, Patton, Tony wrote:
+> On Tue, 2002-07-30 at 10:06, Donncha O Caoimh wrote:
+> > Ar mhaith le einne anseo caint le TG4 faoin LBW?
+> > 
+> > Donncha.
+> > 
+> 
+> ----8<
+> 
+> > Tá mé ag déanamh taighde don clár teilifíse An Tuath Nua (a bhíonn á
+> > chraoladh ar TG4) faoi láthair, agus chonaic mé go mbedih an Linux Beer
+> > Hike ar siúl i Doolin i mbliana. Bheadh spéis againn mír a dhéanamh mar
+> > gheall ar an Hike ar an gclár - an mbeidh tú féin nó aon duine eile le
+> > Gaeilge ar an Hike go bhfios duit?
+> > 
+> > Go raibh maith agat as do chabhair,
+> > 
+> 
+> ---->8
+> 
+> Can someone translate this for me? Lost all sense of Irish when moved
+> over the border about 10 years ago. Not by choice mind you :-(
+
+
+"Currently, I am doing some research for the telivision programme 
+"An Tuath Nua"  (which is broadcast by TG4) , and I saw that the
+Linux Beer Hike will be in Doolin this year. We'd be intrested 
+in including a report on the hike in the programme - will yourself
+or anyone else with Irish be on the Hike do you know ?
+
+Thanks for your help."
+
+-- 
+colmmacc@redbrick.dcu.ie        PubKey: colmmacc+pgp@redbrick.dcu.ie  
+Web:                                 http://devnull.redbrick.dcu.ie/ 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

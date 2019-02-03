@@ -1,0 +1,57 @@
+Re: How to keep debian current??On Tue, May 18, 2010 at 11:00:41PM +0300, Andrei Popescu wrote:
+> 
+> How about this instead of the last paragraph:
+> 
+> ---
+> Please note that the Security Team does not monitor unstable. It is up 
+> to the individual maintainer to fix the issue. 
+
+YES
+
+> This may under circumstances take longer, e.g. if the maintainer is
+> waiting for a new version from upstream. 
+
+Is this realistic description?  It is usually lazy mantainer or dead
+upstream which delay such fixes.  Upstream fix should likely be around
+if someone fixed that for stable.
+
+> There are also no Debian Security Advisories 
+> (DSA) for issues that are present in the unstable version of a software, 
+> but not the versions in stable and/or testing.
+
+I see... I now think placing pointer to FAQ should be good idea to
+explain all these issues.
+
+I need to think think about the context of these.  This was in
+section describing "archive".  (I have other place where I say "For your
+**production server**, the `stable` suite with the security updates is
+recommended.")  
+
+So I am updating as:
+
+TIP: If "`sid`" is used in the above example instead of
+"`@-@codename-stable@-@`", the "`deb: http://security.debian.org/ ...`"
+line for security updates in the "`/etc/apt/sources.list`" is not
+required.   This is because there is no security update archive for
+"`sid`" (`unstable`).
+
+NOTE: The security bugs for the `stable` archive are fixed by the Debian
+security team.  This activity has been quite rigorous and reliable.
+Those for the `testing` archive may be fixed by the Debian testing
+security team.  For several reasons, this activity is not as rigorous as
+that for `stable` and you may need to wait for the migration of fixed
+`unstable` packages.  Those for the `unstable` archive are fixed by the
+individual maintainer.  Actively maintained `unstable` packages are
+usually in a fairly good shape by leveraging latest upstream security
+fixes. See http://www.debian.org/security/faq[Debian security FAQ]
+for how Debian handles security bugs.
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100519142801.GA9148@osamu.debian.net
+
+

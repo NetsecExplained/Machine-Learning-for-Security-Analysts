@@ -1,0 +1,31 @@
+Re: [ILUG] CVS question?Well, as many have said, it's non-trivial and not smart enough.
+
+I did try just cvs'ing over the existing sources, but cvs complained that my 
+files were in the way.
+
+Then I thought that I'd only need the DRI stuff, that took about 1.5 hours to 
+fetch 116M. Unfortunately I still need the XFree86 cvs stuff as well :-( At 
+339M that took almost 3 hours.
+
+Now I can start building the XFree86 cvs and DRI cvs stuff for testing the 3D 
+patches for my GVX1 card. I just hope I don't completely trash my system in 
+the process. 
+
+Think I'll wait until morning to start building, though. I've been building a 
+new box from source this week. A 200Mhz PentiumMMX with 96M. It took a full 
+day to build XFree86 4.2.0 and 2.5 days each to build qtlibs and kdelibs. 
+kdebase took just under 46 hours. I've got lots of grief from the wife for 
+the computer running 'round the clock this week. The rest of KDE should build 
+in under 20 hour increments.
+
+Cheers,
+
+	John Gay
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

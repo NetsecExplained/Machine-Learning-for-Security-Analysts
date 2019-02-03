@@ -1,0 +1,126 @@
+Re: RH 8 no DMA for DVD driveOn Mon, 2002-10-07 at 08:59, Matthias Saou wrote:
+> Once upon a time, Alvie wrote :
+> 
+> > Thanks, I seem to be having problems with rebuilding transcode from SRC
+> > it gets confused from previous errors and gives up.
+> 
+> Could you give the output of the error?
+>
+
+This is only the last part of it.I used 'rpmbuild --rebuild --without avifile transcode.0.6.1-fr2.src.rpm'.
+af6_decore.cpp:305: 'WAVEFORMATEX' is used as a type, but is not defined
+as a
+   type.
+af6_decore.cpp:306: parse error before `if'
+af6_decore.cpp:308: syntax error before `->' token
+af6_decore.cpp:313: `wvFmt' was not declared in this scope
+af6_decore.cpp:313: `avm_wave_format_name' was not declared in this
+scope
+af6_decore.cpp:314: `wvFmt' was not declared in this scope
+af6_decore.cpp:315: `wvFmt' was not declared in this scope
+af6_decore.cpp:316: `wvFmt' was not declared in this scope
+af6_decore.cpp:316: ISO C++ forbids declaration of `fprintf' with no
+type
+af6_decore.cpp:316: redefinition of `int fprintf'
+af6_decore.cpp:161: `int fprintf' previously defined here
+af6_decore.cpp:316: initializer list being treated as compound
+expression
+af6_decore.cpp:317: 'WAVEFORMATEX' is used as a type, but is not defined
+as a
+   type.
+af6_decore.cpp:318: syntax error before `->' token
+af6_decore.cpp:321: `fmt' was not declared in this scope
+af6_decore.cpp:321: `avm_wave_format_name' was not declared in this
+scope
+af6_decore.cpp:322: `fmt' was not declared in this scope
+af6_decore.cpp:323: `fmt' was not declared in this scope
+af6_decore.cpp:324: `fmt' was not declared in this scope
+af6_decore.cpp:324: ISO C++ forbids declaration of `fprintf' with no
+type
+af6_decore.cpp:324: redefinition of `int fprintf'
+af6_decore.cpp:316: `int fprintf' previously defined here
+af6_decore.cpp:324: initializer list being treated as compound
+expression
+af6_decore.cpp:327: parse error before `if'
+af6_decore.cpp:330: syntax error before `->' token
+af6_decore.cpp:349: ISO C++ forbids declaration of `samples' with no
+type
+af6_decore.cpp:349: conflicting types for `int samples'
+af6_decore.cpp:290: previous declaration as `unsigned int samples'
+af6_decore.cpp:349: `fmt' was not declared in this scope
+af6_decore.cpp:350: ISO C++ forbids declaration of `buffer_size' with no
+type
+af6_decore.cpp:350: conflicting types for `int buffer_size'
+af6_decore.cpp:288: previous declaration as `unsigned int buffer_size'
+af6_decore.cpp:350: `fmt' was not declared in this scope
+af6_decore.cpp:351: ISO C++ forbids declaration of `buffer' with no type
+af6_decore.cpp:351: conflicting types for `int buffer'
+af6_decore.cpp:291: previous declaration as `char*buffer'
+af6_decore.cpp:351: invalid conversion from `char*' to `int'
+af6_decore.cpp:352: parse error before `if'
+af6_decore.cpp:354: syntax error before `->' token
+af6_decore.cpp:359: ISO C++ forbids declaration of `fflush' with no type
+af6_decore.cpp:359: redefinition of `int fflush'
+
+af6_decore.cpp:288: previous declaration as `unsigned int buffer_size'
+af6_decore.cpp:350: `fmt' was not declared in this scope
+af6_decore.cpp:351: ISO C++ forbids declaration of `buffer' with no type
+af6_decore.cpp:351: conflicting types for `int buffer'
+af6_decore.cpp:291: previous declaration as `char*buffer'
+af6_decore.cpp:351: invalid conversion from `char*' to `int'
+af6_decore.cpp:352: parse error before `if'
+af6_decore.cpp:354: syntax error before `->' token
+af6_decore.cpp:359: ISO C++ forbids declaration of `fflush' with no type
+af6_decore.cpp:359: redefinition of `int fflush'
+af6_decore.cpp:208: `int fflush' previously defined here
+af6_decore.cpp:359: invalid conversion from `_IO_FILE*' to `int'
+af6_decore.cpp:360: `ipipe' was not declared in this scope
+af6_decore.cpp:360: `sync_str' was not declared in this scope
+af6_decore.cpp:360: `sync_str' was not declared in this scope
+af6_decore.cpp:360: ISO C++ forbids declaration of `p_write' with no
+type
+af6_decore.cpp:360: redefinition of `int p_write'
+af6_decore.cpp:209: `int p_write' previously defined here
+af6_decore.cpp:360: initializer list being treated as compound
+expression
+af6_decore.cpp:363: parse error before `while'
+af6_decore.cpp:368: syntax error before `->' token
+make[3]: *** [af6_decore.lo] Error 1
+make[3]: Leaving directory
+`/usr/src/redhat/BUILD/transcode-0.6.1/import'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory
+`/usr/src/redhat/BUILD/transcode-0.6.1/import'
+
+
+> > Using trancode rpm I can't get transcode command line args to
+> > work.Although it's been a while since I used it - maybe I forgot how!
+>
+This was a dumb mistake on my part. I did'nt have libdvdcss-devel, the
+transcode command line args work fine now, but not so for DVD::RIP.
+Thanks for help
+Alvie
+ 
+> I'm encoding a DVD to DivX4 right now on my home computer, and it works
+> fine. My current Red Hat 8.0 build of transcode has avifile support
+> disabled, that may be your problem? It's because gcc 3.2 isn't currently
+> able to recompile avifile... :-/
+> 
+> Matthias
+> 
+> -- 
+> Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+> Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+> Load : 0.09 0.12 0.21
+> 
+> _______________________________________________
+> RPM-List mailing list 
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

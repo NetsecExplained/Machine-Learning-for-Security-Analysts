@@ -1,0 +1,30 @@
+Re: using umlaut works in console, not in Citrix clientOn 29/04/2010 11:16, Benedict Verheyen wrote:
+
+
+>
+> Thanks, it's worth a try.
+> I'm not sure the java environments are the same.
+> On both machines they were installed with aptitude install default-jre
+>
+> I'll try the backport of java & using Firefox instead of Iceweasel.
+>
+> Regards,
+> Benedict
+>
+>
+
+Firefox crashed unfortunately and i spent already to much time on this.
+So we'll have to go with Ubuntu in this case :(
+
+Thanks for the help & ideas.
+
+Regards,
+Benedict
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hregeb$7k3$1@dough.gmane.org
+
+

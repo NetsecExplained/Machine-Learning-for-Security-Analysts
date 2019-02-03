@@ -1,0 +1,10 @@
+[Spambayes] can't write to CVS...I'm listed as a developer on SF and have the spambayes CVS module checked
+out using my SF username, but I'm unable to write to the repository.  CVS
+complains:
+
+    % cvs add unheader.py
+    cvs [server aborted]: "add" requires write access to the repository
+
+Any thoughts?
+
+Skip

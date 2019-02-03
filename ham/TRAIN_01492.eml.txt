@@ -1,0 +1,52 @@
+[Razor-users] Re: What's wrong with the Razor servers now?Craig R.Hughes wrote:
+> I was thinking you could easily create a spamtrap which you subscribe to 
+> lots of legitimate nonspam mailing lists, plus you also spread the email 
+> address around and get it in the hands of lots of spammers so it ends up 
+> receiving large quantities of both spam and nonspam, then you have it 
+> apply the algorithm above to the incoming mail stream.  So it could be 
+> thousands of actual real, different, emails per day.  The "very high 
+> rate triggers alarms" thing is certainly something which would be 
+> possible to check for, but there may be legitimate ways to exhibit this 
+> behavior -- can't think of one right now but "AOL proxy server" springs 
+> to mind as an example from another domain.
+
+If there is a maximum trust value (if trust is some sort of percentage
+for instance), and if it isn't impossible to reach it, that would 
+prevent too few people to get too much of an avantage. My guess is if 1% 
+of razor users can reach this limit (or be near enough), spammers won't 
+be able to cheat just by building up their trust, they would need a fair 
+amount of fake users too.
+
+Now, for the "fair amount of fake users", spammers don't have access to 
+many set of network classes. So they would need a bunch of users coming 
+from the same set of ips. If the razor servers see 100 people on a class 
+C network (253 ips) reporting 10000 emails a day, something wrong is 
+going on. This could also trigger alarms.
+
+As for legitimate proxies and the like, 1) a proxy should not report any
+thing (spam should be reported by hand, not automatically), 2) there may 
+be a way to have exception (IBM networks would have lots of users from 
+the same set of ips but no likely spammers, so no alarm would trigger 
+for their network, or better the alarm would be less sensitive). AOL 
+could still give trouble though but even then, for one particular phone 
+line/cable, the set of ip is probably quite small even less than a class 
+C (using network subclassing). The spammers could still try to have 
+several connections at different locations, but that increases their 
+cost and so is not so much interesting.
+
+	Jehan
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

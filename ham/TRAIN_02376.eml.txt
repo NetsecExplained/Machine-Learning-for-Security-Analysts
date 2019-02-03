@@ -1,0 +1,38 @@
+The Semantic Web makes me sickURL: http://diveintomark.org/archives/2002/09/23.html#the_semantic_web_makes_me_sick
+Date: 2002-09-23T09:27:30-05:00
+
+No, really. My sinus infection, which appeared to be gone, flared up again over 
+the weekend in the nastiest way, and I am now coughing up dark mucus and doing 
+other things that probably don't bear repeating in a public forum. I have the 
+10:15 doctor's appointment that I should have made last round, had I not 
+convinced myself that “it's not that bad” and trudged through it 
+all without prescription drugs. I'm not making the same mistake this time. I'll 
+be back this afternoon. 
+
+My email problems of yesterday have been resolved. You can once again reach me 
+at my normal address, f8dy@diveintomark.org. 
+
+Kevin Burton[1] emailed me with another way to link to a FOAF file from my RSS 
+feed. It looks easier than previous suggestions, and it has the advantage of 
+being able to use it from an RSS 1.0 or 2.0 feed, but I worry about all these 
+variations. Just as in real life, where people can use different words that 
+mean essentially the same thing, in the Semantic Web programs can use different 
+vocabularies to express the same statements. That's great for producers, not so 
+great for consumers who have to make sense of it all. 
+
+For each domain (RSS feeds, FOAF files, whatever), somebody (or some group) 
+needs to come along and document best practices. We need better _goal-oriented_ 
+documentation. We have a lot of reference documentation, task-oriented 
+documentation, but very little that documents that larger picture and answers 
+questions written in English. “How do I include personal information in 
+my RSS feed?” is a goal-oriented question. “Create a FOAF file 
+using this tool and then insert this line at this location in your RSS 
+feed” (with as many examples as necessary) is a goal-oriented answer. 
+Anything less is like trying to master a foreign language by reading a 
+dictionary.
+
+
+
+[1] http://www.peerfear.org/
+
+

@@ -1,0 +1,45 @@
+Re: [SAtalk] SpamAssassin v2.40 released (finally)!On Mon, 2 Sep 2002, Richard Kimber wrote:
+
+> On Mon, 2 Sep 2002 13:20:46 -0700 (PDT)
+> Bart Schaefer  wrote:
+> 
+> > If you're using "fetchmail --mda spamassassin" or the equivlent, then
+> > this change means your current setup will no longer work. 
+> 
+> Oh well, I guess there are other anti-spam options out there.
+
+Well, (a) you don't HAVE to upgrade, and (b) what you are doing has never
+been safe in the first place because SpamAssassin 2.31-and-before doesn't
+do any kind of file locking while it writes to the mailbox and doesn't
+promise to return the proper failure code on disk-full conditions, etc.
+
+If you're still willing to live with (b), all you need is a little shell
+script to run spamassassin:
+
+----------
+#!/bin/sh
+# call this file "spamassassin-wrapper" and chmod +x it
+{
+echo "From $1 `date`"
+sed -e '1{/^From /d;}' | spamassassin
+echo ''
+} >> $MAIL
+----------
+
+And then use
+
+fetchmail --mda 'spamassassin-wrapper %F'
+
+and you should be all set.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

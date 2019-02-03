@@ -1,0 +1,18 @@
+Resources for learning LinuxFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Hello,
+
+I've been using linux (debian) for about a year now, and although I'm no
+longer scared of the command line I would like to do a little
+reading/studying of linux to get a better understanding of some of the more
+advanced topics, or to see if I have learned a lot of the things that might
+be taught in a university-linux/UNIX course. I'm sure that there is a lot of
+stuff that I've missed by just going at it with trial and error. Perhaps
+there are some online courses posted to youtube, or a few books that someone
+might like to recommend? I would be interested to know what types of things
+one must learn to get "linux-certification" (I presume there is such a
+thing).
+
+Regards,
+James

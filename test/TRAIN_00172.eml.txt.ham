@@ -1,0 +1,40 @@
+Re: Middle button click broken+ Pierre Baguis :
+
+> I have installed XQuartz 2.5.0 under 10.5.8 and now the middle 
+> button click is broken.
+
+I have the same, and it works for me.
+
+> The window manager is Gnome and the middle click instead of pasting 
+> the selection, it just switches the focus to another window. Ctrl-c 
+> and ctrl-v the selection stopped also working. Is there some way to 
+> restore this functionality?
+
+Run xev from a terminal window. If you move the mouse cursor into the 
+window that pops up, hold it still there and click the middle button, 
+you should see something like this:
+
+ButtonPress event, serial 26, synthetic NO, window 0x400001,
+     root 0x381, subw 0x0, time 208302587, (103,133), root:(107,155),
+     state 0x0, button 2, same_screen YES
+
+ButtonRelease event, serial 26, synthetic NO, window 0x400001,
+     root 0x381, subw 0x0, time 208302722, (103,133), root:(107,155),
+     state 0x200, button 2, same_screen YES
+
+If it says button 2, your X11 setup is okay. If not, please run this 
+command and tell us the output:
+
+   defaults read org.x.x11
+
+If your xev run does give you button 2 events, then there is probably 
+something wrong with your window manager setup.
+
+- Harald
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

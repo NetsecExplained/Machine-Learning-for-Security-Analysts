@@ -1,0 +1,24 @@
+Re: [SAtalk] Graphics-only spam?
+"Hess, Mtodd, /mth" said:
+
+> I hate to bring this up, but I see more and more spams that contain very
+> little, if any, text.  Instead, most of the spam text is in a graphic image.
+> How will we be able to detect those as spam?  OCR?
+
+or, alternatively, giveaway patterns in the HTML?  That's what's happening
+with most obfuscating techniques the spammers are trying -- they become
+a very reliable sign of spam in themselves!
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

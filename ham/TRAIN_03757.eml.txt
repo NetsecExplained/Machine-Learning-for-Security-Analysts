@@ -1,0 +1,22 @@
+Re: overcoming the 32k objects limit is ext3 - which file system to use?On Sat April 24 2010 07:30:33 Camale=C3=B3n wrote:
+> And wasn't *that* the limit the OP was asking about or I misunderstood
+> something? :-?
+
+OP wrote: "ext3 can have only 32000 files/folders under a folder and I
+hit that limit."
+
+As I demonstrated, ext3 can have 50000 files in a "folder" (directory).
+Or as many more as the filesystem has space for.
+
+The 31998 subdirectories limit is rarely encountered because using a
+multi-level directory heirarchy is so much more efficient.
+
+=2D-Mike Bird
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201004240758.17484.mgb-debian@yosemite.net
+
+

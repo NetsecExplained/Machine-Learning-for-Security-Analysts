@@ -1,0 +1,56 @@
+Re: Trouble setting environment variablesOn Thu, May 13, 2010 at 06:49:35PM +0300, Jason Filippou wrote:
+> Hi,
+> 
+> I've been trying to set my PATH and CLASSPATH environment variables so that
+> they point to my JDK's bin and some Java source files respectively and this
+> is what I've written in my .profile file:
+> 
+> # PATH should also include the latest jdk "bin" directory
+> PATH="/usr/lib/jvm/java-6-sun-1.6.0.20/bin:$PATH"
+> 
+>  # set the CLASSPATH variable to include anything I do with java
+>  CLASSPATH="/home/jason/code/java:$CLASSPATH"
+> 
+> Yet I don't seem to have much luck, since "echoing" both environment
+> variables gives me the old value of PATH for PATH and nothing for CLASSPATH:
+> 
+> jason@debian:~$ echo $PATH
+> /usr/lib/eclipse6.0/bin/i386_linux:/home/jason/bin:/usr/local/bin:/usr/bin:/bin:/usr/games
+> jason@debian:~$ echo $CLASSPATH
+> 
+> jason@debian:~$
+> 
+> This is strange, especially for PATH, because earlier in my .profile I've
+> written:
+> 
+> # set PATH so it includes the eclipse bin directory
+>   PATH="/usr/lib/eclipse6.0/bin/i386_linux:$PATH"
+> 
+> And if you notice the output produced by "echo", this directory is well
+> under the scope of PATH.
+
+Perhaps the eclipse directory is added to PATH elsewhere (eg, in 
+.profile in your home directory) or there is a separate "export" line 
+in /etc/profile.
+
+> 
+> What am I doing wrong? Do I need to "export" something?
+
+Certainly.  
+
+export PATH=...
+export CLASSPATH=...
+
+> 
+> Thanks.
+
+Cheers,
+David
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100513201922.GA1830@gennes.augarten
+
+

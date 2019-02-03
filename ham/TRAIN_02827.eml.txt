@@ -1,0 +1,39 @@
+Re: gnome panel tray icons transparancyOn Sun, 02 May 2010 17:33:59 +0200, Steven wrote:
+
+> On Sun, 2010-05-02 at 14:17 +0000, Camaleón wrote:
+
+(...)
+ 
+>> Two easy tests:
+>> 
+>> 1/ Create a new panel and drop there the "faulty" icons. Are they still
+>> showed with a solid background?
+> Creating a new panel with notification area keeps showing the issue on
+> this new panel.
+> 
+> 
+>> 2/ Create a new user, login and check if the same behaviour continues.
+> A new user has the same issue.
+
+There is an open bug, but the weird thing is that in your case it works 
+in one computer and fails in the other :-?
+
+***
+gnome-panel: some application icons lost transparency in notification area
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=551751
+***
+
+Anyway, check if the affected applications make use of "EggTrayIcon".
+
+Greetings,
+
+-- 
+Camaleón
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/pan.2010.05.02.15.46.27@csmining.org
+
+

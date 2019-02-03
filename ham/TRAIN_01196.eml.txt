@@ -1,0 +1,35 @@
+Re: [gst-devel] Red Hat 8.0Hi,
+
+> On Sun, 29 Sep 2002, Thomas Vander Stichele wrote:
+> 
+> > INFO (15299: 0)gst_xml_registry_rebuild:1555: Plugin 
+> > /usr/lib/gst/libgstwincodec.so failed to load: Error loading plugin 
+> > /usr/lib/gst/libgstwincodec.so, reason: /usr/lib/libaviplay-0.7.so.0: 
+> > undefined symbol: _ZTVN10__cxxabiv120__si_class_type_infoE
+
+> Are you using the same version of GCC to compile the plugin as its C++
+> dependencies?
+
+Yes, I am.  Everything is built inside a chroot.  I think it isn't linking 
+to a lib somewhere, I'm just not sure what lib it should preloading here.  
+Anyway to find out which one it is ?
+
+Thomas
+
+ -- 
+
+The Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/
+<-*-                      -*->
+You came in just like smoke
+With a little come on come on 
+come on in your walk
+come on
+<-*- thomas@apestaart.org -*->
+URGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

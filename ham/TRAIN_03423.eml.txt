@@ -1,0 +1,28 @@
+Re: non-ASCII environmentStephen Powell writes:
+> Yes, Hercules is an IBM mainframe emulator.  But the problem is
+> licensing.  There are some *very old* releases of IBM operating
+> systems that have passed into the public domain that you can run on
+> the Hercules emulator.
+
+Which should suffice for testing his software with EBCDIC.
+
+> These are circa 1975 or so, which is about 35 years ago.  An example
+> is VM/SP Release 6.  The problem is that those operating systems don't
+> have a C compiler or a POSIX interface.
+
+Are there any copies of MTS (Michigan Terminal System) around?  It would
+be in the public domain and I know it had a C compiler: I used it to
+teach myself C.
+
+My wife would love to have MTS back again (of course, she'd insist on a
+full set of printed manuals...)
+-- 
+John Hasler
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87tyrkcmrz.fsf@thumper.dhh.gt.org
+
+

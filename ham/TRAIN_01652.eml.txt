@@ -1,0 +1,38 @@
+Re: Unable to connect to my home wirelessFrom nobody Sun Sep 18 20:45:29 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri,21.May.10, 14:43:47, Celejar wrote:
+=20
+> But I've long found the 'recommends' concept to be somewhat tricky and
+> perhaps to vary from maintainer to maintainer.  For example, mesa-utils
+> needs GLX, which, practically speaking, means that you need
+> libgl1-mesa-dri.  The maintainer refuses to make this even a
+> recommends, basically since the X server can run on a different machine:
+>=20
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D559223
+>=20
+> Now, I'd bet (although I suppose that I may be wrong) that the vast
+> majority of Debian installations have the X server and clients on the
+> same machine, and the other case is probably the more 'unusual' one.
+
+Imagine a large organization with a lot of thin clients...
+
+> OTOH, acpi-support 'recommends' radeontool, even though this package is
+> utterly irrelevant to those without ATI Radeon chipsets:
+>=20
+> http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=3D562883
+
+Oh, I can finally get rid of that one! (used to be a Depends and I=20
+forgot to check)
+
+Both are excelent examples :) But even if you disagree with the=20
+maintainer, in the end Debian is a do-ocracy.  That is, the one who does=20
+the job usually gets to decide how it's done ;)
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

@@ -1,0 +1,31 @@
+Re: [Razor-users] Stripping the SpamAssassin reportOn Tue, Aug 13, 2002 at 01:01:42PM -0500, Justin Shore wrote:
+> Ah...  You learn something new every day!  This would make things 
+> quite a bit easier.  I assume it can handle a mailbox full of mail to 
+> report rather than a single piece of spam from STDIN.  I'll check the 
+> docs on that though.
+
+Unfortunately not, it's a one at a time thing.  If it would help
+you, I have a script that I use which handles a mbox file at a time,
+strips the SA stuff, reports to razor, and can then do things like
+open relay checks, reports to spamcop, etc.  It's available via:
+http://www.kluge.net/~felicity/random/handlespam.txt
+
+
+:)
+
+-- 
+Randomly Generated Tagline:
+"But you have to allow a little for the desire to evangelize when you
+ think you have good news."         - Larry Wall
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

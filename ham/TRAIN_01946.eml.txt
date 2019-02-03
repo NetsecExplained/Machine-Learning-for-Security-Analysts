@@ -1,0 +1,68 @@
+Re: 64-bit netbooks with Debian linuxOn 5/3/2010 4:29 PM, Peter Tenenbaum wrote:
+> Hi, everyone --
+>
+> I guess I should clarify my desirement for 64-bit.  There are two things
+> here.  First, I intend to build a home computer which will run linux,
+> and it will be 64-bit; since I'm quite new to maintaining my own linux
+> computers, I'd rather limit the number of differences between the home
+> machine and my portable.  Second is just a desire to avoid early
+> obsolescence in the portable, since at some point I expect 64 bit to
+> become the standard and 32-bit to fade into the past.  That day may not
+> be near, and in any event it may be crazy to worry about obsolescence of
+> a computer which costs less than an iPod, but that's just the way I roll.
+>
+> It also sounds like the respndents to my first message are underwhelmed
+> by netbooks in general and recommend that I look at a low-end notebook /
+> laptop computer instead.  I confess that the distinction is a bit blurry
+> to me.
+>
+> In any event, with those caveats, perhaps I should ask more generally
+> for recommendations of netbooks or smallish laptops which people
+> recommend as being compatible with Debian linux.
+>
+> Thanks again,
+> -PT
+
+
+I was a respondent who questioned the netbook route, but I see now that 
+there may be good reasons to prefer one.
+
+However, most netbooks are deliberately crippled, such as allowing only 
+1 or 2 GB of memory when there is no technical reason why 4 GB shouldn't 
+work.  It is a matter of segmenting a market, and manufacturers want 
+netbooks to have specific capabilities for marketing reasons, not 
+technical ones.
+
+I wanted to suggest that you choose a machine based on your needs, and I 
+wanted you to question your initial assumptions.
+
+However, I see you have done some thinking about it, and future-proofing 
+*does* seem like a good reason to get a dual-core, 64-bit machine.
+
+With 64 bits, you will need more memory, so I suggest you look for a 
+machine that can use 4 GB of memory.
+
+I suggest also that you make sure that the machine you get can use 
+solid-state storage devices.  In time, the advantages of SSDs will make 
+them compelling, though now they are too expensive.  That is, you will 
+probably buy a machine with a standard notebook HD, but if you ever need 
+to replace it, being able to replace it with an SSD gives you another 
+option.  This also is in the area of future-proofing.
+
+
+Just a couple of suggestions.  I would like to hear more from other 
+people.  (I am also contemplating a portable computer purchase.)
+
+
+MAA
+
+
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDF47C6.7080503@allums.com
+
+

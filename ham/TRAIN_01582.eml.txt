@@ -1,0 +1,40 @@
+Re: Don't be too quick to assume that -XX:+UseCompressedOops is a
+ good 	thingOn 27/04/2010 02:30, Benson Margulies wrote:
+> A quick benchmark of some CPU-intensive code of ours shows a quite marked
+> slowdown with that option turned on.
+
+(Not disagreeing with the general point.)
+
+For what it's worth, I've been running Eclipse (on 10.6, 64-bit) with
+the UseCompressedOoops option for months now - if anyone recalls, Apple
+fixed the issue with the default garbage collector so that it now
+automatically chooses one that doesn't crash with that option - and it's
+very fast.
+
+Of course, I only have my work computer to compare it against (which is
+a Pentium 4 PC, with a hard drive that appears to have some kind of
+identity issue, since it obviously thinks it's a C64 cassette) - but
+still, I don't notice any performance problems.
+
+Also note, I'm sure the behaviour is different on different benchmarks.
+I did a quick search and found two benchmarks:
+
+http://www.matsim.org/book/export/html/330
+http://blog.juma.me.uk/tag/compressed-oops/
+
+As it happens, both these show a performance win for the option, but
+these are only two samples. I'm sure certain usage patterns are indeed
+noticeably slower so I agree, if using CPU-critical code where
+performance is a concern, it's probably best to work out a repeatable
+test and try both options. Just saying, 'assuming' is never a good idea,
+but don't assume it'll be slower either. :)
+
+--sam
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

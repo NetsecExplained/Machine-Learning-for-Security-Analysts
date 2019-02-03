@@ -1,0 +1,28 @@
+Re: [OT] Home UPS (was Filesystem recommendations)From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+On Thu, Apr 29, 2010 at 1:07 PM, Kelly Clowers wrote:
+
+>
+> For me, it is only partly about my hardware. It is also about my data.
+> I have backups, but I didn't used to, and I would just as soon not
+> have to go through a restore process. And even a simple power
+> outage that wouldn't harm hardware might at least produce the
+> need for a fsck (not as much of a problem with ext4, but again
+> I would rather avoid the situation entirely).
+>
+
+I figured I would pipe up here, because I have a kind of different
+perspective here. I have a 42U data center rack in my basement, and about
+half a dozen really old servers. They aren't really worth much from a
+financial standpoint, but at the same time, I use them as a sort of test
+lab. and I have a Tripp Lite 1000VA and an APC BackUPS 1000 (just replaced
+the batteries) in the rack. I also have a BackUPS 350 for my workstation.
+
+It's not about the cost of the hardware (as I said, almost everything is 32
+bit PIII/P4 class hardware that has little to no value in most business
+environments (which is how I came by it, by and large), but my data? Thats a
+whole nother kettle of fish. It may only be important to me, but the point
+is that it *is* important to me.
+
+--b

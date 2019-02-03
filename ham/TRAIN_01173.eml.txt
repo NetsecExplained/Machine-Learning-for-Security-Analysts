@@ -1,0 +1,24 @@
+[Razor-users] problems with hubris and/or discoverytrying to report spam [razor chooses hubris] I timeout on the connection
+(which seems to have gotten slower all morning) and receive the following
+error message:
+
+razor-report error: connect4: nextserver: discover1: Error reading socket
+connect4: nextserver: discover1: Error reading socket
+
+I then try to run razor-admin -discover and receive the same error .....
+problems with the servers today? only one discovery server?
+
+Sven
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,38 @@
+Re: [SAtalk] Re: SA In The NewsSo do you know my public key?  Does the guy who wants to buy 
+10,000 licenses of SpamAssassin Pro?  Do I really want to lose 
+email from either of you?
+
+C
+
+On Thursday, August 22, 2002, at 10:13  AM, Tony L. Svanstrom wrote:
+
+> On Thu, 22 Aug 2002 the voices made Craig R.Hughes write:
+>
+>> Trouble is, you don't necessarily know ahead of time who's 
+>> wanting to send
+>> you stuff.  I don't have your PGP public key on my keychain.  
+>> You can do all
+>> the signing you want, it's not going to help.  However, if you 
+>> stick a Habeas
+>> header in your mail, I can (hopefully) be reasonably sure that 
+>> you're not
+>> trying to spam me.  It is going to be all about enforcement 
+>> though; we'll
+>> have to see how they do on enforcement.
+>
+>  Signing messages to someone ('s public key) isn't impossible, 
+> using some
+> creative scripting you could even do it with OpenPGP-compatible 
+> software...
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

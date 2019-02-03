@@ -1,0 +1,25 @@
+Re: FW: use of base image / delta image for automated recovery
+    from attacksScott MacKenzie wrote:
+
+>There is a software package that is used (or was up through w2k) 
+>on MicroSloth for this purpose. Ghost, or some such. One essentially 
+>"takes a picture" of the machine's proper config, and then upon 
+>schedule or demand replaces the machine's current config with the 
+>proper picture. It essentially over-writes the entire disk drive. 
+>Especially good for student access machines at libraries, etc.
+>
+And it is pretty common practice in some environments with public 
+workstations to just wipe and re-install Windows machines on a weekly 
+(or even daily) basis. It's easier than trying to maintain Windows.
+
+Crispin
+
+-- 
+Crispin Cowan, Ph.D.
+Chief Scientist, WireX                      http://wirex.com/~crispin/
+Security Hardened Linux Distribution:       http://immunix.org
+Available for purchase: http://wirex.com/Products/Immunix/purchase.html
+
+
+
+

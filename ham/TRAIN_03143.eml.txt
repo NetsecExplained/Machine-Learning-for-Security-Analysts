@@ -1,0 +1,42 @@
+Re: DVD Paranoia?On 5/1/2010 12:45 PM, Ron Johnson wrote:
+> On 05/01/2010 04:50 AM, markus reichelt wrote:
+>> * Ron Johnson wrote:
+>>
+>>> The issue is that I'm trying to read some 2-3 year old "movie"
+>>> DVD-Rs and they're all at some point failing.
+>>
+>> Try another drive (best would be a dvd burner).
+>>
+>> Apart from that, you could try ddrescue and just plain copy the whole
+>> disc to an iso imagefile.
+>
+> ddrescue or gddrescue?
+>
+>> Also, check out vobcopy, it's my fav
+>> application to backup dvds.
+>>
+>
+> I'll try that.
+>
+
+
+If you are interested in DVDs under Debian, note that a useful thing to 
+know about is the videolan project
+
+http://www.videolan.org/
+
+They provide libdvdcss and libdvdplay, useful libraries to install, 
+which are not included in Debian.  (non-DFSG)
+
+
+
+MAA
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BDC948E.2000209@allums.com
+
+

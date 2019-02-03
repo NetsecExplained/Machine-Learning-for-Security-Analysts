@@ -1,0 +1,80 @@
+[SAtalk] Re: HELP! Someone stole our address...On 4 Aug 2002 the voices made Scott A Crosby write:
+
+> On Sun, 4 Aug 2002 16:36:57 +0200 (CEST), "Tony L. Svanstrom"
+>  writes:
+>
+> > On Sun, 4 Aug 2002 the voices made Tony L. Svanstrom write:
+> >
+> >  The solution is of course to have a public key of some sort associated with
+> > the domainame itself, at the registrar-level, so that when an e-mail arrives
+> > the server can check if the sending-server actually is responsible for the
+> > domain/user the e-mail appears to have been sent from.
+> >
+>
+> That can be problematic.. For example, if I'm at home and want to send
+> email out from my work-address; I can't go through my ISP's
+> mailserver.. I don't thikn we want to enforce a link linking an email
+> address and the server sending it; there are many reasons to have the
+> two things be different entities.
+
+ True, but that's the thinking of today, that the company mailserver can be
+closed to you from the outside; because as it is today you can use any mail-
+server that you've got access to. If there's a good reason for setting it up
+they won't be that lazy in the future.
+
+> However, requiring mailservers to sign the Received: header...  That
+> could be useful. (assuming the signature is of reasonable size). That
+> could indicate at what server the email *did* enter the system. IT'd
+> also be incontravertable proof that that mailserver did allow itself
+> to be abused. Signatures could be checked by either MX or inaddr-arpa
+> records indicating the host's public key.
+>
+> There's still some problems left though. You'd have to bind the
+> headers to the message somehow, via signatures. (To avoid someone
+> taking an email then twiddling the body and claiming that spam came
+> from a particular host.) This would mean that you couldn't alter the
+> body of a message.
+>
+> An unforgable Received chain would be very useful evidence.
+
+ A simple RFC could fix that today, either using a new header or extending the
+Received-header with a code/value that the server later on can verify; maybe
+something like this:
+
+Received2: Date: [date];
+	Local: sub.dom2.tld (IP#2);
+	Remote: sub.dom3.tld (IP#3);
+	Env-id: 
+	Code: [cache#, salted hashvalue, rsa or other signature]
+
+ And then you have the two optional From and To, only added by the sending
+server that's identified the local sender or the server accepting mail for a
+certain user (to verify that it did really come via that server, in case you
+forward it using procmail or something like it).
+ You of course would need some standard for how to check these headers.
+
+ Not perfect, but better than what we have today.
+
+
+	/Tony
+-- 
+# Per scientiam ad libertatem! // Through knowledge towards freedom! #
+# Genom kunskap mot frihet! =*= (c) 1999-2002 tony@svanstrom.com =*= #
+
+    perl -e'print$_{$_} for sort%_=`lynx -source svanstrom.com/t`'
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

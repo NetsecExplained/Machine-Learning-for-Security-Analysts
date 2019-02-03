@@ -1,0 +1,36 @@
+Re: adding 192.x with static IPOn 04/05/10 16:17, Ron Johnson wrote:
+> On 05/04/2010 09:11 AM, Joe wrote:
+> [snip]
+>>
+>>> Is there a way I can setup devices such as this without needing to run
+>>> DHCP?
+>>
+>> Not initially. What you do is to set a workstation to accept DHCP,
+>> connect it to the router, then use the web interface to disable DHCP and
+>> set the fixed IP address you want the router to use.
+>
+> Or just, within /etc/network/interfaces, give yourself the static
+> address 192.168.1.2.
+>
+
+Indeed so, in this case. In the general case, it might be quicker to 
+enable DHCP than to find out what network the router resets to. Usually 
+192.168.0. or 192.168.1., but not always.
+
+In the days before Internet dongles, the only Net connection available 
+was usually the one on the other side of an apparently non-functional 
+router, and the customer had no idea where the book/CD was.
+
+And to be honest, I normally run XP on my laptop, and it's just ticking 
+or unticking a box. Windows has moved on, no reboot necessary... I can 
+remember needing the installation CD to change IP addresses on 95/98.
+-- 
+Joe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE04458.7060108@jretrading.com
+
+

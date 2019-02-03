@@ -1,0 +1,24 @@
+Exmh/nmh (was Sorting)...> I am facing the fact that exmh has been left behind in some industry
+> standards.  I use it for my personal mail.  My mail server runs unix,
+> and I connect over ssh and tunnel my X traffic over ssh.  With a slow
+> link, this makes exmh very slow.  And mime handling is pretty bad
+> compared with modern mailers.
+
+These are some good comments and I'd like to share an opinion here.  (Is that permitted? :)
+
+I started using linux about 8 or 9 years ago in rebellion against what the university was doing with Winder$.  I just couldn't get good support and was using a lot of unix-based tools (ported to Winder$) anyway. So, I jumped ship and became my own sysadm.
+
+What I got was the easy ability to use a shell (now ssh) to connect to my office box from just about anywhere and use either exmh or nmh (from the command line).  I can do email for the office fairly easily.
+
+I haven't seen any other tools that let me do that yet.  But, I have to admit, that some of the web-based mail software is getting pretty close.  Quoting and such is still primitive, but they're moving forward.
+
+-=d
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

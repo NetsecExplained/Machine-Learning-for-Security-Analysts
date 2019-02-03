@@ -1,0 +1,112 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sun Sep 18 20:45:32 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 23:48:43 Boyd Stephen Smith Jr. =
+wrote:
+> >  But whether
+> >  upstream software meets users' needs is out of Debian scope.
+>=20
+> There's a lot to consider, since Debian needs upstream's help in addressi=
+ng
+> bugs throughout the lifetime of stable, and that's easier to achieve with
+> the latest release.  But then again, stable needs to be usable on release
+> day. "Release early, release often" is great for development, it is not so
+> great for stability (both in "lack of bugs" and "lack of change"
+> meanings). Sometimes the most recent release from upstream is not best for
+> Debian stable.
+
+You missed my point completely. What is subjectively unusable for you, is=20
+perfectly usable for others and the other way round. Debian is not your=20
+personal distro, it strives to keep balance. And balance is towards 4.4 sid=
+e=20
+you like it or not due to many factors. When Squeeze is released, KDE 4.5 m=
+ay=20
+be in .3 or later patch release upstream so the point about the latest and=
+=20
+greatest here is completely out-of-place.
+
+Now if at particular time upstream software does not meet your personal nee=
+ds,=20
+you go and look for alternatives. You talk like kdepim 4.3 was flawless. Bu=
+t=20
+it wasn't! There is no place for "software does not do X, remove it from=20
+stable" discussions here.
+
+> >  Just find
+> >  another software/solution which does, develop it by yourself, pay
+> >  somebody to develop it for you or ask kindly and wait till somebody
+> >  else is motivated enough to do it.
+>=20
+> I will, but I see no reason not to air my grievances.
+
+Insisting that others do something (revert to kdepim 4.3) based solely on y=
+our=20
+personal grievances does not help productive communication.
+
+> > YOU run a dozen of DB servers,
+>=20
+> I'm not the only person that does.  Most users have a SQLite datatbase th=
+ey
+> don't even know about.  People that develop or test web applications
+> generally have to deal with a DB as well.  In small shops, the test
+> database often lives on the developers work system.
+>
+> > YOU don't want another one, YOU don't trust
+> > MySQL,
+>=20
+> I'm not the only one with these concerns.
+
+I've never said that you're the only one. I find myself in the odd position=
+=20
+that I mostly share opinion with you about excessive "explosion" of DB serv=
+er=20
+instances on the desktop but I still can't help myself to argue. You starte=
+d=20
+this off on a wrong foot by demanding to accommodate to your needs.
+
+> > YOU say KDE 4.4 is inappropriate for stable.
+>=20
+> That is my opinion.
+>=20
+> > Nothing objective and
+> >=20
+> >  YOU assume that your truth is an ultimate one.
+>=20
+> Not really.  I made objective statement about KMail based on observable
+> facts. I also voiced an opinion that I based on that statement.
+
+What facts? That kdepim/kmail needs akonadi? That's hardly news. Akonadi=20
+integration is not stable enough? There is still time to improve it. That's=
+=20
+what Ana's blog was about.
+
+> >  If YOU have so
+> >  many problems with particular piece of software, look for better optio=
+ns
+> >  or read the first part of this mail again.
+>=20
+> I have problems with a very narrow selection of selection of the software.
+> Specifically, I don't want to need MySQL installed in order to use KMail
+> effectively in Debian stable.
+
+It is not like every mail client on the market suddenly needs MySQL. Actual=
+ly,=20
+kmail is probably unique in this area.
+
+> There are a number of solutions to this.  Newer Akonadi should run on non-
+> MySQL data stores.  Older KMail doesn't talk to Akonadi.  Patches could be
+> applied to either.  Stable could include software from multiple KDE
+> releases, as has been done before.
+
+What I tried to say to you all this time, if Akonadi renders Kmail unusable=
+ to=20
+you, switch the client! Akonadi by itself is not a bug, it is not going awa=
+y!=20
+Take it or switch to something else, simple as that.
+
+=2D-=20
+Modestas Vainius 

@@ -1,0 +1,16 @@
+[ILUG] Hayes Accura ISDN PCIDoes anyone know if this is supported under 2.4.18 kernels or higher?
+
+I need to buy an ISDN TA quick, and PC World have these in stock for ˆ65.
+
+Thanks,
+	David.
+
+David Hamilton
+Senior Technical Consultant
+HP Ireland 
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

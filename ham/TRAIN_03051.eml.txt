@@ -1,0 +1,52 @@
+Re: Hardware of Acer Extensa 5220, Microsoft Lifecam VX-3000, Sony 
+	Cybershot DSC-W55 7.2MPx and Debian.From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=UTF-8
+
+>
+>
+>
+> ##### 2 - My microphone works with lots of noise.
+> Hi! I have a problem with my microphone. It works with lots of noise and
+> recorded sound is very-very quiet or simply there is no sound but only
+> rhythmical crack. This result changes when I change in alsamixer L R Capture
+> parameter (Capture [dB gain=6.00, 6.00] - lots of noise and quite sound,
+> Capture [dB gain=30.00, 30.00] - rhythmical crack). Maybe this is a problem
+> of bad configuration. Who can help?
+> I have not only one parameter but two parameters L R Capture and now I was
+> talking about the first of them. When I turn the second parameter a bit up
+> from null than that is a loud siren. Who knows this problem?
+>
+> This happens with my inner microphone in Acer 5220 and with my Microsoft
+> Lifecam under Ubuntu 9.04 (Mint 7).
+> This is about my sound card:
+> 00:1b.0 Audio device: Intel Corporation 82801H (ICH8 Family) HD Audio
+> Controller (rev 03)
+> Subsystem: Acer Incorporated [ALI] Device 011f
+> Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr-
+> Stepping- SERR+ FastB2B- DisINTx-
+> Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort-  SERR-  Latency: 0, Cache Line Size: 64 bytes
+> Interrupt: pin A routed to IRQ 21
+> Region 0: Memory at fc300000 (64-bit, non-prefetchable) [size=16K]
+> Capabilities: 
+> Kernel driver in use: HDA Intel
+> Kernel modules: snd-hda-intel
+>
+> Thanks,
+> Theodore
+>
+> #########
+>
+With regard to the noise produced on the microphone when plugged into the
+sound card, try the sound card drivers available here,
+ www.opensound.com/oss.html . Thought by some to be superior to ALSA.
+
+
+I'm not clear i
+>
+> --
+> To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+> with a subject of "unsubscribe". Trouble? Contact
+> listmaster@lists.debian.org
+> Archive: http://lists.debian.org/9910535707.20100507203657@csmining.org
+>
+>

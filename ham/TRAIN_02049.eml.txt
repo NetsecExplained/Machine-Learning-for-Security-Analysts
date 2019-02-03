@@ -1,0 +1,25 @@
+Re: Kde 3.5 ...On Thursday 06 May 2010, Dotan Cohen wrote:
+>
+> The "KDE 4 sux" time has passed. If you still have problems with KDE
+> 4, then please let me know what they are so that they can be fixed.
+>
+> Thanks!
+>
+>
+I agree with this statement and to this end I built a sid sandbox to give 
+KDE4 a whirl.  I've just started but the changes to the whole desktop 
+paradigm have me confused.  Are desktops vs. activities vs. dashboards 
+explained anywhere.  I'd like to assume they are more than candy.  Are 
+there documents that demonstrate their practical application?  Google 
+hasn't been my BF on this one.
+
+So far, so confused,
+Steve
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/201005160943.59726.newsdebian@jetcity.org
+
+

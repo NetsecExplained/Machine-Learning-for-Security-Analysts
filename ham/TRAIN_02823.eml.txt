@@ -1,0 +1,47 @@
+Re: Going wireless* On 2010 09 Apr 09:40 -0500, Lisi wrote:
+
+> > wicd and network-mangler also have curses interfaces, but it is
+> > impossible to use them for advanced setups like RADIUS, ...
+> 
+> +1 for wicd if you want an easy life.  But you may need to use the backported 
+> version if you are running Lenny.  In my experience, Network Mangler lives 
+> well up to its nickname. :-( .
+
+I'm generally a fan of Wicd and have promoted it.  Now with my laptop
+running Linux Mint 8 the version of Wicd in the archive (1.6.1-3ubuntu)
+has a real heartache going from one of my WPA networks to the other WPA
+network by getting into a state where it says "no wireless networks
+found" and only a reboot seems to clear it (I was too lazy/rushed to
+try various things like reloading the kernel driver, etc.)  I've now
+given Network Manager a try again and It Just Works (TM) and lets me
+roam from one network to the other through suspend seemlessly.
+
+Tong, if your laptop has an Atheros based card (AR5212 chipset) it will
+use the ath5k driver which works very very well.  I've been using an
+Atheros based card and the laptops I've had have been Atheros based for
+several years.  It's probably the best supported chipset out there. 
+Once you enjoy the freedom of movement that wireless offers, you'll
+wonder why you didn't try it sooner.
+
+Feel free trying to kill time setting up the low level tools manually. 
+I suggest that if you're running one of the desktop environments
+(GNOME, KDE, XFCE, etc.) then you'll be better served just using
+Network Manager or Wicd as both are easy to use and make dealing with
+multiple wireless networks very easy.
+
+- Nate >>
+
+-- 
+
+"The optimist proclaims that we live in the best of all
+possible worlds.  The pessimist fears this is true."
+
+Ham radio, Linux, bikes, and more: http://n0nb.us/index.html
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100410125145.GE2198@n0nb.us
+
+

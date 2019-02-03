@@ -1,0 +1,33 @@
+using samba with unix aclshi all,
+
+I am setting up a file server for a small company. The people who will 
+be using it want to be able to control who accesses particular 
+directories on a user/group basis. I originally thought that it would be 
+enough to set up a standard samba system with unix home directories, 
+plus shares for each group of users (admin / tech etc.), but they are 
+keen to have a system which allows them to make some parts of the 
+filesystem available to more than one group, which as far as I know 
+isn't supported by this kind of setup. (Unless I were to have shares for 
+each possible combination of groups...)
+
+I think that to achieve this I will need to set up samba with unix ACLs, 
+but I'm not sure what's the best way of doing this - the two options 
+seem to be using a patched kernel with an ext3 filesystem, or else using 
+the XFS filesystem which has built in ACL support. Which of these would 
+you recommend?
+
+The XFS option seems a lot simpler to maintain (no need to patch the 
+kernel every time an update is released), but I'm worried that because 
+this filesystem is not used so much, it may not be as reliable as ext3.
+
+Thanks for any help with this,
+
+andy baxter, lancaster UK.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD5E2E3.7010207@earthsong.free-online.co.uk
+
+

@@ -1,0 +1,39 @@
+Re: [OT] Ubuntu vs Debian forums (was recompiling the kernel with
+	a  different version name)On Fri, Apr 09, 2010 at 04:44:46PM -0500, Stan Hoeppner wrote:
+> Ron Johnson put forth on 4/8/2010 9:58 PM:
+> > On 2010-04-08 21:38, Stephen Powell wrote:
+> > [snip]
+> >>
+> >> For some reason, this well-known proverb is going through my head:
+> >>
+> >>    Give a man a fish and you feed him for a day.
+> >>    Teach a man to fish and you feed him for a lifetime.
+> >>
+> >> I'd rather learn to fish.
+> >>
+> > 
+> > There's another proverb: Teach a man to fish and he gets angry for
+> > making him work.
+> 
+> I've never heard that.  Must be a socialist thing...
+> 
+
+Give a man a fire and he's warm for an hour.
+
+Set a man on fire and he's warm for the rest of his life.
+
+[Courtesy of the fortunes-offensive program, I think :)
+
+
+> -- 
+> Stan
+
+AndyC
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100409230847.GA8470@galactic.demon.co.uk
+
+

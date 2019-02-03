@@ -1,0 +1,44 @@
+Re: [Razor-users] Authentication ErrorTabor J. Wells wrote:
+> And where does it say production-ready? http://razor.sourceforge.net
+> says at the top of the page:
+>
+> June 13, 2002 - Vipul's Razor v2 released! The first beta of Vipul's
+> Razor v2 is now available for public download.
+
+1)  I think the code is still very much pre-beta.
+
+2)  When you go to the "Download" page, it tells you "Fetch the latest
+versions of razor-agents and razor-agents-sdk packages"  It is not at all
+clear that these are development packages.
+
+The site is badly designed, and very misleading.  IMO.  The fact that the
+word "beta" appears in the middle of some introductory text on the front
+page is hardly a valid argument.  (Well accepted software design "fact":
+USERS DON'T READ *ANYTHING*)
+
+I get the impression that Vipul & co are deliberately trying to mislead
+users into downloading the dev code in order to get more unwitting test
+sites.
+
+But that's just my opinion, I could be wrong.
+
+rOD.
+
+--
+Anyway... long story short...
+...is a phrase whose origins are complicated and rambling.
+
+>> Doing the blogging thang again at http://www.groovymother.com/ <<
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

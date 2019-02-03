@@ -1,0 +1,30 @@
+Re: cannot install lightning add-on for icedove 3.0.4On 05/17/2010 11:52 PM, Umarzuki Mochlis wrote:
+> when i tried installing
+> this message appeared:
+>
+> "Lightning" could not be installed because it is not compatible with 
+> your Icedove build type (Linux_x86_64-gcc3). Please contact the author 
+> of this item about the problem.
+>
+> does this mean that i have to find the 64-bit compatible for this add-on?
+>
+> -- 
+> Regards,
+>
+> Umarzuki Mochlis
+> http://debmal.my
+
+There is NO x86_64's lightning package.
+see 
+http://packages.debian.org/search?keywords=lightning&searchon;=names&suite;=all&section;=all&sourceid;=mozilla-search
+
+Instead of installing from apt, you can manually download thunderbird 
+and sunbird's tar.gz from the website, and install ia32's runtime library.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BF16821.1040408@csmining.org
+
+

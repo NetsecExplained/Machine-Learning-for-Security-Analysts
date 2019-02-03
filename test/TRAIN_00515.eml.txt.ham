@@ -1,0 +1,14 @@
+How to schedule for a repeated task?From nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All
+I need to schedule for a repeated task on my Debian server, as the
+followings:
+-) Telnet to a remote node
+-) Issue a command
+-) Capture the output in a log
+-) Logout from Telnet
+-) Wait for a prescribed time interval
+-) Then redo , but append the subsequent output in just on file
+Can you please let me know which options do we have to write such a task?
+Thank you

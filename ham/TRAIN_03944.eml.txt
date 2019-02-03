@@ -1,0 +1,52 @@
+Re: Switching from NV to Nouveau in SqueezeOn 05/12/2010 08:08 AM, Mark Allums wrote:
+> On 5/12/2010 6:49 AM, Snood wrote:
+>
+>> I'm looking forward to seeing if nouveau will be an improvement,
+>> performance-wise, without causing reliability issues.
+>>
+>> I am, however, going to wait and install nouveau the easy way, once the
+>> upgrade to xserver-xorg-core becomes available in the repository. If
+>> this weren't my main system I might be tempted to experiment, but I just
+>> need this thing to keep working.
+>
+>
+> People running non-stable (even squeeze) are going to run into problems
+> now and then. It's an unavoidable certainty. nouveau is, well, new.
+> There are going to be problems with it.
+
+Of course. But the problems I had with Gnome and Xfce on this system 
+occurred not only in Squeeze, but also when running an Ubuntu LTS 
+version and Debian Stable. I only saw those problems when using the 
+restricted / glx drivers. Never with nv or vesa. I think this is, 
+perhaps, more a measure of the card itself than the drivers. But I know 
+a number of people with "high end" graphics cards from nvidia who have 
+reported the same sorts of issues that I saw. It doesn't really matter 
+much as these particular systems are no longer used as graphics 
+workstations. As they've aged we stuck Linux on them and use them as 
+admin workhorses, a job for which they are admirably suited because of 
+all of the screen real estate.
+
+> Regarding reliability of video drivers: Running many different things,
+> hardware- and driver-wise, over time, I have learned that
+> dpkg-reconfigure is your friend, especially
+>
+> dpkg-reconfigure linux-image-2.6.32-5
+>
+> which regenerates the initrd.img. (I needed this recently. Substitute
+> the package name of your kernel.) Occasionally very helpful, that, when
+> troubleshooting drivers.
+
+Yes. In my earlier experiences I would just wipe the drive and start 
+over when I suspected that hangovers from previous experiments with 
+drivers were getting in the way of new configurations. But after I 
+became comfortable with a few different methods of installation and 
+initial configuration I started paying attention to things like 
+dpkg-reconfigure and debconf-show.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEAB6C8.2070409@comcast.net
+
+

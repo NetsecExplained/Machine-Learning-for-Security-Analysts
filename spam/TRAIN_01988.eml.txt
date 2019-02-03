@@ -1,0 +1,69 @@
+[SPAM]  Lots of stars exposed
+
+
+Health Network Newsletter
+
+
+
+
+body,td { color: #000000; font-size: 12px; line-height: 14px; font-family: Helvetica, Verdana, Arial, sans-serif; }
+p { font-size: 12px; margin-top : 5px; margin-bottom : 10px; line-height: 15px; font-family: Helvetica, Verdana, Arial, sans-serif; color: #3b2e2e; }
+a { text-decoration: underline; color: #4F6338; text-decoration: underline; }
+a:hover { text-decoration: underline; }
+footerText, .footerText a { color: #323C4F; font-size: 11px; }
+imgBorder { border: 5px solid #e2e2e2; }
+
+
+
+
+
+
+Having trouble reading this newsletter?
+				
+Click here to see it in your browser.
+You are receiving this newsletter because you signed up from our web site.
+				
+Click here to unsubscribe.
+
+
+
+
+
+
+				 
+
+Ask The Doctor
+
+
+
+
+
+
+
+         
+
+
+
+
+
+This email was
+				sent to hibody@csmining.org
+
+Click here
+ to instantly unsubscribe
+
+
+Louis Chiappinelli, Editor
+
+				 
+
+
+
+
+
+
+
+
+=
+
+

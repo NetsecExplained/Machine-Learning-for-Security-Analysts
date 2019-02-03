@@ -1,0 +1,35 @@
+Re: ALSA (almost) made easyOn Thu, 2002-08-29 at 01:50, Matthias Saou wrote:
+
+> > Ah!  The mixer stuff was what made me look for an init script in the
+> > first place, I didn't bother to check whether the existing stuff would
+> > have worked with that.  Will try that out, you can assume silence ==
+> > success :)
+> 
+> Well, from what I've tried, both the main and the PCM (at least) volume
+> levels can be controlled either by "alsamixer" or the good old "aumix".
+
+Cool, I'll try it out as well as the new RPMs tomorrow.
+
+> > > >From what I can tell after only 2 days using it : ALSA rocks,
+> > > >especially
+> > > since having a full OSS compatibility results that it breaks nothing at
+> > > all! :-)
+> > 
+> > Agreed.  Though with only 2 hours experience...
+> 
+> I guess/hope some other people from the list will try it out ;-)
+> 
+> Both problems you reported (libasound.so and wrong xine dependency) are now
+> fixed in the current packages.
+
+Thanks, that was quick!
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

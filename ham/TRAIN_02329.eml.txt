@@ -1,0 +1,55 @@
+RE: [SAtalk] paulgraham.com articleYes, it is very impressive.  However, all of the most advanced content
+filtering known to man is easily defeated by simply presenting the content
+in the form of a graphic image (GIF, JPG, etc.).  I'm surprised that more
+spammers don't already do this.  I know we have discussed this before, and
+maybe we can detect this type of spam via the headers and with Razor/DCC (if
+you're using them).  But that sure narrows down the ruleset (maybe that's
+good).
+
+MTodd
+
+
+
+
+-----Original Message-----
+From: yyyy@spamassassin.taint.org [mailto:yyyy@spamassassin.taint.org]
+Sent: Friday, August 16, 2002 12:52 PM
+To: SpamAssassin-talk@example.sourceforge.net
+Subject: [SAtalk] paulgraham.com article
+
+
+Quite interesting -- it's pretty similar to the spam phrases stuff.  As
+Scott pointed out, this would work quite well as a naive Bayesian system.
+(in fact, I think it may be quite close to being one already...)
+
+I like the way "FL" -- ie. Florida -- is one of the top scoring terms. ;)
+
+Also, when I was doing the spam-phrases stuff, I discounted the ff0000
+thing, as HTML garbage! never realised it corresponded to "bright red" :(
+Have we got a test for that?
+
+--j.
+
+-- 
+'Justin Mason' => { url => http://jmason.org/ , blog => http://taint.org/ }
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

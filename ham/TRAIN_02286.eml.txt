@@ -1,0 +1,74 @@
+Re: KDE 4.4.3 in unstableFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+On ketvirtadienis 06 Gegu=C5=BE=C4=97 2010 02:13:50 Boyd Stephen Smith Jr. =
+wrote:
+> > Debian packagers don't have that much time to spend on packaging (they
+> > are volunteers after all), and hardly they can do decisions about which
+> > particular branch is better.
+> > They have to package the last one which has
+> >=20
+> >  been released, unless has been released very soon and there is no time
+> >  for testing.
+>=20
+> Stable is going to be with those users for at least a year, probably more.
+> They deserve more than whatever upstream wants to throw at the wall this
+> week.
+
+Debian users deserve quality packaging of upstream software, good integrati=
+on=20
+of it throughout the whole distribution and general assumption that it won'=
+t=20
+eat their kittens (yet data loss bugs happen). But whether upstream softwar=
+e=20
+meets users' needs is out of Debian scope. Just find another software/solut=
+ion=20
+which does, develop it by yourself, pay somebody to develop it for you or a=
+sk=20
+kindly and wait till somebody else is motivated enough to do it.
+
+> >  Also, is specially hard to decide which branch is better, because
+> >  branch A can have application X in a great shape, and application Y in=
+ a
+> >  bad one, while in branch B the case might be the opposite. And having =
+to
+> >  go back one whole release of the whole software compilation just becau=
+se
+> >  one app has one annoying dependency is a little bit overkill, isn't it?
+>=20
+> Just block the KDEPIM 4.4 apps from migrating to testing.  The KDEPIM 4.3
+> programs already work with the KDEBASE 4.4 libraries.
+>=20
+> Heck, just stop *kmail* from migrating.  Korganizer and KAddressBook have
+> required Akonadi since 4.2 or earlier.
+
+Move on. kdepim 4.3 is gone. Given that KDE SC 4.5 might release with kdepi=
+m=20
+from 4.4 anyway extending kdepim 4.4 codebase lifetime to 1 year, beating d=
+ead=20
+horse (4.3) makes absolutely no sense. I recommend you to face reality here.
+
+> These responses are quite frustrating.  I read Ana's post as "please make
+> sure KDE 4.4 is ready for stable".  My post was "KDE 4.4 is inappropriate
+> for stable".  All the replies have been "too bad, we are going to release
+> it anyway".
+
+Don't you see that you always put yourself in the front in your rationales?=
+=20
+YOU run a dozen of DB servers, YOU don't want another one, YOU don't trust=
+=20
+MySQL, YOU say KDE 4.4 is inappropriate for stable. Nothing objective and Y=
+OU=20
+assume that your truth is an ultimate one. Pet bugs are always RC to the=20
+reporter, but yet again, we need to face reality here. If YOU have so many=
+=20
+problems with particular piece of software, look for better options or read=
+=20
+the first part of this mail again.
+
+=2D-=20
+Modestas Vainius 

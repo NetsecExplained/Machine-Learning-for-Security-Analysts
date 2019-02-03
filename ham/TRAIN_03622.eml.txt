@@ -1,0 +1,47 @@
+Re: Filesystem recommendationsMark Allums put forth on 4/26/2010 3:22 AM:
+> On 4/26/2010 2:14 AM, Stan Hoeppner wrote:
+>> Mark Allums put forth on 4/25/2010 1:19 AM:
+> 
+> Sorry Stan,  Your defense of XFS has put me into troll mode.  It's a
+> reflex.  I don't buy it, but I shouldn't troll.
+> 
+> I think you are confusing what is with what should be.
+
+A'ight, you forced me to pull out the big gun.  Choke on it.  The master
+penguin himself, kernel.org, has run on XFS since 2008.  Sorry for the body
+slam.  Is your back ok Mark? ;)  Pretty sure I just "won" this discussion.
+Err, actually, XFS wins. ;)  BTW, the main Debian mirror in the U.S. is
+actually housed in kernel.org last I checked.  Thus, the files on your
+system were very likely originally served from XFS.
+
+ The Linux Kernel Archives
+
+"A bit more than a year ago (as of October 2008) kernel.org, in an ever
+increasing need to squeeze more performance out of it's machines, made the
+leap of migrating the primary mirror machines (mirrors.kernel.org) to XFS.
+We site a number of reasons including fscking 5.5T of disk is long and
+painful, we were hitting various cache issues, and we were seeking better
+performance out of our file system."
+
+"After initial tests looked positive we made the jump, and have been quite
+happy with the results. With an instant increase in performance and
+throughput, as well as the worst xfs_check we've ever seen taking 10
+minutes, we were quite happy. Subsequently we've moved all primary mirroring
+file-systems to XFS, including www.kernel.org , and mirrors.kernel.org. With
+an average constant movement of about 400mbps around the world, and with
+peaks into the 3.1gbps range serving thousands of users simultaneously it's
+been a file system that has taken the brunt we can throw at it and held up
+spectacularly."
+
+http://www.xfs.org/index.php/XFS_Companies#The_Linux_Kernel_Archives
+
+-- 
+Stan
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BD562A7.3050907@hardwarefreak.com
+
+

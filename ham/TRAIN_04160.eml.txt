@@ -1,0 +1,33 @@
+Re: Hi how to escaping under ` ` in shOn 21.04.2010 11:10, Siju George wrote:
+[...]
+> 
+> I was to get the script
+> 
+> #!/bin/sh
+> for DB in `mysql -u root -pmy\$qlPW -N -B -e 'show databases'`; \
+>    do echo $DB; \
+>    mysqldump -u root -pmy\$qlPW -e $DB > /var/mysql-1hBak/$DB.sql; \
+> done
+> 
+> to work.
+> 
+>> BTW: I would suggest that you actually use a .my.cnf to hold the
+>> password, otherwise the password is available in e.g. the output of 'ps
+>> auxww'
+>>
+> 
+> yes I would eventually do that but even then you need to escape the $ inside ``
+> 
+
+mysql .... | while read; do
+	mysqldump -e "$REPLY" > ...
+done
+
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCEC253.70704@chello.at
+
+

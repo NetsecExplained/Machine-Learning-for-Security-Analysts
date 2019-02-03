@@ -1,0 +1,26 @@
+Re: Unseen window versus Sequences WindowFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Hal DeVore 
+> Date:  Tue, 01 Oct 2002 23:21:21 -0500
+>
+> One possibility that occurs to me would be a button or mouse
+> click that "shrinks" the Sequences window to show only the
+> sequences in the "always show" list.  And of course a way to 
+> expand it back.
+
+That's a pretty good idea.  I'm not sure I'll get to it any time soon.  (I 
+already have a known bug reported on 9/25 that I haven't been able to get to.)
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

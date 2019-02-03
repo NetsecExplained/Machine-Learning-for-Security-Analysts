@@ -1,0 +1,42 @@
+Re: acroread not seeing printersOn Thu, 2010-04-15 at 10:49 -0700, Carl Johnson wrote:
+> "John A. Sullivan III"  writes:
+>=20
+> > On Thu, 2010-04-15 at 13:05 +0000, Camale=C3=B3n wrote:
+> >>=20
+> >> Make sure that LID_LIBRARY_PATH points to the location for libcups and=
+=20
+> >> also CUPS lp and lpr are in PATH.
+> >>=20
+> >> When you invoke the print dialog using Control+P, all the printers=20
+> >> configured show up in the Printer Name dropdown.
+> >> ***
+> >>=20
+> >> I'm not sure how to check this in Debian, maybe someone else can give =
+you=20
+> >> a hint on this :-)
+> > 
+> > Thanks.  I tried setting LID_LIBRARY_PATH and I know the binaries are i=
+n
+> > the path but it didn't help :(
+>=20
+> I don't know if you noticed, but I think that should be
+> LD_LIBRARY_PATH, without the extra 'I'.  I don't know enough to help
+> otherwise.
+
+Argh!! I did upgrade to acroreat 9.3.1 from multimedia unstable upon
+these responses and the referenced article which was based upon 9.x.  I
+even set a LID_LIBRARY_PATH variable in case it was not a typo.  It
+still doesn't work.  Setting the command line debugging variable, I
+found that it cannot find the PPD file.  Does it only work if the CUPS
+server is running locally? In our case, we use a central CUPS server
+running on a non-standard port.  This is reflected
+in /etc/cups/client.conf.  How do we tell acroread where the printer
+server and PPD files are? Thanks - John
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1271387362.4177.24.camel@Family.pacifera.com
+
+

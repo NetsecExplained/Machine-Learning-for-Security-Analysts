@@ -1,0 +1,28 @@
+Re: Good Use for ClamAVOn 2010-04-07 02:51, Freeman wrote:
+> I'll always be slowly catching up on comp tech. 
+> 
+> I was using Knoppix and ClamAV to remove a virus for a friend when the
+> futility of it all hit me.  The free anti-virus hopscotch game that windows
+> users play to feel safe.
+
+http://xkcd.com/463/
+
+>                           What wasted energy--over an OS I boot into maybe
+> 7% of the time.  They screw up half the time.
+> 
+
+By having my wife/kids run Windows from "named" unpriv accounts, 
+using Tbird/Firefox/ABP/Flashblock and not logging into social media 
+sites, we've kept their system virus-free for 5 years.
+
+-- 
+"History does not long entrust the care of freedom to the weak
+or the timid."  Dwight Eisenhower
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BBC826A.60404@cox.net
+
+

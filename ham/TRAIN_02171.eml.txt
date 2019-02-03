@@ -1,0 +1,47 @@
+Re: automate updates in LennyFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Okay. Thanks for these precisions.
+
+Andrei Popescu wrote:
+> On Sat,10.Apr.10, 11:38:08, Merciadri Luca wrote:
+>  =20
+>
+> I'm not sure what I can do to prove that something doesn't exist. I=20
+> could for example post the console output of:
+>
+> # apt-get update
+> # apt-get upgrade
+> # aptitude safe-upgrade
+>
+> (using apt-get do a partial upgrade and letting aptitude finish the=20
+> job[1][2])=20
+>
+> but I'm not sure how relevant this is. Sure there are differences in=20
+> *behavior*, but I'm not aware of any recent incompatibilities. If you=20
+> find any such incompatibilities please do report them as I'm sure both =
+
+> the developers of apt and aptitude would like to know about them.
+>
+> [1] 'aptitude safe-upgrade' installs new packages while
+> 'apt-get upgrade' doesn't, but this is both expected and documented=20
+> behaviour
+>
+> [2] and in case you're wondering, yes, I just did that on my sid=20
+> machine, but the console output is rather long.
+>
+> Regards,
+> Andrei
+>  =20
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+
+

@@ -1,0 +1,35 @@
+Re: wireless connection issuesFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: Text/Plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi, Frank.=20
+Try to set dhcp pool size in your router to 2 or 3
+=D0=92=D1=82=D0=BE=D1=80=D0=BD=D0=B8=D0=BA 11 =D0=BC=D0=B0=D1=8F 2010 00:06=
+:28 you wrote:
+> Hi guys,
+>=20
+> I'm having some headaches with our WLAN. We're going online with 2
+> laptops, that means we try. We do have the following setup:
+>=20
+> The router is a Speedport W 303V and we do have the folloeing laptops:
+> Asus M6N, Intel ipw2100 driver, Debian/sid with wicd
+> Acer Aspire 5680, Atheros AR2413 with the ath5k driver, Ubuntu 8.10 with
+> network manager
+>=20
+> When my wife is online with her Acer/Ubuntu system I cannot connect with
+> my Asus/Debian machine. The wireless network is detected but I do not
+> get an IP address.This is from the wicd.log file:
+> No DHCPOFFERS received.
+> No working leases in persistent database - sleeping.
+> DHCP connection failed
+> exiting connection thread
+> Sending connection attempt result dhcp_failed
+>=20
+> It does work the other way round though!
+>=20
+>=20
+> Any ideas on where to look?
+>=20
+> THX Frank
+>=20

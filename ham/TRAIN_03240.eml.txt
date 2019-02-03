@@ -1,0 +1,29 @@
+[SAdev] [Bug 886] Add a rule to detect Content-type message/partialhttp://www.hughes-family.org/bugzilla/show_bug.cgi?id=886
+
+
+
+
+
+------- Additional Comments From jm@jmason.org  2002-09-21 16:37 -------
+I'd prefer to wait and see if spammers do anything about it.  my
+guess is they will not, as it'd mean modifying their spamware to
+send >1 msg per recipient.
+
+I vote WONTFIX as a result ;)
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

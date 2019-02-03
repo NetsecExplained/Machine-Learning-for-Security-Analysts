@@ -1,0 +1,52 @@
+Re: Visual glitches all over the placeHi,
+
+I sent the email below earlier today to this list, but apparently it
+didn't go through. Maybe attachments are not allowed? If that's the
+case, I apologize.
+
+Anyway, the original email is below, and the figure showing the visual
+glitches I mention can be retrieved at
+www.cefala.org/~vilela/visual_glitches.png
+
+Any help is greatly appreciated.
+
+Thank you,
+
+Adriano
+
+
+On Fri, Apr 23, 2010 at 9:57 AM, Adriano Vilela Barbosa
+ wrote:
+> Hi,
+>
+> I'm using KDE 4.3.4 on Debian Testing and over the past few days I
+> started seeing lots of visual glitches all over the place. To have an
+> idea of what I'm talking about, please take a look at the attached
+> file, which is a screenshot of my desktop. Even non-Qt applications
+> are affected. Look for example at the horizontal scroll-bar in the
+> window showing an audio waveform at the bottom. It's totally
+> corrupted. That's a Praat (http://packages.debian.org/squeeze/praat)
+> window, which uses the LessTif toolkit.
+>
+> These problems happen on my laptop. However, I don't see any of that
+> on my desktop, which also runs Debian Testing, with pretty much the
+> same set of packages installed. An immediate difference between the
+> two systems is that the laptop has an ATI card using the free radeon
+> driver, whereas the desktop has an nVidia GeForce card using the
+> proprietary nvidia driver. I suspect some upgrade over the past few
+> days is the culprit. I'm going to do some testing over the weekend so
+> I can provide more details, but for now I would like to know if
+> anybody else has experienced such problems.
+>
+> Thanks a lot,
+>
+> Adriano
+>
+
+
+-- 
+To UNSUBSCRIBE, email to debian-kde-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/l2u1dd9db81004232128te1a60a2ct7c45bbcfc05e5058@mail.csmining.org
+
+

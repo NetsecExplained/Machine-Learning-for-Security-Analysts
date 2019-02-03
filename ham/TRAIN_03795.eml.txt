@@ -1,0 +1,32 @@
+Re: How to trick my Debian in thinking that a package is not installedOn 2010-04-20 10:22, T o n g wrote:
+> Hi,
+> 
+> How can I trick my Debian into thinking that a package is not installed?
+> 
+> I am talking about the *standalone* durep package. I don't like the new 
+> 0.9 version but rather prefer the old 0.8 version. However, even I've put 
+> it on hold in dpkg/aptitude, from time to time if I do a 'aptitude safe-
+> upgrade', this durep package somehow get upgraded as well. 
+> 
+> So now I think the easiest way for me to fix the problem once and for all 
+> is to hide the fact to my Debian that the durep package is ever installed.
+> 
+
+apt-get users "pin" packages at a certain version.  I don't know if 
+aptitude does that behind the scenes.
+
+$ cat /etc/apt/preferences
+Package: icedove
+Pin: version 2.0*
+Pin-Priority: 1001
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCDC861.2030402@cox.net
+
+

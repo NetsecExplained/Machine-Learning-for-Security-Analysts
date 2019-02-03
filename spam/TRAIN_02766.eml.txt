@@ -1,0 +1,62 @@
+[SPAM]  Mailbox limit reached
+
+
+News of the Day
+
+div p, table p { margin-bottom:1em !important; }
+body {margin: 12px 0 0 12px;}
+td {font-family: verdana, arial, sans-serif; font-size: 12px; line-height=
+: 18px;}
+td#header-footer {font-size: 11px; color: #93E0E9; line-height: 12px;}
+td#header-footer strong {font-size: 11px; color: #FFFFFF; line-height: 12=
+px;}
+a:link{font-family: arial, sans-serif;font-size: 12px; color: #00798E;tex=
+t-decoration: underline;}
+a:hover{font-family: arial, sans-serif;font-size: 12px; color: #00798E;te=
+xt-decoration: none;}
+a:visited{font-family: arial, sans-serif;font-size: 12px; color: #00798E;=
+text-decoration: underline;}
+
+
+
+
+
+
+To view this e-mail as a Web pa=
+ge, 
+go here.
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+R=
+eprint Permission
+ | Advertise
+ | Advertiser Com=
+ments
+ | Subscribe to=
+ our Newsletter
+ | Newsletter FAQ=
+s
+
+Copyright =A9 2009, The Wida
+Company. All rights reserved.
+If you must, unsubscribe details are below.
+To unsubscribe, use my 
+online form.
+
+
+
+

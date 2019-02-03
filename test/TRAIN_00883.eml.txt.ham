@@ -1,0 +1,31 @@
+Re: advice on 7.3.92 to 7.3.93, and Apt compilingMatthias Saou wrote:
+> Once upon a time, ""Angles" wrote :
+> 
+> 
+>>Any sage advice on the most painless way to upgrade from old limbo (.92)
+>>to new limbo (.93)?
+>>
+>>Apt for rpm from the 7.3 days barely works on Limbo1, and the package:
+>>apt-0.5.4cnc6-dwd2.src.rpm will not compile on the Libbo1 box (I was
+>>going to use that to dist-upgrade to Limbo2).
+> 
+> 
+> Well, the 7.3 binary should work as long as you install the "rpm404" (IIRC)
+> compatibility library. The only problem I have with some rpm 4.1 versions
+> is that it sometimes hangs at the and of operations (-e, -i, -F or -U) and
+> the only workaround is to kill it, "rm -f /var/lib/rpm/__*" and try again.
+
+Well, you're lucky if it sometimes works for you.  Mine hang all the 
+time, have to kill 'em with -9.  And after that, rpm doesn't work at all 
+(hangs right after i run the command, prints nothing).  Have to reboot 
+the machine to get anything rpm-related to work again.
+
+> Matthias
+
+-silent
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

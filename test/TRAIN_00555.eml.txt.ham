@@ -1,0 +1,57 @@
+Re: traceback in new exmhFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Scott Lipcon 
+> Date:  Mon, 23 Sep 2002 22:35:05 -0400
+>
+> The speed is a problem for sure - It takes a long time to do the
+> rescanning of sequences (I associate it with hitting the 'flist'
+> button, or when my background flist goes off).    I'm running on a
+> pretty fast system (Athlon 1700+, 512Mb RAM, 10k RPM ultra SCSI disk)
+> and hitting flist used to take no more than a second.  The big
+> difference might just be perception, because the the old code just
+> updated all the folders (count + color) all at once, instead of making
+> it look like there is 0 unseen, then counting its way back up.  
+> 
+> I doubt I'll have much time in the immediate future to hack at this,
+> but if I do - can you suggest areas that might be the best to
+> optimize?   If not, do you think we can put in some preferences to
+> disable some of the more intensive features?   I'd rather disable all
+> the sequence support (except unseen, of course) and have reasonable
+> speed.   I suspect people on slow machines would find the current
+> state unusable.
+
+If I knew where the problem was, I'd fix it myself.
+
+Finding it is probably more work than the actual fix.
+
+> > 
+> > This is because of your Hook_MsgShow_update_unseen which is calling a fun
+> ctio
+> > n 
+> > which no longer exists.
+> > 
+> > I suspect you need
+> > 	Seq_Del $exmh(folder) unseen $msgid
+> > now instead of 
+> > 	Mh_MarkSeen $exmh(folder) $msgid
+> > 
+> 
+> Thanks.  I'm not sure I'll need it with the new sequence code, but I
+> might.  Does your new code commit sequences immediately?  The old code
+> didn't, so I put that in to help keep my mh and exmh windows in sync.
+
+Yes it does.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

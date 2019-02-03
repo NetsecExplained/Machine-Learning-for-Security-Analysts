@@ -1,0 +1,29 @@
+Re: [ILUG] packaging risks and the reputation of linux distributionsBrendan Kehoe wrote:
+> As a workaround, the various distributions could use a GPG singature to verify 
+> correctness of the file.  Since the distributor's secret key is required to 
+> create that signature, it would add a pretty significant step that would have 
+> to be taken to make it possible to replace both a rpm or apt file and its 
+> accompanying signature.
+
+Check your local friendly Red Hat installation:
+
+[root@localhost up2date]# rpm --checksig zsh-4.0.2-2.src.rpm
+zsh-4.0.2-2.src.rpm: md5 gpg ok
+
+Of course, this is only as useful as, say, the gpg keys distributed with 
+the Kernel tarballs, i.e. if you don't actually bother checking the sig 
+then you are open to abuse. It's entirely possible that rpm can be 
+configured to require good signatures, but I've not read that part of 
+the fine manual just yet.
+
+Cheers,
+Waider.
+-- 
+waider@waider.ie / Yes, it /is/ very personal of me
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

@@ -1,0 +1,16 @@
+Re: [SAdev] SpamAssassin POP3 proxyjm@jmason.org (Justin Mason) writes:
+
+> Actually, I want to avoid that -- I've already removed spamproxyd
+> from the distro for 2.40. Here's why:
+> 
+> When they're in the distro, *we* have to support them -- which is
+> not necessarily a good thing when we didn't write them in the first
+> place, or when the coder in question may not *want* us to maintain
+> them. :(
+
+I would be in favor of creating new SpamAssassin CVS modules and
+Bugzilla categories for other clients (provided there is sufficient
+interest and a maintainer).
+
+Dan
+

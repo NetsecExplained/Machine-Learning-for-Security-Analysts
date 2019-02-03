@@ -1,0 +1,85 @@
+State of Plugin2 (was Re: Java for Mac OS X 10.6 Update 2 and 10.5
+	Update 7 are live)On May 23, 2010, at 7:35 AM, Michael Hall wrote:
+
+> On May 23, 2010, at 9:16 AM, Mike Swingler wrote:
+>=20
+>> On May 22, 2010, at 5:01 PM, Michael Hall wrote:
+>>=20
+>>> On May 22, 2010, at 1:32 PM, Mike Swingler wrote:
+>>>=20
+>>>> Firefox is hardwired to Plugin1 with the JEP/MRJ, unless you remove =
+it them from (app)/Contents/MacOS/plugins
+>>>=20
+>>> Are you saying that if this is done for Firefox, the =
+Contents/MacOS/plugins files are 'removed', then plugin2 will =
+automatically get picked up and work correctly?
+>>=20
+>> Yes. I usually create a new directory =
+(Firefox.app/Contents/MacOS/plugins/disabled) and move both =
+JavaEmbeddingPlugin.bundle and MRJPlugin.plugin into that directory so I =
+still have them around.
+>>=20
+>> I'm at a complete loss why this doesn't work for Camino.
+>=20
+> Both Mozilla right? Googling last night Firefox I think was the only =
+one that came in both older Carbon and newer Cocoa flavors. But not sure =
+why they'd work different in that same setup either.
+> Wouldn't some way for these other browsers to control this other than =
+manipulating files be a little better? How many users not fortunate =
+enough to frequent the java-dev list would be aware they can do this? Is =
+there an official Apple preference for either plugin or would the =
+default setting just de facto be that? Is there any way to provide 3rd =
+party access to java preferences settings?
+
+I wouldn't suggest putting any time into engineering a Java-specific =
+switch which is only going to be used by an audience of developers, who =
+can follow steps on a wiki until Mozilla is ready to make the switch for =
+all of their customers. I think the plan is to just cut over completely =
+to Plugin2 and drop support for the JEP at some point (and we had to =
+ship Update 2 & 7 with the Plugin2 symlink present in /Library/Internet =
+Plug-Ins to make that a possibility). But really someone from Mozilla =
+would be best to comment on how and when they are planning to do what.
+
+I don't believe it makes sense for Apple to say which plugin "should be =
+the default for all browsers". Plugin1 is simply the default for Safari =
+for now (and will likely remain the default forever on Leopard). Chrome =
+never bothered to implement a compatibility hack to load Plugin1, and =
+simply did without Java support until Apple shipped an NPAPI Plugin2 =
+that could render cooperatively via CoreGraphics, and didn't use an =
+overlay window.
+
+Obviously, Plugin2 is a continuing work in progress that has several =
+more technical challenges ahead (like interleaving hardware accelerated =
+drawing), will likely require changes to browsers (like adopting =
+CoreAnimation-NPAPI drawing model), 3rd party libraries (like JOGL), and =
+will probably provide a tiered user experience based on which browser =
+supports which drawing models, event models, and other features. We are =
+also still iterating on the user experience of how to handle applets =
+that open their own windows and dialogs that are in a different process =
+from the browser.
+
+Currently, we don't have any stored setting which tracks the switch =
+between Plugin1 or Plugin2. The state of the Java Preferences UI is =
+actually just built from the presence or non-presence of the =
+JavaPluginCocoa.bundle symlink. In a future release when we make Plugin2 =
+the default for Safari, we'll simply delete the JavaPluginCocoa.bundle =
+in /Library/Internet Plug-ins (which we know Mozilla does not use), and =
+alter Java Preferences to write out a symlink to ~/Library/Internet =
+Plug-ins instead, so the change is only scoped to the user. At least =
+that's the current plan, and it could change, but it's the best idea =
+we've got so far.
+
+I hope this provides some perspective on where we'd like to go with =
+Plugin2,
+Mike Swingler
+Java Runtime Engineer
+Apple Inc.
+
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,28 @@
+Re: [ILUG] [OT] Oceanfree Dial-up NumberActually, they do; though they aren't case sensitive. It seems to have some 
+trouble wtih PAP/CHAP authentication  as well; you might have to do it by 
+script?
+
+On Friday 26 July 2002 12:37, Liam Bedford wrote:
+> On Fri, 26 Jul 2002 12:23:24 +0100
+>
+> HAMILTON,DAVID (HP-Ireland,ex2) claiming to think:
+> > Hi All,
+> >
+> > I am trying to find the Oceanfree ISDN dialup number for Dublin.
+> > http://iiu.taint.org/ appears to be down, or at least I can't get to it,
+> > and I don't want to pay oceanfree ¤10 per second for tech support :-).
+>
+> 01-2434321
+> username: oceanfree
+> password: oceanfree
+>
+> don't think the username and password matter much though.
+>
+> L.
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

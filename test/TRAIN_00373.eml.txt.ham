@@ -1,0 +1,36 @@
+Re: tool tips remaining after window switchingFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Monday 26 April 2010 21:09:06 Celejar wrote:
+> I use a
+> number of applications that implement tool tips, those little boxes
+> that come up explaining some on screen widget.  Very often, when one
+> comes up and I then switch to a different window,
+> the tool tip remains, superimposed over the new
+> application, and won't go away until I switch back to the first app,
+> move the cursor somewhere else to get it to go away, and then switch
+> back to the other application.
+>=20
+> Should I file a bug,
+
+Sounds like a bug to me.  Not exactly high-priority, but a bug nonetheless.
+
+> and against
+> what?
+
+Well, does this only happen with tooltips from a single application?  Multi=
+ple=20
+related applications (e.g. multiple Qt-4 applications)?  Every application?
+
+Single -> that app.
+Multiple -> that library / related "thing".  Or any one of the applications=
+,=20
+but include information about which other applications are affected.
+Every -> Probably your window manager, maybe X.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

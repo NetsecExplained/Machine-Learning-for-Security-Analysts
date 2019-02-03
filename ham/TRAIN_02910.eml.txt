@@ -1,0 +1,20 @@
+Re: upgrade from lenny to sid with kde installed (second attempt)From nobody Sun Sep 18 20:45:31 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun,23.May.10, 13:01:42, deloptes wrote:
+=20
+> The problem is that there are still many packages that do not "see" that =
+I'm
+> in chroot and try to restart services while upgrading.
+> Do you know any solution to this?
+
+See 'man invoke-rc.d' section INIT SCRIPT POLICY and=20
+/usr/share/doc/sysv-rc/README-policy-rc.d
+
+Regards,
+Andrei
+--=20
+Offtopic discussions among Debian users and developers:
+http://lists.alioth.debian.org/mailman/listinfo/d-community-offtopic

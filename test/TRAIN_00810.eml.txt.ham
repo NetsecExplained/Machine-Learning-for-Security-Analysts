@@ -1,0 +1,38 @@
+Re: cannot type power of 1 or 2, 4-9 are typeable.On Sun, Apr 11, 2010 at 19:43:30 -0700, jeremy jozwik wrote:
+> im trying to type [copy from character map] power of 2. i can read
+> power of 2 on webpages but if i were to cope > paste from that page,
+> the power displays as a normal character 2. is this a
+> dpkg-reconfigure locales issue?
+
+It could also be due to the browser not copying certain characters
+correctly to the clipboard.
+
+Let's start at the beginning, which output do you get from this command:
+
+  locale
+
+If you use an utf8-based locale, e.g. "en_US.UTF-8", then the following
+command should print the numbers 1-5 in superscript:
+
+  echo -e "\xc2\xb9\xc2\xb2\xc2\xb3\xe2\x81\xb4\xe2\x81\xb5"
+
+What do you get?
+
+> how can i gain the ability to type a power of 2?
+
+If the locale is set up correctly and your terminal supports the
+characters, then the easiest method is to define a compose key and use
+ + "^" + "2". (The "+" means pressing the keys in sequence,
+releasing each key before pressing the next one.)
+
+-- 
+Regards,            |
+          Florian   |
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100412064155.GA10495@bavaria.univ-lyon1.fr
+
+

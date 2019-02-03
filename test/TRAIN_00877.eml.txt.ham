@@ -1,0 +1,45 @@
+Re: USB key accepts data only as rootFrom nobody Sun Sep 18 20:45:28 2016
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Ron Johnson wrote:
+> Not enough information.
+Sorry.
+> Automounted from a DE, or manually from the CLI?
+Automounted, but the related folder is still there (in /media/) even
+when the USB key is disconnected.
+> What are the ownership and privs on the mount point?  And the raw devic=
+e?
+=3D=3D
+/media# ls -al
+total 28
+drwxrwxrwx  6 root root 4096 2010-04-25 13:26 .
+drwxr-xr-x 23 root root 4096 2010-01-27 11:13 ..
+drwxr-xr-x  3 root root 4096 2009-09-04 19:30 disk
+drwxr-xr-x  3 root root 4096 2010-04-25 13:30 disk-1
+lrwxrwxrwx  1 root root    7 2009-07-17 17:01 floppy -> floppy0
+drwxr-xr-x  2 root root 4096 2009-07-17 17:01 floppy0
+-rw-r--r--  1 root root  299 2010-04-25 13:26 .hal-mtab
+-rw-------  1 root root    0 2010-04-25 09:31 .hal-mtab-lock
+drwx------  2 root root 4096 2009-08-29 22:20 KUBUNTU_LAPTOP22
+=3D=3D
+
+It happens for every removable disk, actually. The raw device is /dev/sde=
+1:
+
+=3D=3D
+# ls -al | grep sde
+brw-rw----  1 root floppy    8,  64 2010-04-25 21:45 sde
+brw-rw----  1 root floppy    8,  65 2010-04-25 21:45 sde1
+=3D=3D
+
+
+--=20
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+I use PGP. If there is an incompatibility problem with your mail
+client, please contact me.
+
+
+The nail that sticks up will be hammered down.
+

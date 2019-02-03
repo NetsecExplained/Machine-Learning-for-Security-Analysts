@@ -1,0 +1,52 @@
+Re: patent on TMDA-like system-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On Tuesday 27 August 2002 07:45 am, Justin Mason wrote:
+> Tony Svanstrom, on SpamAssassin-talk, noted this US patent:
+>
+> http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2;=HITOFF&u;=/netah
+>tml/PTO/search-adv.html&r;=62&f;=G&l;=50&d;=PG01&s1;=spam&p;=2&OS;=haiku&RS;=spam
+>
+>   Method of anti-spam
+>
+>   Abstract
+>
+>   A method of anti-spam is to set an optional trustcode, or a trustlist, or
+>   at least a trustweb based on online mail delivery at a recipient's e-mail
+>   address. A mail sender is compelled at the first time to deliver a mail
+> by way of: taking the way of "Visiting trustweb and sending online", or
+> enclosing the recipient's trustcode in the mail and sending in another way
+> other than the mentioned. After the sender's e-mail address has been stored
+> automatically in the recipient's trustlist, the sender may send mails to
+> the same recipient in whatever the ways feasible.
+>
+>
+> Sounds a lot like TMDA to me. :(  Filing date is July 26, 2001,  granted
+> May 16, 2002.
+>
+> TMDAers, have you seen this before?  I'd presume TMDA is prior art, but
+> still, it could be troublesome...
+>
+>
+I took a bit of time to review what is on the above URL.  If I were a news 
+editor, the headline would be:
+
+"Inventor" from country that ignores patents and copyrights, seeks patent for 
+inventing the wheel!
+- -- 
+- ------------------------------------------------------------------------
+Robin Lynn Frank---Director of Operations---Paradigm, Omega, LLC
+http://paradigm-omega.com              http://paradigm-omega.net
+© 2002.  All rights reserved.  No duplication/dissemination permitted.
+Use of PGP/GPG encrypted mail preferred. No HTML/attachments accepted.
+Fingerprint:  08E0 567C 63CC 5642 DB6D  D490 0F98 D7D3 77EA 3714
+Key Server:  http://paradigm-omega.com/keymaster.html
+- ------------------------------------------------------------------------
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.7 (GNU/Linux)
+
+iD8DBQE9bEcKD5jX03fqNxQRAmTfAKDM6BDsePbg8fb9Ore0XuS5jB4t1wCfbTcw
+/PBXqXO7Pei1f9lIj4gd0/c=
+=PNJx
+-----END PGP SIGNATURE-----
+

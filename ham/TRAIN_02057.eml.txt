@@ -1,0 +1,51 @@
+Re: Unable to connect to my home wirelessFrom nobody Sun Sep 18 20:45:30 2016
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On 03/05/10, Zoran Kolic (zkolic@sbb.rs) wrote:
+
+| > | When I try to connect, wicd says that it is 'Putting interface up...'=
+, 'Validating authentication...', 'Obtaining IP address...' then it times o=
+ut and says 'Connection failed: Unable to Get IP Address.'
+| >=20
+| > I have no clue what causes the problem, but I have found a clumsy
+| > workaround by trial and error: when I reset the router (Linksys
+| > WRT54GL) either to WPA from WPA2, or back the other way, wic manages
+| > to connect the next try. It doesn't seem to matter whether wic is
+| > looking for a password or a pre-shared key, so long as the the
+| > protocol is TKIP.  Next time, I have to reset the router back the
+| > other way. No further change required -- until the next time, when the
+| > router needs to be reset _again_!.
+|=20
+| I have the same router. The very first thing was to
+| set it to "g only".
+
+That won't work for me, since one of the laptops has only b, the other
+ g. See below.
+
+| ... Would be fine to know some
+| details about the hardware. Wifi chip at least.
+
+My card is listed at=20
+http://www.thinkwiki.org/wiki/Wireless_Network_Adapters#IBM_High_Rate_Wirel=
+ess_LAN_PC_Card,
+at the very bottom of the page:
+
+IBM High Rate Wireless LAN PC Card
+Chipset: Hermes I
+Drivers: orinoco_cs
+Supported wireless modes: 802.11b
+
+I pulled the thing out of the machine, and discovered, something that
+I had not seen anywhere else, printed on the underside what may well
+be a clue: "Encryption: WEP64"
+
+--=20
+JohnRChamplin@columbus.rr.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+GPG key 1024D/99421A63 2005-01-05
+EE51 79E9 F244 D734 A012 1CEC 7813 9FE9 9942 1A63
+gpg --keyserver subkeys.pgp.net --recv-keys 99421A63

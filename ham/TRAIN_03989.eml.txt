@@ -1,0 +1,30 @@
+shouldn't apt-get upgrade, you know, upgrade ?
+Hi all,
+
+I was having some problems with ooffice so I did "apt-get update" and
+then ran "apt-get upgrade" to see if ooffice was among the packages to
+be upgraded.  It wasn't, but I tried "apt-get install ooffice"
+anyway, and presto it started upgrading ooffice.
+
+So I looked at the man-page:
+
+ upgrade
+is used to install the newest versions of all packages currently
+installed on the system
+
+I did, in fact, have ooffice installed so I'm not clean on why upgrade
+alone did seem to want to upgrade the package.
+
+Any ideas ?
+
+Thanks,
+
+Brian
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100405213737.0656411a@windy.deldotd.com
+
+

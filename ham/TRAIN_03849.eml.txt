@@ -1,0 +1,47 @@
+BadAtom X11 Error with fpGUIHi,
+
+When running pascal programs based on fpGUI, an X11 based interface =
+package, I get an error if the application needs to create the top level =
+(root?) X11 window. but only then. If there is already a toplevel =
+window, for example because xterm runs, then the application open its =
+window and everything behaves as expected.
+
+the problematic call is this:
+
+XGetWMProtocols(FDisplay, AWindow, @Protocols, @Count);
+
+gdb shows these values (if there is an X11 window, the values are =
+exactly the same):
+
+4: COUNT =3D 0
+3: PROTOCOLS =3D 0x0
+2: AWINDOW =3D 6291457
+1: this->FDISPLAY =3D 0x803a00
+
+This call produces this X11 error:
+
+X Error of failed request:  BadAtom (invalid Atom parameter)
+ Major opcode of failed request:  18 (X_ChangeProperty)
+ Atom id in failed request:  0x0
+ Serial number of failed request:  103
+ Current serial number in output stream:  104
+
+System: Mac OS X 10.6.3
+
+X11 version:
+michael% X -version
+X.org Release 7.3
+X.Org X Server 1.4.2-apple53
+Build Date: 20100211
+
+Someone suggested  XSync and XInterAtom , but I am fairly clueless, when =
+it comes to X11. So could you give me directions how to resolve this?
+
+Michael=
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

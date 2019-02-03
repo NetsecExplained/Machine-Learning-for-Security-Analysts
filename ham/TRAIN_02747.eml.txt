@@ -1,0 +1,51 @@
+Re: EBusiness Webforms: cluetrain has left the stationGary Lawrence Murphy wrote:
+> 
+> Although it's like a total shock to 99.999% (5nines) of all the
+> employed website designers out there, the truth is webforms /can/
+> accept "U.S. of A" as a country.  Incredible, but true.  Web forms can
+> also accept /multiple/ or even /free-form/ telephone numbers and can
+> even be partitioned into manageable steps. All this can also be done
+> without selling exclusive rights to your wallet to the World's
+> Second-Richest Corporation (assuming Cisco is still #1) and vendor
+> locking your business into their "small transaction fee" tithe.
+
+
+Ah, but you've just gotten to the crux of the
+situation.  There's good design and bad design. 
+There's good testing and bad testing.  The problem
+is, anyone can design a good Web form, but nobody
+does.  I think "best practices" hasn't caught up
+on main street Web enablement yet.  There's some
+really great packages on how to do this stuff and
+in fact the usability people knew that Web forms needed
+to be fixed 5 years ago, so that's why we got XForms
+and  XHTML.  You can shoot yourself in the foot and
+people usually do.  What the problem is, they don't
+even recognize that they're gimpy--ever.  They just
+keeping trundling along making a mess of everything
+assured in their job security that they can build
+Web forms without even caring if they can be
+used or not beyond their test machine.
+
+If you had a piece of software and a security warning
+came out 5 years ago on it, would you run that software?
+Wouldn't you have patched or upgraded something so fundamentally
+broken 4 years and 11 months ago?  What I want to know
+is why would someone use Web forms best practices from
+5 years ago?  I mean you can get a college degree in that
+time.  Imagine if the next version of Microsoft Windows
+or Red Hat Linux forced you to use a tiled window
+manager?  Sure, tiled windows were the best we had for
+a brief period of time, but they are completely useless
+except for some terminal based replacement applications. 
+
+The bottom line is, if you can't get across the
+bridge, then it's broken regardless of whose fault
+it really is, and it's the business that 
+needs to take responsibility as they are the ones that
+wanted to put the bridge there in the first place. 
+
+
+Greg
+
+

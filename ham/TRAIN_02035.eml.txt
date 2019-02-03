@@ -1,0 +1,18 @@
+[Spambayes] test sets? 
+>>> Anthony Baxter wrote
+> I'm currently mangling it by feeding all parts (text, html, whatever 
+> else :) into the filters, as well as both a selected number of headers 
+> (to, from, content-type, x-mailer), and also a list of 
+> (header,count_of_header). This is showing up some nice stuff - e.g. the 
+> X-uidl that stoopid spammers blindly copy into their messages.
+
+The other thing on my todo list (probably tonight's tram ride home) is
+to add all headers from non-text parts of multipart messages. If nothing
+else, it'll pick up most virus email real quick.
+
+
+
+-- 
+Anthony Baxter        
+It's never too late to have a happy childhood.
+

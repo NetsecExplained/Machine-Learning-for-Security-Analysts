@@ -1,0 +1,51 @@
+Battery monitor tools?
+I'm looking for a good battery charge/discharge profiler tool for my=20
+Ubuntu laptop. I'm aware that there's the "Power History" tool, but it=20
+doesn't seem to do what I'm after. I'll explain....
+
+A couple of years ago, I came across a really neat tool for Windows for=20
+estimating the time remaining until the battery is completely charged or =
+
+discharged. It was pretty clever about how it went about it. It would=20
+constantly record things like: how much charge the battery said it still =
+
+had, how much the battery said it was charging/discharging at, etc. The=20
+tool would use this info to estimate the time to charge/discharge...=20
+/but/ it also went one step further. It could account for errors in the=20
+battery's reporting. For example, if the battery reported that it had=20
+80% charge left, and then, a few minutes later, reported that it had=20
+just 20% left, then this tool would learn this, and realize that the=20
+battery was old/problematic. So, the /next/ time the battery was=20
+reporting 80% charge left, the tool would know not to give too=20
+optimistic of an estimate for the remaining time. In other words, the=20
+tool was learning what "80%" /really/ meant to that battery.
+
+It also did something else which was really cool. Because the battery=20
+drains at different rates depending upon what you're doing with your=20
+laptop (ie, playing a DVD on a bright screen versus just reading some=20
+text on a dimmer screen), this tool would actually show you "best case"=20
+and "worst case" predictions of your remaining battery life (or time to=20
+charge back up) based upon /actual/ discharge rates from /that level/ of =
+
+battery charge remaining that it had experienced on /that/ laptop. So,=20
+you'd open up the little power-discharge graph tool and you'd see three=20
+lines: a best, a worst, and one in-between which was what rate you're=20
+currently at.
+
+So, two questions:
+1 - Does anyone know what tool that was? (Yes, I know this is a Linux=20
+forum but, as long as I'm describing the tool, I figured I'd ask. It's=20
+not the PassMark one. I thought it was called BatMon or something, but=20
+now I can't find it anywhere).
+2 - Does anybody know of a tool that does this in Linux? Or, is there=20
+some way to get the Gnome power-history tool to show this kind of stuff?
+
+- Joe
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCCBC32.8090706@emenaker.com
+
+

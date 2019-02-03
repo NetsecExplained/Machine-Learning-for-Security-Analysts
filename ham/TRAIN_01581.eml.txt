@@ -1,0 +1,37 @@
+Re: Secure Sofware Key> Software vendors have been trying since forever to prevent software piracy.
+> Remember when you had to enter a specific word from a specific page of the
+> software manual, which was printed on dark maroon paper so that it could
+> not be photocopied?  Didn't work.  Propritery encoding of DVD's?  Didn't
+> work. Software that required the use of a registration key?  Didn't work. 
+> Windows XP was shipped with this supposedly revolutionary method for
+> stopping piracy, and what happened?  How long was it before the code was
+> cracked? How many keygens are there for Windows XP?  Is someone running a
+> pirated version of XP really going to use Windows Update to installed a
+> service pack which breaks their OS?  Just because M$ didn't include the
+> change in their README?  Fat chance.
+
+My problem is not the same as MS's one, I don't have to deal with millions of 
+identical copy of the same CD with propably millions of working keys.  Each 
+download can be unique with a small preparation delay.  The key generator is 
+a problem only if multiple keys are usable.  If the end users are teenagers, 
+you'll face a huge wall when asking to be 100% of the time online but if we 
+think of something like a health care system that keep track of patients 
+personnal information, the end user will be willing to take every possible 
+steps to protect the system from his own employees to use illegaly.
+
+I agree with all of you that mass production CDs will not be safe from piracy 
+in a near futur.  That can be seen as a collateral of mass market 
+penetration.
+
+BTW thanks for all of you who provided interestiong insight.  I'm playing with 
+gdb's dissassembler now but I don't think it's what a typical cracker would 
+use.  Any hints on UNIX cracking tools ?
+
+Thanks.
+
+-- 
+Yannick Gingras
+Coder for OBB : Onside Brainsick Bract
+http://OpenBeatBox.org
+
+

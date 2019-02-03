@@ -1,0 +1,92 @@
+[Razor-users] Re: No results from razor-check on known spam?I seem to be getting the known spam message numbers, now, using 
+2.14...now, I'm just wondering about the error at the end of the 
+check/report procedure.
+
+On Mon, 12 Aug 2002, Chad Norwood wrote:
+
+> 
+>   This is bizarre. The numbers should not just disappear.  Try 
+>   with the '-n' switch which prints out a '-' before legit mails.
+> 
+>   razor-check -n mail/caughtspam
+>   
+>   If that still appears broken, can you do the following statement and
+>   send me 'spam_fileno' and 'razor.log' 
+> 
+>   razor-check -n -logfile=razor.log -dl=13 mail/caughtspam >spam_fileno
+>   
+>   -chad
+>   
+> On 11/08/02 07:39 -0500, Mike Burger wrote:
+> ) Since last night, I've been getting odd results...or, rather, a lack of
+> ) results from razor-check.
+> ) 
+> ) I am using SpamAssassin, and have my .procmailrc set up to dump any tagged
+> ) spam into its own folder under my ~/mail directory.
+> ) 
+> ) When I get any new messages in that folder, I run razor-check against 
+> ) them, like so:
+> ) 
+> ) razor-check < mail/caughtspam
+> ) 
+> ) Previously, if I just ran razor-check against such a batch of spam, it 
+> ) would report the message numbers, in the batch, that were known spam.  I 
+> ) would then delete the known spam from the batch, and then run:
+> ) 
+> ) razor-report < mail/caughtspam 
+> ) 
+> ) to submit the rest, after confirming that 
+> ) it was, indeed, spam. (I should tell you that since using SA 2.31, I've 
+> ) had less than 1% of the messages it's tagged wind up as false positives, 
+> ) but I've taken the advice of many here, and am not just automatically 
+> ) reporting).
+> ) 
+> ) As I said, previously, razor-check would tell me which messages were known 
+> ) spam.  For example, if I ran razor-check against a batch of 5 messages, 
+> ) and message #2 and #4 were known spam, the end result would look like 
+> ) this:
+> ) 
+> ) 2
+> ) 4
+> ) 
+> ) But, starting yesterday, it stopped doing this.  Now, I've got to call 
+> ) 
+> ) razor-check -d < mail/caughtspam
+> ) 
+> ) And look for the "mail id # is known spam" before I can eliminate it.
+> ) 
+> ) The last 4 messages I checked, I had to do the same thing.
+> ) 
+> ) I've changed nothing in my razor installation or configuration.
+> ) 
+> ) Any ideas what might have changed, here? I'm running razor-agents-2.12, 
+> ) and razor-agents-sdk-2.0.3.
+> ) 
+> ) Thanks.
+> ) 
+> ) --Mike
+> ) 
+> ) 
+> ) 
+> ) -------------------------------------------------------
+> ) This sf.net email is sponsored by:ThinkGeek
+> ) Welcome to geek heaven.
+> ) http://thinkgeek.com/sf
+> ) _______________________________________________
+> ) Razor-users mailing list
+> ) Razor-users@lists.sourceforge.net
+> ) https://lists.sourceforge.net/lists/listinfo/razor-users
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Dice - The leading online job board
+for high-tech professionals. Search and apply for tech jobs today!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

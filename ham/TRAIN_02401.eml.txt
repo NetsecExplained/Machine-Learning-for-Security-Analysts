@@ -1,0 +1,53 @@
+RE: [ILUG] What HOWTOs for SOHO systemHi Dermot, if have a look at one of the dists. like www.smoothwall.org, it
+will save you lots of time and effort, and should do eveything you want.
+
+Justin
+
+> -----Original Message-----
+> From: ilug-admin@linux.ie [mailto:ilug-admin@linux.ie]On Behalf Of
+> Dermot Daly
+> Sent: Monday, September 02, 2002 11:46 AM
+> To: ilug@linux.ie
+> Subject: [ILUG] What HOWTOs for SOHO system
+>
+>
+> Hi All,
+> I'm trying to set up the following:
+>
+> 1. A Linux server running with a modem for internet connectivity and an
+> ethernet card for LAN connectivity
+> 2. Other LAN pcs with ethernet cards, using the Linux server for
+> DNS/DHCP etc.
+>
+> Basically, I want to route any non LAN traffic through the ppp0.
+>
+> I've got some of the way, but like a similar post earlier about modem
+> problems, when I am connected to the internet with eht0 up, the routing
+> is all incorrect and noting goes out through ppp0 (eh0 must be the
+> default route or something).
+>
+> Is there standard "out of the box" Linux tools that will carry out
+> portmapping on behalf of the LAN PCs ?  (I'm planning on non routable
+> addresses 192.168.x.x for the LAN, routed outwards via the ppp0
+> interface).
+>
+> Can someone point me at the right HOWTOs or routing documentation I need
+> to follow ?
+> Thanks,
+> Dermot.
+>
+> --
+> Irish Linux Users' Group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscription
+> information.
+> List maintainer: listmaster@linux.ie
+>
+>
+>
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+

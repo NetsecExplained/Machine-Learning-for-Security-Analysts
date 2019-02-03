@@ -1,0 +1,48 @@
+Re: Kde 3.5 ...From nobody Sun Sep 18 20:45:29 2016
+Content-Type: Text/Plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Friday 07 May 2010 10:56:05 Ana Guerrero wrote:
+> On Thu, May 06, 2010 at 01:12:31PM -0700, Mike Bird wrote:
+> > My point is that many KDE developers and packagers do not use KDE
+> > like real-world users, and therefore do not appreciate the concerns
+> > of real-world KDE users.
+>=20
+> Of course no, they write KDE while they use GNOME 
+> Real-world users as such do not exist,
+
+No, they just don't exist on mailing lists.  Some KDE 3.5 installations are=
+=20
+used by people that probably would have problems getting Debian installed a=
+nd=20
+would think that "Bugzilla" was a B movie.
+
+It would be nice if KDE got input from all it's users.  Sometimes it gets 1=
+00s=20
+of users input from a rant from a single email address (their KDE=20
+administrator).  Luckily, these events can be written off as=
+=20
+"just one user's opinion".  :P  The rantor is then summarily dismissed beca=
+use=20
+they can't put in another 40 hours a week fixing the issues, since they are=
+=20
+already overworked with the job administering a large KDE 3.5 installation.=
+ =20
+:P
+
+I'm convinced real users exist.  I just don't use my computer like them.
+
+> developers write what they want
+> to use, no what *you* want to use.
+
+Based on the evidence presented (NB: I have not independently verified it),=
+=20
+the developers write what they want and then use something else.  You may f=
+ind=20
+that ironic, but that doesn't automatically make it untrue.
+=2D-=20
+Boyd Stephen Smith Jr.           	 ,=3D ,-_-. =3D.
+bss@iguanasuicide.net            	((_/)o o(\_))
+ICQ: 514984 YM/AIM: DaTwinkDaddy 	 `-'(. .)`-'
+http://iguanasuicide.net/        	     \_/

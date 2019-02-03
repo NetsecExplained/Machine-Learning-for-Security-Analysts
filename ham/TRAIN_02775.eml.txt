@@ -1,0 +1,36 @@
+Re: Linux compatible mainboards -another thoughtOn 2010-04-21 12:22, Camaleón wrote:
+[snip]
+> 
+> For GeForce 7600GS you have the following options:
+> 
+> 1/ "nv" driver (only 2-D)
+
+Except that Nvidia deprecated this driver a few weeks ago...
+
+> 2/ "nvidia" driver from Debian "contrib" and "non-free" sources
+> 3/ "nvidia" driver from nvidia website
+> 4/ VESA driver (not recommended)
+
+... and recommended people use the vesa driver.
+
+nv obviously won't immediately stop working, but as x.org releases 
+new versions of the client and server, bit-rot will inevitably set in.
+
+> 
+> I am currently using option #2 for my GeForce 7600GS in Debian lenny and 
+> works pretty well.
+> 
+
+I use #3 with a 7300GS in a mixed 32/64-bit environment (totally 
+unsupported by Nvidia, but works like a charm).
+
+-- 
+Dissent is patriotic, remember?
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BCF3986.1070502@cox.net
+
+

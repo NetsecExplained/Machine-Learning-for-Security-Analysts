@@ -1,0 +1,23 @@
+Re: [SAtalk] where can I find the Habeas patent (application)?
+On Tuesday, August 27, 2002, at 06:03  AM, Tony L. Svanstrom wrote:
+
+> Where can I find it, I was searching online without any luck... =(
+
+You can't, because there isn't one, yet.  Habeas is using a 
+combination of copyright and trademark law to protect their 
+sender warranties.  They hope to patent the system, but they 
+have not been ISSUED a patent.
+
+--B
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

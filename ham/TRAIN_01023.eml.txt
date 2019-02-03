@@ -1,0 +1,41 @@
+Re: how to control tty to external monitor or local lcdOn Tue, 6 Apr 2010 10:17:53 -0400 (EDT), Alexander Samad wrote:
+> 
+> I have a hp mini, which has a 0:02.0 VGA compatible controller: Intel
+> Corporation Mobile 945GME Express Integrated Graphics Controller (rev 03)
+> 
+> I would like to know how I can force ttyX to go to the external monitor and
+> then back to the local lcd.
+> 
+> Also have a problem that if I have my X going to an external monitor and
+> then suspend and re awaken with the laptop not connected to an external
+> monitor I can't get my X session back I have to restart gdm.
+
+I'm not familiar with your laptop, but most laptops have a way to switch
+back and forth between the internal display and an external display via
+the internal keyboard.  On the IBM ThinkPad machines that I use (a 600
+and a 390E) it is Fn+F7.  Consult your hardware documentation.
+
+Switching between the two is much easier if your external monitor
+is an LCD monitor.  The internal display probably runs at 60 Hz vertical
+refresh.  The external monitor, if it is an LCD display, will probably
+want to run at 60 Hz vertical refresh also.  An external CRT monitor,
+however, will probably have noticeable flicker at 60 Hz vertical refresh.
+It will want to use a higher vertical refresh rate: at least 72 Hz.
+
+Switching back and forth dynamically between internal and external monitors
+is tricky if they want to use different resolutions and refresh rates.
+It often won't work.
+
+-- 
+  .''`.     Stephen Powell    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1338000668.1398081270566209388.JavaMail.root@md01.wow.synacor.com
+
+

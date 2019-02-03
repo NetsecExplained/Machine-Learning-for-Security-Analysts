@@ -1,0 +1,22 @@
+Re: Battery monitor tools?Simon Chen wrote:
+> I may be a light debian user. 'Cause i simply use GNOME power manager as
+> battery tool, supposed to be the default power manager in GNOME. I think
+> it is kind of dull. I've found battery using up much more quickly under
+> debian than it under windows(yes, i'm using a dual-booting laptop).
+> 
+
+
+A good starting point to evaluate potentially battery waste is the tool
+powertop. Some X servers can help to save energy with dynamic clocks setting.
+
+-- 
+Regards,
+Jörg-Volker.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-laptop-REQUEST@lists.debian.org
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/hqkvko$d2e$1@dough.gmane.org
+
+

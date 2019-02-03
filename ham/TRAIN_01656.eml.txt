@@ -1,0 +1,21 @@
+usb raid1 pendrive bootDid anyone managed to boot from RAID1?
+
+Lenny gives this error message:
+
+"mdadm: no devices found for /dev/md0"
+
+I just want to install Debian Lenny on two pendrives [in sRAID1], so
+that the HDD's in the pc can be used only as ""data containers"", but it
+gives this error message.
+
+Please help me.
+
+Thank you!
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/1273231027.5627.21.camel@localhost
+
+

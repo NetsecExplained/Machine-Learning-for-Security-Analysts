@@ -1,0 +1,20 @@
+Re: Tiny terminal text after kernel updateOn Sun, May 23, 2010 at 04:28:55PM -0700, Todd A. Jacobs wrote:
+> After a recent kernel update, my linux terminal is now displaying
+> teeny-tiny text. How do I set the default terminal back to 80x25?
+
+Are you running grub-legacy? If so what is vga= set to?
+
+Is the old kernel still installed, that is, the one where the font was
+as you liked it? If so does it still behave as you'd like? If so, are
+there any differences between them -- configs/grub settings etc?
+
+-- 
+Chris
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100524123639.GC22370@fischer
+
+

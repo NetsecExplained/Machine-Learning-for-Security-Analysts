@@ -1,0 +1,15 @@
+Irish Internet Users post from yyyycc@hackwatch.com requires approvalAs list administrator, your authorization is requested for the
+following mailing list posting:
+
+    List:    Irish Internet Users@iiu.taint.org
+    From:    yyyycc@hackwatch.com
+    Subject: Re: [IIU] IE nameserver problems
+    Reason:  Post to moderated list
+
+At your convenience, visit:
+
+    http://iiu.taint.org/mailman/admindb/iiu
+        
+to approve or deny the request.
+
+

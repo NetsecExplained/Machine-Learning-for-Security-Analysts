@@ -1,0 +1,58 @@
+Transaction editing-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Off-topic. But say this is of course being done in java (on OS X).
+If you were writing say a online program for entering stock buy and  
+sell transactions. How do you imagine avoiding someone entering a  
+$15,000,000,000 transaction instead of a $15,000,000 transaction?
+
+How about something like...
+
+if (transactionAmount > ReasonableLimits.maximumTransactionAmount) {
+	
+	if (transactionAmount - ReasonableLimits.maximumTransAmount <  
+1000000000L)
+		showReenterAmountAndVerifyDialog();
+	else if (transactionAmount -  
+ReasonableLimits.maximumTransactionAmount < 5000000000L)
+		for (i=0;i<3;i++)
+			showReenterAmountAndVerifyDialog();
+	else
+		throw new IllegalTransactionException("The CEO is the only one  
+authorized to enter this transaction with CFO and board of directors  
+approval");
+}
+
+P&G;: Trading error behind sudden share price drop - MarketWatch
+http://www.marketwatch.com/story/pg-trading-error-behind-sudden-share- 
+price-drop-2010-05-06
+
+YouTube - Trading Error Caught on Tape! P&G;/Dow Meltdown -- Dow Jones  
+Falls Almost 1000 points!
+http://www.youtube.com/watch?v=NXYBpd8TaXQ
+
+Mike Hall        hallmike at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforge.net/projects/macnative
+
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.14 (Darwin)
+
+iJwEAQECAAYFAkvjRuYACgkQUvk/ZSaThTIMqQQAh5QMHGMfcsdllC/ml9yeLfWd
+J6FViLyRv5sTby4RYWn63ok6j/idSzOx4DIcnOf4HX5ZfwuBudrSGIg8dDYn4x0k
+3HZJduTIB/5WgTWqKijqs7z08wMYqIF/o52fDhG9DemfgT7ZOt+5LL4p274sJ5fQ
+hn7d4WwetQt6ZcWIupo=
+=K9e6
+-----END PGP SIGNATURE-----
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Java-dev mailing list      (Java-dev@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/java-dev/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

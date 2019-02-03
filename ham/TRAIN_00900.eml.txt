@@ -1,0 +1,24 @@
+Re: Python 2.2 site libs?On Fri, 4 Oct 2002, Mark Derricutt wrote:
+
+> Anyone know where one could get rpms for alot of the python libraries for 
+> 2.2?
+> 
+> Its darn annoying the way RH ship python 1.5.2 and python 2.2 (as python2) 
+> and libs that only work with one or the other :(
+> 
+> esp. the pgdb and xml modules.
+> 
+> Anyone know why Red Hat insist on sticking with python 1.5.2?
+
+They want to preserve binary compatibility for all .x releases. Red Hat 
+8.0 has python 2.2 as default.
+
+-- 
+	- Panu -
+
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

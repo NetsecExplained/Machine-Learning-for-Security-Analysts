@@ -1,0 +1,33 @@
+Re: Re: Switching from NV to Nouveau in SqueezeOn 01/-10/-28163 02:59 PM, Kelly Clowers wrote:
+ > I don't have Nvidia myself, but tt should be a matter of installing 
+Nouveau,
+ > and then changing the "Driver" line in /etc/x11/xorg.conf from "nv" to
+ >   "Nouveau"
+ > (or adding the line in the "Device" section if it doesn't exist).
+
+Good old /etc/X11/xorg.conf. There isn't one on this system. I used to 
+hate fiddling around with that file. The transition to other means of 
+controlling video has been fraught with peril for some, but a few false 
+starts with video configuration on this system under various 
+distributions finally convinced me that the voyage needed to be undertaken.
+
+ > Cheers,
+ > Kelly Clowers
+
+Many thanks for your response.
+
+Best,
+Sam
+
+PS: I also sent this message from a different e-mail account. I figured 
+I'd resend it to clear up any question about who was actually responding 
+to the thread. Sorry about the dumbness. Too much swapping of systems 
+and info around this place.
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BE9AD52.2060401@comcast.net
+
+

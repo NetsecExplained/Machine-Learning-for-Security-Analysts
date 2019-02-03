@@ -1,0 +1,27 @@
+Re: Gabber packages for 8.0 (was: All set for Red Hat Linux 8.0)Once upon a time, Julian wrote :
+
+> I would appreciate it if you could get Gabber packages for Red Hat 8. I 
+> will be making a new release soon, but even in the meantime, 0.8.7 
+> packages would be ok.
+> 
+> I know that in the beta, red hat was using a modified version of 
+> gnome-libs which is incompatible with the latest gnomemm. If this is 
+> still the case in 8, I can send you a patch which makes gnomemm work 
+> again...
+
+I'm facing another problem right now. It looks like libsigc++ is no longer
+included in the distribution, and gtkmm won't compile without it :-/
+I guess I'll have to repackage it myself for 8.0 (assuming it's possible).
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.28 0.15 0.10
+
+_______________________________________________
+RPM-List mailing list 
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

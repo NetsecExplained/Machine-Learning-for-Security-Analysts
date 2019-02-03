@@ -1,0 +1,50 @@
+Re: [SAtalk] Lotus Notes users?On Saturday 07 September 2002 23:22 CET Daniel Quinlan wrote:
+> Craig Hughes  writes:
+> > How about configuring SA to set precendence to "low" for spam
+> > messages, then filter on that -- no real human I've ever seen has
+> > actually set precendence to low on real mail.
+>
+> Assuming there isn't a better way for Lotus Notes users, we could
+> create a "Precedence: spam" convention.  The only two Precedence:
+> headers I've seen (aside from one or two odd messages) are "bulk" and
+> "list".  Adding a "spam" header makes sense given the convention.
+
+I'd suggest using Precedence: junk. Albeit it's no standard header does most 
+Software already recognize it. Courier eg. doesn't send auto-replies to 
+mails with the Precedence bulk or junk. I think Outlook does handle these 
+special, too. [1] says:
+| Autoresponses should always contain the header
+|          Precedence: junk
+| Notice the spelling of "prec-e-dence". In particular, count the number of
+| n:s (and a:s and s:es, if you're totally agraphic and/or from the United
+| States). This will prevent well-tempered mail programs from generating
+| bounce messages for these. If the recipient can't be reached, the
+| autoresponder message is simply discarded. 
+| [...]
+| (For what it's worth, the meaning of the Precedence header in practice is
+| that it affects Sendmail so that messages identified as less important get
+| moved back in the queue under high load. [...])
+
+>[...]
+
+Malte
+
+[1] Moronic Mail Autoresponders (A FAQ From Hell):
+http://www.ling.helsinki.fi/users/reriksso/mail/autoresponder-faq.html
+-- 
+--- Coding is art.
+-- 
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1;=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

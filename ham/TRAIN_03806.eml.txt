@@ -1,0 +1,36 @@
+Securing multiple virtual hostsI am trying to secure three of four virtual hostnames on our Apache server.
+We are not taking credit card orders or user's personal information, but are
+merely hoping to secure email and calendar web transactions for our users.
+We are not running any secure applications on the root host.
+
+I have been testing this week with CA, client, and host certificate
+requests, certificates, and keys, and think I have a fairly good beginner's
+grasp of the commands and command line options.
+
+
+My questions are:
+
+1.  Is it necessary to create a CA certificate for each of the secure
+virtual hosts, or can one CA certificate for the root be used to sign each
+of the keys for all three common names we are trying to secure?
+
+2.  Even though the root host is not conducting secure transactions, am I
+correct in configuring the server with a CACertificateFile in the main body
+of httpsd.conf and then setting the CACertificateFile for each virtual host
+in the  section of httpsd.conf?  This sort of assumes the
+answer to 1. is  - you need a CA for each virtual host.
+
+3.  Is it necessary to create a client certificate to distribute to our
+users, or is it sufficient to have the CA certificate and a server
+certificate for the virtual hosts?  Wouldn't a client certificate only be
+necessary if we were trying to verify the client's identity?  Would that be
+a good idea given our scenario?
+
+Thanks in advance for your help.
+
+
+______________________________________________________________________
+OpenSSL Project                                 http://www.openssl.org
+User Support Mailing List                    openssl-users@openssl.org
+Automated List Manager                           majordomo@openssl.org
+

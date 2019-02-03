@@ -1,0 +1,62 @@
+Dear hibody HOT 79% OFF
+
+
+
+Newsletter
+
+<!--
+a:link
+{
+color: #27A4BF;
+}
+
+a:visited
+{
+color: #C649E9;
+text-decoration: underline;
+}
+
+a:hover
+{
+color: #792002;
+text-decoration: none;
+}
+
+weke
+{
+        font-family: Verdana;
+        font-size: 13px;
+        line-height: 13px;
+        color: #435A67;
+        margin-top: 0px;
+        margin-bottom: 6.5pt;
+}
+-->
+
+
+
+
+
+
+To view this email as a webpage, go here.
+
+
+
+
+
+
+
+
+ 
+This email was sent to: hibody@csmining.org
+This email was sent by: Aqabisiy Company
+        003 Ogi Street, 5560
+		Qenanioe, QV 68868  USA
+Go here to remove your address. 
+Go here to modify your email address and other subscriber information and preferences.
+We respect your right to privacy. View our mail host's privacy policy.
+
+
+
+
+

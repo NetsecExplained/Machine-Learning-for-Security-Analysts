@@ -1,0 +1,126 @@
+Insurance Quote Site
+
+
+quotepool insurance
+
+<!--
+td {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 11px;
+	color: black;
+}
+
+
+text {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 11px;
+	color: black;
+}
+
+text2 {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 12px;
+	color: black;
+}
+
+footer {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+a.footer {color: white; text-decoration: none;}
+a.footer:visited {color: white; text-decoration: none;}
+a.footer:hover {color: white; text-decoration: underline;}
+
+button {
+	font-size: 11px;
+	border-width: 0;
+	background-color: #476f8f;
+	color: white;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight: bold;
+}
+
+
+#selected {
+	color: #F5989D;
+	text-decoration: none;
+}
+
+clicker {cursor: hand}
+
+div {position: absolute; z-index: 190; width: 640; top: 0; left: 0; overfl=
+ow: hidden;}
+
+span {position: absolute; z-index: 200; width: 100%; top: 0; left: 0;}
+
+a {color: white; text-decoration: none;}
+//-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We will attempt to provide you with the best quote you can possibly get=
+! Our team of companies and their agents will provide a no-nonsense approa=
+ch to your insurance needs. If all you want to do is ask a few questions, =
+then they will be glad to help. They can also ease your mind and provide t=
+he insurance quickly and effortlessly. Either way, you will be glad you fi=
+lled out our quick, no-obligation quote form! 
+
+
+Life insurance should be an essential part of any financial plan. The p=
+urpose is to protect your family's income, in the case of your death. Life=
+ Insurance can also be used for financial strength while you are still ali=
+ve. It's a foundation for a strong financial portfolio! In either case, th=
+e proceeds could be used to:
+
+
+
+=
+Meet your children's college expenses!
+=
+Ensure comfortable retirement for your spouse!
+=
+Assist in the payment of outstanding debt!
+=
+Tax Benefit and Estate Protection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Privacy | Unsubscribe
+
+
+
+
+
+
+
+
+

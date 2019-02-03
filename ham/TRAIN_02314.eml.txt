@@ -1,0 +1,42 @@
+Class Structure QuestionsHi All,
+
+A few questions on class structure.
+
+I am working on an example to create a list of recent files that have been opened.
+
+This obviously involves a UITableView
+
+So I created a class called FileListView and made it a subclass of UITableView like:
+
+@interface FileListView : UITableView
+
+so I call the init method and I want to create the table with the items in it.
+
+Here is what I am not understanding:
+1. Using proper MVC, I should have a UITableViewController and for a sequence of events, on init I should create the controller, assign my table to the controller, implement the necessary methods the UITableView requires and them populate the table. it does not make sense to me that on FileListView *fileList = [[FileListView alloc] init]; what I need to do.
+
+I guess I am confused by subclassing my FileListView to UITableView.
+
+Do I create the table controller first, then create the table, then assign the table to the controller and then load the data into the controller so that it is reflected into the table?
+
+2. Where can I find out what methods must be implemented as a requirement for a UITableView, I recall someplace stuff like minimumRows, style, etc.
+
+3. Difference between a delegate and a controller?
+
+I found the table view programming guide so that will help, but can someone explain to me from a more generic stand point? Maybe I need more study on MVC too.
+
+I am not using InterfaceBuilder, btw, but I would think that would be known since I am asking on an Objective-C list....
+
+-Jason
+
+As Thomas Edison said, "I have not failed. I've just found 10,000 ways that won't work."
+
+* Sent from Jason's iPad *
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+Objc-language mailing list      (Objc-language@lists.apple.com)
+Help/Unsubscribe/Update your Subscription:
+http://lists.apple.com/mailman/options/objc-language/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

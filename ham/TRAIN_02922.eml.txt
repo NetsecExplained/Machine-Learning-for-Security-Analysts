@@ -1,0 +1,39 @@
+Re: Light automatically and randomly reduces some secs. after it  has been set to its maximum level-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Camaleón  writes:
+
+> On Sun, 18 Apr 2010 16:33:32 +0200, Merciadri Luca wrote:
+>
+>> As stated in the title, the light on my Asus EEE 1000HE automatically
+>> and randomly reduces some seconds after I have set it to its maximum
+>> level. Why? That must be for some energy reason, but I would like to
+>> deactivate this feature, or at least to modify the timer between the
+>> action I do, and the using of the default value.
+>
+> Open GConf editor and navigate to "/apps/gnome-power-manager/backlight/
+> idle_brightness". You can tweak many things from there.
+
+Thanks. I had not thought about it.
+- -- 
+Merciadri Luca
+See http://www.student.montefiore.ulg.ac.be/~merciadri/
+- -- 
+
+It is better to die on one's feet than live on one's knees.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+Comment: Processed by Mailcrypt 3.5.8 
+
+iEYEARECAAYFAkvMYA8ACgkQM0LLzLt8MhyQdACfeFDjy5XGIk1zE30iFi3hccV+
+5vwAnA5oyr2A8XUEJiCp741X1z3ULJqg
+=TmPK
+-----END PGP SIGNATURE-----
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/87633nbldc.fsf@merciadriluca-eee.WORKGROUP
+
+

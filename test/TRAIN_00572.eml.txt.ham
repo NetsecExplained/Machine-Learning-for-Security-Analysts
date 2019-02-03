@@ -1,0 +1,24 @@
+Re: Still can't read DVDs/CDs> Sometimes I'll get "mount: no medium found on /dev/sr0" or it will mount, or
+> it will give me the other error message I posted.
+> I just put a disc in, tried to mount it three times, and got three different
+> results. Now it is mounted and /dev looks like
+> http://paste.debian.net/73572/
+> Now I've taken the disc out and dev looks like:
+> http://paste.debian.net/73573/
+
+Whenever I have problem with reading/writing to dvd/cd
+device, it ends replacing the drive. And drives are
+cheaper and cheaper and last shorter and shorter. If
+you have fond to buy new one, now it is the time to do
+that. At least, I would do.
+Best regards
+
+                       Zoran
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/20100517150620.GA971@faust.net
+
+

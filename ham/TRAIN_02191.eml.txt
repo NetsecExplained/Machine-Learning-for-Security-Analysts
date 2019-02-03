@@ -1,0 +1,34 @@
+Re: [Webdev] site monitroring service?
+You could try elive.
+
+http://monitoring.elive.ie/
+
+At 12:01 PM 19/08/2002 +0100, Adrian Murphy wrote:
+>Hi,
+>I wonder could anyone reccommend a good
+>website monitoring service-with sms alerts.
+>thx and sorry to be OT.
+>
+>Adrian Murphy
+>2020 Strategies
+>Beechlawn
+>Cloncrane
+>Clonbullogue
+>Co Offaly
+>Ireland
+
+Lee Hosty -x- hostyle AT csn.ul.ie -x- +353 (0)86 8768780
+--
+SNITTERFIELD (n.)
+Office noticeboard on which snitters (q.v.),cards saying 'You don't have to be
+mad to work here, but if you are it helps !!!' and slightly smutty postcards
+from ibiza get pinned up by snitterbies (q.v.)
+
+
+
+
+_______________________________________________
+Webdev mailing list
+Webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

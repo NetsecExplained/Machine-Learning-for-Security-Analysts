@@ -1,0 +1,35 @@
+Re: Middle button click brokenJust when you said that you "have the same", I thought this was the full setup, that is Gnome included. Anyway, it does not matter, I tried other window managers in the problematic machine, other user accounts too, and always strange behavior with the middle click. It seemed to be deeply rooted somewhere in the system. As a last resort, I rebooted the machine, and... problem solved!
+
+Should we reboot after updating X11?
+
+Thanks,
+Pierre
+
+
+
+
+----- Original Message ----
+From: Harald Hanche-Olsen 
+To: pbaguis@yahoo.com
+Cc: jeremyhu@apple.com; X11-users@lists.apple.com
+Sent: Sun, April 18, 2010 3:54:48 PM
+Subject: Re: Middle button click broken
+
++ Pierre Baguis :
+
+> I am wondering if Gnome is to blame (but then Harald had not issues).
+
+Oh, wait. I don't use Gnome. I don't think I said I did, or at least I did not mean to imply it. Of course, you could try switching back to quartz-wm and see if the problem persists.
+
+- Harald
+
+
+
+      
+ _______________________________________________
+Do not post admin requests to the list. They will be ignored.
+X11-users mailing list      (X11-users@lists.apple.com)
+Help/Unsubscribe/Update your Subscription: http://lists.apple.com/mailman/options/x11-users/mlsubscriber.tech%40csmining.org
+
+This email sent to mlsubscriber.tech@csmining.org
+

@@ -1,0 +1,25 @@
+Re: Updrading or reinstalling?ryanjonathanb@csmining.org wrote:
+> Hi there,
+> 
+> Just one question,
+> 
+> Is it better to upgrade debian using dist-upgrade or just download the new iso and reinstalling it?? I'm waiting for the squeeze final release.. Currently still using lenny.
+
+
+As a KDE user I currently know of one bug (it has been reported to the 
+Debian maintainer), applies to unstable or Squeeze, "plasma-widget-yawp" 
+will not connect/work, any version yawp, any version kde 4, it can be 
+reproduced by upgrading Lenny to Squeeze or unstable, kde 3 to kde 4.
+-- 
+Jimmy Johnson
+
+Debian Squeeze at sda9
+Registered Linux User #380263
+
+
+-- 
+To UNSUBSCRIBE, email to debian-user-REQUEST@lists.debian.org 
+with a subject of "unsubscribe". Trouble? Contact listmaster@lists.debian.org
+Archive: http://lists.debian.org/4BEE1C5F.1080800@csmining.org
+
+
