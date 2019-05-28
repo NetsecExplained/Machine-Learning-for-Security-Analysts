@@ -4,10 +4,10 @@ Introduction to machine learning for security analysts
 Slides: https://www.slideshare.net/GTKlondike/machine-learning-for-security-analysts
 
 This workshop is intented to be interactive. Checkout the Google Colab links below to work with the code for this workshop:
-1. Spam filter from scratch Workbook - (Coming Soon)
+1. Spam filter using Naive Bayes Workbook - (Coming Soon)
     - Workbook Answers - https://colab.research.google.com/drive/1DuNHY65n9v3Mi11A57N5HaJTzMAFIq1i
 
-2. Spam filter using Scikit-Learn Workbook- https://colab.research.google.com/drive/1CA82qL46XIGhkw0eOi3c0whNTvwaXwZy
+2. Spam filter using Scikit-Learn Workbook - https://colab.research.google.com/drive/1CA82qL46XIGhkw0eOi3c0whNTvwaXwZy
     - Workbook Answers - https://colab.research.google.com/drive/17ABiBU43E9RVIN2pN98W6U2Fieq6P24C
 
 3. Malicious URL predictor Workbook - (Coming Soon)
